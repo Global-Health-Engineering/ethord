@@ -1,0 +1,38 @@
+---
+title: "washr_pipeline"
+format: html
+---
+
+```{r}
+library(washr)
+data_name <- basename(getwd())
+path_to_data <- here::here("inst", "extdata", paste0(data_name, ".csv"))
+setup_rawdata()
+```
+
+Clean data following data-raw/data_processing.R
+
+```{r}
+setup_dictionary()
+```
+```{python}
+import os
+import json
+from gendict.gendict import core
+
+config_path = os.path.join(os.path.expanduser("~"), 'config.json')
+
+with open(config_path, 'r') as file:
+    config = json.load(file)
+
+file_path_from_r = r.data
+print(f"File path from R: {file_path_from_r}")
+
+response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"], r.path_to_data, max_unique_values=7, model=1, temperature=0, top_p=0.5, max_tokens=999, return_response=True)
+print(f"Response:\n{response}\n\nDescriptions:\n{descriptions}")
+
+if descriptions:
+    core.upload_descriptions_from_json(descriptions, in_file="data-raw/dictionary.csv")
+```
+
+Complete data-raw/dictionary.csv
