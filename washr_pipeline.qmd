@@ -35,4 +35,39 @@ if descriptions:
     core.upload_descriptions_from_json(descriptions, in_file="data-raw/dictionary.csv")
 ```
 
-Complete data-raw/dictionary.csv
+```{r}
+setup_roxygen()
+```
+
+Add title and description to R/ethord.R
+```{r}
+devtools::document()
+devtools::check()
+devtools::install()
+```
+```{r}
+usethis::use_author(
+  given = "Nicolo", 
+  family = "Massari", 
+  role = c("aut", "cre"), 
+  email = "nmassari@ethz.ch",
+  comment = c(ORCID = "0009-0006-8421-930X")
+)
+```
+```{r}
+update_description()
+```
+```{r}
+devtools::document()
+devtools::check()
+devtools::install()
+```
+```{r}
+# ONLY AVAILABLE IN washr/dev-metadata branch
+add_metadata()
+update_metadata()
+generate_jsonld()
+devtools::document()
+devtools::check()
+devtools::install()
+```

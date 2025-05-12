@@ -1,0 +1,16 @@
+#' ethord: The swissopenuniversities ORD projects metadata package
+#' 
+#' Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities.
+#' 
+#' @format A tibble with 96 rows and 8 variables
+#' \describe{
+#'   \item{url}{The URL of the project, providing access to the project's documentation and resources.}
+#'   \item{title}{The title of the project, describing its main objectives and scope.}
+#'   \item{category}{The category of the project, indicating its primary focus or area of study.}
+#'   \item{institutions}{The institutions involved in the project, providing context for the research and development.}
+#'   \item{data_type}{The type of data generated or used by the project, describing its nature and format.}
+#'   \item{field}{The field of study or domain to which the project belongs, indicating its broader context.}
+#'   \item{researchers}{The names of the researchers involved in the project, providing information about the team and their expertise.}
+#'   \item{abstract}{A brief summary of the project's objectives, methods, and expected outcomes, providing an overview of the research.}
+#' }
+"ethord"
