@@ -367,7 +367,7 @@ Change tamplates, automatically run and compile.
 setup_readme()
 ```
 
-Deleted manually the templates
+Deleted manually the templates, automate github links, examples, etc...
 ```{r}
 devtools::build_readme()
 ```
@@ -380,5 +380,8 @@ devtools::install()
 ```{r}
 doi = "10.5281/zenodo.15397968"
 update_citation(doi)
+```
+```{r}
+pkgdown::build_site()
 ```
 MUST CHANGE: delete current doi and replace

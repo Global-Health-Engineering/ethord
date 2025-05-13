@@ -24,5 +24,5 @@ You can install the development version of ethord from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("openwashdata/ethord")
+devtools::install_github("Global-Health-Engineering/ethord")
 ```
