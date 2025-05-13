@@ -11,8 +11,7 @@ library(readxl)
 library(openxlsx)
 
 # Read data --------------------------------------------------------------------
-ethord <- readr::read_csv("data-raw/data.csv") |>
-  janitor::clean_names()
+# data_in <- readr::read_csv("data-raw/dataset.csv")
 # codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
 #  clean_names()
 
