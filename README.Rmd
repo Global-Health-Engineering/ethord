@@ -1,8 +1,28 @@
+---
+output: github_document
+always_allow_html: true
+editor_options: 
+  markdown: 
+    wrap: 72
+  chunk_output_type: console
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ethord
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%",
+  message = FALSE,
+  warning = FALSE,
+  fig.retina = 2,
+  fig.align = 'center'
+)
+```
 
+# ethord
 ## The swissopenuniversities ORD projects metadata package
 
 <!-- badges: start -->
@@ -12,8 +32,7 @@
 
 <!-- badges: end -->
 
-Metadata relative to each project funded by the Open Research Data (ORD)
-initiative by swissuniversities.
+Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities.
 
 ## Installation
 
