@@ -345,7 +345,7 @@ Requirements:
 `brew install jq`
 
 ```{r}
-#remotes::install_github("openwashdata/washr", ref="dev-metadata")
+remotes::install_github("openwashdata/washr", ref="dev-metadata")
 installed.packages()["washr", ]
 library(washr)
 ```
@@ -373,9 +373,12 @@ devtools::build_readme()
 ```
 ```{r}
 setup_website()
-```
-```{r}
 devtools::document()
 devtools::check()
 devtools::install()
 ```
+```{r}
+doi = "10.5281/zenodo.15397968"
+update_citation(doi)
+```
+MUST CHANGE: delete current doi and replace

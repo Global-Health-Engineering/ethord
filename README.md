@@ -10,6 +10,8 @@
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15397968.svg)](https://zenodo.org/doi/10.5281/zenodo.15397968)
+
 <!-- badges: end -->
 
 Metadata relative to each project funded by the Open Research Data (ORD)
