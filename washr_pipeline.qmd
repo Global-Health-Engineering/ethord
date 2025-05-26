@@ -4,7 +4,11 @@ format: html
 ---
 
 ```{r}
+devtools::install_github("openwashdata/washr")
 library(washr)
+```
+
+```{r}
 data_name <- basename(getwd())
 path_to_data <- here::here("inst", "extdata", paste0(data_name, ".csv"))
 setup_rawdata()
@@ -22,29 +26,31 @@ library(here)
 library(readr)
 library(readxl)
 library(openxlsx)
+library(dplyr)
+library(tidyr)
+library(stringr)
 
 # Read data --------------------------------------------------------------------
-ethord <- readr::read_csv("data-raw/data.csv") |>
+details_in <- readr::read_csv("data-raw/ord_portal.csv") |>
   janitor::clean_names()
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
-#  clean_names()
 
 # Tidy data --------------------------------------------------------------------
 ## Clean the raw data into a tidy format here
-
-
+details <- details_in |>
+  rename(ord_portal_url = url) |>
+  select(-researchers) |> 
+  mutate(id = row_number())
 # Export Data ------------------------------------------------------------------
-usethis::use_data(ethord, overwrite = TRUE)
+usethis::use_data(details, overwrite = TRUE)
 fs::dir_create(here::here("inst", "extdata"))
-readr::write_csv(ethord,
-                 here::here("inst", "extdata", paste0("ethord", ".csv")))
-openxlsx::write.xlsx(ethord,
-                     here::here("inst", "extdata", paste0("ethord", ".xlsx")))
-
+readr::write_csv(details,
+                 here::here("inst", "extdata", paste0("details", ".csv")))
 ```
+
 ```{r}
 setup_dictionary()
 ```
+
 ```{python}
 import os
 import json
@@ -64,6 +70,7 @@ print(f"Response:\n{response}\n\nDescriptions:\n{descriptions}")
 if descriptions:
     core.upload_descriptions_from_json(descriptions, in_file="data-raw/dictionary.csv")
 ```
+
 ```{r}
 #' Set up roxygen documentation for all tidy data sets using the dictionary
 #'
@@ -239,6 +246,7 @@ create_describe_block <- function(dict){
   return(block)
 }
 ```
+
 ```{r}
 title = "The swissopenuniversities ORD projects metadata package"
 description = "Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities."
@@ -246,11 +254,13 @@ setup_roxygen(title = title, description = description)
 ```
 
 Add title and description to R/ethord.R
+
 ```{r}
 devtools::document()
 devtools::check()
 devtools::install()
 ```
+
 ```{r}
 # Example authors
 aut1 <- list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich")
@@ -267,6 +277,7 @@ usethis::use_author(
   comment = c(ORCID=aut$ORCID)
 )
 ```
+
 ```{r}
 
 #' Update the DESCRIPTION file to conform with openwashdata standards
@@ -327,28 +338,21 @@ update_description <- function(github_user, title, description, file = ".", lang
                  file = file)
 }
 ```
+
 ```{r}
 update_description(github_user = "Global-Health-Engineering", title=title, description=description)
 ```
+
 ```{r}
 devtools::document()
 devtools::check()
 devtools::install()
 ```
 
-Requirements:
- * deb: libjq-dev (Debian, Ubuntu).
- * rpm: jq-devel (Fedora, EPEL)
- * csw: libjq_dev (Solaris)
- * brew: jq (OSX)
- 
+Requirements: \* deb: libjq-dev (Debian, Ubuntu). \* rpm: jq-devel (Fedora, EPEL) \* csw: libjq_dev (Solaris) \* brew: jq (OSX)
+
 `brew install jq`
 
-```{r}
-remotes::install_github("openwashdata/washr", ref="dev-metadata")
-installed.packages()["washr", ]
-library(washr)
-```
 ```{r}
 # ONLY AVAILABLE IN washr/dev-metadata branch
 add_metadata()
@@ -363,25 +367,31 @@ devtools::install()
 ```
 
 Change tamplates, automatically run and compile.
+
 ```{r}
 setup_readme()
 ```
 
 Deleted manually the templates, automate github links, examples, etc...
+
 ```{r}
 devtools::build_readme()
 ```
+
 ```{r}
 setup_website()
 devtools::document()
 devtools::check()
 devtools::install()
 ```
+
 ```{r}
 doi = "10.5281/zenodo.15397968"
 update_citation(doi)
 ```
+
 ```{r}
 pkgdown::build_site()
 ```
+
 MUST CHANGE: delete current doi and replace
