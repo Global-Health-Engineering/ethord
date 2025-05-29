@@ -9,14 +9,15 @@ library(washr)
 
 dir.create("data-raw", showWarnings = FALSE)
 
-dataframes <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
-dataframes <- dataframes[!basename(dataframes) %in% "dictionary.csv"]
+dataframes_raw <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
+dataframes_raw <- dataframes_raw[!basename(dataframes_raw) %in% "dictionary.csv"]
+dataframes_raw
 ```
 
 ```{r}
 # R script to process uploaded raw data into a tidy, analysis-ready data frame
 
-process_single_csv <- function(file_path,
+process_csv <- function(file_path,
                                overwrite_rda = TRUE,
                                overwrite_csv = TRUE) {
 
@@ -75,8 +76,8 @@ process_single_csv <- function(file_path,
 ```
 
 ```{r}
-for (f_path in dataframes) {
-  process_single_csv(f_path)
+for (f_path in dataframes_raw) {
+  process_csv(f_path)
 }
 ```
 
@@ -96,6 +97,10 @@ description = "Metadata relative to each project funded by the Open Research Dat
 dictionary_path <-  here::here("data-raw", "dictionary.csv")
 #data_path <- here::here("inst", "extdata", data_name)
 
+dataframes <- list.files("inst/extdata", pattern = "\\.csv$", full.names = TRUE)
+dataframes <- dataframes[!basename(dataframes) %in% "dictionary.csv"]
+dataframes
+
 license <- "cc-by-4.0"
 ```
 
@@ -103,32 +108,35 @@ license <- "cc-by-4.0"
 setup_dictionary()
 ```
 
-```{python}
-r.data_path
+```{r}
+system("git submodule add https://github.com/Global-Health-Engineering/gendict.git")
+system("git submodule init")
+reticulate::py_install("./gendict", method = "pip", args = c("--editable", "."))
 ```
 
 ```{python}
 import os
 import json
-from gendict.gendict import core
+from gendict.core import gendict
 
 config_path = os.path.join(os.path.expanduser("~"), 'config.json')
 
 with open(config_path, 'r') as file:
     config = json.load(file)
 
-context, response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"],
-                                               r.data_path, 
-                                               max_unique_values=5, 
-                                               model=0, 
-                                               temperature=0, 
-                                               top_p=0.5, 
-                                               max_tokens=999, 
-                                               debug=True)
-print(f"Context:\n{context}\n\nResponse:\n{response}\n\nDescriptions:\n{descriptions}")
+for f_path in r.dataframes:
+  context, response, descriptions = gendict(config["HELMHOLTZ_API_KEY"],
+                                                f_path, 
+                                                max_unique_values=5, 
+                                                model=0, 
+                                                temperature=0, 
+                                                top_p=0.5, 
+                                                max_tokens=999, 
+                                                debug=True)
+  print(f"Context:\n{context}\n\nResponse:\n{response}\n\nDescriptions:\n{descriptions}")
 
-if descriptions:
-    core.upload_descriptions_from_json(descriptions, in_file="data-raw/dictionary.csv")
+  if descriptions:
+      core.upload_descriptions_from_json(f_path, descriptions, in_file="data-raw/dictionary.csv")
 ```
 
 ```{r}
