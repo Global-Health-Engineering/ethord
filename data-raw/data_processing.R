@@ -1,28 +1,15 @@
 # Description ------------------------------------------------------------------
 # R script to process uploaded raw data into a tidy, analysis-ready data frame
-# Load packages ----------------------------------------------------------------
-## Run the following code in console if you don't have the packages
-## install.packages(c("usethis", "fs", "here", "readr", "readxl", "openxlsx"))
-library(usethis)
-library(fs)
-library(here)
-library(readr)
-library(readxl)
-library(openxlsx)
 
 # Read data --------------------------------------------------------------------
-# data_in <- readr::read_csv("data-raw/dataset.csv")
-# codebook <- readxl::read_excel("data-raw/codebook.xlsx") |>
-#  clean_names()
+list_of_datasets <- # read all csvs from ./data-raw/
 
-# Tidy data --------------------------------------------------------------------
-## Clean the raw data into a tidy format here
+# janitor::clean_names()
+# replace null / NA string, with NA value 
 
 
 # Export Data ------------------------------------------------------------------
-usethis::use_data(ethord, overwrite = TRUE)
+usethis::use_data(, overwrite = TRUE)
 fs::dir_create(here::here("inst", "extdata"))
-readr::write_csv(ethord,
-                 here::here("inst", "extdata", paste0("ethord", ".csv")))
-openxlsx::write.xlsx(ethord,
-                     here::here("inst", "extdata", paste0("ethord", ".xlsx")))
+readr::write_csv(,
+                 here::here("inst", "extdata", paste0("", ".csv")))

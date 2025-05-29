@@ -6,49 +6,105 @@ format: html
 ```{r}
 devtools::install_github("openwashdata/washr")
 library(washr)
+
+dir.create("data-raw", showWarnings = FALSE)
+
+dataframes <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
+dataframes <- dataframes[!basename(dataframes) %in% "dictionary.csv"]
 ```
 
 ```{r}
-data_name <- basename(getwd())
-path_to_data <- here::here("inst", "extdata", paste0(data_name, ".csv"))
-setup_rawdata()
-```
-
-```{r}
-# Description ------------------------------------------------------------------
 # R script to process uploaded raw data into a tidy, analysis-ready data frame
-# Load packages ----------------------------------------------------------------
-## Run the following code in console if you don't have the packages
-## install.packages(c("usethis", "fs", "here", "readr", "readxl", "openxlsx"))
-library(usethis)
-library(fs)
-library(here)
-library(readr)
-library(readxl)
-library(openxlsx)
-library(dplyr)
-library(tidyr)
-library(stringr)
 
-# Read data --------------------------------------------------------------------
-details_in <- readr::read_csv("data-raw/ord_portal.csv") |>
-  janitor::clean_names()
+process_single_csv <- function(file_path,
+                               overwrite_rda = TRUE,
+                               overwrite_csv = TRUE) {
 
-# Tidy data --------------------------------------------------------------------
-## Clean the raw data into a tidy format here
-details <- details_in |>
-  rename(ord_portal_url = url) |>
-  select(-researchers) |> 
-  mutate(id = row_number())
-# Export Data ------------------------------------------------------------------
-usethis::use_data(details, overwrite = TRUE)
-fs::dir_create(here::here("inst", "extdata"))
-readr::write_csv(details,
-                 here::here("inst", "extdata", paste0("details", ".csv")))
+  if (!fs::file_exists(file_path)) {
+    message(paste("Error: File not found at", file_path))
+    return(invisible(NULL)) # Return NULL invisibly if file doesn't exist
+  }
+
+  file_name <- tools::file_path_sans_ext(basename(file_path))
+  message(paste("Reading and processing:", file_name))
+
+  # Read data
+  raw_data <- readr::read_csv(file_path, show_col_types = FALSE)
+
+  # Apply janitor::clean_names()
+  cleaned_data <- raw_data |>
+    janitor::clean_names()
+
+  # Replace "null" / "NA" strings with actual NA values
+  final_data <- cleaned_data |>
+    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "null"))) |>
+    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "NA")))
+
+  # Export Data --------------------------------------------------------------
+
+  # Create the desired object name for .rda (same as file_name)
+  data_object_name <- file_name
+  assign(data_object_name, final_data, envir = .GlobalEnv) # Ensure available globally
+
+  # Ensure the 'data' directory exists for saving R data
+  data_dir <- here::here("data")
+  if (!fs::dir_exists(data_dir)) {
+    fs::dir_create(data_dir)
+    message(paste("Created directory:", data_dir))
+  }
+
+  # Save the data object using base R's save() for reliability
+  rda_path <- file.path(data_dir, paste0(data_object_name, ".rda"))
+
+  if (!overwrite_rda && fs::file_exists(rda_path)) {
+      message(paste("Skipping R data object export (file already exists and overwrite = FALSE):", paste0(data_object_name, ".rda")))
+  } else {
+      save(list = data_object_name, file = rda_path, envir = .GlobalEnv)
+      message(paste("Exported R data object:", paste0(data_object_name, ".rda")))
+  }
+
+  # Export as CSV to inst/extdata
+  fs::dir_create(here::here("inst", "extdata"), recurse = TRUE)
+  csv_export_path <- here::here("inst", "extdata", paste0(file_name, ".csv"))
+  readr::write_csv(final_data, csv_export_path, append = !overwrite_csv)
+  message(paste("Exported CSV:", csv_export_path))
+
+  message(paste("Processing of", file_name, "complete."))
+  return(invisible(final_data)) # Invisibly return the processed data frame
+}
+```
+
+```{r}
+for (f_path in dataframes) {
+  process_single_csv(f_path)
+}
+```
+
+# Washr pipeline
+
+```{r}
+# USER SETUP
+root_name <- basename(here::here())
+organisation <- "openwashdata"
+aut1 <- list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich")
+title = "The swissopenuniversities ORD projects metadata package"
+description = "Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities."
+
+# CONSTANTS
+#data_name <- paste0(root_name, ".csv")
+#data_raw_path <- here::here("data-raw", data_name)
+dictionary_path <-  here::here("data-raw", "dictionary.csv")
+#data_path <- here::here("inst", "extdata", data_name)
+
+license <- "cc-by-4.0"
 ```
 
 ```{r}
 setup_dictionary()
+```
+
+```{python}
+r.data_path
 ```
 
 ```{python}
@@ -61,11 +117,15 @@ config_path = os.path.join(os.path.expanduser("~"), 'config.json')
 with open(config_path, 'r') as file:
     config = json.load(file)
 
-file_path_from_r = r.data
-print(f"File path from R: {file_path_from_r}")
-
-response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"], r.path_to_data, max_unique_values=7, model=1, temperature=0, top_p=0.5, max_tokens=999, return_response=True)
-print(f"Response:\n{response}\n\nDescriptions:\n{descriptions}")
+context, response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"],
+                                               r.data_path, 
+                                               max_unique_values=5, 
+                                               model=0, 
+                                               temperature=0, 
+                                               top_p=0.5, 
+                                               max_tokens=999, 
+                                               debug=True)
+print(f"Context:\n{context}\n\nResponse:\n{response}\n\nDescriptions:\n{descriptions}")
 
 if descriptions:
     core.upload_descriptions_from_json(descriptions, in_file="data-raw/dictionary.csv")
@@ -248,8 +308,6 @@ create_describe_block <- function(dict){
 ```
 
 ```{r}
-title = "The swissopenuniversities ORD projects metadata package"
-description = "Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities."
 setup_roxygen(title = title, description = description)
 ```
 
@@ -259,12 +317,6 @@ Add title and description to R/ethord.R
 devtools::document()
 devtools::check()
 devtools::install()
-```
-
-```{r}
-# Example authors
-aut1 <- list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich")
-aut2 <- list(given = "Jane", family = "Doe", role = "ctb", email = "jane.doe@example.com")
 ```
 
 ```{r}
@@ -279,7 +331,6 @@ usethis::use_author(
 ```
 
 ```{r}
-
 #' Update the DESCRIPTION file to conform with openwashdata standards
 #'
 #' @description
@@ -287,7 +338,7 @@ usethis::use_author(
 #' It ensures that fields such as `License`, `Language`, `Date`, `URL`, and others are correctly specified.
 #'
 #' @param file Character. The file path to the DESCRIPTION file of the R package. Defaults to the current working directory.
-#' @param github_user Character. The URL path to the GitHub user or organization that hosts the current package. Defaults to "https://github.com/openwashdata".
+#' @param organisation Character. The URL path to the GitHub user or organization that hosts the current package.
 #'
 #' @export
 #'
@@ -295,28 +346,43 @@ usethis::use_author(
 #' @examples
 #' \dontrun{
 #'  # Update DESCRIPTION file in the current package
-#' update_description()
-#'
-#'  # Update DESCRIPTION file in a specific package
-#' update_description(file = "path/to/your/package/DESCRIPTION")
-#'
-#'  # Update DESCRIPTION file with a specific GitHub user
-#' update_description(github_user = "https://github.com/yourusername")
+#' update_description("example_user", "Example Title", "This is an example description.")
 #' }
 #'
 #'
-update_description <- function(github_user, title, description, file = ".", language="en-GB", lazydata="true"){
+update_description <- function(organisation, title, description, file = ".", language="en-GB", lazydata="true"){
   if(!file.exists(file.path(getwd(), "DESCRIPTION"))){
     usethis::ui_stop("No DESCRIPTION file found!")
   }
   # package
   pkgname <- desc::desc_get("Package", file = file)[[1]]
   # title
-  desc::desc_set("Title", title)
+  desc::desc_set("Title", title, file = file)
   # version
+  # fetch latest release from GitHub
+  url <- paste0("https://api.github.com/repos/", gsub("https://github.com/", "", organisation), "/", pkgname, "/releases")
+  response <- httr::GET(url)
+  if(httr::status_code(response) == 200){
+    releases <- jsonlite::fromJSON(httr::content(response, "text"))["tag_name"]
+    if(length(releases) > 0){
+      versions <- gsub("v", "", releases$tag_name)
+      # pick latest
+      version_parts <- strsplit(versions, "\\.")[[1]]
+      # bump version
+      version_parts[3] <- as.character(as.integer(version_parts[3]) + 1)
+      new_version <- paste(version_parts, collapse = ".")
+      desc::desc_set("Version", new_version, file = file)
+    } else {
+      desc::desc_set("Version", "0.1.0", file = file)
+    }
+  } else {
+    desc::desc_set("Version", "0.1.0", file = file)
+  }
+  # organisation
+  desc::desc_set("Organisation", organisation, file = file)
   # authors
   # description
-  desc::desc_set("Description", description)
+  desc::desc_set("Description", description, file = file)
   # license
   usethis::use_ccby_license()
   # language
@@ -330,31 +396,26 @@ update_description <- function(github_user, title, description, file = ".", lang
                  Sys.Date(),
                  file = file)
   # URL
-  desc::desc_set_urls(urls = c(paste0("https://github.com/", github_user, "/", pkgname)),
+  desc::desc_set_urls(urls = c(paste0("https://github.com/", organisation, "/", pkgname)),
                       file = file)
   # Bug Reports
   desc::desc_set("BugReports",
-                 paste0("https://github.com/", github_user, "/", pkgname, "/", "issues"),
+                 paste0("https://github.com/", organisation, "/", pkgname, "/", "issues"),
                  file = file)
 }
+
 ```
 
 ```{r}
-update_description(github_user = "Global-Health-Engineering", title=title, description=description)
+update_description(organisation = organisation, title = title, description=description)
 ```
 
 ```{r}
 devtools::document()
-devtools::check()
 devtools::install()
 ```
 
-Requirements: \* deb: libjq-dev (Debian, Ubuntu). \* rpm: jq-devel (Fedora, EPEL) \* csw: libjq_dev (Solaris) \* brew: jq (OSX)
-
-`brew install jq`
-
 ```{r}
-# ONLY AVAILABLE IN washr/dev-metadata branch
 add_metadata()
 update_metadata()
 add_creator(name=paste(aut$given, aut$last, sep=" "), 
@@ -362,11 +423,10 @@ add_creator(name=paste(aut$given, aut$last, sep=" "),
             affiliation=aut$affiliation) # Get from use_author
 generate_jsonld()
 devtools::document()
-devtools::check()
 devtools::install()
 ```
 
-Change tamplates, automatically run and compile.
+Change templates, automatically run and compile.
 
 ```{r}
 setup_readme()
@@ -386,12 +446,93 @@ devtools::install()
 ```
 
 ```{r}
-doi = "10.5281/zenodo.15397968"
-update_citation(doi)
+create_zenodo_json <- function(
+  creators = NULL,
+  license = NULL,
+  title = NULL,
+  related_identifiers = NULL,
+  keywords = NULL,
+  communities = NULL,
+  grants = NULL,
+  filename = ".zenodo.json"
+) {
+  
+  # Check if creators is a list, if not, convert it to a list
+  if (!is.null(creators) && !is.list(creators)) {
+    stop("Creators must be a list of lists")
+  }
+  
+  # Check if related_identifiers is a list, if not, convert it to a list
+  if (!is.null(related_identifiers) && !is.list(related_identifiers)) {
+    stop("Related identifiers must be a list of lists")
+  }
+  
+  # Check if communities is a list, if not, convert it to a list
+  if (!is.null(communities) && !is.list(communities)) {
+    stop("Communities must be a list of lists")
+  }
+  
+  # Check if grants is a list, if not, convert it to a list
+  if (!is.null(grants) && !is.list(grants)) {
+    stop("Grants must be a list of lists")
+  }
+  
+  # Create the zenodo json object
+  zenodo_json <- list(
+    creators = creators,
+    license = license,
+    title = title,
+    related_identifiers = related_identifiers,
+    keywords = keywords,
+    communities = communities,
+    grants = grants
+  )
+  
+  # Remove any NULL values from the zenodo json object
+  zenodo_json <- zenodo_json[sapply(zenodo_json, function(x) !is.null(x))]
+  
+  # Write the zenodo json object to a file
+  jsonlite::write_json(zenodo_json, filename, pretty = TRUE, auto_unbox = TRUE)
+}
+
+creators <- list(
+  list(orcid = aut1$ORCID[1], affiliation = aut1$affiliation, name = paste0(aut1$given, ", ", aut1$family))
+)
+
+related_identifiers <- list(
+  list(scheme = "doi", identifier = "10.1234/software.paper.5678", relation = "isDocumentedBy", resource_type = "publication-article")
+)
+
+communities <- list(
+  list(identifier = "global-health-engineering")
+)
+# maybe?
+
+grants <- list(
+  list(id = "777541")
+)
+
+create_zenodo_json(
+  #creators = creators,
+  #license = license,
+  #title = title,
+  #related_identifiers = related_identifiers,
+  #keywords = c("Cats", "Laser", "Behavior"),
+  communities = communities,
+  #grants = grants
+)
 ```
 
 ```{r}
-pkgdown::build_site()
+devtools::document()
+devtools::install()
+devtools::build_readme()
+devtools::build_site()
 ```
 
-MUST CHANGE: delete current doi and replace
+```{r}
+doi = "10.5281/zenodo.15497462"
+update_citation(doi)
+```
+
+Delete current doi before updating

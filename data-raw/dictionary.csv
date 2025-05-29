@@ -1,9 +1,48 @@
-directory,file_name,variable_name,variable_type,description
-data/,ethord.rda,url,character,"The URL of the project, providing access to the project's documentation and resources."
-data/,ethord.rda,title,character,"The title of the project, describing its main objectives and scope."
-data/,ethord.rda,category,character,"The category of the project, indicating its primary focus or area of study."
-data/,ethord.rda,institutions,character,"The institutions involved in the project, providing context for the research and development."
-data/,ethord.rda,data_type,character,"The type of data generated or used by the project, describing its nature and format."
-data/,ethord.rda,field,character,"The field of study or domain to which the project belongs, indicating its broader context."
-data/,ethord.rda,researchers,character,"The names of the researchers involved in the project, providing information about the team and their expertise."
-data/,ethord.rda,abstract,character,"A brief summary of the project's objectives, methods, and expected outcomes, providing an overview of the research."
+"directory","file_name","variable_name","variable_type","description"
+"data/","details.rda","project_id","numeric",
+"data/","details.rda","call_category","character",
+"data/","details.rda","applicant_id","character",
+"data/","details.rda","main_applicant_institution_name","character",
+"data/","details.rda","applicant_type","character",
+"data/","details.rda","applicant_title","character",
+"data/","details.rda","applicant_first_name","character",
+"data/","details.rda","applicant_last_name","character",
+"data/","details.rda","applicant_gender","character",
+"data/","details.rda","applicant_institution","character",
+"data/","details.rda","applicant_department_name","logical",
+"data/","details.rda","applicant_lab_name","character",
+"data/","details.rda","applicant_orcid_id","logical",
+"data/","details.rda","title","character",
+"data/","details.rda","acronym","character",
+"data/","details.rda","abstract","character",
+"data/","details.rda","keywords","character",
+"data/","details.rda","project_start_dd_mm_yyyy","character",
+"data/","details.rda","project_duration_months","numeric",
+"data/","details.rda","funding_requested","numeric",
+"data/","ord_portal.rda","url","character",
+"data/","ord_portal.rda","title","character",
+"data/","ord_portal.rda","category","character",
+"data/","ord_portal.rda","institutions","character",
+"data/","ord_portal.rda","data_type","character",
+"data/","ord_portal.rda","field","character",
+"data/","ord_portal.rda","researchers","character",
+"data/","ord_portal.rda","abstract","character",
+"data/","outputs.rda","project_id","numeric",
+"data/","outputs.rda","item_id","numeric",
+"data/","outputs.rda","item_name_long","character",
+"data/","outputs.rda","item_name_short","character",
+"data/","outputs.rda","quantity","character",
+"data/","outputs.rda","description","character",
+"data/","outputs.rda","link","character",
+"data/","proposals.rda","project_id","numeric",
+"data/","proposals.rda","dim","numeric",
+"data/","proposals.rda","cost_personnel_senior_staff","logical",
+"data/","proposals.rda","cost_personnel_postdocs","numeric",
+"data/","proposals.rda","cost_personnel_other","numeric",
+"data/","proposals.rda","cost_personnel_students","logical",
+"data/","proposals.rda","cost_travel","numeric",
+"data/","proposals.rda","cost_equipment","numeric",
+"data/","proposals.rda","cost_publication","logical",
+"data/","proposals.rda","cost_social","numeric",
+"data/","proposals.rda","cost_other","numeric",
+"data/","proposals.rda","cost_subcontracting","numeric",
