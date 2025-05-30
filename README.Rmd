@@ -83,8 +83,6 @@ readr::read_csv("data-raw/dictionary.csv") |>
 ## Data
 
 ```r
-# Example: If you have a single package that contains all these datasets,
-# you would load it once.
 library(`r desc::desc_get_field("Package")`)
 ```
 
@@ -117,7 +115,7 @@ for (pkg_name in package_names) {
     current_data |>
       head(3) |>
       dplyr::mutate(
-        across(where(is.character), ~ stringr::str_trunc(., width = 25, ellipsis = "..."))
+        across(where(is.character), ~ stringr::str_trunc(., width = 50, ellipsis = "..."))
       ) |> 
       gt::gt() |>
       gt::as_raw_html()
@@ -152,7 +150,7 @@ for (pkg_name in package_names) {
 ## License
 
 Data are available as
-[CC-BY](https://github.com/global-health-engineering/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
+[CC-BY](https://github.com/`r desc::desc_get_field("Organisation")`/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
 
 ## Citation
 
