@@ -1,0 +1,492 @@
+---
+title: "washr_pipeline"
+format: html
+---
+
+```{r}
+devtools::install_github("openwashdata/washr")
+library(washr)
+
+dir.create("data-raw", showWarnings = FALSE)
+```
+
+```{r}
+# R script to process uploaded raw data into a tidy, analysis-ready data frame
+
+process_csv <- function(file_path,
+                               overwrite_rda = TRUE,
+                               overwrite_csv = TRUE) {
+
+  if (!fs::file_exists(file_path)) {
+    message(paste("Error: File not found at", file_path))
+    return(invisible(NULL)) # Return NULL invisibly if file doesn't exist
+  }
+
+  file_name <- tools::file_path_sans_ext(basename(file_path))
+  message(paste("Reading and processing:", file_name))
+
+  # Read data
+  raw_data <- readr::read_csv(file_path, show_col_types = FALSE)
+
+  # Apply janitor::clean_names()
+  cleaned_data <- raw_data |>
+    janitor::clean_names()
+
+  # Replace "null" / "NA" strings with actual NA values
+  final_data <- cleaned_data |>
+    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "null"))) |>
+    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "NA")))
+
+  # Export Data --------------------------------------------------------------
+
+  # Create the desired object name for .rda (same as file_name)
+  data_object_name <- file_name
+  assign(data_object_name, final_data, envir = .GlobalEnv) # Ensure available globally
+
+  # Ensure the 'data' directory exists for saving R data
+  data_dir <- here::here("data")
+  if (!fs::dir_exists(data_dir)) {
+    fs::dir_create(data_dir)
+    message(paste("Created directory:", data_dir))
+  }
+
+  # Save the data object using base R's save() for reliability
+  rda_path <- file.path(data_dir, paste0(data_object_name, ".rda"))
+
+  if (!overwrite_rda && fs::file_exists(rda_path)) {
+      message(paste("Skipping R data object export (file already exists and overwrite = FALSE):", paste0(data_object_name, ".rda")))
+  } else {
+      save(list = data_object_name, file = rda_path, envir = .GlobalEnv)
+      message(paste("Exported R data object:", paste0(data_object_name, ".rda")))
+  }
+
+  # Export as CSV to inst/extdata
+  fs::dir_create(here::here("inst", "extdata"), recurse = TRUE)
+  csv_export_path <- here::here("inst", "extdata", paste0(file_name, ".csv"))
+  readr::write_csv(final_data, csv_export_path, append = !overwrite_csv)
+  message(paste("Exported CSV:", csv_export_path))
+
+  message(paste("Processing of", file_name, "complete."))
+  return(invisible(final_data)) # Invisibly return the processed data frame
+}
+```
+
+```{r}
+dataframes_raw <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
+dataframes_raw <- dataframes_raw[!basename(dataframes_raw) %in% "dictionary.csv"]
+dataframes_raw
+
+for (f_path in dataframes_raw) {
+  process_csv(f_path)
+}
+```
+
+# Washr pipeline
+
+```{r}
+# USER SETUP
+root_name <- basename(here::here())
+organisation <- "Global-Health-Engineering"
+authors <- list(
+  list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich"), 
+  list(given = "Lars", family = "Schöbitz", role = c("aut", "ctb"), email = "lschoebitz@ethz.ch", ORCID = "0000-0003-2196-5015", affiliation="ETH Zurich"), 
+  list(given = "Elizabeth", family = "Tilley", role = c("aut", "fnd"), email = "tilleye@ethz.ch", ORCID = "0000-0002-2095-9724", affiliation="ETH Zurich")
+)
+title = "ETH Board Open Research Data (ORD) Program Project Metadata and Report Data"
+description = "This data package contains metadata and report data from 96 research projects funded by the joint Open Research Data (ORD) program of ETH Zurich, EPFL, and the four research institutes of the ETH Domain. The package includes project-level metadata, such as project titles, descriptions, and categorizations (Establish, Explore, Contribute), as well as data extracted from reports submitted by each project, providing insights into the projects' objectives, methods, outcomes, and impacts."
+
+# CONSTANTS
+#data_name <- paste0(root_name, ".csv")
+#data_raw_path <- here::here("data-raw", data_name)
+dictionary_path <-  here::here("data-raw", "dictionary.csv")
+#data_path <- here::here("inst", "extdata", data_name)
+
+dataframes <- list.files("inst/extdata", pattern = "\\.csv$", full.names = TRUE)
+dataframes <- dataframes[!basename(dataframes) %in% "dictionary.csv"]
+dataframes
+
+license <- "cc-by-4.0"
+```
+
+```{r}
+setup_dictionary()
+```
+
+```{r}
+system("git clone https://github.com/Global-Health-Engineering/gendict.git")
+reticulate::py_install("./gendict", method = "auto", args = c("e", "."))
+```
+
+```{python}
+r.dataframes
+```
+
+```{python}
+import os
+import json
+from gendict import core
+from numpy import array
+from pandas import read_csv
+
+config_path = os.path.join(os.path.expanduser("~"), 'config.json')
+
+with open(config_path, 'r') as file:
+    config = json.load(file)
+
+general_context = {
+  "title":r.title,
+  "description":r.description,
+  #"current_dictionary": read_csv(r.dictionary_path).to_csv(index=False),
+}
+
+for f_path in array(r.dataframes):
+  context, response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"],
+                                              f_path,
+                                              max_unique_values=3, 
+                                              max_value_length=20,
+                                              general_context=general_context,
+                                              model=0, 
+                                              temperature=0, 
+                                              top_p=0.5, 
+                                              max_tokens=9999, 
+                                              debug=True)
+  print(f"Context:\n{context}\n\nResponse:\n{response}\n\nDescriptions:\n{descriptions}")
+
+  if descriptions:
+      core.upload_descriptions_from_json(f_path, descriptions, r.dictionary_path)
+```
+
+```{r}
+#' Set up roxygen documentation for all tidy data sets using the dictionary
+
+setup_roxygen <- function(title = "Title goes here ...", description = "Description here ...") {
+  # Check dictionary existence
+  input_file_path <- file.path(getwd(), "data-raw", "dictionary.csv")
+  if (!file.exists(input_file_path)) {
+    usethis::ui_stop("Data dictionary does not exist in the data-raw/ directory. Please set up the raw data or create a dictionary first.")
+  }
+  # Check R/ existence
+  output_file_dir <- file.path(getwd(), "R")
+  if (!dir.exists(output_file_dir)) {
+    usethis::use_r(open = FALSE)
+  }
+  # Check data/ existence
+  tidy_datasets <- list.files(path = file.path(getwd(), "data"))
+  num_tidy_datasets <- length(tidy_datasets)
+  # Write roxygen doc for each tidy dataset
+  if (num_tidy_datasets == 0){
+    usethis::ui_stop("No tidy data sets are available in the data/ directory.
+                     Please complete data processing and export tidy data first.")
+  } else {
+    for (d in tidy_datasets){
+      # Check if the file ends with .rda
+      if (grepl("\\.rda$", d)) {
+        # Update output_file_path to have the same name as df_name with .R extension
+        df_name <- strsplit(basename(file.path(d)), ".rda")[[1]]
+        output_file_path <- file.path(output_file_dir, paste0(df_name, ".R"))
+        generate_roxygen_docs(input_file_path = input_file_path,
+                              output_file_path = output_file_path,
+                              title = title,
+                              description = description,
+                              df_name = df_name)
+        usethis::ui_todo("Please write the title and description for \n {usethis::ui_value(output_file_path)}")
+      }
+    }
+  }
+}
+
+generate_roxygen_docs <- function(input_file_path, output_file_path, title, description, df_name=NULL){
+  # Read input CSV file
+  dict <- utils::read.csv(input_file_path)
+  ## If an empty csv should quit with error: Cannot generate roxygen file with an empty dictionary
+  # Check if df_name is provided and not NULL, then filter input_df
+  dict <- subset(dict, dict$file_name == paste0(df_name, ".rda"))
+  if (file.exists(output_file_path)) {
+    head <- get_roxygen_head(output_file_path)
+  } else {
+    head <- create_roxygen_head(df_name, title, description)
+  }
+  body <- create_roxygen_body(dict)
+  output <- c(head, body)
+  # Label dataset
+  output <- c(output, paste0('"', df_name, '"'))
+  # Write output to file
+  writeLines(output, output_file_path)
+  return(output)
+}
+
+create_roxygen_head <- function(df_name, title, description) {
+  # Create title and description
+  roxygen_head <- c(paste0("#' ", df_name, ": ", title),
+                    "#' ",
+                    paste0("#' ", description),
+                    "#' ")
+  return(roxygen_head)
+}
+
+get_roxygen_head <- function(roxygen_file_path){
+  roxygen_head <- character()
+  roxygen_text <- readLines(roxygen_file_path)
+  i <- 1
+  line <- roxygen_text[1]
+  while (!startsWith(line, prefix = "#' @format")) {
+    roxygen_head <- c(roxygen_head, roxygen_text[i])
+    i <- i+1
+    line <- roxygen_text[i]
+  }
+  return(roxygen_head)
+}
+
+load_object <- function(file) {
+  tmp_env <- new.env()
+  load(file = file, envir = tmp_env)
+  tmp_env[[ls(tmp_env)[1]]]
+}
+
+create_roxygen_body <- function(dict){
+  # Create format line
+  dataobj <- file.path(getwd(), "data", dict$file_name[1])
+  n_rows <- nrow(load_object(dataobj)) #TODO: Load the data object
+  n_vars <- nrow(dict)
+  format_line <- paste0("#' @format A tibble with ", n_rows," rows and ", n_vars," variables")
+
+  # Create \describe block
+  block <- create_describe_block(dict)
+  output <- c(format_line, block)
+  return(output)
+}
+
+create_describe_block <- function(dict){
+  block <- character()
+  block <- c(block, paste0("#' ", "\\describe{"))
+
+  # Iterate over input rows and create \item blocks
+  for (i in seq_len(nrow(dict))) {
+    variable_name <- dict[i, "variable_name"]
+    description <- dict[i, "description"]
+
+    # Create \item block
+    item <- paste0("#'   ", "\\item{", variable_name, "}{", description, "}")
+
+    # Append to output
+    block <- c(block, item)
+  }
+
+  # Close \describe block
+  block <- c(block, "#' }")
+  return(block)
+}
+```
+
+```{r}
+setup_roxygen(title = title, description = description)
+```
+
+Add title and description to R/ethord.R
+
+```{r}
+devtools::document()
+devtools::check()
+devtools::install()
+```
+
+```{r}
+#' Update the DESCRIPTION file to conform with standards
+
+update_description <- function(organisation, title, description, file = ".", language="en-GB", lazydata="true"){
+  if(!file.exists(file.path(getwd(), "DESCRIPTION"))){
+    usethis::ui_stop("No DESCRIPTION file found!")
+  }
+  # package
+  pkgname <- desc::desc_get("Package", file = file)[[1]]
+  # title
+  desc::desc_set("Title", title, file = file)
+  # version
+  # fetch latest release from GitHub
+  url <- paste0("https://api.github.com/repos/", gsub("https://github.com/", "", organisation), "/", pkgname, "/releases")
+  response <- httr::GET(url)
+  if(httr::status_code(response) == 200){
+    releases <- jsonlite::fromJSON(httr::content(response, "text"))["tag_name"]
+    if(length(releases) > 0){
+      versions <- gsub("v", "", releases$tag_name)
+      # pick latest
+      version_parts <- strsplit(versions, "\\.")[[1]]
+      # bump version
+      version_parts[3] <- as.character(as.integer(version_parts[3]) + 1)
+      new_version <- paste(version_parts, collapse = ".")
+      desc::desc_set("Version", new_version, file = file)
+    } else {
+      desc::desc_set("Version", "0.0.0", file = file)
+    }
+  } else {
+    desc::desc_set("Version", "0.0.0", file = file)
+  }
+  # organisation
+  desc::desc_set("Organisation", organisation, file = file)
+  # authors
+  # description
+  desc::desc_set("Description", description, file = file)
+  # license
+  usethis::use_ccby_license()
+  # language
+  desc::desc_set("Language", language, file = file)
+  # depends
+  # Other Fields
+  desc::desc_set("LazyData", lazydata, file = file)
+  desc::desc_set("Config/Needs/website", "rmarkdown", file = file)
+  # Date
+  desc::desc_set("Date",
+                 Sys.Date(),
+                 file = file)
+  # URL
+  desc::desc_set_urls(urls = c(paste0("https://github.com/", organisation, "/", pkgname)),
+                      file = file)
+  # Bug Reports
+  desc::desc_set("BugReports",
+                 paste0("https://github.com/", organisation, "/", pkgname, "/", "issues"),
+                 file = file)
+}
+
+```
+
+```{r}
+desc::desc_del_author()
+for (i in seq_along(authors)) {
+  aut <- authors[[i]]
+  usethis::use_author(
+    given = aut$given, 
+    family = aut$family, 
+    role = aut$role, 
+    email = aut$email,
+    comment = c(ORCID = aut$ORCID),
+  )
+}
+```
+
+```{r}
+update_description(organisation = organisation, title = title, description=description)
+```
+
+```{r}
+devtools::document()
+devtools::install()
+```
+
+```{r}
+add_metadata()
+update_metadata()
+add_creator(name=paste(aut$given, aut$last, sep=" "), 
+            email=aut$email, 
+            affiliation=aut$affiliation) # Get from use_author
+generate_jsonld()
+devtools::document()
+devtools::install()
+```
+
+Change templates, automatically run and compile.
+
+```{r}
+setup_readme()
+```
+
+Deleted manually the templates, automate github links, examples, etc...
+
+```{r}
+devtools::build_readme()
+setup_website()
+devtools::document()
+devtools::check()
+devtools::install()
+```
+
+```{r}
+create_zenodo_json <- function(
+  creators = NULL,
+  license = NULL,
+  title = NULL,
+  related_identifiers = NULL,
+  keywords = NULL,
+  communities = NULL,
+  grants = NULL,
+  filename = ".zenodo.json"
+) {
+  
+  # Check if creators is a list, if not, convert it to a list
+  if (!is.null(creators) && !is.list(creators)) {
+    stop("Creators must be a list of lists")
+  }
+  
+  # Check if related_identifiers is a list, if not, convert it to a list
+  if (!is.null(related_identifiers) && !is.list(related_identifiers)) {
+    stop("Related identifiers must be a list of lists")
+  }
+  
+  # Check if communities is a list, if not, convert it to a list
+  if (!is.null(communities) && !is.list(communities)) {
+    stop("Communities must be a list of lists")
+  }
+  
+  # Check if grants is a list, if not, convert it to a list
+  if (!is.null(grants) && !is.list(grants)) {
+    stop("Grants must be a list of lists")
+  }
+  
+  # Create the zenodo json object
+  zenodo_json <- list(
+    creators = creators,
+    license = license,
+    title = title,
+    related_identifiers = related_identifiers,
+    keywords = keywords,
+    communities = communities,
+    grants = grants
+  )
+  
+  # Remove any NULL values from the zenodo json object
+  zenodo_json <- zenodo_json[sapply(zenodo_json, function(x) !is.null(x))]
+  
+  # Write the zenodo json object to a file
+  jsonlite::write_json(zenodo_json, filename, pretty = TRUE, auto_unbox = TRUE)
+}
+
+creators <- list(
+  list(orcid = aut1$ORCID[1], affiliation = aut1$affiliation, name = paste0(aut1$given, ", ", aut1$family))
+)
+
+related_identifiers <- list(
+  list(scheme = "doi", identifier = "10.1234/software.paper.5678", relation = "isDocumentedBy", resource_type = "publication-article")
+)
+
+communities <- list(
+  list(identifier = "global-health-engineering")
+)
+# maybe?
+
+grants <- list(
+  list(id = "777541")
+)
+
+create_zenodo_json(
+  #creators = creators,
+  #license = license,
+  #title = title,
+  #related_identifiers = related_identifiers,
+  #keywords = c("Cats", "Laser", "Behavior"),
+  communities = communities,
+  #grants = grants
+)
+```
+
+```{r}
+devtools::document()
+devtools::install()
+devtools::build_readme()
+devtools::build_site()
+```
+
+```{r}
+doi = "10.5281/zenodo.15497462"
+update_citation(doi)
+```
+
+Delete current doi before updating
