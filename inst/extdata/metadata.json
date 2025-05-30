@@ -1,7 +1,7 @@
 {
   "@context": "https://openwashdata.org/",
   "@type": "Dataset",
-  "name": ["details", "ord_portal", "outputs", "proposals"],
+  "name": ["docs_detail", "docs_proposal", "docs_report", "portal"],
   "description": "This data package contains metadata and report data from 96 research projects funded by the joint Open Research Data (ORD) program of ETH Zurich, EPFL, and the four research institutes of the ETH Domain. The package includes project-level metadata, such as project titles, descriptions, and categorizations (Establish, Explore, Contribute), as well as data extracted from reports submitted by each project, providing insights into the projects' objectives, methods, outcomes, and impacts.",
   "publisher": {
     "@type": "Organization",
@@ -13,8 +13,8 @@
   "keywords": null,
   "distribution": {
     "@type": "DataDownload",
-    "url": "https://raw.githubusercontent.com/openwashdata/details/main/inst/extdata/details.csv",
-    "contentUrl": "https://raw.githubusercontent.com/openwashdata/details/main/inst/extdata/details.csv",
+    "url": "https://raw.githubusercontent.com/openwashdata/docs_detail/main/inst/extdata/docs_detail.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/docs_detail/main/inst/extdata/docs_detail.csv",
     "encodingFormat": "text/csv"
   },
   "encodingFormat": "CSV",
@@ -30,7 +30,7 @@
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "contactType": ["Nicolo", "Nicolo", "Elizabeth"],
-    "email": ["nmassari@ethz.ch", "nmassari@ethz.ch", "tilleye@ethz.ch"]
+    "contactType": "Elizabeth",
+    "email": "tilleye@ethz.ch"
   }
 }

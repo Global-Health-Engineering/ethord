@@ -1,48 +1,47 @@
 directory,file_name,variable_name,variable_type,description
-data/,details.rda,project_id,numeric,A unique identifier assigned to each project.
-data/,details.rda,call_category,character,"The category of the project call, such as Explore or Contribute."
-data/,details.rda,applicant_id,character,A unique identifier assigned to the applicant.
-data/,details.rda,main_applicant_institution_name,character,The name of the main institution associated with the applicant.
-data/,details.rda,applicant_type,character,"The type of applicant, such as Primary or Secondary."
-data/,details.rda,applicant_title,character,"The title of the applicant, such as Prof. Dr."
-data/,details.rda,applicant_first_name,character,The first name of the applicant.
-data/,details.rda,applicant_last_name,character,The last name of the applicant.
-data/,details.rda,applicant_gender,character,"The gender of the applicant, categorized as Female or Male."
-data/,details.rda,applicant_institution,character,The institution associated with the applicant.
-data/,details.rda,applicant_department_name,logical,The name of the department associated with the applicant.
-data/,details.rda,applicant_lab_name,character,The name of the lab associated with the applicant.
-data/,details.rda,applicant_orcid_id,logical,The ORCID identifier of the applicant.
-data/,details.rda,title,character,The title of the project.
-data/,details.rda,acronym,character,A shortened form of the project title.
-data/,details.rda,abstract,character,A brief summary of the project.
-data/,details.rda,keywords,character,Relevant keywords associated with the project.
-data/,details.rda,project_start_dd_mm_yyyy,character,The start date of the project in the format DD.MM.YYYY.
-data/,details.rda,project_duration_months,numeric,The duration of the project in months.
-data/,details.rda,funding_requested,numeric,The amount of funding requested for the project.
-data/,ord_portal.rda,url,character,"The URL associated with the research project, likely linking to more detailed information or resources."
-data/,ord_portal.rda,title,character,"The title of the research project, providing a brief summary of its focus or objective."
-data/,ord_portal.rda,category,character,"The category or classification of the research project, with possible values including Contribute, Explore, and Establish."
-data/,ord_portal.rda,institutions,character,"The institutions or organizations involved in or supporting the research project, such as EPFL, ETH Zurich, or Empa."
-data/,ord_portal.rda,data_type,character,"The type or classification of data associated with the research project, such as microstructure data, environmental data, or medical data."
-data/,ord_portal.rda,field,character,"The broader field of study or domain that the research project belongs to, including Materials Science, Earth sciences, and Life sciences."
-data/,ord_portal.rda,researchers,character,"The names of researchers or individuals involved in the project, listed in a format such as 'Last Name, First Name'."
-data/,ord_portal.rda,abstract,character,"A brief summary or abstract of the research project, providing an overview of its objectives, methods, or findings."
-data/,outputs.rda,project_id,numeric,"A unique identifier for each project, represented as a numerical value."
-data/,outputs.rda,item_id,numeric,"A unique identifier for each item within a project, represented as a numerical value with decimal places."
-data/,outputs.rda,item_name_long,character,"A detailed name describing the item, such as 'New or enhanced webs' or 'New or enhanced data'."
-data/,outputs.rda,item_name_short,character,"A brief name summarizing the item, such as 'website', 'repository', or 'dataset'."
-data/,outputs.rda,quantity,character,"The number of items, represented as a discrete numerical value."
-data/,outputs.rda,description,character,A text description providing additional context about the item.
-data/,outputs.rda,link,character,A URL linking to the item or its associated webpage.
-data/,proposals.rda,project_id,numeric,A unique identifier for each project in the dataset.
-data/,proposals.rda,cost_number,numeric,A numerical identifier for a specific cost or expenditure within a project.
-data/,proposals.rda,cost_personnel_senior_staff_fr,logical,The cost of personnel for senior staff in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_personnel_postdocs_fr,numeric,The cost of personnel for postdoctoral researchers in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_personnel_other_fr,numeric,The cost of personnel for other staff members in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_personnel_students_fr,logical,The cost of personnel for students in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_travel_fr,numeric,The cost of travel expenses in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_equipment_fr,numeric,The cost of equipment purchases in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_publication_fr,logical,The cost of publication expenses in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_social_fr,numeric,The cost of social expenses in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_other_fr,numeric,The cost of other miscellaneous expenses in Swiss Francs (CHF). This is a continuous numerical measurement.
-data/,proposals.rda,cost_subcontracting_fr,numeric,The cost of subcontracting services in Swiss Francs (CHF). This is a continuous numerical measurement.
+data/,docs_detail.rda,project_id,numeric,"A unique identifier for each project, represented as a numerical value."
+data/,docs_detail.rda,call_category,character,"The category of the project call, with possible values including Explore and Contribute."
+data/,docs_detail.rda,applicant_id,character,"A unique identifier for the applicant, typically in the format ORD followed by a series of numbers."
+data/,docs_detail.rda,main_applicant_institution_name,character,The name of the main institution associated with the applicant.
+data/,docs_detail.rda,applicant_type,character,"The type of applicant, categorized as either Primary or Secondary."
+data/,docs_detail.rda,applicant_title,character,"The title of the applicant, such as Prof. Dr."
+data/,docs_detail.rda,applicant_first_name,character,The first name of the applicant.
+data/,docs_detail.rda,applicant_last_name,character,The last name of the applicant.
+data/,docs_detail.rda,applicant_gender,character,"The gender of the applicant, categorized as either Female or Male."
+data/,docs_detail.rda,applicant_institution,character,The institution affiliated with the applicant.
+data/,docs_detail.rda,applicant_department_name,logical,The name of the department within the applicant's institution.
+data/,docs_detail.rda,applicant_lab_name,character,The name of the laboratory associated with the applicant.
+data/,docs_detail.rda,applicant_orcid_id,logical,The ORCID identifier for the applicant.
+data/,docs_detail.rda,title,character,The title of the project.
+data/,docs_detail.rda,acronym,character,A shortened acronym representing the project title.
+data/,docs_detail.rda,abstract,character,A brief summary or abstract of the project.
+data/,docs_detail.rda,keywords,character,Relevant keywords associated with the project.
+data/,docs_detail.rda,project_start_dd_mm_yyyy,character,The start date of the project in the format DD.MM.YYYY.
+data/,docs_detail.rda,project_duration_months,numeric,"The duration of the project in months, represented as a numerical value."
+data/,docs_detail.rda,funding_requested,numeric,"The amount of funding requested for the project, represented as a numerical value."
+data/,docs_proposal.rda,project_id,numeric,"A unique identifier for each project, represented as a numerical value."
+data/,docs_proposal.rda,cost_personnel_senior_staff_fr,logical,"The cost of personnel for senior staff in Swiss Francs (CHF), expected to be a numerical value."
+data/,docs_proposal.rda,cost_personnel_postdocs_fr,numeric,"The cost of personnel for postdoctoral researchers in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_personnel_other_fr,numeric,"The cost of personnel for other staff members in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_personnel_students_fr,logical,"The cost of personnel for students in Swiss Francs (CHF), expected to be a numerical value."
+data/,docs_proposal.rda,cost_travel_fr,numeric,"The cost of travel expenses in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_equipment_fr,numeric,"The cost of equipment in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_publication_fr,logical,"The cost of publication expenses in Swiss Francs (CHF), expected to be a numerical value."
+data/,docs_proposal.rda,cost_social_fr,numeric,"The cost of social expenses in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_other_fr,numeric,"The cost of other expenses in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_proposal.rda,cost_subcontracting_fr,numeric,"The cost of subcontracting in Swiss Francs (CHF), represented as a numerical value."
+data/,docs_report.rda,project_id,numeric,"A unique identifier for each project, represented as a numerical value."
+data/,docs_report.rda,item_id,numeric,"A unique identifier for each item within a project, represented as a numerical value with decimal places."
+data/,docs_report.rda,item_name_long,character,"A detailed name describing the item, such as 'New or enhanced webs' or 'New or enhanced data'."
+data/,docs_report.rda,item_name_short,character,"A brief name summarizing the item, such as 'website', 'repository', or 'dataset'."
+data/,docs_report.rda,quantity,character,"The number of items, represented as a discrete numerical value."
+data/,docs_report.rda,description,character,A text description providing additional context about the item.
+data/,docs_report.rda,link,character,"A URL linking to the item or its associated resource, such as a website or repository."
+data/,portal.rda,url,character,The URL linking to the specific research project's details or webpage.
+data/,portal.rda,title,character,The title of the research project.
+data/,portal.rda,category,character,"The category or classification of the research project, such as Contribute, Explore, or Establish."
+data/,portal.rda,institutions,character,"The institutions involved in the research project, such as EPFL, ETH Zurich, or Empa."
+data/,portal.rda,data_type,character,"The type of data associated with the research project, such as Microstructure data, Environmental data, or Medical data."
+data/,portal.rda,field,character,"The field of study or discipline of the research project, such as Materials Science, Earth sciences, or Life sciences."
+data/,portal.rda,researchers,character,The names of the researchers involved in the project.
+data/,portal.rda,abstract,character,A brief summary or abstract of the research project.
