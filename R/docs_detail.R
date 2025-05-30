@@ -2,7 +2,7 @@
 #' 
 #' This data package contains metadata and report data from 96 research projects funded by the joint Open Research Data (ORD) program of ETH Zurich, EPFL, and the four research institutes of the ETH Domain. The package includes project-level metadata, such as project titles, descriptions, and categorizations (Establish, Explore, Contribute), as well as data extracted from reports submitted by each project, providing insights into the projects' objectives, methods, outcomes, and impacts.
 #' 
-#' @format A tibble with 9 rows and 20 variables
+#' @format A tibble with 7 rows and 20 variables
 #' \describe{
 #'   \item{project_id}{A unique identifier for each project, represented as a numerical value.}
 #'   \item{call_category}{The category of the project call, with possible values including Explore and Contribute.}
