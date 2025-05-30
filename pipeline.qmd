@@ -32,10 +32,13 @@ process_csv <- function(file_path,
   cleaned_data <- raw_data |>
     janitor::clean_names()
 
-  # Replace "null" / "NA" strings with actual NA values
+  # Replace "null" / "NA" / "" strings with actual NA values
   final_data <- cleaned_data |>
-    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "null"))) |>
-    dplyr::mutate(across(where(is.character), ~dplyr::na_if(., "NA")))
+    dplyr::mutate(across(where(is.character), ~ifelse(trimws(.) %in% c("null", "NA", ""), NA, .)))
+
+  # Integer columns
+  final_data <- cleaned_data |>
+    dplyr::mutate(across(where(is.numeric), ~as.integer(.)))
 
   # Export Data --------------------------------------------------------------
 
