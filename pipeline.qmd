@@ -8,10 +8,6 @@ devtools::install_github("openwashdata/washr")
 library(washr)
 
 dir.create("data-raw", showWarnings = FALSE)
-
-dataframes_raw <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
-dataframes_raw <- dataframes_raw[!basename(dataframes_raw) %in% "dictionary.csv"]
-dataframes_raw
 ```
 
 ```{r}
@@ -76,6 +72,10 @@ process_csv <- function(file_path,
 ```
 
 ```{r}
+dataframes_raw <- list.files("data-raw", pattern = "\\.csv$", full.names = TRUE)
+dataframes_raw <- dataframes_raw[!basename(dataframes_raw) %in% "dictionary.csv"]
+dataframes_raw
+
 for (f_path in dataframes_raw) {
   process_csv(f_path)
 }
@@ -86,10 +86,10 @@ for (f_path in dataframes_raw) {
 ```{r}
 # USER SETUP
 root_name <- basename(here::here())
-organisation <- "openwashdata"
-aut1 <- list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich")
-title = "The swissopenuniversities ORD projects metadata package"
-description = "Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities."
+organisation <- "Global-Health-Engineering"
+aut <- list(given = "Nicolo", family = "Massari", role = c("aut", "cre"), email = "nmassari@ethz.ch", ORCID = "0009-0006-8421-930X", affiliation="ETH Zurich")
+title = "Open Research Data (ORD) Program Project Metadata and Report Data"
+description = "This data package contains metadata and report data from over 60 research projects funded by the joint Open Research Data (ORD) program of ETH Zurich, EPFL, and the four research institutes of the ETH Domain from 2020-2023. The package includes project-level metadata, such as project titles, descriptions, and categorizations (Establish, Explore, Contribute), as well as data extracted from reports submitted by each project, providing insights into the projects' objectives, methods, outcomes, and impacts."
 
 # CONSTANTS
 #data_name <- paste0(root_name, ".csv")
@@ -109,73 +109,51 @@ setup_dictionary()
 ```
 
 ```{r}
-system("git submodule add https://github.com/Global-Health-Engineering/gendict.git")
-system("git submodule init")
-reticulate::py_install("./gendict", method = "pip", args = c("--editable", "."))
+system("git clone https://github.com/Global-Health-Engineering/gendict.git")
+reticulate::py_install("./gendict", method = "auto", args = c("e", "."))
 ```
 
 ```{python}
+r.dataframes
+```
+```{python}
 import os
 import json
-from gendict.core import gendict
+from gendict import core
+from numpy import array
+from pandas import read_csv
 
 config_path = os.path.join(os.path.expanduser("~"), 'config.json')
 
 with open(config_path, 'r') as file:
     config = json.load(file)
 
-for f_path in r.dataframes:
-  context, response, descriptions = gendict(config["HELMHOLTZ_API_KEY"],
-                                                f_path, 
-                                                max_unique_values=5, 
-                                                model=0, 
-                                                temperature=0, 
-                                                top_p=0.5, 
-                                                max_tokens=999, 
-                                                debug=True)
+general_context = {
+  "title":r.title,
+  "description":r.description,
+  #"current_dictionary": read_csv(r.dictionary_path).to_csv(index=False),
+}
+
+for f_path in array(r.dataframes):
+  context, response, descriptions = core.gendict(config["HELMHOLTZ_API_KEY"],
+                                              f_path,
+                                              max_unique_values=3, 
+                                              max_value_length=20,
+                                              general_context=general_context,
+                                              model=0, 
+                                              temperature=0, 
+                                              top_p=0.5, 
+                                              max_tokens=9999, 
+                                              debug=True)
   print(f"Context:\n{context}\n\nResponse:\n{response}\n\nDescriptions:\n{descriptions}")
 
   if descriptions:
-      core.upload_descriptions_from_json(f_path, descriptions, in_file="data-raw/dictionary.csv")
+      core.upload_descriptions_from_json(f_path, descriptions, r.dictionary_path)
 ```
 
 ```{r}
 #' Set up roxygen documentation for all tidy data sets using the dictionary
-#'
-#' @description
-#' Creates or updates Roxygen documentation for all tidy data sets found
-#' in the dictionary file.
-#'
-#' When first run, this function creates the Roxygen documentation with placeholders
-#' for the title and description field. The dictionary should include columns for
-#' directory, file name, variable name, variable type, and description. This
-#' function generates Roxygen comments with this information, facilitating
-#' consistent and thorough documentation for your data sets.
-#'
-#' When re-run this function, this function updates only the variable description entries
-#' in the Roxygen documentation files within R/ directory. The title and description fields remain
-#' unchanged.
-#'
-#' @returns NULL. This function creates documentation files inside "R/". Error if
-#' tidy data cannot be found.
-#'
-#' @export
-#'
-#' @examples
-#' \dontshow{
-#' temppkg <- tempdir()
-#' devtools::create(temppkg, open=FALSE)
-#' .old_wd <- setwd(temppkg)
-#' }
-#' \dontrun{
-#' setup_dictionary()
-#' # Once the dictionary is created, go to data-raw/dictionary.csv and complete the column description.
-#' setup_roxygen()
-#' }
-#' \dontshow{
-#' setwd(.old_wd)
-#' }
-#'
+
 setup_roxygen <- function(title = "Title goes here ...", description = "Description here ...") {
   # Check dictionary existence
   input_file_path <- file.path(getwd(), "data-raw", "dictionary.csv")
@@ -212,26 +190,6 @@ setup_roxygen <- function(title = "Title goes here ...", description = "Descript
   }
 }
 
-#' Generate roxygen2 documentation from a CSV file
-#'
-#' This function takes a CSV table with columns `variable_name` and `description` as input,
-#' optionally filters it by `variable_name`, and outputs roxygen2 documentation for `\describe` and `\item`.
-#'
-#' @param input_file_path Path to the input CSV file.
-#' @param output_file_path Path to the output file that will contain the roxygen2 documentation.
-#' @param df_name Optional name of the variable to filter the input dataframe by. Default is NULL.
-#'
-#' @returns Character string of a generated roxygen documentation.
-#'
-#' @export
-#'
-#' @examples \dontrun{
-#' # Generate roxygen2 documentation from example.csv
-#' generate_roxygen_docs("example.csv", "output.R")
-#' # Generate roxygen2 documentation from example.csv for a specific variable name
-#' generate_roxygen_docs("example.csv", "output.R", df_name = "specific_variable")
-#' }
-#'
 generate_roxygen_docs <- function(input_file_path, output_file_path, title, description, df_name=NULL){
   # Read input CSV file
   dict <- utils::read.csv(input_file_path)
@@ -328,36 +286,8 @@ devtools::install()
 ```
 
 ```{r}
-aut <- aut1
-usethis::use_author(
-  given = aut$given, 
-  family = aut$family, 
-  role = aut$role, 
-  email = aut$email,
-  comment = c(ORCID=aut$ORCID)
-)
-```
+#' Update the DESCRIPTION file to conform with standards
 
-```{r}
-#' Update the DESCRIPTION file to conform with openwashdata standards
-#'
-#' @description
-#' This function updates the DESCRIPTION file of an R package to comply with openwashdata standards.
-#' It ensures that fields such as `License`, `Language`, `Date`, `URL`, and others are correctly specified.
-#'
-#' @param file Character. The file path to the DESCRIPTION file of the R package. Defaults to the current working directory.
-#' @param organisation Character. The URL path to the GitHub user or organization that hosts the current package.
-#'
-#' @export
-#'
-#' @returns NULL. Update fields directly in DESCRIPTION file.
-#' @examples
-#' \dontrun{
-#'  # Update DESCRIPTION file in the current package
-#' update_description("example_user", "Example Title", "This is an example description.")
-#' }
-#'
-#'
 update_description <- function(organisation, title, description, file = ".", language="en-GB", lazydata="true"){
   if(!file.exists(file.path(getwd(), "DESCRIPTION"))){
     usethis::ui_stop("No DESCRIPTION file found!")
@@ -381,10 +311,10 @@ update_description <- function(organisation, title, description, file = ".", lan
       new_version <- paste(version_parts, collapse = ".")
       desc::desc_set("Version", new_version, file = file)
     } else {
-      desc::desc_set("Version", "0.1.0", file = file)
+      desc::desc_set("Version", "0.0.0", file = file)
     }
   } else {
-    desc::desc_set("Version", "0.1.0", file = file)
+    desc::desc_set("Version", "0.0.0", file = file)
   }
   # organisation
   desc::desc_set("Organisation", organisation, file = file)
@@ -414,6 +344,15 @@ update_description <- function(organisation, title, description, file = ".", lan
 
 ```
 
+```{r}
+usethis::use_author(
+  given = aut$given, 
+  family = aut$family, 
+  role = aut$role, 
+  email = aut$email,
+  comment = c(ORCID=aut$ORCID),
+)
+```
 ```{r}
 update_description(organisation = organisation, title = title, description=description)
 ```

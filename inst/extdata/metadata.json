@@ -1,20 +1,20 @@
 {
   "@context": "https://openwashdata.org/",
   "@type": "Dataset",
-  "name": "ethord",
-  "description": "Metadata relative to each project funded by the Open Research Data (ORD) initiative by swissuniversities.",
+  "name": ["details", "ord_portal", "outputs", "proposals"],
+  "description": "This data package contains metadata and report data from over 60 research projects funded by the joint Open Research Data (ORD) program of ETH Zurich, EPFL, and the four research institutes of the ETH Domain from 2020-2023. The package includes project-level metadata, such as project titles, descriptions, and categorizations (Establish, Explore, Contribute), as well as data extracted from reports submitted by each project, providing insights into the projects' objectives, methods, outcomes, and impacts.",
   "publisher": {
     "@type": "Organization",
     "name": "openwashdata @ Global Health Engineering, ETH Zurich",
     "url": "https://openwashdata.org/"
   },
-  "datePublished": "2025-05-13",
+  "datePublished": "2025-05-30",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "keywords": null,
   "distribution": {
     "@type": "DataDownload",
-    "url": "https://raw.githubusercontent.com/openwashdata/ethord/main/inst/extdata/ethord.csv",
-    "contentUrl": "https://raw.githubusercontent.com/openwashdata/ethord/main/inst/extdata/ethord.csv",
+    "url": "https://raw.githubusercontent.com/openwashdata/details/main/inst/extdata/details.csv",
+    "contentUrl": "https://raw.githubusercontent.com/openwashdata/details/main/inst/extdata/details.csv",
     "encodingFormat": "text/csv"
   },
   "encodingFormat": "CSV",
@@ -30,7 +30,7 @@
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "contactType": "Nicolo",
-    "email": "nmassari@ethz.ch"
+    "contactType": ["Nicolo", "Nicolo"],
+    "email": ["nmassari@ethz.ch", "nmassari@ethz.ch"]
   }
 }
