@@ -5,7 +5,7 @@
 \alias{docs_detail}
 \title{docs_detail: ETH Board Open Research Data (ORD) Program Project Metadata and Report Data}
 \format{
-A tibble with 7 rows and 20 variables
+A tibble with 7 rows and 19 variables
 \describe{
 \item{project_id}{A unique identifier for each project, represented as a numerical value.}
 \item{call_category}{The category of the project call, with possible values including Explore and Contribute.}
@@ -15,7 +15,6 @@ A tibble with 7 rows and 20 variables
 \item{applicant_title}{The title of the applicant, such as Prof. Dr.}
 \item{applicant_first_name}{The first name of the applicant.}
 \item{applicant_last_name}{The last name of the applicant.}
-\item{applicant_gender}{The gender of the applicant, categorized as either Female or Male.}
 \item{applicant_institution}{The institution affiliated with the applicant.}
 \item{applicant_department_name}{The name of the department within the applicant's institution.}
 \item{applicant_lab_name}{The name of the laboratory associated with the applicant.}
