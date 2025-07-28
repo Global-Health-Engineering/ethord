@@ -344,7 +344,7 @@ update_description <- function(organisation, title, description, file = ".", lan
   # depends
   # Other Fields
   desc::desc_set("LazyData", lazydata, file = file)
-  desc::desc_set("Config/Needs/website", "rmarkdown", file = file)
+  desc::desc_set("Config/Needs/website", "rmarkdown, readr", file = file)
   # Date
   desc::desc_set("Date",
                  Sys.Date(),
