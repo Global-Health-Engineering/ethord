@@ -63,6 +63,54 @@ devtools::install_github("`r organisation`/`r desc::desc_get_field("Package")`",
 
 -----
 
+## Example Usage
+
+Here's a quick example showing how to visualize the Open Research Data Program data:
+
+```{r example-plot, fig.height=6, fig.width=10}
+library(ethord)
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+
+portal |> 
+  mutate(category = case_when(
+    category == "Contribute" ~ "Contribute (30k)",
+    category == "Explore" ~ "Explore (150k)",
+    category == "Establish" ~ "Establish (1.5m)"
+  )) |>
+  mutate(category = factor(category, 
+                                levels = c("Contribute (30k)", 
+                                           "Explore (150k)", 
+                                           "Establish (1.5m)"))) |>
+  count(institutions, category) |> 
+    mutate(institutions = str_wrap(institutions, width = 30)) |>
+  ggplot(aes(x = reorder(institutions, n), 
+             y = n,
+             fill = category)) +
+  geom_col(position = "dodge") +
+  geom_label(aes(label = n),
+             position = position_dodge(width = 0.9),
+             show.legend = FALSE,
+             color = "white",
+             fontface = "bold",
+             size = 3) +
+  coord_flip() +
+  labs(
+    title = "Open Research Data Program of the ETH Board",
+    subtitle = "Number of funded projects per institution and project category",
+    y = "Number of projects",
+    x = NULL,
+    fill ="Project category:"
+  ) +
+  scale_fill_colorblind() +
+  statR::theme_stat(base_size = 10) +
+  theme(panel.grid.major.y = element_blank(),
+        axis.text.y = element_text(size = 8))
+```
+
+-----
+
 ### Download as CSV Files
 
 If you prefer to work with the data outside of R, you can download individual datasets as CSV files.

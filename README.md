@@ -27,6 +27,57 @@ devtools::install_github("Global-Health-Engineering/ethord", dependencies = TRUE
 
 ------------------------------------------------------------------------
 
+## Example Usage
+
+Here’s a quick example showing how to visualize the Open Research Data
+Program data:
+
+``` r
+library(ethord)
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+
+portal |> 
+  mutate(category = case_when(
+    category == "Contribute" ~ "Contribute (30k)",
+    category == "Explore" ~ "Explore (150k)",
+    category == "Establish" ~ "Establish (1.5m)"
+  )) |>
+  mutate(category = factor(category, 
+                                levels = c("Contribute (30k)", 
+                                           "Explore (150k)", 
+                                           "Establish (1.5m)"))) |>
+  count(institutions, category) |> 
+    mutate(institutions = str_wrap(institutions, width = 30)) |>
+  ggplot(aes(x = reorder(institutions, n), 
+             y = n,
+             fill = category)) +
+  geom_col(position = "dodge") +
+  geom_label(aes(label = n),
+             position = position_dodge(width = 0.9),
+             show.legend = FALSE,
+             color = "white",
+             fontface = "bold",
+             size = 3) +
+  coord_flip() +
+  labs(
+    title = "Open Research Data Program of the ETH Board",
+    subtitle = "Number of funded projects per institution and project category",
+    y = "Number of projects",
+    x = NULL,
+    fill ="Project category:"
+  ) +
+  scale_fill_colorblind() +
+  statR::theme_stat(base_size = 10) +
+  theme(panel.grid.major.y = element_blank(),
+        axis.text.y = element_text(size = 8))
+```
+
+<img src="man/figures/README-example-plot-1.png" width="100%" style="display: block; margin: auto;" />
+
+------------------------------------------------------------------------
+
 ### Download as CSV Files
 
 If you prefer to work with the data outside of R, you can download
@@ -73,7 +124,7 @@ get("docs_detail") |>
   gt::as_raw_html()
 ```
 
-<div id="nqlmzmxgon"
+<div id="lvlfixlqxv"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -896,7 +947,7 @@ get("docs_proposal") |>
   gt::as_raw_html()
 ```
 
-<div id="hgrkbdctww"
+<div id="ytynazwlom"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -1414,7 +1465,7 @@ get("docs_report") |>
   gt::as_raw_html()
 ```
 
-<div id="ovreivhhut"
+<div id="immslaqpzx"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
@@ -1770,7 +1821,7 @@ get("portal") |>
   gt::as_raw_html()
 ```
 
-<div id="kutuncbpnj"
+<div id="vkcpptneue"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
