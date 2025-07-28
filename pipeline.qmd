@@ -75,11 +75,27 @@ process_csv <- function(file_path,
 ```
 
 ```{r}
-# Remove applicant_gender from docs_detail.csv
+# Preprocessing cleanup step
+# Convert date format from DD.MM.YYYY to YYYY-MM-DD and rename column
 docs_details_path <- file.path("data-raw", "docs_detail.csv")
 if (file.exists(docs_details_path)) {
   df <- read.csv(docs_details_path)
+  
+  # Convert project_start_dd.mm.yyyy to YYYY-MM-DD format and rename column
+  if ("project_start_dd.mm.yyyy" %in% names(df)) {
+    # Handle dates and NA values
+    df$project_start_yyyy_mm_dd <- ifelse(
+      is.na(df$project_start_dd.mm.yyyy) | df$project_start_dd.mm.yyyy == "NA",
+      NA,
+      format(as.Date(df$project_start_dd.mm.yyyy, format = "%d.%m.%Y"), "%Y-%m-%d")
+    )
+    # Remove old column
+    df$project_start_dd.mm.yyyy <- NULL
+  }
+  
+  # Remove applicant_gender column
   df$applicant_gender <- NULL
+  
   write.csv(df, docs_details_path, row.names = FALSE)
 }
 
