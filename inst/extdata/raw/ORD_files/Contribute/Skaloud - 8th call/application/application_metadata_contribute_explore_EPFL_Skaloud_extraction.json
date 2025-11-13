@@ -1,0 +1,414 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Skaloud - 8th call/application/EPFL_Skaloud.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "MER",
+    "main_applicant_first_name": "Jan",
+    "main_applicant_surname": "Skaloud",
+    "main_applicant_laboratory_name": "EPFL ENAC IIE CRYOS",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": null,
+    "project_title": "Open Processing of Airborne imaging Spectrometry",
+    "project_acronym": "OPAS",
+    "project_abstract": "Developed by NASA-JPL and operated by the consortium of Swiss universities - ARES, the AVIRIS-4 is the most advanced airborne imaging spectrometer (AIS) currently operational in Europe. In agreement with NASA-JPL, ARES will make all data produced by AVIRIS-4 publicly available and is building an environment of open tools to make the processing of this data accessible, interoperable and reproducible, in line with FAIR principles. During our previous ORD-Contribute project, OGAIS, we developed an open tool which can be used to label point correspondences in AIS images by hand. This tool enables the airborne remote sensing community to obtain ground truth “tie-points” for evaluating the quality of the scene reconstruction and/or improving the image geo-referencing accuracy. After the first flights of AVIRIS-4 during the spring-summer this year, a clear need emerged for the mission at high resolution (0.3 – 1 m/pixel) to obtain point correspondence labels without human intervention in order to i) improve the conventional (direct) georeferencing, ii) automate the quality assessment on all current and future missions featuring more than couple flight-lines (>0.5 TB / mission). This project therefore proposes to support ARES ORD practices by providing tools to automate the detection of tie-points as spatial constraints in overlapping AVIRIS-4 images, and integrate them in EPFL’s open, on-line georeferencing service ODYN to maximise findability.",
+    "keywords": [
+      "Remote sensing",
+      "airborne image spectrometry",
+      "georeferencing",
+      "optimisation",
+      "data-fusion"
+    ],
+    "start_date": "6 Jan 2025",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Automatic Labelling"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Evaluate & Refine Automatic Labelling Quality with Noise"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Web Portal"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 8"
+          },
+          {
+            "page": 20,
+            "matching_text": "ETH Domain ORD Program** **Contribute Track**"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "Both the applicant details table ('Which ETH Domain do you belong to?') and a direct citation from the project summary support EPFL. No contradictory data was found.",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "ORD *Contribute* project at Ecole Polytechnique Fédérale de Lausanne"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title) for Jan Skaloud is 'MER'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Both extractions clearly and consistently state the main applicant's first name as 'Jan', with direct mention and table format. No conflict. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "application of Professor Jan Skaloud for an ORD *Contribute* project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "application of Professor Jan Skaloud for an ORD *Contribute* project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'EPFL Laboratory': EPFL ENAC IIE CRYOS"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'Postcode / Zipcode': 1015"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'City': Lausanne"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION. This project title appears in the research proposal table and is also almost identical to the more compact 'OPAS – Open Processing of Airborne Spectrometry' found later, showing consistency. The table version is selected due to completeness and higher initial document prominence, and both high-confidence signals confirm its validity.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project title in research proposal table is 'Open Processing of Airborne imaging Spectrometry'"
+          },
+          {
+            "page": 20,
+            "matching_text": "project entitled *OPAS* – Open Processing of Airborne Spectrometry"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995639953416,
+        "confidence": 0.9999995639953416
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project: OPAS"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Developed by NASA-JPL and operated by the consortium of Swiss universities - ARES, the AVIRIS-4 is the most advanced airborne imaging spectrometer ... in EPFL’s open, on-line georeferencing service ODYN to maximise findability."
+          }
+        ],
+        "extraction_confidence": 0.9999927117991888,
+        "confidence": 0.9999927117991888
+      },
+      "keywords": [
+        {
+          "reasoning": "First keyword from the comma-separated list.",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords provided in proposal table: Remote sensing, airborne image spectrometry, georeferencing, optimisation, data-fusion"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Second keyword from list.",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords provided in proposal table: Remote sensing, airborne image spectrometry, georeferencing, optimisation, data-fusion"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Third keyword in list.",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords provided in proposal table: Remote sensing, airborne image spectrometry, georeferencing, optimisation, data-fusion"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Fourth keyword in list.",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords provided in proposal table: Remote sensing, airborne image spectrometry, georeferencing, optimisation, data-fusion"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Fifth keyword in list.",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords provided in proposal table: Remote sensing, airborne image spectrometry, georeferencing, optimisation, data-fusion"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'Proposed Starting Date' in research proposal is '6 Jan 2025'."
+          }
+        ],
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Project duration ... 12 months"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "Both citations explicitly list 30000 CHF as the total requested amount in budget tables. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Total requested amount in CHF | 30000 |"
+          },
+          {
+            "page": 18,
+            "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 30'000       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP1 - Automatic Labelling"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP1 - Automatic Labelling"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996091432478763,
+            "confidence": 0.9996091432478763
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP2 - Evaluate & Refine Automatic Labelling Quality with Noise"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP2 - Evaluate & Refine Automatic Labelling Quality with Noise"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999775031095,
+            "confidence": 0.999999775031095
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP3 - Web Portal"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP3 - Web Portal"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP4 - Dissemination"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "WP4 - Dissemination"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 11913,
+      "num_output_tokens": 7674
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "33f75bcd-6a79-4de0-9fdf-fc6c0523f99c",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:40:30.779717+00:00",
+  "updated_at": "2025-11-11T11:42:22.541849+00:00"
+}

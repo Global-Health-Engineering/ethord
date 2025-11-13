@@ -1,0 +1,168 @@
+{
+  "document_path": "raw/ORD_files/Explore/Hahnloser  - 1st call/application/ETHZ_Hahnloser.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 75000.0,
+    "total_budget_personnel_postdocs": null,
+    "total_budget_personnel_students": null,
+    "total_budget_personnel_other": 15000.0,
+    "total_budget_personnel_total_direct": null,
+    "total_budget_travel": null,
+    "total_budget_equipment": 15000.0,
+    "total_budget_other_publication_fees": null,
+    "total_budget_other_conferences_workshops": 3000.0,
+    "total_budget_other_other": 7000.0,
+    "total_budget_other_total_direct": 10000.0,
+    "total_budget_total_direct": 110000.0,
+    "total_budget_subcontracting": 40000.0,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 150000"
+          },
+          {
+            "page": 31,
+            "matching_text": "Total Costs (A + B)             | 150k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.570919658446389,
+        "confidence": 0.570919658446389
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "Senior Staff    | 75k CHF for software engineer (Jonathan Prada, 25k CHF is own in-kind contribution)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999031936799,
+        "confidence": 0.9999999031936799
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "Other           | 15k CHF for user experience specialist and test session organizer"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Equipment³ | 15k CHF large server (operational cost, own in-kind contribution)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999031936799,
+        "confidence": 0.9999999031936799
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Conferences and workshops⁵ | 3000 CHF for 60 lunches (10 test sessions of 6 students..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Other (please specify)⁶ | 7000 CHF Cloud Infrastructure: Database (>57 CHF/month)..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "Sum of explicit 'Other' direct costs: 3000 (Conferences and workshops) + 7000 (Cloud Infrastructure/Other). VERBATIM EXTRACTION of subtotals where total not directly listed.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Conferences (3000) + Other (7000) = 10000."
+          }
+        ],
+        "parsing_confidence": 0.20402499960979872,
+        "extraction_confidence": 0.20402499960979872,
+        "confidence": 0.20402499960979872
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 31,
+            "matching_text": "A – Total Direct Costs (i + ii) | 110k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.4014043554518887,
+        "confidence": 0.4014043554518887
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 31,
+            "matching_text": "B – Subcontracting Costs 7      | 40K CHF for Data Aggregator"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "error": "Input should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_personnel_total_direct)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_other_publication_fees)"
+    },
+    "usage": {
+      "num_pages_extracted": 31,
+      "num_document_tokens": 16077,
+      "num_output_tokens": 2761
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "40c1c404-2cdf-4d4d-9f7d-a94318ae9559",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:18:42.007620+00:00",
+  "updated_at": "2025-11-11T14:19:24.222836+00:00"
+}

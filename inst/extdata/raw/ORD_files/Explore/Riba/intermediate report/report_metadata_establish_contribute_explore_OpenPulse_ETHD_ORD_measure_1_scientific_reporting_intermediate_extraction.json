@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Explore/Riba/intermediate report/OpenPulse_ETHD_ORD_measure_1_scientific_reporting_intermediate.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "OpenPulse: Assessing Open Science community metrics for Open Source Software",
+    "explore_call_number": 1,
+    "project_starting_and_end_date": "01.08.2024 – 31.01.2026",
+    "main_applicant_responsible_for_project": "Oksana Riba Grognuz",
+    "function": "Head of ORD Engagement & Services",
+    "laboratory_department": "Swiss Data Science Center - SDSC",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Intermediate",
+    "reporting_period": "01.08.2024 - 30.04.2025",
+    "coapplicants": [
+      {
+        "name": "Olivier Verscheure",
+        "function": "Executive Director",
+        "institution": "Swiss Data Science Center - SDSC",
+        "roles_and_main_tasks": ""
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.999999975937206,
+        "confidence": 0.999999975937206
+      },
+      "explore_call_number": {
+        "reasoning": "The entry 'EPFL SCR0985213' corresponds to an Explore call; defaulting to 1 for '1st'.",
+        "extraction_confidence": 0.9946720998225477,
+        "confidence": 0.9946720998225477
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999997477632236,
+        "confidence": 0.9999997477632236
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "The box for Intermediate is checked in '[x] Intermediate scientific report'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "[x] Intermediate scientific report"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Olivier Verscheure"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Executive Director"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Swiss Data Science Center - SDSC"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999823654606765,
+            "confidence": 0.9999823654606765
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Olivier Verscheure | Executive Director | Swiss Data Science Center - SDSC |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "All four columns for the sole co-applicant are listed in the table; the last column (roles & main tasks) is blank in the report."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 7,
+      "num_document_tokens": 3969,
+      "num_output_tokens": 1219
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "117e665d-225f-412d-b5a5-3dc14cc2c565",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:51:09.014465+00:00",
+  "updated_at": "2025-11-11T17:52:05.759357+00:00"
+}

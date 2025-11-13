@@ -1,0 +1,370 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Bokulich - 3rd call/application/ETHZ_Bokulich.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Assistant Professor",
+    "main_applicant_first_name": "Nicholas",
+    "main_applicant_surname": "Bokulich",
+    "main_applicant_laboratory_name": "Food Systems Biotechnology",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zurich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Assistant Professor",
+        "first_name": "Nicholas",
+        "surname": "Bokulich",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "BOSTORD: Building Open-Source Tools for reproducible interaction with biological ORD databases",
+    "project_acronym": "BOSTORD",
+    "project_abstract": "The life sciences are increasingly reliant on access to and use of centralized online databases for exchanging biological information (e.g., NCBI, EBI, MGnify) (EBI, 2022; NCBI, 2022c; Mitchell et al., 2020). These databases allow researchers to share diverse primary (raw) and secondary (processed) biological datasets, allowing downstream re-use. However, significant rate-limiting steps to scientific discovery are (a) technical challenges for users depositing or withdrawing open research data (ORD) from these datasets, and (b) the poor control, traceability, and reproducibility of some steps involved in interacting with and downstream use of these ORD resources. We propose developing ORD tools (software) to facilitate remote, programmatic, and fully FAIR/reproducible interaction with several leading ORD resources that are commonly used in the biological sciences. These will eliminate current barriers to ORD sharing, (re-)use, and practices, and encourage community engagement in ORD practices. In this “contribute” project we will specifically contribute ORD tools for the microbiome research domain, but the mutli-disciplinarity of this field will position our project outcomes to translate to other research domains. This fits the criteria for the Contribute program, as we contribute software tools to facilitate interaction with and re-use of ORD from established ORD databases.",
+    "keywords": [
+      "nucleotide sequence data",
+      "microbiome",
+      "open-source software",
+      "FAIR data",
+      "reproducibility"
+    ],
+    "start_date": "1 Apr 2023",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": null
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 10,
+            "matching_text": "| ETH zürich                                                                                                   |"
+          },
+          {
+            "page": 23,
+            "matching_text": "The Department of Health Sciences and Technology (D-HEST) supports the application of Prof. Nicholas Bokulich for an ORD Explore project at ETH Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999559219684445,
+        "confidence": 0.9999565879684446
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function listed as Assistant Professor in applicant table"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Presenter as Nicholas in applicant table"
+          },
+          {
+            "page": 23,
+            "matching_text": "application of Prof. Nicholas Bokulich for an ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Verbatim extraction from both a dedicated surname field and explicit reference to 'Prof. Nicholas Bokulich' as the applicant. Both sources confirm the value, while other segments have insufficient data. Deduplicated result.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Surname field lists Bokulich"
+          },
+          {
+            "page": 23,
+            "matching_text": "application of Prof. Nicholas Bokulich for an ORD Explore project"
+          }
+        ],
+        "extraction_confidence": 0.9999999677312261,
+        "confidence": 0.9999999677312261
+      },
+      "project_title": {
+        "reasoning": "All relevant extractions deliver the identical principal project title text. On page 10, the acronym 'BOSTORD:' is included with the full title under the explicit section header 'Project title', which supports its inclusion as the canonical form. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Project title          | Building Open-Source Tools for reproducible interaction with biological ORD databases |"
+          },
+          {
+            "page": 10,
+            "matching_text": "## 1. Project title\nBOSTORD: Building Open-Source Tools for reproducible interaction with biological ORD databases"
+          },
+          {
+            "page": 23,
+            "matching_text": "for the project entitled \"Building Open-Source Tools for reproducible interaction with biological ORD databases\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Total requested amount in CHF | 30000 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Laboratory name listed as Food Systems Biotechnology"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode field lists 8092"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City is Zurich in the applicant table"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\" - Call 3"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Acronym of the project | BOSTORD |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Abstract               | The life sciences are increasingly reliant on access to and use of centralized online databases for exchanging..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999933054399828,
+        "confidence": 0.9999933054399828
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "nucleotide sequence data, microbiome, open-source software, FAIR data, reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "nucleotide sequence data, microbiome, open-source software, FAIR data, reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "nucleotide sequence data, microbiome, open-source software, FAIR data, reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "nucleotide sequence data, microbiome, open-source software, FAIR data, reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "nucleotide sequence data, microbiome, open-source software, FAIR data, reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date provided in project details"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Project duration is given as 12"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Nicholas Bokulich, ETH Zürich, Assistant Professor, postcode 8092"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Nicholas Bokulich, ETH Zürich, Assistant Professor, postcode 8092"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Nicholas Bokulich, ETH Zürich, Assistant Professor, postcode 8092"
+              }
+            ],
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Nicholas Bokulich, ETH Zürich, Assistant Professor, postcode 8092"
+              }
+            ],
+            "extraction_confidence": 0.9999999354624522,
+            "confidence": 0.9999999354624522
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Nicholas Bokulich, ETH Zürich, Assistant Professor, postcode 8092"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 23,
+      "num_document_tokens": 16461,
+      "num_output_tokens": 7422
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "9ad94d13-bb74-41e5-8a07-e48733b144a9",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T10:01:26.141243+00:00",
+  "updated_at": "2025-11-11T10:03:20.125231+00:00"
+}

@@ -1,0 +1,217 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Ghiggi - 4th call/application/EPFL_Ghiggi.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 30000.0,
+    "total_budget_personnel_total_direct": 30000.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 30000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 30000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Total Costs (A + B)             | 30 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "The budget table (page 15) lists 'Senior Staff' with a dash ('-'), which is a standard indication of zero allocation in tabular data. Thus, the requested amount for Senior Staff is 0 CHF.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Senior Staff | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "Budget table lists Postdocs with a dash '-', indicating no budgeted amount.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Postdocs | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "Budget shows blank/empty cell for Students, no value stated. Interpreted as zero budget allocated for Students.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Students |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Other (Technical staff) | 30 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "Table entry 'i. Total Direct Costs for Personnel' is 30 000 CHF. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "i. Total Direct Costs for Personnel row for the sum. Table entry 'i. Total Direct Costs for Personnel' is 30 000 CHF."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "Budget specifies '-' for Travel, so no CHF is allocated.",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "row labeled 'Travel' under Direct Costs specifies '-'"
+          }
+        ],
+        "confidence": 0.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "Equipment shows '-' indicating no CHF is allocated.",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "Equipment shows '-' indicating no CHF is allocated."
+          }
+        ],
+        "confidence": 0.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "The budget table specifically states that for Publications (Open Access fees), 'JOSS has no publication fee', and there is no CHF value listed for this line. Therefore, the extracted value is 0.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Publications (including Open Access fees), etc.⁴ | (JOSS has no publication fee)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION. The budget table on page 16 explicitly lists Conferences and workshops as '-' (i.e., no CHF amount allocated), which by convention is interpreted as zero.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Conferences and workshops5      | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Other (please specify)6         | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION. The source table lists 'ii. Total Other Direct Costs' as '-', which is interpreted as zero because '-' signifies no allocated costs.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "ii. Total Other Direct Costs    | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "A – Total Direct Costs (i + ii) | 30 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "Entry is '-', indicating no subcontracting budget.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "B – Subcontracting Costs7       | -"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 20,
+      "num_document_tokens": 9669,
+      "num_output_tokens": 3568
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "256d2936-f66a-4810-b74f-0e97ef3d4c23",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:47:04.328735+00:00",
+  "updated_at": "2025-11-11T13:47:37.784371+00:00"
+}

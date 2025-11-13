@@ -1,0 +1,631 @@
+{
+  "document_path": "raw/ORD_files/Explore/Riba/application/EPFL_RIBA.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Head of ORD Engagement & Services",
+    "main_applicant_first_name": "Oksana",
+    "main_applicant_surname": "Riba Grognuz",
+    "main_applicant_laboratory_name": "Swiss Data Science Center (EPFL VPA VPA-AVP-CP SDSC)",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Head of ORD Engagement & Services",
+        "first_name": "Oksana",
+        "surname": "Riba Grognuz",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Executive Director Swiss Data Science Center",
+        "first_name": "Olivier",
+        "surname": "Verscheure",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "OpenPulse: Assessing Open Science community metrics for Open Source Software",
+    "project_acronym": "OpenPulse",
+    "project_abstract": "OpenPulse: Assessing Open Science community metrics for Open Source Software aims to redefine the measurement of Open Science by focusing on Open Source Software (OSS) from EPFL. It addresses the limitations of current Open Science metrics, which primarily track Open Access publications, by proposing a new framework to evaluate the development of OSS and its community impact. This involves developing a tool, OpenPulse, to monitor OSS activities, establish reliable OSS datasets, and create visualizations for real-time impact assessment. The project emphasizes collaboration, community engagement, and the development of discipline-specific dashboards, aiming to foster a more inclusive and comprehensive understanding of Open Science's impact beyond traditional publications. Our project aims to solve that issue, by investigating ways to identify Open Source Software coming out of EPFL, defining measures of their FAIRness and investigating community metrics that will provide us with an understanding of the impact and health of a project. This therefore falls within the objective of both specifying ORD standards and prototyping a new ORD tool for monitoring Open Science outputs and their impact. Through providing visibility to these outputs, our intention is also to help researchers build and find their communities to engage in collaboration around shared resources. Crucially, we hold the view that Open Science extends beyond institutional boundaries and is instead rooted in discipline-specific communities and their individual definitions of the concept. The project will therefore involve workshops to consult researchers about the needs of their specific communities, and build individual dashboards that are catered to these needs. Once the project is robust and deployed, expansion to inter institutional collaborations will be developed.",
+    "keywords": [
+      "Open Science Metrics",
+      "Support for Open Science Policies",
+      "Open Source Community Health",
+      "Software Reusability",
+      "Community Engagement"
+    ],
+    "start_date": "1 Jul 2024",
+    "project_duration_months": 18,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Coordination and Conceptual Framework"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Prototype Development"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Prototype Validation"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Prototype Deployment"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Prototype Integration into central IT"
+      },
+      {
+        "wp_identifier": "WP6",
+        "wp_title": "Dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "All three snippets indicate EPFL as the main applicant institution: (1) directly in an applicant table, (2) through project narrative at EPFL, and (3) in a project summary for EPFL. No ambiguity or conflicting data.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Which ETH Domain do you belong to?                                                                                                                                                                                                                                                                                                                            | EPFL"
+          },
+          {
+            "page": 11,
+            "matching_text": "Our project aims to solve that issue, by investigating ways to identify Open Source Software coming out of EPFL, defining measures..."
+          },
+          {
+            "page": 26,
+            "matching_text": "ORD Explore* project at EPFL for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title)                                                                                                                                                                                                                                                                                                                                              | Head of ORD Engagement & Services"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Two sources (page 1, page 26) directly name 'Oksana' as the main applicant, including in formal contexts ('First name(s)' field and applicant letter). The mention of 'Noémie' refers specifically to leadership of a work package (coordination role), not to the status of main applicant. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s)                                                                                                                                                                                                                                                                                                                                                 | Oksana"
+          },
+          {
+            "page": 26,
+            "matching_text": "Oksana Riba Grognuz for an *ORD Explore* project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Most direct and explicit mentions ('Surname(s)' and main applicant proposal section) identify 'Riba Grognuz' as the surname of the main applicant. The entry for 'Mazaré' corresponds to a work package lead, not the main applicant; this is supportive but not primary evidence.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s)                                                                                                                                                                                                                                                                                                                                                    | Riba Grognuz"
+          },
+          {
+            "page": 26,
+            "matching_text": "Oksana Riba Grognuz for an *ORD Explore* project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "Both literal extracts refer to the same lab: (1) the formal institution/unit name from an administrative list, and (2) the standard lab name from a letter. Combining both gives the most precise and complete representation, as the Swiss Data Science Center is administered under the formal unit 'EPFL VPA VPA-AVP-CP SDSC'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "EPFL Laboratory                                                                                                                                                                                                                                                                                                                                               | EPFL VPA VPA-AVP-CP SDSC"
+          },
+          {
+            "page": 26,
+            "matching_text": "the Laboratory of the Swiss Data Science Center, headed by Dr. Olivier Verscheure."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999997308623701,
+        "confidence": 0.999997308623701
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode                                                                                                                                                                                                                                                                                                                                            | 1015"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City                                                                                                                                                                                                                                                                                                                                                          | Lausanne"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to? | EPFL"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                   | Executive Director Swiss Data Science Center"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                      | Olivier"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                         | Verscheure"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Swiss Data Science Center, EPFL\nINN 218 (Bâtiment INN) Station 14\nLausanne 1015"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\""
+          },
+          {
+            "page": 26,
+            "matching_text": "ORD Explore* project at EPFL for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "Project title**\n> OpenPulse: Assessing Open Science community metrics for Open Source Software"
+          },
+          {
+            "page": 26,
+            "matching_text": "the project entitled OpenPulse: Assessing Open Science community metrics for Open Source Software"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'Acronym of the project' is given as 'OpenPulse'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "Abstract, aims, approach, and methodology were present in two different extractions from sequential portions of the research proposal (pages 0-18). The information is complementary with no contradictions or duplications. Both are combined in order with no material overlap. Confidence scores averaged for final value.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "OpenPulse: Assessing Open Science community metrics for Open Source Software\" aims to redefine the measurement of Open Science by focusing on Open Source Software (OSS) from EPFL. It addresses the limitations of current Open Science metrics, which primarily track Open Access publications, by proposing a new framework to evaluate the development of OSS and its community impact."
+          },
+          {
+            "page": 11,
+            "matching_text": "Our project aims to solve that issue, by investigating ways to identify Open Source Software coming out of EPFL, defining measures..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9995842324236384,
+        "confidence": 0.9995842324236384
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Open Science Metrics, Support for Open Science Policies, Open Source Community Health, Software Reusability, Community Engagement"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Open Science Metrics, Support for Open Science Policies, Open Source Community Health, Software Reusability, Community Engagement"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Open Science Metrics, Support for Open Science Policies, Open Source Community Health, Software Reusability, Community Engagement"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Open Science Metrics, Support for Open Science Policies, Open Source Community Health, Software Reusability, Community Engagement"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Open Science Metrics, Support for Open Science Policies, Open Source Community Health, Software Reusability, Community Engagement"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date is stated as '1 Jul 2024'."
+          }
+        ],
+        "extraction_confidence": 0.9999984116311561,
+        "confidence": 0.9999984116311561
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "project timeline over a period of 18 months"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Total Costs in CHF (A + B)      |                                                  |   | 150,000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 0.6430118802882063
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 15,
+                "matching_text": "Work Package 1: Coordination and Conceptual Framework"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP1: Coordination and Conceptual Framework"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 15,
+                "matching_text": "Work Package 1: Coordination and Conceptual Framework"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP1: Coordination and Conceptual Framework"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with deduplicated multi-source citations."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 16,
+                "matching_text": "Work Package 2: Prototype Development"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP2: Prototype Development"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 16,
+                "matching_text": "Work Package 2: Prototype Development"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP2: Prototype Development"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with deduplicated multi-source citations."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "Work Package 3: Prototype Validation"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP3: Prototype Validation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "Work Package 3: Prototype Validation"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP3: Prototype Validation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with deduplicated multi-source citations."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "Work Package 4: Prototype Deployment"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP4: Prototype Deployment"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "Work Package 4: Prototype Deployment"
+              },
+              {
+                "page": 19,
+                "matching_text": "WP4: Prototype Deployment"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with deduplicated multi-source citations."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "Work Package 5: Prototype Integration into central IT"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "Work Package 5: Prototype Integration into central IT"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "Work Package 6: Dissemination"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "Work Package 6: Dissemination"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 26,
+      "num_document_tokens": 13710,
+      "num_output_tokens": 12288
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c2264766-c41e-4bda-85ef-4c550c2a89be",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:08:27.892263+00:00",
+  "updated_at": "2025-11-11T13:11:11.377084+00:00"
+}

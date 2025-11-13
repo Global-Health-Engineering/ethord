@@ -1,0 +1,192 @@
+{
+  "document_path": "raw/ORD_files/Explore/Riek - 1st call/final scientific report/241028 ETHD_ORD_measure_1_final_scientific report.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Initiative for primary bio-NMR open research data",
+    "explore_call_number": 0,
+    "project_starting_and_end_date": "01.03.2023 to 31.08.2024",
+    "main_applicant_responsible_for_project": "Roland Riek",
+    "function": "Professor",
+    "laboratory_department": "D-CHAB, Institute of Molecular and Physical Science",
+    "institution_of_main_applicant": "ETH Zürich",
+    "report": "Final",
+    "reporting_period": "01.03.2023 to 31.08.2024",
+    "coapplicants": [
+      {
+        "name": "Peter Güntert",
+        "function": "Professor",
+        "institution": "D-CHAB, Institute of Molecular and Physical Science",
+        "roles_and_main_tasks": ""
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project title: Initiative for primary bio-NMR open research data"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Call number given as 'R. Riek - EPFL SCR0842384'."
+          }
+        ],
+        "parsing_confidence": 0.0,
+        "confidence": 0.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "01.03.2023 to 31.08.2024"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Extracted from General information table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function: Professor (from General information table)"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "D-CHAB, Institute of Molecular and Physical Science"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "From 'Institution of main applicant' in General info table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "Mapped 'Final scientific report' to schema's 'Final' value.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Final scientific report"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Reporting period (MM/YY to MM/YY): 01.03.2023 to 31.08.2024"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Peter Güntert | Professor | D-CHAB, Institute of Molecular and Physical Science"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "D-CHAB, Institute of Molecular and Physical Science"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 8,
+      "num_document_tokens": 5536,
+      "num_output_tokens": 3603
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "a1f9b484-b1b6-4204-a1a5-b5507a33436e",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:37:48.771787+00:00",
+  "updated_at": "2025-11-11T17:39:19.586861+00:00"
+}

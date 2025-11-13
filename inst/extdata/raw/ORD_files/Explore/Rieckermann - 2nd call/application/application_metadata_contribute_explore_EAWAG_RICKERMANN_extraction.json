@@ -1,0 +1,515 @@
+{
+  "document_path": "raw/ORD_files/Explore/Rieckermann - 2nd call/application/EAWAG_RICKERMANN.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "Eawag",
+    "main_applicant_function": "Group Leader (Dr.)",
+    "main_applicant_first_name": "Jörg",
+    "main_applicant_surname": "Rieckermann",
+    "main_applicant_laboratory_name": "Intelligent Network Operations",
+    "main_applicant_postcode": 8600,
+    "main_applicant_city": "Dübendorf",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "Eawag",
+        "function_title": "Group Leader (Dr.)",
+        "first_name": "Jörg",
+        "surname": "Rieckermann",
+        "postcode": 8600
+      },
+      {
+        "eth_domain_institution": "Eawag",
+        "function_title": "Group Leader (Dr.)",
+        "first_name": "João Paulo",
+        "surname": "Leitão",
+        "postcode": 8600
+      }
+    ],
+    "project_title": "Exploring and strengthening reproducible research practices in urban drainage (INSCRIBE)",
+    "project_acronym": "INSCRIBE",
+    "project_abstract": "To enhance the reproducibility of research practices within the urban drainage community, particularly focusing on improving the interpretability and reusability of both data and code, it is imperative to enhance the documentation of the origins of open datasets and the outcomes of workflows and models utilizing these datasets. Our goal is twofold: develop prototype Open Research Data (ORD) tools with the Swiss Data Science Center and assess their effectiveness with the international urban drainage community. We will explore if RENKU can serve as a comprehensive platform for this, given its features like collaborative workflow management, version control, and integration with data science tools, promoting reproducibility, and efficient collaboration among researchers. Planned use cases include i) individual researchers sharing results, ii) benchmarking rainfall-runoff models in our department, iii) and distributed groups providing pre-processed datasets with full provenance information. We will start by enhancing the FAIRness of a 20-year-old dataset on sewer mixing. Additionally, we will evaluate different EPA-SWMM model implementations and engage the international urban drainage community in ORD practices. This initiative could establish a cornerstone for data sharing in urban drainage, extending beyond Eawag's research.",
+    "keywords": [
+      "Urban Drainage",
+      "Reproducible Research",
+      "Open Research Data",
+      "RENKU Platform",
+      "Collaborative Workflow Management"
+    ],
+    "start_date": "1 Jan 2025",
+    "project_duration_months": 18,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Review KGs and data repositories"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Reproducible research workflows"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Community testing prototypes"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Both extractions are verbatim or directly supported by the text. Multiple references to Eawag as the relevant ETH Domain and as host institution for the main applicant; no conflicting data.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Which ETH Domain do you belong to?' | EAWAG"
+          },
+          {
+            "page": 39,
+            "matching_text": "application of Jörg Rieckermann and João Leitao for an ORD Explore project at Eawag"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Both extractions agree that the main applicant's first name is 'Jörg'. One source provides an explicit table value, the other confirms via full-name listing as first applicant; both are direct and unambiguous.",
+        "citation": [
+          {
+            "page": 39,
+            "matching_text": "the application of Jörg Rieckermann and João Leitao for an ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Combined evidence from two sections (table and narrative) both directly provide 'Rieckermann' as the main applicant's surname. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table lists surname(s): Rieckermann"
+          },
+          {
+            "page": 39,
+            "matching_text": "the application of Jörg Rieckermann and João Leitao for an ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999934935519208,
+        "confidence": 0.9999934935519208
+      },
+      "project_title": {
+        "reasoning": "The full project title 'Exploring and strengthening reproducible research practices in urban drainage (INSCRIBE)' is consistently used in the '1. Project title' section and in support/endorsement letters. 'INSCRIBE' alone is simply the acronym and not an adequate full project title.",
+        "citation": [
+          {
+            "page": 13,
+            "matching_text": "1. Project title\nExploring and strengthening reproducible research practices in urban drainage (INSCRIBE)"
+          },
+          {
+            "page": 39,
+            "matching_text": "proposal “Exploring and strengthening reproducible research practices in urban drainage (INSCRIBE)”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997979184081,
+        "confidence": 0.9999997979184081
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION; the data on page 29, as well as the summed line items described on pages 22-28, both explicitly support a total requested budget of 150,000 CHF for the project. The 75,000 CHF entries are from individual institutional shares and not the project total.",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "| **Total Value** |             |     | **150** |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title): Group Leader (Dr.)"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Laboratory name: Intelligent Network Operations"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode: 8600"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City: Dübendorf"
+          }
+        ],
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Explore Projects\" Call 2"
+          },
+          {
+            "page": 39,
+            "matching_text": "ORD Explore project at Eawag for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project: INSCRIBE"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "To enhance the reproducibility of research practices within the urban drainage community, particularly focusing on improving the interpretability and reusability of both data and code, it is imperative to enhance the documentation of the origins of open datasets [...] This initiative could establish a cornerstone for data sharing in urban drainage, extending beyond Eawag's research."
+          }
+        ],
+        "extraction_confidence": 0.9999985574019016,
+        "confidence": 0.9999985574019016
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Urban Drainage, Reproducible Research, Open Research Data, RENKU Platform, Collaborative Workflow Management"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Urban Drainage, Reproducible Research, Open Research Data, RENKU Platform, Collaborative Workflow Management"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Urban Drainage, Reproducible Research, Open Research Data, RENKU Platform, Collaborative Workflow Management"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Urban Drainage, Reproducible Research, Open Research Data, RENKU Platform, Collaborative Workflow Management"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Urban Drainage, Reproducible Research, Open Research Data, RENKU Platform, Collaborative Workflow Management"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999999217959217,
+          "confidence": 0.9999999217959217
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Jan 2025"
+          }
+        ],
+        "extraction_confidence": 0.999913869863797,
+        "confidence": 0.999913869863797
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Project duration: 18"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Eawag"
+              }
+            ],
+            "extraction_confidence": 0.9999999354624522,
+            "confidence": 0.9999999354624522
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Group Leader (Dr.)"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Jörg"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Rieckermann"
+              }
+            ],
+            "extraction_confidence": 0.9999956441401362,
+            "confidence": 0.9999956441401362
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "8600"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Eawag"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Group Leader (Dr.)"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "João Paulo"
+              }
+            ],
+            "extraction_confidence": 0.9999988626301527,
+            "confidence": 0.9999988626301527
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Leitão"
+              }
+            ],
+            "extraction_confidence": 0.9999999354624522,
+            "confidence": 0.9999999354624522
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "8600"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "1 Review KGs and data repositories"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99841240476334,
+            "confidence": 0.99841240476334
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "1 Review KGs and data repositories"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996374533465,
+            "confidence": 0.9999996374533465
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "2 Reproducible research workflows"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "2 Reproducible research workflows"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "3 Community testing prototypes"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996647864002,
+            "confidence": 0.9999996647864002
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "3 Community testing prototypes"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 39,
+      "num_document_tokens": 25878,
+      "num_output_tokens": 9370
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c801458d-7f06-447c-a580-b8973797f4c3",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:23:50.064251+00:00",
+  "updated_at": "2025-11-11T12:30:24.799420+00:00"
+}

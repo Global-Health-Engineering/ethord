@@ -1,0 +1,654 @@
+{
+  "document_path": "raw/ORD_files/Explore/Henne/final report/ETHD_ORD_measure_1_ExAiRIM_Final_report_submitted.pdf",
+  "status": "success",
+  "data": {
+    "websites_platforms": {
+      "quantity": 1,
+      "descriptions": [
+        "AiiDA plugin/AiiDAlab app available through app install on aiidalab.materialscloud.org"
+      ],
+      "urls": [
+        "https://aiidalab.materialscloud.org"
+      ]
+    },
+    "repositories_catalogues": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "datasets_databases": {
+      "quantity": 1,
+      "descriptions": [
+        "Results in form of a standardized netcdf format will be retrieved upon successful execution"
+      ],
+      "urls": []
+    },
+    "software_tools": {
+      "quantity": 3,
+      "descriptions": [
+        "FLEXPART AiiDA plugin",
+        "FLEXPART AiiDA implementation in its current implementation status",
+        "AiiDAlab simulation interface for FLEXPART-COSMO/IFS",
+        "FLEXPART-COSMO/IFS sensitivities collection job interface",
+        "Inversion interface for importing and processing sensitivities and observations",
+        "Empa's ELRIS systems",
+        "University of Bristol's RHIME system"
+      ],
+      "urls": [
+        "https://github.com/aiidaplugins/aiida-flexpart"
+      ]
+    },
+    "models_standards": {
+      "quantity": 4,
+      "descriptions": [
+        "New standards for sharing transport model and inverse model results in connection with Horizon projects PARIS, AVENGERS, EYE-CLIMA. Data are formatted in netcdf and follow CF conventions.",
+        "Empa's ELRIS systems (model)",
+        "University of Bristol's RHIME system (model)",
+        "FLEXPART EDGAR (model)"
+      ],
+      "urls": [
+        "https://github.com/aiidaplugins/aiida-flexpart"
+      ]
+    },
+    "workshops": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "training_events": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "publications": {
+      "quantity": 1,
+      "descriptions": [
+        "A publication on the latest release of Empa’s inverse modelling system is in progress and will include a section on the AiiDA automation of workflows and data provenance."
+      ],
+      "urls": []
+    },
+    "presentations": {
+      "quantity": 1,
+      "descriptions": [
+        "Poster/hands on demo at ICOS & COSMO User Workshop, Feb 2024, Zürich"
+      ],
+      "urls": []
+    },
+    "outreach_activities": {
+      "quantity": 6,
+      "descriptions": [
+        "Meetings with ETH EXCLAIM, Destination Earth Digital Twin, C2SM, University of Bristol, UK Meteorological Office"
+      ],
+      "urls": []
+    },
+    "patents_ip": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "new_collaborations": {
+      "quantity": 4,
+      "descriptions": [
+        "Same teams as mentioned under meetings."
+      ],
+      "urls": []
+    },
+    "industrial_collaborations": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "estimated_users": {
+      "quantity": 10,
+      "descriptions": [
+        "Directly using our FLEXPART AiiDA implementation in its current implementation status."
+      ],
+      "urls": []
+    },
+    "other_outputs": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    }
+  },
+  "metadata": {
+    "schema_name": "ORDReportOutput",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "websites_platforms": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "AiiDA plugin/AiiDAlab app available through app install on https://aiidalab.materialscloud.org"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "AiiDA plugin/AiiDAlab app available through app install on https://aiidalab.materialscloud.org"
+              }
+            ],
+            "extraction_confidence": 0.9825491952988628,
+            "confidence": 0.9825491952988628
+          }
+        ],
+        "urls": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "AiiDA plugin/AiiDAlab app available through app install on https://aiidalab.materialscloud.org"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "repositories_catalogues": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "New or enhanced repositories and/or catalogues: | 0 |"
+            },
+            {
+              "page": 8,
+              "matching_text": "Atmospheric observations are the prerequisite of any inverse modelling. They are provided by various monitoring networks and in the context of this project only require importing."
+            },
+            {
+              "page": 13,
+              "matching_text": "INSUFFICIENT DATA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "datasets_databases": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "all of which will be stored within the AiiDA database and submitted in a human-readable yaml format to the compute node. Results in form of a standardized netcdf format will be retrieved upon successful execution."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999995679801056,
+          "confidence": 0.9999995679801056
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "Results in form of a standardized netcdf format will be retrieved upon successful execution."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8917391849701279,
+            "confidence": 0.8917391849701279
+          }
+        ],
+        "reasoning": "The outputs from earlier pages (idx 0/1) clearly state or infer zero new/enhanced datasets. However, page 13 unambiguously describes a new standardized netcdf format dataset stored in the AiiDA database, which counts for this output category. No URL is provided. Thus, quantity is 1, with a supporting description, both based on explicit textual evidence from the latest, relevant page."
+      },
+      "software_tools": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "FLEXPART AiiDA plugin https://github.com/aiidaplugins/aiida-flexpart"
+            },
+            {
+              "page": 7,
+              "matching_text": "Directly using our FLEXPART AiiDA implementation in its current implementation status."
+            },
+            {
+              "page": 14,
+              "matching_text": "Empa's ELRIS systems and University of Bristol's RHIME system"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.987,
+          "confidence": 0.987
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "FLEXPART AiiDA plugin https://github.com/aiidaplugins/aiida-flexpart"
+              }
+            ],
+            "extraction_confidence": 0.9999969475660114,
+            "confidence": 0.9999969475660114
+          },
+          {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "Directly using our FLEXPART AiiDA implementation in its current implementation status."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Figure 3: AiiDAlab simulation interface. The GUI is divided into two parts:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "FLEXPART-COSMO/IFS results and sensitivities collection job"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "In step 1 of the inversion interface, previously selected observations can be selected."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "Empa's ELRIS systems"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9212449287279382,
+            "confidence": 0.9212449287279382
+          },
+          {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "University of Bristol's RHIME system"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999842780381876,
+            "confidence": 0.9999842780381876
+          }
+        ],
+        "urls": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "FLEXPART AiiDA plugin https://github.com/aiidaplugins/aiida-flexpart"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "Multiple independent software tools are described: FLEXPART AiiDA plugin/implementation (with URL and interfaces), and Empa's ELRIS and Bristol's RHIME systems. Quantity is 3, as FLEXPART plugin and implementation are essentially one output with multiple aspects. Output includes all verbatim descriptions and cites corresponding text and pages. All unique descriptions and available URLs are retained."
+      },
+      "models_standards": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "New standards for sharing transport model and inverse model results in connection with Horizon projects PARIS, AVENGERS, EYE-CLIMA. Data are formatted in netcdf and follow CF conventions."
+            },
+            {
+              "page": 14,
+              "matching_text": "Empa's ELRIS systems"
+            },
+            {
+              "page": 14,
+              "matching_text": "University of Bristol's RHIME system"
+            },
+            {
+              "page": 14,
+              "matching_text": "ELRIS FLEXPART EDGAR"
+            }
+          ],
+          "extraction_confidence": 0.7497,
+          "confidence": 0.7497
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "New standards for sharing transport model and inverse model results in connection with Horizon projects PARIS, AVENGERS, EYE-CLIMA. Data are formatted in netcdf and follow CF conventions."
+              }
+            ],
+            "extraction_confidence": 0.9996,
+            "confidence": 0.9996
+          },
+          {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "Empa's ELRIS systems"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.3003,
+            "confidence": 0.3003
+          },
+          {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "University of Bristol's RHIME system"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9989,
+            "confidence": 0.9989
+          },
+          {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "ELRIS FLEXPART EDGAR"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7254,
+            "confidence": 0.7254
+          }
+        ],
+        "urls": [
+          {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "https://github.com/aiidaplugins/aiida-flexpart"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "Combined information from all relevant items: Entry 0 reports 1 new standard with supporting description and URL (verbatim extraction, page 0). Entry 2 mentions three model systems with associated descriptions and confidence values (page 14); these are treated as additional outputs but with less certainty as to their 'new or enhanced' status. No new models/standards in Entry 1. Final output describes all 4 items (1 high-confidence standard, 3 lower-confidence models) to capture framework as instructed, aggregating all unique descriptions and URL."
+      },
+      "workshops": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Scientific workshops organized as part of the project: | 0 |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "training_events": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Training and educational events and/or resources directly related to the project: | 0 |"
+            },
+            {
+              "page": 7,
+              "matching_text": "INSUFFICIENT DATA"
+            },
+            {
+              "page": 13,
+              "matching_text": "INSUFFICIENT DATA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "All provided extracts indicate that there are zero training and educational events/resources directly related to the project: this is listed as 0 in a results table (page 6) and corroborated by absence of mention in subsequent sections (pages 7 and 13). No descriptions or URLs are available."
+      },
+      "publications": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "A publication on the latest release of Empa’s inverse modelling system is in progress and will include a section on the AiiDA automation of workflows and data provenance."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999809508147135,
+          "confidence": 0.9999809508147135
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "A publication on the latest release of Empa’s inverse modelling system is in progress and will include a section on the AiiDA automation of workflows and data provenance."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999809508147135,
+            "confidence": 0.9999809508147135
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "presentations": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | 1 | Poster/hands on demo at ICOS & COSMO User Workshop, Feb 2024, Zürich"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Poster/hands on demo at ICOS & COSMO User Workshop, Feb 2024, Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999917316456,
+            "confidence": 0.999999917316456
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "outreach_activities": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Meetings with ETH EXCLAIM, Destination Earth Digital Twin, C2SM, University of Bristol, UK Meteorological Office"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Meetings with ETH EXCLAIM, Destination Earth Digital Twin, C2SM, University of Bristol, UK Meteorological Office"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999469583672416,
+            "confidence": 0.9999469583672416
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION. Only idx:0 provides outreach activity details (6 events listed with comprehensive description, no URLs). Entries for later pages confirm no further activities. All information is cited from page 6."
+      },
+      "patents_ip": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Patents, patents applications or other intellectual property directly related to the project: | 0 |"
+            },
+            {
+              "page": 7,
+              "matching_text": "INSUFFICIENT DATA"
+            },
+            {
+              "page": 13,
+              "matching_text": "INSUFFICIENT DATA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION. All available evidence confirms that there are zero outputs in this category, either by explicit 0-value in the table or by lack of reported items elsewhere. No descriptions or URLs exist."
+      },
+      "new_collaborations": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "New collaborations (except with industrial partners – see below): | 4 | Same teams as mentioned under meetings."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Same teams as mentioned under meetings."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9976699232596922,
+            "confidence": 0.9976699232596922
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "industrial_collaborations": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "New collaborations and/or contracts with industrial partners: | 0 |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "estimated_users": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Directly using our FLEXPART AiiDA implementation in its current implementation status."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "Directly using our FLEXPART AiiDA implementation in its current implementation status."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION. The only directly reported number is for users of the FLEXPART AiiDA implementation (~10, page 7). Other sections explicitly state insufficient data. No URLs are reported."
+      },
+      "other_outputs": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Other (please specify):                                                                |      |"
+            },
+            {
+              "page": 13,
+              "matching_text": "INSUFFICIENT DATA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No 'Other outputs' are listed or described in the document, supported by the table row and repeated statements of 'INSUFFICIENT DATA'. VERBATIM EXTRACTION."
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 15,
+      "num_document_tokens": 12752,
+      "num_output_tokens": 15786
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "de58b05a-4ff9-4173-b89e-401c0c168870",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T19:14:53.157170+00:00",
+  "updated_at": "2025-11-11T19:16:15.467518+00:00"
+}

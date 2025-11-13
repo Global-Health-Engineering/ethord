@@ -1,0 +1,145 @@
+{
+  "document_path": "raw/ORD_files/Explore/Wang/final report/ETHD_ORD_HD_0620_scientific_report.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)",
+    "explore_call_number": 1,
+    "project_starting_and_end_date": "01.05.2023 to 30.06.2025",
+    "main_applicant_responsible_for_project": "Zhanyun Wang",
+    "function": "Scientist",
+    "laboratory_department": "Technology and Society Laboratory",
+    "institution_of_main_applicant": "Empa",
+    "report": "Final",
+    "reporting_period": "01.02.2024 to 30.06.2025",
+    "coapplicants": [
+      {
+        "name": "Bernd Nowack",
+        "function": "Group Leader",
+        "institution": "Empa",
+        "roles_and_main_tasks": "Group leader of the Group where the main applicant and PostDoc are at; regular discussion of the project implementation"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "The project title is explicitly stated in the 'General information' table.",
+        "extraction_confidence": 0.9999999804489799,
+        "confidence": 0.9999999804489799
+      },
+      "explore_call_number": {
+        "reasoning": "The Explore call number is listed as '1' in the table.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "Dates are explicitly listed under 'Project starting & end date'.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Name listed unambiguously as main applicant responsible for project.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "The function field in the table for the main applicant reads 'Scientist'.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "Given under 'Laboratory (and/or Department)' for the main applicant.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "Empa is provided as the main applicant's institution.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "Box for 'Final scientific report' is ticked ([x]), 'Intermediate' is not.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "Exact value under 'Reporting period (MM/YY to MM/YY)'.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Bernd Nowack | Group Leader | Empa, Technology and Society Laboratory"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Empa, Technology and Society Laboratory"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Group leader of the Group where the main applicant and PostDoc are at; regular discussion of the project implementation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999723410504,
+            "confidence": 0.9999999723410504
+          },
+          "reasoning": "All fields verbatim from the provided co-applicants table, company abbreviation inferred from institution name (Empa). No other co-applicants entered."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 8,
+      "num_document_tokens": 5044,
+      "num_output_tokens": 1305
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "d5b33a0a-49bc-457d-abe5-4f48d4036f7e",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:56:05.919151+00:00",
+  "updated_at": "2025-11-11T17:57:23.780853+00:00"
+}

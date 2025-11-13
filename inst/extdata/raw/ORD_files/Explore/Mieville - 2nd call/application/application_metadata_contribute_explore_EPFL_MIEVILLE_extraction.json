@@ -1,0 +1,515 @@
+{
+  "document_path": "raw/ORD_files/Explore/Mieville - 2nd call/application/EPFL_MIEVILLE.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Executive director (Dr)",
+    "main_applicant_first_name": "Pascal",
+    "main_applicant_surname": "Miéville",
+    "main_applicant_laboratory_name": "EPFL SB ISIC SWISSCAT",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Executive director (Dr)",
+        "first_name": "Pascal",
+        "surname": "Mieville",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Head of ORD engagement and service (Dr)",
+        "first_name": "Oksana",
+        "surname": "Riba Grognuz",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "High-Throughput Chemistry Based Open Research Database",
+    "project_acronym": "HT-CHEMBORD",
+    "project_abstract": "Experimental data from chemical synthesis are complex, rarely openly available in a computational format, and mostly biased toward positive results, which represent a minority of cases. This situation strongly impacts the development of efficient predictive models in chemistry, drug discovery, energy storage or generation, and new materials development. To improve data quality and availability for the chemist community, the Swiss Cat+ West Hub and SDSC, with support from the SWITCH Foundation, propose to jointly develop HT-CHEMBORD. This project combines a global chemical synthesis robust and open ontology based on high quality FAIR compliant experimental data generated initially in the Swiss Cat+ hubs and then thanks to future collaborations by other high-throughput validated laboratories, an open access database with complete data integrity management and a set of query tools allowing the community of chemists and data scientists to explore the unique dataset offered. Exploratory work on the data validation strategy, with a view to extending it to external data providers, is already planned in the current project.",
+    "keywords": [
+      "chemistry",
+      "synthesis",
+      "open data",
+      "ontology"
+    ],
+    "start_date": "1 Jul 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 146000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Finalizing the definition of the Matryoshka file format and ontology"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Develop the data and metadata aggregator"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Develop and establish the CHEMBORD open database"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Data ingestion tooling & Data Querying System"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
+          },
+          {
+            "page": 28,
+            "matching_text": "ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "Most direct evidence is in idx 0 and 6: table of applicant details and explicit support statement for the application specify EPFL. The ETH Zürich mentions (idx 3 and 4) occur in an institutional listing format, not tied directly to the main applicant. Therefore, 'EPFL' is the correct extraction for main applicant institution.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table in applicant details: 'Which ETH Domain do you belong to?' | EPFL"
+          },
+          {
+            "page": 28,
+            "matching_text": "supports the application of Dr Pascal Miéville for an ORD Explore project at EPFL SB ISIC SWISSCAT"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title): Executive director (Dr)"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "First name(s) | Pascal"
+          },
+          {
+            "page": 28,
+            "matching_text": "Dr Pascal Miéville for an ORD Explore project at EPFL SB ISIC SWISSCAT"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Multiple verbatim extractions with context confirm that 'Miéville' (with accent) is the main applicant's surname. 'Mieville' and 'Miéville' refer to the same person, but the accented version is found alongside the full name and title, further confirming accuracy. 'Serra' appears to be a different individual.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Surname(s) | Mieville"
+          },
+          {
+            "page": 28,
+            "matching_text": "Dr Pascal Miéville"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL Laboratory: EPFL SB ISIC SWISSCAT"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode' | 1015"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City | Lausanne"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 0.9999999374367368,
+            "confidence": 0.9999999374367368
+          },
+          "first_name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to? | EPFL"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title) | Head of ORD engagement and service (Dr)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999784874837,
+            "confidence": 0.9999999784874837
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s) | Oksana"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s) | Riba Grognuz"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "1015 Lausanne"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_title": {
+        "reasoning": "Verbatim extraction from multiple locations, with the most complete and consistent project title being 'High-Throughput Chemistry Based Open Research Database'. Despite minor spelling variation on one page, the majority usage (including header tables and supporting documents) indicates this as the authoritative title.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Found in research proposal table: Project title | High-Throughput Chemistry Based Open Research Database"
+          },
+          {
+            "page": 30,
+            "matching_text": "Letter of Support: High-Throughput Chemistry Based Open Research Database (HT-CHEMBORD)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project | HT-CHEMBORD"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Experimental data from chemical synthesis are complex, rarely openly available in a computational format, and mostly biased toward positive results, which represent a minority of cases. This situation strongly impacts the development of efficient predictive models in chemistry, drug discovery, energy storage or generation, and new materials development. To improve data quality and availability for the chemist community, the Swiss Cat+ West Hub and SDSC, with support from the SWITCH Foundation, propose to jointly develop HT-CHEMBORD. This project combines a global chemical synthesis robust and open ontology based on high quality FAIR compliant experimental data generated initially in the Swiss Cat+ hubs and then thanks to future collaborations by other high-throughput validated laboratories, an open access database with complete data integrity management and a set of query tools allowing the community of chemists and data scientists to explore the unique dataset offered. Exploratory work on the data validation strategy, with a view to extending it to external data providers, is already planned in the current project."
+          }
+        ],
+        "extraction_confidence": 0.9999997575662783,
+        "confidence": 0.9999997575662783
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "chemistry, synthesis, open data, ontology"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "chemistry, synthesis, open data, ontology"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "chemistry, synthesis, open data, ontology"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "chemistry, synthesis, open data, ontology"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Jul 2024"
+          }
+        ],
+        "extraction_confidence": 0.9999592689099532,
+        "confidence": 0.9999592689099532
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Project duration | 12"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "Total requested amount in CHF | 146000"
+          },
+          {
+            "page": 26,
+            "matching_text": "Total Costs in CHF (A + B)      |                                                  | 78'000 | 68'000 | 146'000 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 1 (Q1) : Finalizing the definition of the Matryoshka file format and ontology"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 1 (Q1) : Finalizing the definition of the Matryoshka file format and ontology"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP2 (Q2): Develop the data and metadata aggregator"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP2 (Q2): Develop the data and metadata aggregator"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP3 (Q3): Develop and establish the CHEMBORD open database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP3 (Q3): Develop and establish the CHEMBORD open database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP4 (Q4): Data ingestion tooling & Data Querying System"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP4 (Q4): Data ingestion tooling & Data Querying System"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999757984191,
+            "confidence": 0.9999999757984191
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 30,
+      "num_document_tokens": 26113,
+      "num_output_tokens": 9906
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "33f816ce-badf-4e84-9573-29b50535bda8",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:18:20.622814+00:00",
+  "updated_at": "2025-11-11T12:20:08.139788+00:00"
+}

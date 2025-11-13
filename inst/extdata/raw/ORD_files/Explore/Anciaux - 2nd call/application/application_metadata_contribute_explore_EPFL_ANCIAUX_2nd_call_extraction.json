@@ -1,0 +1,689 @@
+{
+  "document_path": "raw/ORD_files/Explore/Anciaux - 2nd call/application/EPFL_ANCIAUX_2nd_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Dr",
+    "main_applicant_first_name": "Guillaume",
+    "main_applicant_surname": "Anciaux",
+    "main_applicant_laboratory_name": "EPFL ENAC IIC LSMS",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Dr",
+        "first_name": "Guillaume",
+        "surname": "Anciaux",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Dr",
+        "first_name": "Volodymyr",
+        "surname": "Savchenko",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Prof.",
+        "first_name": "Andrii",
+        "surname": "Neronov",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Dr",
+        "first_name": "Alain",
+        "surname": "Borel",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "Solidipes: an interoperable tool for curation of research data",
+    "project_acronym": "Solidipes",
+    "project_abstract": "Achieving FAIR open-science needs reproducible scientific data and publications to be associated. While choosing the appropriate tools and storage facilities is already difficult, ensuring the quality of an open publication of datasets relies heavily on data curation procedures. Curation calls for proper data validations and annotations, which are clearly discipline dependent. This proposal aims at exploring the extension of Solidipes, a dataset curation software, to make it suitable to each scientific discipline's needs, but also to broaden the platforms (repositories) Solidipes can interact with. For this project, researchers from computational mechanics and astrophysics associate with a member of the EPFL library in order to gather the experience necessary to cover this ambitious explore project. If funded, the project's team will collaborate with the teams of Episciences (French diamond open access platform) and with Renku (Swiss platform deploying tools for reproducible and collaborative data analysis). This proposal describes how to fill gaps towards a modern and multidisciplinary ecosystem for dataset+paper publications.",
+    "keywords": [
+      "curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary"
+    ],
+    "start_date": "1 Sep 2024",
+    "project_duration_months": 16,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "other",
+        "wp_title": "Project management"
+      },
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Enhance interoperability"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Generalize to more domains"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Extend capabilities"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
+          },
+          {
+            "page": 34,
+            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool for curation of research data”."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Function (Title) | Dr |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Multiple, direct, and corroborated mentions of 'Guillaume' as the first name of the main applicant, including in a formal table and a support letter. The alternative ('Alain') is contextually ambiguous and not directly tied to main applicant. Therefore, 'Guillaume' is the correct extraction.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| First name(s) | Guillaume |"
+          },
+          {
+            "page": 34,
+            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Explicit extracted references from a main applicant table and the proposal identification confirm 'Anciaux' as the main applicant's surname. The instance of 'Borel' appears in a footer and is likely not the main applicant per context. Therefore, 'Anciaux' is selected as per extracted, structured content.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Surname(s) | Anciaux |"
+          },
+          {
+            "page": 34,
+            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998435918546,
+        "confidence": 0.9999998435918546
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| EPFL Laboratory | EPFL ENAC IIC LSMS |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Postcode / Zipcode | 1015 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| City | Lausanne |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Function (Title) | Dr |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| First name(s) | Guillaume |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Surname(s) | Anciaux |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Postcode / Zipcode | 1015 |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Which ETH Domain do you belong to?** | EPFL |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Function (Title)** | Dr |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **First name(s)** | Volodymyr |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Surname(s)** | Savchenko |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "EPF LASTRO\n1015 Lausanne"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Which ETH Domain do you belong to?** | EPFL |"
+              },
+              {
+                "page": 12,
+                "matching_text": "EPF Lausanne - EPFL, CH<br/>Laboratory of Astrophysics"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Function (Title)** | Prof. |"
+              },
+              {
+                "page": 12,
+                "matching_text": "Current position(s): Senior researcher, Full professor or similar"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8805884484569007,
+            "confidence": 0.8805884484569007
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **First name(s)** | Andrii |"
+              },
+              {
+                "page": 12,
+                "matching_text": "Andrii Neronov"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Surname(s)** | Neronov |"
+              },
+              {
+                "page": 12,
+                "matching_text": "Andrii Neronov"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "EPF LASTRO\n1015 Lausanne"
+              },
+              {
+                "page": 12,
+                "matching_text": "EPF Lausanne - EPFL, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998948265929848,
+            "confidence": 0.9998948265929848
+          },
+          "reasoning": "Values combined from table and CV per EXTRACT STRATEGY, with mean confidence for function/postcode."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
+              },
+              {
+                "page": 16,
+                "matching_text": "EPF Lausanne - EPFL, CH<br/>EPFL Library"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Function (Title) | Dr |"
+              },
+              {
+                "page": 16,
+                "matching_text": "Current position(s): Librarian"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| First name(s) | Alain |"
+              },
+              {
+                "page": 16,
+                "matching_text": "Alain Borel"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Surname(s) | Borel |"
+              },
+              {
+                "page": 16,
+                "matching_text": "Alain Borel"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "EPFL SISB-SOAR\nRLC D1 220 (Rolex Learning Center)\nStation 20\n1015 Lausanne"
+              },
+              {
+                "page": 16,
+                "matching_text": "EPF Lausanne - EPFL, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Values synthesized from primary application table and extended CV listing according to extraction instructions."
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Project title | Solidipes: an interoperable tool for curation of research data"
+          },
+          {
+            "page": 18,
+            "matching_text": "Solidipes: an interoperable tool for curation of research data"
+          },
+          {
+            "page": 33,
+            "matching_text": "the project titled *“Solidipes: an interoperable tool for curation of research data”*"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Acronym of the project | Solidipes"
+          },
+          {
+            "page": 18,
+            "matching_text": "Acronym: Solidipes"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "I prioritized the abstract explicitly labeled in the RESEARCH PROPOSAL table under 'Abstract' (idx:0) as the authoritative project abstract per extraction instructions. The background and motivation text (idx:2) provides additional context but mostly expands on the rationale already adequately summarized in the abstract. Therefore, the verbatim abstract is used as the value__. Extraction confidence is the value reported in the primary source.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Achieving FAIR open-science needs reproducible scientific data and publications to be associated. While choosing the appropriate tools and storage facilities is already difficult, ensuring the quality of an open publication of datasets relies heavily on data curation procedures. Curation calls for proper data validations and annotations, which are clearly discipline dependent. This proposal aims at exploring the extension of Solidipes, a dataset curation software, to make it suitable to each scientific discipline's needs, but also to broaden the platforms (repositories) Solidipes can interact with. For this project, researchers from computational mechanics and astrophysics associate with a member of the EPFL library in order to gather the experience necessary to cover this ambitious explore project. If funded, the project's team will collaborate with the teams of Episciences (French diamond open access platform) and with Renku (Swiss platform deploying tools for reproducible and collaborative data analysis). This proposal describes how to fill gaps towards a modern and multidisciplinary ecosystem for dataset+paper publications."
+          }
+        ],
+        "parsing_confidence": 0.9999968423125041,
+        "extraction_confidence": 0.9999968423125041,
+        "confidence": 0.9999968423125041
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.91543390908578,
+          "confidence": 0.91543390908578
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Proposed Starting Date | 1 Sep 2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999973388003977,
+        "confidence": 0.9999973388003977
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Project duration | 16"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Total requested amount in CHF | 150000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998919950147,
+        "confidence": 0.9999998919950147
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP0. Project management"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP0. Project management"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP1. Enhance interoperability"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP1. Enhance interoperability"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP2. Generalize to more domains"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP2. Generalize to more domains"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 37,
+      "num_document_tokens": 22613,
+      "num_output_tokens": 13160
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c971b375-e39d-45ec-901a-c9d090c8b656",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:04:36.563292+00:00",
+  "updated_at": "2025-11-11T12:07:01.021718+00:00"
+}

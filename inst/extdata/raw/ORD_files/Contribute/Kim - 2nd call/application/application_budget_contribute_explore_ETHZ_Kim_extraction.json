@@ -1,0 +1,144 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Kim - 2nd call/application/ETHZ_Kim.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": null,
+    "total_budget_personnel_postdocs": null,
+    "total_budget_personnel_students": 5631.0,
+    "total_budget_personnel_other": 1964.0,
+    "total_budget_personnel_total_direct": 7595.0,
+    "total_budget_travel": null,
+    "total_budget_equipment": null,
+    "total_budget_other_publication_fees": null,
+    "total_budget_other_conferences_workshops": null,
+    "total_budget_other_other": null,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 30095.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 30095.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 30095"
+          },
+          {
+            "page": 24,
+            "matching_text": "Total Costs (A + B)             |                                     | 7'595                                                                                                        | 30'095"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Applicant (Doctoral student, 2nd year)<br/>10% FTE salary for 12 months<br/>(incl. social costs)             | 5'631        "
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.555686006595717,
+        "confidence": 0.555686006595717
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Staff Scientist (Scientific Assistant I, 1st year)<br/>30% FTE salary for 12 months<br/>(incl. social costs) | 1'964"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999982529461049,
+        "confidence": 0.9999982529461049
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "i. Total Direct Costs for Personnel |                                                                                                              | 7'595"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999939020294213,
+        "confidence": 0.9999939020294213
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "ii. Total Other Direct Costs        |                                                                                                              | 0"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9989413229268139,
+        "confidence": 0.9989413229268139
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "A – Total Direct Costs (i + ii) |                                     | 7'595                                                                                                        | 30'095"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999987893618761,
+        "confidence": 0.9999987893618761
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "B – Subcontracting Costs        |                                     | 0                                                                                                            | 0"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999828100175839,
+        "confidence": 0.9999828100175839
+      },
+      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_conferences_workshops)\nInput should be a valid number at path (total_budget_other_other)"
+    },
+    "usage": {
+      "num_pages_extracted": 28,
+      "num_document_tokens": 16180,
+      "num_output_tokens": 2116
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "caf294bb-190a-491c-8e9b-440d283f7269",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:48:11.028620+00:00",
+  "updated_at": "2025-11-11T13:48:46.893532+00:00"
+}

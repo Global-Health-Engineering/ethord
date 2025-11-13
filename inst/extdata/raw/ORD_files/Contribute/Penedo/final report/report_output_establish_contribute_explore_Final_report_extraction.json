@@ -1,0 +1,477 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Penedo/final report/Final_report.pdf",
+  "status": "success",
+  "data": {
+    "websites_platforms": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "repositories_catalogues": {
+      "quantity": 1,
+      "descriptions": [
+        "Software repository and documentation in https://c4science.ch/, users need to ask to join the project and being able to see and download software source files and documentation."
+      ],
+      "urls": [
+        "https://c4science.ch/"
+      ]
+    },
+    "datasets_databases": {
+      "quantity": 2,
+      "descriptions": [
+        "The option to save datasets in pure HDF5 format.",
+        "The option to save datasets in HDF5-USID format."
+      ],
+      "urls": []
+    },
+    "software_tools": {
+      "quantity": 1,
+      "descriptions": [
+        "A module to dramatically increase the FPGA-PC data transfer speed, enabling to acquire images up to 1000 frames per second."
+      ],
+      "urls": []
+    },
+    "models_standards": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "workshops": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "training_events": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "publications": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "presentations": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "outreach_activities": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "patents_ip": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
+    "new_collaborations": {
+      "quantity": 1,
+      "descriptions": [
+        "Gwyddion software suite, they implemented our formats (pure HDF5 and USID-HDF5) so can be read on that platform."
+      ],
+      "urls": []
+    },
+    "industrial_collaborations": {
+      "quantity": 2,
+      "descriptions": [
+        "Quantum Design already integrated and sells our OpenSPM software platform together with its AFSEM-nano product and therefore will profit of the implementation of these file formats.",
+        "C-sense (Austria) & Alemnis, (Switzerland), which are implementing our software in their systems."
+      ],
+      "urls": [
+        "https://qd-europe.com/nl/en/product/afsem-nano/"
+      ]
+    },
+    "estimated_users": {
+      "quantity": 4,
+      "descriptions": [
+        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users.",
+        "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility.",
+        "LBNI collaborators at EFPL (ca 5 users).",
+        "AFSEM-nano users through QD: ca 10 users at the moment.",
+        "Chinese Academy of Science: ca. 6 users"
+      ],
+      "urls": []
+    },
+    "other_outputs": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    }
+  },
+  "metadata": {
+    "schema_name": "ORDReportOutput",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "websites_platforms": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| New or enhanced website(s), web interface, platform(s) and/ or infrastructure: |                  |"
+            },
+            {
+              "page": 4,
+              "matching_text": "postponed the development of a dedicated website to showcase our new features"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "The outputs table (page 5) lists no website/platform, and the deviation section (page 4) explicitly states website plans are postponed; resources are being moved to GitHub but currently only private sharing is in place."
+      },
+      "repositories_catalogues": {
+        "quantity": {
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "extraction_confidence": 0.9744851040016816,
+            "confidence": 0.9744851040016816
+          }
+        ],
+        "urls": [
+          {
+            "extraction_confidence": 0.9999986100143665,
+            "confidence": 0.9999986100143665
+          }
+        ],
+        "reasoning": "The outputs table specifies one repository/catalogue: c4science.ch. Description and URL are explicitly enumerated."
+      },
+      "datasets_databases": {
+        "quantity": {
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "* The option to save datasets in pure HDF5 format."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999043965079,
+            "confidence": 0.9999999043965079
+          },
+          {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "* The option to save datasets in HDF5-USID format."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "The outputs table explicitly lists both options, each as an output; no URL is provided."
+      },
+      "software_tools": {
+        "quantity": {
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "* A module to dramatically increase the FPGA-PC data transfer speed, enabling to acquire images up to 1000 frames per second."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999968899886129,
+            "confidence": 0.9999968899886129
+          }
+        ],
+        "reasoning": "The outputs table clearly mentions this module as a new software/hardware tool."
+      },
+      "models_standards": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No models/standards/guidelines/etc. output is reported (empty field in table)."
+      },
+      "workshops": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Scientific workshops organized as part of the project: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "Workshops field is empty in the table."
+      },
+      "training_events": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Training and educational events and/or resources directly related to the project: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No training or educational events/resources are listed."
+      },
+      "publications": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Scientific publications directly related to project (whether in progress, submitted, accepted or published)"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No publications specified since project began."
+      },
+      "presentations": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Presentations (e.g. conferences, poster, etc.) directly related to the project: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No presentations included in the outputs table."
+      },
+      "outreach_activities": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Outreach, dissemination, communications or networking events and/or activities directly related to the project: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No such activities are reported."
+      },
+      "patents_ip": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Patents, patents applications or other intellectual property directly related to the project: |                  |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No patents or IP are reported."
+      },
+      "new_collaborations": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| | | HDF5 and USID-HDF5) so can be read on that platform."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "* Gwyddion software suite, they implemented our formats (pure"
+              },
+              {
+                "page": 6,
+                "matching_text": "HDF5 and USID-HDF5) so can be read on that platform."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9993747089153822,
+            "confidence": 0.9993747089153822
+          }
+        ],
+        "reasoning": "Explicitly stated new collaboration with Gwyddion project, with their software supporting the new formats."
+      },
+      "industrial_collaborations": {
+        "quantity": {
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Quantum Design already integrated and sells our OpenSPM software platform together with its AFSEM-nano product"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9971528931407105,
+            "confidence": 0.9971528931407105
+          },
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "C-sense (Austria) & Alemnis, (Switzerland), which are implementing our software in their systems."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9836210092133211,
+            "confidence": 0.9836210092133211
+          }
+        ],
+        "urls": [
+          {
+            "extraction_confidence": 0.9999999059466917,
+            "confidence": 0.9999999059466917
+          }
+        ],
+        "reasoning": "Table lists two industrial collaborations; Quantum Design/AFSEM-nano and C-sense & Alemnis. Only the AFSEM-nano has a URL explicitly included."
+      },
+      "estimated_users": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Estimated number of users within the community benefiting from enhanced ORD practices: |   | - CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users.\n- Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility.\n- LBNI collaborators at EFPL (ca 5 users).\n- AFSEM-nano users through QD: ca 10 users at the moment.\n- Chinese Academy of Science: ca. 6 users "
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9455397224982786,
+          "confidence": 0.9455397224982786
+        },
+        "descriptions": [
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995733385675423,
+            "confidence": 0.9995733385675423
+          },
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9987748404355831,
+            "confidence": 0.9987748404355831
+          },
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "LBNI collaborators at EFPL (ca 5 users)."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9988884321637131,
+            "confidence": 0.9988884321637131
+          },
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "AFSEM-nano users through QD: ca 10 users at the moment."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996753229875927,
+            "confidence": 0.9996753229875927
+          },
+          {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Chinese Academy of Science: ca. 6 users"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999895712522223,
+            "confidence": 0.9999895712522223
+          }
+        ],
+        "reasoning": "Five discrete subcommunities listed as beneficiaries; estimated user numbers are present for some. To avoid over-counting, we list each major institutional grouping—i.e., CSIR, Weizmann, LBNI/EPFL, AFSEM-nano/QD users, Chinese Academy—as separate, giving a count of 5 major subgroups or institutions."
+      },
+      "other_outputs": {
+        "quantity": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Other (please specify): |   |"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "No other outputs are specified in the outputs table."
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 9,
+      "num_document_tokens": 5391,
+      "num_output_tokens": 3440
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "5404b7f8-ddd1-4aea-9506-310ab067eb03",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T18:47:23.772491+00:00",
+  "updated_at": "2025-11-11T18:48:21.822839+00:00"
+}

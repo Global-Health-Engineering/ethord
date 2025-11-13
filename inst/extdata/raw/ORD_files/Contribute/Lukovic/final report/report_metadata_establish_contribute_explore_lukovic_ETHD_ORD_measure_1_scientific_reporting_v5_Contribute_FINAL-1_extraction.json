@@ -1,0 +1,103 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Lukovic/final report/lukovic_ETHD_ORD_measure_1_scientific_reporting_v5_Contribute_FINAL-1.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "AI module for gap-filling TreeNet time series",
+    "explore_call_number": 5,
+    "project_starting_and_end_date": "01.01.2024 – 31.12.2024",
+    "main_applicant_responsible_for_project": "Mirko Lukovic",
+    "function": "Scientist",
+    "laboratory_department": "Ecosystem Ecology - Forest Dynamics",
+    "institution_of_main_applicant": "WSL",
+    "report": "Final",
+    "reporting_period": "01.01.2024 – 31.12.2024",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "'Contribute call number' is synonymous with 'Explore call number'. '5th call' converts to 5.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.999999952112336,
+        "confidence": 0.999999952112336
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999553119545,
+        "confidence": 0.9999999553119545
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "The header on page 1 specifies 'Scientific Report Template – Final'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "No explicit reporting period. Using the project starting & end date as the reporting period for this final report.",
+        "extraction_confidence": 0.9965317363478982,
+        "confidence": 0.9965317363478982
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 6,
+      "num_document_tokens": 3799,
+      "num_output_tokens": 960
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "570cd986-25c6-4291-9f6c-505bb8d9d93a",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:12:49.028693+00:00",
+  "updated_at": "2025-11-11T17:13:53.837363+00:00"
+}

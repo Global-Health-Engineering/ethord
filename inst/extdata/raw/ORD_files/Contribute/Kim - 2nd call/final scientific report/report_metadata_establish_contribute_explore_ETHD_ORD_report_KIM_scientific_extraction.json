@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Kim - 2nd call/final scientific report/ETHD_ORD_report_KIM_scientific.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "MiShMASh: Microbiome sequence and metadata availability standards",
+    "explore_call_number": 2,
+    "project_starting_and_end_date": "01 January 2023 – 31 December 2023",
+    "main_applicant_responsible_for_project": "Lina Kim",
+    "function": "Doctoral Candidate",
+    "laboratory_department": "Food Systems Biotechnology / Department of Health Sciences and Technology",
+    "institution_of_main_applicant": "ETH Zürich",
+    "report": "Final",
+    "reporting_period": "01/23 to 12/23",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project title:                     | MiShMASh: Microbiome sequence and metadata availability standards"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION ('Contribute call number' is equivalent to 'Explore call number')",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Contribute call number:            | 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:       | 01 January 2023 – 31 December 2023"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995964537959,
+        "confidence": 0.9999995964537959
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION (extracted only the name per instructions)",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Applicant responsible for project: | Lina Kim"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function:                          | Doctoral Candidate"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory (and/or Department):    | Food Systems Biotechnology / Department of Health Sciences and Technology"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Institution of the applicant:      | ETH Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION from title and template section.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "Inferred from project starting & end date field.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:       | 01 January 2023 – 31 December 2023"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9977694450609427,
+        "confidence": 0.9977694450609427
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 5,
+      "num_document_tokens": 2743,
+      "num_output_tokens": 914
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "95abe76d-423b-4032-b37a-07baacf08f09",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T16:49:39.567912+00:00",
+  "updated_at": "2025-11-11T16:50:38.221260+00:00"
+}

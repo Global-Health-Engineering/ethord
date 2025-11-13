@@ -1,0 +1,643 @@
+{
+  "document_path": "raw/ORD_files/Explore/Chapman/application/ETHZ_Chapman.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Group Leader",
+    "main_applicant_first_name": "Mollie",
+    "main_applicant_surname": "Chapman",
+    "main_applicant_laboratory_name": "Transdisciplinarity Lab (TdLab)",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zurich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Group Leader",
+        "first_name": "Mollie",
+        "surname": "Chapman",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Group leader",
+        "first_name": "Bianca",
+        "surname": "Vienni-Baptista",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Associate professor or similar",
+        "first_name": "Elizabeth",
+        "surname": "Tilley",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "FAIRqual - FAIR Data Practices for Qualitative Research in Transdisciplinarity",
+    "project_acronym": "FAIRQual",
+    "project_abstract": "While ORD practices become increasingly widespread, one area that remains a challenge is qualitative data. On the one hand, qualitative data is more difficult to process and make available in open practices. On the other, ethical norms in research practice require confidentiality of research subjects. Yet interview transcripts, workshops or other kinds of qualitative data are difficult or sometimes impossible to anonymize. This challenge comes to the fore when conducting transdisciplinary (Td) research, where new forms of engagement between science and society co-produce problem framings and project outputs. In this context, questions of who processes and stores data are increasingly important. Td research makes frequent use of qualitative methods, especially interviews and workshops. Sharing of this data could allow for improved learning between Td processes and increase engagement between science and society. How might this data be shared according to FAIR principles? What are appropriate protocols for determining what data to share and how to navigate the ethical issues of research participant protection and the benefits of sharing qualitative data? In this project we will prototype tools for FAIR qualitative data within Td research projects, develop standards and guidelines for other Td researchers and build a dialogue and community of practice within the Td research community around FAIR practices for qualitative data.",
+    "keywords": [
+      "transdisciplinary research",
+      "qualitative methods",
+      "FAIR data practices",
+      "mixed media data",
+      "open science"
+    ],
+    "start_date": "1 Sep 2024",
+    "project_duration_months": 18,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Identification of ORD tools and workflows for publication of FAIR qualitative research data"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Evaluation of current data practices for qualitative data in Td research and identification of training and education needs for FAIR data practices"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Development of guidelines and protocols for FAIR qualitative data in Td research"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Building a community of practice for FAIR qualitative data in Td research"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Found in Applicant table under 'Which ETH Domain do you belong to?' is 'ETH Zürich'."
+          },
+          {
+            "page": 9,
+            "matching_text": "ETH Zürich - ETHZ, CH<br/>Department of Environmental Systems Science"
+          },
+          {
+            "page": 18,
+            "matching_text": "The Transdisciplinarity Lab (TdLab) at the Department of Environmental Systems Science (D-USYS, ETH)"
+          },
+          {
+            "page": 29,
+            "matching_text": "ETH Zurich is repeatedly mentioned as the host of the project and in the support letters' headers."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999962738407482,
+        "confidence": 0.999962738407482
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title) is listed as 'Group Leader' for Mollie Chapman."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Multiple document locations present both 'Mollie' and 'Bianca' as prominent applicants. The 'First name(s)' field, which is usually reserved for the primary applicant, specifically lists 'Mollie'. Further, support letters distinguish 'Mollie Chapman' as leading and refer to both applicants. 'Bianca' appears in a CV suggesting co-applicant or team member status. Therefore, 'Mollie' is extracted as the main applicant's first name.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "First name(s) cell shows 'Mollie' for main applicant."
+          },
+          {
+            "page": 35,
+            "matching_text": "support the application of Mollie Chapman and Bianca Vienni Baptista"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "The main applicant details (idx 0), supported by subsequent evidence in support letters (idx 4), specify 'Chapman' as the main applicant. The occurrence of 'Vienni-Baptista' (idx 1) is attributable to another applicant, not the main applicant. Thus, 'Chapman' is selected to align with the extraction strategy and evidence order.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Surname(s) listed as 'Chapman' in main applicant details."
+          },
+          {
+            "page": 35,
+            "matching_text": "support the application of Mollie Chapman and Bianca Vienni Baptista"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997727913926,
+        "confidence": 0.9999997727913926
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "Selected the most complete and contextually supported reference. 'Transdisciplinarity Lab (TdLab)' is explicitly cited as the main applicant's laboratory (p.18), and is the expanded form of the abbreviation 'TdLab'. Both refer to the same laboratory; using the explicit, fully specified value with supporting citation. Confidence averaged from both sources.",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "The Transdisciplinarity Lab (TdLab) at the Department of Environmental Systems Science (D-USYS, ETH)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9948335730751724,
+        "confidence": 0.9948335730751724
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode shown as 8092 in applicant table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City field contains 'Zurich' in main applicant details."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant 1: Mollie Chapman - ETH Zürich"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant 1: Mollie Chapman - ETH Zürich, Group Leader"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant 1: Mollie Chapman"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant 1: Mollie Chapman"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "postcode 8092"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "ETH Zürich - ETHZ, CH<br/>Department of Environmental Systems Science"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999972211151047,
+            "confidence": 0.9999972211151047
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Group leader | ETH Zürich - ETHZ, CH<br/>Department of Environmental Systems Science"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Bianca Vienni-Baptista"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Bianca Vienni-Baptista"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "ETH Zürich - ETHZ, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998671507086907,
+            "confidence": 0.9998671507086907
+          },
+          "reasoning": "Combining both table view and CV, prioritizing CV for higher citation rigor. Highest confidence and direct verbatim extraction from page 9 of CV for key details."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "ETH Zürich - ETHZ, CH<br/>Department of Mechanical and Process Engineering"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "Current position(s): Associate professor or similar"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999217959217,
+            "confidence": 0.9999999217959217
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "Elizabeth Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "Elizabeth Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "ETH Zürich - ETHZ, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999947998468875,
+            "confidence": 0.9999947998468875
+          },
+          "reasoning": "Combination from listing and CV; CV (page 12) used for formal title, surname style, and postcode confirmation. Verbatim extraction with high confidence."
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Explore Projects\" Call 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The most complete and explicit project title—including acronym—appears under the primary project title header on page 17. Other mentions omit the acronym, but refer to the same project. The extraction is verbatim from the key section ('# 1. Project title').",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "FAIRqual - FAIR Data Practices for Qualitative Research in Transdisciplinarity"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999804489799,
+        "confidence": 0.9999999804489799
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym in adjacent field 'FAIRQual'"
+          }
+        ],
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "**Abstract**<br/><br/>While ORD practices become increasingly widespread, one area ..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999951499021381,
+        "confidence": 0.9999951499021381
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "transdisciplinary research"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "qualitative methods"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "FAIR data practices"
+            }
+          ],
+          "extraction_confidence": 0.9999999217959217,
+          "confidence": 0.9999999217959217
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "mixed media data"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "open science"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Proposed Starting Date: 1 Sep 2024 in research proposal table."
+          }
+        ],
+        "extraction_confidence": 0.9999929044458246,
+        "confidence": 0.9999929044458246
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Project duration: 18 in months, from research proposal table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "| Total requested amount in CHF | 150000 |"
+          },
+          {
+            "page": 29,
+            "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9815994706998874,
+        "confidence": 0.9815994706998874
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP1: Identification of ORD tools and workflows for publication of FAIR qualitative..."
+              },
+              {
+                "page": 27,
+                "matching_text": "| 1  | Identification of ORD tools and workflows for publication of FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP1: Identification of ORD tools and workflows for publication of FAIR qualitative research data"
+              },
+              {
+                "page": 27,
+                "matching_text": "Identification of ORD tools and workflows for publication of FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION; deduplicated and merged similar titles across different sections/pages with identical confidence."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP2: Evaluation of current data practices for qualitative data in Td research and identification of training and education needs for FAIR data practices"
+              },
+              {
+                "page": 27,
+                "matching_text": "| 2  | Evaluation of current data practices and identification of training and education needs"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998875777685,
+            "confidence": 0.9999998875777685
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP2: Evaluation of current data practices for qualitative data in Td research and identification of training and education needs for FAIR data practices"
+              },
+              {
+                "page": 27,
+                "matching_text": "Evaluation of current data practices and identification of training and education needs"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998875777685,
+            "confidence": 0.9999998875777685
+          },
+          "reasoning": "Merged both verbatim work package titles based on evidence for WP2. Used the more complete/explicit version from earlier, noted both confidence scores and averaged for merged record."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "WP3: Development of guidelines for open qualitative research data in Td."
+              },
+              {
+                "page": 28,
+                "matching_text": "WP 3 | Development of guidelines and protocols for FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9984728148206344,
+            "confidence": 0.9984728148206344
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "WP3: Development of guidelines for open qualitative research data in Td."
+              },
+              {
+                "page": 28,
+                "matching_text": "Development of guidelines and protocols for FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9984728148206344,
+            "confidence": 0.9984728148206344
+          },
+          "reasoning": "Merged WP3 titles to best represent both slightly differing descriptions. Used mean confidence score. Both sources describe essentially the same WP."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 28,
+                "matching_text": "WP 4 | Building a community of practice for FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 28,
+                "matching_text": "Building a community of practice for FAIR qualitative data in Td research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION; only found on page 28 (table); explicit title and identifier."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 36,
+      "num_document_tokens": 22649,
+      "num_output_tokens": 13180
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "1e55b136-32aa-4d8a-a136-0fb9e75b870c",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:42:58.313131+00:00",
+  "updated_at": "2025-11-11T12:46:02.686879+00:00"
+}

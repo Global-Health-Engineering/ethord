@@ -1,0 +1,462 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Robinson/application/EAWAG_ROBINSON.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "Eawag",
+    "main_applicant_function": "Group leader",
+    "main_applicant_first_name": "Serina",
+    "main_applicant_surname": "Robinson",
+    "main_applicant_laboratory_name": "Microbial Specialized Metabolism",
+    "main_applicant_postcode": 8600,
+    "main_applicant_city": "Duebendorf",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "Eawag",
+        "function_title": "Group leader",
+        "first_name": "Serina",
+        "surname": "Robinson",
+        "postcode": 8600
+      }
+    ],
+    "project_title": "Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform",
+    "project_acronym": "enviPath+EDGEbp",
+    "project_abstract": "Chemical pollution has exceeded planetary boundaries, requiring urgent solutions for chemical waste removal. Microbial biodegradation processes are crucial for breaking down chemical contaminants, yet the functions of microbial communities are often challenging to predict. To address this challenge, we aim to contribute a new pipeline, EDGEbp (Enabling Detection of metaGEnomic biodegradation potential), to advance the research capabilities of the ORD biodegradation prediction software, enviPathPlus. Specifically, in EDGEbp, we will build a Hidden Markov Model-based pipeline to identify biodegradation genes and pathways from total microbial community DNA (metagenomic) sequencing data. EDGEbp will output confidence scores to infer the ‘contaminant biodegradation potential’ of a given microbial community based on sequencing information. In other words, our aim is to build a tool to convert unintelligible DNA sequences into easily-understood biodegradation confidence scores. This will help us infer the capabilities of a specific microbiome to transform chemical contaminants. This project will therefore advance the sustainable development goals of improving water quality by reducing chemical pollution through microbial biodegradation. Overall, we anticipate that EDGEbp will expand the cutting-edge functionalities of the ORD tool enviPathPlus to support its long-term preservation and promote community engagement in line with ORD principles.",
+    "keywords": [
+      "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics"
+    ],
+    "start_date": "1 Mar 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 15000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Curate and collate existing databases to build a biodegradation gene catalog"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Build custom biodegradation HMMs"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Provide a documented pipeline, EDGEbp"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Tune EDGEbp models with genomic data"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Evaluate EDGEbp with paired metagenomic and chemical biodegradation data"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
+          },
+          {
+            "page": 19,
+            "matching_text": "ORD Contribute project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "Both entries, including a letter of support citing Eawag as Dr. Robinson's institution, directly identify Eawag as the main applicant institution. No contradictory or ambiguous evidence.",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "I, Frederik Hammes, Department Head of Environmental Microbiology at Eawag, herewith support the application of Serina Robinson"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function given as Group leader."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "The first name 'Serina' is explicitly stated in both the main application and supporting correspondence. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "First name given as Serina."
+          },
+          {
+            "page": 19,
+            "matching_text": "the application of Serina Robinson for an ORD Contribute project entitled “Prediction of biodegradation potential"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "the application of Serina Robinson for an ORD Contribute project entitled “Prediction of biodegradation potential"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Laboratory name given as Microbial Specialized Metabolism."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Postcode given as 8600."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City given as Duebendorf."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "institution: Eawag"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "function: Group leader"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "first name: Serina"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "surname: Robinson"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "postcode: 8600"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Title from research proposal table and section header."
+          },
+          {
+            "page": 19,
+            "matching_text": "ORD Contribute project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym from research proposal table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION. The value is taken from the main 'Abstract' header per the primary extraction. The secondary extraction does not contradict or expand significantly, so is not combined to avoid redundancy. Citations from both extractions are preserved for provenance.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Chemical pollution has exceeded planetary boundaries, requiring urgent solutions for chemical waste removal. Microbial biodegradation processes are crucial for breaking down chemical contaminants ... promote community engagement in line with ORD principles."
+          },
+          {
+            "page": 9,
+            "matching_text": "The proposed ORD pipeline, EDGEbp, will act as this missing ‘interpreter’ to bridge the gap between DNA sequencing and chemical biodegradation information."
+          }
+        ],
+        "parsing_confidence": 0.9999989678675326,
+        "extraction_confidence": 0.6782547410715538,
+        "confidence": 0.6782547410715538
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9364462112713402,
+          "confidence": 0.9364462112713402
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Stated as 1 Mar 2024 in research proposal."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Stated as 12 in research proposal."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "The total budget for the project is 30,000 CHF, but only 15,000 CHF is explicitly requested from the ORD program, as clarified by the budget justification section. Per funding extraction standards, the requested amount (ORD) is the value to report.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "The resources requested (15k CHF contribution for 30k CHF total project costs) will be used to employ a research assistant"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997839900294,
+        "confidence": 0.9999997839900294
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Task 1. Curate and collate existing databases to build a biodegradation gene catalog:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9979627581642839,
+            "confidence": 0.9979627581642839
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Task 1. Curate and collate existing databases to build a biodegradation gene catalog:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9486275158169702,
+            "confidence": 0.9486275158169702
+          },
+          "reasoning": "Task 1 is explicitly mapped to building the gene catalog/WP1."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 2. Build custom biodegradation HMMs:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 2. Build custom biodegradation HMMs:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.988359875548042,
+            "confidence": 0.988359875548042
+          },
+          "reasoning": "Task 2 is mapped to WP2, as per the breakdown."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 3. Provide a documented pipeline, EDGEbp:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 3. Provide a documented pipeline, EDGEbp:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9906578853200896,
+            "confidence": 0.9906578853200896
+          },
+          "reasoning": "Straightforward, matches schema requirement for WP3."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 4. Tune EDGEbp models with genomic data:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 4. Tune EDGEbp models with genomic data:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Task 4/WP4 is explicit."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 5. Evaluate EDGEbp with paired metagenomic and chemical biodegradation data:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 11,
+                "matching_text": "Task 5. Evaluate EDGEbp with paired metagenomic and chemical biodegradation data:"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9742677251375585,
+            "confidence": 0.9742677251375585
+          },
+          "reasoning": "Explicitly listed as Task 5/WP5."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 20,
+      "num_document_tokens": 11999,
+      "num_output_tokens": 8670
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "d3b03178-b015-4026-b9eb-e80c62fd9716",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:27:48.775437+00:00",
+  "updated_at": "2025-11-11T11:30:53.387108+00:00"
+}

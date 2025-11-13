@@ -1,0 +1,229 @@
+{
+  "document_path": "raw/ORD_files/Explore/Tilley - 2nd call/application/ETHZ_Tilley_2nd_call.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 113400.0,
+    "total_budget_personnel_total_direct": 113400.0,
+    "total_budget_travel": 600.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 6000.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 6600.0,
+    "total_budget_total_direct": 120000.0,
+    "total_budget_subcontracting": 30000.0,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_subcontracting": {
+        "reasoning": "The document provides two strong supports for a total subcontracting budget of 30,000 CHF: (a) explicit calculation in the main proposal (20% of 150,000 CHF), and (b) a budget table entry summing to 30,000 CHF. The 15,000 CHF letter is for a single subcontractor out of the total; it doesn't contradict the budgeted amount. Therefore, the aggregate, consistent, and most representative value is 30,000 CHF.",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "for which 20% of the budget was allocated for subcontracting"
+          },
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 150000"
+          },
+          {
+            "page": 27,
+            "matching_text": "B – Subcontracting Costs 7      |                         | 15,000.00 | 15,000.00 | 30,000.00"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999969510147106,
+        "confidence": 0.9999969510147106
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Other | 42,000.00 | 71,400.00 |   | 113,400.00"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9597565393660137,
+        "confidence": 0.9597565393660137
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "'i. Total Direct Costs for Personnel' shows 113,400.00"
+          },
+          {
+            "page": 27,
+            "matching_text": "confirmed on page 27"
+          }
+        ],
+        "extraction_confidence": 0.9999986403575042,
+        "confidence": 0.9999986403575042
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION. The first segment (pages 17–23) did not contain a value for Travel, but on page 26 in the subsequent section, 'Travel2' is listed in the budget table with a value of 600.00 CHF. This is the only explicit CHF value for Travel provided.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "'Travel2' entry lists 600.00 in 'Total in CHF' column"
+          }
+        ],
+        "extraction_confidence": 0.9999598590346465,
+        "confidence": 0.9999598590346465
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Equipment3 | | | | | |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9993875790029817,
+        "confidence": 0.9993875790029817
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Conferences and workshops5 | 6000.00   |           |   | 6000.00"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999967331033234,
+        "confidence": 0.9999967331033234
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "ii. Total Other Direct Costs    |                         |           |           | 6,600.00"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999994263791845,
+        "confidence": 0.9999994263791845
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "A – Total Direct Costs (i + ii) |                         |           |           | 120,000.00"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999921735886111,
+        "confidence": 0.9999921735886111
+      },
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 28,
+            "matching_text": "150,000.00 | Total"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999853306535498,
+        "confidence": 0.9999853306535498
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 34,
+      "num_document_tokens": 19080,
+      "num_output_tokens": 5204
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c89322f8-772a-4551-a71d-0346b28988e8",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:36:49.666224+00:00",
+  "updated_at": "2025-11-11T14:37:32.062647+00:00"
+}

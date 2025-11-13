@@ -1,0 +1,595 @@
+{
+  "document_path": "raw/ORD_files/Explore/Anciaux - 1st call/application/EPFL_Anciaux_1st_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Senior scientific collaborator",
+    "main_applicant_first_name": "Guillaume",
+    "main_applicant_surname": "Anciaux",
+    "main_applicant_laboratory_name": "EPFL ENAC IIC LSMS",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Senior scientific collaborator",
+        "first_name": "Guillaume",
+        "surname": "Anciaux",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Full Prof",
+        "first_name": "Molinari",
+        "surname": "Jean-François",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "HPC application expert",
+        "first_name": "Richart",
+        "surname": "Nicolas",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "HPC Application Expert",
+        "first_name": "Nicolas",
+        "surname": "Richart",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "Cloud and web based platform for dissemination of computational solid mechanics",
+    "project_acronym": "DCSM",
+    "project_abstract": "Academic knowledge is traditionally disseminated by academic journals. However, nowadays the production of scientific data in any given project exceeds by a vast amount what can be contained in a few journal pages. Reproducible scientific data and publications must be associated to boost scientific collaborations and discoveries. Open-science aims at publicly distributing the production of scientists. To be successful platforms simplifying workflows are required. Our project shall provide such a platform for the vast computational solid mechanics (CSM) community. It will allow to describe input, code and output of a simulation, therefore enabling storage on a repository. Facilities will be included for mainstream software and high-performance computing calculations. Results access and analysis will be web-based. When ready to be published, simply clicking a submission button to an open-access repository will be the only requirement. There are already existing open-source software for some of the bricks composing our proposal, but not for CSM needs. We propose to implement a distributed platform, based on well-established initiatives such as Meshio and Renku projects, yet focusing on such needs.",
+    "keywords": [
+      "Solid Mechanics",
+      "Cloud service",
+      "Visualization",
+      "Open reproducibility"
+    ],
+    "start_date": "1 Oct 2022",
+    "project_duration_months": 18,
+    "total_budget_requested": 131777.0,
+    "work_packages": null
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Which ETH Domain do you belong to?             | EPFL"
+          },
+          {
+            "page": 15,
+            "matching_text": "Ecole Polytechnique Fédérale de Lausanne (EPFL)"
+          },
+          {
+            "page": 50,
+            "matching_text": "EPFL ENAC IIC LSMS"
+          },
+          {
+            "page": 55,
+            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project at Computational Solid Mechanics Laboratory LSMS"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title)                               | Senior scientific collaborator"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Conflicting but project-specific sections (support letter, application details, project context) repeatedly, directly reference 'Guillaume' as the main applicant, e.g., 'application of Dr. Guillaume Anciaux for an ORD Explore project' (page 55), and applicant details table (page 1) listing first name as 'Guillaume'. Where both names appear, 'Jean-François' is more likely a supervisor or involved party but not the main applicant.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s)                                  | Guillaume"
+          },
+          {
+            "page": 11,
+            "matching_text": "Pundir Mohit, Anciaux Guillaume. Numerical Generation and Contact Analysis"
+          },
+          {
+            "page": 55,
+            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Anciaux is referenced multiple times with explicit main applicant context: in applicant details table (page 1), publications (page 11), and directly in supporting text ('application of Dr. Guillaume Anciaux for an ORD Explore project', page 55). 'Molinari' is heavily present as an affiliated principal investigator or professor but is not as definitively linked to primary applicant statements. Based on explicit task wording, Dr. Guillaume Anciaux is the best-supported extraction as main applicant surname.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s)                                     | Anciaux"
+          },
+          {
+            "page": 11,
+            "matching_text": "Anciaux Guillaume"
+          },
+          {
+            "page": 55,
+            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999996846530259,
+        "confidence": 0.9999996846530259
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "EPFL Laboratory                                | EPFL ENAC IIC LSMS"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode                             | 1015"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City                                           | Lausanne"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Which ETH Domain do you belong to?             | EPFL"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Function (Title)                               | Senior scientific collaborator"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "First name(s)                                  | Guillaume"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Surname(s)                                     | Anciaux"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Postcode / Zipcode                             | 1015"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?                                            | EPFL"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                                                              | Full Prof"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                                                 | Molinari"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                                                    | Jean-François"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996535877389,
+            "confidence": 0.9999996535877389
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "EPFL - ENAC - IIC - LSMS GC A2 494 (Bâtiment GC) Station 18 CH1015 - Lausanne"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?                              | EPFL"
+              },
+              {
+                "page": 24,
+                "matching_text": "EPFL SCITAS"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                                                | HPC application expert"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                                   | Richart"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                                      | Nicolas"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "EPFL SCITAS ME B2 464 (Bâtiment ME) Station 9 CH1015 - Lausanne"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "EPFL SCITAS"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "HPC Application Expert, SCITAS, EPFL, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "# Nicolas Richart"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "# Nicolas Richart"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "CH-1015 Lausanne"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "\"Explore Projects\" - Deadline 14th April 2022"
+          },
+          {
+            "page": 26,
+            "matching_text": "Track A: Explore projects"
+          },
+          {
+            "page": 55,
+            "matching_text": "ETH Domain ORD Program**\n**Explore Track**"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "Cloud and web based platform for dissemination of computational solid mechanics"
+          },
+          {
+            "page": 26,
+            "matching_text": "Cloud and web based platform for dissemination of computational solid mechanics"
+          },
+          {
+            "page": 43,
+            "matching_text": "Proposal “Cloud and web based platform for dissemination of computational solid mechanics” by G. Anciaux & N. Richart & J.F. Molinari"
+          },
+          {
+            "page": 55,
+            "matching_text": "project entitled ***Cloud and web based platform for dissemination of computational solid mechanics (Acronym: DCSM (Dissemination of Computational Solid Mechanics)***"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym in Research Proposal table: DCSM."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Academic knowledge is traditionally disseminated by academic journals. However, nowadays the production of scientific data in any given project exceeds by a vast amount what can be contained in a few journal pages. ... We propose to implement a distributed platform, based on well-established initiatives such as Meshio and Renku projects, yet focusing on such needs."
+          }
+        ],
+        "extraction_confidence": 0.9999961546008678,
+        "confidence": 0.9999961546008678
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Proposed Starting Date: 1 Oct 2022 in Research Proposal table."
+          }
+        ],
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration is 18 months, as in Research Proposal table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Total requested amount in CHF is 131777 in BUDGET section."
+          },
+          {
+            "page": 33,
+            "matching_text": "Explicit in budget table: 'Total Costs (A + B) 131777 CHF'"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 59,
+      "num_document_tokens": 35784,
+      "num_output_tokens": 11546
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "6e180f5a-bce0-40c7-9a34-22f4013ace93",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:02:01.655790+00:00",
+  "updated_at": "2025-11-11T12:04:31.741833+00:00"
+}

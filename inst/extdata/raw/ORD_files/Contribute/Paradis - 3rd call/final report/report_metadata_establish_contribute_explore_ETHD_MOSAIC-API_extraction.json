@@ -1,0 +1,103 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Paradis - 3rd call/final report/ETHD_MOSAIC-API.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Application Programming Interface for the Modern Ocean Sediment Archive and Inventory of Carbon database (MOSAIC-API)",
+    "explore_call_number": 3,
+    "project_starting_and_end_date": "01.07.2023 – 30.09.2024",
+    "main_applicant_responsible_for_project": "Sarah Paradis",
+    "function": "Post-doctoral researcher",
+    "laboratory_department": "Biogeoscience",
+    "institution_of_main_applicant": "Geological Institute",
+    "report": "Final",
+    "reporting_period": "01.07.2023 – 30.09.2024",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999911994251,
+        "confidence": 0.9999999911994251
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION and mapped ordinal '3rd' to integer 3 as per instructions.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999998839959633,
+        "confidence": 0.9999998839959633
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Extracted without title as per schema instructions.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION ('Scientific Report Template – Final')",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "Inferred from project start/end date as there is no separate reporting period field.",
+        "extraction_confidence": 0.9978764293641623,
+        "confidence": 0.9978764293641623
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 5,
+      "num_document_tokens": 2823,
+      "num_output_tokens": 964
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "1af70b55-5f67-4d48-82ba-550be537e4a3",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:15:46.291468+00:00",
+  "updated_at": "2025-11-11T17:16:45.818032+00:00"
+}

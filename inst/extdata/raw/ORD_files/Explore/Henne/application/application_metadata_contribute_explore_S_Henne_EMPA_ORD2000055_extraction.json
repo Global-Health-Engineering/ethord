@@ -1,0 +1,420 @@
+{
+  "document_path": "raw/ORD_files/Explore/Henne/application/S_Henne_EMPA_ORD2000055.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "Empa",
+    "main_applicant_function": "Senior Scientist",
+    "main_applicant_first_name": "Stephan",
+    "main_applicant_surname": "Henne",
+    "main_applicant_laboratory_name": "Air Pollution / Environmental Technology",
+    "main_applicant_postcode": 8600,
+    "main_applicant_city": "Dübendorf",
+    "all_applicants": null,
+    "project_title": "Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases (ExAiRIM)",
+    "project_acronym": "ExAiRIM",
+    "project_abstract": "Inverse modelling of greenhouse gas emissions is a powerful tool combining atmospheric observations and transport simulations to provide policy-relevant, real-world emission estimates. Inverse modelling requires computational workflows that deal with multiple atmospheric model simulations, pre- and post-processing steps, inversion codes and collection/aggregation of results across an ensemble of individual realisations. These steps are not handled in a traceable, repeatable and user-friendly way. Here, we propose to use the 'Automated Interactive Infrastructure and Database for Computational Science' AiiDA system to develop prototype workflows and implement plugins for automation of the above steps. AiiDA is a well-established tool in the field of computational material science within the ETH-domain. We will build on its flexible structure to transfer its powers to the atmospheric modelling community, specifically that of inverse modelling. We will interact with our Swiss and European partners to design generic workflows that can be easily adopted by other researchers working on inverse modelling. Our implementation will improve the traceability, repeatability, findability, and sharing of emission estimates that are crucial in the assessment of climate change policy and legislation. We expect to carry the achievements beyond the use in our own group to other researchers with whom we cooperate closely in the context of international and European programmes and projects.",
+    "keywords": [
+      "atmospheric modelling",
+      "greenhouse gas emissions",
+      "computational workflows",
+      "data provenance",
+      "AiiDA"
+    ],
+    "start_date": "1 Dec 2022",
+    "project_duration_months": 12,
+    "total_budget_requested": 147000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "networking"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "plugin design"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "implementation"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "outreach"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Which ETH Domain do you belong to?             | EMPA"
+          },
+          {
+            "page": 32,
+            "matching_text": "I, Dr. Lukas Emmenegger (Head of Empa's [Laboratory]..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title)                               | Senior Scientist"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "The value 'Stephan' is found directly in all provided source text segments, with verbatim extraction from multiple locations, all supporting the same name.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s)                                  | Stephan"
+          },
+          {
+            "page": 10,
+            "matching_text": "Stephan Henne is author and co-author of ~90 peer-reviewed, high-impact journal articles"
+          },
+          {
+            "page": 32,
+            "matching_text": "application of Dr. [Stephan ](https://www.empa.ch/web/empa/air-pollution-/-environmental-technology)Henne for an ORD *Explore* project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s)                                     | Henne"
+          },
+          {
+            "page": 10,
+            "matching_text": "Stephan Henne is author and co-author of ~90 peer-reviewed"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory name                                | Air Pollution / Environmental Technology"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode                             | 8600"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City                                           | Dübendorf"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ORD Program - Measure 1 \"Explore Projects\""
+          },
+          {
+            "page": 13,
+            "matching_text": "Track A: Explore projects"
+          },
+          {
+            "page": 32,
+            "matching_text": "ORD *Explore* project at my Laboratory for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The project title is consistently given in the document as 'Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases', with later support material (page 32) showing the official acronym in parentheses—this matches standard scientific project titling conventions. As the variant with the acronym is an augmentation, providing both the full title and its abbreviation, it offers a more complete official form for extraction.",
+        "citation": [
+          {
+            "page": 32,
+            "matching_text": "project entitled \" Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases (ExAiRIM)\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999475025109,
+        "confidence": 0.9999999475025109
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 14,
+            "matching_text": "Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases<br/><br/>ExAiRIM"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Inverse modelling of greenhouse gas emissions is a powerful tool combining atmospheric observations and transport simulations to provide policy-relevant, real-world emission estimates. Inverse modelling requires computational workflows that deal with multiple atmospheric model simulations, pre- and post-processing steps, inversion codes and collection/aggregation of results across an ensemble of individual realisations. These steps are not handled in a traceable, repeatable and user-friendly way. Here, we propose to use the 'Automated Interactive Infrastructure and Database for Computational Science' AiiDA system to develop prototype workflows and implement plugins for automation of the above steps. AiiDA is a well-established tool in the field of computational material science within the ETH-domain. We will build on its flexible structure to transfer its powers to the atmospheric modelling community, specifically that of inverse modelling. We will interact with our Swiss and European partners to design generic workflows that can be easily adopted by other researchers working on inverse modelling. Our implementation will improve the traceability, repeatability, findability, and sharing of emission estimates that are crucial in the assessment of climate change policy and legislation. We expect to carry the achievements beyond the use in our own group to other researchers with whom we cooperate closely in the context of international and European programmes and projects."
+          }
+        ],
+        "extraction_confidence": 0.9999929337598107,
+        "confidence": 0.9999929337598107
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date is '1 Dec 2022'."
+          }
+        ],
+        "extraction_confidence": 0.9999998182330894,
+        "confidence": 0.9999998182330894
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration is '12'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "Both extractions provide the same value of 147000 CHF with VERBATIM EXTRACTION from separate document locations, including a tabular citation. No conflicts or ambiguities.",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Total Costs (A + B)             |                                                  | 147000 |   | 147000 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "Work Package 1 (networking) will reach out to the members of the greenhouse gas modelling community"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "Work Package 1 (networking) will reach out to the members of the greenhouse gas modelling community"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9041624065657097,
+            "confidence": 0.9041624065657097
+          },
+          "reasoning": "Verbatim description and title found on page 22."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "Work Package 2 (plugin design) will focus on the design of an AiiDA plugin for greenhouse gas inversions."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "Work Package 2 (plugin design) will focus on the design of an AiiDA plugin for greenhouse gas inversions."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Verbatim description and title found on page 23."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "Work Package 3 (implementation) will carry out the implementation of the plugin design developed in WP2"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "Work Package 3 (implementation) will carry out the implementation of the plugin design developed in WP2"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Verbatim description and title found on page 23."
+        },
+        {
+          "wp_identifier": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Work package identified and described on page 24."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 33,
+      "num_document_tokens": 25145,
+      "num_output_tokens": 8809
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "01355f59-c0fb-4671-ac0d-87a171db9baa",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:56:18.798790+00:00",
+  "updated_at": "2025-11-11T12:58:43.881524+00:00"
+}

@@ -1,0 +1,525 @@
+{
+  "document_path": "raw/ORD_files/Explore/Wang/application/EMPA_Wang.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "Empa",
+    "main_applicant_function": "Scientist",
+    "main_applicant_first_name": "Zhanyun",
+    "main_applicant_surname": "Wang",
+    "main_applicant_laboratory_name": "Technology & Society Laboratory",
+    "main_applicant_postcode": 9014,
+    "main_applicant_city": "St. Gallen",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Scientist",
+        "first_name": "Zhanyun",
+        "surname": "Wang",
+        "postcode": 9014
+      },
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Group Leader, Environmental Risk Assessment and Management Group",
+        "first_name": "Bernd",
+        "surname": "Nowack",
+        "postcode": 9014
+      }
+    ],
+    "project_title": "A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)",
+    "project_acronym": "OpenChemUses",
+    "project_abstract": "Open data on the uses are key for the safety assessment of existing chemicals and materials, and for the design of novel safer ones. However, the availability and accessibility of use data in the public domain is limited. For many chemicals and materials, use data have been reported, but they cannot be readily extracted and used by scientists, regulators and the industry on a large scale. This is because they are scattered over the public domain, and are often reported using different terminologies and in a non-machine-readable/processable format. Against this background, this project aims to enable and engage the scientific and regulatory communities to build up open FAIR data on the uses of chemicals and materials by developing and disseminating a toolbox of the missing tools. In particular, the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction and harmonization of existing reporting from different types of sources, to be used by researchers within the ETH-Domain, as well as external researchers including industrial scientists, regulators, and civil society organisations. The project will take a participatory approach, with stakeholders within and outside the ETH-Domain to be engaged in the testing, finalization and dissemination of the toolbox.",
+    "keywords": [
+      "cheminformatics, natural language processing, chemical and material safety assessment, chemical and material innovation, use information"
+    ],
+    "start_date": "1 Sep 2022",
+    "project_duration_months": 17,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Develop a standard for future use data reporting"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Develop workflow(s) and tools for automated extraction and harmonization of existing use data"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "\"Explore Projects\" - Deadline 14th April 2022"
+          },
+          {
+            "page": 27,
+            "matching_text": "Track A: Explore projects"
+          },
+          {
+            "page": 42,
+            "matching_text": "ORD *Explore* project at Empa's Technology and Society Laboratory for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Which ETH Domain do you belong to?             | EMPA"
+          },
+          {
+            "page": 16,
+            "matching_text": "Empa – Swiss Federal Laboratories for Materials Science and Technology"
+          },
+          {
+            "page": 42,
+            "matching_text": "Empa's Technology and Society Laboratory"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Function (Title)                               | Scientist"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "First name(s)                                  | Zhanyun"
+          },
+          {
+            "page": 11,
+            "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "The primary data regarding the main applicant's surname appears at the start of the document (pages 2 and 11, indices 0 and 1) and is consistently 'Wang' in the applicant info and publication block context. Later references (indices 2, 3) to 'Nowack' occur in a different section, likely for another person. According to instructions, extract details for the main applicant only.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Surname(s)                                     | Wang"
+          },
+          {
+            "page": 11,
+            "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Laboratory name                                | Technology & Society Laboratory"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Postcode / Zipcode                             | 9014"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "City                                           | St. Gallen"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?             | EMPA"
+              },
+              {
+                "page": 42,
+                "matching_text": "application of Dr. Zhanyun Wang and Prof. Dr. Bernd Nowack for an ORD *Explore* project at Empa"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                               | Scientist"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                  | Zhanyun"
+              },
+              {
+                "page": 42,
+                "matching_text": "Dr. Zhanyun Wang"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                     | Wang"
+              },
+              {
+                "page": 42,
+                "matching_text": "Dr. Zhanyun Wang"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Postcode / Zipcode                             | 9014"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?                            | EMPA"
+              },
+              {
+                "page": 16,
+                "matching_text": "Empa – Swiss Federal Laboratories for Materials Science and Technology"
+              },
+              {
+                "page": 20,
+                "matching_text": "Bernd Nowack: List of Publications"
+              },
+              {
+                "page": 42,
+                "matching_text": "application of Dr. Zhanyun Wang and Prof. Dr. Bernd Nowack for an ORD *Explore* project at Empa"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9586,
+            "confidence": 0.9586
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                                              | Group Leader"
+              },
+              {
+                "page": 16,
+                "matching_text": "Group leader, Environmental Risk Assessment and Management Group, Empa – Swiss Federal Laboratories"
+              },
+              {
+                "page": 43,
+                "matching_text": "as Group Leader in the same Laboratory"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99732,
+            "confidence": 0.99732
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                                 | Bernd"
+              },
+              {
+                "page": 16,
+                "matching_text": "Prof. Dr. Bernd Nowack"
+              },
+              {
+                "page": 20,
+                "matching_text": "Bernd Nowack: List of Publications"
+              },
+              {
+                "page": 42,
+                "matching_text": "Prof. Dr. Bernd Nowack"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                                    | Nowack"
+              },
+              {
+                "page": 16,
+                "matching_text": "Prof. Dr. Bernd Nowack"
+              },
+              {
+                "page": 20,
+                "matching_text": "Bernd Nowack: List of Publications"
+              },
+              {
+                "page": 42,
+                "matching_text": "Prof. Dr. Bernd Nowack"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Technology & Society Lab Lerchenfeldstrasse 5 9014 St. Gallen"
+              },
+              {
+                "page": 16,
+                "matching_text": "CH - 9014 St. Gallen, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with function title enhanced for specificity from detailed section (page 16) and all available support. Confidence scores are averaged where multiple sources are used."
+        }
+      ],
+      "project_title": {
+        "reasoning": "Multiple verbatim extractions—the most complete version explicitly appears in both the Research Proposal and supporting documents; deduplicating and standardizing based on the citations.",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "1. Project title\nA Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)"
+          },
+          {
+            "page": 42,
+            "matching_text": "project entitled \"A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project: OpenChemUses"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Open data on the uses are key for the safety assessment of existing chemicals and materials, and for the design of novel safer ones. However, the availability and accessibility of use data in the public domain is limited. For many chemicals and materials, use data have been reported, but they cannot be readily extracted and used by scientists, regulators and the industry on a large scale. This is because they are scattered over the public domain, and are often reported using different terminologies and in a non-machine-readable/processable format. Against this background, this project aims to enable and engage the scientific and regulatory communities to build up open FAIR data on the uses of chemicals and materials by developing and disseminating a toolbox of the missing tools. In particular, the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction and harmonization of existing reporting from different types of sources, to be used by researchers within the ETH-Domain, as well as external researchers including industrial scientists, regulators, and civil society organisations. The project will take a participatory approach, with stakeholders within and outside the ETH-Domain to be engaged in the testing, finalization and dissemination of the toolbox."
+          }
+        ],
+        "extraction_confidence": 0.9999983207169948,
+        "confidence": 0.9999983207169948
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "cheminformatics, natural language processing, chemical and material safety assessment, ..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9989438285048354,
+          "confidence": 0.9989438285048354
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Sep 2022"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION. Project duration of 17 months is stated directly on page 39 and indicated unambiguously in the project's summary section.",
+        "citation": [
+          {
+            "page": 39,
+            "matching_text": "The total project duration will be 17 months"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 39,
+            "matching_text": "The total project duration will be 17 months with a budget of 150 kCHF."
+          },
+          {
+            "page": 41,
+            "matching_text": "Total Costs (A + B)             | 150 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999999848527595,
+        "confidence": 0.999999848527595
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "WP1 is to develop a standard for future use data reporting"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "WP1 is to develop a standard for future use data reporting"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9840181484220595,
+            "confidence": 0.9840181484220595
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "WP2 is to develop workflow(s) and tools for automated extraction and harmonization of existing use data"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "WP2 is to develop workflow(s) and tools for automated extraction and harmonization of existing use data"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9989689424265356,
+            "confidence": 0.9989689424265356
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 45,
+      "num_document_tokens": 29611,
+      "num_output_tokens": 10983
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "8831621e-7446-42ac-af75-0f95769098ce",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:31:00.322656+00:00",
+  "updated_at": "2025-11-11T13:33:42.152916+00:00"
+}

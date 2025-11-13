@@ -1,0 +1,679 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Schartner - 2nd call/application/ETHZ_Schartner_2nd_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Postdoctoral researcher",
+    "main_applicant_first_name": "Matthias",
+    "main_applicant_surname": "Schartner",
+    "main_applicant_laboratory_name": "Chair of Space Geodesy",
+    "main_applicant_postcode": 8093,
+    "main_applicant_city": "Zürich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Postdoctoral researcher",
+        "first_name": "Matthias",
+        "surname": "Schartner",
+        "postcode": 8093
+      }
+    ],
+    "project_title": "Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)",
+    "project_acronym": "SRFI-DB",
+    "project_abstract": "The tremendous growth of satellite mega-constellations such as Starlink and OneWeb, emitting signals at radio frequencies, threatens radio astronomy. The emitted satellite signal can cause radio frequency interference (RFI) or saturate the wideband receivers of the highly sensitive radio telescopes leading to an information loss or even failed observations. As a countermeasure, the International Very Long Baseline Interferometry Service for Geodesy and Astronomy (IVS) community, and the International Astronomical Union (IAU) have launched working groups on the measurement and mitigation of satellite RFI. One promising approach is to avoid observations close to potentially harmful satellites. Within this work, we plan to support this attempt by establishing an open database of satellite orbits and emitted satellite frequency spectra. We will curate existing orbit information and connect them with existing frequency information and measurements taken at the observatories. The database will be openly available and provides access via a web interface and an application programming interface (API). This ensures seamless integration into existing state-of-the-art software pipelines.",
+    "keywords": [
+      "radio astronomy",
+      "Very Long Baseline Interferometry",
+      "radio frequency interference",
+      "Satellite",
+      "Database"
+    ],
+    "start_date": "1 Jan 2023",
+    "project_duration_months": 6,
+    "total_budget_requested": 29799.0,
+    "work_packages": [
+      {
+        "wp_identifier": "other",
+        "wp_title": "Database"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Gather publicly available orbit information"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Implement routines to regularly retrieve updated orbit information"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Gather publicly available radio spectra information"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Store everything into a common database"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Unit testing and Continuous Integration of data retrieval and storage"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Develop web interface for browsing available datasets"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Link database to web interface"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Unit testing and Continuous Integration of web interface"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Develop API for automatic data download"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Unit testing and Continuous Integration of API"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9996925816412362,
+        "confidence": 0.9996925816412362
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The applicant's function (title) is listed as 'Postdoctoral researcher'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "Dr. Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "Dr. Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999670169724043,
+        "confidence": 0.9999670169724043
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Chair of Space Geodesy"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode is listed as 8093"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "City is listed as Zürich."
+          }
+        ],
+        "extraction_confidence": 0.9999998957278968,
+        "confidence": 0.9999998957278968
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
+              }
+            ],
+            "extraction_confidence": 0.9999996871837232,
+            "confidence": 0.9999996871837232
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The project title is provided verbatim on pages 0–9 and 18–21. The most complete form, with the acronym (SRFI-DB), is taken from the later page. No evidence of conflicting data. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project title: Mitigating spaceborne radio frequency interference through satellite database"
+          },
+          {
+            "page": 18,
+            "matching_text": "project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”"
+          }
+        ],
+        "parsing_confidence": 0.9999999857810763,
+        "extraction_confidence": 0.9999999857810763,
+        "confidence": 0.9999999857810763
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project field lists 'SRFI-DB'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "The ‘Abstract’ field on page 2 contains the full abstract of the project."
+          }
+        ],
+        "extraction_confidence": 0.9999938424706927,
+        "confidence": 0.9999938424706927
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999999723410504,
+          "confidence": 0.9999999723410504
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Jan 2023"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration is listed as 6."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Total requested amount in CHF is listed as 29799."
+          },
+          {
+            "page": 18,
+            "matching_text": "Budget table lists 'Total Costs (A + B)' and 'A – Total Direct Costs (i + ii)' both as 29799 CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1000: Database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1000: Database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1100: Gather publicly available orbit information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1100: Gather publicly available orbit information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1200: Implement routines to regularly retrieve updated orbit information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1200: Implement routines to regularly retrieve updated orbit information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1300: Gather publicly available radio spectra information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1300: Gather publicly available radio spectra information"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1400: Store everything into a common database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1400: Store everything into a common database"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1500: Unit testing and Continuous Integration of data retrieval and storage"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 1500: Unit testing and Continuous Integration of data retrieval and storage"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2100: Develop web interface for browsing available datasets"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2100: Develop web interface for browsing available datasets"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2200: Link database to web interface"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2200: Link database to web interface"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2300: Unit testing and Continuous Integration of web interface"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 2300: Unit testing and Continuous Integration of web interface"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 3100: Develop API for automatic data download"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 3100: Develop API for automatic data download"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 3200: Unit testing and Continuous Integration of API"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP 3200: Unit testing and Continuous Integration of API"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 11058,
+      "num_output_tokens": 12708
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "acf8e94c-eadc-4e76-9312-a336f735b5c3",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T10:39:19.832625+00:00",
+  "updated_at": "2025-11-11T10:46:02.430569+00:00"
+}

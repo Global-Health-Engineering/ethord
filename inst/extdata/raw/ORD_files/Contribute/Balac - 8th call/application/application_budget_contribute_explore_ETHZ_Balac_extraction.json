@@ -1,0 +1,221 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Balac - 8th call/application/ETHZ_Balac.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 22500.0,
+    "total_budget_personnel_other": 0.0,
+    "total_budget_personnel_total_direct": 0.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 30000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 30000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 30000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998973463,
+        "confidence": 0.9998973463
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "No CHF amount was reported for Senior Staff in the budget table; the cell is blank. Interpreted as zero per typical reporting conventions when a budget category is listed but no value is supplied.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Senior Staff                                     |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "The budget table contains a row for 'Postdocs', but the corresponding 'Total in CHF' cell is blank. Therefore, the most accurate extraction is 0, as no budgeted amount is specified.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Postdocs                                         |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Students                                         | 22500 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Other                                            |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "No subtotal shown for total direct personnel costs; cell is empty.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "i. Total Direct Costs for Personnel |              |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "No CHF value reported for Travel; present in table but no value.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Travel²                             |              |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION. The Equipment line in the budget table is empty, indicating no budget has been allocated for Equipment.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Equipment³                          |              |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "No value was listed in the source text for this budget category; cell is explicitly empty in the cited table row. Interpreting as zero since no amount was requested or allocated.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Publications (including Open Access fees), etc.⁴ |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "No CHF value is present in the corresponding row for 'Conferences and workshops'; the cell is empty in the extracted table, indicating no budget was allocated or reported for this category.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Conferences and workshops⁵                       |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "No value is present in the 'Other (please specify)' budget row; the cell is blank. Report as zero per extraction protocol.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "Other (please specify)⁶                          |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "The extracted table shows an entry for 'Total Other Direct Costs', but does not provide a CHF value. According to the extraction standards, if the value is blank, the extracted amount should be 0.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "ii. Total Other Direct Costs        |              |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "A – Total Direct Costs (i + ii)' | 30000"
+          }
+        ],
+        "parsing_confidence": 0.036936950619561676,
+        "extraction_confidence": 0.036936950619561676,
+        "confidence": 0.036936950619561676
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "Row for Subcontracting Costs is present but contains no value, indicating no budget was allocated. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "B – Subcontracting Costs⁷       |                                     |       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 20,
+      "num_document_tokens": 9830,
+      "num_output_tokens": 3726
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "1b59eafa-9c9b-40f3-8dc7-799a58ddd7fb",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:44:05.220840+00:00",
+  "updated_at": "2025-11-11T13:44:39.130664+00:00"
+}

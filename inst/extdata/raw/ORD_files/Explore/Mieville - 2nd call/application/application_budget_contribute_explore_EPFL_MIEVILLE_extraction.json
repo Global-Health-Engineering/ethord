@@ -1,0 +1,243 @@
+{
+  "document_path": "raw/ORD_files/Explore/Mieville - 2nd call/application/EPFL_MIEVILLE.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 30000.0,
+    "total_budget_personnel_postdocs": 50000.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 50000.0,
+    "total_budget_personnel_total_direct": 130000.0,
+    "total_budget_travel": 6000.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 136000.0,
+    "total_budget_subcontracting": 10000.0,
+    "total_budget_total_costs": 146000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "Total requested amount in CHF | 146000"
+          },
+          {
+            "page": 26,
+            "matching_text": "Total Costs in CHF (A + B)      |                                                  | 78'000 | 68'000 | 146'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Senior Staff               | 15'000 | 15'000 | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Postdocs                   |        | 50'000 | 50'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Students                   |        |        |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Other (research assistant) | 50'000 |        | 50'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "The value was summed directly from the relevant table values for personnel (Senior Staff, Postdocs, Students, Other) as provided on page 25. Verbatim extraction from a structured list in the text.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Senior Staff               | 15'000 | 15'000 | 30'000"
+          },
+          {
+            "page": 25,
+            "matching_text": "Postdocs                   |        | 50'000 | 50'000"
+          },
+          {
+            "page": 25,
+            "matching_text": "Students                   |        |        |"
+          },
+          {
+            "page": 25,
+            "matching_text": "Other (research assistant) | 50'000 |        | 50'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Travel²                             |                            | 3'000  | 3'000  | 6'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Equipment³                          |                            |        |        |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "Both extracted sources indicate either an explicit absence of data (no fees listed) or a verbatim extraction of a zero value in the Publications row of the budget table. Together, this supports that the total for Other Publication Fees is 0 CHF.",
+        "citation": [
+          {
+            "page": 18,
+            "matching_text": "INSUFFICIENT DATA"
+          },
+          {
+            "page": 26,
+            "matching_text": "Publications (including Open Access fees), etc.4 |        |        |         |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "The budget table explicitly lists the 'Conferences and workshops' row with no value, meaning the correct extracted value is zero. This is a direct extraction from the most relevant source; the 'INSUFFICIENT DATA' note supports that no other values are found elsewhere.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Conferences and workshops5                       |        |        |         |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "The only directly extracted amount is 0 CHF, and the notes confirm that no values were listed for 'Other (please specify)'.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Other (please specify)6                          |        |        |         |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "The table explicitly lists 'Total Other Direct Costs' without a CHF value, indicating the amount is 0. This is a verbatim extraction and directly supported by the cited text.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "ii. Total Other Direct Costs    |                                                  |        |        |         |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "A – Total Direct Costs (i + ii) |                                                  | 68'000 | 68'000 | 136'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "B – Subcontracting Costs 7      |                                                  | 10'000 |        | 10'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 30,
+      "num_document_tokens": 26113,
+      "num_output_tokens": 5743
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "d6d2a9d1-5724-485e-85dc-c4e8d8a49750",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:20:19.741834+00:00",
+  "updated_at": "2025-11-11T14:21:06.842778+00:00"
+}

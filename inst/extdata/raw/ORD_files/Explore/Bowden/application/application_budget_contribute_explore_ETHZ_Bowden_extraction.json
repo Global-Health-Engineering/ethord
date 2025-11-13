@@ -1,0 +1,144 @@
+{
+  "document_path": "raw/ORD_files/Explore/Bowden/application/ETHZ_Bowden.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": null,
+    "total_budget_personnel_postdocs": 100000.0,
+    "total_budget_personnel_students": 20000.0,
+    "total_budget_personnel_other": null,
+    "total_budget_personnel_total_direct": null,
+    "total_budget_travel": 5000.0,
+    "total_budget_equipment": 12500.0,
+    "total_budget_other_publication_fees": null,
+    "total_budget_other_conferences_workshops": 12500.0,
+    "total_budget_other_other": null,
+    "total_budget_other_total_direct": null,
+    "total_budget_total_direct": 150000.0,
+    "total_budget_subcontracting": null,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 150000"
+          },
+          {
+            "page": 31,
+            "matching_text": "Total Costs (A + B) | | | | 150k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.5656591821975685,
+        "confidence": 0.5656591821975685
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Postdocs | 1x1 year 100% | 100k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995455827853,
+        "confidence": 0.9999995455827853
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Students | 1x1 year 40% | 20k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Travel⁹ | 2 conferences | | 5k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 30,
+            "matching_text": "Equipment¹⁰ | Cloud Storage to Host dataset(s) | | 12.5k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 31,
+            "matching_text": "Conferences and workshops12 | 1-2 workshops and webinars organized | | | 12.5k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9381949196275725,
+        "confidence": 0.9381949196275725
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 31,
+            "matching_text": "A – Total Direct Costs (i + ii) | | | | 150k CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9457288562745751,
+        "confidence": 0.9457288562745751
+      },
+      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_other)\nInput should be a valid number at path (total_budget_personnel_total_direct)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_other)\nInput should be a valid number at path (total_budget_other_total_direct)\nInput should be a valid number at path (total_budget_subcontracting)"
+    },
+    "usage": {
+      "num_pages_extracted": 36,
+      "num_document_tokens": 20094,
+      "num_output_tokens": 2048
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "82809316-855f-4362-92df-9b70dfe1aaee",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:25:03.679511+00:00",
+  "updated_at": "2025-11-11T14:25:36.304580+00:00"
+}

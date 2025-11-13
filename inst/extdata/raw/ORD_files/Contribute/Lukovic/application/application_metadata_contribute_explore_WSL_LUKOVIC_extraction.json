@@ -1,0 +1,439 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Lukovic/application/WSL_LUKOVIC.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "WSL",
+    "main_applicant_function": "Dr.",
+    "main_applicant_first_name": "Mirko",
+    "main_applicant_surname": "Lukovic",
+    "main_applicant_laboratory_name": "Ecosystem Ecology - Forest Dynamics",
+    "main_applicant_postcode": 8903,
+    "main_applicant_city": "Birmensdorf",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "WSL",
+        "function_title": "Dr.",
+        "first_name": "Mirko",
+        "surname": "Lukovic",
+        "postcode": 8903
+      }
+    ],
+    "project_title": "AI module for gap-filling TreeNet time series",
+    "project_acronym": "TreeNetGaps",
+    "project_abstract": "In a recent WSL research project (deepT - internal grant no. 202011N2099) we developed a machine learning model for gap-filling multi-channel time series data. We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure. The new tool would provide an additional option to the users of TreeNet dendrometer data to automatically fill the gaps in the time series using artificial intelligence. The existing model first must be improved using newly available data. It then has to be programmed in R, the native language used in the TreeNet software. Thereafter, the code must be inserted into the existing pipeline and offered as an option to the end-users of the data. This will also involve adapting the data to the input and output requirements of the model.",
+    "keywords": [
+      "Time series analysis",
+      "data imputation",
+      "machine learning",
+      "tree stem growth",
+      "forest health"
+    ],
+    "start_date": "1 Jan 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Model Design"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Model Integration"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Both sources explicitly state WSL as the main applicant's institution, including a direct citation from a support letter.",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "ORD Contribute project at WSL for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Combing evidence: The first object extracts 'Mirko' from a dedicated field; the second object corroborates this, explicitly referring to 'Mirko Lukovic' as applicant. No ambiguity present. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "Subject:** Track C Letter of support for applicant Mirko Lukovic"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Both sources unambiguously reference the applicant's surname as 'Lukovic'. Entry 0 verbatim provides the 'Surname(s)' field as 'Lukovic'. Entry 2 uses the full name 'Mirko Lukovic' for the applicant. Confidence is high and there is no evidence of an alternative surname.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The 'Surname(s)' field lists 'Lukovic'."
+          },
+          {
+            "page": 19,
+            "matching_text": "Subject:** Track C Letter of support for applicant Mirko Lukovic"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 10,
+            "matching_text": "TreeNetGaps - AI module for gap-filling TreeNet time series"
+          },
+          {
+            "page": 19,
+            "matching_text": "project entitled *AI module for gap-filling TreeNet time series*"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Total requested amount in CHF | 30000 |"
+          },
+          {
+            "page": 15,
+            "matching_text": "The overall project budget **must be exactly CHF 30'000 for the total duration of the project**."
+          },
+          {
+            "page": 17,
+            "matching_text": "| Total Costs (A + B)             |                                     |      | 30,000       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999078406202809,
+        "confidence": 0.9999078406202809
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The 'Function (Title)' field is given as 'Dr.'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The 'Laboratory name' field is listed as 'Ecosystem Ecology - Forest Dynamics'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The 'Postcode / Zipcode' field is listed as 8903."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The 'City' field is listed as Birmensdorf."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\" - Call 5"
+          },
+          {
+            "page": 19,
+            "matching_text": "ORD Contribute project at WSL for the project entitled *AI module for gap-filling"
+          },
+          {
+            "page": 20,
+            "matching_text": "ORD *Contribute* project at WSL for the project entitled *AI module for gap-filling"
+          },
+          {
+            "page": 21,
+            "matching_text": "ORD Contribute project at Swiss Federal Research Institute WSL for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'Acronym of the project' field: TreeNetGaps."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "In a recent WSL research project (deepT - internal grant no. 202011N2099) we developed a machine learning model for gap-filling multi-channel time series data. We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure. The new tool would provide an additional option to the users of TreeNet dendrometer data to automatically fill the gaps in the time series using artificial intelligence. The existing model first must be improved using newly available data. It then has to be programmed in R, the native language used in the TreeNet software. Thereafter, the code must be inserted into the existing pipeline and offered as an option to the end-users of the data. This will also involve adapting the data to the input and output requirements of the model."
+          }
+        ],
+        "extraction_confidence": 0.9999943662147298,
+        "confidence": 0.9999943662147298
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 13,
+            "matching_text": "The duration of the project is 12 months"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Jan 2024."
+          }
+        ],
+        "extraction_confidence": 0.9999995321443933,
+        "confidence": 0.9999995321443933
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "ETH Domain: WSL"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Function: Dr."
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "First name: Mirko"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Surname: Lukovic"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Postcode: 8903"
+              }
+            ],
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "**WP1: Model design**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "Work package 1: Model Design"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6616817934815008,
+            "confidence": 0.6616817934815008
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "**WP2: Model integration**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "Work package 2: Model Integration"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999822612089618,
+            "confidence": 0.9999822612089618
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 11490,
+      "num_output_tokens": 8011
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "7d8974ea-8509-492e-b64e-a62c62c7a1e3",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:12:20.734776+00:00",
+  "updated_at": "2025-11-11T11:14:24.840313+00:00"
+}

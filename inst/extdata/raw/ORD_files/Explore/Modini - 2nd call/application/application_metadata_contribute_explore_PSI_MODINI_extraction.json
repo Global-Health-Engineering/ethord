@@ -1,0 +1,811 @@
+{
+  "document_path": "raw/ORD_files/Explore/Modini - 2nd call/application/PSI_MODINI.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "PSI",
+    "main_applicant_function": "Senior scientist",
+    "main_applicant_first_name": "Robin",
+    "main_applicant_surname": "Modini",
+    "main_applicant_laboratory_name": "Laboratory of Atmospheric Chemistry",
+    "main_applicant_postcode": 5232,
+    "main_applicant_city": "Villigen",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Senior scientist",
+        "first_name": "Robin",
+        "surname": "Modini",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Senior scientist / Senior researcher",
+        "first_name": "Benjamin / Benjamin Tobias",
+        "surname": "Brem",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Group leader",
+        "first_name": "Martin",
+        "surname": "Gysel-Beer / Gysel Beer",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Senior scientist / Senior researcher",
+        "first_name": "David",
+        "surname": "Bell",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Senior scientist / Senior Scientist (tenured)",
+        "first_name": "Thorsten",
+        "surname": "Bartels-Rausch",
+        "postcode": 5232
+      }
+    ],
+    "project_title": "OPEN-ACTRIS: Building FAIR data chains for atmospheric observations in the ACTRIS-Switzerland network.",
+    "project_acronym": "OPEN-ACTRIS",
+    "project_abstract": "The OPEN-ACTRIS project aims to explore and build up FAIR data chain standards and strategies for atmospheric observations collected in Switzerland as part of the Aerosol, Clouds and Trace Gases Research Infrastructure (ACTRIS). ACTRIS is a pan-European network that aims to deepen our understanding of climate change and air pollution by producing high-quality data on short-lived atmospheric constituents. ACTRIS-Switzerland is the multi-institutional Swiss node of the network. ACTRIS has a comprehensive vision for FAIR data that covers all stages of the research data life cycle through the definition of data levels covering raw measurements, processed data, and elaborated data products. The OPEN-ACTRIS project aims to implement these ORD concepts in the ETH domain and to explore best ORD practice within ACTRIS-Switzerland by combining existing tools and infrastructure from the ETH domain and the ACTRIS community. We will achieve this by building FAIR data chains for the aerosol observations continuously recorded at field measurement stations on the Jungfraujoch and in Payerne, and for the aerosol and gas measurements performed on a campaign-basis in the PSI Atmospheric Chemistry Simulation Chambers.",
+    "keywords": [
+      "Data levels",
+      "atmospheric observations",
+      "aerosols",
+      "FAIR data"
+    ],
+    "start_date": "1 Sep 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "specifying ORD standards"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Connecting the dots"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Spreading the news"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "All sources directly and independently confirm PSI as the main applicant's institution, by explicit ETH Domain answer, affiliation of project leaders, and administrative responsibility for the project. No conflicting data found.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Which ETH Domain do you belong to? | PSI"
+          },
+          {
+            "page": 29,
+            "matching_text": "Benjamin Brem, Robin Modini, and David Bell are senior scientists in the Laboratory of Atmospheric Chemistry at PSI."
+          },
+          {
+            "page": 43,
+            "matching_text": "Paul Scherrer Institut"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Function (Title) | Senior scientist |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "The main applicant's first name is directly found in a table under the field 'First name(s)' as 'Robin'. This explicit listing takes precedence over inference from context later in the document.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| First name(s) | Robin |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "The table on page 1 explicitly lists 'Modini' as the surname for the main/corresponding applicant, which matches the required data field. The extraction from page 29 lists multiple scientists and does not specifically identify the main applicant, making it a less precise source for this field.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Surname(s) | Modini |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Laboratory name | Laboratory of Atmospheric Chemistry |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Postcode / Zipcode | 5232 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| City | Villigen |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Function (Title) | Senior scientist |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| First name(s) | Robin |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Surname(s) | Modini |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Postcode / Zipcode | 5232 |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              },
+              {
+                "page": 10,
+                "matching_text": "Paul Scherrer Institut - PSI, CH<br/>Laboratory of Atmospheric Chemistry"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998323932001,
+            "confidence": 0.9999998323932001
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title) | Senior scientist |"
+              },
+              {
+                "page": 10,
+                "matching_text": "Current position(s): Senior researcher"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s) | Benjamin |"
+              },
+              {
+                "page": 10,
+                "matching_text": "Benjamin Tobias Brem"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s) | Brem |"
+              },
+              {
+                "page": 10,
+                "matching_text": "Benjamin Tobias Brem"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Forschungstrasse 111, 5232 Villigen"
+              },
+              {
+                "page": 10,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9754942959289912,
+            "confidence": 0.9754942959289912
+          },
+          "reasoning": "Combined verbatim extraction for this applicant from application and CV. Variants 'Senior scientist' and 'Senior researcher'; name 'Benjamin' and 'Benjamin Tobias', but both refer to the same person. Postcode 5232 confirmed at both locations."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              },
+              {
+                "page": 13,
+                "matching_text": "Paul Scherrer Institut - PSI, CH<br/>Laboratory of Atmospheric Chemistry"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title) | Group leader |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Current position(s): Group leader"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999567980031,
+            "confidence": 0.9999999567980031
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s) | Martin |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Martin Gysel Beer"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s) | Gysel-Beer |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Martin Gysel Beer"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Forschungstrasse 111, 5232 Villigen"
+              },
+              {
+                "page": 13,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998621941065,
+            "confidence": 0.9999998621941065
+          },
+          "reasoning": "Names/roles are supported by both forms in application and CV; both refer to the same PSI researcher. All values direct from texts, with surname variants."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              },
+              {
+                "page": 17,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Function (Title) | Senior scientist |"
+              },
+              {
+                "page": 17,
+                "matching_text": "Current position(s): Senior researcher"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| First name(s) | David |"
+              },
+              {
+                "page": 17,
+                "matching_text": "David Bell"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Surname(s) | Bell |"
+              },
+              {
+                "page": 17,
+                "matching_text": "David Bell"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "Forschungstrasse 111, 5232 Villigen"
+              },
+              {
+                "page": 17,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9970822932610276,
+            "confidence": 0.9970822932610276
+          },
+          "reasoning": "Both application and CV (pages 3 and 17) confirm consistent institution and name, different variants for function/title ('Senior scientist', 'Senior researcher')."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              },
+              {
+                "page": 21,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Function (Title) | Senior scientist |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Current position(s): Senior Scientist (tenured)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999881809857419,
+            "confidence": 0.9999881809857419
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| First name(s) | Thorsten |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Thorsten Bartels-Rausch"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996237868908,
+            "confidence": 0.9999996237868908
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Surname(s) | Bartels-Rausch |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Thorsten Bartels-Rausch"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999515968389,
+            "confidence": 0.9999999515968389
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "Forschungstrasse 111, 5232 Villigen"
+              },
+              {
+                "page": 21,
+                "matching_text": "Paul Scherrer Institut - PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Both variants refer to same applicant and role; application and CV sections both present and support this extraction."
+        }
+      ],
+      "project_title": {
+        "reasoning": "Multiple locations provide the project title. The most complete and contextually relevant version appears in section 1 on page 26 and matches the abbreviated 'OPEN-ACTRIS' project acronym found elsewhere. Chose the most specific, extended title with acronym per best practice and provided citations.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "OPEN-ACTRIS: Building FAIR data chains for atmospheric observations in the ACTRIS-Switzerland network."
+          },
+          {
+            "page": 4,
+            "matching_text": "| **Project title** | Building FAIR data chains for atmospheric observations in the ACTRIS-Switzerland network |"
+          },
+          {
+            "page": 36,
+            "matching_text": "OPEN-ACTRIS would be a 12 month-long project beginning in September 2024."
+          },
+          {
+            "page": 43,
+            "matching_text": "Proposal: OPEN-ACTRIS"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| **Acronym of the project** | OPEN-ACTRIS |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "The OPEN-ACTRIS project aims to explore and build up FAIR data chain standards and strategies for atmospheric observations collected in Switzerland as part of the Aerosol, Clouds and Trace Gases Research Infrastructure (ACTRIS). ACTRIS is a pan-European network that aims to deepen our understanding of climate change and air pollution by producing high-quality data on short-lived atmospheric constituents. ACTRIS-Switzerland is the multi-institutional Swiss node of the network...."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999994938189385,
+        "confidence": 0.9999994938189385
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Data levels, atmospheric observations, aerosols, FAIR data"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Data levels, atmospheric observations, aerosols, FAIR data"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Data levels, atmospheric observations, aerosols, FAIR data"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Data levels, atmospheric observations, aerosols, FAIR data"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| **Proposed Starting Date** | 1 Sep 2024 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998659145466,
+        "confidence": 0.9999998659145466
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| **Project duration** | 12 |"
+          },
+          {
+            "page": 36,
+            "matching_text": "OPEN-ACTRIS would be a 12 month-long project beginning in September 2024."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION. All relevant sources explicitly state the same amount: 150,000 CHF. Where found as 'kCHF', amount has been converted appropriately.",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| **Total requested amount in CHF** | 150000 |"
+          },
+          {
+            "page": 39,
+            "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project."
+          },
+          {
+            "page": 42,
+            "matching_text": "We estimate that the total budget for the project will be 150 kCHF."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998758609595,
+        "confidence": 0.9999998758609595
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 1: specifying ORD standards"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 1: specifying ORD standards"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9972418269896344,
+            "confidence": 0.9972418269896344
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 2: Connecting the dots"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 2: Connecting the dots"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 3: Spreading the news"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 36,
+                "matching_text": "Work package 3: Spreading the news"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 44,
+      "num_document_tokens": 29990,
+      "num_output_tokens": 14138
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "1ca5398d-8d4a-433b-b324-12d2368e018a",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:20:13.460979+00:00",
+  "updated_at": "2025-11-11T12:23:45.476582+00:00"
+}

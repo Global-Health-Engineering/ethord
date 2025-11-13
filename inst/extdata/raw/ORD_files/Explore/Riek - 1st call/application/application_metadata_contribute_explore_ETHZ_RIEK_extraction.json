@@ -1,0 +1,588 @@
+{
+  "document_path": "raw/ORD_files/Explore/Riek - 1st call/application/ETHZ_RIEK.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Professor (Prof. Dr.); Senior Scientist",
+    "main_applicant_first_name": "Roland",
+    "main_applicant_surname": "Riek",
+    "main_applicant_laboratory_name": "Laboratory of Physical Chemistry",
+    "main_applicant_postcode": 8093,
+    "main_applicant_city": "Zürich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Professor (Prof. Dr.)",
+        "first_name": "Roland",
+        "surname": "Riek",
+        "postcode": 8093
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Senior Scientist (Prof. Dr.)",
+        "first_name": "Peter",
+        "surname": "Güntert",
+        "postcode": 8093
+      }
+    ],
+    "project_title": "Initiative for primary bio-NMR open research data",
+    "project_acronym": "NMRprime",
+    "project_abstract": "Nuclear Magnetic Resonance (NMR) spectroscopy, one of the major techniques in structural biology, suffers from the lack of an open database for its primary data, the multidimensional NMR spectra. These spectra are the basis for studies in atomic detail of the structure, dynamics, interactions, and functions of proteins, but are so far generally not made available to other researchers. Our NMRprime initiative for primary bio-NMR open research data will establish a database following the FAIR principles for biomolecular NMR spectra and explore its coordination with existing open databases for related, derived data, such as the Protein Data Bank (PDB) for protein structures and the Biological Magnetic Resonance Bank (BMRB) for chemical shift assignments. NMRprime will provide the framework for upload of NMR spectra in all commonly used formats, automatic annotation using machine learning techniques, search facilities, and open access to the archived spectral data. The long-term goal, to be achieved together with PDB, BMRB, and journal representatives, is to make the deposition of the underlying NMR spectra an integral part of bio-NMR projects published in peer-reviewed journals in the same way as the requirement to deposit protein structures in the PDB. We are singularly suited for the NMRprime initiative because of decades of experience in bio-NMR and the possibility to build NMRprime on the re-use of central components of our recent fully automated NMR spectra analysis system.",
+    "keywords": [
+      "Nuclear magnetic resonance",
+      "NMR spectra",
+      "structural biology",
+      "proteins",
+      "machine learning"
+    ],
+    "start_date": "1 Aug 2022",
+    "project_duration_months": 18,
+    "total_budget_requested": 150000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Establish an online system for deposition of NMR spectra in all commonly used formats"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Provide open access to NMR spectra"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Automated spectrum annotation"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Explore the coordination of NMRprime with existing open research data initiatives for structural biology and NMR"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "\"Explore Projects\" - Deadline 14th April 2022 (17:00 CEST)"
+          },
+          {
+            "page": 18,
+            "matching_text": "Track A: Explore projects"
+          },
+          {
+            "page": 22,
+            "matching_text": "end of the 18-month period of this Explore project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Which ETH Domain do you belong to?             | ETH Zürich"
+          },
+          {
+            "page": 13,
+            "matching_text": "Senior Scientist, Laboratory of Physical Chemistry, ETH Zürich, Switzerland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999928702268107,
+        "confidence": 0.9999928702268107
+      },
+      "main_applicant_first_name": {
+        "reasoning": "The 'Corresponding Applicant' section explicitly lists 'Roland' as the first name. The other extracted name, 'Peter', appears in a curriculum vitae, but does not override or specifically associate with the main applicant designation. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| First name(s)                                  | Roland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION. The table explicitly names Riek as the Corresponding Applicant by surname, which fits the role of main applicant as defined. The 'Güntert' entry is from a CV section and does not indicate this person is the main applicant; thus, only Riek is reported.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Surname(s)                                     | Riek"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "Multiple verbatim extractions from different parts of the document that both explicitly provide a function/title for the main applicant. Both are included due to lack of disambiguation.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Function (Title)                               | Professor (Prof. Dr.)"
+          },
+          {
+            "page": 13,
+            "matching_text": "Senior Scientist, Laboratory of Physical Chemistry, ETH Zürich, Switzerland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999739319736,
+        "confidence": 0.9999999739319736
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Laboratory name                                | Laboratory of Physical Chemistry"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| Postcode / Zipcode                             | 8093"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "| City                                           | Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to?             | ETH Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title)                               | Professor (Prof. Dr.)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s)                                  | Roland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s)                                     | Riek"
+              },
+              {
+                "page": 9,
+                "matching_text": "R. Riek has totally ca 20’429 citations and an h-actor of 65"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Postcode / Zipcode                             | 8093"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to?                                 | ETH Zürich"
+              },
+              {
+                "page": 13,
+                "matching_text": "Senior Scientist, Laboratory of Physical Chemistry, ETH Zürich, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999962860978628,
+            "confidence": 0.9999962860978628
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title)                                                   | Senior Scientist (Prof. Dr.)"
+              },
+              {
+                "page": 13,
+                "matching_text": "Senior Scientist, Laboratory of Physical Chemistry, ETH Zürich, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999515968399,
+            "confidence": 0.9999999515968399
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s)                                                      | Peter"
+              },
+              {
+                "page": 13,
+                "matching_text": "# Curriculum Vitae\n## Peter Güntert"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s)                                                         | Güntert"
+              },
+              {
+                "page": 13,
+                "matching_text": "# Curriculum Vitae\n## Peter Güntert"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998728187902151,
+            "confidence": 0.9998728187902151
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Laboratory of Physical Chemistry Vladimir-Prelog-Weg 2 8093 Zürich"
+              },
+              {
+                "page": 13,
+                "matching_text": "Laboratory of Physical Chemistry, ETH Zürich, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9988945964333656,
+            "confidence": 0.9988945964333656
+          },
+          "reasoning": "All individual data points are directly supported from both applicant table and individual CV, with very high and near-identical values throughout. Chose function title with 'Prof. Dr.' as highest specificity; provided citations from both sources."
+        }
+      ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "Initiative for primary bio-NMR open research data"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999982164277114,
+        "confidence": 0.9999982164277114
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "Proposal acronym: NMRprime"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "## Abstract\nNuclear Magnetic Resonance (NMR) spectroscopy, one of the major techniques..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999973885683616,
+        "confidence": 0.9999973885683616
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Nuclear magnetic resonance, NMR spectra, structural biology, proteins, machine learning"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999998621940971,
+          "confidence": 0.9999998621940971
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Nuclear magnetic resonance, NMR spectra, structural biology, proteins, machine learning"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Nuclear magnetic resonance, NMR spectra, structural biology, proteins, machine learning"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Nuclear magnetic resonance, NMR spectra, structural biology, proteins, machine learning"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Nuclear magnetic resonance, NMR spectra, structural biology, proteins, machine learning"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Start date provided as '1 Aug 2022'."
+          }
+        ],
+        "extraction_confidence": 0.9999999374367368,
+        "confidence": 0.9999999374367368
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 22,
+            "matching_text": "functional at the end of the 18-month period"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "| Total requested amount in CHF | 150000 |"
+          },
+          {
+            "page": 34,
+            "matching_text": "Total Costs (A + B)             | 150000 |   |   | 150000 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP1 is listed in section 5 and detailed in Gantt chart."
+              }
+            ],
+            "parsing_confidence": 0.9954821071793986,
+            "extraction_confidence": 0.9961505272047617,
+            "confidence": 0.9958163171920801
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP1 is listed in section 5 and detailed in Gantt chart."
+              }
+            ],
+            "extraction_confidence": 0.9961428353511794,
+            "confidence": 0.9961428353511794
+          },
+          "reasoning": "Combined both sources. Used the more complete and specific title; both sources refer to the same WP. Confidence is averaged. Citation comes from context."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 28,
+                "matching_text": "## WP2: Provide open access to NMR spectra"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 28,
+                "matching_text": "## WP2: Provide open access to NMR spectra"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999723410504,
+            "confidence": 0.9999999723410504
+          },
+          "reasoning": "VERBATIM EXTRACTION. Both extractions directly match; data is explicit."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 29,
+                "matching_text": "### WP3: Automated spectrum annotation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 29,
+                "matching_text": "### WP3: Automated spectrum annotation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION. Consensus across sources."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 29,
+                "matching_text": "### WP4: Explore the coordination of NMRprime with existing open research data initiatives"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 29,
+                "matching_text": "### WP4: Explore the coordination of NMRprime with existing open research data initiatives"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.998815740931767,
+            "confidence": 0.998815740931767
+          },
+          "reasoning": "VERBATIM EXTRACTION. Both sources closely agree; citation is precise."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 35,
+      "num_document_tokens": 25806,
+      "num_output_tokens": 12070
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "21749aff-d899-455f-9a2c-ecae561f8e60",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:30:29.529366+00:00",
+  "updated_at": "2025-11-11T12:38:12.592436+00:00"
+}

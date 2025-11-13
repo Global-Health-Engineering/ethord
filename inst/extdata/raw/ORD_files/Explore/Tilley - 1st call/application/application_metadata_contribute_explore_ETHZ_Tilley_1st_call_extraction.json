@@ -1,0 +1,807 @@
+{
+  "document_path": "raw/ORD_files/Explore/Tilley - 1st call/application/ETHZ_Tilley_1st_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Prof. Dr.",
+    "main_applicant_first_name": "Elizabeth",
+    "main_applicant_surname": "Tilley",
+    "main_applicant_laboratory_name": "Global Health Engineering",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zurich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Prof. Dr.",
+        "first_name": "Elizabeth",
+        "surname": "Tilley",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Open Science Specialist",
+        "first_name": "Lars",
+        "surname": "Schöbitz",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Dr",
+        "first_name": "Matthias",
+        "surname": "Bannert",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "Open WASH data by building Open Science Competencies and Community",
+    "project_acronym": "openwashdata",
+    "project_abstract": "Poor data management practices hold back progress in the Water, Sanitation, and Hygiene (WASH) sector, as WASH professionals often lack the training in data management competencies necessary for organizing, storing, and sharing data aligned with FAIR principles. This project addresses this gap by building the openwashdata community, which will support members in using open-source computational tools and further developing competencies consistent with FAIR data standards. The community aims to facilitate the publication of over 50 previously unpublished datasets contributed by members, fostering open science. The project also seeks to develop a global community of students and practitioners, create an accessible open data platform for WASH-related data, and research the technical, pedagogical, and political factors necessary for expanding and replicating this initiative to become the most comprehensive host and training platform in the open science WASH sector. The ultimate goal is to build a lasting, passionate network of WASH professionals applying FAIR data principles to benefit the entire sector.",
+    "keywords": [
+      "open data",
+      "reproducible research",
+      "reproducibility",
+      "metadata",
+      "documentation",
+      "WASH",
+      "Open Science",
+      "Community",
+      "Data sharing",
+      "Data Science",
+      "ORD"
+    ],
+    "start_date": "1 Oct 2022",
+    "project_duration_months": 18,
+    "total_budget_requested": 149990.0,
+    "work_packages": [
+      {
+        "wp_identifier": "other",
+        "wp_title": "Infrastructure design and installation"
+      },
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Mobilize community"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Mobilize data"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Data Cleaning; Host two online hackathons and a 2-day workshop focused on data cleaning and capacity building."
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Data sharing and data publishing; Data publishing and communication; Publish GitHub repository, prepare data products and R Data Packages, aggregate data sets into websites."
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Combined verbatim extractions from multiple locations, all unambiguously indicating ETH Zürich as the main applicant institution.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Which ETH Domain do you belong to?             | ETH Zürich"
+          },
+          {
+            "page": 13,
+            "matching_text": "ETH Zurich"
+          },
+          {
+            "page": 44,
+            "matching_text": "ETH Zurich\nProf. Dr. Elizabeth Tilley\nAssociate Professor\nCLD D13\nClausiusstrasse 37\n8092 Zurich, Switzerland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999876165545362,
+        "confidence": 0.9999876165545362
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION. The applicant table on page 1 explicitly lists the first name as 'Elizabeth.' Later references to 'Lars' (pages 13, 44) appear in contexts (support letters, other applicant sections) typically reserved for collaborators or supporting personnel. Thus, 'Elizabeth' is the main applicant's first name.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s)                                  | Elizabeth"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "The surname 'Tilley' is specified as the main applicant in the main applicant table and is consistently associated with the applicant in the early pages (page 1 and 9). Later occurrences of 'Schöbitz' are found in a distinct context—likely associated with a letter of support, not indicating the main applicant. Thus the main applicant's surname is 'Tilley'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s)                                     | Tilley"
+          },
+          {
+            "page": 9,
+            "matching_text": "Prof. Dr. Elizabeth A. Tilley"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999677312261,
+        "confidence": 0.9999999838656131
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title)                               | Prof. Dr."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999515968389,
+        "confidence": 0.9999999515968389
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory name                                | Global Health Engineering"
+          },
+          {
+            "page": 44,
+            "matching_text": "Laboratory of Global Health Engineering, headed by Prof. Dr. Elizabeth Tilley"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9981612996672329,
+        "confidence": 0.9981612996672329
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode                             | 8092"
+          },
+          {
+            "page": 44,
+            "matching_text": "8092 Zurich, Switzerland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City                                           | Zurich"
+          },
+          {
+            "page": 44,
+            "matching_text": "8092 Zurich, Switzerland"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.99999995159684,
+        "confidence": 0.99999995159684
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Open WASH data by building Open Science Competencies and Community"
+          },
+          {
+            "page": 44,
+            "matching_text": "project entitled Open WASH data by building Open Science Competencies and Community"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Proposal Acronym (mandatory): openwashdata"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "Combined and rephrased the verbatim abstract from the 'RESEARCH PROPOSAL' section (idx:0) and the goals/context from the summary (idx:3) to form a cohesive and non-duplicative abstract reflecting both problem statement, project methods, and broader impact, as supported by the extracted texts.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Poor data management practices hold back progress in the Water, Sanitation, and Hygiene (WASH) sector. WASH professionals are not taught the competencies needed to manage the vast quantities of data they collect. Specifically, the activities and strategies related to the storage, organization, description, and sharing of data and other materials (i.e. data analysis code) following FAIR data principles are underused. We will approach this gap by building the openwashdata community to support members in this process. We use and teach open-source computational tools, enabling community members to further competencies aligned with FAIR data principles. We expect to publish a large number (> 50) of previously unpublished data sets shared by community members who will contribute to the process throughout the program. The result will be a growing network of WASH professionals passionate about applying FAIR data principles to their work, which will benefit everyone in the entire sector."
+          },
+          {
+            "page": 21,
+            "matching_text": "The goal of the Water, Sanitation, and Hygiene (WASH) sector is to reduce the burden of disease by providing contaminant-free water ... The goal of this project therefore, is to develop a) a community of international and local students, and practitioners who are empowered to engage in open science concepts in order to b) create a platform to host WASH-related data which can be accessed and analyzed openly while c) researching the technical, pedagogical, and political factors that will allow us to expand and replicate the project to become the most comprehensive WASH hosting and training entity in open science."
+          }
+        ],
+        "extraction_confidence": 0.9999989279250656,
+        "confidence": 0.9999989279250656
+      },
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Research proposal table, starting date row."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Project duration field, research proposal section."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_category": {
+        "reasoning": "All extracted texts explicitly indicate 'Explore Projects' or its synonyms (i.e., 'Explore Track', 'ORD Explore project'). This is a verbatim extraction with consistent support across multiple sections of the document.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\""
+          },
+          {
+            "page": 22,
+            "matching_text": "Track A: Explore projects"
+          },
+          {
+            "page": 41,
+            "matching_text": "ETH Domain ORD Program Explore Track"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "Multiple explicit verbatim values for the total requested budget, all matching 149,990 CHF. Confidence averaged from all sources.",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "**Total requested amount in CHF** | 149990"
+          },
+          {
+            "page": 40,
+            "matching_text": "The total requested budget is 149,990.00 CHF."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.906024208620832,
+        "confidence": 0.906024208620832
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "open data, reproducible research, reproducibility, metadata, documentation"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "open data, reproducible research, reproducibility, metadata, documentation"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "open data, reproducible research, reproducibility, metadata, documentation"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "open data, reproducible research, reproducibility, metadata, documentation"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "open data, reproducible research, reproducibility, metadata, documentation"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999998063873693,
+          "confidence": 0.9999998063873693
+        },
+        {
+          "reasoning": "WASH is consistently used to define the problem scope and is central to the proposal.",
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "WASH sector"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Explicitly referenced as method and objective.",
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "open science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Verbatim from project title.",
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "Community"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Directly referenced in proposal and WP2.",
+          "citation": [
+            {
+              "page": 28,
+              "matching_text": "WP2: Data sharing"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Explicit phrase and topic in application.",
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "Data Science @ Global Health Engineering"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "Mentioned as project program and thematic focus.",
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "ORD"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Which ETH Domain do you belong to?             | ETH Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Function (Title)                               | Prof. Dr."
+              },
+              {
+                "page": 9,
+                "matching_text": "Prof. Dr. Elizabeth A. Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9971026937936951,
+            "confidence": 0.9971026937936951
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "First name(s)                                  | Elizabeth"
+              },
+              {
+                "page": 9,
+                "matching_text": "Prof. Dr. Elizabeth A. Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Surname(s)                                     | Tilley"
+              },
+              {
+                "page": 9,
+                "matching_text": "Prof. Dr. Elizabeth A. Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Postcode / Zipcode                             | 8092"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Combined verbatim extraction from primary applicant table (page 1) with corroborating identity data from page 9. All fields available from main table with highest confidence."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?                                            | ETH Zürich"
+              },
+              {
+                "page": 13,
+                "matching_text": "ETH Zurich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999997299322576,
+            "confidence": 0.999997299322576
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "Open Science Specialist, GHE, ETH Zurich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                                                 | Lars"
+              },
+              {
+                "page": 13,
+                "matching_text": "SCHÖBITZ Lars"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                                                    | Schöbitz"
+              },
+              {
+                "page": 13,
+                "matching_text": "SCHÖBITZ Lars"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9986207518916776,
+            "confidence": 0.9986207518916776
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Global Health Engineering CLD D 13 Clausiusstrasse 37 8092 Zürich Switzerland"
+              },
+              {
+                "page": 13,
+                "matching_text": "8092 Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Combined entries for Lars Schöbitz from page 2 (main table, includes ETH domain and Mr. title) and more specific position and address from page 13. Kept most informative and current position from CV section."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Which ETH Domain do you belong to?                                              | ETH Zürich"
+              },
+              {
+                "page": 16,
+                "matching_text": "KOF Swiss Economic Institute (ETH)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Function (Title)                                                                | Dr"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999354624522,
+            "confidence": 0.9999999354624522
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "First name(s)                                                                   | Matthias"
+              },
+              {
+                "page": 16,
+                "matching_text": "MATTHIAS BANNERT"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Surname(s)                                                                      | Bannert"
+              },
+              {
+                "page": 16,
+                "matching_text": "MATTHIAS BANNERT"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999991606393063,
+            "confidence": 0.9999991606393063
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "KOF Konjunkturforschungsstelle LEE G 114 Leonhardstrasse 21 8092 Zürich Schweiz"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION for page 2 details (main applicant list). Further confirmation and institutional expansion on pages 16-17. Postcode from main table."
+        }
+      ],
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP0: Infrastructure design and installation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Explicit section for WP0: Infrastructure design and installation; mapped to 'other' as per valid enum values."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP1: Mobilize community"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Explicit section for WP1: Mobilize community."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP2: Mobilize data"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP2: Mobilize data"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "WP2: Mobilize data, clearly labeled in work packages."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP3: Data cleaning"
+              },
+              {
+                "page": 29,
+                "matching_text": "**WP3: Data Cleaning.** Goal: Facilitate user-directed data cleaning (including documentation and metadata) to produce a first set of analysis-ready open data sets"
+              },
+              {
+                "page": 35,
+                "matching_text": "WP3   | Activity 3.4: Host two online hackathons where selected data sets are cleaned by participants"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 29,
+                "matching_text": "**WP3: Data Cleaning.** Goal: Facilitate user-directed data cleaning (including documentation and metadata) to produce a first set of analysis-ready open data sets"
+              },
+              {
+                "page": 35,
+                "matching_text": "WP3   | Activity 3.4: Host two online hackathons where selected data sets are cleaned by participants"
+              }
+            ],
+            "extraction_confidence": 0.8690297807730868,
+            "confidence": 0.8690297807730868
+          },
+          "reasoning": "Merged sources from summary, description, and detailed activities. Combined title includes both high-level label and descriptive activities."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 27,
+                "matching_text": "WP4: Data sharing and data publishing"
+              },
+              {
+                "page": 30,
+                "matching_text": "**WP4: Data publishing and communication. Goal: Increase reach and impact of data by making it citable and creating data communication products.**"
+              },
+              {
+                "page": 35,
+                "matching_text": "WP4   | Activity 4.1: Publish GitHub repository containing data and code in general-purpose..."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 30,
+                "matching_text": "**WP4: Data publishing and communication. Goal: Increase reach and impact of data by making it citable and creating data communication products.**"
+              },
+              {
+                "page": 35,
+                "matching_text": "WP4   | Activity 4.1: Publish GitHub repository containing data and code in general-purpose..."
+              }
+            ],
+            "extraction_confidence": 0.8899460939808665,
+            "confidence": 0.8899460939808665
+          },
+          "reasoning": "Combined titles, goals, and activities across all WP4 references for full descriptive scope."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 46,
+      "num_document_tokens": 29384,
+      "num_output_tokens": 18144
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "7bb4f685-e60c-44c5-9e84-0d86d4d3e566",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:16:27.548268+00:00",
+  "updated_at": "2025-11-11T13:24:43.329972+00:00"
+}

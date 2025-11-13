@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Sudret - 4th call/final scientific report/ETHD_ORD - Sudret - Scientific reporting .pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Open Platform for benchmarking Uncertainty Quantification Algorithms - UQBench",
+    "explore_call_number": 0,
+    "project_starting_and_end_date": "September 2023 – June 2024",
+    "main_applicant_responsible_for_project": "Bruno Sudret",
+    "function": "Full Professor",
+    "laboratory_department": "Chair of Risk, Safety and Uncertainty Quantification, Department of Civil, Environmental and Geomatic Engineering",
+    "institution_of_main_applicant": "ETH Zurich",
+    "report": "Final",
+    "reporting_period": "",
+    "coapplicants": null
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project title:** | Open Platform for benchmarking Uncertainty Quantification Algorithms - UQBench"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "INSUFFICIENT DATA: The field present is 'Contribute call number', not 'Explore call number' in the required format. Thus, the value cannot be determined from the document.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Contribute call number:** | EPFL SCR0902285"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:** | September 2023 – June 2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999122632289,
+        "confidence": 0.9999999122632289
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Removing academic titles as per instructions; only the explicit name is extracted.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Applicant responsible for project:** | Prof. Dr. Bruno Sudret"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function:** | Full Professor"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory (and/or Department):** | Chair of Risk, Safety and Uncertainty Quantification, Department of Civil, Environmental and Geomatic Engineering"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Institution of the applicant:** | ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "error": "Input should be a valid list at path (coapplicants)"
+    },
+    "usage": {
+      "num_pages_extracted": 9,
+      "num_document_tokens": 6416,
+      "num_output_tokens": 2467
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "553c12f7-e671-456b-8bbc-18dbde7dbf9e",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:03:52.135431+00:00",
+  "updated_at": "2025-11-11T17:05:37.851274+00:00"
+}

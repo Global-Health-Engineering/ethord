@@ -1,0 +1,205 @@
+{
+  "document_path": "raw/ORD_files/Explore/Fonti/intermediate report/ETHD_ORD_measure_1_scientific reporting template_v5_Explore_v2_updated_27.02.25_PF.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Towards an Open and Fair International Tree-Ring database for intra-annual tree-ring data",
+    "explore_call_number": 2,
+    "project_starting_and_end_date": "from 01.09.24 to 28.02.26",
+    "main_applicant_responsible_for_project": "P Fonti",
+    "function": "Senior Scientist",
+    "laboratory_department": "Dendrosciences, Forest Dynamic",
+    "institution_of_main_applicant": "WSL",
+    "report": "Intermediate",
+    "reporting_period": "from 01.09.24 to 31.05.25",
+    "coapplicants": [
+      {
+        "name": "I. Iosifescu",
+        "function": "Scientific collaborator",
+        "institution": "WSL",
+        "roles_and_main_tasks": "Guiding and technical-support"
+      },
+      {
+        "name": "G. von Arx",
+        "function": "Group leader",
+        "institution": "WSL",
+        "roles_and_main_tasks": "Guiding and dendro-support"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999815990398,
+        "confidence": 0.9999999815990398
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION AND MAPPING OF ORDINAL NUMBER",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "The 'Intermediate scientific report' is checked, 'Final' is not.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "I. Iosifescu"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Scientific collaborator"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "WSL, Envidat, Forest Ressources and Forest Management"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Guiding and technical-support"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION; Institution abbreviation prioritizes WSL from listed options."
+        },
+        {
+          "name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "G. von Arx"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Group leader"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "WSL, Dendrosciences, Forest Dynamic"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Guiding and dendro-support"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION; abbreviation of institution from institution detail."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 5,
+      "num_document_tokens": 3025,
+      "num_output_tokens": 1407
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c3cf31b8-fa4c-43ff-be20-8301f586e8ee",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:42:49.640623+00:00",
+  "updated_at": "2025-11-11T17:44:03.709652+00:00"
+}

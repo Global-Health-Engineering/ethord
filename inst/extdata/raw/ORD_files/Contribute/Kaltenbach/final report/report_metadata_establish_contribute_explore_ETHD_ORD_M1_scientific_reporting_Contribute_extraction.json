@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Kaltenbach/final report/ETHD_ORD_M1_scientific_reporting_Contribute.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "FAIR and reproducible sharing of data, code and computational environment",
+    "explore_call_number": 4,
+    "project_starting_and_end_date": "01.10.23 – 30.09.24",
+    "main_applicant_responsible_for_project": "Hans-Michael Kaltenbach",
+    "function": "Senior Scientist",
+    "laboratory_department": "Computational Systems Biology, D-BSSE",
+    "institution_of_main_applicant": "ETH Zürich",
+    "report": "Final",
+    "reporting_period": "01.10.23 – 30.09.24",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project title:                     | FAIR and reproducible sharing of data, code and computational environment"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION, with conversion of '4th call' to integer 4.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Contribute call number:            | 4th call"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:       | 01.10.23 – 30.09.24"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999993282456957,
+        "confidence": 0.9999993282456957
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Removed title (Dr.) for name only, as per instruction, from table entry.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Applicant responsible for project: | Dr. Hans-Michael Kaltenbach"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function:                          | Senior Scientist"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory (and/or Department):    | Computational Systems Biology, D-BSSE"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Institution of the applicant:      | ETH Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "Extracted directly from 'Scientific Report Template – Final' at top of the report.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "INFERRED FROM PROJECT START/END DATE because specific field for 'Reporting period' is absent.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:       | 01.10.23 – 30.09.24"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9994569148292332,
+        "confidence": 0.9994569148292332
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 10,
+      "num_document_tokens": 4387,
+      "num_output_tokens": 1010
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "7aed68dc-1742-42b8-9245-2451d00df1ba",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:11:24.571457+00:00",
+  "updated_at": "2025-11-11T17:12:45.698225+00:00"
+}

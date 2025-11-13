@@ -1,0 +1,468 @@
+{
+  "document_path": "raw/ORD_files/Explore/Bonetti - 2nd call/application/EPFL_BONETTI.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Assistant Professor",
+    "main_applicant_first_name": "Sara",
+    "main_applicant_surname": "Bonetti",
+    "main_applicant_laboratory_name": "EPFL ENAC IIE CHANGE",
+    "main_applicant_postcode": 1951,
+    "main_applicant_city": "Sion",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Assistant Professor",
+        "first_name": "Sara",
+        "surname": "Bonetti",
+        "postcode": 1951
+      }
+    ],
+    "project_title": "A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)",
+    "project_acronym": "FRAME",
+    "project_abstract": "Hybrid models, which combine physics and machine learning (ML) based models, are becoming increasingly popular in hydrology and the broader Earth Science community due to their potential for improved prediction and process representation. However, hybrid models pose unique challenges to open research practices, including the widely accepted FAIR principles. Unlike physics-based models, the reusability of hybrid models is hindered by the integration of ML models which dynamically change with training data. Furthermore, existing model and data repositories are not designed to host hybrid models which contain code, ML models, and associated training data. To address these challenges, FRAME will collaboratively design, implement, and test a standardised FAIR protocol tailored for hydrological hybrid models. The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models, and a python package leveraging existing model and data repositories widely used in the hydrology (HydroShare) and ML (DLHub) communities to share and retrieve hybrid models. To ensure wider and long-term impact of the project beyond its lifetime, the developed protocol will be actively used and improved by participating groups in the ETH Domain and Europe and will ultimately be transitioned to a community-driven protocol, inviting participation from the wider scientific community.",
+    "keywords": [
+      "Hybrid modelling",
+      "FAIR principles",
+      "Hydrology",
+      "Metadata Standards"
+    ],
+    "start_date": "1 Nov 2024",
+    "project_duration_months": 18,
+    "total_budget_requested": 146705.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "To review and adapt existing physically based model code and data standards to enable integration of machine learning models."
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "To create a unified metadata specification that can seamlessly combine physically based and machine learning components of hybrid models."
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "To develop generic software tools to aid the sharing and findability of hybrid models through existing community-driven platforms."
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "The organisation and management of FRAME will be led by the Catchment Hydrology and Geomorphology Lab (CHANGE, PI: Sara Bonetti) at EPFL."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title) field shows 'Assistant Professor'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION: 'Sara' is found in the main applicant first name field of a table and is explicitly referenced as PI 'Sara Bonetti' in project leadership context. Both extractions are verbatim and align.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "(CHANGE, PI: Sara Bonetti) at EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "(CHANGE, PI: Sara Bonetti) at EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL ENAC IIE CHANGE"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode field in applicant table is '1951'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City field in applicant table is 'Sion'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "Multiple independent sections (the RESEARCH PROPOSAL and official institutional letters) use 'A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)' as the complete project title. While 'FRAME: FAIR and Modular Protocols for Hydrological Hybrid Models and Data' and 'FRAME' appear elsewhere, the most complete and precise recurring form is the one provided in the RESEARCH PROPOSAL and support letters. This ensures a faithful and most accurate extraction in alignment with the document's formal references.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "A FAIR Protocol for Hybrid Models and Data in Hydrology"
+          },
+          {
+            "page": 21,
+            "matching_text": "Letter of support (Eawag) states: project titled 'A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)'."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.99999903329993,
+        "confidence": 0.9999995
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym in RESEARCH PROPOSAL table is 'FRAME'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Hybrid models, which combine physics and machine learning (ML) based models, are becoming increasingly popular in hydrology and the broader Earth Science community due to their potential for improved prediction and process representation. However, hybrid models pose unique challenges to open research practices, including the widely accepted FAIR principles. Unlike physics-based models, the reusability of hybrid models is hindered by the integration of ML models which dynamically change with training data. Furthermore, existing model and data repositories are not designed to host hybrid models which contain code, ML models, and associated training data. To address these challenges, FRAME will collaboratively design, implement, and test a standardised FAIR protocol tailored for hydrological hybrid models. The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models, and a python package leveraging existing model and data repositories widely used in the hydrology (HydroShare) and ML (DLHub) communities to share and retrieve hybrid models. To ensure wider and long-term impact of the project beyond its lifetime, the developed protocol will be actively used and improved by participating groups in the ETH Domain and Europe and will ultimately be transitioned to a community-driven protocol, inviting participation from the wider scientific community."
+          }
+        ],
+        "extraction_confidence": 0.9999967328803333,
+        "confidence": 0.9999967328803333
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed starting date is in the research proposal table as '1 Nov 2024'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration in months is '18' in table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Total Costs in CHF (A + B)      | 146705"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999217959246,
+        "confidence": 0.9999999217959246
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table specifies institution: EPFL"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "function: Assistant Professor"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "first name: Sara"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "surname: Bonetti"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "postcode: 1951"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Code and Data Standards [WP1]"
+              },
+              {
+                "page": 17,
+                "matching_text": "**WP1: Model Code and Data Standards**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Code and Data Standards [WP1]"
+              }
+            ],
+            "extraction_confidence": 0.9976759180149635,
+            "confidence": 0.9976759180149635
+          },
+          "reasoning": "Combined information from explicit WP1 definition/objective and summary title. Chose the detailed objective as work package title for the fullest information (high confidence and verbatim sources)."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "Metadata Specifications [WP2]"
+              },
+              {
+                "page": 17,
+                "matching_text": "**WP2: Metadata Specifications**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "Metadata Specifications [WP2]"
+              }
+            ],
+            "extraction_confidence": 0.9999996021858361,
+            "confidence": 0.9999996021858361
+          },
+          "reasoning": "Detailed description taken directly from the relevant section (high confidence, verbatim extraction). Shorter alternate summaries not used, as the objective gives more value."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "Ancillary Software Tools [WP3]"
+              },
+              {
+                "page": 17,
+                "matching_text": "**WP3: Ancillary Software Tools**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "Ancillary Software Tools [WP3]"
+              }
+            ],
+            "extraction_confidence": 0.9999978252671889,
+            "confidence": 0.9999978252671889
+          },
+          "reasoning": "Selected the verbatim WP3 title/objective as it gives the most context. Sources are in strong agreement and confidence scores are uniformly high."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 17,
+                "matching_text": "**WP4: Dissemination**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 17,
+                "matching_text": "**WP4: Dissemination**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "The WP4 summary label in the work package table is directly supported by the document. Extended description found elsewhere but with much lower extraction confidence; therefore, the concise label is appropriate."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 28,
+      "num_document_tokens": 21583,
+      "num_output_tokens": 11212
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "4325fe6b-7d35-4666-8c11-89fef526aebb",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T12:07:05.604671+00:00",
+  "updated_at": "2025-11-11T12:10:11.066957+00:00"
+}

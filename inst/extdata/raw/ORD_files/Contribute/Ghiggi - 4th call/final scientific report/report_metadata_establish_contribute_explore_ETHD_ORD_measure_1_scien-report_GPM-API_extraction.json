@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Ghiggi - 4th call/final scientific report/ETHD_ORD_measure_1_scien-report_GPM-API.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open Data Archive",
+    "explore_call_number": 24556,
+    "project_starting_and_end_date": "01.08.2023 – 31.03.2024",
+    "main_applicant_responsible_for_project": "Gionata Ghiggi",
+    "function": "PhD Student",
+    "laboratory_department": "Environmental Remote Sensing Laboratory",
+    "institution_of_main_applicant": "ENAC",
+    "report": "Final",
+    "reporting_period": "01.08.2023 – 31.03.2024",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "Extracted verbatim from General information table under 'Project title:'",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project title:**                     | GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open Data Archive"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "Extracted verbatim as the call number (same as explore call).",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Contribute call number:**            | 24556"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998693406179697,
+        "confidence": 0.9998693406179697
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "Extracted verbatim from General information table.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:**       | 01.08.2023 – 31.03.2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999989303672403,
+        "confidence": 0.9999989303672403
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Extracted verbatim as the only main applicant field.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Applicant responsible for project:** | Gionata Ghiggi"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "Extracted directly from the General information table, applies to main applicant only.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function:**                          | PhD Student"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "Extracted directly from General information table.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory (and/or Department):**    | Environmental Remote Sensing Laboratory"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "Extracted directly from General information table; applies to main applicant.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Institution of the applicant:**      | ENAC"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "The report is labelled as 'Final' in the header: 'Scientific Report Template – Final'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "The reporting period likely covers the entire project period, as usual for final reports; used the same as project start/end date.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:**       | 01.08.2023 – 31.03.2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9997094412232128,
+        "confidence": 0.9997094412232128
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 7,
+      "num_document_tokens": 5070,
+      "num_output_tokens": 987
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "cef32c7b-e9c9-4073-8a9e-33d3b132c67e",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T16:42:14.304119+00:00",
+  "updated_at": "2025-11-11T16:42:36.332542+00:00"
+}

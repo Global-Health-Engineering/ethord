@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Atienza - 5th call/final scientific report/ETHD_ORD_measure_1_scientific reporting template_v5_Contribute_25.06.23_FINAL.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)",
+    "explore_call_number": 5,
+    "project_starting_and_end_date": "1 Oct 2023 - 30 September 2024",
+    "main_applicant_responsible_for_project": "David Atienza",
+    "function": "Full Professor",
+    "laboratory_department": "EPFL STI IEM Embedded Systems Laboratory",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Final",
+    "reporting_period": "10/23 to 09/24",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project title:**                     | Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION ('Call 5' implies number 5).",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Contribute call number:**            | Call 5"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:**       | 1 Oct 2023 - 30 September 2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Extracted name, omitting 'Prof.' as per instructions.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Applicant responsible for project:** | Prof. David Atienza"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995381170119,
+        "confidence": 0.9999995381170119
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function:**                          | Full Professor"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory (and/or Department):**    | EPFL STI IEM Embedded Systems Laboratory"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Institution of the applicant:**      | EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "REPORT TYPE is clearly marked as 'Final'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "Inferred from project starting and end dates.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Project starting & end date:**       | 1 Oct 2023 - 30 September 2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999498322610956,
+        "confidence": 0.9999498322610956
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 6,
+      "num_document_tokens": 3286,
+      "num_output_tokens": 962
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "e18e2ed5-204a-431b-8c42-d556c22cf258",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T16:40:23.888147+00:00",
+  "updated_at": "2025-11-11T16:40:49.441888+00:00"
+}

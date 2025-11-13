@@ -1,0 +1,228 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Shah/application/EPFL_Shah.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 30000.0,
+    "total_budget_personnel_total_direct": 30000.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 30000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 30000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "Both cited budget lines report the same total requested amount/total costs (CHF 30,000) in two sections of the document. These are verbatim, matching, and confirm the total budget value.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 30000"
+          },
+          {
+            "page": 16,
+            "matching_text": "Total Costs (A + B)             |                                     |                                                  | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9984351910283661,
+        "confidence": 0.9984351910283661
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA. No amount is given for Senior Staff in the provided table; reporting as zero per convention unless otherwise indicated by explicit notes or footnotes.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Senior Staff                                     |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Postdocs                                         |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Students                                         |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION. Both the budget table and the budget explanation text explicitly state a CHF 30,000 allocation for 'Other' personnel/technical staff.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Other (Technical staff)                          | 30'000"
+          },
+          {
+            "page": 18,
+            "matching_text": "The requested budget (30 kCHF) corresponds to technical staff salaries only for the development of the web-based platform. It will cover ten weeks for a technical collaborator (full-stack developer)..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "i. Total Direct Costs for Personnel |                                                  | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Travel²                             |                                                  |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "The provided source text shows the Equipment line-item in the budget table without any numerical CHF value present. Therefore, the correct interpretation is that no funds are requested for Equipment (CHF 0).",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Equipment³                          |                                                  |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA. The relevant budget row exists but is empty, so no value is present. Assigning 0 as the extracted value given blank fields for budgeted amount is a standard interpretation.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Publications (including Open Access fees), etc.⁴ |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "INSUFFICIENT DATA. The budget table shows 'Conferences and workshops' as a row but does not provide an actual CHF value. By common reporting standards, a blank entry typically indicates a sum of 0 CHF requested for this category.",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Conferences and workshops⁵                       |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Other (please specify)⁶                          |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "ii. Total Other Direct Costs        |                                                  |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "A – Total Direct Costs (i + ii) |                                     |                                                  | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.41050845804467856,
+        "confidence": 0.41050845804467856
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "B – Subcontracting Costs⁷       |                                     |                                                  |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 10545,
+      "num_output_tokens": 3866
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "67bc8b5b-350a-40a3-bd29-b77ff377dd9a",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:08:27.004357+00:00",
+  "updated_at": "2025-11-11T14:09:01.111118+00:00"
+}
