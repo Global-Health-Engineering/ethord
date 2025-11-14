@@ -193,12 +193,14 @@ transform_data <- function() {
 
   budget_long <- bind_rows(budget_phase1, budget_phase2)
 
-  # CLEAN MAIN DATASETS (remove split columns)
+  # CLEAN MAIN DATASETS (remove split columns and their empty placeholders)
   metadata_clean <- metadata |>
-    select(-starts_with("data_all_applicants_"), -starts_with("data_keywords_"), -starts_with("data_work_packages_"))
+    select(-starts_with("data_all_applicants_"), -starts_with("data_keywords_"), -starts_with("data_work_packages_")) |>
+    select(-data_work_packages, -data_all_applicants, -data_keywords)
 
   report_metadata_clean <- report_metadata |>
-    select(-starts_with("data_coapplicants_"))
+    select(-starts_with("data_coapplicants_")) |>
+    select(-data_coapplicants)
 
   # Remove data_ prefix from all column names except document_path
   remove_data_prefix <- function(df) {
