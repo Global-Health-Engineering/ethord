@@ -5,37 +5,24 @@
 \alias{application_budget}
 \title{application_budget: ETH Board Open Research Data (ORD) Program Project Metadata and Report Data}
 \format{
-A data frame with 76 rows and 29 variables:
+A data frame with 78 rows and 16 variables:
 \describe{
-\item{document_path}{character variable}
-\item{data_total_budget_personnel_senior_staff}{integer variable}
-\item{data_total_budget_personnel_postdocs}{integer variable}
-\item{data_total_budget_personnel_students}{numeric variable}
-\item{data_total_budget_personnel_other}{integer variable}
-\item{data_total_budget_personnel_total_direct}{numeric variable}
-\item{data_total_budget_travel}{integer variable}
-\item{data_total_budget_equipment}{integer variable}
-\item{data_total_budget_other_publication_fees}{integer variable}
-\item{data_total_budget_other_conferences_workshops}{integer variable}
-\item{data_total_budget_other_other}{integer variable}
-\item{data_total_budget_other_total_direct}{integer variable}
-\item{data_total_budget_total_direct}{numeric variable}
-\item{data_total_budget_subcontracting}{integer variable}
-\item{data_total_budget_total_costs}{numeric variable}
-\item{data_total_budget_personnel_senior_staff_2}{integer variable}
-\item{data_total_budget_personnel_postdocs_2}{integer variable}
-\item{data_total_budget_personnel_students_2}{integer variable}
-\item{data_total_budget_personnel_other_2}{integer variable}
-\item{data_total_budget_personnel_total_direct_2}{integer variable}
-\item{data_total_budget_travel_2}{integer variable}
-\item{data_total_budget_equipment_2}{integer variable}
-\item{data_total_budget_other_publication_fees_2}{integer variable}
-\item{data_total_budget_other_conferences_workshops_2}{integer variable}
-\item{data_total_budget_other_other_2}{integer variable}
-\item{data_total_budget_other_total_direct_2}{integer variable}
-\item{data_total_budget_total_direct_2}{integer variable}
-\item{data_total_budget_subcontracting_2}{integer variable}
-\item{data_total_budget_total_costs_2}{integer variable}
+\item{project_id}{Identifier for each project within the ETH Open Research Data dataset. (Examples: CONTRIBUTE/PYCSOU-FAIR, EXPLORE/ASTROORDAS, CONTRIBUTE/CATCHARACTPROVI)}
+\item{total_budget_personnel_senior_staff}{Total budget allocated for senior staff personnel in Swiss Francs. (Range: 0 to 786000)}
+\item{total_budget_personnel_postdocs}{Total budget allocated for postdoctoral personnel in Swiss Francs. (Range: 0 to 309000)}
+\item{total_budget_personnel_students}{Total budget allocated for student personnel in Swiss Francs. (Range: 0 to 43535)}
+\item{total_budget_personnel_other}{Total budget allocated for other personnel in Swiss Francs. (Range: 0 to 144000)}
+\item{total_budget_personnel_total_direct}{Total direct budget allocated for personnel in Swiss Francs. (Range: 0 to 786000)}
+\item{total_budget_travel}{Total budget allocated for travel expenses in Swiss Francs. (Range: 0 to 13970)}
+\item{total_budget_equipment}{Total budget allocated for equipment expenses in Swiss Francs. (Range: 0 to 168000)}
+\item{total_budget_other_publication_fees}{Total budget allocated for other publication fees in Swiss Francs. (Examples: -1, 0, 9000)}
+\item{total_budget_other_conferences_workshops}{Total budget allocated for other conferences and workshops in Swiss Francs. (Range: 0 to 12500)}
+\item{total_budget_other_other}{Total budget allocated for other expenses in Swiss Francs. (Examples: 3000, 0, NA)}
+\item{total_budget_other_total_direct}{Total direct budget allocated for other expenses in Swiss Francs. (Range: 0 to 176000)}
+\item{total_budget_total_direct}{Total direct budget allocated for all expenses in Swiss Francs. (Range: 0 to 8e+05)}
+\item{total_budget_subcontracting}{Total budget allocated for subcontracting expenses in Swiss Francs. (Examples: NA, 30000, 25000)}
+\item{total_budget_total_costs}{Total budget allocated for all costs in Swiss Francs. (Range: 15000 to 1500000)}
+\item{phase}{Current phase of the project represented as a categorical value. (Examples: 1, 2)}
 }
 }
 \usage{

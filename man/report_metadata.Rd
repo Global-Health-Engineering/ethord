@@ -5,103 +5,18 @@
 \alias{report_metadata}
 \title{report_metadata: ETH Board Open Research Data (ORD) Program Project Metadata and Report Data}
 \format{
-A data frame with 63 rows and 95 variables:
+A data frame with 63 rows and 10 variables:
 \describe{
-\item{document_path}{character variable}
-\item{data_project_title}{character variable}
-\item{data_explore_call_number}{integer variable}
-\item{data_project_starting_and_end_date}{character variable}
-\item{data_main_applicant_responsible_for_project}{character variable}
-\item{data_function}{character variable}
-\item{data_laboratory_department}{character variable}
-\item{data_institution_of_main_applicant}{character variable}
-\item{data_report}{character variable}
-\item{data_reporting_period}{character variable}
-\item{data_coapplicants}{character variable}
-\item{data_coapplicants_0_name}{character variable}
-\item{data_coapplicants_0_function}{character variable}
-\item{data_coapplicants_0_institution}{character variable}
-\item{data_coapplicants_0_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_1_name}{character variable}
-\item{data_coapplicants_1_function}{character variable}
-\item{data_coapplicants_1_institution}{character variable}
-\item{data_coapplicants_1_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_2_name}{character variable}
-\item{data_coapplicants_2_function}{character variable}
-\item{data_coapplicants_2_institution}{character variable}
-\item{data_coapplicants_2_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_3_name}{character variable}
-\item{data_coapplicants_3_function}{character variable}
-\item{data_coapplicants_3_institution}{character variable}
-\item{data_coapplicants_3_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_4_name}{character variable}
-\item{data_coapplicants_4_function}{character variable}
-\item{data_coapplicants_4_institution}{character variable}
-\item{data_coapplicants_4_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_5_name}{character variable}
-\item{data_coapplicants_5_function}{character variable}
-\item{data_coapplicants_5_institution}{character variable}
-\item{data_coapplicants_5_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_6_name}{character variable}
-\item{data_coapplicants_6_function}{character variable}
-\item{data_coapplicants_6_institution}{character variable}
-\item{data_coapplicants_6_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_7_name}{character variable}
-\item{data_coapplicants_7_function}{character variable}
-\item{data_coapplicants_7_institution}{character variable}
-\item{data_coapplicants_7_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_8_name}{character variable}
-\item{data_coapplicants_8_function}{character variable}
-\item{data_coapplicants_8_institution}{character variable}
-\item{data_coapplicants_8_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_9_name}{character variable}
-\item{data_coapplicants_9_function}{character variable}
-\item{data_coapplicants_9_institution}{character variable}
-\item{data_coapplicants_9_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_10_name}{character variable}
-\item{data_coapplicants_10_function}{logical variable}
-\item{data_coapplicants_10_institution}{character variable}
-\item{data_coapplicants_10_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_11_name}{character variable}
-\item{data_coapplicants_11_function}{logical variable}
-\item{data_coapplicants_11_institution}{character variable}
-\item{data_coapplicants_11_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_12_name}{character variable}
-\item{data_coapplicants_12_function}{logical variable}
-\item{data_coapplicants_12_institution}{character variable}
-\item{data_coapplicants_12_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_13_name}{character variable}
-\item{data_coapplicants_13_function}{logical variable}
-\item{data_coapplicants_13_institution}{character variable}
-\item{data_coapplicants_13_roles_and_main_tasks}{character variable}
-\item{data_coapplicants_14_name}{character variable}
-\item{data_coapplicants_14_function}{logical variable}
-\item{data_coapplicants_14_institution}{logical variable}
-\item{data_coapplicants_14_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_15_name}{character variable}
-\item{data_coapplicants_15_function}{logical variable}
-\item{data_coapplicants_15_institution}{logical variable}
-\item{data_coapplicants_15_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_16_name}{character variable}
-\item{data_coapplicants_16_function}{logical variable}
-\item{data_coapplicants_16_institution}{logical variable}
-\item{data_coapplicants_16_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_17_name}{character variable}
-\item{data_coapplicants_17_function}{logical variable}
-\item{data_coapplicants_17_institution}{logical variable}
-\item{data_coapplicants_17_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_18_name}{character variable}
-\item{data_coapplicants_18_function}{logical variable}
-\item{data_coapplicants_18_institution}{logical variable}
-\item{data_coapplicants_18_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_19_name}{character variable}
-\item{data_coapplicants_19_function}{logical variable}
-\item{data_coapplicants_19_institution}{logical variable}
-\item{data_coapplicants_19_roles_and_main_tasks}{logical variable}
-\item{data_coapplicants_20_name}{character variable}
-\item{data_coapplicants_20_function}{logical variable}
-\item{data_coapplicants_20_institution}{logical variable}
-\item{data_coapplicants_20_roles_and_main_tasks}{logical variable}
+\item{project_id}{Unique identifier for each research project within the ETH Open Research Data dataset. (Examples: CONTRIBUTE/TIMERESHDRMX, ESTABLISH/PREMISE, CONTRIBUTE/GPM-API)}
+\item{project_title}{Title of the research project that outlines its objectives and scope. (Examples: Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases, Building Open-Source Tools for reproducible interaction with biological ORD databases, XYT : from raw GPS data to Mobility analysis)}
+\item{explore_call_number}{Identifier for the specific call under which the research project was submitted, represented as a numeric value. (Examples: 6, 5, 0)}
+\item{project_starting_and_end_date}{Start and end dates of the research project formatted as YYYY-MM-DD. (Examples: 2023-09-01/2025-02-28, 2023-05-01/2025-06-30, 2023-03-01/2024-08-31)}
+\item{main_applicant_responsible_for_project}{Name of the main applicant responsible for overseeing the research project. (Examples: Marco Hutter, Esther Frei, Serina Robinson)}
+\item{function}{Job title or role of the individual within the research project. (Examples: Professor, Senior Scientist / Teamleader, Photon Science Division)}
+\item{laboratory_department}{Department or unit within the institution where the research project is conducted. (Examples: RU Forest Resources and Management, Laboratory for Waste Management, Center for Imaging)}
+\item{institution_of_main_applicant}{Name of the institution affiliated with the main applicant of the research project. (Examples: Geological Institute, Paul Scherrer Institute PSI, Paul Scherrer Institute)}
+\item{report}{Classification of the type of report associated with the research project. (Examples: Final, other, Intermediate)}
+\item{reporting_period}{Timeframe during which project activities are reported, formatted as start date/end date. (Examples: 2023-05-01/2024-07-31, 2025-04-01/2025-03-31, 2022-10-01/2023-09-30)}
 }
 }
 \usage{

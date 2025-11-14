@@ -4,30 +4,30 @@
 #'
 #' @format A data frame with 76 rows and 25 variables:
 #' \describe{
-#'   \item{document_path}{character variable}
-#'   \item{data_ethics_human_embryonic_stem_cells}{character variable}
-#'   \item{data_ethics_human_embryos}{character variable}
-#'   \item{data_ethics_human_participants}{character variable}
-#'   \item{data_ethics_human_interventions}{character variable}
-#'   \item{data_ethics_clinical_study}{character variable}
-#'   \item{data_ethics_human_cells_tissues}{character variable}
-#'   \item{data_ethics_personal_data}{character variable}
-#'   \item{data_ethics_personal_data_further_processing}{character variable}
-#'   \item{data_ethics_personal_data_export_switzerland}{character variable}
-#'   \item{data_ethics_personal_data_import_switzerland}{character variable}
-#'   \item{data_ethics_personal_data_criminal}{character variable}
-#'   \item{data_ethics_animals}{character variable}
-#'   \item{data_ethics_activities_outside_switzerland}{character variable}
-#'   \item{data_ethics_outside_countries_ethics_issues}{character variable}
-#'   \item{data_ethics_local_resources}{character variable}
-#'   \item{data_ethics_import_material}{character variable}
-#'   \item{data_ethics_export_material}{character variable}
-#'   \item{data_ethics_low_middle_income_countries}{character variable}
-#'   \item{data_ethics_individuals_at_risk}{character variable}
-#'   \item{data_ethics_environmental_harm}{character variable}
-#'   \item{data_ethics_endangered_species}{character variable}
-#'   \item{data_ethics_human_harm}{character variable}
-#'   \item{data_ethics_artificial_intelligence}{character variable}
-#'   \item{data_ethics_other_issues}{character variable}
+#'   \item{project_id}{Unique identifier for each project within the ETH Open Research Data dataset. (Examples: EXPLORE/INSCRIBE, CONTRIBUTE/PYSPM, EXPLORE/COORDINEO)}
+#'   \item{ethics_human_embryonic_stem_cells}{Indication of whether human embryonic stem cells are used in the research project, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_human_embryos}{Indication of whether human embryos are used in the research project, represented as a categorical value. (Examples: FALSE)}
+#'   \item{ethics_human_participants}{Indication of whether human participants are involved in the research project, represented as a categorical value. (Examples: FALSE, TRUE)}
+#'   \item{ethics_human_interventions}{Indication of whether human interventions are involved in the research project, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_clinical_study}{Indication of whether the research project involves a clinical study, represented as a categorical value. (Examples: FALSE)}
+#'   \item{ethics_human_cells_tissues}{Indication of whether human cells or tissues are used in the research project, represented as a categorical value. (Examples: FALSE)}
+#'   \item{ethics_personal_data}{Indication of whether personal data is collected or used in the research project, represented as a categorical value. (Examples: FALSE, TRUE)}
+#'   \item{ethics_personal_data_further_processing}{Indication of whether personal data will undergo further processing in the research project, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_personal_data_export_switzerland}{Indication of whether personal data is exported from Switzerland in the research project, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_personal_data_import_switzerland}{Indication of whether personal data is imported into Switzerland for the research project, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_personal_data_criminal}{Indication of whether personal data related to criminal records is collected or used in the research project, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_animals}{Indication of whether animals are used in the research project, represented as a categorical value. (Examples: FALSE, TRUE)}
+#'   \item{ethics_activities_outside_switzerland}{Indication of whether research activities are conducted outside of Switzerland, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_outside_countries_ethics_issues}{Indication of whether there are ethical issues related to activities conducted in countries outside of Switzerland, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_local_resources}{Indication of whether local resources are utilized in the research project, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_import_material}{Indication of whether materials are imported for the research project, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_export_material}{Indication of whether materials are exported from the research project, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_low_middle_income_countries}{Indication of whether the research project involves activities in low and middle-income countries, represented as a categorical value. (Examples: FALSE, TRUE)}
+#'   \item{ethics_individuals_at_risk}{Indication of whether the research project involves individuals who are considered at risk, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_environmental_harm}{Indication of whether the research project poses a risk of environmental harm, represented as a categorical value. (Examples: FALSE)}
+#'   \item{ethics_endangered_species}{Indication of whether the research project involves endangered species, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_human_harm}{Indication of whether the research project poses a risk of harm to humans, represented as a categorical value. (Examples: FALSE, NA)}
+#'   \item{ethics_artificial_intelligence}{Indication of whether the research project involves ethical considerations related to artificial intelligence, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
+#'   \item{ethics_other_issues}{Indication of whether there are other ethical issues relevant to the research project, represented as a categorical value. (Examples: FALSE, NA, TRUE)}
 #' }
 "application_ethics"

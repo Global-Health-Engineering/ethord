@@ -49,290 +49,35 @@
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>A data frame with 63 rows and 95 variables:</p><dl><dt>document_path</dt>
-<dd><p>character variable</p></dd>
+    <p>A data frame with 63 rows and 10 variables:</p><dl><dt>project_id</dt>
+<dd><p>Unique identifier for each research project within the ETH Open Research Data dataset. (Examples: CONTRIBUTE/TIMERESHDRMX, ESTABLISH/PREMISE, CONTRIBUTE/GPM-API)</p></dd>
 
-<dt>data_project_title</dt>
-<dd><p>character variable</p></dd>
+<dt>project_title</dt>
+<dd><p>Title of the research project that outlines its objectives and scope. (Examples: Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases, Building Open-Source Tools for reproducible interaction with biological ORD databases, XYT : from raw GPS data to Mobility analysis)</p></dd>
 
-<dt>data_explore_call_number</dt>
-<dd><p>integer variable</p></dd>
+<dt>explore_call_number</dt>
+<dd><p>Identifier for the specific call under which the research project was submitted, represented as a numeric value. (Examples: 6, 5, 0)</p></dd>
 
-<dt>data_project_starting_and_end_date</dt>
-<dd><p>character variable</p></dd>
+<dt>project_starting_and_end_date</dt>
+<dd><p>Start and end dates of the research project formatted as YYYY-MM-DD. (Examples: 2023-09-01/2025-02-28, 2023-05-01/2025-06-30, 2023-03-01/2024-08-31)</p></dd>
 
-<dt>data_main_applicant_responsible_for_project</dt>
-<dd><p>character variable</p></dd>
+<dt>main_applicant_responsible_for_project</dt>
+<dd><p>Name of the main applicant responsible for overseeing the research project. (Examples: Marco Hutter, Esther Frei, Serina Robinson)</p></dd>
 
-<dt>data_function</dt>
-<dd><p>character variable</p></dd>
+<dt>function</dt>
+<dd><p>Job title or role of the individual within the research project. (Examples: Professor, Senior Scientist / Teamleader, Photon Science Division)</p></dd>
 
-<dt>data_laboratory_department</dt>
-<dd><p>character variable</p></dd>
+<dt>laboratory_department</dt>
+<dd><p>Department or unit within the institution where the research project is conducted. (Examples: RU Forest Resources and Management, Laboratory for Waste Management, Center for Imaging)</p></dd>
 
-<dt>data_institution_of_main_applicant</dt>
-<dd><p>character variable</p></dd>
+<dt>institution_of_main_applicant</dt>
+<dd><p>Name of the institution affiliated with the main applicant of the research project. (Examples: Geological Institute, Paul Scherrer Institute PSI, Paul Scherrer Institute)</p></dd>
 
-<dt>data_report</dt>
-<dd><p>character variable</p></dd>
+<dt>report</dt>
+<dd><p>Classification of the type of report associated with the research project. (Examples: Final, other, Intermediate)</p></dd>
 
-<dt>data_reporting_period</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_0_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_0_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_0_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_0_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_1_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_1_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_1_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_1_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_2_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_2_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_2_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_2_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_3_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_3_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_3_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_3_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_4_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_4_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_4_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_4_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_5_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_5_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_5_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_5_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_6_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_6_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_6_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_6_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_7_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_7_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_7_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_7_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_8_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_8_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_8_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_8_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_9_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_9_function</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_9_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_9_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_10_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_10_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_10_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_10_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_11_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_11_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_11_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_11_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_12_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_12_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_12_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_12_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_13_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_13_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_13_institution</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_13_roles_and_main_tasks</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_14_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_14_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_14_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_14_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_15_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_15_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_15_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_15_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_16_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_16_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_16_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_16_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_17_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_17_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_17_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_17_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_18_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_18_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_18_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_18_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_19_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_19_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_19_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_19_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_20_name</dt>
-<dd><p>character variable</p></dd>
-
-<dt>data_coapplicants_20_function</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_20_institution</dt>
-<dd><p>logical variable</p></dd>
-
-<dt>data_coapplicants_20_roles_and_main_tasks</dt>
-<dd><p>logical variable</p></dd>
+<dt>reporting_period</dt>
+<dd><p>Timeframe during which project activities are reported, formatted as start date/end date. (Examples: 2023-05-01/2024-07-31, 2025-04-01/2025-03-31, 2022-10-01/2023-09-30)</p></dd>
 
 
 </dl></div>
