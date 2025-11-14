@@ -64,9 +64,9 @@ ethics <- process_csv_pair(
   "inst/extdata/raw/application_ethics_contribute_explore.csv"
 )
 
-write.csv(metadata, "inst/extdata/application_metadata.csv", row.names = FALSE)
-write.csv(budget, "inst/extdata/application_budget.csv", row.names = FALSE)
-write.csv(ethics, "inst/extdata/application_ethics.csv", row.names = FALSE)
+write.csv(metadata, "data_raw/application_metadata.csv", row.names = FALSE)
+write.csv(budget, "data_raw/application_budget.csv", row.names = FALSE)
+write.csv(ethics, "data_raw/application_ethics.csv", row.names = FALSE)
 
 # REPORT: METADATA, OUTPUT
 process_report_output <- function(df) {
@@ -125,11 +125,11 @@ report_output <- read_csv(
 
 write.csv(
   report_metadata,
-  "inst/extdata/report_metadata.csv",
+  "data_raw/report_metadata.csv",
   row.names = FALSE
 )
 write.csv(
   report_output,
-  "inst/extdata/report_output.csv",
+  "data_raw/report_output.csv",
   row.names = FALSE
 )
