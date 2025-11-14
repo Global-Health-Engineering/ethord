@@ -133,3 +133,85 @@ write.csv(
   "data_raw/report_output.csv",
   row.names = FALSE
 )
+
+# TIDY FORMAT: Split numbered columns into separate tables
+split_numbered_columns <- function(df, pattern, group_name) {
+  cols <- grep(pattern, names(df), value = TRUE)
+  if (length(cols) == 0) return(NULL)
+
+  df |>
+    select(document_path, all_of(cols)) |>
+    mutate(across(everything(), as.character)) |>
+    pivot_longer(
+      cols = -document_path,
+      names_to = "column",
+      values_to = "value",
+      values_drop_na = TRUE
+    ) |>
+    filter(!is.na(value), value != "", value != "[]") |>
+    mutate(
+      index = str_extract(column, "\\d+"),
+      field = str_remove(column, paste0("^", group_name, "_\\d+_?"))
+    ) |>
+    select(-column) |>
+    pivot_wider(
+      names_from = field,
+      values_from = value
+    ) |>
+    mutate(index = as.numeric(index)) |>
+    arrange(document_path, index)
+}
+
+# Split application metadata tables
+applicants <- split_numbered_columns(metadata, "^data_all_applicants_\\d+", "data_all_applicants")
+keywords <- metadata |>
+  select(document_path, starts_with("data_keywords_")) |>
+  pivot_longer(
+    cols = -document_path,
+    names_to = "index",
+    values_to = "keyword",
+    values_drop_na = TRUE
+  ) |>
+  filter(!is.na(keyword), keyword != "", keyword != "[]") |>
+  mutate(index = as.numeric(str_extract(index, "\\d+"))) |>
+  arrange(document_path, index)
+
+work_packages <- split_numbered_columns(metadata, "^data_work_packages_\\d+", "data_work_packages")
+
+# Convert budget to long format (phases)
+# Get phase 1 columns (ones without _2 suffix)
+phase1_cols <- names(budget)[!grepl("_2$", names(budget))]
+budget_phase1 <- budget |>
+  select(all_of(phase1_cols)) |>
+  mutate(phase = 1)
+
+# Get phase 2 columns (ones with _2 suffix) and rename them
+phase2_cols <- names(budget)[grepl("_2$", names(budget))]
+budget_phase2 <- budget |>
+  select(document_path, all_of(phase2_cols)) |>
+  rename_with(~ str_remove(.x, "_2$"), all_of(phase2_cols)) |>
+  filter(if_any(-c(document_path), ~ !is.na(.x))) |>
+  mutate(phase = 2)
+
+budget_long <- bind_rows(budget_phase1, budget_phase2)
+
+# Remove split columns from original datasets (but keep budget as-is)
+metadata_clean <- metadata |>
+  select(-starts_with("data_all_applicants_"), -starts_with("data_keywords_"), -starts_with("data_work_packages_"))
+
+report_metadata_clean <- report_metadata |>
+  select(-starts_with("data_coapplicants_"))
+
+# Split report coapplicants
+coapplicants <- split_numbered_columns(report_metadata, "^data_coapplicants_\\d+", "data_coapplicants")
+
+# Write cleaned original tables
+write.csv(metadata_clean, "data_raw/application_metadata.csv", row.names = FALSE)
+write.csv(budget_long, "data_raw/application_budget.csv", row.names = FALSE)
+write.csv(report_metadata_clean, "data_raw/report_metadata.csv", row.names = FALSE)
+
+# Write tidy tables with clear naming
+write.csv(applicants, "data_raw/application_metadata_applicants.csv", row.names = FALSE)
+write.csv(keywords, "data_raw/application_metadata_keywords.csv", row.names = FALSE)
+write.csv(work_packages, "data_raw/application_metadata_work_packages.csv", row.names = FALSE)
+write.csv(coapplicants, "data_raw/report_metadata_coapplicants.csv", row.names = FALSE)
