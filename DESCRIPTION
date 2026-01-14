@@ -13,9 +13,17 @@ Description: ETH Open Research Data dataset, A colletion of metadata and report 
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Depends:
-    R (>= 3.5)
+    R (>= 4.1.0)
+Imports:
+    dplyr,
+    tidyr,
+    stringr,
+    lubridate,
+    purrr,
+    readr,
+    fs
 LazyData: true
 Config/Datasets: [["application_budget","application_ethics","application_metadata_applicants","application_metadata_keywords","application_metadata_work_packages","application_metadata","project_mapping","report_metadata_coapplicants","report_metadata","report_output"]]
 Language: en-GB
