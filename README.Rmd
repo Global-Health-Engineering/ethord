@@ -239,16 +239,18 @@ devtools::install_github("`r desc::desc_get_field("Organisation")`/`r desc::desc
 
 ### Download as CSV Files
 
-If you prefer to work with the data outside of R, you can download individual datasets as CSV files.
+If you prefer to work with the data outside of R, you can download individual datasets as CSV files. Click on the dataset name to view its documentation.
 
 1. **Right-click** on the "Download CSV" link for the dataset you want.
 2. Select **"Save Link As"** [`r fontawesome::fa_i("chrome", fill = browser_favicon_colour)`](https://www.google.com/chrome/) [`r fontawesome::fa_i("edge", fill = browser_favicon_colour)`](https://www.microsoft.com/edge/) [`r fontawesome::fa_i("firefox", fill = browser_favicon_colour)`](https://www.mozilla.org/firefox/) or **"Download Linked File"** [`r fontawesome::fa_i("safari", fill = browser_favicon_colour)`](https://www.apple.com/safari/).
 3. Choose where you'd like to save the file on your computer.
 
+Click on the dataset name to view its documentation or scroll further for a brief exploration of each data resource.
+
 ```{r download-links, echo=FALSE, message=FALSE, warning=FALSE}
 # Generate download links table
 if (!is.null(dictionary) && is.data.frame(dictionary)) {
-  # Configure base URL
+  # Configure base URLs
   package_base_url <- Sys.getenv("PACKAGE_BASE_URL")
   if (package_base_url == "") {
     github_org <- desc::desc_get_field("Organisation")
@@ -257,15 +259,21 @@ if (!is.null(dictionary) && is.data.frame(dictionary)) {
                                package_name, "/raw/main/")
   }
   extdata_path <- paste0(package_base_url, "inst/extdata/")
-  
+
+  # URL for reference documentation
+  reference_url <- paste0("https://", tolower(github_org), ".github.io/",
+                         package_name, "/reference/")
+
   tryCatch({
     dictionary |>
       dplyr::distinct(file_name) |>
       dplyr::mutate(file_name = stringr::str_remove(file_name, "\\.rda$")) |>
-      dplyr::rename(dataset = file_name) |>
+      dplyr::rename(dataset_name = file_name) |>
       dplyr::mutate(
-        CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)")
+        Dataset = paste0("[", dataset_name, "](", reference_url, dataset_name, ".html)"),
+        CSV = paste0("[Download CSV](", extdata_path, dataset_name, ".csv)")
       ) |>
+      dplyr::select(Dataset, CSV) |>
       knitr::kable()
   }, error = function(e) {
     cat("Error generating download table:", e$message, "\n")
