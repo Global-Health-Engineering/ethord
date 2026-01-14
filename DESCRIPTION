@@ -1,6 +1,6 @@
 Package: ethord
 Title: ETH Board Open Research Data (ORD) Program Project Metadata and Report Data
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: c(
     person("Nicolò", "Massari", , "nmassari@ethz.ch", role = c("aut", "ctb", "cre"),
            comment = c(ORCID = "0009-0006-8421-930X")),
@@ -14,9 +14,12 @@ License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends:
+    R (>= 3.5)
+LazyData: true
 Config/Datasets: [["application_budget","application_ethics","application_metadata_applicants","application_metadata_keywords","application_metadata_work_packages","application_metadata","project_mapping","report_metadata_coapplicants","report_metadata","report_output"]]
 Language: en-GB
-Date: 2025-11-13
-github_user: global-health-engineering
-URL: https://global-health-engineering.github.io/ethord,
-    https://github.com/global-health-engineering/ethord
+Date: 2026-01-14
+URL: https://github.com/Global-Health-Engineering/ethord
+BugReports: https://github.com/Global-Health-Engineering/ethord/issues
+Organisation: Global-Health-Engineering
