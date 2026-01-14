@@ -1,0 +1,848 @@
+{
+  "document_path": "raw/ORD_files/Establish/Pizzi/application/PSI_Pizzi.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Establish Projects",
+    "main_applicant_institution": "Empa",
+    "main_applicant_function": "Group leader (Senior Scientist)",
+    "main_applicant_first_name": "Carlo Antonio",
+    "main_applicant_surname": "Pignedoli",
+    "main_applicant_laboratory_name": "Laboratory for Materials Simulations",
+    "main_applicant_postcode": 5232,
+    "main_applicant_city": "Villigen PSI",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Group leader (Senior Scientist)",
+        "first_name": "Giovanni",
+        "surname": "Pizzi",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Deputy group leader (Senior Scientist); Senior researcher",
+        "first_name": "Carlo Antonio",
+        "surname": "Pignedoli",
+        "postcode": 8600
+      },
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Head of laboratory",
+        "first_name": "Corsin",
+        "surname": "Battaglia",
+        "postcode": 8600
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Head Scientific IT Services; section head and SIB group leader",
+        "first_name": "Bernd",
+        "surname": "Rinn",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "PREMISE: Open and Reproducible Materials Science Research",
+    "project_acronym": "PREMISE",
+    "project_abstract": "PREMISE aims to establish, promote and facilitate the adoption of FAIR ORD practices in Materials Science, focusing on enabling the treatment, at the same level, of experimental and simulation data. We will first develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), and apply these standards to Materials Science ontologies. We will then collect, design and disseminate best practices for generating ORD as a natural part of the research process, rather than as an additional duty for researchers. Our deliverables will be demonstrated with concrete pilot use cases, chosen to be applicable to the broad field of Materials Science, and generalisable to other disciplines. We will leverage two robust open platforms, developed and maintained within the ETH domain, compliant by design with FAIR requirements for experiments (openBIS) and simulations (AiiDA+AiiDAlab). We will bring them \"to the next level\" by implementing our novel set of ORD practices and demonstrating how an ELN/LIMS and a WFMS can be made seamlessly interoperable. We expect our deliverables to be essential components of the emerging field of autonomous laboratories, where automated simulations and robotic experiments are combined via artificial intelligence in closed feedback loops, ultimately accelerating materials discovery and characterisation.",
+    "keywords": [
+      "ELN-LIMS",
+      "Workflows",
+      "Experiments",
+      "Simulations",
+      "Materials Science"
+    ],
+    "start_date": "1 Jan 2023",
+    "project_duration_months": 36,
+    "total_budget_requested": 1292100.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Enabling seamless integration of data from experimental and simulation workflows"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Open data from simulation-assisted experimental interpretation"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Open data from workflow-driven robotic experiments"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Reproducible and accessible materials experiments and simulations"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Project management and outreach"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "While there is an initial table entry indicating 'PSI', the fullest context (CV, repeated support letters, and application section) shows unequivocally that the main applicant institution is Empa and that Carlo Antonio Pignedoli is from Empa. Support letter signatories from Empa and the applicant's own stated affiliation override the possibly outdated or incorrect table header.",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "Carlo Antonio Pignedoli, Senior researcher at EMPA, CH"
+          },
+          {
+            "page": 62,
+            "matching_text": "Dr. Carlo Pignedoli is described as the applicant for an ORD Establish project at Empa; Empa heads sign supporting letters as host/guaranteeing institution."
+          }
+        ],
+        "extraction_confidence": 0.9518639348934211,
+        "confidence": 0.9518639348934211
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Function (Title) | Group leader (Senior Scientist) |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Among the extractions, 'Carlo Antonio' (page 13, CV header) gives the full and most likely correct first name for the main applicant, corroborated by a matching surname and additional mentions of 'Carlo' elsewhere. The earlier occurrence of 'Giovanni' (page 1) is inconsistent with the rest and likely a document or OCR error. The preponderance of evidence from multiple sections referencing 'Carlo' or 'Carlo Antonio' supports selecting 'Carlo Antonio' as the main applicant's first name.",
+        "citation": [
+          {
+            "page": 13,
+            "matching_text": "Carlo Antonio Pignedoli"
+          },
+          {
+            "page": 63,
+            "matching_text": "support the application of Dr. Carlo Pignedoli for an ORD *Establish* project at my Laboratory"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Although the applicant table lists 'Pizzi', two separate, authoritative sources (CV and institutional support letter) identify the applicant as 'Pignedoli'. It is likely that 'Pizzi' is an error and 'Pignedoli' is the correct surname, as it is corroborated by multiple, consistent references elsewhere in the document.",
+        "citation": [
+          {
+            "page": 13,
+            "matching_text": "Carlo Antonio Pignedoli"
+          },
+          {
+            "page": 61,
+            "matching_text": "support the application of Dr. Carlo Pignedoli"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999155951745,
+        "confidence": 0.9999999155951745
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Laboratory name | Laboratory for Materials Simulations |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| Postcode / Zipcode | 5232 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| City | Villigen PSI |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Function (Title) | Group leader (Senior Scientist) |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| First name(s) | Giovanni |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Surname(s) | Pizzi |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "| Postcode / Zipcode | 5232 |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | EMPA |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9987222557698004,
+            "confidence": 0.9987222557698004
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title) | Deputy group leader (Senior Scientist) |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Current position(s): Lecturer / Reader, Senior researcher"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9806585522766252,
+            "confidence": 0.9806585522766252
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s) | Carlo Antonio |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Carlo Antonio Pignedoli"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s) | Pignedoli |"
+              },
+              {
+                "page": 13,
+                "matching_text": "Carlo Antonio Pignedoli"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998361260756,
+            "confidence": 0.9999998361260756
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "nanotech@surfaces Laboratory  Überlandstrasse 129  8600 Dübendorf"
+              },
+              {
+                "page": 13,
+                "matching_text": "EMPA CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9941992249942113,
+            "confidence": 0.9941992249942113
+          },
+          "reasoning": "Titles from different sections (main/deputy group leader and senior researcher) are both present for the same person (Carlo Antonio Pignedoli at Empa, 8600); consolidated with semicolon. Confidence mean taken where multiple values."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | EMPA |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title) | Head of laboratory |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s) | Corsin |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s) | Battaglia |"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Materials for energy conversion Laboratory  Überlandstrasse 129  8600 Dübendorf"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Which ETH Domain do you belong to?** | ETH Zürich |"
+              },
+              {
+                "page": 22,
+                "matching_text": "Head of Scientific IT Services of ETH Zurich | ETH Zurich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999900987441824,
+            "confidence": 0.9999900987441824
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Function (Title)** | Head Scientific IT Services |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Current position(s): section head and SIB group leader"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999767991971,
+            "confidence": 0.999999767991971
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **First name(s)** | Bernd |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Bernd Rinn"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Surname(s)** | Rinn |"
+              },
+              {
+                "page": 21,
+                "matching_text": "Bernd Rinn"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "ETH Zurich IT Services<br/>(OCT G 35)<br/>Binzmühlestr. 130<br/>8092 Zürich"
+              },
+              {
+                "page": 22,
+                "matching_text": "ETH Zurich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9988996263832264,
+            "confidence": 0.9988996263832264
+          },
+          "reasoning": "Merged key values for Bernd Rinn from main application form and CV section. Both function titles present, as well as two consistent address citations. Mean/maximum confidence computed where appropriate."
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ORD Program - Measure 1 \"Establish Projects\" Stage 2"
+          },
+          {
+            "page": 25,
+            "matching_text": "Track B: Establish projects"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The majority of well-supported, later-document references use 'PREMISE: Open and Reproducible Materials Science Research'—including in signed statements and section headers. The shorter version ('Open and Reproducible Materials Science Research') is likely a shorthand listed in a table, whereas the longer form is the full project title as used officially throughout the proposal documentation. The presence of 'PREMISE: Open and Reproducible Materials Science Research' in formal attestations (Empa and PSI letters, pages 64–66), and section headers (page 25), as well as the frequency and formality, supports this as the best extraction.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "1. Project title\n**PREMISE: Open and Reproducible Materials Science Research**"
+          },
+          {
+            "page": 64,
+            "matching_text": "project entitled “PREMISE: Open and Reproducible Materials Science Research”"
+          },
+          {
+            "page": 65,
+            "matching_text": "Proposal: “PREMISE: Open and Reproducible Materials Science Research”"
+          },
+          {
+            "page": 66,
+            "matching_text": "project entitled \"PREMISE: Open and Reproducible Materials Science Research\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| Acronym of the project | PREMISE |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998559933477,
+        "confidence": 0.9999998559933477
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "**Abstract**<br/>PREMISE aims to establish, promote and facilitate the adoption of FAIR ORD practices in Materia..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999962306811487,
+        "confidence": 0.9999962306811487
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| Proposed Starting Date | 1 Jan 2023 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| Project duration | 36 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION. Both a budget table and the aggregation of Phase 1 & 2 subtotals give the same total. Institutional letters only show partial amounts and do not contradict the full proposal total.",
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "| Total requested amount in CHF | 1292100 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999992962097852,
+        "confidence": 0.999992962097852
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "### WP1: Enabling seamless integration of data from experimental and simulation workflows"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP1</b><br>Enabling seamless integration<br>of open data from experimental<br>and simulation workflows"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP1               | T1.1 – Development of metadata formats and practices for integrated exp/simul in ELNs"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 33,
+                "matching_text": "### WP1: Enabling seamless integration of data from experimental and simulation workflows"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP1</b><br>Enabling seamless integration<br>of open data from experimental<br>and simulation workflows"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP1               | T1.1 – Development of metadata formats and practices for integrated exp/simul in ELNs"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "WP1 identified with consistent title in diagram, section header, and Gantt chart, with minor wording variation. Gantt chart gives more technical task-level description, but the main WP title from section header (p33) is prioritized."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 35,
+                "matching_text": "## WP2: Open data from simulation-assisted experimental interpretation"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP2</b><br>Open data from simulation-assisted<br>experimental interpretation"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP2               | T2.1 – Application of WP1 concepts to simulation-assisted experiments"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 35,
+                "matching_text": "## WP2: Open data from simulation-assisted experimental interpretation"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP2</b><br>Open data from simulation-assisted<br>experimental interpretation"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP2               | T2.1 – Application of WP1 concepts to simulation-assisted experiments"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999553119545,
+            "confidence": 0.9999999553119545
+          },
+          "reasoning": "VERBATIM EXTRACTION from multiple consistent sources; alternate descriptive versions from task/deliverable-level summaries (p39-44) omitted due to lower confidence and lack of explicit WP titling."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 37,
+                "matching_text": "## WP3: Open data from workflow-driven robotic experiments"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP3</b><br>Open data from workflow-driven<br>robotic experiments"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP3               | T3.1 – Application of WP1 concepts to battery research and data schema for digital twins"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 37,
+                "matching_text": "## WP3: Open data from workflow-driven robotic experiments"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP3</b><br>Open data from workflow-driven<br>robotic experiments"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP3               | T3.1 – Application of WP1 concepts to battery research and data schema for digital twins"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION from section heading and matching diagram entry; short Gantt chart description included as citation."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 39,
+                "matching_text": "## WP4: Reproducible and accessible materials experiments and simulations"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP4</b><br>Enabling reproducible and accessible<br>materials experiments and simulations"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP4               | T4.1 – Standard templates and modular interface components for experimental plots"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 39,
+                "matching_text": "## WP4: Reproducible and accessible materials experiments and simulations"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP4</b><br>Enabling reproducible and accessible<br>materials experiments and simulations"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP4               | T4.1 – Standard templates and modular interface components for experimental plots"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION from section heading and diagram; differences in leading wording ('Enabling') considered minor."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 41,
+                "matching_text": "## WP5: Project management and outreach"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP5</b><br>Project management and outreach"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP5               | T5.1 – Project coordination and management"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9837103598807482,
+            "confidence": 0.9837103598807482
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 41,
+                "matching_text": "## WP5: Project management and outreach"
+              },
+              {
+                "page": 28,
+                "matching_text": "<b>WP5</b><br>Project management and outreach"
+              },
+              {
+                "page": 42,
+                "matching_text": "WP5               | T5.1 – Project coordination and management"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION from multiple matching sources (diagram, Gantt, and WP heading); minor variation in Gantt chart ('coordination and management') is included in citation."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 71,
+      "num_document_tokens": 40614,
+      "num_output_tokens": 17362
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "b8248fbb-2f7b-4886-a407-a35f105a5c44",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T09:35:33.976773+00:00",
+  "updated_at": "2025-11-11T09:37:15.846311+00:00"
+}

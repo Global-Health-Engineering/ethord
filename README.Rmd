@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r, include = FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -19,23 +19,196 @@ knitr::opts_chunk$set(
   fig.align = 'center'
 )
 
-library(desc)
-library(dplyr)
-library(readr)
-library(gt)
-library(kableExtra)
-library(fontawesome)
-library(stringr)
+# Load required packages with better error handling
+required_packages <- c("desc", "dplyr", "readr", "gt", 
+                       "fontawesome", "stringr", "fairenough")
 
-# --- Define a list of package names ---
-package_names <- list.files("inst/extdata", pattern = "\\.csv$", full.names = FALSE)
-package_names <- basename(package_names) # Get just the base names
-package_names <- package_names[!package_names %in% "dictionary.csv"]
-package_names <- stringr::str_remove(package_names, "\\.csv$") # Remove .csv extension
+for (pkg in required_packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    stop(paste("Package", pkg, "is required but not installed.",
+               "Please install it with: install.packages('", pkg, "')", sep = ""))
+  }
+  suppressPackageStartupMessages(library(pkg, character.only = TRUE))
+}
 
-
-organisation <- desc::desc_get_field("Organisation") # Assuming you have an 'Organisation' field in DESCRIPTION
+# Configuration
 browser_favicon_colour <- "lightblue"
+```
+
+```{r load-dictionary, include = FALSE}
+#' Load and validate dictionary
+#' @return data.frame or NULL
+load_dictionary <- function() {
+  base_path <- fairenough::get_base_path()
+  dict_path <- file.path(base_path, "inst", "extdata", "dictionary.csv")
+  
+  if (!file.exists(dict_path)) {
+    warning("Dictionary file not found at: ", dict_path)
+    return(NULL)
+  }
+  
+  tryCatch({
+    dict_data <- fairenough::read_data(dict_path, show_messages = FALSE)
+    
+    # Ensure it's a data frame
+    if (!is.data.frame(dict_data)) {
+      warning("Dictionary is not a data frame: ", class(dict_data))
+      return(NULL)
+    }
+    
+    # Check required columns
+    required_cols <- c("file_name")
+    if (!all(required_cols %in% names(dict_data))) {
+      warning("Dictionary missing required columns. Has: ", 
+              paste(names(dict_data), collapse = ", "))
+      return(NULL)
+    }
+    
+    return(dict_data)
+  }, error = function(e) {
+    warning("Could not read dictionary file: ", e$message)
+    return(NULL)
+  })
+}
+
+# Load dictionary
+dictionary <- load_dictionary()
+
+# Extract dataset names
+datasets <- if (!is.null(dictionary)) {
+  # Remove .rda extension and get unique names
+  unique(sub("\\.rda$", "", dictionary[["file_name"]]))
+} else {
+  character(0)
+}
+
+# Debug output
+if (length(datasets) > 0) {
+  message("Found datasets: ", paste(datasets, collapse = ", "))
+} else {
+  warning("No datasets found in dictionary")
+}
+
+# Check optional packages
+optional_packages <- c("gt", "fontawesome")
+missing_packages <- optional_packages[!vapply(optional_packages, requireNamespace, logical(1), quietly = TRUE)]
+```
+
+```{r helper-functions, include = FALSE}
+#' Load dataset by name
+#' @param dataset_name Name of the dataset (without extension)
+#' @return data.frame or NULL
+load_dataset <- function(dataset_name) {
+  base_path <- fairenough::get_base_path()
+  csv_path <- file.path(base_path, "inst", "extdata", paste0(dataset_name, ".csv"))
+  
+  if (!file.exists(csv_path)) {
+    return(NULL)
+  }
+  
+  tryCatch({
+    data <- fairenough::read_data(csv_path, show_messages = FALSE)
+    if (!is.data.frame(data)) {
+      return(NULL)
+    }
+    return(data)
+  }, error = function(e) {
+    warning(paste("Could not read dataset", dataset_name, ":", e$message))
+    return(NULL)
+  })
+}
+
+#' Get dictionary entries for a specific dataset
+#' @param dataset_name Name of the dataset
+#' @param dictionary The full dictionary data frame
+#' @return Filtered dictionary data frame
+get_dataset_dictionary <- function(dataset_name, dict_df) {  # Renamed parameter
+  if (is.null(dict_df) || !is.data.frame(dict_df)) {
+    cat("DEBUG: dict_df is null or not a data frame\n")
+    return(NULL)
+  }
+  
+  # Extra safety check
+  if (!("file_name" %in% names(dict_df))) {
+    cat("DEBUG: file_name column missing from dict_df\n")
+    return(NULL)
+  }
+  
+  # Use base R to be safe
+  file_names <- dict_df[["file_name"]]  # Use [[ instead of $
+  matching_rows <- file_names == dataset_name | 
+                  file_names == paste0(dataset_name, ".rda")
+  
+  dict_subset <- dict_df[matching_rows, , drop = FALSE]
+  
+  # Select display columns if they exist
+  display_cols <- intersect(names(dict_subset), 
+                           c("variable_name", "variable_type", "description"))
+  
+  if (length(display_cols) > 0) {
+    dict_subset <- dict_subset[, display_cols, drop = FALSE]
+  }
+  
+  return(if (nrow(dict_subset) > 0) dict_subset else NULL)
+}
+
+#' Create summary text for data types
+#' @param data The dataset
+#' @return Character string with type summary
+summarize_data_types <- function(data) {
+  type_summary <- vapply(data, function(x) class(x)[1], character(1)) |>
+    table() |>
+    as.data.frame() |>
+    setNames(c("Type", "Count"))
+  
+  if (nrow(type_summary) > 0) {
+    paste(paste0(type_summary$Count, " ", type_summary$Type), collapse = ", ")
+  } else {
+    ""
+  }
+}
+
+#' Display dataset preview
+#' @param data The dataset
+#' @param max_cols Maximum columns to display
+display_data_preview <- function(data, max_cols = 10) {
+  display_cols <- min(ncol(data), max_cols)
+  
+  display_data <- data |>
+    head(3) |>
+    (\(x) if (ncol(x) > display_cols) dplyr::select(x, 1:display_cols) else x)() |>
+    dplyr::mutate(
+      dplyr::across(dplyr::where(is.character), 
+                   ~ stringr::str_trunc(., width = 50, ellipsis = "..."))
+    )
+  
+  # Try gt first, fall back to kable
+  if (requireNamespace("gt", quietly = TRUE)) {
+    print(display_data |> gt::gt() |> gt::as_raw_html())
+  } else {
+    print(knitr::kable(display_data))
+  }
+  
+  # Add note if columns were truncated
+  if (ncol(data) > max_cols) {
+    cat(paste0("(showing first ", display_cols, " of ", ncol(data), " columns)\n\n"))
+  }
+}
+
+#' Display dictionary table
+#' @param dict_table Dictionary subset for a dataset
+display_dictionary_table <- function(dict_table) {
+  if (is.null(dict_table) || nrow(dict_table) == 0) {
+    cat("No dictionary entry found for this dataset.\n\n")
+    return()
+  }
+  
+  if (requireNamespace("gt", quietly = TRUE)) {
+    print(dict_table |> gt::gt() |> gt::as_raw_html())
+  } else {
+    print(knitr::kable(dict_table, booktabs = TRUE))
+  }
+}
 ```
 
 # `r desc::desc_get_field("Package")`
@@ -43,71 +216,21 @@ browser_favicon_colour <- "lightblue"
 ***`r desc::desc_get_field("Title")`***
 
 <!-- badges: start -->
-
-[![License: CC BY
-4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16563064.svg)](https://zenodo.org/doi/10.5281/zenodo.16563064)
-
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15554776.svg)](https://zenodo.org/doi/10.5281/zenodo.15554776)
 <!-- badges: end -->
 
 -----
 
 ## Installation
 
-You can install the development version of `r desc::desc_get_field("Package")` from GitHub `r fontawesome::fa("github")` with:
+You can install the development version of `r desc::desc_get_field("Package")` from GitHub `r fontawesome::fa_i("github")` with:
 
 ```r
-devtools::install_github("`r organisation`/`r desc::desc_get_field("Package")`", dependencies = TRUE)
+devtools::install_github("`r desc::desc_get_field("github_user")`/`r desc::desc_get_field("Package")`", dependencies = TRUE)
 ```
 
------
-
-## Example Usage
-
-Here's a quick example showing how to visualize the Open Research Data Program data:
-
-```{r example-plot, fig.height=6, fig.width=10}
-library(ethord)
-library(ggplot2)
-library(ggthemes)
-library(dplyr)
-
-portal |> 
-  mutate(category = case_when(
-    category == "Contribute" ~ "Contribute (30k)",
-    category == "Explore" ~ "Explore (150k)",
-    category == "Establish" ~ "Establish (1.5m)"
-  )) |>
-  mutate(category = factor(category, 
-                                levels = c("Contribute (30k)", 
-                                           "Explore (150k)", 
-                                           "Establish (1.5m)"))) |>
-  count(institutions, category) |> 
-    mutate(institutions = str_wrap(institutions, width = 30)) |>
-  ggplot(aes(x = reorder(institutions, n), 
-             y = n,
-             fill = category)) +
-  geom_col(position = "dodge") +
-  geom_label(aes(label = n),
-             position = position_dodge(width = 0.9),
-             show.legend = FALSE,
-             color = "white",
-             fontface = "bold",
-             size = 3) +
-  coord_flip() +
-  labs(
-    title = "Open Research Data Program of the ETH Board",
-    subtitle = "Number of funded projects per institution and project category",
-    y = "Number of projects",
-    x = NULL,
-    fill ="Project category:"
-  ) +
-  scale_fill_colorblind() +
-  statR::theme_stat(base_size = 10) +
-  theme(panel.grid.major.y = element_blank(),
-        axis.text.y = element_text(size = 8))
-```
+`r if (length(missing_packages) > 0) paste("**Note:** For enhanced README formatting, consider installing:", paste(missing_packages, collapse = ", "))`
 
 -----
 
@@ -115,22 +238,38 @@ portal |>
 
 If you prefer to work with the data outside of R, you can download individual datasets as CSV files.
 
-1.  **Right-click** on the "Download CSV" link for the dataset you want.
-2.  Select **"Save Link As"** [`r fontawesome::fa("chrome", fill = browser_favicon_colour)`](https://www.google.com/chrome/) [`r fontawesome::fa("edge", fill = browser_favicon_colour)`](https://www.microsoft.com/edge/) [`r fontawesome::fa("firefox", fill = browser_favicon_colour)`](https://www.mozilla.org/firefox/) or **"Download Linked File"** [`r fontawesome::fa("safari", fill = browser_favicon_colour)`](https://www.apple.com/safari/).
-3.  Choose where you'd like to save the file on your computer.
+1. **Right-click** on the "Download CSV" link for the dataset you want.
+2. Select **"Save Link As"** [`r fontawesome::fa_i("chrome", fill = browser_favicon_colour)`](https://www.google.com/chrome/) [`r fontawesome::fa_i("edge", fill = browser_favicon_colour)`](https://www.microsoft.com/edge/) [`r fontawesome::fa_i("firefox", fill = browser_favicon_colour)`](https://www.mozilla.org/firefox/) or **"Download Linked File"** [`r fontawesome::fa_i("safari", fill = browser_favicon_colour)`](https://www.apple.com/safari/).
+3. Choose where you'd like to save the file on your computer.
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-extdata_path <- paste0(desc::desc_get_field("URL"), "/raw/main/inst/extdata/")
-
-readr::read_csv("data-raw/dictionary.csv") |>
-  dplyr::distinct(file_name) |>
-  dplyr::mutate(file_name = stringr::str_remove(file_name, "\\.rda$")) |> # Ensure .rda is removed
-  dplyr::rename(dataset = file_name) |>
-  dplyr::mutate(
-    CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)")
-  ) |>
-  knitr::kable()
-
+```{r download-links, echo=FALSE, message=FALSE, warning=FALSE}
+# Generate download links table
+if (!is.null(dictionary) && is.data.frame(dictionary)) {
+  # Configure base URL
+  package_base_url <- Sys.getenv("PACKAGE_BASE_URL")
+  if (package_base_url == "") {
+    github_user <- desc::desc_get_field("github_user")
+    package_name <- desc::desc_get_field("Package")
+    package_base_url <- paste0("https://github.com/", github_user, "/", 
+                               package_name, "/raw/main/")
+  }
+  extdata_path <- paste0(package_base_url, "inst/extdata/")
+  
+  tryCatch({
+    dictionary |>
+      dplyr::distinct(file_name) |>
+      dplyr::mutate(file_name = stringr::str_remove(file_name, "\\.rda$")) |>
+      dplyr::rename(dataset = file_name) |>
+      dplyr::mutate(
+        CSV = paste0("[Download CSV](", extdata_path, dataset, ".csv)")
+      ) |>
+      knitr::kable()
+  }, error = function(e) {
+    cat("Error generating download table:", e$message, "\n")
+  })
+} else {
+  cat("No datasets available for download.\n")
+}
 ```
 
 ## Data
@@ -139,74 +278,94 @@ readr::read_csv("data-raw/dictionary.csv") |>
 library(`r desc::desc_get_field("Package")`)
 ```
 
-```{r, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
-# Iterate through each package name and generate content
-for (pkg_name in package_names) {
-  cat("\n---\n\n") # Separator for each dataset
-
-  # Conditionally load data if it's not already in the environment
-  # Assuming 'pkg_name' is also the name of the dataset object once loaded
-  if (!exists(pkg_name)) {
-    data(list = pkg_name, package = desc::desc_get_field("Package"))
+```{r display-datasets, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+# Main loop to display all datasets
+if (length(datasets) > 0) {
+  for (dataset_name in datasets) {
+    cat("\n---\n\n")  # Section separator
+    
+    # Load the dataset
+    current_data <- load_dataset(dataset_name)
+    
+    # Check if data was loaded successfully
+    if (is.null(current_data)) {
+      cat(paste0("### ", dataset_name, "\n\n"))
+      cat(paste0("**Error:** Could not load dataset '", dataset_name, "'\n\n"))
+      next
+    }
+    
+    # Check if data is empty
+    if (nrow(current_data) == 0) {
+      cat(paste0("### ", dataset_name, "\n\n"))
+      cat("**Warning:** This dataset is empty.\n\n")
+      next
+    }
+    
+    # Dataset header and basic info
+    cat(paste0("### ", dataset_name, "\n\n"))
+    cat(paste0("The dataset `", dataset_name, "` has `", nrow(current_data), 
+               "` observations and `", ncol(current_data), "` variables.\n\n"))
+    
+    # Data types summary
+    type_summary <- summarize_data_types(current_data)
+    if (nzchar(type_summary)) {
+      cat(paste0("**Variable Types:** ", type_summary, "\n\n"))
+    }
+    
+    # Show R code for accessing the data
+    cat("```r\n")
+    cat(paste0("get(\"", dataset_name, "\") |> \n"))
+    cat("  head(3)")
+    if (ncol(current_data) > 10) {
+      cat(" |> \n  select(1:10)")
+    }
+    cat(" |> \n  gt::gt() |> \n  gt::as_raw_html()\n")
+    cat("```\n\n")
+    
+    # Display data preview
+    tryCatch({
+      display_data_preview(current_data, max_cols = 10)
+    }, error = function(e) {
+      cat("Error displaying data preview:", e$message, "\n\n")
+    })
+    
+    # Dictionary section
+    cat("For an overview of the variable names, see the following table.\n\n")
+    
+    tryCatch({
+      dict_subset <- get_dataset_dictionary(dataset_name, dictionary)
+      display_dictionary_table(dict_subset)
+    }, error = function(e) {
+      cat("Error loading dictionary information:", e$message, "\n\n")
+    })
   }
-
-  current_data <- get(pkg_name)
-
-  cat(paste0("### ", pkg_name, "\n\n"))
-  cat(paste0("The dataset `", pkg_name, "` has `", nrow(current_data), "` observations and `", ncol(current_data), "` variables\n\n"))
-
-  # Display head of the dataframe using gt
-  cat("```r\n")
-  cat(paste0("get(\"", pkg_name, "\") |> \n"))
-  cat("  head(3) |> \n")
-  cat("  gt::gt() |> \n")
-  cat("  gt::as_raw_html()\n")
-  cat("```\n\n")
-
-  # Render the gt table in the Rmd output
-  print(
-    current_data |>
-      head(3) |>
-      dplyr::mutate(
-        across(where(is.character), ~ stringr::str_trunc(., width = 50, ellipsis = "..."))
-      ) |> 
-      gt::gt() |>
-      gt::as_raw_html()
-  )
-
-  cat("\n\n") # Newlines for spacing
-
-  # Overview of variable names
-  cat("For an overview of the variable names, see the following table.\n\n")
-  
-  # Filter dictionary for the current dataset
-  dictionary_table <- readr::read_csv("data-raw/dictionary.csv") |>
-    dplyr::filter(file_name == paste0(pkg_name, ".rda")) |> # Ensure matching .rda
-    dplyr::select(variable_name:description)
-
-  if (nrow(dictionary_table) > 0) {
-    print(
-      dictionary_table |>
-        knitr::kable(booktabs = TRUE) |>
-        kableExtra::kable_styling(
-          full_width = FALSE,
-          bootstrap_options = c("striped"),
-          position = "center"
-        )
-    )
-  } else {
-    cat("No dictionary entry found for this dataset.\n\n")
-  }
+} else {
+  cat("No datasets found in dictionary.\n\n")
 }
 ```
 
 ## License
 
-Data are available as
-[CC-BY](https://github.com/`r desc::desc_get_field("Organisation")`/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
+Data are available as [CC-BY](https://github.com/`r desc::desc_get_field("github_user")`/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
 
 ## Citation
+Please cite with:
+```{r citation, echo=FALSE, message=FALSE, warning=FALSE}
+# Capture the citation output
+cit <- capture.output(print(citation(desc::desc_get_field("Package")), style = "text"))
+bib <- capture.output(print(citation(desc::desc_get_field("Package")), style = "bibtex"))
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-citation(desc::desc_get_field("Package"))
+# Remove the empty first lines if they exist
+cit <- cit[nzchar(cit)]
+bib <- bib[nzchar(bib)]
+```
+
+**Text:**
+```
+`r paste(cit, collapse = "\n")`
+```
+
+**BibTeX:**
+```bibtex
+`r paste(bib, collapse = "\n")`
 ```

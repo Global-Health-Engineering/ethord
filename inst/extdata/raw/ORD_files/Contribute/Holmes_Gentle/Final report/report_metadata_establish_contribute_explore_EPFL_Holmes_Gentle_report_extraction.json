@@ -1,0 +1,110 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Holmes_Gentle/Final report/EPFL_Holmes_Gentle_report.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "SolarFuelsDB+",
+    "explore_call_number": 1,
+    "project_starting_and_end_date": "Start: 1 Jul 2022; End: 31 Jan 2023 (extended to 31 May 2023)",
+    "main_applicant_responsible_for_project": "Isaac Holmes-Gentle",
+    "function": "Postdoctoral researcher",
+    "laboratory_department": "Laboratory of Renewable Energy Science and Engineering (STI IGM LRESE)",
+    "institution_of_main_applicant": "École polytechnique fédérale de Lausanne (EPFL)",
+    "report": "Final",
+    "reporting_period": "01/07/2022 to 31/05/2023",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "The project title appears in the 'General information' section, clearly labelled.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "explore_call_number": {
+        "reasoning": "The call number is indicated as 'EPFL SCR0714324'; as it's not labelled as 2nd, 3rd, etc., it's the 1st.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "Verbatim data from 'General information' table; extended end date included as per table.",
+        "extraction_confidence": 0.9882850230723409,
+        "confidence": 0.9882850230723409
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "The table lists only one main applicant, as required, no titles.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "The function of the main applicant is clearly listed.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "Verbatim extraction from general information table.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "Verbatim extraction from table for main applicant's institution.",
+        "extraction_confidence": 0.999999970213439,
+        "confidence": 0.999999970213439
+      },
+      "report": {
+        "reasoning": "The template header and instructions specify 'Final' report.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "Reporting period is inferred from project start and (extended) end dates.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Start: 1 Jul 2022<br/>End: 31 Jan 2023 (extended to 31 May 2023)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.8052870589605885,
+        "confidence": 0.8052870589605885
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 7,
+      "num_document_tokens": 3730,
+      "num_output_tokens": 1017
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "68da5873-497e-4b55-bd60-8f3379a96242",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:26:06.916362+00:00",
+  "updated_at": "2025-11-11T17:27:12.697912+00:00"
+}

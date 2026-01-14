@@ -1,0 +1,103 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Hughes/final report/ETHD_ORD_measure_1_scientific reporting template_v5_Contribute_25.06.23_FINAL.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense)",
+    "explore_call_number": 5,
+    "project_starting_and_end_date": "1st Jan 2024-31st December 2024",
+    "main_applicant_responsible_for_project": "Josie Hughes",
+    "function": "Assistant Professor",
+    "laboratory_department": "CREATE Lab, IGM",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Final",
+    "reporting_period": "01/24 to 12/24",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "Project title was listed clearly in the General information table, verbatim.",
+        "extraction_confidence": 0.9999999869659865,
+        "confidence": 0.9999999869659865
+      },
+      "explore_call_number": {
+        "reasoning": "The 'Contribute call number' is provided as '5th Call'; this translates to 5.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "Exact date range is listed under General information.",
+        "extraction_confidence": 0.9999999667676938,
+        "confidence": 0.9999999667676938
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "The main applicant's name is written clearly with no titles.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "Verbatim extraction from the Function row, which applies to the main applicant.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "Laboratory and/or Department field clearly lists this info.",
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "Extraction is verbatim and located in General information.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "Both the Scientific Report Template heading and text indicate that this is a final report.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "The project starting and end date is 1st Jan 2024-31st December 2024, so reporting period is MM/YY to MM/YY: 01/24 to 12/24.",
+        "extraction_confidence": 0.9525772689653378,
+        "confidence": 0.9525772689653378
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 6,
+      "num_document_tokens": 3170,
+      "num_output_tokens": 976
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "10fea91b-5045-4763-b43e-42506dfccc6c",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:09:53.393434+00:00",
+  "updated_at": "2025-11-11T17:11:21.379806+00:00"
+}

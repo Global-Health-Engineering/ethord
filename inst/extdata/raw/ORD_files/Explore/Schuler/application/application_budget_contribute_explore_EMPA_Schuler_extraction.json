@@ -1,0 +1,218 @@
+{
+  "document_path": "raw/ORD_files/Explore/Schuler/application/EMPA_Schuler.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 54900.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 27360.0,
+    "total_budget_personnel_other": 63000.0,
+    "total_budget_personnel_total_direct": 145260.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 4000.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 4000.0,
+    "total_budget_total_direct": 149260.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 149260.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "Total requested amount in CHF                         | 149260"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "VERBATIM EXTRACTION. Extracted directly from the 'Total in CHF' for 'Senior Staff' (Dr. Simone Baffelli and Dr. Bruno Schuler) in the personnel section of the budget table.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "Senior staff include Dr. Simone Baffelli (15'750) and Dr. Bruno Schuler (11'700, listed twice: 'ETH ORD' and 'Empa'). The 'Total in CHF' column for senior staff is 31'500 + 23'400 = 54'900 CHF."
+          }
+        ],
+        "extraction_confidence": 0.8728754429419606,
+        "confidence": 0.8728754429419606
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA. No costs listed under 'Postdocs'. The budget table does not mention this category.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION. Table lists 'PhD Student ... Lysander Huberich ... Total in CHF ... 27'360'.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "PhD Student Lysander Huberich ... Total in CHF ... 27'360"
+          }
+        ],
+        "extraction_confidence": 0.9999999031936799,
+        "confidence": 0.9999999031936799
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION. 'Software Engineer ... Despina Adamopolou ... 31'500 ... 31'500 ... 63'000' is the only entry fitting 'Other' personnel category in the table.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "Software Engineer ... Despina Adamopolou ... 31'500 ... 31'500 ... 63'000"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION. Table row 'i. Total Direct Costs for Personnel ... 72'630 ... 72'630 ... 145'260'.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "i. Total Direct Costs for Personnel ... 72'630 ... 72'630 ... 145'260"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "INSUFFICIENT DATA. Table row for travel is empty.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Travel² ..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA. Table row for equipment is empty.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Equipment³ ..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA. Row for publication fees in table is present with no value.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Publications (including Open Access fees), etc. 4"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION. 'Conferences and workshops5 ... 2'000 ... 2'000 ... 4'000'.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "Conferences and workshops5 ... 2'000 ... 2'000 ... 4'000"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA. No value given for 'Other (please specify)'.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Other (please specify)6"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION. Table row 'ii. Total Other Direct Costs ... 2'000 ... 2'000 ... 4'000'.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "ii. Total Other Direct Costs ... 2'000 ... 2'000 ... 4'000"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION. Table 'A – Total Direct Costs (i + ii) ... 74'630 ... 74'630 ... 149'260' directly supports the extracted value for total direct costs.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "A – Total Direct Costs (i + ii) ... 74'630 ... 74'630 ... 149'260"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "INSUFFICIENT DATA. Table row for 'Subcontracting' exists but is empty, indicating no budgeted amount for this category.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "B – Subcontracting Costs 7"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 29,
+      "num_document_tokens": 18413,
+      "num_output_tokens": 4388
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c2265c84-5c73-42d6-a096-ee178617d7aa",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:34:51.308788+00:00",
+  "updated_at": "2025-11-11T14:35:46.914701+00:00"
+}

@@ -1,0 +1,152 @@
+{
+  "document_path": "raw/ORD_files/Explore/Hurni/intermediate report/ETHD_ORD_measure_1_FAIRGEO_scientific_report_July2025-1.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Advancing open geodata practices in research communities (FAIRGeo)",
+    "explore_call_number": 2,
+    "project_starting_and_end_date": "01.10.2024 – 31.03.2026",
+    "main_applicant_responsible_for_project": "Lorenz Hurni",
+    "function": "Head of Institute of Cartography & Geoinformation",
+    "laboratory_department": "Institute of Cartography and Geoinformation",
+    "institution_of_main_applicant": "ETH Zurich",
+    "report": "Intermediate",
+    "reporting_period": "10/24 to 06/25",
+    "coapplicants": [
+      {
+        "name": "Roman Walt",
+        "function": "Staff member Maps and Geoinformation",
+        "institution": "ETH Zurich, ETH Library",
+        "roles_and_main_tasks": "Project co-manager, head WP2 Community & Practices"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999861705251,
+        "confidence": 0.9999999861705251
+      },
+      "explore_call_number": {
+        "reasoning": "Mapped '2nd call' to integer 2 as per instructions.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999095395985,
+        "confidence": 0.9999999095395985
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Extracted as only the person's name, omitting title as instructed.",
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "Box marked for 'Intermediate scientific report' only.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Roman Walt   | Staff member Maps and Geoinformation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Roman Walt   | Staff member Maps and Geoinformation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "ETH Zurich, ETH Library"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9842608818511583,
+            "confidence": 0.9842608818511583
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Project co-manager, head WP2 Community & Practices"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION from co-applicant table on page 1."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 7,
+      "num_document_tokens": 4224,
+      "num_output_tokens": 1189
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "9a01dfdb-57bc-4c54-a9f2-c996671c6d5f",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:48:30.654467+00:00",
+  "updated_at": "2025-11-11T17:49:40.268055+00:00"
+}

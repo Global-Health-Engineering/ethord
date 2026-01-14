@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Skaloud - 5th call/final report/EPFL_Prof. Skaloud_Jan_Scientific_ORD_M1_project_level_v5_20250130_FINAL.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "OGAIS – An Open Georeferencing of Airborne Image Spectrometry",
+    "explore_call_number": 6,
+    "project_starting_and_end_date": "01.01.2024 - 31.12.2024",
+    "main_applicant_responsible_for_project": "Jan Skaloud",
+    "function": "Senior Scientists",
+    "laboratory_department": "ENAC-CRYOS-ESO",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Final",
+    "reporting_period": "01.01.2024 - 31.12.2024",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Project title:**                     | OGAIS – An Open Georeferencing of Airborne Image Spectrometry"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9989887007186243,
+        "confidence": 0.9989887007186243
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION; convert '6th' to integer 6.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Contribute call number:**            | ORD / 6th call Contribute"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Project starting & end date:**       | 01.01.2024 - 31.12.2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Applicant responsible for project:** | Jan Skaloud"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Function:**                          | Senior Scientists"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997839900294,
+        "confidence": 0.9999997839900294
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Laboratory (and/or Department):**    | ENAC-CRYOS-ESO"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999757984191,
+        "confidence": 0.9999999757984191
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Institution of the applicant:**      | EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "No explicit 'reporting period' label found; using project starting & end date as a best approximation.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "**Project starting & end date:**       | 01.01.2024 - 31.12.2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9727010713016286,
+        "confidence": 0.9727010713016286
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 5,
+      "num_document_tokens": 3693,
+      "num_output_tokens": 972
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "57cb2a8f-bbf2-4180-a10b-779ed2307620",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:22:46.676503+00:00",
+  "updated_at": "2025-11-11T17:23:40.620279+00:00"
+}

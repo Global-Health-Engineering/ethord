@@ -1,0 +1,294 @@
+{
+  "document_path": "raw/ORD_files/Explore/Kahles/application/ETHZ_Kahles.pdf",
+  "status": "success",
+  "data": {
+    "project_category": null,
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": null,
+    "main_applicant_first_name": "André",
+    "main_applicant_surname": "Kahles",
+    "main_applicant_laboratory_name": null,
+    "main_applicant_postcode": null,
+    "main_applicant_city": null,
+    "all_applicants": null,
+    "project_title": "Starting a User Community for Cutting-Edge Sequence Search",
+    "project_acronym": "SUCCESS",
+    "project_abstract": null,
+    "keywords": null,
+    "start_date": null,
+    "project_duration_months": null,
+    "total_budget_requested": 149996.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Documentation Extension and Domain Tutorials"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Community Building"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Formation of Data Repository and Support for Early Adoption"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Organisation of Institutional Partnerships and Collaborations"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Promotion and Community Outreach"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Extracted as 'ETH Zürich' from both the applicant details section ('Which ETH Domain do you belong to?') and verbatim in budget justification as the host institution.",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "This proposal has only one applicant whose host institution is ETH Zurich."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999411123211941,
+        "confidence": 0.9999411123211941
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Both sources explicitly state the first name as 'André': one from a form/table field ('First name(s)'), the other via direct reference in supporting documentation. This is a verbatim extraction.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "applicant details table under 'First name(s)'"
+          },
+          {
+            "page": 29,
+            "matching_text": "supports the application of André Kahles for an ORD Explore project at ETH Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9989813902608043,
+        "confidence": 0.9989813902608043
+      },
+      "main_applicant_surname": {
+        "reasoning": "Both data points identify 'Kahles' as the main applicant's surname, one directly from the application table and the other from supporting material. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Field 'Surname(s)' shows 'Kahles'."
+          },
+          {
+            "page": 29,
+            "matching_text": "supports the application of André Kahles for an ORD Explore project at ETH Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999677312261,
+        "confidence": 0.9999999677312261
+      },
+      "project_title": {
+        "reasoning": "The requested data is the project title from the 'RESEARCH PROPOSAL' section. The full title 'Starting a User Community for Cutting-Edge Sequence Search' appears verbatim in three separate sources, including directly under 'Project title' in both a proposal table and a support letter. The term 'MetaGraph' is referenced as a project platform or product, not the formal project title. Therefore, the extraction is a verbatim match from multiple highly reliable, cited sources.",
+        "citation": [
+          {
+            "page": 10,
+            "matching_text": "Starting a User Community for Cutting-Edge Sequence Search"
+          },
+          {
+            "page": 29,
+            "matching_text": "for the project entitled “Starting a User Community for Cutting-Edge Sequence Search”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION: The actual total budget requested is consistently stated as 149996 CHF in both the BUDGET section and summary tables; the 150’000 CHF is expressly the upper budget limit and not the requested value.",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "Total requested amount in CHF | 149996"
+          },
+          {
+            "page": 26,
+            "matching_text": "Total Costs in CHF (A + B)      |                                                  | 149'996 CHF"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 10,
+            "matching_text": "Acronym: SUCCESS"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 1 - Documentation Extension and Domain Tutorials"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 1 - Documentation Extension and Domain Tutorials"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 2 - Community Building"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 19,
+                "matching_text": "WP 2 - Community Building"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 3 - Formation of Data Repository and Support for Early Adoption"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 3 - Formation of Data Repository and Support for Early Adoption"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 4 - Organisation of Institutional Partnerships and Collaborations"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 4 - Organisation of Institutional Partnerships and Collaborations"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 5 - Promotion and Community Outreach"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "WP 5 - Promotion and Community Outreach"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 29,
+      "num_document_tokens": 16923,
+      "num_output_tokens": 4912
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "f1c891bd-a6f3-4bce-a81b-d39e598d15f6",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:01:25.473706+00:00",
+  "updated_at": "2025-11-11T13:03:33.869106+00:00"
+}

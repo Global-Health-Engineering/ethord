@@ -1,0 +1,445 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Simeoni - 2nd call/application/EPFL_Simeoni.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Principal Scientist and Lecturer, Head of the EPFL Hub for Advanced Image Reconstruction",
+    "main_applicant_first_name": "Matthieu",
+    "main_applicant_surname": "Simeoni",
+    "main_applicant_laboratory_name": "EPFL VPA VPA-AVP-CP IMAGING",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Principal Scientist and Lecturer, Head of the EPFL Hub for Advanced Image Reconstruction",
+        "first_name": "Matthieu",
+        "surname": "Simeoni",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "Pycsou FAIR: A Community Marketplace for Discovering and Sharing Image Reconstruction Plugins",
+    "project_acronym": "Pycsou-FAIR",
+    "project_abstract": "Pycsou is an open-source computational imaging software framework for Python with native support for hardware acceleration and distributed computing. The latter adopts a modular and interoperable microservice architecture providing highly optimised and scalable general-purpose computational imaging functionalities and tools, easy to reuse and share across imaging modalities. One key specificity of the framework is its domain-agnosticity, which helps it remain lightweight (with only a few core dependencies), accessible to most imaging scientists, and portable/scalable across computing platforms and imaging modalities. However, this domain-agnosticity also limits the adoption of the framework by certain imaging communities with very specific computational imaging needs. This project adresses this issue by introducing Pycsou FAIR, a web platform, meta-programming framework and interoperability protocol for Pycsou aiming at facilitating the discovery, installation, development and sharing of FAIR-compliant community-based image reconstruction plugins at scale. This platform will allow imaging scientists to develop, share and take full advantage of modern computational imaging methods in their routine processing pipelines.",
+    "keywords": [
+      "computational imaging, plugins, pycsou, interoperability entry points, software repository"
+    ],
+    "start_date": "1 Nov 2022",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Interoperability entry points"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Meta-programming framework"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Pycsou-FAIR website"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Documentation, tutorials and concrete examples"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
+          },
+          {
+            "page": 14,
+            "matching_text": "Track C: Contribute projects"
+          },
+          {
+            "page": 28,
+            "matching_text": "ETH Domain ORD Program\nContribute Track"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "Multiple independent verbatim extractions all specify EPFL as the main applicant institution. All details and affiliations point solely to EPFL.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL is listed under 'Which ETH Domain do you belong to?'"
+          },
+          {
+            "page": 27,
+            "matching_text": "Dr. Joan Rue Queralt (an R&D-Engineer at the EPFL Hub for Advanced Image Reconstruction"
+          },
+          {
+            "page": 28,
+            "matching_text": "EPFL Center for Imaging"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'Principal Scientist and Lecturer, Head of the EPFL Hub for Advanced Image Reconstruction' found directly in applicant details table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Multiple extractions (including from dedicated applicant section and direct attributions in support letter and main document section) independently and clearly identify 'Matthieu' as the first name of the main applicant. One instance of 'Joan' is attributable to a different individual mentioned in the budget justification, not the main applicant.",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "by Dr. Matthieu Simeoni"
+          },
+          {
+            "page": 28,
+            "matching_text": "Dr. Matthieu Simeoni"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Three separate segments (indices 0, 1, 4) confirm the main applicant's surname is 'Simeoni' either verbatim from applicant table or from full name references, all at high confidence and unambiguous context. Reference to 'Rue Queralt' at idx 3 does not concern the main applicant but a different individual.",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "by Dr. Matthieu Simeoni"
+          },
+          {
+            "page": 28,
+            "matching_text": "Dr. Matthieu Simeoni"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL VPA VPA-AVP-CP IMAGING"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "Extracted numerical postcode from input 'CH-1015'.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode is listed as 'CH-1015'"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City is given as Lausanne."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Matthieu Simeoni ... Head of the EPFL Hub for Advanced Image Reconstruction"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Principal Scientist and Lecturer, Head of the EPFL Hub for Advanced Image Reconstruction"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Matthieu Simeoni"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Matthieu Simeoni"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "1015"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Project title > Pycsou FAIR: A Community Marketplace for Discovering and Sharing Image Reconstruction Plugins"
+          },
+          {
+            "page": 28,
+            "matching_text": "project entitled “Pycsou FAIR: A Community Marketplace for Discovering and Sharing Image Reconstruction Plugins”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 16,
+            "matching_text": "Proposal Acronym: Pycsou-FAIR"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Pycsou is an open-source computational imaging software framework for Python with native support for hardware acceleration and distributed computing. The latter adopts a modular and interoperable microservice architecture providing highly optimised and scalable general-purpose computational imaging functionalities and tools, easy to reuse and share across imaging modalities. One key specificity of the framework is its domain-agnosticity, which helps it remain lightweight (with only a few core dependencies), accessible to most imaging scientists, and portable/scalable across computing platforms and imaging modalities. However, this domain-agnosticity also limits the adoption of the framework by certain imaging communities with very specific computational imaging needs. This project adresses this issue by introducing Pycsou FAIR, a web platform, meta-programming framework and interoperability protocol for Pycsou aiming at facilitating the discovery, installation, development and sharing of FAIR-compliant community-based image reconstruction plugins at scale. This platform will allow imaging scientists to develop, share and take full advantage of modern computational imaging methods in their routine processing pipelines."
+          }
+        ],
+        "extraction_confidence": 0.9999982533123801,
+        "confidence": 0.9999982533123801
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "computational imaging, plugins, pycsou, interoperability entry points, software repository"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999556304449587,
+          "confidence": 0.9999556304449587
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date - '1 Nov 2022'"
+          }
+        ],
+        "extraction_confidence": 0.9999998897552761,
+        "confidence": 0.9999998897552761
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Project duration given as 12 (months)."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "Total Costs (A + B) | | | | 30,000.00 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP1: Interoperability entry points (October 2022 - December 2022)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP1: Interoperability entry points (October 2022 - December 2022)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Extracted verbatim from 'Work packages and milestones' section."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP2: Meta-programming framework (January 2023 - March 2023)."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP2: Meta-programming framework (January 2023 - March 2023)."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "Extracted verbatim from 'Work packages and milestones' section."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP3: Pycsou-FAIR website (April 2023 - June 2024)."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP3: Pycsou-FAIR website (April 2023 - June 2024)."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999991038576017,
+            "confidence": 0.9999991038576017
+          },
+          "reasoning": "Extracted verbatim from 'Work packages and milestones' section."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP4: Documentation, tutorials and concrete examples (July 2023 - September 2023)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "WP4: Documentation, tutorials and concrete examples (July 2023 - September 2023)"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999478639471,
+            "confidence": 0.9999999478639471
+          },
+          "reasoning": "Extracted verbatim from 'Work packages and milestones' section."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 29,
+      "num_document_tokens": 18998,
+      "num_output_tokens": 9013
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "6dbffb9a-737e-4094-8eda-39a81dde7d8e",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T10:51:35.578510+00:00",
+  "updated_at": "2025-11-11T10:53:27.780152+00:00"
+}

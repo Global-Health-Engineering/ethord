@@ -1,0 +1,159 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Schrimpf - 5th call/final scientific report/ETHD_ORD_measure_1_scientific reporting template_v5_updated_5th_call_Appendix.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "",
+    "explore_call_number": 5,
+    "project_starting_and_end_date": "",
+    "main_applicant_responsible_for_project": "Martin Schrimpf",
+    "function": "",
+    "laboratory_department": "",
+    "institution_of_main_applicant": "",
+    "report": "other",
+    "reporting_period": "",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Martin Schrimpf (ORD Contribute 5th cal) – links to publications provided on 12th August 2025"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "explore_call_number": {
+        "reasoning": "Inferred from the '(ORD Contribute 5th cal)' phrase.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ORD Contribute 5th cal"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "Inferred as the only named person and labeled as ORD Contribute (implies applicant).",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Martin Schrimpf (ORD Contribute 5th cal)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "laboratory_department": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "report": {
+        "reasoning": "Report type not mentioned, so choosing 'other'.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 1,
+      "num_document_tokens": 502,
+      "num_output_tokens": 760
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "16b49449-dd26-4031-82f7-07275e5e04a8",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T16:59:57.843813+00:00",
+  "updated_at": "2025-11-11T17:00:45.345821+00:00"
+}

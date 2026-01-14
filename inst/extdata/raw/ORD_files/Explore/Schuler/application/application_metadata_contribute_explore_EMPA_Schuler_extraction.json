@@ -1,0 +1,475 @@
+{
+  "document_path": "raw/ORD_files/Explore/Schuler/application/EMPA_Schuler.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Explore Projects",
+    "main_applicant_institution": "Empa",
+    "main_applicant_function": "Group Leader",
+    "main_applicant_first_name": "Bruno",
+    "main_applicant_surname": "Schuler",
+    "main_applicant_laboratory_name": "nanotech@surfaces",
+    "main_applicant_postcode": 8600,
+    "main_applicant_city": "Duebendorf",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Group Leader",
+        "first_name": "Bruno",
+        "surname": "Schuler",
+        "postcode": 8600
+      },
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Research Software Engineer",
+        "first_name": "Simone",
+        "surname": "Baffelli",
+        "postcode": 8600
+      }
+    ],
+    "project_title": "Integrated Instrument and Inventory Logbook for Experimental Science Labs (iLog)",
+    "project_acronym": "iLog",
+    "project_abstract": "Our aim is to develop practices and tools to trace and share the state of shared inventory items in a multi-user laboratory, linking this information to the personal Electronic Lab Notebook (ELN) of each user. With this practice, we seek to fill a big blank spot in the tracking of mutable laboratory information management system (LIMS) objects. A tool akin to a digital inventory logbook will be developed as an openBIS extension to support a wide range of experimental laboratories with variable types of measurement equipment and inventory items. This inventory logbook will complement the native openBIS ELN-LIMS, with focus on measurement equipment and inventory management. The implementation will prioritize generality and user-friendliness to minimize adaptation barriers and promote the dissemination of this ORD practice.",
+    "keywords": [
+      "Multi-User Laboratory",
+      "Data Provenance Tracking",
+      "Mutable LIMS Objects",
+      "Logbook"
+    ],
+    "start_date": "1 Sep 2024",
+    "project_duration_months": 18,
+    "total_budget_requested": 149260.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Develop concept of inventory logbook based on the community input at Empa"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Implement generic \"logbook\" capabilities in openBIS"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "User-friendly inventory input user interfaces with custom functionalities; establish customized \"inventory object masks (IOMs)\" for digitizing the inventory of nanotech@surfaces lab"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Dissemination: present the new practice and extension at openBIS user conference and promote it at an Empa internal workshop and new user trainings"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "In the context of my Postdoc at Empa, I worked on the management and development of CarboSense"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title) for corresponding applicant is Group Leader."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Bruno is referenced in both the applicant table (likely primary metadata location) and later as 'corresponding applicant' in the document, making this the most authoritative and contextually supported extraction. The mention of 'Simone' is likely a co-applicant or referenced individual, but not labeled as the main applicant. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Dr. Bruno Schuler (corresponding applicant)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "The surname 'Schuler' is explicitly referenced as the 'corresponding applicant' (which in grant documentation is usually the main applicant) on page 24 and as surname in the applicant table. 'Baffelli' appears in a list with no evidence of main applicant status. Therefore, 'Schuler' is the main applicant surname.",
+        "citation": [
+          {
+            "page": 24,
+            "matching_text": "Dr. Bruno Schuler (corresponding applicant)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Laboratory name is provided for the main applicant."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode/Zipcode in main applicant table is 8600."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City in main applicant table is Duebendorf."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "All information taken directly from the corresponding applicant table."
+        },
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "8600 Duebendorf"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "All information taken directly from applicant #2 table and address."
+        }
+      ],
+      "project_title": {
+        "reasoning": "The project title in the RESEARCH PROPOSAL and section 1 (page 14) is 'Integrated Instrument and Inventory Logbook for Experimental Science Labs (iLog)'. This matches the general scope seen in the majority of proposal documentation, and includes the project acronym. The variant referring to 'Materials Science Research' appears in support letters and is likely a targeted adaptation, not the formal project title. Therefore, the main extracted value is 'Integrated Instrument and Inventory Logbook for Experimental Science Labs (iLog)'.",
+        "citation": [
+          {
+            "page": 14,
+            "matching_text": "Project title\n> Integrated Instrument and Inventory Logbook for Experimental Science Labs (iLog)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999999976056168,
+        "confidence": 0.999999976056168
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project found in proposal table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "**Abstract**<br/><br/>Our aim is to develop practices and tools to trace and share the state..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9972629235976606,
+        "confidence": 0.9972629235976606
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Multi-User Laboratory, Data Provenance Tracking, Mutable LIMS Objects, Logbook"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Multi-User Laboratory, Data Provenance Tracking, Mutable LIMS Objects, Logbook"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Multi-User Laboratory, Data Provenance Tracking, Mutable LIMS Objects, Logbook"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Multi-User Laboratory, Data Provenance Tracking, Mutable LIMS Objects, Logbook"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date: 1 Sep 2024"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "Verbatim extraction from project duration.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration given as '18' in proposal table (months)."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Budget table in section 4 lists 'Total requested amount in CHF' as 149260."
+          },
+          {
+            "page": 26,
+            "matching_text": "On Pages 24, 25, 26, total costs of 149'260 CHF are shown both in text and as Total in CHF in final budget tables."
+          }
+        ],
+        "extraction_confidence": 0.9999992363754165,
+        "confidence": 0.9999992363754165
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP1: Develop concept of inventory logbook based on the community input at Empa"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP1: Develop concept of inventory logbook based on the community input at Empa"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999984620677297,
+            "confidence": 0.9999984620677297
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP2: Implement generic \"logbook\" capabilities in openBIS"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 22,
+                "matching_text": "WP2: Implement generic \"logbook\" capabilities in openBIS"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998960785320319,
+            "confidence": 0.9998960785320319
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "user-friendly inventory input user interfaces with custom functionalities (WP3)"
+              },
+              {
+                "page": 23,
+                "matching_text": "WP3: As a proof-of-concept, establish customized \"inventory object masks (IOMs)\""
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 18,
+                "matching_text": "user-friendly inventory input user interfaces with custom functionalities (WP3)"
+              },
+              {
+                "page": 23,
+                "matching_text": "WP3: As a proof-of-concept, establish customized \"inventory object masks (IOMs)\" for digitizing the inventory of nanotech@surfaces lab"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9678903132874671,
+            "confidence": 0.9678903132874671
+          },
+          "reasoning": "Combined two verbatim WP3 descriptions to reflect both general (user interfaces) and specific (inventory object masks) content. Averaged extraction confidences: (0.9780054932283184 + 0.9577751333466159)/2 = 0.9678903132874671."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "WP4: Dissemination: present the new practice and extension at openBIS user conference"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 23,
+                "matching_text": "WP4: Dissemination: present the new practice and extension at openBIS user conference and promote it at an Empa internal workshop and new user trainings"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9992771011743862,
+            "confidence": 0.9992771011743862
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 29,
+      "num_document_tokens": 17672,
+      "num_output_tokens": 9752
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "de3927bc-bc30-4852-a346-7f689348e894",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T13:14:08.012435+00:00",
+  "updated_at": "2025-11-11T13:16:23.117429+00:00"
+}

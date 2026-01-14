@@ -1,0 +1,110 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Lignos - 3rd call/final scientific report/LignosETHD_ORD_measure_1_scientific_v5_Contribute_Call3_FINAL.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "Databases and front-end web-based software for performance-based natural hazards engineering",
+    "explore_call_number": 3,
+    "project_starting_and_end_date": "June 2023 – May 31 2024",
+    "main_applicant_responsible_for_project": "Dimitrios Lignos",
+    "function": "Full Professor",
+    "laboratory_department": "Resilient Steel Structures Laboratory, Civil Engineering Institute",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Final",
+    "reporting_period": "",
+    "coapplicants": []
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999998839959633,
+        "confidence": 0.9999998839959633
+      },
+      "explore_call_number": {
+        "reasoning": "The call is referenced as 'Contribute Call 3', which means the number is 3.",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999986169760191,
+        "confidence": 0.9999986169760191
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9999999687183679,
+        "confidence": 0.9999999687183679
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "It clearly states: 'Scientific Report Template – Final' at the beginning.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Scientific Report Template – Final"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 5,
+      "num_document_tokens": 2878,
+      "num_output_tokens": 924
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "d3569428-1acd-4e46-b567-1746543c7306",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T16:54:22.097217+00:00",
+  "updated_at": "2025-11-11T16:55:16.816416+00:00"
+}

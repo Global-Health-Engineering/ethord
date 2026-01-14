@@ -1,0 +1,207 @@
+{
+  "document_path": "raw/ORD_files/Explore/Bonetti - 2nd call/intermediate scientific report/ETHD_ORD_Explore_FRAME_Intermediate report_final.pdf",
+  "status": "success",
+  "data": {
+    "project_title": "A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)",
+    "explore_call_number": 0,
+    "project_starting_and_end_date": "start: 01.09.2024, end: 28.02.2026",
+    "main_applicant_responsible_for_project": "Sara Bonetti",
+    "function": "Assistant Professor",
+    "laboratory_department": "CHANGE - ENAC",
+    "institution_of_main_applicant": "EPFL",
+    "report": "Intermediate",
+    "reporting_period": "09.24 to 06.25",
+    "coapplicants": [
+      {
+        "name": "",
+        "function": "",
+        "institution": "",
+        "roles_and_main_tasks": ""
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDReportMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)"
+          }
+        ],
+        "parsing_confidence": 0.9999999861705251,
+        "extraction_confidence": 0.9999999861705251,
+        "confidence": 0.9999999861705251
+      },
+      "explore_call_number": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The value is 'EXPLORE CALL 2024', and the schema wants 1,2,3... format. Here, year 2024 is used, but the ordinal (1st, 2nd, 3rd) is not explicit. No ordinal present."
+          }
+        ],
+        "parsing_confidence": 0.0,
+        "confidence": 0.0
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Extract start and end date from 'General information'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Sara Bonetti"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Assistant Professor"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "CHANGE - ENAC"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'[x] Intermediate scientific report' is checked, '[ ] Final scientific report' is not."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "reporting_period": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "09.24 to 06.25"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "ETH Zurich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "function": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "ETH Zurich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "ETH Zurich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "roles_and_main_tasks": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "ETH Zurich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "INSUFFICIENT DATA"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 11,
+      "num_document_tokens": 7539,
+      "num_output_tokens": 3274
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "5c2eae78-d39a-4f3f-98d1-e4b2ae9ab707",
+  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
+  "created_at": "2025-11-11T17:31:19.597572+00:00",
+  "updated_at": "2025-11-11T17:32:44.112963+00:00"
+}

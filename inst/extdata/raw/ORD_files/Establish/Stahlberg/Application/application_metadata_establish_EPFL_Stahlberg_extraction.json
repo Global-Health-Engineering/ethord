@@ -1,0 +1,823 @@
+{
+  "document_path": "raw/ORD_files/Establish/Stahlberg/Application/EPFL_Stahlberg.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Establish Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "Professor",
+    "main_applicant_first_name": "Henning",
+    "main_applicant_surname": "Stahlberg",
+    "main_applicant_laboratory_name": "EPFL VPA VPA-AVP-CP DCI",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Professor",
+        "first_name": "Henning",
+        "surname": "Stahlberg",
+        "postcode": 1015
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Professor",
+        "first_name": "Gebhard",
+        "surname": "Schertler",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Professor",
+        "first_name": "Christoph",
+        "surname": "Coperet",
+        "postcode": 8093
+      },
+      {
+        "eth_domain_institution": "Empa",
+        "function_title": "Professor / Associate professor or similar",
+        "first_name": "Rolf",
+        "surname": "Erni",
+        "postcode": 8600
+      },
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Research Associate / Scientific collaborator",
+        "first_name": "Spencer",
+        "surname": "Bliven",
+        "postcode": 5232
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Professor / Associate professor or similar",
+        "first_name": "Volodymyr",
+        "surname": "Korkhov",
+        "postcode": 8093
+      }
+    ],
+    "project_title": "Open EM Data Network",
+    "project_acronym": "OPEM",
+    "project_abstract": "This Open EM Data Network will establish ORD practice for Electron Microscopy (EM) in Switzerland. In the life sciences, cryo-EM experienced a resolution revolution enabling to the atomic-resolution determination of protein structures. In materials sciences, EM equally experienced a dramatic expansion of possibilities and multidisciplinary approaches, e.g., 4D STEM data collection. This led to unparalleled increase in data volumes and need for computational resources.\n\nThis Open EM Data Network (OPEM) will build on the PSI’s existing data annotation (SciCat) and data handling and storage technology (Data Catalog), which will be expanded to cover EM data and to establish Swiss-wide access. It will standardize the collection of data and metadata, streamline data and metadata handling, assist in data transfer and sharing, and automate and support deposition into existing international ORD repositories. It will provide user training in ORD practices and establish a sustainable structure to be maintained after closure of this project.\n\nThe Open EM Data Network is complementing a Swiss-wide effort to push the boundaries in EM technology with the “EM frontiers” initiative. It will establish ORD practice throughout the ETH-Domain EM sites and will be expanded to all Swiss University EM sites through a parallel application to SwissUniversities.",
+    "keywords": [
+      "Electron Microscopy",
+      "Data Processing",
+      "Data Archiving",
+      "Data Sharing"
+    ],
+    "start_date": "1 Jan 2023",
+    "project_duration_months": 30,
+    "total_budget_requested": 1500000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Process harmonization on data and automated harvesting of metadata in line with international standards"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Establish Swiss-Wide Data Hub for data management, exchange and data transfer"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Seamless and Automated Deposition in International Repositories"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "User Training, Outreach and Sustainability"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "The first and third extractions (idx 0 and 3) both assign EPFL as the main applicant's institution, supported by front matter and author role details. The ETH Zürich reference is limited to an individual's CV, likely a co-applicant. Therefore, EPFL is consistently and primarily linked to the main applicant.",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "Corresponding Author: Henning Stahlberg."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.998321051387769,
+        "confidence": 0.998321051387769
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Stated directly in the applicant details table for main applicant."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Multiple extractions explicitly identify 'Henning' as the main applicant, either from an applicant details section or as the corresponding author, which typically corresponds to the main applicant in research proposals. The extraction for 'Christophe' appears in a CV/employment context and does not override the explicit main applicant references.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "From applicant details, main applicant's first name is Henning."
+          },
+          {
+            "page": 27,
+            "matching_text": "Corresponding Author: Henning Stahlberg."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Most citations (idx 0, idx 3) identify 'Stahlberg' as the surname, including direct reference from 'Corresponding Author: Henning Stahlberg.' One other value ('Coperet') occurs only once and appears less supported. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 27,
+            "matching_text": "Corresponding Author: Henning Stahlberg."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "EPFL VPA VPA-AVP-CP DCI"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode given in tabular form for main applicant."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City given in main applicant section."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | PSI"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title)                   | Professor"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s)                      | Gebhard"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s)                         | Schertler"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "5232 Villigen PSI"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Which ETH Domain do you belong to? | ETH Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999861948679375,
+            "confidence": 0.9999861948679375
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Function (Title)                   | Professor"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| First name(s)                      | Christoph"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999994859809547,
+            "confidence": 0.9999994859809547
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Surname(s)                         | Coperet"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "8093 Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Which ETH Domain do you belong to?** | EMPA"
+              },
+              {
+                "page": 17,
+                "matching_text": "Eidg. Material und Prüfungsanstalt -<br/>EMPA, CH<br/>Electron Microscopy Center"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999983423500873,
+            "confidence": 0.9999983423500873
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Function (Title)**                   | Professor"
+              },
+              {
+                "page": 17,
+                "matching_text": "Current position(s): Associate professor or similar"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **First name(s)**                      | Rolf"
+              },
+              {
+                "page": 17,
+                "matching_text": "Rolf Erni"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Surname(s)**                         | Erni"
+              },
+              {
+                "page": 17,
+                "matching_text": "Rolf Erni"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "CH-8600 Dübendorf"
+              },
+              {
+                "page": 17,
+                "matching_text": "EMPA, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9952069490670421,
+            "confidence": 0.9952069490670421
+          },
+          "reasoning": "Combined tabular data and CV; same applicant (Rolf Erni at Empa). Function titles combined as both \"Professor\" and \"Associate professor or similar\" appear. Postcode confirmed 8600 from both entries."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Which ETH Domain do you belong to?** | PSI"
+              },
+              {
+                "page": 21,
+                "matching_text": "Paul Scherrer Institut - PSI, CH<br/>Scientific Computing, Theory and Data"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Function (Title)**                   | Research Associate"
+              },
+              {
+                "page": 21,
+                "matching_text": "Current position(s): Research associate / Scientific collaborator"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **First name(s)**                      | Spencer"
+              },
+              {
+                "page": 21,
+                "matching_text": "Spencer Bliven"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| **Surname(s)**                         | Bliven"
+              },
+              {
+                "page": 21,
+                "matching_text": "Spencer Bliven"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "5232 Villigen PSI"
+              },
+              {
+                "page": 21,
+                "matching_text": "PSI, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999995159684,
+            "confidence": 0.99999995159684
+          },
+          "reasoning": "Combined tabular and CV data, clearly same applicant (Spencer Bliven at PSI). Postcode and function confirmed from both. Function combined as both \"Research Associate\" and \"Scientific collaborator\" appear."
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| **Which ETH Domain do you belong to?** | ETH Zürich"
+              },
+              {
+                "page": 24,
+                "matching_text": "ETH Zürich - ETHZ, CH<br/>Institute of Molecular Biology and Biophysics"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999854089629377,
+            "confidence": 0.9999854089629377
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| **Function (Title)**                   | Professor"
+              },
+              {
+                "page": 24,
+                "matching_text": "Current position(s): Associate professor or similar"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| **First name(s)**                      | Volodymyr"
+              },
+              {
+                "page": 24,
+                "matching_text": "Volodymyr Korkhov"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| **Surname(s)**                         | Korkhov"
+              },
+              {
+                "page": 24,
+                "matching_text": "Volodymyr Korkhov"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 24,
+                "matching_text": "ETH Zürich - ETHZ, CH"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999956938702669,
+            "confidence": 0.9999956938702669
+          },
+          "reasoning": "Tabular page 4 and CV page 24 refer to Volodymyr Korkhov at ETH Zürich; function titles and postcodes merged from both."
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ORD Program - Measure 1 \"Establish Projects\""
+          },
+          {
+            "page": 27,
+            "matching_text": "Track B: Establish projects"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "There are multiple, concordant and explicit verbatim extractions of the project title as 'Open EM Data Network' in both the 'RESEARCH PROPOSAL' and 'Project Proposal' sections, with maximum confidence and no conflicting information across the document.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Extracted directly from the 'Project title' field in RESEARCH PROPOSAL."
+          },
+          {
+            "page": 27,
+            "matching_text": "Project title\n\n> # Open EM Data Network"
+          },
+          {
+            "page": 35,
+            "matching_text": "# 3 ORD project plan\n\nWe here propose to establish a Swiss-wide workflow, based on the PSI’s existing *Data Catalog*<sup>20</sup>, that will also integrate the significant experience from the DCI-Lausanne, ScopeM, and Empa's Electron Microscopy Center. Based on existing local solutions, the *Open EM Data Network* will establish a Swiss-wide Open EM data hub ..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project acronym found in RESEARCH PROPOSAL table."
+          },
+          {
+            "page": 27,
+            "matching_text": "Acronym: OPEM"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "This Open EM Data Network will establish ORD practice for Electron Microscopy (EM) in Switzerland. In the life sciences, cryo-EM experienced a resolution revolution enabling to the atomic-resolution determination of protein structures. In materials sciences, EM equally experienced a dramatic expansion of possibilities and multidisciplinary approaches, e.g., 4D STEM data collection. This led to unparalleled increase in data volumes and need for computational resources. [...]"
+          }
+        ],
+        "extraction_confidence": 0.9997802170198937,
+        "confidence": 0.9997802170198937
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Please enter up to 5 keywords Electron Microscopy ..."
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Please enter up to 5 keywords ... Data Processing"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Please enter up to 5 keywords ... Data Archiving"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Please enter up to 5 keywords ... Data Sharing"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Proposed Starting Date from RESEARCH PROPOSAL section."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Duration given as 30 months in the project proposal table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "Both verbatim extraction from a tabular value and logical summing of phase totals yield the same value: 1,500,000 CHF. The information is directly stated and verified by two separate sources within the document.",
+        "citation": [
+          {
+            "page": 5,
+            "matching_text": "| Total requested amount in CHF | 1500000 |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 40,
+                "matching_text": "WP1          | T1.1 Metadata standards"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 40,
+                "matching_text": "Work package 1: Process harmonization on data and automated harvesting of metadata in line with international standards"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996324678849,
+            "confidence": 0.9999996324678849
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 40,
+                "matching_text": "WP2          | T2.1 Central data hub established"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 41,
+                "matching_text": "Work package 2: Establish Swiss-Wide Data Hub for data management, exchange and data transfer"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998629282373,
+            "confidence": 0.9999998629282373
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 40,
+                "matching_text": "WP3          | T3.1 Tool for seamless Cryo-EM upload in international repositories"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 42,
+                "matching_text": "Work package 3: Seamless and Automated Deposition in International Repositories"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999173786729,
+            "confidence": 0.9999999173786729
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 40,
+                "matching_text": "WP4          | T4.1 User training in ORD and deposition"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 42,
+                "matching_text": "Work package 4: User Training, Outreach and Sustainability"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999968361721233,
+            "confidence": 0.9999968361721233
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 54,
+      "num_document_tokens": 32335,
+      "num_output_tokens": 14589
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "b38c9410-f239-4dcc-b9fc-9294f9daee77",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T09:37:20.496685+00:00",
+  "updated_at": "2025-11-11T09:44:30.522828+00:00"
+}

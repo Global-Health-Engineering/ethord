@@ -1,0 +1,224 @@
+{
+  "document_path": "raw/ORD_files/Explore/Rieckermann - 2nd call/application/EAWAG_RICKERMANN.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 74807.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 0.0,
+    "total_budget_personnel_total_direct": 149807.0,
+    "total_budget_travel": 193.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 193.0,
+    "total_budget_total_direct": 150000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "The 'Total requested amount in CHF' (75,000 CHF) on page 3 represents the amount for a single institution or site. Both later tables (pages 22-33) show 'Total Costs' and 'Total Value' as 150,000 CHF, summing both participating sites. The consistent 150,000 CHF in summary/total rows provides the true overall project total cost.",
+        "citation": [
+          {
+            "page": 22,
+            "matching_text": "'Total Costs in CHF (A + B)' row: Eawag 75'000 + ETH-council 75'000 = 150,000."
+          },
+          {
+            "page": 28,
+            "matching_text": "The only possible 'total cost' is labeled as 'Total Value' in the summary table, which is explicitly listed as 150 kCHF. Amounts are 150 (kCHF) = 150,000 CHF."
+          }
+        ],
+        "extraction_confidence": 0.793792420244433,
+        "confidence": 0.793792420244433
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 28,
+            "matching_text": "Postdocs                                                                                   | 75'000 | 74'807"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999992475737816,
+        "confidence": 0.9999992475737816
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 28,
+            "matching_text": "i. Total Direct Costs for Personnel                                                        |                                                                                            | 75'000 | 74'807"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 28,
+            "matching_text": "Travel²                                                                                    |                                                                                            |        | 193"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 28,
+            "matching_text": "ii. Total Other Direct Costs                                                               |        | 193"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 22,
+            "matching_text": "Row 'A – Total Direct Costs (i + ii)' shows Eawag: 75'000, ETH-council: 75'000. Sum = 150,000."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "Software programmer (170h., FS7)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "Software programmer (170h., FS7)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 29,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 39,
+      "num_document_tokens": 25878,
+      "num_output_tokens": 4652
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "c366a438-da76-46c6-ac08-6743ebf8351b",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:22:24.758479+00:00",
+  "updated_at": "2025-11-11T14:23:22.588169+00:00"
+}

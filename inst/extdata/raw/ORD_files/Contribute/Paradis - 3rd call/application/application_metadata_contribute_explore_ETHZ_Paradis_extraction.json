@@ -1,0 +1,411 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Paradis - 3rd call/application/ETHZ_Paradis.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Post-doctoral researcher",
+    "main_applicant_first_name": "Sarah",
+    "main_applicant_surname": "Paradis",
+    "main_applicant_laboratory_name": "Biogeoscience",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zürich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Post-doctoral researcher",
+        "first_name": "Sarah",
+        "surname": "Paradis",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)",
+    "project_acronym": "API-MOSAIC",
+    "project_abstract": "The increasing use of data repositories in marine geosciences has led to large, albeit dispersed and unstandardized datasets that require large amounts of time and effort to compile and harmonize. To overcome this, the Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) database was devised to understand the factors that affect the distribution of the quantity, origin and reactivity of organic carbon in marine sediments, a key component of the global carbon cycle of growing interest with respect to carbon stocktaking and ecosystem services. Over the last year, MOSAIC has quadrupled its spatiotemporal coverage, increased by ten-fold the number of variables it contains, and it is currently stored as a PostgreSQL spatial relational database. The complexity of this expanding database requires it to be dynamically queried through a user-friendly interface. Hence, this project aims to improve the accessibility to the database by creating an Application Programming Interface (API). This will be achieved by building an interactive and user-friendly web-interface that allows users to query MOSAIC. Finally, Python and R packages will also be built that allow researchers to incorporate MOSAIC in their data analysis and processing workflows, ensuring reproducibility of their findings. This project will provide accessibility of the database to users with different backgrounds and interests, building on Open Research Data practices in marine geosciences.",
+    "keywords": [
+      "carbon cycle, sediments, web-interface, API, database"
+    ],
+    "start_date": "1 Mar 2023",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Implementing a REST API that securely queries the database."
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Setting up and deploying the web-interface in mosaic.ethz.ch."
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Testing and de-bugging the web-interface and API, outreach and dissemination activities of the utilities of MOSAIC v.2.0’s API."
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Multiple independent extractions confirm 'ETH Zürich' as the main applicant's institution. Two extractions are direct/verbatim, while one infers from hosting at ETH Zürich. All sources align, and no contradictory evidence is present.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Which ETH Domain do you belong to? ETH Zürich"
+          },
+          {
+            "page": 12,
+            "matching_text": "The MOSAIC database is currently hosted by the Biogeoscience group, led by Prof. Dr. Timothy I. Eglinton"
+          },
+          {
+            "page": 22,
+            "matching_text": "ETH Zürich mentioned at top and multiple times in letter."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999228802796991,
+        "confidence": 0.9999228802796991
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title): Post-doctoral researcher"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 12,
+            "matching_text": "The applicant Dr. Sarah Paradis is the back-end developer of MOSAIC"
+          },
+          {
+            "page": 23,
+            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 12,
+            "matching_text": "The applicant Dr. Sarah Paradis is the back-end developer of MOSAIC"
+          },
+          {
+            "page": 23,
+            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "'Laboratory name': Biogeoscience"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "Postcode / Zipcode: 8092"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 9,
+            "matching_text": "City: Zürich"
+          }
+        ],
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "ETH Zürich"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Post-doctoral researcher"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Sarah"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Paradis"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "8092"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\""
+          },
+          {
+            "page": 23,
+            "matching_text": "supports the application of Dr. Sarah Paradis for an ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The information was extracted verbatim from the source text, specifically from the section labeled '1. Project title', and this version includes both the full project name and the acronym, providing the most complete form.",
+        "citation": [
+          {
+            "page": 10,
+            "matching_text": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998361034613,
+        "confidence": 0.9999998361034613
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project - API-MOSAIC"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "The increasing use of data repositories in marine geosciences has led to large, albeit dispersed and unstandardized datasets that require large amounts of time and effort to compile and harmonize. To overcome this, the Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) database was devised to understand the factors that affect the distribution of the quantity, origin and reactivity of organic carbon in marine sediments, a key component of the global carbon cycle of growing interest with respect to carbon stocktaking and ecosystem services. Over the last year, MOSAIC has quadrupled its spatiotemporal coverage, increased by ten-fold the number of variables it contains, and it is currently stored as a PostgreSQL spatial relational database. The complexity of this expanding database requires it to be dynamically queried through a user-friendly interface. Hence, this project aims to improve the accessibility to the database by creating an Application Programming Interface (API). This will be achieved by building an interactive and user-friendly web-interface that allows users to query MOSAIC. Finally, Python and R packages will also be built that allow researchers to incorporate MOSAIC in their data analysis and processing workflows, ensuring reproducibility of their findings. This project will provide accessibility of the database to users with different backgrounds and interests, building on Open Research Data practices in marine geosciences."
+          }
+        ],
+        "extraction_confidence": 0.9999935521675866,
+        "confidence": 0.9999935521675866
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Please enter up to 5 keywords ...: carbon cycle, sediments, web-interface, API, database"
+            }
+          ],
+          "extraction_confidence": 0.9989961573717561,
+          "confidence": 0.9989961573717561
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Under Research Proposal: 'Proposed Starting Date' = 1 Mar 2023"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration is shown as '12' in the table."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 30000"
+          },
+          {
+            "page": 20,
+            "matching_text": "Total Costs (A + B)                           |                                     |                                                  | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.7624,
+        "confidence": 0.7624
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP1 – Implementing a REST API that securely queries the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP1 – Implementing a REST API that securely queries the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995799910937773,
+            "confidence": 0.9995799910937773
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP2 – Setting up and deploying the web-interface in mosaic.ethz.ch."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "WP2 – Setting up and deploying the web-interface in mosaic.ethz.ch."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997925469736,
+            "confidence": 0.9999997925469736
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 15,
+                "matching_text": "WP3 – Testing and de-bugging the web-interface and API, outreach and dissemination activities of the utilities of MOSAIC v.2.0’s API."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 15,
+                "matching_text": "WP3 – Testing and de-bugging the web-interface and API, outreach and dissemination activities of the utilities of MOSAIC v.2.0’s API."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995935414797312,
+            "confidence": 0.9995935414797312
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 23,
+      "num_document_tokens": 14278,
+      "num_output_tokens": 8355
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "df22978f-5bde-4596-b0a7-da7b1e138bd7",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:20:45.786123+00:00",
+  "updated_at": "2025-11-11T11:22:33.008206+00:00"
+}

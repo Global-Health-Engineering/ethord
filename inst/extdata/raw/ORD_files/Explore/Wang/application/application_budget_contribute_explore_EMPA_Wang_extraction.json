@@ -1,0 +1,226 @@
+{
+  "document_path": "raw/ORD_files/Explore/Wang/application/EMPA_Wang.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 140000.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 0.0,
+    "total_budget_personnel_total_direct": 140000.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 6500.0,
+    "total_budget_other_conferences_workshops": 3500.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 6500.0,
+    "total_budget_total_direct": 150000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 39,
+            "matching_text": "The total project duration will be 17 months with a budget of 150 kCHF."
+          },
+          {
+            "page": 41,
+            "matching_text": "Total Costs (A + B)             | 150 000 |   |   | 150 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "The budget table under 'Personnel' has an entry for Senior Staff, but no CHF amount is listed. Thus, the extracted value is interpreted as zero.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Personnel¹                          | Senior Staff |                            |   |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Postdocs     | 140 000 (100%, 17 months)  |   | 140 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "No value is provided for 'Students' in the budget table.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Students     |                            |   |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "No value is provided for 'Other' in the personnel category in the budget table. Assigned value as 0 based on absence of an explicit amount.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Other        |                            |   |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "i. Total Direct Costs for Personnel |              | 140 000                    |   | 140 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "No CHF value appears for Travel in the extracted budget table. Interpreted as a request for 0 CHF for this category.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Travel²                             |              |                            |   |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "No CHF amount given for Equipment in the provided budget table. Equipment row is present but empty, so the extracted value is zero per actual document content.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Equipment³                          |              |                            |   |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Publications (including Open        |              | 6 500 (2 ACS publications) |   | 6 500"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 41,
+            "matching_text": "Conferences and workshops5      | 3 500   |   |   | 3 500"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "There is no 'Other Other' category with an associated CHF value in the provided budget table. The only 'Other' mentioned relates to 'Publications', not an additional 'Other Other' line.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Other                 | Publications (including Open"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "There is no separate total for 'Other Direct Costs' in the extracted table; the only line item under this category is for Publications. Therefore, the value is taken as the total for Publications, which equals 6,500 CHF.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "Publications (including Open        |              | 6 500 (2 ACS publications) |   | 6 500"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 41,
+            "matching_text": "A – Total Direct Costs (i + ii) | 150 000 |   |   | 150 000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "No row or value present for subcontracting. INS UFFICIENT DATA.",
+        "citation": [
+          {
+            "page": 40,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 45,
+      "num_document_tokens": 29611,
+      "num_output_tokens": 4194
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "cfe019cf-908e-42b6-98b0-59b9ccdb6561",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:37:36.769484+00:00",
+  "updated_at": "2025-11-11T14:38:26.722253+00:00"
+}

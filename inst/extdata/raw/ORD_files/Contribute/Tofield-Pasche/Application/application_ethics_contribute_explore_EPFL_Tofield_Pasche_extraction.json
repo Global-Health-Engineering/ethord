@@ -1,0 +1,162 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Tofield-Pasche/Application/EPFL_Tofield_Pasche.pdf",
+  "status": "success",
+  "data": {
+    "ethics_human_embryonic_stem_cells": null,
+    "ethics_human_embryos": "No",
+    "ethics_human_participants": "No",
+    "ethics_human_interventions": null,
+    "ethics_clinical_study": "No",
+    "ethics_human_cells_tissues": "No",
+    "ethics_personal_data": "No",
+    "ethics_personal_data_further_processing": null,
+    "ethics_personal_data_export_switzerland": null,
+    "ethics_personal_data_import_switzerland": null,
+    "ethics_personal_data_criminal": null,
+    "ethics_animals": "No",
+    "ethics_activities_outside_switzerland": null,
+    "ethics_outside_countries_ethics_issues": null,
+    "ethics_local_resources": null,
+    "ethics_import_material": null,
+    "ethics_export_material": null,
+    "ethics_low_middle_income_countries": "No",
+    "ethics_individuals_at_risk": null,
+    "ethics_environmental_harm": "No",
+    "ethics_endangered_species": null,
+    "ethics_human_harm": null,
+    "ethics_artificial_intelligence": null,
+    "ethics_other_issues": null
+  },
+  "metadata": {
+    "schema_name": "ORDEthics",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "ethics_human_participants": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "1 - Human participants?<br/>Comment                                                                                  | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_human_embryos": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "2 - Human embryos/foetuses?<br/>Comment                                                                              | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_clinical_study": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "3 - A clinical trial?<br/>Comment                                                                                    | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_human_cells_tissues": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "4 - Sampling/use of biological material from human participants?<br/>Comment                                         | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_personal_data": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "5 - Collecting or processing of personal data?<br/>Comment                                                           | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_animals": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "6 - Animal experiments?<br/>Comment                                                                                  | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_environmental_harm": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "7 - An impact on the environment and/or on the health and safety of the researchers?<br/>Comment                     | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "ethics_low_middle_income_countries": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "8 - Developing countries?<br/>Comment                                                                                | No |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "error": "Input should be 'Yes' or 'No' at path (ethics_human_embryonic_stem_cells)\nInput should be 'Yes' or 'No' at path (ethics_human_interventions)\nInput should be 'Yes' or 'No' at path (ethics_personal_data_further_processing)\nInput should be 'Yes' or 'No' at path (ethics_personal_data_export_switzerland)\nInput should be 'Yes' or 'No' at path (ethics_personal_data_import_switzerland)\nInput should be 'Yes' or 'No' at path (ethics_personal_data_criminal)\nInput should be 'Yes' or 'No' at path (ethics_activities_outside_switzerland)\nInput should be 'Yes' or 'No' at path (ethics_outside_countries_ethics_issues)\nInput should be 'Yes' or 'No' at path (ethics_local_resources)\nInput should be 'Yes' or 'No' at path (ethics_import_material)\nInput should be 'Yes' or 'No' at path (ethics_export_material)\nInput should be 'Yes' or 'No' at path (ethics_individuals_at_risk)\nInput should be 'Yes' or 'No' at path (ethics_endangered_species)\nInput should be 'Yes' or 'No' at path (ethics_human_harm)\nInput should be 'Yes' or 'No' at path (ethics_artificial_intelligence)\nInput should be 'Yes' or 'No' at path (ethics_other_issues)"
+    },
+    "usage": {
+      "num_pages_extracted": 16,
+      "num_document_tokens": 8865,
+      "num_output_tokens": 2000
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "d6f8a71c-0fb0-48f6-a8a8-39875bb482d8",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T15:24:52.086061+00:00",
+  "updated_at": "2025-11-11T15:25:17.206467+00:00"
+}

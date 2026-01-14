@@ -1,0 +1,373 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Lange - 5th call/application/PSI_LANGE.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "PSI",
+    "main_applicant_function": "Tenure-Track Scientist",
+    "main_applicant_first_name": "Clemens",
+    "main_applicant_surname": "Lange",
+    "main_applicant_laboratory_name": "Laboratory for Particle Physics",
+    "main_applicant_postcode": 5232,
+    "main_applicant_city": "Villigen PSI",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Tenure-Track Scientist",
+        "first_name": "Clemens",
+        "surname": "Lange",
+        "postcode": 5232
+      }
+    ],
+    "project_title": "Seamlessly containerised physics analysis workloads (SCPAW)",
+    "project_acronym": "SCPAW",
+    "project_abstract": "The reusability of particle physics analyses is severely affected by undocumented and manual steps taken by the analysis teams. Starting from typically centrally produced reusable data sets, such high-level physics analyses are largely performed using individually developed analysis scripts and frameworks. While the analysis code is commonly under version control in a git repository, this does not guarantee that it works nor that it yields the results obtained from manual execution. This project aims to provide a prototype solution to these issues for experiments performed at the PSI Laboratory for Particle Physics (CMS, Mu3e, n2EDM) by encoding the missing information directly in the code repository and integrating it with the execution environment to ensure the code’s functionality. This will be achieved by providing templates to automatically test the code and package it in self-contained and portable software container images on the code repository server. These container images will then be distributed on the compute clusters using technology that allows for massively parallel batch processing. Aiming for an excellent user experience to increase adoption, this setup that builds upon the existing infrastructure at PSI will be benchmarked and optimized for a potential future large-scale deployment. Dedicated documentation will be developed, a training course be held at PSI, and the results as well as lessons learned will be presented at an international computing workshop.",
+    "keywords": [
+      "FAIR principles",
+      "software containers",
+      "reproducible analysis",
+      "continuous integration",
+      "particle physics"
+    ],
+    "start_date": "1 Jan 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": null
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\""
+          },
+          {
+            "page": 20,
+            "matching_text": "ORD Contribute project at Paul Scherrer Institute"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "ORD Contribute project at Paul Scherrer Institute"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "supports the application of Clemens Lange for an ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 20,
+            "matching_text": "supports the application of Clemens Lange for an ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Function (Title): Tenure-Track Scientist."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Laboratory name row: Laboratory for Particle Physics."
+          }
+        ],
+        "extraction_confidence": 0.9999999135960062,
+        "confidence": 0.9999999135960062
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode: 5232."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "City: Villigen PSI."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "The most complete version of the project title appears on page 10 and includes both the full name and the acronym. Other instances confirm the title but do not include the acronym. Selecting the most informative, non-redundant version from the provided options.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project title | Seamlessly containerised physics analysis workloads"
+          },
+          {
+            "page": 10,
+            "matching_text": "## 1. Project title\nSeamlessly containerised physics analysis workloads (SCPAW)"
+          },
+          {
+            "page": 20,
+            "matching_text": "project entitled \"Seamlessly containerised physics analysis workloads\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999950355732,
+        "confidence": 0.9999999950355732
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Acronym of the project | SCPAW"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997517212597,
+        "confidence": 0.9999997517212597
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Abstract | The reusability of particle physics analyses is severely aff..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999830402340354,
+        "confidence": 0.9999830402340354
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999999374367368,
+          "confidence": 0.9999999374367368
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Proposed Starting Date | 1 Jan 2024"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999956937956034,
+        "confidence": 0.9999956937956034
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project duration | 12"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 30000"
+          },
+          {
+            "page": 16,
+            "matching_text": "The overall project budget **must be exactly CHF 30'000** for the **total duration** of the project."
+          },
+          {
+            "page": 18,
+            "matching_text": "Total Costs (A + B)             |                                     |                                                  | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "PSI"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Tenure-Track Scientist"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Clemens"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Lange"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "5232"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 22,
+      "num_document_tokens": 11502,
+      "num_output_tokens": 6596
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "a331ed18-8d5d-4f73-a3cb-7923e49ead0b",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T10:24:14.161415+00:00",
+  "updated_at": "2025-11-11T10:31:05.923013+00:00"
+}

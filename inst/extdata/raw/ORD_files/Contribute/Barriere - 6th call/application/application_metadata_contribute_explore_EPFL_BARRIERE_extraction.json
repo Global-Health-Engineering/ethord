@@ -1,0 +1,504 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Barriere - 6th call/application/EPFL_BARRIERE.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "EPFL",
+    "main_applicant_function": "PostDoc",
+    "main_applicant_first_name": "Aurèle",
+    "main_applicant_surname": "Barrière",
+    "main_applicant_laboratory_name": "EPFL IC IINFCOM SYSTEMF",
+    "main_applicant_postcode": 1015,
+    "main_applicant_city": "Lausanne",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "PostDoc",
+        "first_name": "Aurèle",
+        "surname": "Barrière",
+        "postcode": 1015
+      }
+    ],
+    "project_title": "Open Mechanized Foundations for JavaScript Regular Expressions (FiRE)",
+    "project_acronym": "FiRE",
+    "project_abstract": "One of the main forms of ORD in the programming languages research community is two-sided mechanized language specifications (the definition in a proof assistant of the semantics of a language). These mechanized specifications have many benefits: they can be extracted to an executable reference implementation, and used by both implementers (to verify compilers, interpreters and optimizations) and by users (to guarantee the correctness of programs in that programming language).We propose to contribute the first open, two-sided, mechanized specification of JavaScript regular expressions (regexes). The lack of such mechanization is harming the research community: previous work has mechanized other parts of the JavaScript language but not regexes, and as a consequence researchers use paper-only semantics for JavaScript regexes. These paper semantics are neither executable nor reusable and often incorrect. We will translate to Coq the part of the open ECMAScript standard that describes JavaScript regexes; extract this mechanization to a reference implementation in OCaml; and validate our mechanization with Coq proofs.Our project will provide a solid foundation for JavaScript regex research to build upon our Coq mechanization, including proving the correctness of regex optimizations, detecting regexes with security issues (ReDOS), or proving the correctness of entire regex engines. Our project will allow the open JavaScript community to test their regex engines.",
+    "keywords": [
+      "Mechanized Specification",
+      "Regex",
+      "JavaScript",
+      "Coq",
+      "ECMAScript"
+    ],
+    "start_date": "13 Feb 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Finish the translation of ECMAScript in Coq"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Coq mechanization validation"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Produce the executable reference implementation"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Reference implementation cross-validation"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Packaging and dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 23,
+            "matching_text": "Professor Clément Pit-Claudel supports the application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table: Function (Title) | PostDoc"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 23,
+            "matching_text": "application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.99999966478646,
+        "confidence": 0.99999966478646
+      },
+      "main_applicant_surname": {
+        "reasoning": "Both provided extractions indicate the surname is 'Barrière'. The first extraction is from a table, the second from narrative text. Both provide the same value and high confidence, so combining using mean confidence is appropriate.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table: Surname(s) | Barrière"
+          },
+          {
+            "page": 23,
+            "matching_text": "application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999031936799,
+        "confidence": 0.9999999031936799
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table: EPFL Laboratory | EPFL IC IINFCOM SYSTEMF"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode | 1015"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table: City | Lausanne"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table... EPFL"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table... PostDoc"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table... Aurèle"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table... Barrière"
+              }
+            ],
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Applicant table... 1015"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "\"Contribute Projects\" - Call 6"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "Selected the most complete, formal project title, explicitly labeled in support letters and including the acronym. Higher confidence and direct citation supports this choice. Others are partial or less formal variants.",
+        "citation": [
+          {
+            "page": 21,
+            "matching_text": "for the project entitled *Open Mechanized Foundations for JavaScript Regular Expressions (FiRE)*"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999667676938,
+        "confidence": 0.9999999667676938
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project | FiRE"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "One of the main forms of ORD in the programming languages research community is two-sided mechanized language specifications (the definition in a proof assistant of the semantics of a language). These mechanized specifications have many benefits: they can be extracted to an executable reference implementation, and used by both implementers (to verify compilers, interpreters and optimizations) and by users (to guarantee the correctness of programs in that programming language).We propose to contribute the first open, two-sided, mechanized specification of JavaScript regular expressions (regexes). The lack of such mechanization is harming the research community: previous work has mechanized other parts of the JavaScript language but not regexes, and as a consequence researchers use paper-only semantics for JavaScript regexes. These paper semantics are neither executable nor reusable and often incorrect. We will translate to Coq the part of the open ECMAScript standard that describes JavaScript regexes; extract this mechanization to a reference implementation in OCaml; and validate our mechanization with Coq proofs.Our project will provide a solid foundation for JavaScript regex research to build upon our Coq mechanization, including proving the correctness of regex optimizations, detecting regexes with security issues (ReDOS), or proving the correctness of entire regex engines. Our project will allow the open JavaScript community to test their regex engines."
+          }
+        ],
+        "extraction_confidence": 0.9999935747438173,
+        "confidence": 0.9999935747438173
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Mechanized Specification"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Regex"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "JavaScript"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Coq"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "ECMAScript"
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date | 13 Feb 2024"
+          }
+        ],
+        "extraction_confidence": 0.999975311732021,
+        "confidence": 0.999975311732021
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Project duration | 12"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION. All sources independently state the same total budget requested (CHF 30,000), with direct evidence from both summary and detailed budget sections.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table (BUDGET): Total requested amount in CHF | 30000"
+          },
+          {
+            "page": 10,
+            "matching_text": "Explicit tabular summary: '79.7 days = CHF 30,000'"
+          },
+          {
+            "page": 19,
+            "matching_text": "| Total Costs (A + B)             |                                     |              | 30000        |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "1.1 Finish the translation of ECMAScript in Coq."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999118768470276,
+            "confidence": 0.999118768470276
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "1.1 Finish the translation of ECMAScript in Coq."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.992748172465421,
+            "confidence": 0.992748172465421
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "1.2 Coq mechanization validation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.749345724017064,
+            "confidence": 0.749345724017064
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "1.2 Coq mechanization validation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997556698375,
+            "confidence": 0.9999997556698375
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "2.1 Produce the executable reference implementation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "2.1 Produce the executable reference implementation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999846974031015,
+            "confidence": 0.9999846974031015
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "2.2 Reference implementation cross-validation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "2.2 Reference implementation cross-validation."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "3 Packaging and dissemination."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999382804728802,
+            "confidence": 0.9999382804728802
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 14,
+                "matching_text": "3 Packaging and dissemination."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999990215682006,
+            "confidence": 0.9999990215682006
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 24,
+      "num_document_tokens": 13812,
+      "num_output_tokens": 8712
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "cac730e4-9f54-455e-81d6-d3ab7b828ada",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T09:54:27.015381+00:00",
+  "updated_at": "2025-11-11T10:01:22.865682+00:00"
+}

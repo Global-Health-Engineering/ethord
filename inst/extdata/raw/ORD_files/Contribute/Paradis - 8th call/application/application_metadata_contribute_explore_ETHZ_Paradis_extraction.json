@@ -1,0 +1,501 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Paradis - 8th call/application/ETHZ_Paradis.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Dr.",
+    "main_applicant_first_name": "Sarah",
+    "main_applicant_surname": "Paradis",
+    "main_applicant_laboratory_name": "Environmental Physics Group",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zürich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Dr.",
+        "first_name": "Sarah",
+        "surname": "Paradis",
+        "postcode": 8092
+      }
+    ],
+    "project_title": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research",
+    "project_acronym": "API-ROGER",
+    "project_abstract": "In order to advance our understanding of the carbon cycle, it is essential to evaluate the spatiotemporal variations of carbon between river and marine environments and gain insights into the pathways of carbon transfer from land to ocean. To do this, we need to work jointly with riverine and marine data, accounting for their temporal and spatial distribution. However, each of these systems have different data and metadata reporting strategies that need to be accounted for, which complicates their joint application. Efforts have been made to compile data from each of these systems into independent databases, but no attempt has yet been done to create a joint database of data of both of these systems while accounting for their different metadata. Hence, this project aims to bring together riverine and marine data into one database to easily query the data between both systems through the River to Ocean Geodatabase for Education and Research (ROGER). This database will be displayed in an interactive web-interface that queries riverine and/or marine data depending on the user’s requirements through a REST API. Harnessing the advanced geographical functions of PostgreSQL, the REST API will include functions that allow users to geospatially integrate riverine and marine data. This new database will provide a crucial step forward in the understanding of the carbon cycle along the land-ocean continuum, while ensuring that the data complies with best Open Research Data practices.",
+    "keywords": [
+      "carbon cycle",
+      "land-ocean continuum",
+      "geographical information systems",
+      "application programming interface",
+      "web-interface"
+    ],
+    "start_date": "1 Jan 2025",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Update and optimize the REST API to securely query the database."
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Adapt and improve the web-interface to include the river database."
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Implement the Python and R packages that query the database."
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "Both extractions support ETH Zürich as main applicant institution with explicit, direct mentions. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table under 'APPLICANT DETAILS' shows 'Which ETH Domain do you belong to? | ETH Zürich'"
+          },
+          {
+            "page": 16,
+            "matching_text": "Multiple references to ETH Zürich as the host and employer institution."
+          }
+        ],
+        "extraction_confidence": 0.9999813374561402,
+        "confidence": 0.9999813374561402
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title) | Dr."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s) | Sarah"
+          },
+          {
+            "page": 13,
+            "matching_text": "The applicant, Dr. Sarah Paradis, is committed to the success and maintenance of the database"
+          },
+          {
+            "page": 20,
+            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s) | Paradis"
+          },
+          {
+            "page": 13,
+            "matching_text": "The applicant, Dr. Sarah Paradis, is committed to the success and maintenance of the database"
+          },
+          {
+            "page": 20,
+            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory name | Environmental Physics Group"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode | 8092"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City | Zürich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9999999354624522
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Function (Title) | Dr."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "First name(s) | Sarah"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Surname(s) | Paradis"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Postcode / Zipcode | 8092"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "Both the front matter (p. 2, p. 9) and support letter (p. 20) explicitly use 'Application Programming Interface for the River to Ocean Geodatabase for Education and Research' as the project title; the reference on p. 10, including '(ROGER)', describes the product or outcome of the project, not the formal project title. Therefore, the full API name is used as the project title. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project title: Application Programming Interface for the River to Ocean Geodatabase for Education and Research"
+          },
+          {
+            "page": 9,
+            "matching_text": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research"
+          },
+          {
+            "page": 20,
+            "matching_text": "project entitled *Application Programming Interface for the River to Ocean Geodatabase for Education and Research*"
+          }
+        ],
+        "parsing_confidence": 0.9999999956974966,
+        "extraction_confidence": 0.9999999956974966,
+        "confidence": 0.9999999956974966
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Acronym of the project: API-ROGER"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "In order to advance our understanding of the carbon cycle ... data complies with best Open Research Data practices."
+          }
+        ],
+        "extraction_confidence": 0.9999959015468065,
+        "confidence": 0.9999959015468065
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Table under 'Proposed Starting Date': '1 Jan 2025'"
+          }
+        ],
+        "extraction_confidence": 0.9999999135960062,
+        "confidence": 0.9999999135960062
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Table under 'Project duration': '12'"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Table under 'Total requested amount in CHF' on p2: '30000'"
+          },
+          {
+            "page": 18,
+            "matching_text": "Total Costs (A + B)                           |                                     |               | 30'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP1** – Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP1** – Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9858605833814649,
+            "confidence": 0.9858605833814649
+          },
+          "reasoning": "WP1 and its description are listed verbatim."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP2** – Update and optimize the REST API to securely query the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP2** – Update and optimize the REST API to securely query the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "WP2 and its description are listed verbatim."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP3** – Adapt and improve the web-interface to include the river database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP3** – Adapt and improve the web-interface to include the river database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999379303103,
+            "confidence": 0.9999999379303103
+          },
+          "reasoning": "WP3 and its description are listed verbatim."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP4** – Implement the Python and R packages that query the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "* **WP4** – Implement the Python and R packages that query the database."
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "WP4 and its description are listed verbatim."
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 11943,
+      "num_output_tokens": 9119
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "75703852-c240-4eeb-b0f4-ed7fe58ca25f",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:22:37.346528+00:00",
+  "updated_at": "2025-11-11T11:24:19.342021+00:00"
+}

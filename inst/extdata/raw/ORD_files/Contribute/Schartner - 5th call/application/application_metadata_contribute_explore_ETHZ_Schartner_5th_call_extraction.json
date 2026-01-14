@@ -1,0 +1,657 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Schartner - 5th call/application/ETHZ_Schartner_5th_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Postdoktorand",
+    "main_applicant_first_name": "Matthias",
+    "main_applicant_surname": "Schartner",
+    "main_applicant_laboratory_name": "Chair of Space Geodesy",
+    "main_applicant_postcode": 8093,
+    "main_applicant_city": "Zürich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Postdoktorand",
+        "first_name": "Matthias",
+        "surname": "Schartner",
+        "postcode": 8093
+      }
+    ],
+    "project_title": "Global Geodetic VLBI Data Hub (GloVDH)",
+    "project_acronym": "GloVDH",
+    "project_abstract": "Geodetic Very Long Baseline Interferometry (VLBI) stands at the forefront of precise measurement of Earth's rotation and orientation.<br/><br/>At the core of geodetic VLBI operations lies the International VLBI Service for Geodesy and Astrometry (IVS), a collaborative platform that unites institutions, observatories, and research agencies worldwide.<br/><br/>Members of the IVS can submit VLBI-related files to the IVS, such as reports and logs that include a variety of performance metrics.<br/><br/>This project aims to enhance geodetic VLBI research by curating these existing performance metrics submitted to the IVS into a common database. The database will consist of three tables, monitoring performance on a session-, station-, and source basis. It will be openly available via a common web interface and an Application Programming Interface (API). The session-based database will serve as a monitoring tool for enabling swift adjustments to observing programs. For this purpose, comprehensive online plotting tools will be developed as part of the web interface. The station and source-based databases can be used to optimize observing plans by excluding poorly performing elements and prioritizing high-performing ones.<br/><br/>Thus, this project will enhance data accuracy and foster collaboration within the VLBI community. The project's technological advancements will contribute to open research data initiatives and promote scientific excellence in Earth sciences and geodesy, especially for the IVS community.",
+    "keywords": [
+      "VLBI",
+      "geodesy",
+      "IVS"
+    ],
+    "start_date": "1 Feb 2024",
+    "project_duration_months": 9,
+    "total_budget_requested": 29991.2,
+    "work_packages": [
+      {
+        "wp_identifier": "other",
+        "wp_title": "Data Management and Storage"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Data Inventory and Collection"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Data Parsing and Database Implementation"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Automated Data Retrieval"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Web-based Data Query and Visualization"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Web Interface Development"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Plotting and Visualization Tools"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Application Programming Interface (API) Integration"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Basic API Functionality for Session Performance"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Extended API Functionality for Observation Planning"
+      },
+      {
+        "wp_identifier": "other",
+        "wp_title": "Project Documentation and Dissemination"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
+          },
+          {
+            "page": 13,
+            "matching_text": "ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "ORD Contribute project at ETH Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999934,
+        "confidence": 0.999934
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row for Function (Title) has value 'Postdoktorand'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "Both extractions are direct (verbatim) and clearly refer to the same person, the main applicant. There is no conflicting information and both support the same value.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'First name(s)' lists 'Matthias'."
+          },
+          {
+            "page": 17,
+            "matching_text": "application of Dr. Matthias Schartner for an ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Two independent document sections (table, letter of support) explicitly and consistently identify 'Schartner' as the main applicant's surname. Extraction is verbatim and corroborated.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'Surname(s)' lists 'Schartner'."
+          },
+          {
+            "page": 17,
+            "matching_text": "application of Dr. Matthias Schartner for an ORD Contribute project"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998916328747212,
+        "confidence": 0.9998916328747212
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'Laboratory name' lists 'Chair of Space Geodesy'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Postcode / Zipcode: 8093"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Table row 'City' lists 'Zürich'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "ETH Zürich"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Postdoktorand"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Matthias"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "Schartner"
+              }
+            ],
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 0,
+                "matching_text": "8093"
+              }
+            ],
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_title": {
+        "reasoning": "The project is consistently and most completely referred to as 'Global Geodetic VLBI Data Hub (GloVDH)' in both the main research proposal and a letter of support, with direct citations. This is preferred over the shorter form. VERBATIM EXTRACTION.",
+        "citation": [
+          {
+            "page": 8,
+            "matching_text": "Project title**\n    Global Geodetic VLBI Data Hub (GloVDH)"
+          },
+          {
+            "page": 17,
+            "matching_text": "project entitled “Global Geodetic VLBI Data Hub (GloVDH)”"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999996354743966,
+        "confidence": 0.9999996354743966
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Acronym of the project: GloVDH"
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Geodetic Very Long Baseline Interferometry (VLBI) stands at the forefront of precise measurement of Earth's rotation and orientation."
+          }
+        ],
+        "extraction_confidence": 0.9999923692567894,
+        "confidence": 0.9999923692567894
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords given as 'VLBI, geodesy, IVS'."
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords given as 'VLBI, geodesy, IVS'."
+            }
+          ],
+          "extraction_confidence": 0.9999999354624522,
+          "confidence": 0.9999999354624522
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 0,
+              "matching_text": "Keywords given as 'VLBI, geodesy, IVS'."
+            }
+          ],
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Proposed Starting Date is '1 Feb 2024'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 7,
+            "matching_text": "Project duration value is '9'."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "The most precise value is 29991.20 CHF, which likely represents the exact total budget requested. The 29992 CHF value is a rounded version. Choosing the more precise, verbatim budget table figure.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Budget table shows 'Total Costs (A + B): 29991.20 CHF'"
+          }
+        ],
+        "extraction_confidence": 0.9804707683445524,
+        "confidence": 0.9804707683445524
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1000: Data Management and Storage**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1000: Data Management and Storage**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1010: Data Inventory and Collection**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1010: Data Inventory and Collection**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1020: Data Parsing and Database Implementation**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1020: Data Parsing and Database Implementation**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1030: Automated Data Retrieval**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 1030: Automated Data Retrieval**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2000: Web-based Data Query and Visualization**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2000: Web-based Data Query and Visualization**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2010: Web Interface Development**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2010: Web Interface Development**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2020: Plotting and Visualization Tools**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 12,
+                "matching_text": "**WP 2020: Plotting and Visualization Tools**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3000: Application Programming Interface (API) Integration**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3000: Application Programming Interface (API) Integration**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3010: Basic API Functionality for Session Performance**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3010: Basic API Functionality for Session Performance**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3020: Extended API Functionality for Observation Planning**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 3020: Extended API Functionality for Observation Planning**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 4000: Project Documentation and Dissemination**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "**WP 4000: Project Documentation and Dissemination**"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 18,
+      "num_document_tokens": 11440,
+      "num_output_tokens": 12704
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "b7b36db0-c84c-4273-93f9-1050590ff433",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T10:46:06.258872+00:00",
+  "updated_at": "2025-11-11T10:48:08.951879+00:00"
+}

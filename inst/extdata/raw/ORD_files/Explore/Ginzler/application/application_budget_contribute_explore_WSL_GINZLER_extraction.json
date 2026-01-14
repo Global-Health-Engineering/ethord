@@ -1,0 +1,223 @@
+{
+  "document_path": "raw/ORD_files/Explore/Ginzler/application/WSL_GINZLER.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 20000.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 130000.0,
+    "total_budget_personnel_total_direct": 130000.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": -1.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 0.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 150000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "Both valid budget tables explicitly provide the total requested/project cost as 150,000 CHF. The stated numbers are verbatim and match across extractions. No finer breakdown or contradicting information was present.",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Total requested amount in CHF"
+          },
+          {
+            "page": 26,
+            "matching_text": "Total Costs in CHF (A + B)      | 10'500 | 9'500 | 130'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "Sum of verbatim extracted CHF amounts (10'500 + 9'500) listed as senior staff in the personnel budget section. No contradictory or overlapping data present.",
+        "citation": [
+          {
+            "page": 25,
+            "matching_text": "Christian GinzlerWSL<br/>Salaryin-kind | Ionut IosifescuWSL<br/>Salaryin-kind"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999943006376795,
+        "confidence": 0.9999943006376795
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 22,
+            "matching_text": "Extract CHF for 'Other' personnel category; NN/WSL Salary column contains 130'000 CHF."
+          }
+        ],
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "A – Total Direct Costs (i + ii) | 10'500 | 9'500 | 130'000"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999948966527136,
+        "confidence": 0.9999948966527136
+      },
+      "total_budget_travel": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "WP3 will also include general documentation, presentations on conferences (e.g. SilviLaser, ForestSat, …) and open access publications."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 19,
+            "matching_text": "WP3 will also include general documentation, presentations on conferences (e.g. SilviLaser, ForestSat, …) and open access publications."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 17,
+            "matching_text": "INSUFFICIENT DATA"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION. Page 26 supplies a budget table explicitly stating 'B – Subcontracting Costs' as 0 in the relevant section. This supersedes prior insufficient data indications.",
+        "citation": [
+          {
+            "page": 26,
+            "matching_text": "B – Subcontracting Costs 7      | 0      | 0     | 0"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 28,
+      "num_document_tokens": 17146,
+      "num_output_tokens": 4472
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "a098fedc-f353-467d-8666-f1e0d231f4b6",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:28:55.979659+00:00",
+  "updated_at": "2025-11-11T14:29:32.558061+00:00"
+}

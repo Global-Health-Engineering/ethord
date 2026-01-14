@@ -1,0 +1,538 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Tilley - 3rd call/application/ETHZ_Tilley_3rd_call.pdf",
+  "status": "success",
+  "data": {
+    "project_category": "Contribute Projects",
+    "main_applicant_institution": "ETH Zürich",
+    "main_applicant_function": "Associate Professor",
+    "main_applicant_first_name": "Elizabeth",
+    "main_applicant_surname": "Tilley",
+    "main_applicant_laboratory_name": "Global Health Engineering",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zurich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Associate Professor",
+        "first_name": "Elizabeth",
+        "surname": "Tilley",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "Eawag",
+        "function_title": "Research associate / Scientific collaborator",
+        "first_name": "Elizabeth",
+        "surname": "Tilley",
+        "postcode": 8600
+      }
+    ],
+    "project_title": "Open JMP - unlocking the potential of global indicator data",
+    "project_acronym": "openjmp",
+    "project_abstract": "Decades of manual data structuring have resulted in the most comprehensive and internationally-comparable information on Water, Sanitation, and Hygiene (WASH) coverage. The WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) maintains the database. The data are shared openly but in spreadsheet-based proprietary software, not following FAIR data principles. Data stored in spreadsheets underutilizes the potential those data could have for purposes other than the national, regional and global progress monitoring in WASH.\n\nWe will approach this unused potential by developing open-source data and software packages that follow FAIR data principles to share the data within the WASH community and beyond. In the process, we engage with the community by hosting free learning events using open-source computational tools, enabling community members to further competencies aligned with FAIR data principles.",
+    "keywords": [
+      "SDGs",
+      "monitoring",
+      "open data",
+      "open code",
+      "R package"
+    ],
+    "start_date": "1 Jul 2023",
+    "project_duration_months": 12,
+    "total_budget_requested": 29905.0,
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Document and publish R data package jmpinput; Write up documentation that describes the origin of data and structure that it is provided in"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Prepare and document R software Package jmpinput; Work with the JMP team replicate production of the basic indicators for individual countries, areas and territories, drawing on the data inputs described in WP1"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Continuously check-in with JMP team to update on progress and share intermediate products for review"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_name": "ORDMetadata",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Which ETH Domain do you belong to? | ETH Zürich"
+          },
+          {
+            "page": 18,
+            "matching_text": "ORD Contribute project at ETH Zurich for the project entitled"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999360462704014,
+        "confidence": 0.9999360462704014
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Function (Title) | Associate Professor"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION. 'Elizabeth' is listed as first name on page 1 under 'First name(s)'. Another extraction ('Lars') from page 18 relates to a different instance/application and is not the primary entry in document order. Based on document order and typical application layout, the first-appearing applicant, 'Elizabeth', is treated as the main applicant here.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "First name(s) | Elizabeth"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_surname": {
+        "reasoning": "Two extracted surnames labeled as main applicant: 'Tilley' from the main personal data section (page 1), and 'Schöbitz' from a letter/application context on page 18. According to index/order and typical document structure, the primary/main applicant surname, as per the standard extraction strategy, would be 'Tilley', since it appears first and in the formal applicant table.",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Surname(s) | Tilley"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Laboratory name | Global Health Engineering"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Postcode / Zipcode | 8092"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "City | Zurich"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Which ETH Domain do you belong to? | ETH Zürich"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Function (Title) | Associate Professor"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "First name(s) | Elizabeth"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Surname(s) | Tilley"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "Postcode / Zipcode | 8092"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "eth_domain_institution": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "Eidg. Anstalt für Wasserversorgung - EAWAG, CH<br/>Department Sanitation"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "extraction_confidence": 0.9999999612774708,
+            "confidence": 0.9999999612774708
+          },
+          "first_name": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "8 January 2023, Elizabeth Tilley, ORCID"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "citation": [
+              {
+                "page": 20,
+                "matching_text": "8 January 2023, Elizabeth Tilley, ORCID"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "citation": [
+              {
+                "page": 21,
+                "matching_text": "Eawag: Dübendorf, Switzerland"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9979613972542963,
+            "confidence": 0.9979613972542963
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Measure 1 \"Contribute Projects\""
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project title | Open JMP - unlocking the potential of global indicator data"
+          },
+          {
+            "page": 18,
+            "matching_text": "for the project entitled Open JMP - unlocking the potential of global indicator data"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999999984359184,
+        "confidence": 0.999999984359184
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Acronym of the project | openjmp"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995455827853,
+        "confidence": 0.9999995455827853
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Abstract | Decades of manual data structuring have resulted in the most..."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9994339784788696,
+        "confidence": 0.9994339784788696
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "SDGs, monitoring, open data, open code, R package"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "SDGs, monitoring, open data, open code, R package"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "SDGs, monitoring, open data, open code, R package"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "SDGs, monitoring, open data, open code, R package"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "SDGs, monitoring, open data, open code, R package"
+            }
+          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Proposed Starting Date | 1 Jul 2023"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999944779243051,
+        "confidence": 0.9999944779243051
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Project duration | 12"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION. Both excerpts explicitly state the total budget requested as 29,905 (CHF), supported by both table and narrative summary. No discrepancies in value.",
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "Total requested amount in CHF | 29905"
+          },
+          {
+            "page": 16,
+            "matching_text": "The total requested budget is 29,905.00 CHF."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9320190143428749,
+        "confidence": 0.9320190143428749
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "WP1: Document and publish R data package jmpinput."
+              },
+              {
+                "page": 13,
+                "matching_text": "| WP1 | Write up documentation that describes the origin of data and structure"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "WP1: Document and publish R data package jmpinput."
+              },
+              {
+                "page": 13,
+                "matching_text": "| WP1 | Write up documentation that describes the origin of data and structure that it is provided in"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9992244972849739,
+            "confidence": 0.9992244972849739
+          },
+          "reasoning": "Combined both verbatim extractions for WP1 from pages 10 and 13, as both detail aspects of the same work package. Confidence is averaged for extraction confidence; parsing confidence remains at the provided value."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "WP2: Prepare and document R software Package jmpinput."
+              },
+              {
+                "page": 13,
+                "matching_text": "| WP2 | Work with the JMP team replicate production of the basic indicators"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "WP2: Prepare and document R software Package jmpinput."
+              },
+              {
+                "page": 13,
+                "matching_text": "| WP2 | Work with the JMP team replicate production of the basic indicators for individual countries, areas and territories, drawing on the data inputs described in WP1"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999705554260473,
+            "confidence": 0.9999705554260473
+          },
+          "reasoning": "Combined both verbatim extractions for WP2 from pages 10 and 13, capturing both the software preparation and the replication objectives. Mean confidence calculated for extraction confidence."
+        },
+        {
+          "wp_identifier": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "| WP3 | Continuously check-in with JMP team to update on progress and share intermediate products for review"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "citation": [
+              {
+                "page": 13,
+                "matching_text": "| WP3 | Continuously check-in with JMP team to update on progress and share intermediate products for review"
+              }
+            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999377851416,
+            "confidence": 0.9999999377851416
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
+    },
+    "usage": {
+      "num_pages_extracted": 21,
+      "num_document_tokens": 10942,
+      "num_output_tokens": 8972
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "f7a7ffa4-b82f-4c9f-bf46-af34774668b1",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T11:42:25.846063+00:00",
+  "updated_at": "2025-11-11T11:43:55.224376+00:00"
+}

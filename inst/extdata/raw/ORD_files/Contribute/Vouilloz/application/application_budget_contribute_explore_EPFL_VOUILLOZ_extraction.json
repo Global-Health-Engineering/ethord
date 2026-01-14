@@ -1,0 +1,223 @@
+{
+  "document_path": "raw/ORD_files/Contribute/Vouilloz/application/EPFL_VOUILLOZ.pdf",
+  "status": "success",
+  "data": {
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_other": 18000.0,
+    "total_budget_personnel_total_direct": 28000.0,
+    "total_budget_travel": 2000.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
+    "total_budget_total_direct": 30000.0,
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 30000.0
+  },
+  "metadata": {
+    "schema_name": "ORDBudget",
+    "extraction_mode": "PREMIUM",
+    "attempts": 1
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      "total_budget_total_costs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 0,
+            "matching_text": "Total requested amount in CHF"
+          },
+          {
+            "page": 11,
+            "matching_text": "Total Costs (A + B): 30'000 CHF."
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Senior Staff                                     |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Postdocs                                         |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Students                                         |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Other : Ahmed Wael, Thomas Hächler               | 18'000       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "i. Total Direct Costs for Personnel |              | 28'000       |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Travel²                             |                                                  | 2000         |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA; the CHF value for Equipment is blank in the budget table. Standard practice is to interpret this as zero when the cell is empty (no amount requested for Equipment).",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Equipment³                          |                                                  |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Publications (including Open Access fees), etc.⁴ |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "There is a specific row in the budget table for 'Conferences and workshops⁵', but the value is blank. When a line item is present but no value is listed, the proper extraction approach is to interpret it as zero. Therefore, the value is 0 CHF.",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Conferences and workshops⁵                       |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "Other (please specify)⁶                          |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "citation": [
+          {
+            "page": 15,
+            "matching_text": "ii. Total Other Direct Costs        |              |"
+          }
+        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0
+      },
+      "total_budget_total_direct": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "A – Total Direct Costs (i + ii) row: 30'000 CHF."
+          }
+        ],
+        "extraction_confidence": 0.9999963494877431,
+        "confidence": 0.9999963494877431
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "citation": [
+          {
+            "page": 11,
+            "matching_text": "B – Subcontracting Costs⁷ row: 0 CHF."
+          }
+        ],
+        "extraction_confidence": 0.8251594760816,
+        "confidence": 0.8251594760816
+      }
+    },
+    "usage": {
+      "num_pages_extracted": 18,
+      "num_document_tokens": 7603,
+      "num_output_tokens": 3563
+    }
+  },
+  "config": {
+    "priority": null,
+    "extraction_target": "PER_DOC",
+    "extraction_mode": "PREMIUM",
+    "parse_model": "gemini-2.5-pro",
+    "extract_model": "openai-gpt-4-1",
+    "multimodal_fast_mode": false,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true,
+    "cite_sources": true,
+    "confidence_scores": true,
+    "chunk_mode": "PAGE",
+    "high_resolution_mode": true,
+    "invalidate_cache": false,
+    "num_pages_context": null,
+    "page_range": null
+  },
+  "job_id": "79b668e2-74cc-4133-b372-799eea142076",
+  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
+  "created_at": "2025-11-11T14:11:42.079688+00:00",
+  "updated_at": "2025-11-11T14:12:17.255694+00:00"
+}
