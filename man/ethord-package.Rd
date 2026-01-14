@@ -17,11 +17,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Nicolò Massari \email{nmassari@ethz.ch} (\href{https://orcid.org/0009-0006-8421-930X}{ORCID}) [contributor]
+\strong{Maintainer}: Lars Schöbitz \email{lschoebitz@ethz.ch} (\href{https://orcid.org/0000-0003-2196-5015}{ORCID})
 
 Authors:
 \itemize{
-  \item Lars Schöbitz \email{lschoebitz@ethz.ch} (\href{https://orcid.org/0000-0003-2196-5015}{ORCID}) [contributor]
+  \item Nicolò Massari \email{nmassari@ethz.ch} (\href{https://orcid.org/0009-0006-8421-930X}{ORCID})
   \item Elizabeth Tilley \email{tilleye@ethz.ch} (\href{https://orcid.org/0000-0002-2095-9724}{ORCID}) [funder]
 }
 
