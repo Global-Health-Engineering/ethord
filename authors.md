@@ -13,7 +13,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/Global-Health-Engineering/ethord/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/Global-Health-Engineering/ethord/blob/v0.1.0/inst/CITATION)
 
 Massari N, Schöbitz L, Tilley E (2026). “ethord: ETH Board Open Research
 Data (ORD) Program Project Metadata and Report Data.”
