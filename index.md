@@ -29,7 +29,8 @@ devtools::install_github("Global-Health-Engineering/ethord", dependencies = TRUE
 ### Download as CSV Files
 
 If you prefer to work with the data outside of R, you can download
-individual datasets as CSV files.
+individual datasets as CSV files. Click on the dataset name to view its
+documentation.
 
 1.  **Right-click** on the “Download CSV” link for the dataset you want.
 2.  Select **“Save Link As”** [](https://www.google.com/chrome/)
@@ -38,18 +39,21 @@ individual datasets as CSV files.
     [](https://www.apple.com/safari/).
 3.  Choose where you’d like to save the file on your computer.
 
-| dataset                            | CSV                                                                                                                              |
-|:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| application_budget                 | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_budget.csv)                 |
-| application_ethics                 | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_ethics.csv)                 |
-| application_metadata_applicants    | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_applicants.csv)    |
-| application_metadata_keywords      | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_keywords.csv)      |
-| application_metadata_work_packages | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_work_packages.csv) |
-| application_metadata               | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata.csv)               |
-| project_mapping                    | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/project_mapping.csv)                    |
-| report_metadata_coapplicants       | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_metadata_coapplicants.csv)       |
-| report_metadata                    | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_metadata.csv)                    |
-| report_output                      | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_output.csv)                      |
+Click on the dataset name to view its documentation or scroll further
+for a brief exploration of each data resource.
+
+| Dataset                                                                                                                                    | CSV                                                                                                                              |
+|:-------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| [application_budget](https://global-health-engineering.github.io/ethord/reference/application_budget.html)                                 | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_budget.csv)                 |
+| [application_ethics](https://global-health-engineering.github.io/ethord/reference/application_ethics.html)                                 | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_ethics.csv)                 |
+| [application_metadata_applicants](https://global-health-engineering.github.io/ethord/reference/application_metadata_applicants.html)       | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_applicants.csv)    |
+| [application_metadata_keywords](https://global-health-engineering.github.io/ethord/reference/application_metadata_keywords.html)           | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_keywords.csv)      |
+| [application_metadata_work_packages](https://global-health-engineering.github.io/ethord/reference/application_metadata_work_packages.html) | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata_work_packages.csv) |
+| [application_metadata](https://global-health-engineering.github.io/ethord/reference/application_metadata.html)                             | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/application_metadata.csv)               |
+| [project_mapping](https://global-health-engineering.github.io/ethord/reference/project_mapping.html)                                       | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/project_mapping.csv)                    |
+| [report_metadata_coapplicants](https://global-health-engineering.github.io/ethord/reference/report_metadata_coapplicants.html)             | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_metadata_coapplicants.csv)       |
+| [report_metadata](https://global-health-engineering.github.io/ethord/reference/report_metadata.html)                                       | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_metadata.csv)                    |
+| [report_output](https://global-health-engineering.github.io/ethord/reference/report_output.html)                                           | [Download CSV](https://github.com/Global-Health-Engineering/ethord/raw/main/inst/extdata/report_output.csv)                      |
 
 ## Data
 
