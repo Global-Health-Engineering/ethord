@@ -231,7 +231,7 @@ display_dictionary_table <- function(dict_table) {
 You can install the development version of `r desc::desc_get_field("Package")` from GitHub `r fontawesome::fa_i("github")` with:
 
 ```r
-devtools::install_github("`r desc::desc_get_field("github_user")`/`r desc::desc_get_field("Package")`", dependencies = TRUE)
+devtools::install_github("`r desc::desc_get_field("Organisation")`/`r desc::desc_get_field("Package")`", dependencies = TRUE)
 ```
 
 `r if (length(missing_packages) > 0) paste("**Note:** For enhanced README formatting, consider installing:", paste(missing_packages, collapse = ", "))`
@@ -252,9 +252,9 @@ if (!is.null(dictionary) && is.data.frame(dictionary)) {
   # Configure base URL
   package_base_url <- Sys.getenv("PACKAGE_BASE_URL")
   if (package_base_url == "") {
-    github_user <- desc::desc_get_field("github_user")
+    github_org <- desc::desc_get_field("Organisation")
     package_name <- desc::desc_get_field("Package")
-    package_base_url <- paste0("https://github.com/", github_user, "/", 
+    package_base_url <- paste0("https://github.com/", github_org, "/",
                                package_name, "/raw/main/")
   }
   extdata_path <- paste0(package_base_url, "inst/extdata/")
@@ -350,7 +350,7 @@ if (length(datasets) > 0) {
 
 ## License
 
-Data are available as [CC-BY](https://github.com/`r desc::desc_get_field("github_user")`/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
+Data are available as [CC-BY](https://github.com/`r desc::desc_get_field("Organisation")`/`r desc::desc_get_field("Package")`/blob/main/LICENSE.md).
 
 ## Citation
 Please cite with:
