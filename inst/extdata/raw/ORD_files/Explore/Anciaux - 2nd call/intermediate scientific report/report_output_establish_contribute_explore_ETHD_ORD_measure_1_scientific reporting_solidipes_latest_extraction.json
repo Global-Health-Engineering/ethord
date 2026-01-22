@@ -3,43 +3,36 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 5,
+      "quantity": 2,
       "descriptions": [
-        "Solidipes Python library for data curation and visualization",
-        "Integration of Solidipes with the MMODA web platform",
-        "Solidipes integration into DCSM platform for data import and curation",
-        "Community-made plugin system for curation interface (via templates and documentation)",
-        "Revised continuous integration system for deployment with plugin support",
+        "Solidipes: a data visualization and curation tool taking the form of a Python library with a web interface for research data curation, visualization, sharing, and publication, tailored initially for computational solid mechanics studies, now extended for interoperability with platforms such as Galaxy, MMODA, and DCSM",
         "DCSM is consolidated for use with the newest features of solidipes"
       ],
       "urls": [
         "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_new_loader.html",
         "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_new_viewer.html",
         "https://gitlab.com/solidipes/solidipes-plugin-template",
+        "https://www.astro.unige.ch/astroordas/mmoda",
         "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_plugin.html",
-        "https://pypi.org/search/?q=solidipes",
         "https://dcsm.epfl.ch/"
       ]
     },
     "repositories_catalogues": {
       "quantity": 6,
       "descriptions": [
-        "Implemented import/export for Dspace (infoscience-like)",
-        "Implemented import/export for Invenio (Zenodo-like)",
-        "Included dtool repository as part of storage possibilities",
-        "16 curated Zenodo entries for the JTCAM community",
-        "Project management and repositories"
+        "Project management and repositories",
+        "Enhanced integration of Solidipes with storage repositories including Zenodo, Dspace, and Invenio; curation to the repository solution dtool for German academics"
       ],
       "urls": [
-        "https://zenodo.org/communities/jtcam/",
-        "https://gitlab.com/solidipes"
+        "https://gitlab.com/solidipes",
+        "https://zenodo.org/communities/jtcam/"
       ]
     },
     "datasets_databases": {
       "quantity": 16,
       "descriptions": [
-        "All the datasets produced with solidipes tool in the JTCAM context can be found here",
-        "16 datasets for JTCAM community (with raw data, scripts, environment to reproduce outcomes)"
+        "16 curated JTCAM datasets published to Zenodo with detailed descriptions, scripts, and reproducible environments",
+        "All the datasets produced with solidipes tool in the JTCAM context can be found here"
       ],
       "urls": [
         "https://zenodo.org/communities/jtcam/"
@@ -48,30 +41,24 @@
     "software_tools": {
       "quantity": 6,
       "descriptions": [
-        "Solidipes Python library for data curation and visualization",
-        "Plugin system for domain-specific file loaders and viewers",
-        "Astrophysics plugin with FITS format file support and Aladin-lite viewer integration",
-        "Generic javascript package for integration of Solidipes with different platforms",
-        "solid-mechanics and astro-physics plugins",
-        "A template to create new plugins",
-        "The cloud software coming from the DCSM project (the first explore project which is followed up by the current project) is also evolving for better cloud integration"
+        "solidipes main software repository",
+        "solid-mechanics plugin",
+        "astro-physics plugin",
+        "template to create new plugins",
+        "cloud software from DCSM project for better cloud integration"
       ],
       "urls": [
-        "https://gitlab.com/solidipes/solidipes-plugin-template",
-        "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_plugin.html",
-        "https://pypi.org/search/?q=solidipes",
         "https://gitlab.com/solidipes/solidipes",
         "https://gitlab.com/solidipes/solidipes-solid-mech-plugin",
         "https://gitlab.com/solidipes/solidipes-astro-plugin",
+        "https://gitlab.com/solidipes/solidipes-plugin-template",
         "https://gitlab.com/dcsm/server-deployment"
       ]
     },
     "models_standards": {
-      "quantity": 3,
+      "quantity": 1,
       "descriptions": [
-        "Adoption of RO-Crate specification for dataset metadata",
-        "Ontology describing the notion of dataset using LinkML and RO-Crate terms",
-        "Prototyping conversion and visualization of multiple workflow formats"
+        "Ontology describing the notion of dataset (domain-agnostic), created in YAML using LinkML specification and RO-Crate terms for use in dataset curation and validation"
       ],
       "urls": [
         "https://www.researchobject.org/ro-crate/",
@@ -80,19 +67,16 @@
       ]
     },
     "workshops": {
-      "quantity": 2,
+      "quantity": 1,
       "descriptions": [
-        "Solidipes presented at AstroORDAS meeting",
-        "Participation in ORD workshop"
+        "Presentation of Solidipes at ORD meeting event as part of the M1 funding program"
       ],
-      "urls": [
-        "https://indico.global/event/9331/"
-      ]
+      "urls": []
     },
     "training_events": {
       "quantity": 1,
       "descriptions": [
-        "PhD-level class 'Research skills in the open-science era' at EPFL with Solidipes presentation",
+        "Solidipes was presented in the EPFL Ph.D course 'Research skills in the open-science era' for dissemination and feedback",
         "Presentation during the PH.D level class@EPFL"
       ],
       "urls": [
@@ -105,29 +89,27 @@
       "urls": []
     },
     "presentations": {
-      "quantity": 5,
+      "quantity": 4,
       "descriptions": [
-        "Oral presentations given about Solidipes",
+        "Solidipes presented at AstroORDAS meeting / Presentation during astro[ORD]AS",
         "Solidipes presented at a seminar at the University of Freiburg, Germany",
-        "Poster on Solidipes at ORD meeting event",
-        "Presentation during astroORDAS",
+        "Poster presenting Solidipes at ORD meeting event of M1 funding program",
         "Presentation during the PH.D level class@EPFL"
       ],
       "urls": [
-        "https://memento.epfl.ch/public/upload/files/ORD12june25.pdf",
         "https://indico.global/event/9331/",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7099189289683513344/",
+        "https://open-research-data-portal.ch/",
         "https://edu.epfl.ch/coursebook/en/research-skills-in-the-open-science-era-CIVIL-608"
       ]
     },
     "outreach_activities": {
       "quantity": 2,
       "descriptions": [
-        "Lay summary submitted for public outreach and communications activities",
-        "Planned presentation of initiative by EPFL library; aim for ETH Domain-wide dissemination"
+        "Planned outreach via EPFL library to promote Solidipes as EPFL-recommended approach for publishing FAIR datasets",
+        "Dissemination to the ETH-domain via established research software engineers (RSEs) network"
       ],
-      "urls": [
-        "https://open-research-data-portal.ch/"
-      ]
+      "urls": []
     },
     "patents_ip": {
       "quantity": 0,
@@ -137,9 +119,9 @@
     "new_collaborations": {
       "quantity": 3,
       "descriptions": [
-        "Collaboration with Lars Pastewka (University of Freiburg) on dtool",
-        "Collaboration with Renku developer team and SDSC (Swiss Data Science Center)",
-        "Collaboration with French Episciences publication team"
+        "Collaboration with Lars Pastewka, University of Freiburg, to include dtool in storage solutions",
+        "Collaboration with Renku developer team and SDSC for integration and REST-API development",
+        "Collaboration with the French Episciences publication team"
       ],
       "urls": []
     },
@@ -168,69 +150,17 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "DCSM platform to enable the import of data from various sources through a common api"
-            },
-            {
-              "page": 7,
-              "matching_text": "New or enhanced website(s), web interface, platform(s) and/ or infrastructure: | 1 | DCSM is consolidated for use"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.5550017833669871,
-          "confidence": 0.5550017833669871
+          "extraction_confidence": 0.9831083619686452,
+          "confidence": 0.9831083619686452
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Solidipes, a data visualization and curation tool taking the form of a Python library"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8867283444196327,
-            "confidence": 0.8867283444196327
+            "extraction_confidence": 0.609398756900652,
+            "confidence": 0.609398756900652
           },
           {
-            "extraction_confidence": 0.5035417793223103,
-            "confidence": 0.5035417793223103
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "DCSM platform to enable the import of data from various sources through a common api"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5203626162399418,
-            "confidence": 0.5203626162399418
-          },
-          {
-            "extraction_confidence": 0.2736771853305326,
-            "confidence": 0.2736771853305326
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "continuous integration has been completely revised and made more robust, inline with the needs for the plugin interface"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.23385646359529594,
-            "confidence": 0.23385646359529594
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "DCSM is consolidated for use with the newest features of solidipes"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -238,746 +168,398 @@
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_new_loader.html"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9961112466992679,
-            "confidence": 0.9961112466992679
+            "extraction_confidence": 0.9994918644356221,
+            "confidence": 0.9994918644356221
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "https://solidipes.readthedocs.io/en/stable/src/developer/how_to_guides/adding_code/create_new_viewer.html"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999924217615295,
-            "confidence": 0.9999924217615295
+            "extraction_confidence": 0.9999921612810211,
+            "confidence": 0.9999921612810211
           },
           {
-            "extraction_confidence": 0.9203055042829956,
-            "confidence": 0.9203055042829956
-          },
-          {
-            "extraction_confidence": 0.9991088085698714,
-            "confidence": 0.9991088085698714
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://pypi.org/search/?q=solidipes"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9996439754819771,
-            "confidence": 0.9996439754819771
+            "extraction_confidence": 0.9242747979636396,
+            "confidence": 0.9242747979636396
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9821906607525178,
+            "confidence": 0.9821906607525178
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8932705512578616,
+            "confidence": 0.8932705512578616
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999945997503,
+            "confidence": 0.999999945997503
           }
         ],
-        "reasoning": "Both sources reference key new/enhanced platforms: (1) Solidipes (Python library), (2) its integrations with MMODA, (3) integration into DCSM, (4) plugin/community infrastructure, (5) revised continuous integration infra for deployment, and (6) DCSM itself as a consolidated/updated platform. URL list merged and deduplicated. Quantity set at 5 (most detailed count); reasoning covers both detailed and summary/list contexts. Confidence for quantity averaged from both sources."
+        "reasoning": "Combined the two non-overlapping extractions. Each describes a distinct new/enhanced platform/web interface (Solidipes and DCSM), with their respective descriptions and URLs. Quantity represents both outputs. Confidence for the quantity is the mean of the two sources. Descriptions and URLs are merged; confidence scores carried over from each extraction."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "New or enhanced repositories and/or catalogues: | 6 | Project management and repositories"
-            },
-            {
-              "page": 3,
-              "matching_text": "import/export feature for Dspace (infoscience-like) and Invenio (Zenodo-like) have been implemented"
-            },
-            {
-              "page": 3,
-              "matching_text": "include dtool as part of the storage possibilities"
-            },
-            {
-              "page": 5,
-              "matching_text": "abandon the idea of having Solidipes exporting datasets directly to ArXiv"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.7539415582662617,
-          "confidence": 0.7539415582662617
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "import/export feature for Dspace (infoscience-like) and Invenio (Zenodo-like) have been implemented"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5825166474056681,
-            "confidence": 0.5825166474056681
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "import/export feature for Dspace (infoscience-like) and Invenio (Zenodo-like) have been implemented"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9911388254429667,
-            "confidence": 0.9911388254429667
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "include dtool as part of the storage possibilities"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4803788775559235,
-            "confidence": 0.4803788775559235
-          },
-          {
-            "extraction_confidence": 0.5776490834219923,
-            "confidence": 0.5776490834219923
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Project management and repositories"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5625633886653469,
+            "confidence": 0.5625633886653469
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://zenodo.org/communities/jtcam/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997602422587616,
-            "confidence": 0.9997602422587616
-          },
-          {
             "extraction_confidence": 1.0,
             "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.994162763469697,
+            "confidence": 0.994162763469697
           }
         ],
-        "reasoning": "Both the narrative and the List of Outputs table provide direct evidence of new/enhanced repositories/catalogues. The table states 6 as the quantity, so this is taken as the total; detailed descriptions from the narrative and table are all reported. All unique URLs are consolidated."
+        "reasoning": "Table on pages 6-9 directly states there are 6 new or enhanced repositories/catalogues, with a clear description and URL (VERBATIM EXTRACTION). Previous section (pages 0-6) details an additional enhancement with a distinct description and URL, but does not provide a higher quantity than the table. Therefore, quantity 6 is taken from the table (page 6-9), and all unique descriptions and URLs from both sources are consolidated without duplication."
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "New or enhanced datasets and/or databases: | 16 | All the datasets produced with solidipes tool"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "All the datasets produced with solidipes tool in the JTCAM context can be found here"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.6246003620659532,
+            "confidence": 0.6246003620659532
           },
           {
-            "extraction_confidence": 0.3855792620432147,
-            "confidence": 0.3855792620432147
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999938486287299,
+            "confidence": 0.9999938486287299
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://zenodo.org/communities/jtcam/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999936102229484,
-            "confidence": 0.9999936102229484
+            "extraction_confidence": 0.9999965666997744,
+            "confidence": 0.9999965666997744
           }
         ],
-        "reasoning": "Both extracted JSON objects explicitly state there are 16 new or enhanced datasets/databases. Descriptions and URLs are drawn from both sources without duplication. The explicit table on page 7 is chosen for primary citation. Confidence is verbatim from the more robust entry or calculated as mean when both present."
+        "reasoning": "Both source segments report the same quantity and URLs for new/enhanced datasets produced with Solidipes for JTCAM and published to Zenodo. Descriptions are merged without duplication. This is a straightforward fielded/verbatim extraction."
       },
       "software_tools": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "New or enhanced software, hardware, prototypes and/or other tools: | 6 |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Solidipes, a data visualization and curation tool taking the form of a Python library"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8988487298329452,
-            "confidence": 0.8988487298329452
+            "extraction_confidence": 0.6424423292746465,
+            "confidence": 0.6424423292746465
           },
           {
-            "extraction_confidence": 0.6873943268191997,
-            "confidence": 0.6873943268191997
-          },
-          {
-            "extraction_confidence": 0.5183681725712503,
-            "confidence": 0.5183681725712503
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "added a generic javascript package aiming at integrating Solidipes in a variety of different platforms"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4624272657470385,
-            "confidence": 0.4624272657470385
+            "extraction_confidence": 0.9983424142038599,
+            "confidence": 0.9983424142038599
           },
           {
-            "extraction_confidence": 0.9985144424805354,
-            "confidence": 0.9985144424805354
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998420636171647,
+            "confidence": 0.9998420636171647
           },
           {
-            "extraction_confidence": 0.9985144424805354,
-            "confidence": 0.9985144424805354
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9791711493121784,
+            "confidence": 0.9791711493121784
           },
           {
-            "extraction_confidence": 0.9985144424805354,
-            "confidence": 0.9985144424805354
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7883127060111477,
+            "confidence": 0.7883127060111477
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9754622886676582,
-            "confidence": 0.9754622886676582
-          },
-          {
-            "extraction_confidence": 0.9959191961844932,
-            "confidence": 0.9959191961844932
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://pypi.org/search/?q=solidipes"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9764528379981771,
-            "confidence": 0.9764528379981771
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://gitlab.com/dcsm/server-deployment"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998261800035,
+            "confidence": 0.9999998261800035
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999989799065842,
+            "confidence": 0.9999989799065842
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999823988502,
+            "confidence": 0.9999999823988502
           }
         ],
-        "reasoning": "Quantity of 6 is from the table summary and matches enumeration of individual components. Descriptions are deduplicated and separated into plain-text entries, URLs are parsed and split off from descriptions. Confidence and citations are maintained from original objects. Combining both sources to ensure completeness and de-duplication."
+        "reasoning": "Source 2 provides an explicit table and tally, clearly listing 6 new/enhanced software tools with detailed descriptions and URLs. Source 1's information is less specific and is encompassed within the more granular breakdown of Source 2. Thus, the final extraction uses Source 2 as the authoritative answer per the instructions."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "prototyped the conversion of different workflow formats between each other and their visualization"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.7282604517379931,
-          "confidence": 0.7282604517379931
+          "extraction_confidence": 0.49999990964071384,
+          "confidence": 0.49999990964071384
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.7018458653856109,
-            "confidence": 0.7018458653856109
-          },
-          {
-            "extraction_confidence": 0.7033608920843671,
-            "confidence": 0.7033608920843671
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "prototyped the conversion of different workflow formats between each other and their visualization"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4975839627097165,
-            "confidence": 0.4975839627097165
+            "extraction_confidence": 0.5161832720917054,
+            "confidence": 0.5161832720917054
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://www.researchobject.org/ro-crate/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9894254368726745,
-            "confidence": 0.9894254368726745
+            "extraction_confidence": 0.9785554565527202,
+            "confidence": 0.9785554565527202
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://linkml.io/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9869158614076133,
-            "confidence": 0.9869158614076133
+            "extraction_confidence": 0.7780152885983933,
+            "confidence": 0.7780152885983933
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://gitlab.com/solidipes/solidipes/-/blob/ontology-validation/solidipes/ontologies/solidipes.yaml"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999994934052993,
-            "confidence": 0.9999994934052993
+            "extraction_confidence": 0.9999996517812142,
+            "confidence": 0.9999996517812142
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION. The first source provided all required information (quantity, descriptions, URLs) with adequate underlying confidence scores and page citations. The second source only confirms absence of further data. No conflicting or duplicated information."
+        "reasoning": "Two possible conflicting pieces of data: one explicit ontology developed (idx 0, detailed data with URLs), and a later blank section (idx 1). Best practice is to trust the more detailed, explicit entry for positive outputs. Thus, one new or enhanced model/standard is present, as described in idx 0."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "our involvement in AstroORDAS and the ORD workshop"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9521310322741801,
-          "confidence": 0.9521310322741801
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.8022981925862883,
-            "confidence": 0.8022981925862883
-          },
-          {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "our involvement in AstroORDAS and the ORD workshop"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8365091195058779,
-            "confidence": 0.8365091195058779
+            "extraction_confidence": 0.598620921100402,
+            "confidence": 0.598620921100402
           }
         ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://indico.global/event/9331/"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999962778911872,
-            "confidence": 0.9999962778911872
-          }
-        ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "Entry 0 gives a detailed description and explicitly refers to a workshop (ORD meeting); entry 1 is a blank later table field, but does not contradict the earlier assertion. Therefore, the extraction takes the single documented workshop event with its description. No URLs found. Quantity 1 extracted from earlier entry."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "PhD-level class at EPFL, 'Research skills in the open-science era', where Solidipes was presented."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "PhD-level class at EPFL, 'Research skills in the open-science era', where Solidipes was presented."
-              }
-            ],
-            "extraction_confidence": 0.763842056366815,
-            "confidence": 0.763842056366815
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5811555854423046,
+            "confidence": 0.5811555854423046
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Presentation during the PH.D level class@EPFL"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999636148018896,
+            "confidence": 0.9999636148018896
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://edu.epfl.ch/coursebook/en/research-skills-in-the-open-science-era-CIVIL-608"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999959664031,
-            "confidence": 0.9999999959664031
+            "extraction_confidence": 0.9999999934829932,
+            "confidence": 0.9999999934829932
           }
         ],
-        "reasoning": "Both JSON objects refer to the same event: a PhD-level class at EPFL where Solidipes was presented. The table and text supply slightly different description phrasings and the same URL. Number of events is 1, with all unique descriptions and URLs listed (deduplicated). Confidence scores for quantity and URL are retained per source; each description keeps its stated confidence."
+        "reasoning": "VERBATIM EXTRACTION with deduplication: Both entries refer to the same training event, with slightly different descriptions and reporting the same URL and quantity. All unique key details are preserved, with both descriptions and the URL included. The total quantity is 1, representing the single unique event."
       },
       "publications": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "rely on Solidipes to re-enforce JTCAM publications for openness, FAIRness, by promoting the publication of curated datasets"
-            },
-            {
-              "page": 8,
-              "matching_text": "Scientific publications directly related to project (whether in progress, submitted, accepted or published)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9933071269064123,
-          "confidence": 0.9966535634532061
+          "extraction_confidence": 0.999809961670008,
+          "confidence": 0.999809961670008
         },
-        "reasoning": "No explicit scientific publication outputs are listed or quantified in the provided document excerpts. The presence of the category and the mention of publication practices are noted, but no actual outputs are provided. Thus, quantity is 0; no descriptions or URLs can be reported."
+        "reasoning": "Both extracted sections explicitly confirm there are no scientific publications directly related to the project, and the relevant fields are empty. No URLs or descriptions are present. VERBATIM EXTRACTION."
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "Several oral presentations have been given."
-            },
-            {
-              "page": 4,
-              "matching_text": "Solidipes was also presented during a seminar at the university of Freiburg in Germany"
-            },
-            {
-              "page": 8,
-              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | 2 | Presentation during astroORDAS"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9990336999853207,
-          "confidence": 0.9990336999853207
+          "extraction_confidence": 0.8886390920092803,
+          "confidence": 0.8886390920092803
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "Several oral presentations have been given."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4759455550963174,
-            "confidence": 0.4759455550963174
+            "extraction_confidence": 0.8922051593016616,
+            "confidence": 0.8922051593016616
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "Solidipes was also presented during a seminar at the university of Freiburg in Germany."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7552126685229855,
-            "confidence": 0.7552126685229855
+            "extraction_confidence": 0.7803309733490857,
+            "confidence": 0.7803309733490857
           },
           {
-            "extraction_confidence": 0.7051723941847002,
-            "confidence": 0.7051723941847002
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Presentation during astroORDAS"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999612774708,
-            "confidence": 0.9999999612774708
+            "extraction_confidence": 0.7128149322303028,
+            "confidence": 0.7128149322303028
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999687183679,
+            "confidence": 0.9999999687183679
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "https://memento.epfl.ch/public/upload/files/ORD12june25.pdf"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998807987057229,
-            "confidence": 0.9998807987057229
+            "extraction_confidence": 0.9384425233275292,
+            "confidence": 0.9384425233275292
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6009318512695865,
+            "confidence": 0.6009318512695865
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999671830097897,
+            "confidence": 0.9999671830097897
+          },
+          {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
-        "reasoning": "Descriptions and URLs were combined from both extractions; compared event specifics and found no direct overlap, so all 5 are unique. Quantity reflects combined unique presentations; citation list merges without duplicates. Confidence scores averaged where necessary; individual score fields preserved as reported."
+        "reasoning": "Descriptions from both sources were compared; after deduplication based on event and presentation, we produced four distinct presentations; each description reflects merged/clarified title where overlap occurred. All URLs are listed once per unique target, avoiding repeats. Confidence scores are reported as mean values when descriptions were merged."
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "EPFL library present the initiative internally, with the ambition of making Solidipes the EPFL-recommended approach"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.3373007512480145,
-          "confidence": 0.3373007512480145
+          "extraction_confidence": 0.48903067358994895,
+          "confidence": 0.48903067358994895
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.4552896628520823,
-            "confidence": 0.4552896628520823
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5576754674300738,
+            "confidence": 0.5576754674300738
           },
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "we plan to have the EPFL library present the initiative internally, with the ambition of making Solidipes the EPFL-recommended approach for publishing curated FAIR datasets to Zenodo"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.3226896738085409,
-            "confidence": 0.3226896738085409
+            "extraction_confidence": 0.5111456250776983,
+            "confidence": 0.5111456250776983
           }
         ],
-        "urls": [
-          {
-            "extraction_confidence": 0.9999870568169675,
-            "confidence": 0.9999870568169675
-          }
-        ],
-        "reasoning": "Extracted two outreach/dissemination activities as described and one associated outreach URL; deduplicated per instructions. The second record confirms no further data present. All confidence and citation data carried forward as indicated."
+        "reasoning": "Combined available extractions from all pages: Actual/planned outreach activities are detailed in the first extraction, with detailed descriptions and quantity=2. The second extraction only indicates no entries in a specific table, not disputing the earlier planned activities. Extracted verbatim from available data with no URLs present."
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 8,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project:"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both JSON objects indicate that the source text either does not mention patents/intellectual property or references the category without data. Therefore, quantity is zero, and no descriptions or URLs are provided."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "collaborated with the team of Lars Pastewka from the University of Freiburg to include dtool as part of the storage possibilities"
-            },
-            {
-              "page": 3,
-              "matching_text": "new collaboration with Renku developer team, and a sub-project that was granted by SDSC"
-            },
-            {
-              "page": 6,
-              "matching_text": "collaborating with the French Episciences publication team"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999013490292629,
-          "confidence": 0.9999013490292629
+          "extraction_confidence": 0.9971987014704246,
+          "confidence": 0.9971987014704246
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "collaborated with the team of Lars Pastewka from the University of Freiburg to include dtool as part of the storage possibilities"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8793304610100409,
-            "confidence": 0.8793304610100409
+            "extraction_confidence": 0.6209759601554338,
+            "confidence": 0.6209759601554338
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "new collaboration with Renku developer team, and a sub-project that was granted by SDSC"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7452392083423366,
-            "confidence": 0.7452392083423366
+            "extraction_confidence": 0.8537421900170101,
+            "confidence": 0.8537421900170101
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "collaborating with the French Episciences publication team"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9589947993372543,
-            "confidence": 0.9589947993372543
+            "extraction_confidence": 0.8258716670351935,
+            "confidence": 0.8258716670351935
           }
         ],
-        "reasoning": "Primary extraction from the more detailed summary/narrative, corroborated by the table but not limited by it, as the table only partially reflects listed collaborations. Collected unique collaborations and associated supporting text, excluded URLs as no URLs were present."
+        "reasoning": "Merged and de-duplicated new collaboration records across all entries. The only overlap was with the Renku developer team; for this, the mean extraction confidence from both entries (0.7077324619956638 and 0.9997519180383564, average: 0.8537421900170101) is used. Three unique new non-industrial collaborations are thus documented."
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 8,
-              "matching_text": "New collaborations and/or contracts with industrial partners:"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both extracted segments clearly indicate that there are no new industrial collaborations or contracts reported in the relevant document sections. This is a verbatim extraction of reported absence."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "These datasets were viewed 2316 times and downloaded 473 times."
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9971371818924969,
-          "confidence": 0.9971371818924969
+          "extraction_confidence": 0.9996136199099374,
+          "confidence": 0.9996136199099374
         },
-        "reasoning": "No direct or estimated number of users benefiting from enhanced ORD practices is provided. The only figures are dataset views and downloads, which do not strictly equate to 'users within the community benefiting from enhanced ORD practices' as required by the schema. Therefore, the extracted quantity is set to 0 in accordance with the schema logic. VERBATIM EXTRACTION."
+        "reasoning": "Both sources confirm the absence of explicit figures or estimates for the number of users benefiting from enhanced ORD practices. Only view/download counts are reported, which do not equate to unique user numbers. Therefore, the quantity is set to 0 and no descriptions or URLs are listed."
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 8,
-              "matching_text": "Other (please specify):"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "INSUFFICIENT DATA"
+        "reasoning": "VERBATIM EXTRACTION"
       }
     },
     "usage": {
-      "num_pages_extracted": 10,
-      "num_document_tokens": 6099,
-      "num_output_tokens": 22362
-    }
+      "num_pages_extracted": 9,
+      "num_document_tokens": 6155,
+      "num_output_tokens": 10549
+    },
+    "parse_job_id": "9c852a71-1791-4d9f-9002-e168a2a991b7"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6d031691-1191-4150-9fd4-458b79589eee",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:56:44.424177+00:00",
-  "updated_at": "2025-11-11T18:59:17.528336+00:00"
+  "job_id": "a42e0e50-035e-4974-a765-474aeb99bfbc",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:57:56.371579+00:00",
+  "updated_at": "2026-01-22T03:59:24.640872+00:00"
 }

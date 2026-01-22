@@ -7,7 +7,7 @@
     "main_applicant_function": "Scientist",
     "main_applicant_first_name": "Marcos",
     "main_applicant_surname": "Penedo Garcia",
-    "main_applicant_laboratory_name": "EPFL STI IBI-STI LBNI",
+    "main_applicant_laboratory_name": "EPFL STI IBI-STI LBNI (Laboratory for Bio- and Nano-Instrumentation)",
     "main_applicant_postcode": 1015,
     "main_applicant_city": "Lausanne",
     "all_applicants": [
@@ -21,7 +21,7 @@
     ],
     "project_title": "HDF5-USID scheme implementation in the Open-Source SPM project for Pycroscopy ecosystems",
     "project_acronym": "PySPM",
-    "project_abstract": "Storing acquired data is a crucial step in every research cycle. Nowadays, instruments tend to discard most of the acquired data by down-sampling or discarding most of the signal via averaging or decimation. Saved data is normally stored into proprietary file formats, which limits the data exchange among the scientific community. It also impedes adding or modifying necessary metadata to keep important information about experiment parameters or instrument status, and hinders the use of existing post processing routines written for different file formats, leading to duplicated codes and preventing the exchange of routines among researchers.\n\nOpen-source data schemes are becoming increasingly important for scientific data storage. They enable sharing of software, data, and knowledge at early phases in the scientific process, maintain the digital integrity of the data at lower cost, and facilitate long-term preservation and future data mining through metadata. Developing software as open source allows modules to be readily shared, reused and extended by others. By choosing appropriate storage file open standards, it is possible to maximize available analysis tools and resources, reduce the cost of data manipulation and maintenance, and achieve ideal long-term preservation of large amounts of files.\n\nIn this project, we aim to implement the HDF5 and USID open standards on an already well-established ORD worldwide project at EPFL: the Open-Source SPM controller. Its current file scheme presents several weaknesses that we intend to overcome with these modern standards. Furthermore, the implementation of this scheme will enable access to a lively open software ecosystem called Pycroscopy, allowing the Open-Source SPM project to take advantage of all the functionalities and tools already existing in that ecosystem based on the HDF5 and USID open standards.",
+    "project_abstract": "Open-source data schemes are becoming increasingly important for scientific data storage. They enable sharing of software, data, and knowledge at early phases in the scientific process, as well as proper long-term preservation storage. In this project, we aim to implement the HDF5 and USID open standards on an already well-established ORD worldwide project at EPFL: the Open-Source SPM controller. Its current file scheme presents several weaknesses that we intend to overcome with those modern standards. Furthermore, the implementation of this scheme will enable the access to a lively open software ecosystem called Pycroscopy, where the Open-Source SPM project will take advantage of all the functionalities and tools already existing on that ecosystem based on the HDF5 and USID open standards.",
     "keywords": [
       "HDF5",
       "USID",
@@ -35,19 +35,19 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "USID scheme design for the techniques involved on the Open-Source controller."
+        "wp_title": "USID scheme design for the techniques involved on the Open-Source controller"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "New FPGA-PC communication protocol for efficient high-speed data transfer."
+        "wp_title": "New FPGA-PC communication protocol for efficient high-speed data transfer"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Implement the designed USID scheme into a HDF5 file format."
+        "wp_title": "Implement the designed USID scheme into a HDF5 file format"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "HDF5-USID/Gwyddion conversion tools."
+        "wp_title": "HDF5-USID/Gwyddion conversion tools"
       }
     ]
   },
@@ -58,410 +58,2658 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "Both the applicant table and support letter indicate EPFL is the main applicant institution. Extraction is verbatim from both locations.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Which ETH Domain do you belong to? = EPFL."
-          },
-          {
-            "page": 22,
-            "matching_text": "application of Marcos Penedo García for an ORD Contribute project at EPFL"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'First name(s)' in applicant table = Marcos."
-          },
-          {
-            "page": 22,
-            "matching_text": "application of Marcos Penedo García for an ORD Contribute project"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 4 - Deadline 31 March 2023 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 508.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 130.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "**ETH Domain ORD Program**\n***Contribute Track***",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 141.0,
+                  "w": 154.0,
+                  "h": 27.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
-      "main_applicant_surname": {
-        "reasoning": "Both entries represent verbatim extraction of the main applicant's surname; diacritic variation is a common issue in names. The table (pages 0-9) and the support letter (page 22) consistently identify the applicant as 'Penedo Garcia'/'Penedo García', indicating this is the correct surname for the main applicant. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname(s) in applicant table = Penedo Garcia."
-          },
-          {
-            "page": 22,
-            "matching_text": "application of Marcos Penedo García for an ORD Contribute project"
-          }
-        ],
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "ETH BOARD\nETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 556.0,
+                  "y": 825.0,
+                  "w": 6.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "ETH BOARD\nETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 556.0,
+                  "y": 825.0,
+                  "w": 6.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title) in applicant table is Scientist."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Scientist                                               |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Marcos Penedo Garcia | Applicant ID - ORD1000244",
+              "bounding_boxes": [
+                {
+                  "x": 263.0,
+                  "y": 40.0,
+                  "w": 294.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "Georg Fantner at Laboratory for Bio- and Nano- Instrumentation supports the application of Marcos Penedo García for an *ORD Contribute* project at EPFL for the project entitled HDF5-USID scheme implem...",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 332.0,
+                  "w": 439.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Marcos Penedo Garcia | Applicant ID - ORD1000244",
+              "bounding_boxes": [
+                {
+                  "x": 263.0,
+                  "y": 40.0,
+                  "w": 294.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "Georg Fantner at Laboratory for Bio- and Nano- Instrumentation supports the application of Marcos Penedo García for an *ORD Contribute* project at EPFL for the project entitled HDF5-USID scheme implem...",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 332.0,
+                  "w": 439.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/4 | 31 March 2023, Marcos Penedo Garcia, ORCID \\[iD 0000-0002-2936-7354]\\(<https://orcid.org/0000-0002-2936-7354>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/4 | 31 March 2023, Marcos Penedo Garcia, ORCID \\[iD 0000-0002-2936-7354]\\(<https://orcid.org/0000-0002-2936-7354>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/4 | 31 March 2023, Marcos Penedo Garcia, ORCID \\[iD 0000-0002-2936-7354]\\(<https://orcid.org/0000-0002-2936-7354>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "Combined the table's formal EPFL unit designation and the full laboratory name from the supporting letter, as they refer to the same entity (LBNI, EPFL). The two sources (table and letter) are merged for best clarity and exhaustiveness. Confidence score is the average of the two sources' confidence scores.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9960496239869142,
+        "confidence": 0.9960496239869142,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "This letter thereby confirms that Marcos Penedo García is fully entitled to execute the above-mentioned project in the Laboratory for Bio- and Nano- Instrumentation, headed by Georg Fantner.",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 402.0,
+                  "w": 439.0,
+                  "h": 91.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL STI IBI-STI LBNI                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "Georg Fantner at Laboratory for Bio- and Nano- Instrumentation supports the application of Marcos Penedo García for an *ORD Contribute* project at EPFL for the project entitled HDF5-USID scheme implem...",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 332.0,
+                  "w": 439.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'Postcode / Zipcode' in applicant table = 1015."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1015                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +4121 693 49 28<br/><research@epfl.ch> | P<br/>A |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 800.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City' in applicant table = Lausanne."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_laboratory_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'EPFL Laboratory' field in applicant table = EPFL STI IBI-STI LBNI."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 10,
-            "matching_text": "Track C: Contribute projects"
-          },
-          {
-            "page": 22,
-            "matching_text": "ORD Contribute project at EPFL for the project entitled..."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 12,
-            "matching_text": "HDF5-USID scheme implementation in the Open-Source SPM project for Pycroscopy ecosystems"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999903193676,
-        "confidence": 0.9999999903193676
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 12,
-            "matching_text": "Acronym : PySPM"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "Combined both extractions by ordering the broader rationale/context about the need for open-source data schemes (idx 1, pages 9-17) before the project-specific objectives and implementation details (idx 0, pages 0-9), while removing redundancies. Maintained all relevant project and context-specific information, resulting in a complete, deduplicated abstract that synthesizes both sources.",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Storing acquired data is a crucial step in every research cycle. Nowadays, instruments tend to discard most of the acquired data by down-sampling or discarding most of the signal via averaging or decimation [1]. Saved data is normally stored into proprietary files formats, which limits the data exchange among the scientific community. It also impedes adding or modifying the necessary metadata to keep important information about experiment parameters or instrument status. Furthermore, it hinders the use of already existing post processing routines written for different file formats, duplicating codes in different languages and preventing the exchange of routines among researchers.\n\nOpen-source data schemes are becoming increasingly important for scientific data storage. They enable sharing of software, data, and knowledge at early phases in the scientific process. By developing and implementing open-source schemes for data storage archives, researchers can maintain the digital integrity of the data at a notably lower cost compared to proprietary software or a large-scale open data repository. Properly maintaining and curating archives of stored data and their metadata is essential to maximize the outcome results and the long-term preservation. Another benefit of developing software as open source is that once created, modules can be readily shared, reused and extended by others. By choosing the appropriate storage file open standards, it is possible to maximize the available analysis tools and resources; to reduce the cost of data manipulation and maintenance; and to achieve an ideal long-term preservation of large amount of files, facilitating a future data mining in case of a re-use of the data through the metadata information."
-          },
-          {
-            "page": 0,
-            "matching_text": "Open-source data schemes are becoming increasingly important for scientific data storage. They enable sharing of software, data, and knowledge at early phases in the scientific process, as well as proper long-term preservation storage. In this project, we aim to implement the HDF5 and USID open standards on an already well-established ORD worldwide project at EPFL: the Open-Source SPM controller. Its current file scheme presents several weaknesses that we intend to overcome with those modern standards. Furthermore, the implementation of this scheme will enable the access to a lively open software ecosystem called Pycroscopy, where the Open-Source SPM project will take advantage of all the functionalities and tools already existing on that ecosystem based on the HDF5 and USID open standards."
-          }
-        ],
-        "extraction_confidence": 0.9917832485499422,
-        "confidence": 0.9917832485499422
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "confidence": 1.0,
+        "value__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "HDF5, USID, Pycroscopy, SPM, Open-Hardware"
+              "page": 6,
+              "matching_text": "| Research associate / Scientific collaborator<br/>Georg Fantner | EPF Lausanne - EPFL, CH<br/>Laboratory for Bio- and Nano-Instrumentation | 08.2020 - Present<br/>2 year(s) 8 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 658.0,
+                  "w": 452.0,
+                  "h": 104.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "Lausanne, March 31<sup>st</sup>, 2023",
+              "bounding_boxes": [
+                {
+                  "x": 309.0,
+                  "y": 220.0,
+                  "w": 150.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "HDF5, USID, Pycroscopy, SPM, Open-Hardware"
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "HDF5, USID, Pycroscopy, SPM, Open-Hardware"
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "HDF5, USID, Pycroscopy, SPM, Open-Hardware"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
             {
-              "page": 2,
-              "matching_text": "HDF5, USID, Pycroscopy, SPM, Open-Hardware"
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date in proposal table is '1 Feb 2024'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration in proposal table is 6."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Both sources verbatim state the total budget requested is 30,000 CHF in different valid contexts: (1) as 'Total requested amount in CHF' and (2) as 'Total Costs (A + B)'. No conflicting or additional values are present.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| Total requested amount in CHF | 30000 |"
-          },
-          {
-            "page": 20,
-            "matching_text": "Total Costs (A + B)             |               |                                                  | 30000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table page 1 with all necessary details for single applicant."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table page 1 with all necessary details for single applicant."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table page 1 with all necessary details for single applicant."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table page 1 with all necessary details for single applicant."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table page 1 with all necessary details for single applicant."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ],
+      "project_title": {
+        "reasoning": "The strictly verbatim project title, as presented in the RESEARCH PROPOSAL section (pages 2 and 12), is taken as definitive. Although a similar but expanded wording appears in the letter of support, document structure and location preference means the proposal body's text is primary. Confidence is averaged between the two high-confidence, matching extractions.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999951596839,
+        "confidence": 0.9999999951596839,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 252.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "> HDF5-USID scheme implementation in the Open-Source SPM project for Pycroscopy ecosystems",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 174.0,
+                  "w": 466.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "Georg Fantner at Laboratory for Bio- and Nano- Instrumentation supports the application of Marcos Penedo García for an *ORD Contribute* project at EPFL for the project entitled HDF5-USID scheme imp...",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 332.0,
+                  "w": 439.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| HDF5-USID scheme implementation in the Open-Source SPM project for Pycroscopy ecosystems...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 252.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "> HDF5-USID scheme implementation in the Open-Source SPM project for Pycroscopy ecosystems",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 174.0,
+                  "w": 466.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "...pplication of Marcos Penedo García for an *ORD Contribute* project at EPFL for the project entitled HDF5-USID scheme implementation in the Open-Source SPM controller enabling Pycroscopy ecosystem, pen...",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 332.0,
+                  "w": 439.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999677312261,
+        "confidence": 0.9999999677312261,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| PySPM...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "> \n> Acronym : PySPM",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 222.0,
+                  "w": 94.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION. The abstract from the 'RESEARCH PROPOSAL' section (document index 0, page 2) is directly labeled and covers the requirements for a project abstract; the second instance is a background summary that largely repeats the same content.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999550062165,
+        "confidence": 0.9999999550062165,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Furthermore, the implementation of this scheme will enable the access to a lively open software ecosystem called Pycroscopy, where the Open-Source SPM project will take advantage of all the functio...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 501.0,
+                  "h": 97.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Furthermore, the implementation of this scheme will enable the access to a lively open software ecosystem called Pycroscopy, where the Open-Source SPM project will take advantage of all the functio...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 501.0,
+                  "h": 97.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Updating its data file structure to a more modern and more aligned to ORD practices as HDF5-USID, the Open-Source SPM could take advantage of all the functionalities already existing on the Pycrosc...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 498.0,
+                  "w": 466.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 152.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| HDF5, USID, Pycroscopy, SPM, Open-Hardware...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 313.0,
+                    "w": 219.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| HDF5, USID, Pycroscopy, SPM, Open-Hardware...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 313.0,
+                    "w": 219.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "In this project, we aim to implement the HDF5 and USID open standards on an already well-established ORD worldwide project at EPFL: the Open-Source SPM controller.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 501.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...the implementation of this scheme will enable the access to a lively open software ecosystem called Pycroscopy, where the Open-Source SPM project will take advantage of all the functionalities and too...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 501.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 734.0,
+                    "w": 89.0,
+                    "h": 9.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Design and development of the software for the open source SPM controller project [1], a platform that has already been adapted to control different scanning probe microscopes such as atomic force mic...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 540.0,
+                    "w": 459.0,
+                    "h": 179.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Design and development of the software for the open source SPM controller project [1], a platform that has already been adapted to control different scanning probe microscopes such as atomic force...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 540.0,
+                    "w": 459.0,
+                    "h": 179.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Design and development of the software for the open source SPM controller project [1], a platform that has already been adapted to control different scanning probe microscopes such as atomic force...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 540.0,
+                    "w": 459.0,
+                    "h": 179.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Design and development of the software for the open source SPM controller project [1], a platform that has already been adapted to control different scanning probe microscopes such as atomic force...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 540.0,
+                    "w": 459.0,
+                    "h": 179.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| HDF5, USID, Pycroscopy, SPM, Open-Hardware...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 313.0,
+                    "w": 219.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 455.0,
+                    "h": 76.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 455.0,
+                    "h": 76.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 455.0,
+                    "h": 76.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 336.0,
+                  "w": 113.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 336.0,
+                  "w": 113.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] [website. ](https://www.epfl.ch/labs/lbni/openhardware/)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 734.0,
+                  "w": 89.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Design and development of the software for the open source SPM controller project [1], a platform that has already been adapted to control different scanning probe microscopes such as atomic force...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 540.0,
+                  "w": 459.0,
+                  "h": 179.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "# 6 - SUBMISSION",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 340.0,
+                  "w": 132.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP1 – USID scheme design for the techniques involved on the Open-Source controller."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP1 – USID scheme design for the techniques involved on the Open-Source controller."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9947535431832651,
-            "confidence": 0.9947535431832651
+            "extraction_confidence": 0.9998920654032908,
+            "confidence": 0.9998920654032908
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP2 – New FPGA-PC communication protocol for efficient high-speed data transfer."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP2 – New FPGA-PC communication protocol for efficient high-speed data transfer."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997156574169,
-            "confidence": 0.9999997156574169
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP3 – Implement the designed USID scheme into a HDF5 file format."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP3 – Implement the designed USID scheme into a HDF5 file format."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999999977655977,
-            "confidence": 0.999999977655977
+            "extraction_confidence": 0.999999970213439,
+            "confidence": 0.999999970213439
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP4 – HDF5-USID/Gwyddion conversion tools."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "WP4 – HDF5-USID/Gwyddion conversion tools."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999986427216084,
-            "confidence": 0.9999986427216084
+            "extraction_confidence": 0.9999987379600276,
+            "confidence": 0.9999987379600276
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -469,29 +2717,31 @@
     },
     "usage": {
       "num_pages_extracted": 22,
-      "num_document_tokens": 11620,
-      "num_output_tokens": 9936
-    }
+      "num_document_tokens": 11886,
+      "num_output_tokens": 6855
+    },
+    "parse_job_id": "33582b78-0a61-4fc4-8ea0-223332c310ad"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "9e264fcc-1d60-41f4-8191-66acc0083b99",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:24:23.129820+00:00",
-  "updated_at": "2025-11-11T11:26:26.941795+00:00"
+  "job_id": "200b8359-599b-4794-9e24-7b6c04344943",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:27:06.800123+00:00",
+  "updated_at": "2026-01-21T18:29:09.604827+00:00"
 }

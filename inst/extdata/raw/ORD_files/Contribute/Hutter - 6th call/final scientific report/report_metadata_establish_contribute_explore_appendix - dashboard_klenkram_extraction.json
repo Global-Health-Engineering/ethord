@@ -22,108 +22,72 @@
     "field_metadata": {
       "project_title": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "explore_call_number": {
         "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999722707259225,
+        "confidence": 0.9999722707259225,
         "citation": [
           {
             "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
+            "matching_text": "| 4 Online  | 0 Offline |\n| --------- | --------- |\n| > rsl-s02 | Online    |\n| > rsl-s05 | Online    |\n| > rsl-s03 | Online    |\n| > rsl-s04 | Online    |",
+            "bounding_boxes": [
+              {
+                "x": 1325.0,
+                "y": 200.0,
+                "w": 419.0,
+                "h": 653.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 1750.74437474,
+              "height": 875.372187368
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "project_starting_and_end_date": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "main_applicant_responsible_for_project": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "function": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "laboratory_department": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "institution_of_main_applicant": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "report": {
-        "reasoning": "No 'Report type' field present; this is a project dashboard extract, not an ORD report.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
         "confidence": 1.0
       },
       "reporting_period": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
@@ -131,29 +95,31 @@
     },
     "usage": {
       "num_pages_extracted": 1,
-      "num_document_tokens": 370,
-      "num_output_tokens": 725
-    }
+      "num_document_tokens": 314,
+      "num_output_tokens": 373
+    },
+    "parse_job_id": "9b38a5e5-e389-48ad-b3f9-03fe2e1647f4"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c6f22c08-74c7-4ffa-a8ee-ccd1d042cd0f",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T16:45:52.302257+00:00",
-  "updated_at": "2025-11-11T16:47:05.572057+00:00"
+  "job_id": "dce14818-2ce9-44fa-b5cb-b6b2a52c2ee7",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:51:45.534724+00:00",
+  "updated_at": "2026-01-22T02:52:31.435449+00:00"
 }

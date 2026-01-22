@@ -3,15 +3,9 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 2,
-      "descriptions": [
-        "HESS data analysis service on MMODA",
-        "HESS data analysis service on Galaxy platform"
-      ],
-      "urls": [
-        "https://mmoda.io",
-        "https://usegalaxy.eu"
-      ]
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
     },
     "repositories_catalogues": {
       "quantity": 0,
@@ -24,24 +18,31 @@
       "urls": []
     },
     "software_tools": {
-      "quantity": 4,
+      "quantity": 8,
       "descriptions": [
+        "HESS data analysis service on MMODA",
+        "HESS data analysis service on Galaxy platform",
         "CTA simulation service on MMODA",
         "CTA simulation service on Galaxy",
         "CRbeam simulation on Galaxy",
-        "MWA data analysis service on MMODA"
+        "MWA data analysis service on MMODA",
+        "MeerKAT data analysis service on MMODA",
+        "MWA data analysis service on Galaxy"
       ],
       "urls": [
-        "https://mmoda.io",
-        "https://usegalaxy.eu"
+        "https://mmoda.io (HESS tab)",
+        "https://usegalaxy.eu (HESS tool)",
+        "https://mmoda.io (CTAO tab)",
+        "https://usegalaxy.eu (CTAO tool)",
+        "https://usegalaxy.eu (CRbeam tool)",
+        "https://mmoda.io (MWA tab)",
+        "https://mmoda.io (MeerKAT tab)",
+        "https://usegalaxy.eu (MWA tool)"
       ]
     },
     "models_standards": {
-      "quantity": 2,
-      "descriptions": [
-        "Workflow for modelling of gamma-ray source properties using CRbeam, integrated into ORDAS",
-        "General framework/formulation for mapping data analysis services as Python notebooks with input/output cell annotation and original ontology"
-      ],
+      "quantity": 0,
+      "descriptions": [],
       "urls": []
     },
     "workshops": {
@@ -108,230 +109,718 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "extraction_confidence": 0.9998386670547543,
-          "confidence": 0.9998386670547543
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "5-6 2025             | 1                | <https://indico.global/event/9331>          |",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 553.0,
+                  "w": 482.0,
+                  "h": 187.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
         },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.9998698023346899,
-            "confidence": 0.9998698023346899
-          },
-          {
-            "extraction_confidence": 0.9999997075902202,
-            "confidence": 0.9999997075902202
-          }
-        ],
-        "urls": [
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "reasoning": "Each distinct web-based service (MMODA, Galaxy) counts as a platform/interface; direct mapping from outputs table."
+        "reasoning": "VERBATIM EXTRACTION. No explicit creation of new or enhanced websites/web interfaces/platforms—the services use existing ones like MMODA and Galaxy."
       },
       "repositories_catalogues": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No outputs explicitly labeled as repositories or catalogs in the List of Outputs."
+        "reasoning": "VERBATIM EXTRACTION. No repositories or catalogs created/enhanced as outputs in the described project."
       },
       "datasets_databases": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "While services analyze data, no datasets/databases themselves are listed as separate project outputs."
+        "reasoning": "VERBATIM EXTRACTION. No new/enhanced datasets or databases produced—the project focused on analysis services."
       },
       "software_tools": {
         "quantity": {
-          "extraction_confidence": 0.556498765660625,
-          "confidence": 0.556498765660625
-        },
-        "descriptions": [
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 0.9999998987142101,
-            "confidence": 0.9999998987142101
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "urls": [
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "reasoning": "Services for simulations and analysis effectively function as software tools."
-      },
-      "models_standards": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "We have extracted a workflow for the modelling of source properties from a publicly available CRbeam modelling package and implemented it as an ORDAS."
-            },
-            {
-              "page": 4,
-              "matching_text": "ORDAS is formulated in the form of a Python notebook in which two cells are designated to describe ORDAS input parameters and output data products. The input parameters and the data products are annotated using an original ontology of astronomical data analysis..."
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9968764864153296,
-          "confidence": 0.9968764864153296
+          "extraction_confidence": 0.9999998063873693,
+          "confidence": 0.9999998063873693
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.5523248749523394,
-            "confidence": 0.5523248749523394
-          },
-          {
-            "extraction_confidence": 0.3127079362511905,
-            "confidence": 0.3127079362511905
-          }
-        ],
-        "reasoning": "Described innovative workflows and ontological standards specifically for astronomy ORDAS."
-      },
-      "workshops": {
-        "quantity": {
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.9986966205116048,
-            "confidence": 0.9986966205116048
-          }
-        ],
-        "urls": [
-          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 5,
-                "matching_text": "https://indico.global/event/9331"
+                "matching_text": "| HESS data analysis service on MMODA           | 1                | <https://mmoda.io> (HESS tab)               |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
               }
-            ],
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999945997503,
+            "confidence": 0.999999945997503,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| HESS data analysis service on Galaxy platform | 1                | <https://usegalaxy.eu> (HESS tool)          |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999695537551,
+            "confidence": 0.99999695537551,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| CTA simulation service on MMODA               | 1                | <https://mmoda.io> (CTAO tab)               |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| CTA simulation service on Galaxy              | 1                | <https://usegalaxy.eu> (CTAO tool)          |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999374367368,
+            "confidence": 0.9999999374367368,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| CRbeam simulation on Galaxy                   | 1                | <https://usegalaxy.eu> (CRbeam tool)        |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999757984191,
+            "confidence": 0.9999999757984191,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| MWA data analysis service on MMODA            | 1                | <https://mmoda.io> (MWA tab)                |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998624309744344,
+            "confidence": 0.9998624309744344,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| MeerKAT data analysis service on MMODA        | 1                | <https://mmoda.io> (MeerKAT tab)            |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| MWA data analysis service on Galaxy           | 1                | <https://usegalaxy.eu> (MWA tool)           |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Directly listed in the outputs table."
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996814166090436,
+            "confidence": 0.9996814166090436,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998997775246,
+            "confidence": 0.9999998997775246,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999806387352,
+            "confidence": 0.9999999806387352,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999823988502,
+            "confidence": 0.9999999823988502,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999448776365,
+            "confidence": 0.9999999448776365,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999539610033,
+            "confidence": 0.9999999539610033,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999823988502,
+            "confidence": 0.9999999823988502,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "All the five ORDAS (for the HESS telescope, CTAO observations simulator with Gammapy, CTAO source simulator with Crbeam, for MeerKAT and MWA telescopes) are available through the web-based interfac...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 522.0,
+                    "w": 477.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION. Each item is a separate new/enhanced service (tool) as described and as itemized in Section 6."
+      },
+      "models_standards": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION. No new/enhanced models, standards, guidelines, or similar outputs itemized."
+      },
+      "workshops": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 5 –",
+              "bounding_boxes": [
+                {
+                  "x": 261.0,
+                  "y": 770.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999992432898638,
+            "confidence": 0.9999992432898638,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "5-6 2025             | 1                | <https://indico.global/event/9331>          |",
+                "bounding_boxes": [
+                  {
+                    "x": 57.0,
+                    "y": 553.0,
+                    "w": 482.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "To promote ORD and ORDAS practices, we have organised a workshop at EPFL, on February 5-6 2025 (see the Indico page https://indico.global/event/9331/ for the workshop program).",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 130.0,
+                    "w": 477.0,
+                    "h": 113.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION. Workshop explicitly listed in outputs table."
       },
       "training_events": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "To promote ORD and ORDAS practices, we have organised a workshop at EPFL, on February 5-6 2025 (see the Indico page https://indico.global/event/9331/ for the workshop program).",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 130.0,
+                  "w": 477.0,
+                  "h": 113.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
         },
-        "reasoning": "No outputs listed matching training/education."
+        "reasoning": "VERBATIM EXTRACTION. No training/educational events or resources as outputs."
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No publications listed; list is services-focused."
+        "reasoning": "VERBATIM EXTRACTION. No publications given as outputs."
       },
       "presentations": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "reasoning": "No mention of presentations specifically."
-      },
-      "outreach_activities": {
-        "quantity": {
-          "extraction_confidence": 0.9982992492761381,
-          "confidence": 0.9982992492761381
-        },
-        "reasoning": "Workshop is already categorized; no other distinct outreach activity reported."
-      },
-      "patents_ip": {
-        "quantity": {
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "reasoning": "No IP outputs reported."
-      },
-      "new_collaborations": {
-        "quantity": {
+          "confidence": 1.0,
           "citation": [
             {
               "page": 4,
-              "matching_text": "collaborated with the Swiss SRC team"
+              "matching_text": "The image service visualises the “enhanced” image data product if the specified sky direction is within one of the 115 MGCLS fields (each one degree radius, covering ~360 square degrees).",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 130.0,
+                  "w": 477.0,
+                  "h": 375.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.49999999904767284,
-          "confidence": 0.49999999904767284
+          ]
         },
-        "reasoning": "Collaboration is described but not listed in output table as a new formal project output."
+        "reasoning": "VERBATIM EXTRACTION. Presentations not present in output."
+      },
+      "outreach_activities": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "The image service visualises the “enhanced” image data product if the specified sky direction is within one of the 115 MGCLS fields (each one degree radius, covering ~360 square degrees).",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 130.0,
+                  "w": 477.0,
+                  "h": 375.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "reasoning": "VERBATIM EXTRACTION. No direct outputs in this category as per outputs listed."
+      },
+      "patents_ip": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION. No patents or IP outputs."
+      },
+      "new_collaborations": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "5-6 2025             | 1                | <https://indico.global/event/9331>          |",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 553.0,
+                  "w": 482.0,
+                  "h": 187.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "reasoning": "VERBATIM EXTRACTION. Not recorded as an output in the list/table."
       },
       "industrial_collaborations": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "The image service visualises the “enhanced” image data product if the specified sky direction is within one of the 115 MGCLS fields (each one degree radius, covering ~360 square degrees).",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 130.0,
+                  "w": 477.0,
+                  "h": 375.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
         },
-        "reasoning": "No industrial collaboration outputs."
+        "reasoning": "VERBATIM EXTRACTION. No industrial collaborations or contracts output."
       },
       "estimated_users": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No estimate or user number provided anywhere in text or outputs."
+        "reasoning": "VERBATIM EXTRACTION. No estimate/quantification of community users output."
       },
       "other_outputs": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "5-6 2025             | 1                | <https://indico.global/event/9331>          |",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 553.0,
+                  "w": 482.0,
+                  "h": 187.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
         },
-        "reasoning": "All outputs fit the requested categories, none left for 'other'."
+        "reasoning": "VERBATIM EXTRACTION. No other outputs present in list."
       }
     },
     "usage": {
       "num_pages_extracted": 5,
-      "num_document_tokens": 3940,
-      "num_output_tokens": 3110
-    }
+      "num_document_tokens": 3970,
+      "num_output_tokens": 1321
+    },
+    "parse_job_id": "763bfd26-1278-4e20-a604-14bb20996d13"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "51eade92-10e3-49eb-9434-73c1d210c44b",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:05:26.689361+00:00",
-  "updated_at": "2025-11-11T19:06:28.596821+00:00"
+  "job_id": "fa94fee4-3ac0-4862-8f6c-3fe4e66015e8",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:47:18.685026+00:00",
+  "updated_at": "2026-01-22T03:48:17.681290+00:00"
 }

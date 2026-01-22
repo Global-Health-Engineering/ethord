@@ -19,7 +19,7 @@
         "postcode": 1015
       }
     ],
-    "project_title": "Open Mechanized Foundations for JavaScript Regular Expressions (FiRE)",
+    "project_title": "Open Mechanized Foundations for JavaScript Regular Expressions",
     "project_acronym": "FiRE",
     "project_abstract": "One of the main forms of ORD in the programming languages research community is two-sided mechanized language specifications (the definition in a proof assistant of the semantics of a language). These mechanized specifications have many benefits: they can be extracted to an executable reference implementation, and used by both implementers (to verify compilers, interpreters and optimizations) and by users (to guarantee the correctness of programs in that programming language).We propose to contribute the first open, two-sided, mechanized specification of JavaScript regular expressions (regexes). The lack of such mechanization is harming the research community: previous work has mechanized other parts of the JavaScript language but not regexes, and as a consequence researchers use paper-only semantics for JavaScript regexes. These paper semantics are neither executable nor reusable and often incorrect. We will translate to Coq the part of the open ECMAScript standard that describes JavaScript regexes; extract this mechanization to a reference implementation in OCaml; and validate our mechanization with Coq proofs.Our project will provide a solid foundation for JavaScript regex research to build upon our Coq mechanization, including proving the correctness of regex optimizations, detecting regexes with security issues (ReDOS), or proving the correctness of entire regex engines. Our project will allow the open JavaScript community to test their regex engines.",
     "keywords": [
@@ -38,19 +38,19 @@
         "wp_title": "Finish the translation of ECMAScript in Coq"
       },
       {
-        "wp_identifier": "WP2",
+        "wp_identifier": "WP1",
         "wp_title": "Coq mechanization validation"
       },
       {
-        "wp_identifier": "WP3",
+        "wp_identifier": "WP2",
         "wp_title": "Produce the executable reference implementation"
       },
       {
-        "wp_identifier": "WP4",
+        "wp_identifier": "WP2",
         "wp_title": "Reference implementation cross-validation"
       },
       {
-        "wp_identifier": "WP5",
+        "wp_identifier": "WP3",
         "wp_title": "Packaging and dissemination"
       }
     ]
@@ -62,385 +62,2045 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "Professor Clément Pit-Claudel supports the application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 130.0,
+                  "w": 282.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "ETH BOARD\nETH zürich EPFL\nPAUL SCHERRER INSTITUT PSI\nWSL\nEmpa Materials Science and Technology\neawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table: Function (Title) | PostDoc"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "**Aurèle Barrière**\nCurrent position(s): Junior researcher / Postdoc\nAcademic age: 6 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 233.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.99999966478646,
-        "confidence": 0.99999966478646
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| First name(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Aurèle Barrière | Applicant ID - ORD1000328",
+              "bounding_boxes": [
+                {
+                  "x": 307.0,
+                  "y": 40.0,
+                  "w": 250.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Both provided extractions indicate the surname is 'Barrière'. The first extraction is from a table, the second from narrative text. Both provide the same value and high confidence, so combining using mean confidence is appropriate.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table: Surname(s) | Barrière"
-          },
-          {
-            "page": 23,
-            "matching_text": "application of Dr. Aurèle Barrière for an ORD Contribute project at EPFL"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.9999999031936799,
-        "confidence": 0.9999999031936799
+        "confidence": 0.9999999031936799,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Aurèle Barrière | Applicant ID - ORD1000328",
+              "bounding_boxes": [
+                {
+                  "x": 307.0,
+                  "y": 40.0,
+                  "w": 250.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table: EPFL Laboratory | EPFL IC IINFCOM SYSTEMF"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL IC IINFCOM SYSTEMF                              |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode | 1015"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 474.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1015                                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 474.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table: City | Lausanne"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 474.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Junior researcher / Postdoc<br/>Clément Pit-Claudel | EPF Lausanne - EPFL, CH<br/>IC SystemF                                        | 01.2023 - Present<br/>1 year(s)  |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 615.0,
+                  "w": 453.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table... EPFL"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table... PostDoc"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table... Aurèle"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
           },
           "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table... Barrière"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999031936799,
             "confidence": 0.9999999031936799
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table... 1015"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ],
-      "project_category": {
+      "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "\"Contribute Projects\" - Call 6"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
-        "reasoning": "Selected the most complete, formal project title, explicitly labeled in support letters and including the acronym. Higher confidence and direct citation supports this choice. Others are partial or less formal variants.",
-        "citation": [
-          {
-            "page": 21,
-            "matching_text": "for the project entitled *Open Mechanized Foundations for JavaScript Regular Expressions (FiRE)*"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999667676938,
-        "confidence": 0.9999999667676938
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> Open Mechanized Foundations for JavaScript Regular Expressions\n> Proposal Acronym: FiRE (Foundations for JavaScript Regular Expressions)",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 160.0,
+                  "w": 368.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Similarly, our reference implementation can be used to validate that the test-suites of each JavaScript implementation are correct with regards to the ECMAScript standard, and help quickly establis...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 431.0,
+                  "w": 474.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project | FiRE"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> Open Mechanized Foundations for JavaScript Regular Expressions\n> Proposal Acronym: FiRE (Foundations for JavaScript Regular Expressions)",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 160.0,
+                  "w": 368.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "One of the main forms of ORD in the programming languages research community is two-sided mechanized language specifications (the definition in a proof assistant of the semantics of a language). These mechanized specifications have many benefits: they can be extracted to an executable reference implementation, and used by both implementers (to verify compilers, interpreters and optimizations) and by users (to guarantee the correctness of programs in that programming language).We propose to contribute the first open, two-sided, mechanized specification of JavaScript regular expressions (regexes). The lack of such mechanization is harming the research community: previous work has mechanized other parts of the JavaScript language but not regexes, and as a consequence researchers use paper-only semantics for JavaScript regexes. These paper semantics are neither executable nor reusable and often incorrect. We will translate to Coq the part of the open ECMAScript standard that describes JavaScript regexes; extract this mechanization to a reference implementation in OCaml; and validate our mechanization with Coq proofs.Our project will provide a solid foundation for JavaScript regex research to build upon our Coq mechanization, including proving the correctness of regex optimizations, detecting regexes with security issues (ReDOS), or proving the correctness of entire regex engines. Our project will allow the open JavaScript community to test their regex engines."
-          }
-        ],
-        "extraction_confidence": 0.9999935747438173,
-        "confidence": 0.9999935747438173
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999967244689423,
+        "confidence": 0.9999967244689423,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Abstract...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 497.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "We will translate to Coq the part of the open ECMAScript standard that describes JavaScript regexes; extract this mechanization to a reference implementation in OCaml; and validate our mechanizatio...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 497.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Mechanized Specification"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Mechanized Specification, Regex, JavaScript, Coq, ECMAScript...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 247.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Regex"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "oted in my project plan, I believe that some automata theory results from model-checking could be used to extend known techniques for linear regex engines.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 492.0,
+                    "w": 455.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "JavaScript"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Mechanized Specification, Regex, JavaScript, Coq, ECMAScript...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 247.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Coq"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "in CompCert, a formally verified C compiler in Coq [2]. This gave me valuable experience with Coq and formally verified compilation of real-world languages.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 380.0,
+                    "w": 450.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "ECMAScript"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Mechanized Specification, Regex, JavaScript, Coq, ECMAScript...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 247.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "> * Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)",
+                "bounding_boxes": [
+                  {
+                    "x": 76.0,
+                    "y": 303.0,
+                    "w": 415.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date | 13 Feb 2024"
-          }
-        ],
-        "extraction_confidence": 0.999975311732021,
-        "confidence": 0.999975311732021
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999374367368,
+        "confidence": 0.9999999374367368,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 345.0,
+                  "w": 487.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 345.0,
+                  "w": 487.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7297-2170](https://orcid.org/0000-0002-7297-2170)",
+              "bounding_boxes": [
+                {
+                  "x": 310.0,
+                  "y": 819.0,
+                  "w": 228.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration | 12"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION. All sources independently state the same total budget requested (CHF 30,000), with direct evidence from both summary and detailed budget sections.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table (BUDGET): Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 10,
-            "matching_text": "Explicit tabular summary: '79.7 days = CHF 30,000'"
-          },
-          {
-            "page": 19,
-            "matching_text": "| Total Costs (A + B)             |                                     |              | 30000        |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/3 7 December 2023, Aurèle Barrière, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 764.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 764.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| Direct Costs                    | Personnel²                          | Applicant                                        | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 141.0,
+                  "w": 466.0,
+                  "h": 421.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "1.1 Finish the translation of ECMAScript in Coq."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999118768470276,
-            "confidence": 0.999118768470276
+            "extraction_confidence": 0.9511302753759643,
+            "confidence": 0.9511302753759643
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "1.1 Finish the translation of ECMAScript in Coq."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.992748172465421,
-            "confidence": 0.992748172465421
+            "extraction_confidence": 0.9906898921524502,
+            "confidence": 0.9906898921524502
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "1.2 Coq mechanization validation."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.749345724017064,
-            "confidence": 0.749345724017064
+            "extraction_confidence": 0.42476005709973996,
+            "confidence": 0.42476005709973996
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "1.2 Coq mechanization validation."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997556698375,
-            "confidence": 0.9999997556698375
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "2.1 Produce the executable reference implementation."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "2.1 Produce the executable reference implementation."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999846974031015,
-            "confidence": 0.9999846974031015
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "2.2 Reference implementation cross-validation."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "2.2 Reference implementation cross-validation."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -449,56 +2109,72 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "3 Packaging and dissemination."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999382804728802,
-            "confidence": 0.9999382804728802
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "3 Packaging and dissemination."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999990215682006,
-            "confidence": 0.9999990215682006
+            "extraction_confidence": 0.9999733017721113,
+            "confidence": 0.9999733017721113
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998919950089,
+            "confidence": 0.9999998919950089
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996647864002,
+            "confidence": 0.9999996647864002
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999235172319,
+            "confidence": 0.999999235172319
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 24,
-      "num_document_tokens": 13812,
-      "num_output_tokens": 8712
-    }
+      "num_pages_extracted": 23,
+      "num_document_tokens": 13934,
+      "num_output_tokens": 5521
+    },
+    "parse_job_id": "162ed70c-e142-4130-9bcb-128a8d550d01"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "cac730e4-9f54-455e-81d6-d3ab7b828ada",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T09:54:27.015381+00:00",
-  "updated_at": "2025-11-11T10:01:22.865682+00:00"
+  "job_id": "bbae0b46-39d7-441e-97db-8334de55dcbe",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:58:55.412277+00:00",
+  "updated_at": "2026-01-21T18:01:18.618890+00:00"
 }

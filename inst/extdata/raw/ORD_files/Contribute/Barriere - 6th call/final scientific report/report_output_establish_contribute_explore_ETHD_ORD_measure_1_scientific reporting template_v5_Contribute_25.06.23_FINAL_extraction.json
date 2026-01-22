@@ -53,7 +53,7 @@
     "publications": {
       "quantity": 1,
       "descriptions": [
-        "Publication at the ICFP24 conference: A Coq Mechanization of JavaScript Regular Expression Semantics",
+        "Publication at the ICFP24 conference: A Coq Mechanization of JavaScript Regular Expression Semantics.",
         "Related artifact"
       ],
       "urls": [
@@ -97,10 +97,14 @@
       "urls": []
     },
     "estimated_users": {
-      "quantity": 2,
+      "quantity": 0,
       "descriptions": [
         "JavaScript implementation community",
-        "Several research labs; our work also has an impact on several research labs"
+        "several research labs",
+        "Our work had an impact on the JavaScript implementers community with the improvements to Test262.",
+        "Our work also has an impact on several research labs",
+        "one recent article cited our work to acknowledge that we had revealed an error in their previous definitions",
+        "Our work has already been cited by 4 different research groups"
       ],
       "urls": [
         "https://dl.acm.org/doi/abs/10.1145/3691620.3695005",
@@ -122,373 +126,845 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "New or enhanced website(s), web interface, platform(s) and/ or infrastructure: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "The table entry for website/platform is empty; no details or links given under this category."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "repositories_catalogues": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 4,
-                "matching_text": "New Coq mechanization of JavaScript regexes, Warblre:"
+                "matching_text": "...ories and/or catalogues:                                                       | 1                | New Coq mechanization of JavaScript regexes, Warblre: \\[<https://github.com/epfl-systemf/Warblre]([h...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 342.0,
+                    "w": 482.0,
+                    "h": 390.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999606268829,
-            "confidence": 0.9999999606268829
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...| 1                | New Coq mechanization of JavaScript regexes, Warblre: \\[<https://github.com/epfl-systemf/Warblre]([https://github.com/epfl-systemf/Warblre](https://github.co...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 342.0,
+                    "w": 482.0,
+                    "h": 390.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION. The table explicitly lists one new Coq mechanization with the relevant GitHub link."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "New and improved tests in Test262, the official test suite for JavaScript"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "New and improved tests in Test262, the official test suite for JavaScript"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "We already improved the tests of the official JavaScript test suite.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 609.0,
+                    "w": 470.0,
+                    "h": 54.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...| New and improved tests in Test262, the official test suite for JavaScript:<br/>- \\[<https://github.com/tc39/test262/pull/4423]([https://github.com/tc39/test262/pull/4423](https://githu...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 342.0,
+                    "w": 482.0,
+                    "h": 390.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...]([https://github.com/tc39/test262/pull/4423](https://github.com/tc39/test262/pull/4423))><br/>- \\[<https://github.com/tc39/test262/pull/4185]([https://github.com/tc39/test262/pull/4185](https://githu...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 342.0,
+                    "w": 482.0,
+                    "h": 390.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "The table lists new and improved tests in Test262 (with two PR examples/links), which qualify as datasets."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 4,
-                "matching_text": "SpecMerger, a tool to compare two specifications:"
+                "matching_text": "...| 1                | SpecMerger, a tool to compare two specifications: \\[<https://github.com/epfl-systemf/SpecMerger]([https://github.com/epfl-systemf/SpecMerger](https://git...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 342.0,
+                    "w": 482.0,
+                    "h": 390.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           }
         ],
-        "urls": [
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "reasoning": "VERBATIM EXTRACTION. Only one new tool is listed, SpecMerger, with a direct description and link."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "The entry is blank; no output reported in this category."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "Scientific workshops organized as part of the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No workshops mentioned in the outputs table."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "Training and educational events and/or resources directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Although training opportunities were described in the appendix as internships/master thesis, there are no formal events or resources listed as outputs. The outputs table is blank for this item."
+        "reasoning": "No formal training or educational events listed in the outputs table; appendix content not directly mapped to an 'event' or 'resource' output."
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9416220758754843,
+            "confidence": 0.9416220758754843,
             "citation": [
               {
                 "page": 5,
-                "matching_text": "Publication at the ICFP24 conference: A Coq Mechanization of JavaScript Regular Expression Semantics"
+                "matching_text": "...ata Program of the ETH Board” | 1                                                                 | Publication at the ICFP24 conference: A Coq Mechanization of JavaScript Regular Expression Semantics...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999789905717786,
-            "confidence": 0.9999789905717786
+            ]
           },
           {
-            "extraction_confidence": 0.9999822836052412,
-            "confidence": 0.9999822836052412
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...674666]([https://dl.acm.org/doi/10.1145/3674666](https://dl.acm.org/doi/10.1145/3674666))><br/><br/>Related artifact: \\[<https://dl.acm.org/do/10.5281/zenodo.11494317/full/]([https://dl.acm.org/do/10....",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999605631,
+            "confidence": 0.9999999605631,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "\\[<https://dl.acm.org/doi/10.1145/3674666]([https://dl.acm.org/doi/10.1145/3674666](https://dl.acm.org/doi/10.1145/3674666))><br/><br/>Related artifact: \\[<https://dl.acm.org/do/10.5281/zenodo.1149431...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           },
           {
-            "extraction_confidence": 0.9999993968952973,
-            "confidence": 0.9999993968952973
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999994650116152,
+            "confidence": 0.9999994650116152,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...cm.org/doi/10.1145/3674666](https://dl.acm.org/doi/10.1145/3674666))><br/><br/>Related artifact: \\[<https://dl.acm.org/do/10.5281/zenodo.11494317/full/]([https://dl.acm.org/do/10.5281/zenodo.11494317/...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "The outputs table clearly shows one publication and its associated artifact."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | 2 | ..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 2. Lay summary",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 505.0,
+                  "w": 89.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999964805367741,
+            "confidence": 0.9999964805367741,
             "citation": [
               {
                 "page": 5,
-                "matching_text": "Presentation at the ICFP 2024 conference:"
+                "matching_text": "...| 2                                                                 | - Presentation at the ICFP 2024 conference: \\[<https://www.youtube.com/watch?v=PAk8_Lgs8Xw]([https://w...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999898170977807,
-            "confidence": 0.9999898170977807
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999764426870781,
+            "confidence": 0.9999764426870781,
             "citation": [
               {
                 "page": 5,
-                "matching_text": "Poster for the PLDI 2024 Student research competition, that won the gold medal in the graduate category:"
+                "matching_text": "...([https://www.youtube.com/watch?v=PAk8_Lgs8Xw](https://www.youtube.com/watch?v=PAk8_Lgs8Xw))><br/>- Poster for the PLDI 2024 Student research competition, that won the gold medal in the graduate categ...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999832506444735,
-            "confidence": 0.9999832506444735
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999999655485224,
-            "confidence": 0.9999999655485224
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| - Presentation at the ICFP 2024 conference: \\[<https://www.youtube.com/watch?v=PAk8_Lgs8Xw]([https://www.youtube.com/watch?v=PAk8_Lgs8Xw](https://w...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999878992095,
-            "confidence": 0.9999999878992095
+            "confidence": 0.9999999878992095,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...or the PLDI 2024 Student research competition, that won the gold medal in the graduate category: \\[<https://systemf.epfl.ch/posters/2024-warblre/]([https://systemf.epfl.ch/posters/2024-warblre/](https...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Both presentation types (talk and poster) are listed with short descriptions and corresponding URLs."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "outreach_activities": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "### 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.3039370078,
+                "height": 841.8897637795
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
-                "page": 5,
-                "matching_text": "Blog post explaining the tool SpecMerger:"
+                "page": 3,
+                "matching_text": "We published a blog post about SpecMerger.",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 129.0,
+                    "w": 476.0,
+                    "h": 69.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999757984191,
-            "confidence": 0.9999999757984191
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999999851067194,
-            "confidence": 0.9999999851067194
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| Blog post explaining the tool SpecMerger: \\[<https://systemf.epfl.ch/blog/SpecMerger/]([https://systemf.epfl.ch/blog/SpecMerger/](https://systemf...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "The blog post is the only item given as outreach activity in the outputs table."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project:"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Patents/IP entry is blank, and there is no evidence elsewhere in the report."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New collaborations (except with industrial partners – see below): | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No non-industrial collaborations are itemized."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New collaborations and/or contracts with industrial partners: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No industrial collaborations/contracts reported."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "estimated_users": {
         "quantity": {
-          "extraction_confidence": 0.9995632275927524,
-          "confidence": 0.9995632275927524
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999150561916036,
+          "confidence": 0.9999150561916036
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999910576881922,
+            "confidence": 0.999910576881922,
             "citation": [
               {
                 "page": 5,
-                "matching_text": "JavaScript implementation community"
+                "matching_text": "...| - JavaScript implementation community<br/>- several research labs | Our work had an impact on the Java...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9904438350691894,
-            "confidence": 0.9904438350691894
+            ]
           },
           {
-            "extraction_confidence": 0.46715124331190105,
-            "confidence": 0.46715124331190105
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9982247080566516,
+            "confidence": 0.9982247080566516,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| - JavaScript implementation community<br/>- several research labs | Our work had an impact on the JavaScript implementers community with the imp...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9737784246418479,
+            "confidence": 0.9737784246418479,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| - JavaScript implementation community<br/>- several research labs | Our work had an impact on the JavaScript implementers community with the improvements to Test262. Ou...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9997574935694005,
+            "confidence": 0.9997574935694005,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| Our work had an impact on the JavaScript implementers community with the improvements to Test262. Our work also has an impact on several research labs:<br/>- one recent article cited our work to ack...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9986407007335553,
+            "confidence": 0.9986407007335553,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...unity with the improvements to Test262. Our work also has an impact on several research labs:<br/>- one recent article cited our work to acknowledge that we had revealed an error in their previous def...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999526907521988,
+            "confidence": 0.9999526907521988,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...cm.org/doi/abs/10.1145/3691620.3695005](https://dl.acm.org/doi/abs/10.1145/3691620.3695005))><br/>- Our work has already been cited by 4 different research groups: \\[<https://scholar.google.com/schola...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...rticle cited our work to acknowledge that we had revealed an error in their previous definitions \\[<https://dl.acm.org/doi/abs/10.1145/3691620.3695005]([https://dl.acm.org/doi/abs/10.1145/3691620.3695...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           },
           {
-            "extraction_confidence": 0.9999999903193676,
-            "confidence": 0.9999999903193676
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...10.1145/3691620.3695005))><br/>- Our work has already been cited by 4 different research groups: \\[<https://scholar.google.com/scholar?cites=4939186673206502005]([https://scholar.google.com/scholar?ci...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 667.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.3039370078,
+                  "height": 841.8897637795
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Directly stated as two affected user communities/groups, with evidence of research group uptake and references provided."
+        "reasoning": "No strict numeric user estimate is given, but substantial descriptive evidence of community impact is provided, so quantity=0 and descriptions populated."
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "Other (please specify): | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No additional outputs given and the relevant table cell is blank."
+        "reasoning": "VERBATIM EXTRACTION"
       }
     },
     "usage": {
       "num_pages_extracted": 6,
-      "num_document_tokens": 3958,
-      "num_output_tokens": 3432
-    }
+      "num_document_tokens": 3791,
+      "num_output_tokens": 1740
+    },
+    "parse_job_id": "ca53d528-6f70-4978-bd06-38b6f115d937"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "bc83ee91-cdfd-4fab-9e3f-2e3d0159707b",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:17:17.269209+00:00",
-  "updated_at": "2025-11-11T18:18:16.667962+00:00"
+  "job_id": "224152fe-3967-46a6-850a-ddbe764251f2",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T04:09:43.845074+00:00",
+  "updated_at": "2026-01-22T04:10:30.450230+00:00"
 }

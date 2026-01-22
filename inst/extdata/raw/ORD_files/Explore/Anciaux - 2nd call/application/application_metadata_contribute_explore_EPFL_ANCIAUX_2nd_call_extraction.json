@@ -44,16 +44,18 @@
     "project_acronym": "Solidipes",
     "project_abstract": "Achieving FAIR open-science needs reproducible scientific data and publications to be associated. While choosing the appropriate tools and storage facilities is already difficult, ensuring the quality of an open publication of datasets relies heavily on data curation procedures. Curation calls for proper data validations and annotations, which are clearly discipline dependent. This proposal aims at exploring the extension of Solidipes, a dataset curation software, to make it suitable to each scientific discipline's needs, but also to broaden the platforms (repositories) Solidipes can interact with. For this project, researchers from computational mechanics and astrophysics associate with a member of the EPFL library in order to gather the experience necessary to cover this ambitious explore project. If funded, the project's team will collaborate with the teams of Episciences (French diamond open access platform) and with Renku (Swiss platform deploying tools for reproducible and collaborative data analysis). This proposal describes how to fill gaps towards a modern and multidisciplinary ecosystem for dataset+paper publications.",
     "keywords": [
-      "curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary"
+      "curation",
+      "repositories",
+      "astrophysics",
+      "computational mechanics",
+      "ontology",
+      "workflow",
+      "multi-disciplinary"
     ],
     "start_date": "1 Sep 2024",
     "project_duration_months": 16,
     "total_budget_requested": 150000.0,
     "work_packages": [
-      {
-        "wp_identifier": "other",
-        "wp_title": "Project management"
-      },
       {
         "wp_identifier": "WP1",
         "wp_title": "Enhance interoperability"
@@ -79,155 +81,781 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
-          },
-          {
-            "page": 34,
-            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool for curation of research data”."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2 - Deadline 29th February 2024 (17:00 CET)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 516.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "## Track A: Explore projects (2<sup>nd</sup> call)",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 122.0,
+                  "w": 294.0,
+                  "h": 81.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 391.0,
+                  "w": 454.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 391.0,
+                  "w": 454.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 391.0,
+                  "w": 454.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Which ETH Domain do you belong to? | EPFL    |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 365.0,
+                  "w": 186.0,
+                  "h": 74.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Function (Title) | Dr |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| Function (Title)                   | Dr    |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 76.0,
+                  "w": 257.0,
+                  "h": 74.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "Multiple, direct, and corroborated mentions of 'Guillaume' as the first name of the main applicant, including in a formal table and a support letter. The alternative ('Alain') is contextually ambiguous and not directly tied to main applicant. Therefore, 'Guillaume' is the correct extraction.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| First name(s) | Guillaume |"
-          },
-          {
-            "page": 34,
-            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool..."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Guillaume Anciaux | Applicant ID - ORD2000180",
+              "bounding_boxes": [
+                {
+                  "x": 286.0,
+                  "y": 40.0,
+                  "w": 271.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Explicit extracted references from a main applicant table and the proposal identification confirm 'Anciaux' as the main applicant's surname. The instance of 'Borel' appears in a footer and is likely not the main applicant per context. Therefore, 'Anciaux' is selected as per extracted, structured content.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Surname(s) | Anciaux |"
-          },
-          {
-            "page": 34,
-            "matching_text": "ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool..."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999998435918546,
-        "confidence": 0.9999998435918546
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Guillaume Anciaux | Applicant ID - ORD2000180",
+              "bounding_boxes": [
+                {
+                  "x": 286.0,
+                  "y": 40.0,
+                  "w": 271.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| EPFL Laboratory | EPFL ENAC IIC LSMS |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL ENAC IIC LSMS...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 536.0,
+                  "w": 104.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Postcode / Zipcode | 1015 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 589.0,
+                  "w": 500.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "EPF LASTRO\n1015 Lausanne",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 473.0,
+                  "w": 69.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| City | Lausanne |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "EPF LASTRO\n1015 Lausanne",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 183.0,
+                  "w": 69.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "EPF LASTRO\n1015 Lausanne",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 183.0,
+                  "w": 69.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Function (Title) | Dr |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| First name(s) | Guillaume |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Surname(s) | Anciaux |"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Postcode / Zipcode | 1015 |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -236,56 +864,26 @@
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Which ETH Domain do you belong to?** | EPFL |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Function (Title)** | Dr |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **First name(s)** | Volodymyr |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Surname(s)** | Savchenko |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "EPF LASTRO\n1015 Lausanne"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -294,291 +892,1489 @@
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Which ETH Domain do you belong to?** | EPFL |"
-              },
-              {
-                "page": 12,
-                "matching_text": "EPF Lausanne - EPFL, CH<br/>Laboratory of Astrophysics"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Function (Title)** | Prof. |"
-              },
-              {
-                "page": 12,
-                "matching_text": "Current position(s): Senior researcher, Full professor or similar"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8805884484569007,
-            "confidence": 0.8805884484569007
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **First name(s)** | Andrii |"
-              },
-              {
-                "page": 12,
-                "matching_text": "Andrii Neronov"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| **Surname(s)** | Neronov |"
-              },
-              {
-                "page": 12,
-                "matching_text": "Andrii Neronov"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "EPF LASTRO\n1015 Lausanne"
-              },
-              {
-                "page": 12,
-                "matching_text": "EPF Lausanne - EPFL, CH"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998948265929848,
-            "confidence": 0.9998948265929848
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
-          "reasoning": "Values combined from table and CV per EXTRACT STRATEGY, with mean confidence for function/postcode."
+          "reasoning": "Function title 'Prof.' from primary (main applicant list) as per extraction strategy; 'Senior researcher' from CV is less authoritative and may indicate secondary role/title. Other fields match. Postcode only found in primary/main list."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| Which ETH Domain do you belong to? | EPFL |"
-              },
-              {
-                "page": 16,
-                "matching_text": "EPF Lausanne - EPFL, CH<br/>EPFL Library"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| Function (Title) | Dr |"
-              },
-              {
-                "page": 16,
-                "matching_text": "Current position(s): Librarian"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| First name(s) | Alain |"
-              },
-              {
-                "page": 16,
-                "matching_text": "Alain Borel"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| Surname(s) | Borel |"
-              },
-              {
-                "page": 16,
-                "matching_text": "Alain Borel"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "EPFL SISB-SOAR\nRLC D1 220 (Rolex Learning Center)\nStation 20\n1015 Lausanne"
-              },
-              {
-                "page": 16,
-                "matching_text": "EPF Lausanne - EPFL, CH"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "Values synthesized from primary application table and extended CV listing according to extraction instructions."
+          "reasoning": "Function title 'Dr' from primary (main applicant list) as per extraction strategy; 'Librarian' from CV is possible job role but does not override the formal function/title for the applicant entry. Other fields are the same. Postcode only in primary/main list."
         }
       ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "Project title | Solidipes: an interoperable tool for curation of research data"
-          },
-          {
-            "page": 18,
-            "matching_text": "Solidipes: an interoperable tool for curation of research data"
-          },
-          {
-            "page": 33,
-            "matching_text": "the project titled *“Solidipes: an interoperable tool for curation of research data”*"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 216.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The PI of this proposal has already worked on curation aspects, with the ORD-funded project DCSM (Dissemination of Computational Solid Mechanics), leading to the development of **Solidipes**, a dat...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 433.0,
+                  "w": 467.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| Solidipes: an interoperable tool for curation of research data...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 216.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "| Solidipes: an interoperable tool for curation of research data<br/>Acronym: Solidipes |\n| ------------------------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 293.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "New targeted solutions supplementing Zenodo are: Infoscience, Living Archives, RCP, ACOUA (EPFL level), Invenio, DSpace (ETH-Domain level: in particular ETHZ Research Collection), and arXiv (Swiss/...",
+              "bounding_boxes": [
+                {
+                  "x": 97.0,
+                  "y": 318.0,
+                  "w": 440.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "With the present letter, I wish to give my full support to the ORD-explore proposal of Dr. Guillaume Anciaux, entitled \"Solidipes: an interoperable tool for curation of research data”.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 313.0,
+                  "w": 445.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "| Semester 1 | Semester 2 | Semester 3 |\n| ---------- | ---------- | ---------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.32,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "| Semester 1 | Semester 2 | Semester 3 |\n| ---------- | ---------- | ---------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.32,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "| Semester 1 | Semester 2 | Semester 3 |\n| ---------- | ---------- | ---------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.32,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "Acronym of the project | Solidipes"
-          },
-          {
-            "page": 18,
-            "matching_text": "Acronym: Solidipes"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "More inline with the current proposal, I am in charge of the maintenance and developments of the curation software Solidipes (https://gitlab.com/dcsm/solidipes).",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 230.0,
+                  "w": 455.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "More inline with the current proposal, I am in charge of the maintenance and developments of the curation software Solidipes (https://gitlab.com/dcsm/solidipes).",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 230.0,
+                  "w": 455.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "| Solidipes: an interoperable tool for curation of research data<br/>Acronym: Solidipes |\n| ------------------------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 293.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "> 1) **Generalizing** Solidipes for visualization, creation of metadata, and preparation of datasets for publication in journals (curation) to **other domains of science** (Solidipes is currently t...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 481.0,
+                  "w": 467.0,
+                  "h": 89.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
-        "reasoning": "I prioritized the abstract explicitly labeled in the RESEARCH PROPOSAL table under 'Abstract' (idx:0) as the authoritative project abstract per extraction instructions. The background and motivation text (idx:2) provides additional context but mostly expands on the rationale already adequately summarized in the abstract. Therefore, the verbatim abstract is used as the value__. Extraction confidence is the value reported in the primary source.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Achieving FAIR open-science needs reproducible scientific data and publications to be associated. While choosing the appropriate tools and storage facilities is already difficult, ensuring the quality of an open publication of datasets relies heavily on data curation procedures. Curation calls for proper data validations and annotations, which are clearly discipline dependent. This proposal aims at exploring the extension of Solidipes, a dataset curation software, to make it suitable to each scientific discipline's needs, but also to broaden the platforms (repositories) Solidipes can interact with. For this project, researchers from computational mechanics and astrophysics associate with a member of the EPFL library in order to gather the experience necessary to cover this ambitious explore project. If funded, the project's team will collaborate with the teams of Episciences (French diamond open access platform) and with Renku (Swiss platform deploying tools for reproducible and collaborative data analysis). This proposal describes how to fill gaps towards a modern and multidisciplinary ecosystem for dataset+paper publications."
-          }
-        ],
-        "parsing_confidence": 0.9999968423125041,
-        "extraction_confidence": 0.9999968423125041,
-        "confidence": 0.9999968423125041
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999007190582,
+        "confidence": 0.9999999007190582,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "This proposal aims at exploring the extension of Solidipes, a dataset curation software, to make it suitable to each scientific discipline's needs, but also to broaden the platforms (repositories)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 503.0,
+                  "h": 134.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.91543390908578,
-          "confidence": 0.91543390908578
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999993941104309,
+          "confidence": 0.9999993941104309,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 690.0,
+                    "w": 457.0,
+                    "h": 58.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 690.0,
+                    "w": 457.0,
+                    "h": 58.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 690.0,
+                    "w": 457.0,
+                    "h": 58.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| curation, repositories, astrophysics, computational mechanics, ontology, workflow, multi-disciplinary...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 366.0,
+                    "w": 446.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "| Page 1/3 | 28 February 2024, Volodymyr Savchenko, ORCID \\[iD 0000-0001-6353-0808]\\(<https://orcid.org/0000-0001-6353-0808>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "Proposed Starting Date | 1 Sep 2024"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999973388003977,
-        "confidence": 0.9999973388003977
+        "extraction_confidence": 0.9999997705516342,
+        "confidence": 0.9999997705516342,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 29 February 2024, Guillaume Anciaux, ORCID \\[iD 0000-0002-9624-5621]\\(<https://orcid.org/0000-0002-9624-5621>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "Project duration | 16"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Guillaume Anciaux\nCurrent position(s): Research associate / Scientific collaborator\nAcademic age: 16 year(s) 9 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 308.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Sep 2024...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 388.0,
+                  "w": 443.0,
+                  "h": 199.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "Total requested amount in CHF | 150000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999998919950147,
-        "confidence": 0.9999998919950147
+        "extraction_confidence": 0.99999995159684,
+        "confidence": 0.99999995159684,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Total requested amount in CHF** | 150000 |\n| --------------------------------- | ------ |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 693.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "| **A – Total Direct Costs (i + ii)**...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 101.0,
+                  "w": 701.0,
+                  "h": 289.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Total requested amount in CHF** | 150000 |\n| --------------------------------- | ------ |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 693.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "| MINISTÈRE<br/>DE L'ENSEIGNEMENT<br/>SUPÉRIEUR,<br/>DE LA RECHERCHE<br/>ET DE L'INNOVATION<br/><br/>Liberté<br/>Égalité<br/>Fraternité | cnrs | Inria | INRAE | <contact@ccsd.cnrs.fr><br/>\\[+33 (0)...",
+              "bounding_boxes": [
+                {
+                  "x": 241.0,
+                  "y": 754.0,
+                  "w": 30.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 29 February 2024, Guillaume Anciaux, ORCID \\[iD 0000-0002-9624-5621]\\(<https://orcid.org/0000-0002-9624-5621>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "</td>\n<td>1</td>\n  </tr>\n</table>",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 806.0,
+                  "w": 4.0,
+                  "h": 5.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP0. Project management"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999994859809547,
+            "confidence": 0.9999994859809547
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP0. Project management"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -587,23 +2383,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP1. Enhance interoperability"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP1. Enhance interoperability"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -612,23 +2396,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP2. Generalize to more domains"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 27,
-                "matching_text": "WP2. Generalize to more domains"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -637,53 +2409,46 @@
         },
         {
           "wp_identifier": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996970551672,
+            "confidence": 0.9999996970551672
           },
           "wp_title": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996970551672,
+            "confidence": 0.9999996970551672
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 37,
-      "num_document_tokens": 22613,
-      "num_output_tokens": 13160
-    }
+      "num_pages_extracted": 36,
+      "num_document_tokens": 22899,
+      "num_output_tokens": 8111
+    },
+    "parse_job_id": "a4c861c0-f39d-4424-a8cc-73bbbbeea9c5"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c971b375-e39d-45ec-901a-c9d090c8b656",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T12:04:36.563292+00:00",
-  "updated_at": "2025-11-11T12:07:01.021718+00:00"
+  "job_id": "b09aec4a-9375-4ce9-b7de-3771b2b4d0de",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:14:06.719542+00:00",
+  "updated_at": "2026-01-21T17:20:30.448784+00:00"
 }

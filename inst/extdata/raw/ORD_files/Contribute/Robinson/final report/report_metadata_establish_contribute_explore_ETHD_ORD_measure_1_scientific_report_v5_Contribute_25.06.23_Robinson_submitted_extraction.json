@@ -10,42 +10,42 @@
     "laboratory_department": "Department of Environmental Microbiology",
     "institution_of_main_applicant": "Eawag",
     "report": "Final",
-    "reporting_period": "01.04.2025 – 31.03.2025",
+    "reporting_period": "",
     "coapplicants": [
       {
         "name": "Martina Kalt",
         "function": "",
-        "institution": "",
+        "institution": "Eawag/UZH",
         "roles_and_main_tasks": ""
       },
       {
         "name": "Yaochun Yu",
         "function": "",
-        "institution": "",
+        "institution": "Eawag/UZH",
         "roles_and_main_tasks": ""
       },
       {
         "name": "Hans-Joachim Ruscheweyh",
         "function": "",
-        "institution": "",
+        "institution": "ETH",
         "roles_and_main_tasks": ""
       },
       {
         "name": "Kathrin Fenner",
         "function": "",
-        "institution": "",
+        "institution": "Eawag/UZH",
         "roles_and_main_tasks": ""
       },
       {
         "name": "Shinichi Sunagawa",
         "function": "",
-        "institution": "",
+        "institution": "ETH",
         "roles_and_main_tasks": ""
       },
       {
         "name": "Serina Robinson",
         "function": "",
-        "institution": "",
+        "institution": "Eawag",
         "roles_and_main_tasks": ""
       }
     ]
@@ -58,416 +58,993 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "VERBATIM EXTRACTION from 'General information', as per extraction strategy, which takes precedence over appendix headers or later mentions.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Located under 'General information' as 'Project title'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "explore_call_number": {
-        "reasoning": "Extracted '6th Contribute call', converted to integer 6.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Contribute call number: 6th Contribute call"
-          }
-        ],
+        "reasoning": "Selected the value from the 'General information' table as it is the primary and canonical location for project identification data according to the extraction strategy. The appendix material likely refers to a related sub-project or section header, but not the official project title.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project title:**                     | Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 7,
+              "matching_text": "| **ETH** zürichInterdisciplinary PhD<br/>Program System Biology | # Inferring Contaminants Biotransformation Potential of Microbial Environmental Communities by Metagenomics |   | **eawag**<br/>aquat...",
+              "bounding_boxes": [
+                {
+                  "x": 132.0,
+                  "y": 38.0,
+                  "w": 343.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 7,
+              "matching_text": "Appendix 1",
+              "bounding_boxes": [
+                {
+                  "x": 267.0,
+                  "y": 24.0,
+                  "w": 29.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Contribute call number:**            | 6th Contribute call of the ETH Domain’s ORD program                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "## 6. List of Outputs",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 101.0,
+                  "w": 96.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_starting_and_end_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "General information ... Project starting & end date: 01.04.2025 – 31.03.2025"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 01.04.2025 – 31.03.2025                                                                            |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 01.04.2025 – 31.03.2025                                                                            |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_responsible_for_project": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Applicant responsible for project: Serina Robinson"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Applicant responsible for project:** | Serina Robinson                                                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Applicant responsible for project:** | Serina Robinson                                                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function: Group leader"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function:**                          | Group leader                                                                                       |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Laboratory (and/or Department): Department of Environmental Microbiology"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**    | Department of Environmental Microbiology                                                           |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**    | Department of Environmental Microbiology                                                           |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "institution_of_main_applicant": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Institution of the applicant: Eawag"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Institution of the applicant:**      | Eawag                                                                                              |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 233.0,
+                  "y": 40.0,
+                  "w": 64.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "report": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Scientific Report Template – Final"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "reporting_period": {
-        "reasoning": "Used project start/end as reporting period; no separate period stated.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "project date range is '01.04.2025 – 31.03.2025'"
-          }
-        ],
-        "extraction_confidence": 0.9999988484214689,
-        "confidence": 0.9999988484214689
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## Scientific Report Template – Final",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 160.0,
+                  "w": 256.0,
+                  "h": 16.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "0",
+              "bounding_boxes": [
+                {
+                  "x": 381.0,
+                  "y": 41.0,
+                  "w": 93.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "coapplicants": [
         {
           "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Martina Kalt <sup>3,4</sup>"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999943192399234,
-            "confidence": 0.9999943192399234
+            "extraction_confidence": 0.9999997646287703,
+            "confidence": 0.9999997646287703
           },
           "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
+            "extraction_confidence": 0.9995538287231569,
+            "confidence": 0.9995538287231569
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
+          "reasoning": "Martina Kalt is listed as author with affiliations ³,⁴ (Department of Environmental Chemistry, Eawag; Chemistry Department, University of Zürich). However, function and roles/main tasks not stated in text. Institution field combined as per affiliation."
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Yaochun Yu<sup>3,4</sup>"
-              }
-            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.018405184098870434,
+            "confidence": 0.018405184098870434
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted directly; no explicit function or roles in text."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8989668784169765,
+            "confidence": 0.8989668784169765
+          },
           "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Hans-Joachim Ruscheweyh¹"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998432148253099,
-            "confidence": 0.9998432148253099
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Kathrin Fenner <sup>3,4</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999515968389,
-            "confidence": 0.9999999515968389
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Shinichi Sunagawa¹"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999612774708,
-            "confidence": 0.9999999612774708
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Serina Robinson²"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Verbatim author and affiliation; no function/role stated."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999996349487871,
+            "confidence": 0.999996349487871
+          },
           "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-applicant inferred from authorship. No explicit function/institution/roles for co-applicants present."
+          "reasoning": "Verbatim extraction of name & institution; role/function not specified."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995890548794822,
+            "confidence": 0.9995890548794822
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Verbatim name and institution; no function/role info available."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999858695304624,
+            "confidence": 0.9999858695304624
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Name and institution from author list, no further details provided."
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 7,
-      "num_document_tokens": 5585,
-      "num_output_tokens": 6241
-    }
+      "num_document_tokens": 5681,
+      "num_output_tokens": 4164
+    },
+    "parse_job_id": "da6034fa-43ff-4487-9d00-68448475b022"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "895bf448-8639-4f54-b854-77218fad4457",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:18:42.858860+00:00",
-  "updated_at": "2025-11-11T17:20:47.584569+00:00"
+  "job_id": "d05bcec4-5e71-4366-8e91-c7b3a4145c26",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:07:06.822504+00:00",
+  "updated_at": "2026-01-22T03:08:46.463986+00:00"
 }

@@ -22,108 +22,90 @@
     "field_metadata": {
       "project_title": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Martin Schrimpf (ORD Contribute 5th cal) – links to publications provided on 12th August 2025"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "explore_call_number": {
-        "reasoning": "Inferred from the '(ORD Contribute 5th cal)' phrase.",
+        "reasoning": "The phrase '(ORD Contribute 5th cal)' almost certainly signifies '5th call number,' inferred from context and probable typo.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "ORD Contribute 5th cal"
+            "matching_text": "*   [https://arxiv.org/pdf/2412.09115](https://2025.ccneuro.org/abstract_pdf/Al-Karkari_2025_Do_Dynamics_Matter_Neural_Alignment_A.pdf)",
+            "bounding_boxes": [
+              {
+                "x": 88.0,
+                "y": 212.0,
+                "w": 166.0,
+                "h": 11.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.32,
+              "height": 841.92
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "project_starting_and_end_date": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Inferred as the only named person and labeled as ORD Contribute (implies applicant).",
+        "reasoning": "Name extracted directly as given. VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Martin Schrimpf (ORD Contribute 5th cal)"
+            "matching_text": "**Martin Schrimpf (ORD Contribute 5th cal) – links to publications provided on 12th August 2025**",
+            "bounding_boxes": [
+              {
+                "x": 70.0,
+                "y": 71.0,
+                "w": 430.0,
+                "h": 10.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.32,
+              "height": 841.92
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "function": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "laboratory_department": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "institution_of_main_applicant": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "report": {
-        "reasoning": "Report type not mentioned, so choosing 'other'.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
         "confidence": 1.0
       },
       "reporting_period": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
@@ -131,29 +113,31 @@
     },
     "usage": {
       "num_pages_extracted": 1,
-      "num_document_tokens": 502,
-      "num_output_tokens": 760
-    }
+      "num_document_tokens": 466,
+      "num_output_tokens": 463
+    },
+    "parse_job_id": "b168c819-7954-4381-8a1c-d09d8e86a180"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "16b49449-dd26-4031-82f7-07275e5e04a8",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T16:59:57.843813+00:00",
-  "updated_at": "2025-11-11T17:00:45.345821+00:00"
+  "job_id": "046a511d-907f-4e44-be05-ebfa245d44f8",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:50:07.877322+00:00",
+  "updated_at": "2026-01-22T02:50:36.318997+00:00"
 }

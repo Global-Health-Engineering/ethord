@@ -5,112 +5,112 @@
     "websites_platforms": {
       "quantity": 4,
       "descriptions": [
-        "A dedicated website to organize and highlight the efforts and activities of PREMISE in a coherent and concise manner, including its outreach, deliverables, tools leveraged, and tutorials",
+        "Dedicated website to organize and highlight PREMISE project efforts including outreach, deliverables, tools, and tutorials",
+        "PREMISE website",
+        "PREMISE project website deliverables page",
+        "PREMISE project website outreach page",
+        "PREMISE project website tutorials page",
         "MADICES website",
         "Web-based BattINFOconverter (to be launched in June 2024)",
-        "AiiDA-Aurora integrated platform for live monitoring of calculations/experiments"
+        "BattINFOconverter web app developed within PREMISE",
+        "AiiDAlab-Aurora digital twin user interface design for experiment results inspection and plotting"
       ],
       "urls": [
         "https://ord-premise.org/",
         "https://ord-premise.org/team/",
         "https://ord-premise.org/tutorials/",
         "http://ord-premise.org/",
-        "https://madices.github.io/",
-        "https://github.com/ord-premise/interoperability-guidelines"
+        "https://madices.github.io/MADICES-2024.github.io/",
+        "https://github.com/ord-premise",
+        "https://github.com/ord-premise/interoperability-guidelines",
+        "http://batteryworkshop.eu/"
       ]
     },
     "repositories_catalogues": {
-      "quantity": 2,
+      "quantity": 3,
       "descriptions": [
         "PREMISE repos",
-        "MADICES repos (with discussions)"
+        "MADICES repos (with discussions)",
+        "OPTIMADE API enables common REST API query of over 20 different materials databases serving over 27 million crystal structures with their properties"
       ],
       "urls": [
-        "https://github.com/ord-premise",
-        "https://github.com/MADICES/MADICES-2024"
+        "https://www.optimade.org/"
       ]
     },
     "datasets_databases": {
-      "quantity": 3,
+      "quantity": 11,
       "descriptions": [
         "Aurora datasets (from publication)",
         "Zenodo archive of datasets collected at MADICES",
-        "openBIS Imaging Technology datasets containing .sxm images from Nanonis Mixed/Nanonis DAT/Nanonis SXM collections"
+        "IMAGING_DATA datasets in Nanonis Mixed Collection displayed in openBIS Imaging Technology gallery",
+        "Capacity data per sample and cycle for long_term_cycling_42V battery experiments, including multiple samples over multiple cycles"
       ],
       "urls": [
-        "https://archive.materialscloud.org/record/2024.38",
+        "https://materialscloud.org/record/2024.38",
         "https://zenodo.org/records/10990048"
       ]
     },
     "software_tools": {
-      "quantity": 16,
+      "quantity": 6,
       "descriptions": [
-        "openBIS Imaging technology plugin system to process raw scientific data (including visual modeling of 1D and 2D datasets in the ELN)",
-        "User interface for openBIS to dynamically visualize and explore 1D and 2D datasets from STM images",
-        "Customized Docker image for openBIS that supports interoperability with the AiiDAlab platform",
-        "Development of common workflow interfaces in AiiDA enabling simulations with 10+ DFT codes",
         "AiiDA calculation live monitoring feature",
         "AiiDA-Aurora plugin",
-        "AiiDAlab-aurora GUI app (also see figures in appendix)",
+        "AiiDAlab-aurora GUI app",
         "Enhanced openBIS data model",
+        "New openBIS imaging technology feature",
         "Python converter of metadata schemas into ontologized JSON-LD format",
-        "BattINFOconverter web app for coin cell battery metadata schema",
-        "AiiDA workflow management system and its integration with Aurora platform",
-        "Quantum ESPRESSO input parser tested under the MaRDA extractor ecosystem",
-        "OPTIMADE API for materials discovery, design, and data exchange",
-        "Data transfer protocol using JSON-LD and RO-Crate, semantically annotated with ontological references for platform-agnostic interoperability",
-        "tools for selecting, importing, filtering, and grouping battery samples with sample property management interface",
-        "software for custom protocol creation, experimental workflow submission, and live-monitoring parameters for battery testing",
-        "AiiDAlab-Aurora digital twin UI design: results inspection (single sample and collective plots)",
-        "AURORA Version 0.12.1 Inventory Experiment Results user interface"
+        "User interface designed for dynamic visualization and exploration of 1D and 2D datasets in openBIS",
+        "Customized Docker image for openBIS supporting interoperability with AiiDAlab platform",
+        "AiiDA workflow management system",
+        "openBIS electronic lab notebook (ELN)",
+        "AiiDAlab GUI companion (to AiiDA WFMS)",
+        "Aurora battery assembly and cycling platform",
+        "BattINFOconverter web app",
+        "OPTIMADE API",
+        "AiiDAlab-Aurora digital twin UI and associated automation for data plotting, monitoring and analysis",
+        "Python scripts and web app for converting the battery metadata schema to JSON-LD"
       ],
       "urls": [
-        "https://openbis.readthedocs.io/en/latest/software-developer-documentation/server-side-extensions/dss-imaging.html",
-        "https://github.com/MADICES/semantic-annotation",
         "https://aiida-common-workflows.readthedocs.io/",
-        "https://aiida.readthedocs.io/projects/aiida-core/en/stable/howto/run_codes.html#how-to-monitor-and-prematurely-stop-a-calculation",
+        "https://arxiv.org/abs/2312.10769",
         "https://github.com/EmpaEconversion/aiida-aurora",
         "https://github.com/EmpaEconversion/aiidalab-aurora",
-        "https://github.com/ord-premise/digital-twins-interface-design",
         "https://github.com/ord-premise/metadata-batteries/blob/main/excel_to_JSON-LD_converter.py",
-        "https://github.com/ord-premise/metadata-spectroscopy",
-        "https://github.com/BIG-MAP/BattINFO",
-        "https://aiidalab-aurora.readthedocs.io/en/latest/tutorial/experiment_builder.html#live-monitoring",
-        "https://www.optimade.org/"
+        "https://openbis.readthedocs.io/en/latest/software-developer-documentation/server-side-extensions/dss-imaging.html",
+        "https://github.com/MADICES/semantic-annotation",
+        "https://github.com/ord-premise/digital-twins-interface-design"
       ]
     },
     "models_standards": {
-      "quantity": 16,
+      "quantity": 9,
       "descriptions": [
-        "Strategy white paper on ontologizing metadata for atomistic simulations and battery experiments",
-        "Comprehensive metadata schema for STM/STS domain with nearly 600 standardized fields spanning complete research workflow",
-        "Metadata schema for coin cell battery supporting digital twins in battery research (100 fields), ontologized using EU BattINFO ontology",
-        "Specifications and draft protocols for platform-agnostic ORD interoperability developed at MADICES 2024 workshop",
-        "Guidelines for ontologizing metadata (D1.1)",
-        "Metadata schema for spectroscopy (D2.1)",
-        "Metadata schema for coin cell batteries (D3.1)",
-        "UI design recommendations for digital twins (D3.2)",
-        "Specification draft for new ORD transfer protocol",
+        "Evolving white paper on strategies to ontologize metadata for two use cases (atomistic simulations, workflow-driven battery experiments)",
+        "Comprehensive metadata schema for STM/STS (with almost 600 standardized fields) covering experimental and computational workflows",
+        "Metadata schema for coin cell batteries with 100 metadata fields, ontologized using the BattINFO ontology",
+        "Guidelines for developing UI components for digital twins in battery research (report on UI design for digital twins)",
+        "Specification drafts for a new transfer protocol to facilitate platform-agnostic ORD interoperability",
+        "Platform-agnostic standards and protocols for ORD exchange established via MADICES working groups",
         "Platform-agnostic ORD interoperability discussion records",
         "Semantic annotation of metadata discussion records",
-        "Improved PoC of openBIS-AiiDAlab interoperability",
+        "PoC of openBIS-AiiDAlab interoperability",
         "AiiDA common workflows and benchmark paper",
-        "Metadata schema for electrolysers developed in NCCR Catalysis project",
-        "Standardizing testing and reporting protocols for CO₂ electrolysis among Swiss research groups",
-        "Adoption of extended Voc4Cat vocabulary (NeXus compliant ontology) for ontology development",
-        "Metadata standards for interoperability between ELNs/LIMSs and WFMSs in materials science",
-        "Guidelines and best-practices for ontologizing metadata in open science",
-        "Newly defined metadata schema for microscopy and spectroscopy"
+        "BattINFO ontology for battery metadata",
+        "NeXus ontology for materials science",
+        "Standardized protocols for CO₂ electrolysis (NCCR Catalysis and Refuel.ch projects)",
+        "Extended Voc4Cat vocabulary developed by German community in the form of a NeXus compliant ontology",
+        "Data transfer protocol using JSON-LD and RO-Crate with ontological references"
       ],
       "urls": [
         "https://github.com/ord-premise/metadata-batteries",
-        "https://github.com/ord-premise/interoperability-guidelines/blob/main/journey-to-ontologize-metadata.md",
         "https://github.com/ord-premise/metadata-spectroscopy",
-        "https://github.com/nexusformat/NeXusOntology",
         "https://github.com/BIG-MAP/BattINFO",
         "https://github.com/ord-premise/digital-twins-interface-design",
         "https://github.com/MADICES/interop-specs",
         "https://github.com/MADICES/interop-demo",
+        "https://github.com/MADICES/semantic-annotation",
+        "https://www.researchobject.org/ro-crate/",
+        "https://emmo-repo.github.io/",
+        "https://github.com/nexusformat/NeXusOntology",
         "https://github.com/ord-premise/interoperability-guidelines",
         "https://github.com/MADICES/MADICES-2024/discussions/10",
         "https://github.com/MADICES/MADICES-2024/discussions/9",
@@ -120,31 +120,36 @@
       ]
     },
     "workshops": {
-      "quantity": 3,
+      "quantity": 8,
       "descriptions": [
-        "MADICES workshop (April 22-25, 2024, Berlin) sponsored, funded, and co-organized by PREMISE, included ontology experts and RDM platform representatives, established working groups for ORD interoperability",
-        "MADICES workshop (37 participants, 8 from PREMISE)",
+        "First workshop (2022) in the MADICES series identifying key hurdles for ORD adoption and proposing solutions",
+        "MADICES workshop held in April 22-25, 2024 in Berlin, sponsored by CECAM and PREMISE, focused on ORD interoperability standards and working groups",
         "SwissPlus EM Standards Workshop organized by OpenEM at PSI",
-        "MADICES workshop organized by PREMISE in Berlin, focused on ORD interoperability and ontology use",
-        "Battery2030+ Standards and Best Practises Workshop on June 26 2024 in Oslo, presenting PREMISE outputs"
+        "Battery2030+ Standards and Best Practises Workshop (June 2024 in Oslo)",
+        "BIG-MAP EUnified Battery Data Space workshop, Grindelwald, Switzerland (February 2024)",
+        "Swiss Battery Days 2023, Villigen, Switzerland (September 2023)",
+        "Workshop, FAIR and Open Data in NFFA-Europe Pilot and Beyond, Maier-Leibnitz Zentrum, Garching, Germany (September 2023)",
+        "Workshop, NCCR Network Ventures - Open Research Data events, Basel, Switzerland (June 2023)"
       ],
       "urls": [
+        "https://madices.github.io/docs/2022/",
         "https://madices.github.io/docs/2024",
         "https://madices.github.io/docs/2024/organizers",
         "https://github.com/orgs/MADICES/repositories",
-        "https://madices.github.io/",
-        "http://batteryworkshop.eu/"
+        "https://github.com/MADICES/interop-specs",
+        "https://github.com/MADICES/semantic-annotation"
       ]
     },
     "training_events": {
       "quantity": 6,
       "descriptions": [
-        "A guide to ontologizing metadata (video discussing benefits and challenges of ontologizing metadata in open science)",
-        "openBIS-AiiDAlab interoperability (video demonstrating open data interoperability between openBIS ELN and AiiDAlab)",
-        "Platform-agnostic ORD interoperability (video presenting new data transfer protocol using JSON-LD and RO-Crate)",
-        "openBIS imaging technology plugin (video demonstrating the generic plugin system)",
-        "AiiDAlab-Aurora: Model UI for digital twins (video demonstration for managing battery cycling experiments)",
-        "White paper explaining process of ontologizing metadata"
+        "5 tutorials and demos on the PREMISE YouTube channel and PREMISE website tutorials page",
+        "White paper explaining process of ontologizing metadata",
+        "Video tutorial: A guide to ontologizing metadata",
+        "Video demonstration: openBIS-AiiDAlab interoperability",
+        "Video: Platform-agnostic ORD interoperability demo (JSON-LD and RO-Crate with ontologies)",
+        "Demo: openBIS imaging technology plugin for visual modeling of datasets",
+        "Video: AiiDAlab-Aurora UI for digital twin battery experiments"
       ],
       "urls": [
         "https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA",
@@ -155,11 +160,11 @@
     "publications": {
       "quantity": 7,
       "descriptions": [
-        "F. Bernasconi et al., ACS Catal. 2024",
-        "P. Kraus et al., J. Mater. Chem. A, 2024",
-        "E. Bosoni et al., Nature Reviews Physics 6, 45-58 (2024)",
-        "M. L. Evans et al., arXiv preprint arXiv:2402.00572 (2024)",
-        "A. Marrazzo et al., arXiv preprint arXiv:2312.10769 (2023)",
+        "Operando observation of (Bi)carbonate precipitation during electrochemical CO₂ reduction in strongly acidic electrolytes, F. Bernasconi et al., ACS Catal. 2024",
+        "A bridge between trust and control: Computational workflows meet automated battery cycling, P. Kraus et al., J. Mater. Chem. A, 2024",
+        "How to verify the precision of density-functional-theory implementations via reproducible and universal workflows, E. Bosoni et al., Nature Reviews Physics 6, 45-58 (2024)",
+        "Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange, M. L. Evans et al., arXiv preprint arXiv:2402.00572 (2024)",
+        "The Wannier-Functions Software Ecosystem for Materials Simulations, A. Marrazzo et al., arXiv preprint arXiv:2312.10769 (2023)",
         "PREMISE standards and protocols paper (in progress)",
         "MADICES workshop paper (in progress)"
       ],
@@ -167,7 +172,6 @@
         "https://pubs.acs.org/doi/full/10.1021/acscatal.4c01884",
         "https://pubs.rsc.org/en/Content/ArticleLanding/2024/TA/D3TA06889G",
         "https://arxiv.org/abs/2402.00572",
-        "https://www.nature.com/articles/s42254-023-00655-3",
         "https://arxiv.org/abs/2312.10769",
         "https://ord-premise.org/outreach/"
       ]
@@ -186,28 +190,32 @@
       "urls": [
         "https://memento.epfl.ch/event/imx-seminar-series-innovating-the-batteries-of-the/",
         "https://battery2030.eu/news/activities/big-map-workshop-towards-a-unified-future/",
+        "https://pasc23.pasc-conference.org/",
         "https://indico.psi.ch/event/14214/",
         "https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/",
-        "https://pasc23.pasc-conference.org/",
-        "https://nccrs.github.io/basel/"
+        "https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/",
+        "https://nccrs.github.io/basel/",
+        "https://ord-premise.org/outreach/"
       ]
     },
     "outreach_activities": {
-      "quantity": 3,
+      "quantity": 7,
       "descriptions": [
-        "Dedicated website organizing outreach, deliverables, tools, and tutorials",
-        "Online videos and tutorials promoting standards and protocols",
-        "Workshop-based dissemination and public sharing of tools, examples, specifications, and protocol drafts for ORD interoperability",
+        "Online videos and tutorials published on the project website to promote standards and protocols",
+        "Interoperability playgrounds for demonstrating ORD standards",
+        "Outreach and dissemination of project activities via dedicated project website",
         "See PREMISE website outreach page for a full list of dissemination relating to the PREMISE project",
-        "Know-how exchanges between the Postdocs of PREMISE and OpenEM, participation in the Swiss+EM workshop organized by OpenEM and in MADICES organized by PREMISE"
+        "Know-how exchanges between the Postdocs of PREMISE and OpenEM, participation in the Swiss+EM workshop organized by OpenEM and in MADICES organized by PREMISE",
+        "Participation in European Open Science Cloud Technical and Semantic Interoperability Task Force",
+        "Connecting ELN Consortium, FAIRmat, and NFDI4CAT communities to adopt extended Voc4Cat vocabulary for interoperability"
       ],
       "urls": [
+        "https://ord-premise.org/tutorials/",
         "https://ord-premise.org/",
+        "https://madices.github.io/docs/2022/",
+        "https://madices.github.io/docs/2024",
         "https://ord-premise.org/outreach/",
-        "https://github.com/orgs/MADICES/repositories",
-        "https://github.com/MADICES/semantic-annotation",
-        "https://github.com/MADICES/interop-specs",
-        "https://github.com/MADICES/interop-demo"
+        "https://eosc.eu/wp-content/uploads/2024/03/Interoperability-TF-ToR.pdf"
       ]
     },
     "patents_ip": {
@@ -216,14 +224,8 @@
       "urls": []
     },
     "new_collaborations": {
-      "quantity": 10,
+      "quantity": 13,
       "descriptions": [
-        "Collaboration with Horizon Europe project BIG-MAP",
-        "Collaboration with Horizon Europe project IntelLiGent",
-        "Collaboration with ETH Board project SynFuels",
-        "Collaboration with NCCR Catalysis project SpinCat",
-        "Collaboration with SFOE SWEET project Refuel.ch",
-        "Formation of ongoing MADICES workshop working groups for developing ORD interoperability",
         "NFDI Cat consortium",
         "NFDI FAIRmat consortium",
         "Helge Stein and BIG-MAP FINALES team - autonomous platforms (batteries and beyond)",
@@ -234,21 +236,14 @@
         "Simon Bekemeier (BAM) - ORD transfer protocol",
         "Martin Held (herbie) - ORD transfer protocol",
         "Martin Starman (chemotion) - ORD transfer protocol",
-        "Strategic discussions and information exchange with OpenEM (ETH ORD Establish project)",
-        "Discussion and planned demonstrator collaboration with SINTEF representatives",
-        "Strengthened relations with the US MaRDA alliance through meetings and presentations",
-        "Workshop-connected collaboration among ELN Consortium, FAIRmat, and NFDI4CAT communities",
-        "Participation in OPTIMADE consortium meetings"
+        "Stefan Kuhn (NMRShiftDB) - ORD transfer protocol",
+        "Nikita Shepelin (PSI) - AiiDA-PLD (Pulse Laser Deposition system) integration",
+        "OpenEM Establish project (Spencer Bliven, Despoina Adamopoulou)",
+        "Strategic information exchange and common ontology development between PREMISE and OpenEM (both ETH ORD Establish projects)",
+        "Connection and collaboration between ELN Consortium, FAIRmat, and NFDI4CAT communities to develop interoperable ontologies and vocabularies",
+        "Strengthened collaboration with US MaRDA alliance by attending and presenting at their meetings"
       ],
-      "urls": [
-        "https://www.big-map.eu/",
-        "https://cordis.europa.eu/project/id/101069765",
-        "https://www.empa.ch/web/s604/synfuels",
-        "https://www.nccr-catalysis.ch/",
-        "http://refuel.ch/",
-        "https://github.com/theelnconsortium",
-        "https://www.optimade.org/"
-      ]
+      "urls": []
     },
     "industrial_collaborations": {
       "quantity": 1,
@@ -260,8 +255,7 @@
     "estimated_users": {
       "quantity": 10000,
       "descriptions": [
-        "10000+ materials researchers working on either simulations or experiments (see appendix for estimated RDM platform user counts that will benefit from PREMISE output)",
-        "AiiDA+AiiDAlab - 200; cheminfo - 200; Herbie - 5; Chemotion - 40+; PASTA - 10; datalab - 50; NMRShiftDB - 6000+; NOMAD - 4000+; openBIS - 1000+"
+        "10000+ materials researchers working on either simulations or experiments (see appendix for estimated RDM platform user counts that will benefit from PREMISE output)"
       ],
       "urls": []
     },
@@ -280,1921 +274,984 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "A [dedicated website](https://ord-premise.org/) has been published"
-            },
-            {
-              "page": 7,
-              "matching_text": "* Web-based BattINFOconverter (to be launched in June 2024)"
-            },
-            {
-              "page": 13,
-              "matching_text": "Figure 3: PREMISE website deliverables page"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9537793679668313,
-          "confidence": 0.9481120349874979
+          "extraction_confidence": 0.9994482333834518,
+          "confidence": 0.9994482333834518
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A [dedicated website](https://ord-premise.org/) has been published to organize and highlight the efforts and activities of PREMISE in a coherent and concise manner, including its outreach, deliverables, tools leveraged, and tutorials"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.930783206626293,
-            "confidence": 0.930783206626293
+            "extraction_confidence": 0.6224134187360892,
+            "confidence": 0.6224134187360892
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* Web-based BattINFOconverter (to be launched in June 2024)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9980183067174352,
-            "confidence": 0.9980183067174352
+            "extraction_confidence": 0.999691726205446,
+            "confidence": 0.999691726205446
           },
           {
-            "extraction_confidence": 0.9267268852542995,
-            "confidence": 0.9267268852542995
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9111441144439928,
+            "confidence": 0.9111441144439928
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9757382931709186,
+            "confidence": 0.9757382931709186
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9888800919944831,
+            "confidence": 0.9888800919944831
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.996156440317385,
+            "confidence": 0.996156440317385
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999837457290803,
+            "confidence": 0.9999837457290803
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9743294154333972,
+            "confidence": 0.9743294154333972
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.657226747935792,
+            "confidence": 0.657226747935792
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A [dedicated website](https://ord-premise.org/) has been published"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999985248690237,
-            "confidence": 0.9999985248690237
+            "extraction_confidence": 0.9997953438667164,
+            "confidence": 0.9997953438667164
           },
           {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "on the [team ](https://ord-premise.org/team/)page of the PREMISE website"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9799318609542881,
-            "confidence": 0.9799318609542881
+            "extraction_confidence": 0.9614640544598116,
+            "confidence": 0.9614640544598116
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "material [published ](https://ord-premise.org/tutorials/)on our website"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999505911661634,
-            "confidence": 0.9999505911661634
+            "extraction_confidence": 0.9999758404309982,
+            "confidence": 0.9999758404309982
           },
           {
-            "extraction_confidence": 0.9999995806719688,
-            "confidence": 0.9999995806719688
-          },
-          {
-            "extraction_confidence": 0.9999999723410504,
-            "confidence": 0.9999999723410504
-          },
-          {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "https://github.com/ord-premise/interoperability-guidelines"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9988313873730982,
-            "confidence": 0.9988313873730982
+            "extraction_confidence": 0.9959487871362397,
+            "confidence": 0.9959487871362397
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9451473381385587,
+            "confidence": 0.9451473381385587
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9657535397698334,
+            "confidence": 0.9657535397698334
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999931458416125,
+            "confidence": 0.9999931458416125
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9102796095853557,
+            "confidence": 0.9102796095853557
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION and careful deduplication of repeated website/platform mentions across evidence. Quantity sum based on unique new/enhanced sites/platforms: PREMISE website, MADICES website, BattINFOconverter, and AiiDA-Aurora integrated platform."
+        "reasoning": "Cross-referenced all extractions. De-duplicated overlapping entries for PREMISE website (counting subpages as part of one web platform); included unique platforms and websites (MADICES, BattINFOconverter, AiiDAlab-Aurora UI) described in multiple records. Combined all descriptions and URLs, preserving confidence scores as found."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Item = New or enhanced repositories and/or catalogs: #=2; describes two repositories with URLs."
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9996856381176576,
+          "confidence": 0.9996856381176576
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "PREMISE repos"
-              }
-            ],
-            "extraction_confidence": 0.999835724889187,
-            "confidence": 0.999835724889187
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999911305651474,
+            "confidence": 0.9999911305651474
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "MADICES repos (with discussions)"
-              }
-            ],
-            "extraction_confidence": 0.9999997914202605,
-            "confidence": 0.9999997914202605
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999993656930836,
+            "confidence": 0.9999993656930836
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.583404908434083,
+            "confidence": 0.583404908434083
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://github.com/ord-premise"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://github.com/MADICES/MADICES-2024"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999976799194,
+            "confidence": 0.99999976799194
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "Entries on pages 5-15 (idx 1 and 2) explicitly enumerate outputs categorized as new or enhanced repositories/catalogues: two internal project repositories and the OPTIMADE API service. No URLs reported for PREMISE or MADICES, but explicit OPTIMADE URL is included. Quantities are summed as there is no content overlap. Remaining snippets state no relevant outputs, so data is complete."
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Item = New or enhanced datasets and/or databases: #=2; two items listed with links."
-            },
-            {
-              "page": 12,
-              "matching_text": "Figure 2: openBIS Imaging Technology dataset viewer of a dataset containing .sxm images"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.982232187347972,
-          "confidence": 0.982232187347972
+          "extraction_confidence": 0.9848941344734212,
+          "confidence": 0.9848941344734212
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Item = New or enhanced datasets and/or databases: #=2; two items listed with links."
-              }
-            ],
-            "extraction_confidence": 0.9999999106239109,
-            "confidence": 0.9999999106239109
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9966783922486084,
+            "confidence": 0.9966783922486084
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Item = New or enhanced datasets and/or databases: #=2; two items listed with links."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "Figure 2: openBIS Imaging Technology dataset viewer of a dataset containing .sxm images"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.49292358103391387,
-            "confidence": 0.49292358103391387
+            "extraction_confidence": 0.7341946071460458,
+            "confidence": 0.7341946071460458
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.3956436816506122,
+            "confidence": 0.3956436816506122
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Item = New or enhanced datasets and/or databases: #=2; two items listed with links."
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.988416087830343,
+            "confidence": 0.988416087830343
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Item = New or enhanced datasets and/or databases: #=2; two items listed with links."
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999758900487,
+            "confidence": 0.999999758900487
           }
         ],
-        "reasoning": "Combined datasets/databases from idx 1 (2 outputs, both with URLs) and idx 2 (1 openBIS Imaging dataset), for total of 3. All other sections provide insufficient data. Confidence scores were averaged where required."
+        "reasoning": "Calculated quantity by summing all datasets reported across idx:1 (2 datasets with URLs/descriptions), idx:2 (8 datasets, inferred from openBIS display, with a single summary description), and idx:4 (1 new dataset from experiment sample tables, with a description). Used all source confidence scores as provided; mean for overall quantity confidence. All available descriptions and URLs are presented (no duplicates)."
       },
       "software_tools": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "A new openBIS plugin system has been implemented, [named Imaging](https://openbis.readthedocs.io/en/latest/software-developer-documentation/server-side-extensions/dss-imaging.html) technology (see also Figure 1 and 2 below), to process raw scientific data."
-            },
-            {
-              "page": 7,
-              "matching_text": "* Enhanced openBIS data model"
-            },
-            {
-              "page": 10,
-              "matching_text": "BattINFOconverter web app developed within PREMISE"
-            },
-            {
-              "page": 11,
-              "matching_text": "https://www.optimade.org/"
-            },
-            {
-              "page": 14,
-              "matching_text": "OPTIMADE API, a REST API to provide access to crystal structure data"
-            },
-            {
-              "page": 15,
-              "matching_text": "openBIS imaging technology plugin"
-            },
-            {
-              "page": 15,
-              "matching_text": "AiiDAlab-Aurora: Model UI for digital twins"
-            },
-            {
-              "page": 15,
-              "matching_text": "a new data transfer protocol using JSON-LD and RO-Crate, both semantically annotated..."
-            },
-            {
-              "page": 16,
-              "matching_text": "Importing, filtering, viewing, and grouping battery samples"
-            },
-            {
-              "page": 17,
-              "matching_text": "AiiDAlab-Aurora digital twin UI design: experimental workflow submission"
-            },
-            {
-              "page": 18,
-              "matching_text": "AiiDAlab-Aurora digital twin UI design: results inspection (single sample and collective plots)"
-            },
-            {
-              "page": 18,
-              "matching_text": "AURORA\nVersion 0.12.1\nInventory\tExperiment\tResults"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.7682,
-          "confidence": 0.7682
+          "extraction_confidence": 0.9900138060726403,
+          "confidence": 0.9900138060726403
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A new openBIS plugin system has been implemented, [named Imaging](https://openbis.readthedocs.io/en/latest/software-developer-documentation/server-side-extensions/dss-imaging.html) technology (see also Figure 1 and 2 below), to process raw scientific data."
-              },
-              {
-                "page": 15,
-                "matching_text": "openBIS electronic lab notebook (ELN) new generic imaging technology plugin system"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8216,
-            "confidence": 0.8216
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.5355410985347927,
-            "confidence": 0.5355410985347927
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "culminating in a customized Docker image for openBIS that supports interoperability with the AiiDAlab platform"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9433492469870055,
-            "confidence": 0.9433492469870055
+            "extraction_confidence": 0.9999999382828608,
+            "confidence": 0.9999999382828608
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "development of common workflow interfaces in AiiDA, where the same input can be used to launch simulations with over 10 different DFT codes"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6253666870696997,
-            "confidence": 0.6253666870696997
+            "extraction_confidence": 0.9999997824719922,
+            "confidence": 0.9999997824719922
           },
           {
-            "extraction_confidence": 0.9999999723410504,
-            "confidence": 0.9999999723410504
-          },
-          {
-            "extraction_confidence": 0.9999998361083049,
-            "confidence": 0.9999998361083049
-          },
-          {
-            "extraction_confidence": 0.99633988389964,
-            "confidence": 0.99633988389964
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* Enhanced openBIS data model"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999677312256,
             "confidence": 0.9999999677312256
           },
           {
-            "extraction_confidence": 0.9999983059770078,
-            "confidence": 0.9999983059770078
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "BattINFOconverter web app developed within PREMISE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6665003795326063,
-            "confidence": 0.6665003795326063
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.6782320980632228,
-            "confidence": 0.6782320980632228
-          },
-          {
-            "extraction_confidence": 0.8487048395613253,
-            "confidence": 0.8487048395613253
-          },
-          {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "OPTIMADE API, a REST API to provide access to crystal structure data"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8700470412830688,
-            "confidence": 0.8700470412830688
+            "extraction_confidence": 0.9999994383818492,
+            "confidence": 0.9999994383818492
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "a new data transfer protocol using JSON-LD and RO-Crate, both semantically annotated..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8036880517986228,
-            "confidence": 0.8036880517986228
+            "extraction_confidence": 0.8020749521278082,
+            "confidence": 0.8020749521278082
           },
           {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "Importing, filtering, viewing, and grouping battery samples"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.22244387209639332,
-            "confidence": 0.22244387209639332
+            "extraction_confidence": 0.8600374431830551,
+            "confidence": 0.8600374431830551
           },
           {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "experimental workflow submission"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.2859892493061559,
-            "confidence": 0.2859892493061559
+            "extraction_confidence": 0.9997428884458166,
+            "confidence": 0.9997428884458166
           },
           {
-            "citation": [
-              {
-                "page": 18,
-                "matching_text": "AiiDAlab-Aurora digital twin UI design: results inspection (single sample and collective plots)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9674139419689515,
-            "confidence": 0.9674139419689515
+            "extraction_confidence": 0.9923809864766173,
+            "confidence": 0.9923809864766173
           },
           {
-            "citation": [
-              {
-                "page": 18,
-                "matching_text": "AURORA\nVersion 0.12.1\nInventory\tExperiment\tResults"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7890401224381218,
-            "confidence": 0.7890401224381218
+            "extraction_confidence": 0.5702853584938214,
+            "confidence": 0.5702853584938214
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8454249979438776,
+            "confidence": 0.8454249979438776
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9925320652721049,
+            "confidence": 0.9925320652721049
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9502553090740563,
+            "confidence": 0.9502553090740563
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.39797783105162254,
+            "confidence": 0.39797783105162254
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4372013430048686,
+            "confidence": 0.4372013430048686
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[named Imaging](https://openbis.readthedocs.io/en/latest/software-developer-documentation/server-side-extensions/dss-imaging.html)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999922554941,
-            "confidence": 0.9999999922554941
+            "extraction_confidence": 0.9999584700603728,
+            "confidence": 0.9999584700603728
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[examples ](https://github.com/MADICES/semantic-annotation)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9990925169315342,
-            "confidence": 0.9990925169315342
+            "extraction_confidence": 0.9902647832680554,
+            "confidence": 0.9902647832680554
           },
           {
-            "extraction_confidence": 0.9999985581094775,
-            "confidence": 0.9999985581094775
-          },
-          {
-            "extraction_confidence": 0.8740213932190415,
-            "confidence": 0.8740213932190415
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 0.9999998612453237,
-            "confidence": 0.9999998612453237
-          },
-          {
-            "extraction_confidence": 0.9999995210701442,
-            "confidence": 0.9999995210701442
-          },
-          {
-            "extraction_confidence": 0.99999988469153,
-            "confidence": 0.99999988469153
-          },
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "https://github.com/BIG-MAP/BattINFO"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9990709972997182,
-            "confidence": 0.9990709972997182
+            "extraction_confidence": 0.999044963941043,
+            "confidence": 0.999044963941043
           },
           {
-            "extraction_confidence": 0.9931708359205167,
-            "confidence": 0.9931708359205167
-          },
-          {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "https://www.optimade.org/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.869998094835466,
-            "confidence": 0.869998094835466
+            "extraction_confidence": 0.9999998193436243,
+            "confidence": 0.9999998193436243
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9195660408881375,
+            "confidence": 0.9195660408881375
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999981803614904,
+            "confidence": 0.9999981803614904
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9654374469429181,
+            "confidence": 0.9654374469429181
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9986747692121786,
+            "confidence": 0.9986747692121786
           }
         ],
-        "reasoning": "Descriptions and URLs have been deduplicated and unified from all five JSON objects, using indices and page ranges to maintain correct order and completeness. Repeating items (such as openBIS imaging plugin and associated UIs) are combined under a single, most complete description. All unique software, hardware, and data protocol outputs are counted at a 'user-facing tool/module' level, yielding 16 distinct reported outputs. All supporting citations have been provided as observed in the source text. All URLs are included without duplication. Confidence scores are carried over as reported in input records, and for combined or repeated items an average or most representative value is used."
+        "reasoning": "Structured table at idx 1 summarized all key outputs with high confidence; idx 0 and 2 contain overlapping and synonymous tools, but do not exceed the unique count of 6 as represented in the table. Unique descriptions included for completeness; duplicates due to synonymy/phrasing were checked and merged. URLs drawn from both idx 0 and idx 1, omitting duplicates. Some low-confidence or partially duplicative entries are included in descriptions for completeness but not counted as new unique tools if already represented."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "An evolving white paper on strategies to ontologize metadata has been written. The paper describes a stepwise process of developing metadata schemas for two use cases"
-            },
-            {
-              "page": 3,
-              "matching_text": "a [comprehensive metadata](https://github.com/ord-premise/metadata-spectroscopy) schema (currently with almost 600 standardized fields) for the domain of scanning tunneling microscopy and spectroscopy (STM/STS) to encompass the entirety of the research workflow"
-            },
-            {
-              "page": 10,
-              "matching_text": "ontologized metadata schema for coin cell batteries implementing the BattINFO ontology"
-            },
-            {
-              "page": 10,
-              "matching_text": "metadata schema for electrolysers will be promoted and developed further"
-            },
-            {
-              "page": 10,
-              "matching_text": "NCCR Catalysis aims at standardizing testing and reporting protocols for CO₂ electrolysis"
-            },
-            {
-              "page": 13,
-              "matching_text": "Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs)"
-            },
-            {
-              "page": 15,
-              "matching_text": "guidelines and best-practices developed in PREMISE for providing semantic meaning"
-            },
-            {
-              "page": 15,
-              "matching_text": "newly defined metadata schema for microscopy and spectroscopy developed in PREMISE"
-            },
-            {
-              "page": 7,
-              "matching_text": "* Metadata schema for spectroscopy (D2.1)"
-            },
-            {
-              "page": 7,
-              "matching_text": "* UI design recommendations for digital twins (D3.2)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.8628120741410121,
-          "confidence": 0.8628120741410121
+          "extraction_confidence": 0.7106345737741626,
+          "confidence": 0.7106345737741626
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "An evolving white paper on strategies to ontologize metadata has been written. The paper describes a stepwise process of developing metadata schemas for two use cases"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.3763870505701064,
-            "confidence": 0.3763870505701064
+            "extraction_confidence": 0.6453649399004416,
+            "confidence": 0.6453649399004416
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "a [comprehensive metadata](https://github.com/ord-premise/metadata-spectroscopy) schema (currently with almost 600 standardized fields) for the domain of scanning tunneling microscopy and spectroscopy (STM/STS) to encompass the entirety of the research workflow"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.39116856055470905,
-            "confidence": 0.39116856055470905
+            "extraction_confidence": 0.5919700174954956,
+            "confidence": 0.5919700174954956
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "ontologized metadata schema for coin cell batteries implementing the BattINFO ontology"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7316682113295709,
-            "confidence": 0.7316682113295709
+            "extraction_confidence": 0.7336734575419213,
+            "confidence": 0.7336734575419213
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "specification](https://github.com/MADICES/interop-specs) drafts for [(and ](https://github.com/MADICES/interop-demo)demo of) a new transfer protocol to facilitate platform-agnostic ORD interoperability"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4688186697918103,
-            "confidence": 0.4688186697918103
+            "extraction_confidence": 0.560739855018631,
+            "confidence": 0.560739855018631
           },
           {
-            "extraction_confidence": 0.9999992985612254,
-            "confidence": 0.9999992985612254
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* Metadata schema for spectroscopy (D2.1)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999210369057,
-            "confidence": 0.9999999210369057
+            "extraction_confidence": 0.9659448077659373,
+            "confidence": 0.9659448077659373
           },
           {
-            "extraction_confidence": 0.9999998659269873,
-            "confidence": 0.9999998659269873
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* UI design recommendations for digital twins (D3.2)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999838656127,
-            "confidence": 0.9999999838656127
+            "extraction_confidence": 0.4081998447221928,
+            "confidence": 0.4081998447221928
           },
           {
-            "extraction_confidence": 0.9999998765657254,
-            "confidence": 0.9999998765657254
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998118933923,
+            "confidence": 0.9999998118933923
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 0.9978605765776207,
-            "confidence": 0.9978605765776207
-          },
-          {
-            "extraction_confidence": 0.9999947625494683,
-            "confidence": 0.9999947625494683
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "metadata schema for electrolysers will be promoted and developed further"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4472098124674087,
-            "confidence": 0.4472098124674087
+            "extraction_confidence": 0.7755011217202475,
+            "confidence": 0.7755011217202475
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "NCCR Catalysis aims at standardizing testing and reporting protocols for CO₂ electrolysis"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.831113213420288,
-            "confidence": 0.831113213420288
+            "extraction_confidence": 0.9999998621940971,
+            "confidence": 0.9999998621940971
           },
           {
-            "extraction_confidence": 0.5103156375190018,
-            "confidence": 0.5103156375190018
-          },
-          {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8136259678702529,
-            "confidence": 0.8136259678702529
+            "extraction_confidence": 0.7140990140777458,
+            "confidence": 0.7140990140777458
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "guidelines and best-practices developed in PREMISE for providing semantic meaning"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9101964339418397,
-            "confidence": 0.9101964339418397
+            "extraction_confidence": 0.8339066084877736,
+            "confidence": 0.8339066084877736
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "newly defined metadata schema for microscopy and spectroscopy developed in PREMISE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.909473150212561,
-            "confidence": 0.909473150212561
+            "extraction_confidence": 0.6492082601976729,
+            "confidence": 0.6492082601976729
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6757925992068559,
+            "confidence": 0.6757925992068559
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8773498490297327,
+            "confidence": 0.8773498490297327
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "[metadata](https://github.com/ord-premise/metadata-batteries) schema and exchange standards"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.97296461566876,
-            "confidence": 0.97296461566876
+            "extraction_confidence": 0.9607510932618493,
+            "confidence": 0.9607510932618493
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "([white](https://github.com/ord-premise/interoperability-guidelines/blob/main/journey-to-ontologize-metadata.md) papers"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9700504289765225,
-            "confidence": 0.9700504289765225
+            "extraction_confidence": 0.8671201613268467,
+            "confidence": 0.8671201613268467
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "[comprehensive metadata](https://github.com/ord-premise/metadata-spectroscopy) schema"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.997438251644734,
-            "confidence": 0.997438251644734
+            "extraction_confidence": 0.9783150950442899,
+            "confidence": 0.9783150950442899
           },
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "ontological frameworks [(e.g. ](https://github.com/nexusformat/NeXusOntology)NeXus)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.960831083805384,
-            "confidence": 0.960831083805384
+            "extraction_confidence": 0.9972600466056084,
+            "confidence": 0.9972600466056084
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "https://github.com/BIG-MAP/BattINFO"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9895726679645764,
-            "confidence": 0.9895726679645764
+            "extraction_confidence": 0.9971456041439557,
+            "confidence": 0.9971456041439557
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A [report](https://github.com/ord-premise/digital-twins-interface-design) on UI design for digital twins has been written"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9495384278615154,
-            "confidence": 0.9495384278615154
+            "extraction_confidence": 0.9943029770527769,
+            "confidence": 0.9943029770527769
           },
           {
-            "extraction_confidence": 0.9927235432636736,
-            "confidence": 0.9927235432636736
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[(and ](https://github.com/MADICES/interop-demo)demo of) a new transfer protocol"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9982228975650289,
-            "confidence": 0.9982228975650289
+            "extraction_confidence": 0.9186537436310075,
+            "confidence": 0.9186537436310075
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.885258621382058,
+            "confidence": 0.885258621382058
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6723773760353685,
+            "confidence": 0.6723773760353685
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999917327789212,
+            "confidence": 0.9999917327789212
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999994933989034,
+            "confidence": 0.9999994933989034
+          },
+          {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999518468037936,
+            "confidence": 0.9999518468037936
+          },
+          {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999998764193389,
             "confidence": 0.9999998764193389
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "extraction_confidence": 0.9999958884308178,
-            "confidence": 0.9999958884308178
-          },
-          {
-            "extraction_confidence": 0.9999996310000917,
-            "confidence": 0.9999996310000917
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "https://github.com/nfdi4cat/voc4cat"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999139178864669,
-            "confidence": 0.9999139178864669
+            "extraction_confidence": 0.999996549991155,
+            "confidence": 0.999996549991155
           }
         ],
-        "reasoning": "All JSON blocks pertain to the requested category. Main challenge was deduplication, as similar outputs (e.g., coin cell battery schema, ORD protocols) appear in multiple entries. Description details were preserved when unique. The quantity reflects the count of unique described outputs."
+        "reasoning": "Combined all relevant and unique model, standard, guideline, workflow, protocol, and best practice outputs from all sections. Deduplicated by description and URL; confidence for duplicates is averaged when from multiple sources. Highest quantity (9) comes from tabular summary (idx 1), which aligns with number of uniquely described outputs, though additional semantic standards and protocols are also described in extended narrative in idx 2. All relevant URLs across segments are aggregated. No outputs for idx 3 and 4."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "[The workshop](https://madices.github.io/docs/2024) (sponsored by CECAM, and partially funded [and co-organized](https://madices.github.io/docs/2024/organizers) by PREMISE) was held on April 22-25 in Berlin."
-            },
-            {
-              "page": 10,
-              "matching_text": "SwissPlus EM Standards Workshop organized by OpenEM at PSI, as well as the MADICES workshop organized by PREMISE in Berlin."
-            },
-            {
-              "page": 10,
-              "matching_text": "Battery2030+ Standards and Best Practises Workshop on June 26 2024 in Oslo"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.999962426062288,
-          "confidence": 0.999962426062288
+          "extraction_confidence": 0.904079001951712,
+          "confidence": 0.904079001951712
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[The workshop](https://madices.github.io/docs/2024) (sponsored by CECAM, and partially funded [and co-organized](https://madices.github.io/docs/2024/organizers) by PREMISE) was held on April 22-25 in Berlin."
-              }
-            ],
-            "extraction_confidence": 0.6857586034536719,
-            "confidence": 0.6857586034536719
-          },
-          {
-            "extraction_confidence": 0.9999999610439257,
-            "confidence": 0.9999999610439257
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "SwissPlus EM Standards Workshop organized by OpenEM at PSI"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9974223368520685,
-            "confidence": 0.9974223368520685
+            "extraction_confidence": 0.6779177933498898,
+            "confidence": 0.6779177933498898
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "MADICES workshop organized by PREMISE in Berlin"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5336645985753082,
-            "confidence": 0.5336645985753082
+            "extraction_confidence": 0.6400523935198066,
+            "confidence": 0.6400523935198066
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Battery2030+ Standards and Best Practises Workshop on June 26 2024 in Oslo"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7404462125244955,
-            "confidence": 0.7404462125244955
+            "extraction_confidence": 0.9971812140848193,
+            "confidence": 0.9971812140848193
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7084659741113396,
+            "confidence": 0.7084659741113396
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9354200236501454,
+            "confidence": 0.9354200236501454
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9761592760565432,
+            "confidence": 0.9761592760565432
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9874820863421203,
+            "confidence": 0.9874820863421203
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9991778322739823,
+            "confidence": 0.9991778322739823
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[The workshop](https://madices.github.io/docs/2024)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997195521447158,
-            "confidence": 0.9997195521447158
+            "extraction_confidence": 0.9999876435500253,
+            "confidence": 0.9999876435500253
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[and co-organized](https://madices.github.io/docs/2024/organizers) by PREMISE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999134658364272,
-            "confidence": 0.999134658364272
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[The outcomes](https://github.com/orgs/MADICES/repositories) of the workshop are publicly available"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999974791251283,
-            "confidence": 0.9999974791251283
-          },
-          {
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "http://batteryworkshop.eu/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9970537379119098,
-            "confidence": 0.9970537379119098
+            "extraction_confidence": 0.9993374601286312,
+            "confidence": 0.9993374601286312
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996290710609108,
+            "confidence": 0.9996290710609108
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8148347186952354,
+            "confidence": 0.8148347186952354
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.933317769029699,
+            "confidence": 0.933317769029699
           }
         ],
-        "reasoning": "Extracted three distinct workshops based on unique names and descriptions (MADICES, SwissPlus EM Standards, Battery2030+). Deduplicated overlapping references to the MADICES workshop across sources; included all descriptions and URLs with supporting citations and confidence values. Verbatim extraction from provided entries."
+        "reasoning": "Cross-referenced named workshops across all segments, removed duplicates, and retained only unique, properly described scientific workshops. Compiled all valid URLs without duplication from available segments. Used provided confidence scores as given."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Training and educational events ... 5 tutorials and demos on PREMISE YouTube, PREMISE website tutorials page, and White paper"
-            },
-            {
-              "page": 15,
-              "matching_text": "A guide to ontologizing metadata; openBIS-AiiDAlab interoperability; Platform-agnostic ORD interoperability; openBIS imaging technology plugin; AiiDAlab-Aurora: Model UI for digital twins"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "A guide to ontologizing metadata"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7253944625547843,
-            "confidence": 0.7253944625547843
+            "extraction_confidence": 0.9980216280792248,
+            "confidence": 0.9980216280792248
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "openBIS-AiiDAlab interoperability"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8509804942382975,
-            "confidence": 0.8509804942382975
+            "extraction_confidence": 0.999994173969078,
+            "confidence": 0.999994173969078
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "Platform-agnostic ORD interoperability"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9168796951832693,
-            "confidence": 0.9168796951832693
+            "extraction_confidence": 0.8429352866853632,
+            "confidence": 0.8429352866853632
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "openBIS imaging technology plugin"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.39300289229423024,
-            "confidence": 0.39300289229423024
+            "extraction_confidence": 0.7920160892886736,
+            "confidence": 0.7920160892886736
           },
           {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "AiiDAlab-Aurora: Model UI for digital twins"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8056479039755339,
-            "confidence": 0.8056479039755339
+            "extraction_confidence": 0.5447479948718073,
+            "confidence": 0.5447479948718073
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "White paper explaining process of ontologizing metadata"
-              }
-            ],
-            "extraction_confidence": 0.9999996208765738,
-            "confidence": 0.9999996208765738
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5669885292944304,
+            "confidence": 0.5669885292944304
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7102631365073584,
+            "confidence": 0.7102631365073584
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "PREMISE YouTube channel"
-              }
-            ],
-            "extraction_confidence": 0.9999999915820588,
-            "confidence": 0.9999999915820588
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999812165224,
+            "confidence": 0.9999999812165224
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "PREMISE website tutorials page"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999068954651,
+            "confidence": 0.9999999068954651
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "White paper explaining process of ontologizing metadata"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
-        "reasoning": "Descriptions and URLs are aggregated from idx 1 (summary, page 7) and idx 3 (details, page 15). The five tutorial/demo descriptions are directly from idx 3, which correspond to the aggregate '5 tutorials and demos' noted on page 7. The white paper is separately described and not a duplicate. Full URLs are included from idx 1. Supporting citations cover both summary and detailed source references. Confidence is reported per original extraction."
+        "reasoning": "Used the explicit count from the summary table (idx 1) for quantity. Descriptions are aggregated from both the summary and the more granular listings further in the document (idx 2), avoiding double-counting but including all relevant information as descriptions. URLs are gathered from the table (idx 1). All confidence scores are reported as in the source data. This represents the comprehensive set available based on provided extractions."
       },
       "publications": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Page 7: Item = Scientific publications... #=7, 5 publications with author names and sources, plus 2 'in progress' and a website for updated list; multiple URLs."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "F. Bernasconi et al., ACS Catal. 2024"
-              },
-              {
-                "page": 14,
-                "matching_text": "Operando observation of (Bi)carbonate precipitation during electrochemical CO₂ reduction in strongly acidic electrolytes"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9720106,
-            "confidence": 0.9720106
+            "extraction_confidence": 0.9923926308977178,
+            "confidence": 0.9923926308977178
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "P. Kraus et al., J. Mater. Chem. A, 2024"
-              },
-              {
-                "page": 14,
-                "matching_text": "A bridge between trust and control: Computational workflows meet automated battery cycling"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99985108,
-            "confidence": 0.99985108
+            "extraction_confidence": 0.9999693401129258,
+            "confidence": 0.9999693401129258
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "E. Bosoni et al., Nature Reviews Physics 6, 45-58 (2024)"
-              },
-              {
-                "page": 4,
-                "matching_text": "see Bosoni et al., Nat. Rev. Phys. (2024)"
-              },
-              {
-                "page": 14,
-                "matching_text": "How to verify the precision of density-functional-theory implementations via reproducible and universal workflows"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8899,
-            "confidence": 0.8899
+            "extraction_confidence": 0.9997718375550008,
+            "confidence": 0.9997718375550008
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "M. L. Evans et al., arXiv preprint arXiv:2402.00572 (2024)"
-              },
-              {
-                "page": 14,
-                "matching_text": "Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999637,
-            "confidence": 0.9999637
+            "extraction_confidence": 0.9998832119206188,
+            "confidence": 0.9998832119206188
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "A. Marrazzo et al., arXiv preprint arXiv:2312.10769 (2023)"
-              },
-              {
-                "page": 14,
-                "matching_text": "The Wannier-Functions Software Ecosystem for Materials Simulations"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999965,
-            "confidence": 0.9999965
+            "extraction_confidence": 0.9999951695175171,
+            "confidence": 0.9999951695175171
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* PREMISE standards and protocols paper (in progress)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999995,
-            "confidence": 0.99999995
+            "extraction_confidence": 0.9999998713396799,
+            "confidence": 0.9999998713396799
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "* MADICES workshop paper (in progress)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999826,
-            "confidence": 0.99999826
+            "extraction_confidence": 0.9999235324855731,
+            "confidence": 0.9999235324855731
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.99999997,
-            "confidence": 0.99999997
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.99999998,
-            "confidence": 0.99999998
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999365689361516,
+            "confidence": 0.9999365689361516
           },
           {
-            "extraction_confidence": 0.99980958,
-            "confidence": 0.99980958
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999871518820374,
+            "confidence": 0.9999871518820374
           },
           {
-            "extraction_confidence": 0.99999998,
-            "confidence": 0.99999998
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.99999975,
-            "confidence": 0.99999975
-          },
-          {
-            "extraction_confidence": 0.99999981,
-            "confidence": 0.99999981
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998386257665305,
+            "confidence": 0.9998386257665305
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION. The 7 scientific publications (5 published, 2 in progress) are directly listed and described with author/source or summary on pages 7 and 14. Duplicates across the different sections are merged, and URLs associated as per page 7. Zero publications are explicitly reported on pages 15+ and 18 (as expected), confirming completeness for this standard output."
+        "reasoning": "Most complete and current data are at idx=1 (p.5-9) with 7 publications (including works in progress) and 5 URLs. Descriptions at idx=2 (p.9-15) provide fuller titles and overlap with idx=1, so preference is given to longer descriptions and all unique entries are included. Lower idx and higher page locations reference these but add no new distinct data. VERBATIM EXTRACTION for those identified with detailed listings; duplicates removed in combined output."
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Presentations, #=7. Individual presentations with specific titles, speakers, and event links; full list split over page break."
-            },
-            {
-              "page": 14,
-              "matching_text": "Presentations\n\n*   **Innovating the batteries of the future**\n    Corsin Battaglia (invited)\n    EPFL IMX Seminar\n    Lausanne, Switzerland (April 2024)\n    > Overview of research activities at Empa's laboratory Materials for Energy Conversion including..."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Innovating the batteries of the future - Corsin Battaglia, EPFL IMX 2024 seminar"
-              }
-            ],
-            "extraction_confidence": 0.9999813664239241,
-            "confidence": 0.9999813664239241
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999922046329478,
+            "confidence": 0.9999922046329478
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Towards an autonomous robotic battery innovation platform - Corsin Battaglia, Edan Bainglass, BIG-MAP EUnified Battery Data Space 2024 workshop"
-              }
-            ],
-            "extraction_confidence": 0.9995321460394814,
-            "confidence": 0.9995321460394814
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9984024697924767,
+            "confidence": 0.9984024697924767
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Driving Robotic Battery Experiment Workflows with AiiDA - Edan Bainglass, Swiss Battery Days 2023 seminar"
-              }
-            ],
-            "extraction_confidence": 0.9999995541933361,
-            "confidence": 0.9999995541933361
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999899041029133,
+            "confidence": 0.9999899041029133
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "The Aurora project - towards an autonomous robotic battery innovation platform - Enea Svaluto-Ferro, Swiss Battery Days 2023 seminar"
-              }
-            ],
-            "extraction_confidence": 0.9999235043150135,
-            "confidence": 0.9999235043150135
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9997519149989971,
+            "confidence": 0.9997519149989971
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "More than open data: towards a FAIR data and simulation infrastructure with AiiDA and Materials Cloud - Giovanni Pizzi, FAIR and Open Data in NFFA-Europe Pilot and Beyond workshop"
-              }
-            ],
-            "extraction_confidence": 0.9998848209766009,
-            "confidence": 0.9998848209766009
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999649187955679,
+            "confidence": 0.9999649187955679
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Toward robust materials simulations with common workflow interfaces in AiiDA - Giovanni Pizzi, PASC23 conference"
-              }
-            ],
-            "extraction_confidence": 0.9999979254647519,
-            "confidence": 0.9999979254647519
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999991174995893,
+            "confidence": 0.9999991174995893
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Open-research data repositories and reproducible workflows - Giovanni Pizzi, NCCR Network Ventures - Open Research Data events workshop"
-              }
-            ],
-            "extraction_confidence": 0.9999981325087752,
-            "confidence": 0.9999981325087752
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999914093371425,
+            "confidence": 0.9999914093371425
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://memento.epfl.ch/event/imx-seminar-series-innovating-the-batteries-of-the/"
-              }
-            ],
-            "extraction_confidence": 0.9999995647864541,
-            "confidence": 0.9999995647864541
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999989141335678,
+            "confidence": 0.9999989141335678
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://battery2030.eu/news/activities/big-map-workshop-towards-a-unified-future/"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999993281879659,
+            "confidence": 0.9999993281879659
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://indico.psi.ch/event/14214/"
-              }
-            ],
-            "extraction_confidence": 0.9999998130839581,
-            "confidence": 0.9999998130839581
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9955510280785068,
+            "confidence": 0.9955510280785068
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/"
-              }
-            ],
-            "extraction_confidence": 0.999924636445333,
-            "confidence": 0.999924636445333
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999964469499721,
+            "confidence": 0.9999964469499721
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https://pasc23.pasc-conference.org/"
-              }
-            ],
-            "extraction_confidence": 0.9999998957052818,
-            "confidence": 0.9999998957052818
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999990901778982,
+            "confidence": 0.9999990901778982
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https://nccrs.github.io/basel/"
-              }
-            ],
-            "extraction_confidence": 0.9999959247609855,
-            "confidence": 0.9999959247609855
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8915459723615727,
+            "confidence": 0.8915459723615727
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9750117496881118,
+            "confidence": 0.9750117496881118
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999843534262294,
+            "confidence": 0.999843534262294
           }
         ],
-        "reasoning": "The presentations section on pages 7–8 and the Outreach > Presentations section on page 14 both consistently report 7 presentations with substantially overlapping details and titles. Verbatim presentation titles and URLs from pages 7–8 are most complete and are used as the source, with high confidence. Quantity is 7, as independently confirmed."
+        "reasoning": "The category is explicitly and completely reported in idx 1 (pages 5-9), with detailed, credible listing of 7 presentations and URLs. Other sources either duplicate this information in less-structured form or report zero, so using idx 1's data prevents duplication and maximizes accuracy. VERBATIM EXTRACTION."
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "A [dedicated website](https://ord-premise.org/) has been published to organize and highlight the efforts and activities of PREMISE in a coherent and concise manner, including its outreach, deliverables, tools leveraged, and tutorials"
-            },
-            {
-              "page": 2,
-              "matching_text": "promoting our standards and protocols through outreach (online videos and tutorials, interoperability playgrounds, workshops)"
-            },
-            {
-              "page": 4,
-              "matching_text": "[The outcomes](https://github.com/orgs/MADICES/repositories) of the workshop are publicly available, including a set of tools and [examples ](https://github.com/MADICES/semantic-annotation)for semantically annotating (meta)data, [and specification](https://github.com/MADICES/interop-specs) drafts for [(and ](https://github.com/MADICES/interop-demo)demo of) a new transfer protocol to facilitate platform-agnostic ORD interoperability."
-            },
-            {
-              "page": 8,
-              "matching_text": "- Know-how exchanges between the Postdocs of PREMISE and OpenEM, participation in the Swiss+EM workshop organized by OpenEM and in MADICES organized by PREMISE"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.8615835660856992,
-          "confidence": 0.8615835660856992
+          "extraction_confidence": 0.6418255030846363,
+          "confidence": 0.6418255030846363
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A [dedicated website](https://ord-premise.org/) has been published to organize and highlight the efforts and activities of PREMISE in a coherent and concise manner, including its outreach, deliverables, tools leveraged, and tutorials"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5192813707536329,
-            "confidence": 0.5192813707536329
+            "extraction_confidence": 0.6389732314671421,
+            "confidence": 0.6389732314671421
           },
           {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "promoting our standards and protocols through outreach (online videos and tutorials, interoperability playgrounds, workshops)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7954304852694608,
-            "confidence": 0.7954304852694608
+            "extraction_confidence": 0.5446476096680078,
+            "confidence": 0.5446476096680078
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[The outcomes](https://github.com/orgs/MADICES/repositories) of the workshop are publicly available, including a set of tools and [examples ](https://github.com/MADICES/semantic-annotation)for semantically annotating (meta)data, [and specification](https://github.com/MADICES/interop-specs) drafts for [(and ](https://github.com/MADICES/interop-demo)demo of) a new transfer protocol to facilitate platform-agnostic ORD interoperability."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.36519295987303424,
-            "confidence": 0.36519295987303424
+            "extraction_confidence": 0.3847091330330188,
+            "confidence": 0.3847091330330188
           },
           {
-            "extraction_confidence": 0.999443795686282,
-            "confidence": 0.999443795686282
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996099998039853,
+            "confidence": 0.9996099998039853
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "- Know-how exchanges between the Postdocs of PREMISE and OpenEM, participation in the Swiss+EM workshop organized by OpenEM and in MADICES organized by PREMISE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998417872847271,
-            "confidence": 0.9998417872847271
+            "extraction_confidence": 0.9999153054328687,
+            "confidence": 0.9999153054328687
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6890088018069822,
+            "confidence": 0.6890088018069822
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6552104863057856,
+            "confidence": 0.6552104863057856
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "A [dedicated website](https://ord-premise.org/) has been published to organize and highlight the efforts and activities of PREMISE in a coherent and concise manner"
-              }
-            ]
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9784869331374904,
+            "confidence": 0.9784869331374904
           },
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9464937752367757,
+            "confidence": 0.9464937752367757
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[The outcomes](https://github.com/orgs/MADICES/repositories) of the workshop are publicly available"
-              }
-            ]
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7150810099331244,
+            "confidence": 0.7150810099331244
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "a set of tools and [examples ](https://github.com/MADICES/semantic-annotation)for semantically annotating (meta)data"
-              }
-            ]
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9976682087954714,
+            "confidence": 0.9976682087954714
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[and specification](https://github.com/MADICES/interop-specs) drafts"
-              }
-            ]
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999255080793,
+            "confidence": 0.9999999255080793
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[(and ](https://github.com/MADICES/interop-demo)demo of) a new transfer protocol"
-              }
-            ]
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9962659593361896,
+            "confidence": 0.9962659593361896
           }
         ],
-        "reasoning": "Merged, deduplicated outputs from detailed and summary lists. Quantities beyond 3 are not supported by distinct, countable activities (latter sections confirm no further distinct outreach), preserving full description and URL detail as required by standards."
+        "reasoning": "Activities and URLs were listed and sometimes referenced more than once, but no exact duplicates in descriptions or URLs after careful review. Used verbatim values as provided, combining all unique entries with their original confidence scores. Numeric quantity reflects the total unique outreach, dissemination, communications, or networking activities explicitly mentioned in the source extracts from indices 0, 1, and 2."
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 7,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 10,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 15,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 18,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "VERBATIM EXTRACTION. All extracted segments explicitly state 'INSUFFICIENT DATA' regarding patents, patent applications, or other IP directly related to the project, and no descriptions or URLs are provided."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "New collaborations (except with industrial partners – see below): | 10+ | * NFDI Cat consortium..."
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999802571822202,
-          "confidence": 0.9999802571822202
+          "extraction_confidence": 0.8098,
+          "confidence": 0.8098
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "schema is used by Horizon Europe [projects BIG-MAP](https://www.big-map.eu/)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9677853558659555,
-            "confidence": 0.9677853558659555
+            "extraction_confidence": 0.9999998838324171,
+            "confidence": 0.9999998838324171
           },
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[and IntelLiGent,](https://cordis.europa.eu/project/id/101069765)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9956134772593386,
-            "confidence": 0.9956134772593386
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[the ETH](https://www.empa.ch/web/s604/synfuels) [Board ](https://www.empa.ch/web/s604/synfuels)project SynFuels"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9811046181734562,
-            "confidence": 0.9811046181734562
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "the NCCR](https://www.nccr-catalysis.ch/) Catalysis project SpinCat"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9989650717581534,
-            "confidence": 0.9989650717581534
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "SWEET project [Refuel.ch.](http://refuel.ch/)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9956469105957338,
-            "confidence": 0.9956469105957338
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "The workshop established several ongoing working groups"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4066768330666082,
-            "confidence": 0.4066768330666082
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* NFDI Cat consortium"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* NFDI FAIRmat consortium"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9996482837572543,
+            "confidence": 0.9996482837572543
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Helge Stein and BIG-MAP FINALES team - autonomous platforms (batteries and beyond)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999989264802678,
-            "confidence": 0.9999989264802678
+            "extraction_confidence": 0.9999994917600484,
+            "confidence": 0.9999994917600484
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Eibar Flores and Jesper Friis (SINTEF) - ontologies/dlite"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999503525415,
-            "confidence": 0.9999999503525415
+            "extraction_confidence": 0.9999998997775232,
+            "confidence": 0.9999998997775232
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Simon Stier (Fraunhofer) - ontologies"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998781041274,
-            "confidence": 0.9999998781041274
+            "extraction_confidence": 0.9999996016922776,
+            "confidence": 0.9999996016922776
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Sandor Brockhauser (FAIRMAT) - NeXus ontology"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997943923625,
-            "confidence": 0.9999997943923625
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Steffen Brickmann (ELN Consortium) - ELN file format"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999638265025,
             "confidence": 0.9999999638265025
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Simon Bekemeier (BAM) - ORD transfer protocol"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999180630336,
-            "confidence": 0.9999999180630336
+            "extraction_confidence": 0.9999999242637831,
+            "confidence": 0.9999999242637831
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Martin Held (herbie) - ORD transfer protocol"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999845103739037,
-            "confidence": 0.9999845103739037
+            "extraction_confidence": 0.9999567641636384,
+            "confidence": 0.9999567641636384
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Martin Starman (chemotion) - ORD transfer protocol"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999960283925096,
-            "confidence": 0.9999960283925096
+            "extraction_confidence": 0.9999998036273001,
+            "confidence": 0.9999998036273001
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "ongoing strategic discussions and exchanges of information with OpenEM (the other ETH ORD Establish project)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.780315275841769,
-            "confidence": 0.780315275841769
+            "extraction_confidence": 0.9999999159388402,
+            "confidence": 0.9999999159388402
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Further discussion with SINTEF representatives (Eibar Flores, Simon Clark)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6389396014021309,
-            "confidence": 0.6389396014021309
+            "extraction_confidence": 0.9992316657861988,
+            "confidence": 0.9992316657861988
           },
           {
-            "extraction_confidence": 0.7581011781364975,
-            "confidence": 0.7581011781364975
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999975108143571,
+            "confidence": 0.9999975108143571
           },
           {
-            "extraction_confidence": 0.7656171644729564,
-            "confidence": 0.7656171644729564
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4707056598663687,
+            "confidence": 0.4707056598663687
           },
           {
-            "extraction_confidence": 0.7138877606076658,
-            "confidence": 0.7138877606076658
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6111746097578094,
+            "confidence": 0.6111746097578094
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6398386218621329,
+            "confidence": 0.6398386218621329
           }
         ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[projects BIG-MAP](https://www.big-map.eu/)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999872070008898,
-            "confidence": 0.9999872070008898
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[and IntelLiGent,](https://cordis.europa.eu/project/id/101069765)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999575981817,
-            "confidence": 0.9999999575981817
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[the ETH](https://www.empa.ch/web/s604/synfuels) [Board ](https://www.empa.ch/web/s604/synfuels)project SynFuels"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999300896458,
-            "confidence": 0.9999999300896458
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[the NCCR](https://www.nccr-catalysis.ch/) Catalysis project SpinCat"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999986860683471,
-            "confidence": 0.9999986860683471
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "[Refuel.ch.](http://refuel.ch/)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996498548329,
-            "confidence": 0.9999996498548329
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "https://github.com/theelnconsortium"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8344384411159455,
-            "confidence": 0.8344384411159455
-          },
-          {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "https://www.optimade.org/"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7647910825027138,
-            "confidence": 0.7647910825027138
-          }
-        ],
-        "reasoning": "Merged data from several tables and narrative sections, deduplicating partners across lists and reporting a conservative quantity of 10, supported by the highest explicit count with supporting list and details. All unique descriptions and URLs documented, and confidence scores are reported as provided in the source extracts."
+        "reasoning": "Combined highly confident table data (10+) with 3 additional explicit narrative collaborations, giving subtotal 13. All descriptions reported verbatim for maximal transparency, as instructed; quantities not deduplicated as collaborations are described with different contexts/detail, matching reporting guidelines. URLs not present."
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "New collaborations and/or contracts with industrial partners: | 1 | - AiiDA calculation live monitoring developed in collaboration with AiiDA developer Sebastiaan P. Huber at Microsoft Quantum"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "- AiiDA calculation live monitoring developed in collaboration with AiiDA developer Sebastiaan P. Huber at Microsoft Quantum"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999985877236536,
-            "confidence": 0.999985877236536
+            "extraction_confidence": 0.9999954479360686,
+            "confidence": 0.9999954479360686
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "* 10000+ materials researchers working on either simulations or experiments (see appendix for estimated RDM platform user counts that will benefit from PREMISE output)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.9990357541089577,
+          "confidence": 0.9990357541089577
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* 10000+ materials researchers working on either simulations or experiments (see appendix for estimated RDM platform user counts that will benefit from PREMISE output)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9974180176236408,
-            "confidence": 0.9974180176236408
-          },
-          {
-            "extraction_confidence": 0.9901885190383822,
-            "confidence": 0.9901885190383822
+            "extraction_confidence": 0.9950329707571213,
+            "confidence": 0.9950329707571213
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION. Only idx 1 provides explicit user quantity relevant to the ORD community and detailed platform-level breakdown; other segments are insufficient or refer to later pages/appendices not present."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 7,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 10,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 15,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 18,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -2204,29 +1261,31 @@
     },
     "usage": {
       "num_pages_extracted": 18,
-      "num_document_tokens": 19315,
-      "num_output_tokens": 49545
-    }
+      "num_document_tokens": 19140,
+      "num_output_tokens": 25412
+    },
+    "parse_job_id": "5660e69f-ed60-4b4b-a058-4a2870956da4"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6427028b-4280-46fc-beac-41573db58440",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:25:25.407006+00:00",
-  "updated_at": "2025-11-11T19:28:02.713211+00:00"
+  "job_id": "47eebfc9-1b9f-47a2-9392-3fc42c77a6e8",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:23:49.704379+00:00",
+  "updated_at": "2026-01-22T03:26:42.097604+00:00"
 }

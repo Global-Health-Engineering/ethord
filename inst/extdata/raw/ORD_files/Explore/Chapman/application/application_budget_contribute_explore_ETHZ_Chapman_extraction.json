@@ -2,19 +2,19 @@
   "document_path": "raw/ORD_files/Explore/Chapman/application/ETHZ_Chapman.pdf",
   "status": "success",
   "data": {
-    "total_budget_personnel_senior_staff": null,
+    "total_budget_personnel_senior_staff": 0.0,
     "total_budget_personnel_postdocs": 106030.0,
     "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 22000.0,
     "total_budget_personnel_total_direct": 128030.0,
     "total_budget_travel": 13970.0,
-    "total_budget_equipment": null,
-    "total_budget_other_publication_fees": null,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
     "total_budget_other_conferences_workshops": 6000.0,
     "total_budget_other_other": 2000.0,
     "total_budget_other_total_direct": 21970.0,
     "total_budget_total_direct": 150000.0,
-    "total_budget_subcontracting": null,
+    "total_budget_subcontracting": 0.0,
     "total_budget_total_costs": 150000.0
   },
   "metadata": {
@@ -26,156 +26,1464 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "Total requested amount in CHF | 150000"
-          },
-          {
-            "page": 29,
-            "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project."
-          },
-          {
-            "page": 32,
-            "matching_text": "Total Costs in CHF (A + B) | | | | 150,000.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999999954064699,
-        "confidence": 0.999999954064699
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF** | 150000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 742.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Biogasoutcomesmalawi: Data for 61 semi-structured interviews with biogas owners in Malawi (Version 0.0.1).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 385.0,
+                  "w": 456.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  |   |          | 150,000.00 |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 86.0,
+                  "w": 700.0,
+                  "h": 261.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0003-1399-2144](https://orcid.org/0000-0003-1399-2144)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Biogasoutcomesmalawi: Data for 61 semi-structured interviews with biogas owners in Malawi (Version 0.0.1).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 385.0,
+                  "w": 456.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0003-1399-2144](https://orcid.org/0000-0003-1399-2144)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Biogasoutcomesmalawi: Data for 61 semi-structured interviews with biogas owners in Malawi (Version 0.0.1).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 385.0,
+                  "w": 456.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0003-1399-2144](https://orcid.org/0000-0003-1399-2144)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Biogasoutcomesmalawi: Data for 61 semi-structured interviews with biogas owners in Malawi (Version 0.0.1).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 385.0,
+                  "w": 456.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "This is the total cost of the project (including in-kind contributions, if applicable), not the amount of funding the applicants will receive.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 661.0,
+                  "w": 484.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.8249102621107345,
+        "confidence": 0.8249102621107345,
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "...|                                                         | 0.00         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "Postdocs | 106,030.00 |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9904545859797022,
-        "confidence": 0.9904545859797022
+        "extraction_confidence": 0.9895252720831356,
+        "confidence": 0.9895252720831356,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| In each column, please add each applicant / co-applicant and the corresponding institution Cost Category in CHF (please fill out the table below and also indicate if any in-kind and/or in-cash co...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "|...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "Summary budget on page 31, row for Students: 0.00. This is the value requested from ORD."
-          }
-        ],
-        "extraction_confidence": 0.9996790542745844,
-        "confidence": 0.9996790542745844
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999810369254437,
+        "confidence": 0.9999810369254437,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| In each column, please add each applicant / co-applicant and the corresponding institution Cost Category in CHF (please fill out the table below and also indicate if any in-kind and/or in-cash co...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "...|                                                         | 0.00         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "Other | | 3,500.00 | 10,500.00 | 8,000.00 | 22,000.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9998920759997336,
-        "confidence": 0.9998920759997336
+        "extraction_confidence": 0.9999862544689759,
+        "confidence": 0.9999862544689759,
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "|...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "i. Total Direct Costs for Personnel: 128,030.00 CHF"
-          }
-        ],
-        "extraction_confidence": 0.999998323746565,
-        "confidence": 0.999998323746565
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998323931861,
+        "confidence": 0.9999998323931861,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "|...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "|...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "Budget table shows Travel row: 2,970.00 + 11,000.00 = 13,970.00 in 'Total in CHF' column."
-          }
-        ],
-        "extraction_confidence": 0.9999821122075074,
-        "confidence": 0.9999821122075074
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999515968389,
+        "confidence": 0.9999999515968389,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| In each column, please add each applicant / co-applicant and the corresponding institution Cost Category in CHF (please fill out the table below and also indicate if any in-kind and/or in-cash co...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "|...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999750222089698,
+        "confidence": 0.9999750222089698,
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "...|                                                         | 0.00         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999956441401362,
+        "confidence": 0.9999956441401362,
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "...|                                                         | 0.00         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "Conferences and workshops5 | | 6,000.00 | 6,000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999826188141231,
-        "confidence": 0.9999826188141231
+        "extraction_confidence": 0.9999946172474017,
+        "confidence": 0.9999946172474017,
+        "value__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "|                                 | Conferences and workshops5                       |   | 6,000.00 | 6,000      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 86.0,
+                  "w": 700.0,
+                  "h": 261.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "Other (please specify)6 | | 2,000.00 | 2,000.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999876848941678,
-        "confidence": 0.9999876848941678
+        "extraction_confidence": 0.999999802592276,
+        "confidence": 0.999999802592276,
+        "value__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "|                                 | Other (please specify)6                          |   | 2,000.00 | 2,000.00   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 86.0,
+                  "w": 700.0,
+                  "h": 261.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "ii. Total Other Direct Costs | | | | 21,970.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999990985693734,
-        "confidence": 0.9999990985693734
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "| ii. Total Other Direct Costs    |                                                  |   |          | 21,970.00  |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 86.0,
+                  "w": 700.0,
+                  "h": 261.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "A – Total Direct Costs (i + ii) | | | | 150,000.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999759137473163,
-        "confidence": 0.9999759137473163
+        "extraction_confidence": 0.999999355578703,
+        "confidence": 0.999999355578703,
+        "value__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  |   |          | 150,000.00 |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 86.0,
+                  "w": 700.0,
+                  "h": 261.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
-      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_subcontracting)"
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999961606870513,
+        "confidence": 0.9999961606870513,
+        "value__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "...|                                                         | 0.00         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 323.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| Source  | Percent |\n| ------- | ------- |\n| ORD     | 75.0    |\n| In-kind | 25.0    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 416.0,
+                  "w": 91.0,
+                  "h": 59.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
       "num_pages_extracted": 36,
-      "num_document_tokens": 22649,
-      "num_output_tokens": 3219
-    }
+      "num_document_tokens": 22530,
+      "num_output_tokens": 2893
+    },
+    "parse_job_id": "360c37d1-d5b2-4bd0-b8b7-18e26b3f04e6"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6945973d-a434-45df-bccf-c18e62c6fe29",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:25:41.074109+00:00",
-  "updated_at": "2025-11-11T14:26:21.737097+00:00"
+  "job_id": "1cf4e748-1fb9-4f3c-869a-42fed977d087",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:35:10.548096+00:00",
+  "updated_at": "2026-01-21T20:37:00.712785+00:00"
 }

@@ -3,16 +3,12 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 3,
+      "quantity": 1,
       "descriptions": [
-        "GitHub page (in construction): documentation for the project and guidelines on how to contribute",
-        "MEDWEAR, a unified data standard for raw wearable sensor streams, ensures interoperability across digital health platforms, supports high-frequency sensor data, and includes an open-source Python library for real-time transformation into formats usable by robotics systems such as ROS 2.",
-        "HealthCore, a modular data platform from the DART Lab in LLUI, collects and analyzes different kinds of health data.",
-        "ROS4HC/ros4healthcare, platform for integration and extension of wearable biosignal data schemas into robotics and healthcare research."
+        "GitHub page (in construction): documentation for the project and guidelines on how to contribute"
       ],
       "urls": [
-        "https://scai-lab.github.io/medwear.github.io/index.html",
-        "https://github.com/SCAI-Lab/ros4healthcare"
+        "https://scai-lab.github.io/medwear.github.io/index.html"
       ]
     },
     "repositories_catalogues": {
@@ -30,24 +26,28 @@
       "urls": []
     },
     "software_tools": {
-      "quantity": 1,
+      "quantity": 2,
       "descriptions": [
-        "GitHub repository for MEDWEAR standard (to be launched) - will include schemas, ROS2 messages, conversion libraries, and documentation"
+        "GitHub repository for MEDWEAR standard (to be launched) - will include schemas, ROS2 messages, conversion libraries, and documentation. MEDWEAR: an open-source Python library for real-time transformation of high-frequency wearable sensor data into formats usable by robotics systems such as ROS 2",
+        "ROS4HC: ROS4healthcare message definitions for various biosignal data types (including BCG)"
       ],
-      "urls": []
+      "urls": [
+        "https://github.com/SCAI-Lab/ros4healthcare"
+      ]
     },
     "models_standards": {
       "quantity": 1,
       "descriptions": [
         "MEDWEAR standard for medical wearable devices - extending Open mHealth with raw sensor data schemas",
-        "MEDWEAR, a unified data standard for raw wearable sensor streams; includes schemas for Ballistocardiogram (BCG), Electrocardiogram (ECG), Electrodermal activity (EDA), Electroencephalogram (EEG), Electromyography (EMG), Electrooculogram (EOG), Impedance cardiogram (ICG), and Photoplethysmogram (PPG)"
+        "MEDWEAR: a unified data standard/schema for raw wearable sensor streams, supporting high-frequency data and interoperability across digital health platforms with structured schemas for signals such as BCG, ECG, EEG, PPG, etc."
       ],
       "urls": []
     },
     "workshops": {
       "quantity": 1,
       "descriptions": [
-        "\"Toward the Next Standard for Medical Wearables in Switzerland\" symposium, May 6, 2025, ETH Zurich (31 participants)"
+        "\"Toward the Next Standard for Medical Wearables in Switzerland\" symposium, May 6, 2025, ETH Zurich (31 participants)",
+        "Workshops involving stakeholders to identify emergent requirement categories for digital health integration (e.g., Multi-Modal Data Synchronization, Real-Time Processing, Cross-Vendor Interoperability, Clinical Workflow Integration, Implementation Support)"
       ],
       "urls": []
     },
@@ -60,10 +60,10 @@
       "urls": []
     },
     "publications": {
-      "quantity": 1,
+      "quantity": 2,
       "descriptions": [
         "\"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\" - manuscript in preparation",
-        "\"Embedding computational neurorehabilitation in clinical practice using a modular intelligent health system\". Pre-print available"
+        "“Embedding computational neurorehabilitation in clinical practice using a modular intelligent health system”"
       ],
       "urls": [
         "https://arxiv.org/pdf/2503.18732"
@@ -89,7 +89,7 @@
     "new_collaborations": {
       "quantity": 2,
       "descriptions": [
-        "Collaboration with SUPSI and UZH to write the paper \"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\""
+        "Collaboration with SUPSI and UZH to write the paper “MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications”"
       ],
       "urls": []
     },
@@ -101,9 +101,9 @@
     "estimated_users": {
       "quantity": 8000,
       "descriptions": [
-        "Academic and clinical researchers: ~3.000–5.000 users (based on active publication trends and members of consortia such as Mobilise-D, SPHERE, SwissNeuroRehab, and related EU-funded initiatives)",
-        "Developers and engineers: ~1.000–2.000 users (based on GitHub activity and community size around Open mHealth, ROS 2 healthcare projects, and wearable SDKs)",
-        "Industry partners: ~500–1.000 users (based on partnership networks, including Leitwert, pharma biomarker teams, and wearable OEMs)"
+        "Academic and clinical researchers: ~3,000–5,000 users (based on active publication trends and members of consortia such as Mobilise-D, SPHERE, SwissNeuroRehab, and related EU-funded initiatives)",
+        "Developers and engineers: ~1,000–2,000 users (based on GitHub activity and community size around Open mHealth, ROS 2 healthcare projects, and wearable SDKs)",
+        "Industry partners: ~500–1,000 users (based on partnership networks, including Leitwert, pharma biomarker teams, and wearable OEMs)"
       ],
       "urls": []
     },
@@ -122,139 +122,50 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New or enhanced website(s), web interface, platform(s) and/ or infrastructure:                        | 1                | GitHub page (in construction):"
-            },
-            {
-              "page": 10,
-              "matching_text": "MEDWEAR, a unified data standard for raw wearable sensor streams, ensures interoperability across digital health platforms"
-            },
-            {
-              "page": 10,
-              "matching_text": "HealthCore, a modular data platform from the DART Lab in LLUI"
-            },
-            {
-              "page": 11,
-              "matching_text": "To be extended further based in usage and known biosignals, biomarkers and derived biomarkers in [(](https://github.com/SCAI-Lab/ros4healthcare)https://github.com/SCAI-Lab/ros4healthcare)."
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.6345,
-          "confidence": 0.6345
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "GitHub page (in construction): documentation for the project and guidelines on how to contribute"
-              }
-            ],
-            "extraction_confidence": 0.9997088141330801,
-            "confidence": 0.9997088141330801
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "MEDWEAR, a unified data standard for raw wearable sensor streams, ensures interoperability across digital health platforms, supports high-frequency sensor data, and includes an open-source Python library for real-time transformation into formats usable by robotics systems such as ROS 2."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9703692124619557,
-            "confidence": 0.9703692124619557
-          },
-          {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "HealthCore, a modular data platform from the DART Lab in LLUI, which collects and analyzes different kinds of health data."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9479450150487365,
-            "confidence": 0.9479450150487365
-          },
-          {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "To be extended further based in usage and known biosignals, biomarkers and derived biomarkers in [(](https://github.com/SCAI-Lab/ros4healthcare)https://github.com/SCAI-Lab/ros4healthcare)."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.30719332698076757,
-            "confidence": 0.30719332698076757
-          }
-        ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "GitHub page (in construction): documentation for the project and guidelines on how to contribute"
-              }
-            ],
-            "extraction_confidence": 0.9998711102039031,
-            "confidence": 0.9998711102039031
-          },
-          {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "[(](https://github.com/SCAI-Lab/ros4healthcare)https://github.com/SCAI-Lab/ros4healthcare"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "reasoning": "Combined data from both extracts. Both describe overlapping but not identical platforms/websites. Since MEDWEAR and HealthCore are platforms without unique URLs, both are counted alongside ROS4HC (which is a GitHub page and a platform) and the general project GitHub site. The quantity is reported as 3 unique platform/website outputs due to overlap of documentation/infrastructure. All descriptions and unique URLs are listed. Confidence for quantity is averaged due to one low-confidence extraction."
-      },
-      "repositories_catalogues": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New or enhanced repositories and/or catalogues:                                                       | 1                | Open-source repository with standardized wearable data schemas and tools"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "Open-source repository with standardized wearable data schemas and tools (in construction)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999970007684971,
-            "confidence": 0.9999970007684971
+            "extraction_confidence": 0.9999511748881863,
+            "confidence": 0.9999511748881863
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999999851067194,
-            "confidence": 0.9999999851067194
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9974546295826042,
+            "confidence": 0.9974546295826042
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "repositories_catalogues": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999926817997369,
+            "confidence": 0.9999926817997369
+          }
+        ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997593146699,
+            "confidence": 0.9999997593146699
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New or enhanced datasets and/or databases:                                                            |                  |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -263,133 +174,84 @@
       },
       "software_tools": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New or enhanced software, hardware, prototypes and/or other tools:                                    | 1                | GitHub repository for MEDWEAR standard (to be launched) - will include schemas, ROS2 messages, conversion libraries, and documentation."
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.9910068880261113,
+          "confidence": 0.9910068880261113
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "GitHub repository for MEDWEAR standard (to be launched) - will include schemas, ROS2 messages, conversion libraries, and documentation"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999758213719037,
-            "confidence": 0.9999758213719037
+            "extraction_confidence": 0.8919901548302498,
+            "confidence": 0.8919901548302498
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4714629219873731,
+            "confidence": 0.4714629219873731
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999952112336,
+            "confidence": 0.999999952112336
+          }
+        ],
+        "reasoning": "Combined two extracted sources. MEDWEAR library and repository description refer to the same core software (one tool, unique description merged). ROS4HC is a separate software output with its own description and URL. Count is 2. Kept all distinct descriptions. Used mean of confidence scores where applicable."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice: | 1                | MEDWEAR standard for medical wearable devices - extending Open mHealth with raw sensor data schemas "
-            },
-            {
-              "page": 10,
-              "matching_text": "MEDWEAR, a unified data standard for raw wearable sensor streams"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999831949632284,
-          "confidence": 0.9999831949632284
+          "extraction_confidence": 0.998978315473582,
+          "confidence": 0.998978315473582
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "MEDWEAR standard for medical wearable devices - extending Open mHealth with raw sensor data schemas"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999950224368137,
-            "confidence": 0.9999950224368137
+            "extraction_confidence": 0.9999999892437418,
+            "confidence": 0.9999999892437418
           },
           {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "MEDWEAR, a unified data standard for raw wearable sensor streams"
-              }
-            ],
-            "extraction_confidence": 0.8985211258281608,
-            "confidence": 0.8985211258281608
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5491166907446602,
+            "confidence": 0.5491166907446602
           }
         ],
-        "reasoning": "Both entries refer to the MEDWEAR standard—a new/enhanced model/standard output. There is only one such output, but two partial descriptions. Both descriptions are reported; quantity is deduplicated to 1. No URLs present in either entry."
+        "reasoning": "All extracted information refers to a single MEDWEAR standard for medical wearables. Both sources describe different facets of the same standard and both state a quantity of one. There are no other models, standards, or related outputs listed in the provided text, and no URLs. VERBATIM EXTRACTION from the provided structured data, with confidence values reported as found and averaged for quantity."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Scientific workshops organized as part of the project: | 1 | \"Toward the Next Standard for Medical Wearables in Switzerland\" symposium, May 6, 2025, ETH Zurich (31 participants)"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "\"Toward the Next Standard for Medical Wearables in Switzerland\" symposium, May 6, 2025, ETH Zurich (31 participants)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9978590321468804,
-            "confidence": 0.9978590321468804
+            "extraction_confidence": 0.9867268400518832,
+            "confidence": 0.9867268400518832
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.633988059103152,
+            "confidence": 0.633988059103152
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "Both source segments count one workshop and provide additive details. Aggregated the symposium specifics and the summary of workshop themes into the descriptions array, per combination rules. No URLs were present. VERBATIM EXTRACTION for event name; summary of discussions included as a distinct description."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "1) Pre-symposium e-survey on wearable standardization needs"
-            },
-            {
-              "page": 6,
-              "matching_text": "2) Symposium breakout group materials and documentation"
-            }
-          ],
-          "extraction_confidence": 0.9941601408811361,
-          "confidence": 0.9941601408811361
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999756083407958,
+          "confidence": 0.9999756083407958
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "1) Pre-symposium e-survey on wearable standardization needs"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999830223106843,
-            "confidence": 0.9999830223106843
+            "extraction_confidence": 0.999999963998335,
+            "confidence": 0.999999963998335
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "2) Symposium breakout group materials and documentation"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -399,45 +261,25 @@
       },
       "publications": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "1) \"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\" - manuscript in preparation"
-            },
-            {
-              "page": 6,
-              "matching_text": "2) \"Embedding computational neurorehabilitation in clinical practice using a modular intelligent health system\". Pre-print available"
-            }
-          ],
-          "extraction_confidence": 0.9399132588278407,
-          "confidence": 0.9399132588278407
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.377540667992942,
+          "confidence": 0.377540667992942
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "1) \"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\" - manuscript in preparation"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9985077733390602,
-            "confidence": 0.9985077733390602
+            "extraction_confidence": 0.9920087734484061,
+            "confidence": 0.9920087734484061
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "2) \"Embedding computational neurorehabilitation in clinical practice using a modular intelligent health system\". Pre-print available"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9983025027461871,
-            "confidence": 0.9983025027461871
+            "extraction_confidence": 0.8885565762601603,
+            "confidence": 0.8885565762601603
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
@@ -446,12 +288,6 @@
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -460,39 +296,21 @@
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Symposium with panel discussion bringing together clinical, research, and industry stakeholders"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Symposium with panel discussion bringing together clinical, research, and industry stakeholders"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999999851022084,
-            "confidence": 0.999999851022084
+            "extraction_confidence": 0.9999999861705251,
+            "confidence": 0.9999999861705251
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -501,38 +319,21 @@
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Collaboration with SUPSI and UZH to write the paper \"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\""
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9997964803243284,
+          "confidence": 0.9997964803243284
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Collaboration with SUPSI and UZH to write the paper \"MEDWEAR: Data Standardization of Wearable Devices for Healthcare Applications\""
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9994856522680993,
-            "confidence": 0.9994856522680993
+            "extraction_confidence": 0.998417673026815,
+            "confidence": 0.998417673026815
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "New collaborations and/or contracts with industrial partners: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -541,58 +342,31 @@
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Estimated number of users within the community benefiting from enhanced ORD practices: | 4.500–8.000 users"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9884234772756201,
-          "confidence": 0.9884234772756201
+          "extraction_confidence": 0.9995527666266613,
+          "confidence": 0.9995527666266613
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Academic and clinical researchers: ~3.000–5.000 users (based on active publication trends and members of consortia such as Mobilise-D, SPHERE, SwissNeuroRehab, and related EU-funded initiatives)"
-              }
-            ],
-            "extraction_confidence": 0.992285843539311,
-            "confidence": 0.992285843539311
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9997002307675277,
+            "confidence": 0.9997002307675277
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Developers and engineers: ~1.000–2.000 users (based on GitHub activity and community size around Open mHealth, ROS 2 healthcare projects, and wearable SDKs)"
-              }
-            ],
-            "extraction_confidence": 0.99995599910326,
-            "confidence": 0.99995599910326
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999684773042697,
+            "confidence": 0.9999684773042697
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Industry partners: ~500–1.000 users (based on partnership networks, including Leitwert, pharma biomarker teams, and wearable OEMs)"
-              }
-            ],
-            "extraction_confidence": 0.9999847177591161,
-            "confidence": 0.9999847177591161
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999976884885327,
+            "confidence": 0.9999976884885327
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Other (please specify): | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -602,29 +376,31 @@
     },
     "usage": {
       "num_pages_extracted": 16,
-      "num_document_tokens": 8164,
-      "num_output_tokens": 10551
-    }
+      "num_document_tokens": 8316,
+      "num_output_tokens": 7809
+    },
+    "parse_job_id": "1351792b-1f8b-42f5-aab4-b0d0101696bb"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "1e797416-93c4-4b24-b554-8a5f471801e3",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:44:57.089936+00:00",
-  "updated_at": "2025-11-11T18:46:18.406442+00:00"
+  "job_id": "a1233007-d3cf-4162-8b92-60a2876b5980",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T04:22:45.598861+00:00",
+  "updated_at": "2026-01-22T04:24:29.957039+00:00"
 }

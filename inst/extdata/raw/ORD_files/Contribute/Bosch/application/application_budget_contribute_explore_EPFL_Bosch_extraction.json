@@ -26,199 +26,1324 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "budget summary shows 'Total requested amount in CHF' as 30000"
-          },
-          {
-            "page": 18,
-            "matching_text": "Table end, 'Total Costs (A + B)', column 'Total in CHF' is 30 000"
-          }
-        ],
-        "extraction_confidence": 0.5357814785326892,
-        "confidence": 0.5357814785326892
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 739.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 412.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 412.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 412.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 16,
+              "matching_text": "The overall project budget is limited to CHF 30’000 for the total duration of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 418.0,
+                  "w": 468.0,
+                  "h": 130.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "VERBATIM EXTRACTION. The budget table lists 'Senior Staff' with a dash ('-'), indicating 0 CHF allocated.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Senior Staff                                     | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.967149434216799,
-        "confidence": 0.967149434216799
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "VERBATIM EXTRACTION. 'Postdocs' row in budget table is marked '-', i.e. 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Postdocs                                         | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999987434266144,
-        "confidence": 0.9999987434266144
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
-        "reasoning": "VERBATIM EXTRACTION. Budget table gives '-' for students, which is 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Students                                         | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. Both the budget table and broader document search indicate no CHF value is allocated for Students (table shows '-'; no supporting Student budget found elsewhere). Reporting value as 0.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "VERBATIM EXTRACTION. Value for 'Other (Technical staff)' in the budget table is clearly 30 000 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Other (Technical staff)                          | 30 000"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9687659633326812,
-        "confidence": 0.9687659633326812
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION. 'i. Total Direct Costs for Personnel' is stated as 30 000 CHF in the budget.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "i. Total Direct Costs for Personnel |              | 30 000"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999997429904443,
-        "confidence": 0.9999997429904443
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30 000       |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 421.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "VERBATIM EXTRACTION. The source budget table marks 'Travel' as '-', which provides direct evidence that no funds are allocated.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Travel²                             |              | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999998162588003,
-        "confidence": 0.9999998162588003
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "VERBATIM EXTRACTION. Budget table lists '-' for Equipment; that's 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Equipment³                          |              | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "VERBATIM EXTRACTION. The row for publication fees is marked '-', i.e. 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Publications (including Open Access fees), etc.⁴ | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. The budget table explicitly lists a '-' for the 'Publications (including Open Access fees)' entry, which is interpreted as zero (no funds requested for this category). No conflicting or additional relevant data in subsequent pages.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "VERBATIM EXTRACTION. 'Conferences and workshops' row shows '-', which is 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Conferences and workshops⁵                       | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.31815268943863956,
-        "confidence": 0.31815268943863956
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "VERBATIM EXTRACTION. The 'Other (please specify)' field value is '-', indicating 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Other (please specify)⁶                          | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.4814581100361697,
-        "confidence": 0.4814581100361697
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION. Line for 'ii. Total Other Direct Costs' is '-', i.e., 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "ii. Total Other Direct Costs        |              | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999953958622192,
-        "confidence": 0.9999953958622192
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION. Total direct costs listed as 30 000 CHF in the appropriate row.",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "A – Total Direct Costs (i + ii) ... 30 000"
-          }
-        ],
-        "extraction_confidence": 0.44132486866323456,
-        "confidence": 0.44132486866323456
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 16,
+              "matching_text": "The overall project budget is limited to CHF 30’000 for the total duration of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 418.0,
+                  "w": 468.0,
+                  "h": 130.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "VERBATIM EXTRACTION. 'Subcontracting Costs' row contains '-', meaning 0 CHF.",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Budget table row 'B – Subcontracting Costs⁷' is marked '-', indicating 0 CHF."
-          }
-        ],
-        "extraction_confidence": 0.9950352643367323,
-        "confidence": 0.9950352643367323
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "Workload : ~1 month",
+              "bounding_boxes": [
+                {
+                  "x": 107.0,
+                  "y": 550.0,
+                  "w": 103.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...>de Lausanne | CEAT | EPFL ENAC IIE CEAT<br/>Dr Jérôme Chenal<br/>BP 3234 – Bâtiment BP<br/>Station 16<br/>CH - 1015 Lausanne | Phone:<br/>E-mail:<br/>Website: | +4179 911 93 03<br/><jerome.chenal@epf...",
+              "bounding_boxes": [
+                {
+                  "x": 151.0,
+                  "y": 775.0,
+                  "w": 21.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 20,
-      "num_document_tokens": 10354,
-      "num_output_tokens": 4039
-    }
+      "num_document_tokens": 10238,
+      "num_output_tokens": 3603
+    },
+    "parse_job_id": "3da3f987-0320-499b-a2e5-1e596214d5fb"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "b154925c-aad1-4de7-9b94-fba796ea37f2",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:57:47.050207+00:00",
-  "updated_at": "2025-11-11T13:58:28.991309+00:00"
+  "job_id": "bd4c9b0d-d748-4385-913f-620e139657cd",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T21:20:48.776844+00:00",
+  "updated_at": "2026-01-21T21:22:10.498032+00:00"
 }

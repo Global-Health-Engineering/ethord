@@ -29,124 +29,345 @@
     "field_metadata": {
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "extraction_confidence": 0.9999999861705251,
-        "confidence": 0.9999999861705251
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Project title:**                          | Advancing open geodata practices in research communities (FAIRGeo)   |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 339.0,
+                "w": 454.0,
+                "h": 208.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "explore_call_number": {
-        "reasoning": "Mapped '2nd call' to integer 2 as per instructions.",
+        "reasoning": "The table states 'Explore Call 2024 (2nd call)', which corresponds to 2.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 2,
+            "matching_text": "## 2. Lay summary",
+            "bounding_boxes": [
+              {
+                "x": 73.0,
+                "y": 86.0,
+                "w": 89.0,
+                "h": 11.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "project_starting_and_end_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "extraction_confidence": 0.9999999095395985,
-        "confidence": 0.9999999095395985
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997562777809,
+        "confidence": 0.9999997562777809,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Project starting & end date:**            | 01.10.2024 – 31.03.2026                                              |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 339.0,
+                "w": 454.0,
+                "h": 208.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Extracted as only the person's name, omitting title as instructed.",
-        "extraction_confidence": 0.9999999612774708,
-        "confidence": 0.9999999612774708
+        "reasoning": "Extracted name 'Prof. Dr. Lorenz Hurni'; removed academic titles as instructed.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9986578035490365,
+        "confidence": 0.9986578035490365,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Main applicant responsible for project:** | Prof. Dr. Lorenz Hurni                                               |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 339.0,
+                "w": 454.0,
+                "h": 208.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "function": {
         "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Function:**                               | Head of Institute of Cartography & Geoinformation                    |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 339.0,
+                "w": 454.0,
+                "h": 208.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "*   **Personnel Change:** A personnel change at the Institute of Cartography and Geoinformation, is expected in the second and third quarter of 2025.",
+            "bounding_boxes": [
+              {
+                "x": 74.0,
+                "y": 158.0,
+                "w": 451.0,
+                "h": 55.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "institution_of_main_applicant": {
         "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 5,
+            "matching_text": "The project's foundation is the strong existing collaboration between the ETH Library and the Institute of Cartography and Geoinformation at ETH Zurich.",
+            "bounding_boxes": [
+              {
+                "x": 61.0,
+                "y": 453.0,
+                "w": 463.0,
+                "h": 84.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "report": {
-        "reasoning": "Box marked for 'Intermediate scientific report' only.",
+        "reasoning": "Extracted from: '[x] Intermediate scientific report', making 'Intermediate' selected.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "## Scientific Report Template – Intermediate & Final",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 160.0,
+                "w": 372.0,
+                "h": 16.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "reporting_period": {
         "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 10/24 to 06/25                                                       |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 339.0,
+                "w": 454.0,
+                "h": 208.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "coapplicants": [
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Roman Walt   | Staff member Maps and Geoinformation"
+                "matching_text": "| Roman Walt   | Staff member Maps and Geoinformation | ETH Zurich, ETH Library                   | Project co-manager, head WP2 Community & Practices |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 600.0,
+                    "w": 454.0,
+                    "h": 110.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Roman Walt   | Staff member Maps and Geoinformation"
+                "matching_text": "| Roman Walt   | Staff member Maps and Geoinformation | ETH Zurich, ETH Library                   | Project co-manager, head WP2 Community & Practices |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 600.0,
+                    "w": 454.0,
+                    "h": 110.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998823233508142,
+            "confidence": 0.9998823233508142,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "ETH Zurich, ETH Library"
+                "matching_text": "| Roman Walt   | Staff member Maps and Geoinformation | ETH Zurich, ETH Library                   | Project co-manager, head WP2 Community & Practices |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 600.0,
+                    "w": 454.0,
+                    "h": 110.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9842608818511583,
-            "confidence": 0.9842608818511583
+            ]
           },
           "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Project co-manager, head WP2 Community & Practices"
+                "matching_text": "| Roman Walt   | Staff member Maps and Geoinformation | ETH Zurich, ETH Library                   | Project co-manager, head WP2 Community & Practices |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 600.0,
+                    "w": 454.0,
+                    "h": 110.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
-          "reasoning": "VERBATIM EXTRACTION from co-applicant table on page 1."
+          "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 7,
-      "num_document_tokens": 4224,
-      "num_output_tokens": 1189
-    }
+      "num_document_tokens": 4166,
+      "num_output_tokens": 663
+    },
+    "parse_job_id": "3f703769-1f15-4433-a74d-46a1645a3789"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "9a01dfdb-57bc-4c54-a9f2-c996671c6d5f",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:48:30.654467+00:00",
-  "updated_at": "2025-11-11T17:49:40.268055+00:00"
+  "job_id": "0309845b-a1f7-4746-9800-2a7fba3849eb",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:09:41.749237+00:00",
+  "updated_at": "2026-01-22T02:10:43.304507+00:00"
 }

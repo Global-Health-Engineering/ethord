@@ -2,16 +2,16 @@
   "document_path": "raw/ORD_files/Contribute/Haindl/application/EPFL_HAINDL.pdf",
   "status": "success",
   "data": {
-    "total_budget_personnel_senior_staff": null,
-    "total_budget_personnel_postdocs": null,
-    "total_budget_personnel_students": null,
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 30000.0,
     "total_budget_personnel_total_direct": 30000.0,
-    "total_budget_travel": null,
-    "total_budget_equipment": null,
-    "total_budget_other_publication_fees": null,
-    "total_budget_other_conferences_workshops": null,
-    "total_budget_other_other": null,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
+    "total_budget_other_conferences_workshops": 0.0,
+    "total_budget_other_other": 0.0,
     "total_budget_other_total_direct": 0.0,
     "total_budget_total_direct": 30000.0,
     "total_budget_subcontracting": 0.0,
@@ -26,105 +26,1068 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 15,
-            "matching_text": "Total Costs (A + B) | 30 000"
-          }
-        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.7778764468327651,
+        "confidence": 0.7778764468327651,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 702.0,
+                  "w": 148.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "In collaboration with the Research Center for Integrated Disaster Risk Management (CIGIDEN), I focused my master thesis on the evaluation of the seismic performance of houses, typical of Chilean co...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 443.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "In collaboration with the Research Center for Integrated Disaster Risk Management (CIGIDEN), I focused my master thesis on the evaluation of the seismic performance of houses, typical of Chilean co...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 443.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "In collaboration with the Research Center for Integrated Disaster Risk Management (CIGIDEN), I focused my master thesis on the evaluation of the seismic performance of houses, typical of Chilean co...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 443.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "Both the table and narrative explicitly state there are no CHF costs for 'Students' in the requested budget. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 14,
-            "matching_text": "Other (Technical staff) | 30 000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Other (Technical staff)                          | 30 000       |",
+              "bounding_boxes": [
+                {
+                  "x": 50.0,
+                  "y": 226.0,
+                  "w": 466.0,
+                  "h": 365.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 14,
-            "matching_text": "'i. Total Direct Costs for Personnel' is listed as 30 000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION. The budget table explicitly provides a dash ('-') for Travel, and the narrative confirms that such costs are covered elsewhere and not part of the requested budget. No numerical CHF value for travel is listed in the provided sources.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "The dissemination actions (documentation, papers and conference attendance as indicated in Section 3) will be fully covered by the EESD laboratory.",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 208.0,
+                  "w": 484.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_equipment": {
+        "reasoning": "No value is specified for Equipment in the budget table—only a dash is present, and narrative/context provides no mention of equipment costs. Interpreted as zero value for Equipment (common for budget tables using '-' to indicate no expenditure).",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "The overall project budget is limited to **CHF 30’000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 570.0,
+                  "w": 484.0,
+                  "h": 115.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "|                                 | Other                               | Publications (including Open Access fees), etc.⁴ | -            |",
+              "bounding_boxes": [
+                {
+                  "x": 50.0,
+                  "y": 226.0,
+                  "w": 466.0,
+                  "h": 365.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The dissemination actions (documentation, papers and conference attendance as indicated in Section 3) will be fully covered by the EESD laboratory.",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 208.0,
+                  "w": 484.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "The dissemination actions (documentation, papers and conference attendance as indicated in Section 3) will be fully covered by the EESD laboratory.",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 208.0,
+                  "w": 484.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30 000       |",
+              "bounding_boxes": [
+                {
+                  "x": 50.0,
+                  "y": 226.0,
+                  "w": 466.0,
+                  "h": 365.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The requested budget (30 kCHF) corresponds to technical staff salaries only for the development of the web-based platform.",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 208.0,
+                  "w": 484.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION (0 due to '-' entry indicating none requested)",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "The value for 'ii. Total Other Direct Costs' is listed as '-' (no value) in the budget table."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "The requested budget (30 kCHF) corresponds to technical staff salaries only for the development of the web-based platform.",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 208.0,
+                  "w": 484.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 14,
-            "matching_text": "A – Total Direct Costs (i + ii) | | | 30 000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.8248872667992377,
+        "confidence": 0.8248872667992377,
+        "value__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "VERBATIM EXTRACTION (0 due to '-' entry indicating none requested)",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "B – Subcontracting Costs7 | -"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_conferences_workshops)\nInput should be a valid number at path (total_budget_other_other)"
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "**WP3a - Deployment**\nWorkload : 0.5 week FTE (IT4R)",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 585.0,
+                  "w": 381.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
       "num_pages_extracted": 17,
-      "num_document_tokens": 10405,
-      "num_output_tokens": 1696
-    }
+      "num_document_tokens": 10282,
+      "num_output_tokens": 4107
+    },
+    "parse_job_id": "56c57e1f-1f32-4eeb-9790-cc48ccc36ae1"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "0bfb4f44-91c6-4f4a-865d-d224f6dbdcfa",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:58:33.134214+00:00",
-  "updated_at": "2025-11-11T13:58:55.348588+00:00"
+  "job_id": "12f9d49b-822a-4fa5-9b1e-fc38b962c22c",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:53:09.950263+00:00",
+  "updated_at": "2026-01-21T20:54:21.909308+00:00"
 }

@@ -4,20 +4,32 @@
   "data": {
     "project_category": "Contribute Projects",
     "main_applicant_institution": "ETH Zürich",
-    "main_applicant_function": null,
+    "main_applicant_function": "Group Leader Genome Informatics",
     "main_applicant_first_name": "Hubert",
     "main_applicant_surname": "Rehrauer",
-    "main_applicant_laboratory_name": null,
-    "main_applicant_postcode": null,
-    "main_applicant_city": null,
-    "all_applicants": null,
+    "main_applicant_laboratory_name": "Functional Genomics Center Zurich",
+    "main_applicant_postcode": 8057,
+    "main_applicant_city": "Zurich",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Group Leader Genome Informatics",
+        "first_name": "Hubert",
+        "surname": "Rehrauer",
+        "postcode": 8057
+      }
+    ],
     "project_title": "NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data",
-    "project_acronym": null,
-    "project_abstract": null,
-    "keywords": null,
-    "start_date": null,
-    "project_duration_months": null,
-    "total_budget_requested": 15000.0,
+    "project_acronym": "NGSDataBooster",
+    "project_abstract": "Life science generates vast amounts of next generation sequencing (NGS) data, and there are well-established, FAIR repositories for open access of this data. Still, depositing NGS data in these repositories bears some challenges for life science researchers, leading to data not being deposited and shared. We propose to implement a web service that simplifies data deposition for life science. Our service, will start from data and meta-information available in omics-data management systems like B-Fabric. It will let the user review and curate the information to be uploaded and will then perform the upload. Our web service will directly help research groups to make their data swiftly accessible in a well-defined and well-documented format in the recognized repositories with world-wide visibility and accessibility. The service will significantly reduce the efforts of making NGS data openly accessible, it will increase the quality of the openly accessible data, and it will make the originators of NGS data, the various research institutes in Switzerland, more visible.",
+    "keywords": [
+      "NGS-data",
+      "web-application",
+      "FAIR repositories"
+    ],
+    "start_date": "1 Oct 2024",
+    "project_duration_months": 12,
+    "total_budget_requested": 30000.0,
     "work_packages": [
       {
         "wp_identifier": "WP2",
@@ -44,213 +56,2086 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "Both source extractions clearly indicate ETH Zürich as the main applicant's institution, supported either by tabular data (verbatim) or explicit textual references (headers, functional genomics center).",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "ETH Zurich<br/>Functional Genomics Center Zurich"
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9995027993627644,
-        "confidence": 0.9995027993627644
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 283.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Hubert Rehrauer for an ORD Contribute project at ETH Zurich for the project entitled “NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data”, pending...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 308.0,
+                  "w": 470.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999290789942485,
+        "confidence": 0.9999290789942485,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Hubert Rehrauer is fully entitled to execute the above-mentioned project in the Functional Genomics Center Zurich of ETH Zurich and University of Zurich, headed by Ralph Schlapbach.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 361.0,
+                  "w": 470.0,
+                  "h": 63.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "ETH BOARD\nETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "ETH BOARD\nETH zürich\nEPFL\nPAUL SCHERRER INSTITUT PSI\nWSL\nEmpa Materials Science and Technology\neawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 397.0,
+                  "w": 467.0,
+                  "h": 349.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Postdocs                                         | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 467.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Postdocs                                         | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 467.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Group Leader Genome Informatics                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "Dr. Hubert Rehrauer"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Hubert Rehrauer | Applicant ID - ORD1000360",
+              "bounding_boxes": [
+                {
+                  "x": 298.0,
+                  "y": 40.0,
+                  "w": 259.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The budget will be allocated to FGCZ staff for developing the software. The group leader of Genome Informatics (Dr. Hubert Rehrauer) will lead the project.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 147.0,
+                  "w": 445.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 16,
+              "matching_text": "Hubert Rehrauer for an ORD Contribute project at ETH Zurich for the project entitled “NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data”, pending...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 308.0,
+                  "w": 470.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname in Applicant table."
-          },
-          {
-            "page": 16,
-            "matching_text": "Dr. Hubert Rehrauer"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Hubert Rehrauer | Applicant ID - ORD1000360",
+              "bounding_boxes": [
+                {
+                  "x": 298.0,
+                  "y": 40.0,
+                  "w": 259.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The budget will be allocated to FGCZ staff for developing the software. The group leader of Genome Informatics (Dr. Hubert Rehrauer) will lead the project.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 147.0,
+                  "w": 445.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 16,
+              "matching_text": "Hubert Rehrauer for an ORD Contribute project at ETH Zurich for the project entitled “NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data”, pending...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 308.0,
+                  "w": 470.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 560.0,
+                  "w": 492.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Group leader                            | ETH Zürich - ETHZ, CH<br/>Functional Genomics Center Zurich | 05.2005 - Present<br/>19 year(s)           |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 604.0,
+                  "w": 452.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8057                                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 560.0,
+                  "w": 492.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Group leader                            | ETH Zürich - ETHZ, CH<br/>Functional Genomics Center Zurich | 05.2005 - Present<br/>19 year(s)           |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 604.0,
+                  "w": 452.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project title field found in Research Proposal table."
-          },
-          {
-            "page": 16,
-            "matching_text": "NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data"
-          }
-        ],
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999903193676,
+        "confidence": 0.9999999903193676,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 175.0,
+                  "w": 466.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Hubert Rehrauer for an ORD Contribute project at ETH Zurich for the project entitled “NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data”, pending...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 308.0,
+                  "w": 470.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 175.0,
+                  "w": 466.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "**NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data**",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 242.0,
+                  "w": 469.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Postdocs                                         | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 467.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Postdocs                                         | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 467.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Acronym of the project**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> NGSDataBooster: Simplifying and democratizing the open deposition of Next Generation Sequencing Data",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 175.0,
+                  "w": 466.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9802079546445513,
+        "confidence": 0.9802079546445513,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Abstract**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Still, depositing NGS data in these repositories bears some challenges for life science researchers, leading to data not being deposited and shared.<br/>We propose to implement a web service that s...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| NGS-data<br/>web-application<br/>FAIR repositories...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| NGS-data<br/>web-application<br/>FAIR repositories...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Oct 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 315.0,
+                    "w": 409.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...ce generates vast amounts of next generation sequencing (NGS) data, and there are well-established, FAIR repositories for open access of this data.",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 149.0,
+                    "w": 42.0,
+                    "h": 12.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "They are also approved by the SNSF as supporting the FAIR [1] principles.",
+                "bounding_boxes": [
+                  {
+                    "x": 70.0,
+                    "y": 288.0,
+                    "w": 467.0,
+                    "h": 183.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2755,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "They are also approved by the SNSF as supporting the FAIR [1] principles.",
+                "bounding_boxes": [
+                  {
+                    "x": 70.0,
+                    "y": 288.0,
+                    "w": 467.0,
+                    "h": 183.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2755,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "They are also approved by the SNSF as supporting the FAIR [1] principles.",
+                "bounding_boxes": [
+                  {
+                    "x": 70.0,
+                    "y": 288.0,
+                    "w": 467.0,
+                    "h": 183.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2755,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999996990294446,
+        "confidence": 0.9999996990294446,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 315.0,
+                  "w": 409.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 315.0,
+                  "w": 409.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 338.0,
+                  "w": 419.0,
+                  "h": 246.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n    Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 440.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
-        "reasoning": "Although CHF 30,000 is the total project budget, only 50% (CHF 15,000) is specifically 'requested for funding via the present project proposal' as supported by text from page 15.",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "50% of the project budget is requested for funding via the present project proposal."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999960290826209,
-        "confidence": 0.9999960290826209
-      },
-      "project_category": {
-        "reasoning": "The text explicitly refers to the application type as 'ORD Contribute project' and 'ORD Contribute Track'. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "ORD Contribute project; ORD Contribute Track"
-          }
-        ],
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 690.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 690.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "|                                 |                                     | Postdocs                                         | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 467.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 771.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "2016 Jun 2;17(1):228.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 628.0,
+                  "w": 466.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP2: Uploader Implementation"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP2: Uploader Implementation"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999914993711408,
-            "confidence": 0.9999914993711408
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
-          "reasoning": "WP2 and its title are given in the table."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP3: Frontend Implementation"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP3: Frontend Implementation"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999988303613937,
+            "confidence": 0.9999988303613937
           },
-          "reasoning": "WP3 and its title are given in the table."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP4: Enhance Frontend"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP4: Enhance Frontend"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "WP4 and its title are given in the table."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP5: Disseminate"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP5: Disseminate"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "WP5 and its title are given in the table."
+          "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 16,
-      "num_document_tokens": 7159,
-      "num_output_tokens": 3823
-    }
+      "num_document_tokens": 7079,
+      "num_output_tokens": 5091
+    },
+    "parse_job_id": "a780829c-ceee-49c0-bd7b-ac9bbe1e359b"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "0ea6eaed-54cb-43c5-824d-3ee31056b28a",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:26:30.467109+00:00",
-  "updated_at": "2025-11-11T11:27:44.391944+00:00"
+  "job_id": "24405e35-98f5-4bb2-a125-eea5eaf09051",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:33:45.409007+00:00",
+  "updated_at": "2026-01-21T17:35:30.711232+00:00"
 }

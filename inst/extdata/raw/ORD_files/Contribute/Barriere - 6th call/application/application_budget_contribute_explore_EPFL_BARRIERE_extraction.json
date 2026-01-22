@@ -3,7 +3,7 @@
   "status": "success",
   "data": {
     "total_budget_personnel_senior_staff": 0.0,
-    "total_budget_personnel_postdocs": 30000.0,
+    "total_budget_personnel_postdocs": 0.0,
     "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 0.0,
     "total_budget_personnel_total_direct": 30000.0,
@@ -26,197 +26,939 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Total requested amount in CHF** | 30000 |"
-          },
-          {
-            "page": 19,
-            "matching_text": "Total Costs (A + B)             |                                     |              | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_postdocs": {
-        "reasoning": "CHF 30,000 comes from the 'Grand total' for 79.7 days of postdoc (applicant) time, as stated clearly in the work plan. No contradictory or supplementary explicit values are given in later budget tables. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "The applicant is a 2nd year postdoc dedicating effort to the project. Grand total: 79.7 days = CHF 30,000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_senior_staff": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Senior Staff                                     |              |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_students": {
-        "reasoning": "The budget table contains a row for 'Students' but no corresponding CHF value was listed. Since the row is present but empty, this implies a value of 0 was requested or budgeted for this category.",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Students                                         |              |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_other": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Other                                            |              |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 764.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| Direct Costs                    | Personnel²                          | Applicant                                        | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 141.0,
+                  "w": 466.0,
+                  "h": 421.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "i. Total Direct Costs for Personnel |                                                  | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| Direct Costs                    | Personnel²                          | Applicant                                        | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 141.0,
+                  "w": 466.0,
+                  "h": 421.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "a. Assert: *Input* is a List of characters.\n   b. Assert: 0 ≤ *index* ≤ the number of elements in *Input*.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 328.0,
+                  "w": 200.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Travel³                             |                                                  |"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION: Both the budget table and the justification text state there are no travel costs required, so travel budget is 0 CHF.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Equipment⁴                          |                                                  |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Publications (including Open Access fees), etc.⁵ |              |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Conferences and workshops⁶                       |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. The relevant budget field is empty and the supporting justification confirms zero budget requested for 'Other Conferences and workshops'. Setting value to 0 CHF.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "There are no travel costs required to meet and discuss with the ECMAScript community: they discuss proposals online.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 243.0,
+                  "w": 483.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Other (please specify)⁷                          |              |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "ii. Total Other Direct Costs        |                                                  |              "
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "A – Total Direct Costs (i + ii) |                                     |              | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9990345129275522,
-        "confidence": 0.9990345129275522
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "| Direct Costs                    | Personnel²                          | Applicant                                        | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 141.0,
+                  "w": 466.0,
+                  "h": 421.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "B – Subcontracting Costs⁸       |                                     |              |              "
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "tps://people.epfl.ch/clement.pit-claudel](https://people.epfl.ch/clement.pit-claudel)> | 1 of 2 |\n| ----------- | ---------------------------------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 783.0,
+                  "w": 169.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.28,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
-      "num_pages_extracted": 24,
-      "num_document_tokens": 13812,
-      "num_output_tokens": 3813
-    }
+      "num_pages_extracted": 23,
+      "num_document_tokens": 13934,
+      "num_output_tokens": 2844
+    },
+    "parse_job_id": "cfce4cae-ea39-4096-a6ca-f582574adb09"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "7b0ef2f6-7d1b-4b74-b509-08d84697c1fb",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:44:42.410229+00:00",
-  "updated_at": "2025-11-11T13:45:17.071057+00:00"
+  "job_id": "ff7758ed-4e3d-4d64-adbe-80156a449c5c",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:57:13.697083+00:00",
+  "updated_at": "2026-01-21T20:59:52.149538+00:00"
 }

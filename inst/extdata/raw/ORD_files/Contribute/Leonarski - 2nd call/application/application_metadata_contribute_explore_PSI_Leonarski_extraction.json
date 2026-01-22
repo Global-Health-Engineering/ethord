@@ -2,23 +2,50 @@
   "document_path": "raw/ORD_files/Contribute/Leonarski - 2nd call/application/PSI_Leonarski.pdf",
   "status": "success",
   "data": {
-    "project_category": null,
+    "project_category": "Contribute Projects",
     "main_applicant_institution": "PSI",
-    "main_applicant_function": null,
+    "main_applicant_function": "Beamline Data Scientist",
     "main_applicant_first_name": "Filip",
     "main_applicant_surname": "Leonarski",
-    "main_applicant_laboratory_name": null,
-    "main_applicant_postcode": null,
-    "main_applicant_city": null,
-    "all_applicants": null,
+    "main_applicant_laboratory_name": "Swiss Light Source",
+    "main_applicant_postcode": 5323,
+    "main_applicant_city": "Villigen, PSI",
+    "all_applicants": [
+      {
+        "eth_domain_institution": "PSI",
+        "function_title": "Beamline Data Scientist",
+        "first_name": "Filip",
+        "surname": "Leonarski",
+        "postcode": 5323
+      }
+    ],
     "project_title": "Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates",
-    "project_acronym": null,
-    "project_abstract": null,
-    "keywords": null,
-    "start_date": null,
-    "project_duration_months": null,
+    "project_acronym": "TimeResHDRMX",
+    "project_abstract": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science. One of the emerging techniques is time-resolved serial crystallography. The technique can provide good insight into biomolecular processes at micro- and millisecond timescales but is extremely data intensive. A single experiment can, already at this moment, produce a continuous stream of X-ray images at a rate of 2’000 images per second (17 GB/s), running for hours. Dataset size for the technique is many terabytes. The dataset size makes complete raw data deposited in the public repository difficult to access.Within this project, I will create reduced datasets with improved accessibility by applying existing protein diffraction labeling algorithms to filter images. The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset. I will also improve metadata content by including labeling results to help the datasets' interoperability and findability.",
+    "keywords": [
+      "macromolecular crystallography",
+      "synchrotron",
+      "FAIR data",
+      "time-resolved serial crystallography",
+      "high data rate science"
+    ],
+    "start_date": "1 Jan 2023",
+    "project_duration_months": 12,
     "total_budget_requested": 22000.0,
-    "work_packages": null
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Demonstrate a well-established algorithm for labeling frames as hits/misses as part of the SLS data acquisition pipeline"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Enhance ORD quality of the time-resolved serial crystallography data"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Present the results at a major international conference"
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDMetadata",
@@ -27,100 +54,2489 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 2 - Deadline 28 July 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 488.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "To: ETH Domain ORD Program<br>\nContribute Track",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "| PAUL SCHERRER INSTITUT<br/>PSI<br/><br/>Paul Scherrer Institut<br/>Forschungsstrasse 111<br/>5232 Villigen PSI<br/>Switzerland<br/>+41 56 310 21 11<br/>[www.psi.ch](http://www.psi.ch) | To: ETH D...",
+              "bounding_boxes": [
+                {
+                  "x": 67.36,
+                  "y": 191.27,
+                  "w": 503.1,
+                  "h": 609.34
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Dr. Filip Leonarski for an ORD Contribute project at the Paul Scherrer Institut"
-          },
-          {
-            "page": 21,
-            "matching_text": "PAUL SCHERRER INSTITUT"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999994158579272,
-        "confidence": 0.9999997491912606
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "[3] software. Jungfraujoch [(2018-2022). ](https://gitlab.psi.ch/jungfraujoch/jungfraujoch)Open Access.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 488.0,
+                  "w": 180.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Villigen PSI, 20 July 2022",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Head of the PSI ORD Steering Committee",
+              "bounding_boxes": [
+                {
+                  "x": 125.0,
+                  "y": 678.0,
+                  "w": 184.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Function (Title)...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Beamline Data Scientist                   |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Dr. Filip Leonarski"
-          }
-        ],
+        "reasoning": "Both idx 0 (table, 'First name(s): Filip') and idx 1 (support letter referencing 'Filip Leonarski') confirm 'Filip' as the main applicant’s first name. The idx 2 entry ('Alex') pertains to a different individual (the signatory of a letter, not the applicant). Data is consistent and explicitly supports 'Filip' as the main applicant’s first name. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| First name(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "With this letter it is thereby confirmed that Filip Leonarski will be fully employed for the complete duration of the above-mentioned project in the MX Data group at the Laboratory for Macromolecul...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Filip Leonarski, Paul Scherrer Institute",
+              "bounding_boxes": [
+                {
+                  "x": 173.0,
+                  "y": 133.0,
+                  "w": 246.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "With this letter it is thereby confirmed that Filip Leonarski will be fully employed for the complete duration of the above-mentioned project in the MX Data group at the Laboratory for Macromolecules...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Alex Amato",
+              "bounding_boxes": [
+                {
+                  "x": 125.0,
+                  "y": 659.0,
+                  "w": 184.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Dr. Filip Leonarski"
-          }
-        ],
+        "reasoning": "Multiple verbatim extractions from different sections (tables, support letters, citations) indicate the main applicant's surname is 'Leonarski'. The mention of 'Amato' is a signatory detail, not the applicant. The highest confidence is in the repeated extractions of 'Leonarski'.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9994071787319547,
-        "confidence": 0.9994071787319547
+        "extraction_confidence": 0.9954768161472815,
+        "confidence": 0.9954768161472815,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Surname(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "With this letter it is thereby confirmed that Filip Leonarski will be fully employed for the complete duration of the above-mentioned project in the MX Data group at the Laboratory for Macromolecul...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Filip Leonarski, Paul Scherrer Institute",
+              "bounding_boxes": [
+                {
+                  "x": 173.0,
+                  "y": 133.0,
+                  "w": 246.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Leonarski, F. (2022). *Jungfraujoch*, https://gitlab.psi.ch/jungfraujoch/jungfraujoch.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 415.0,
+                  "w": 403.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Alex Amato",
+              "bounding_boxes": [
+                {
+                  "x": 125.0,
+                  "y": 659.0,
+                  "w": 184.0,
+                  "h": 29.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "One may download a 50 TB dataset, only to discover that valuable data were present in 0.5% of frames, so 99.5% of resources to store and transfer the data were wasted on moving images not contribut...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 355.0,
+                  "w": 453.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "One may download a 50 TB dataset, only to discover that valuable data were present in 0.5% of frames, so 99.5% of resources to store and transfer the data were wasted on moving images not contribut...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 355.0,
+                  "w": 453.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
-      "project_title": {
+      "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "project entitled 'Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates'"
-          },
-          {
-            "page": 21,
-            "matching_text": "Proposal: “Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates”"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999928291611,
-        "confidence": 0.9999999928291611
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Total Costs (A + B)             |                                     |                                                 | 22,000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      }
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 5323                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999515968389,
+        "confidence": 0.9999999515968389,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Villigen, PSI                             |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999913801692382,
+            "confidence": 0.9999913801692382
+          },
+          "postcode": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Filip Leonarski for an ORD Contribute project at the Paul Scherrer Institut for the project entitled 'Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "**Proposal: “Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates”**",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 347.0,
+                  "w": 407.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "### Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 74.0,
+                  "w": 413.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "...lip Leonarski for an ORD Contribute project at the Paul Scherrer Institut for the project entitled 'Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.2,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.20001,
+                "height": 841.91998
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "**Proposal: “Enabling compliance with ORD standards for cutting-edge time-resolved experiments at high data-rates”**",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 347.0,
+                  "w": 407.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| TimeResHDRMX...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999671140221686,
+        "confidence": 0.9999671140221686,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "I will also improve metadata content by including labeling results to help the datasets' interoperability and findability.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 500.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The dataset size makes complete raw data deposited in the public repository difficult to access.Within this project, I will create reduced datasets with improved accessibility by applying existing...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 500.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The upcoming Swiss Light Source 2.0 machine upgrade and the advent of free electron lasers (SwissFEL) enable novel and exciting advancements in X-ray science.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 246.0,
+                  "w": 453.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "...eetings of High Data Rate Macromolecular Crystallography (HDR MX) group of beamline scientists from synchrotron and X-ray free electron laser facilities worldwide.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 626.0,
+                    "w": 454.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| macromolecular crystallography, synchrotron, FAIR data, time-resolved serial crystallography, high data rate science...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 351.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I've been part of the recent effort to standardise and promote NXmx gold standard for macromolecular crystallography data [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 682.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "One of the emerging techniques is time-resolved serial crystallography.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| macromolecular crystallography, synchrotron, FAIR data, time-resolved serial crystallography, high data rate science...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 351.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The resulting dataset will only contain images with high-quality diffraction (usually 0.1-10% of all images) and will be available in the PSI public data repository alongside the complete dataset.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 500.0,
+                    "h": 85.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 374.0,
+                  "w": 484.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 374.0,
+                  "w": 484.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 12...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 374.0,
+                  "w": 484.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Two independent verbatim extractions both give a total budget requested of 22,000 CHF. A third figure (11,000 CHF) reflects a partial share. Thus, the total requested budget is confirmed as 22,000 CHF.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 22000                                          |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 715.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "The amount of **CHF 11’000** has been reserved to support our institution’s share of project funding, if it is recommended for funding by the evaluation committee.",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 488.0,
+                  "w": 402.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 22000                                          |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 715.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "One may download a 50 TB dataset, only to discover that valuable data were present in 0.5% of frames, so 99.5% of resources to store and transfer the data were wasted on moving images not contribut...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 355.0,
+                  "w": 453.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 763.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1.  Applicant work:",
+              "bounding_boxes": [
+                {
+                  "x": 88.0,
+                  "y": 662.0,
+                  "w": 89.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999809890923866,
+            "confidence": 0.9999809890923866
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999608979601,
+            "confidence": 0.9999999608979601
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 10043,
-      "num_output_tokens": 2492
-    }
+      "num_document_tokens": 10203,
+      "num_output_tokens": 5782
+    },
+    "parse_job_id": "9a015c75-471b-461c-a533-2c4d2fbdc25e"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "5dadc433-8e3c-4422-8596-894b6392fecd",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:31:09.483063+00:00",
-  "updated_at": "2025-11-11T10:32:46.105836+00:00"
+  "job_id": "a667620c-7b14-43c4-a689-da2f33ffdcb8",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:51:40.867097+00:00",
+  "updated_at": "2026-01-21T18:58:36.569551+00:00"
 }

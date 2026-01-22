@@ -10,7 +10,7 @@
     "laboratory_department": "CREATE Lab, IGM",
     "institution_of_main_applicant": "EPFL",
     "report": "Final",
-    "reporting_period": "01/24 to 12/24",
+    "reporting_period": "",
     "coapplicants": []
   },
   "metadata": {
@@ -21,83 +21,231 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "Project title was listed clearly in the General information table, verbatim.",
-        "extraction_confidence": 0.9999999869659865,
-        "confidence": 0.9999999869659865
-      },
-      "explore_call_number": {
-        "reasoning": "The 'Contribute call number' is provided as '5th Call'; this translates to 5.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_starting_and_end_date": {
-        "reasoning": "Exact date range is listed under General information.",
-        "extraction_confidence": 0.9999999667676938,
-        "confidence": 0.9999999667676938
-      },
-      "main_applicant_responsible_for_project": {
-        "reasoning": "The main applicant's name is written clearly with no titles.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "function": {
-        "reasoning": "Verbatim extraction from the Function row, which applies to the main applicant.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "laboratory_department": {
-        "reasoning": "Laboratory and/or Department field clearly lists this info.",
-        "extraction_confidence": 0.9999999612774708,
-        "confidence": 0.9999999612774708
-      },
-      "institution_of_main_applicant": {
-        "reasoning": "Extraction is verbatim and located in General information.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "report": {
-        "reasoning": "Both the Scientific Report Template heading and text indicate that this is a final report.",
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Scientific Report Template – Final"
+            "matching_text": "| **Project title:**                     | Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense) |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 455.0,
+                "h": 170.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
+        ]
+      },
+      "explore_call_number": {
+        "reasoning": "VERBATIM EXTRACTION, with ordinal conversion from '5th Call' to 5",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "**5. Value delivered for ORD practices/communities**",
+            "bounding_boxes": [
+              {
+                "x": 74.0,
+                "y": 343.0,
+                "w": 269.0,
+                "h": 11.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999998160375434,
+        "confidence": 0.999998160375434,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Project starting & end date:**       | 1st Jan 2024-31st December 2024                                                                                           |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 455.0,
+                "h": 170.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Applicant responsible for project:** | Josie Hughes                                                                                                              |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 455.0,
+                "h": 170.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Function:**                          | Assistant Professor                                                                                                       |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 455.0,
+                "h": 170.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Laboratory (and/or Department):**    | CREATE Lab, IGM                                                                                                           |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 455.0,
+                "h": 170.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Ma",
+            "bounding_boxes": [
+              {
+                "x": 233.0,
+                "y": 40.0,
+                "w": 65.0,
+                "h": 24.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "## Scientific Report Template – Final",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 160.0,
+                "w": 256.0,
+                "h": 16.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
+          }
+        ]
       },
       "reporting_period": {
-        "reasoning": "The project starting and end date is 1st Jan 2024-31st December 2024, so reporting period is MM/YY to MM/YY: 01/24 to 12/24.",
-        "extraction_confidence": 0.9525772689653378,
-        "confidence": 0.9525772689653378
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
       }
     },
     "usage": {
       "num_pages_extracted": 6,
-      "num_document_tokens": 3170,
-      "num_output_tokens": 976
-    }
+      "num_document_tokens": 3347,
+      "num_output_tokens": 488
+    },
+    "parse_job_id": "949937f8-1f16-415d-8c8b-c1f48f9ca5e6"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "10fea91b-5045-4763-b43e-42506dfccc6c",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:09:53.393434+00:00",
-  "updated_at": "2025-11-11T17:11:21.379806+00:00"
+  "job_id": "7b1061bb-a61a-4ffa-afae-571dac470faf",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:03:30.098862+00:00",
+  "updated_at": "2026-01-22T03:04:28.310930+00:00"
 }

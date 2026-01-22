@@ -18,13 +18,13 @@
     "ethics_outside_countries_ethics_issues": "No",
     "ethics_local_resources": "No",
     "ethics_import_material": "No",
-    "ethics_export_material": "No",
+    "ethics_export_material": "Yes",
     "ethics_low_middle_income_countries": "No",
     "ethics_individuals_at_risk": "No",
     "ethics_environmental_harm": "No",
     "ethics_endangered_species": "No",
     "ethics_human_harm": "No",
-    "ethics_artificial_intelligence": "No",
+    "ethics_artificial_intelligence": "Yes",
     "ethics_other_issues": "No"
   },
   "metadata": {
@@ -34,317 +34,1781 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "ethics_human_participants": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "1 - Human participants?<br/>Comment | No |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "ethics_human_embryos": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "2 - Human embryos/foetuses?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
+      },
+      "ethics_human_participants": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_clinical_study": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "3 - A clinical trial?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "No |\n| 3 - A clinical trial?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 162.0,
+                  "w": 142.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_human_cells_tissues": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "4 - Sampling/use of biological material from human participants?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "as the potential for military applications (dual-use technology?<br/>Comment | No |",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 433.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "5 - Collecting or processing of personal data?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "articipants?<br/>Comment                                         | No |\n| 5 - Collecting or p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 193.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_animals": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "6 - Animal experiments?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "ethics_environmental_harm": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "7 - An impact on the environment and/or on the health and safety of the researchers?<br/>Comment | No |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 6 - Animal experiments?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 277.0,
+                  "y": 267.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| 1 - Human participants?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 116.0,
+                  "w": 525.0,
+                  "h": 381.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_low_middle_income_countries": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "8 - Developing countries?<br/>Comment | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "health and safety of the researchers?<br/>Comment                     | No |\n| 8 - Developin",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 328.0,
+                  "w": 243.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+              "bounding_boxes": [
+                {
+                  "x": 120.0,
+                  "y": 300.0,
+                  "w": 388.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+              "bounding_boxes": [
+                {
+                  "x": 120.0,
+                  "y": 300.0,
+                  "w": 388.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+              "bounding_boxes": [
+                {
+                  "x": 120.0,
+                  "y": 300.0,
+                  "w": 388.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
+      },
+      "ethics_environmental_harm": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 7 - An impact on the environment and/or on the",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 298.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 7 - An impact on the environment and/or on the",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 298.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
+      },
+      "ethics_other_issues": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| No |\n| 9 - Any potential conflict of interest?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 402.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**1. Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 146.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_artificial_intelligence": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "Artificial intelligence (AI) is increasingly applied to 3D data and allows the rapid detection and classification of relevant variables in forests."
-          },
-          {
-            "page": 11,
-            "matching_text": "An advantage of AI algorithms to extract features from 3D point cloud data ..."
-          },
-          {
-            "page": 16,
-            "matching_text": "With Artificial Intelligence and DeepLearning becoming ever-more interesting for point cloud processing and feature extraction, it is important ..."
-          },
-          {
-            "page": 18,
-            "matching_text": "protocols for the detection of data errors will be tested with artificially corrupted data sets."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "Artificial intelligence (AI) is increasingly applied to 3D data and allows the rapid detection and classification of relevant variables in forests.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 635.0,
+                  "w": 450.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_human_embryonic_stem_cells": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_human_interventions": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_further_processing": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_export_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_import_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_criminal": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_activities_outside_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_outside_countries_ethics_issues": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_local_resources": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_import_material": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_export_material": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_individuals_at_risk": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_endangered_species": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "ethics_human_harm": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "No specific Yes/No answer is present, but the absence of any mention of risk or harm, combined with an explicit statement that the section was searched for such content and none was found, supports an inferred 'No'.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "ethics_other_issues": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 395.0,
+                  "w": 446.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 28,
-      "num_document_tokens": 17146,
-      "num_output_tokens": 6489
-    }
+      "num_document_tokens": 17108,
+      "num_output_tokens": 6230
+    },
+    "parse_job_id": "07fe1b81-e4ce-452b-999a-8d2a13b46721"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
+    "use_reasoning": true
   },
-  "job_id": "9289d0c8-f553-4e14-886b-1d8d73b4dc4f",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T15:39:31.420183+00:00",
-  "updated_at": "2025-11-11T15:40:13.756573+00:00"
+  "job_id": "25169f48-ff99-4792-ade0-d0d95388f74f",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T23:33:48.128364+00:00",
+  "updated_at": "2026-01-21T23:44:40.406409+00:00"
 }

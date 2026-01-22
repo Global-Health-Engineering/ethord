@@ -15,7 +15,7 @@
     "total_budget_other_total_direct": 0.0,
     "total_budget_total_direct": 29991.2,
     "total_budget_subcontracting": 0.0,
-    "total_budget_total_costs": 29991.2
+    "total_budget_total_costs": 29992.0
   },
   "metadata": {
     "schema_name": "ORDBudget",
@@ -25,199 +25,1440 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "Both sources refer to the total requested/total CHF amount; the 29991.20 CHF value is more precise and directly from the budget table. Thus, it is the preferred extraction.",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Total Costs (A + B) | | | 29991.20 CHF |"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. The main 'Total requested amount in CHF' is 29992, extracted directly from a budget section table; the secondary value 29991.20 CHF, from later in the document, likely reflects a slightly more precise or recalculated version but is consistent. Reporting the explicitly requested amount as the main figure.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9997027659242175,
-        "confidence": 0.9997027659242175
+        "extraction_confidence": 0.99999963308803,
+        "confidence": 0.99999963308803,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 29992 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 727.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 29991.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "| Total Costs (A + B)             |                                     |                                                  | 29991.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Senior Staff |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9971324919152352,
-        "confidence": 0.9971324919152352
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Postdocs |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA: Budget table section for 'Postdocs' exists but is empty. No CHF value is reported anywhere for postdocs, thus the total is 0.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "MS 1: Established Databases and Automated Data Retrieval",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 311.0,
+                  "w": 472.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "MS 1: Established Databases and Automated Data Retrieval",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 311.0,
+                  "w": 472.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Students | 19699.20 CHF |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9846274610771827,
-        "confidence": 0.9846274610771827
+        "extraction_confidence": 0.9804707683445524,
+        "confidence": 0.9804707683445524,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "|                                 |                                     | Students                                         | 19699.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Other |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999981871437498,
-        "confidence": 0.9999981871437498
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| i. Total Direct Costs for Personnel |              | 27241.20 CHF |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999381276822055,
-        "confidence": 0.999381276822055
+        "extraction_confidence": 0.9999812665982372,
+        "confidence": 0.9999812665982372,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 27241.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 27241.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Travel² | | 2750.00 CHF |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9954499053899747,
-        "confidence": 0.9954499053899747
+        "extraction_confidence": 0.9954281015210095,
+        "confidence": 0.9954281015210095,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "MS 1: Established Databases and Automated Data Retrieval",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 311.0,
+                  "w": 472.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "MS 1: Established Databases and Automated Data Retrieval",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 311.0,
+                  "w": 472.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 16,
+              "matching_text": "Finally, we plan to attend the IVS GM 2024 in Japan to present our work and discuss its implications with the IVS community. Total travel costs are estimated to be 2750 CHF.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 297.0,
+                  "w": 483.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Equipment³ |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. Both extractions clearly state that no CHF value for equipment was found in the budget or supporting tables in the provided page ranges.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999985844886107,
-        "confidence": 0.9999985844886107
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Publications (including Open Access fees), etc.⁴ |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999985844886107,
-        "confidence": 0.9999985844886107
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Conferences and workshops⁵ |              |"
-          }
-        ],
+        "reasoning": "Both sources indicate either absence of information or an explicitly empty entry for 'Conferences and workshops' budget. Conservatively, the extracted value is zero, representing no budget requested/allocated in this category. This is an interpretation based on absence of data, as opposed to a hard 'missing' or null, because a table row is present but left blank.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This project aims to establish three comprehensive databases for monitoring performance on different levels: observing session-based, station-based, and source-based (see Figure 1).",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 366.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| Other (please specify)⁶ |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9989847689005966,
-        "confidence": 0.9989847689005966
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| ii. Total Other Direct Costs |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.6000784983096916,
-        "confidence": 0.6000784983096916
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| A – Total Direct Costs (i + ii) | | | 29991.20 CHF |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.8440158918252135,
-        "confidence": 0.8440158918252135
+        "extraction_confidence": 0.9999958092782025,
+        "confidence": 0.9999958092782025,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 11,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 274.0,
+                  "w": 448.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 29991.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 29991.20 CHF |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 157.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1007/s00190-022-01621-0",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 479.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "| B – Subcontracting Costs⁷ |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. There is no reported value for subcontracting in CHF in the provided document sources. The most accurate extraction, in this context, is to return a value of 0 based on absence of info.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.8758980389619142,
-        "confidence": 0.8758980389619142
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "eops --- Session\n    reports --- Station\n    logs --- Source\n```\n**Figure 1: high level overview of project structure**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 604.0,
+                  "w": 214.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> [](https://doi.org/10.1007/978-3-642-28000-9_7)1] Schuh, H., & Böhm, J.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 155.0,
+                  "w": 459.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 18,
-      "num_document_tokens": 11440,
-      "num_output_tokens": 3684
-    }
+      "num_document_tokens": 11170,
+      "num_output_tokens": 3733
+    },
+    "parse_job_id": "cb8a4565-05c8-4ed9-a853-b07923269354"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "3b638bc1-5b3e-463a-aff5-bd20d0ceeccb",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:52:19.519552+00:00",
-  "updated_at": "2025-11-11T13:52:54.490266+00:00"
+  "job_id": "f7767071-7713-4ac1-a5cb-05c48f8364cb",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T21:35:42.161548+00:00",
+  "updated_at": "2026-01-21T21:36:53.241824+00:00"
 }

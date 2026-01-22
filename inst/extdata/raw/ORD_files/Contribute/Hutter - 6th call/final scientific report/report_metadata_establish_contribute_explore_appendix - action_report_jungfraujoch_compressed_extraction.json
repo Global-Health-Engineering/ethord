@@ -4,39 +4,14 @@
   "data": {
     "project_title": "Data collection for legged robots at high altitude",
     "explore_call_number": 0,
-    "project_starting_and_end_date": "2024-11-02 to 2024-11-03",
+    "project_starting_and_end_date": "",
     "main_applicant_responsible_for_project": "Jonas Frey",
-    "function": "Robotic researcher",
+    "function": "",
     "laboratory_department": "Robotic Systems Lab",
     "institution_of_main_applicant": "ETH Zurich",
     "report": "Final",
-    "reporting_period": "2024",
-    "coapplicants": [
-      {
-        "name": "Katharine Patterson",
-        "function": "Robotic researcher",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Data collection, robotics research"
-      },
-      {
-        "name": "Tianao Xu",
-        "function": "Robotic researcher",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Data collection, robotics research"
-      },
-      {
-        "name": "Ross Thompson",
-        "function": "Robotic researcher",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Data collection, robotics research"
-      },
-      {
-        "name": "Viola Ferrari",
-        "function": "Robotic researcher",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Data collection, robotics research"
-      }
-    ]
+    "reporting_period": "",
+    "coapplicants": []
   },
   "metadata": {
     "schema_name": "ORDReportMetadata",
@@ -46,315 +21,159 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "Title located at top of the first page, consistent with project naming conventions.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Data collection for legged robots at high altitude"
+            "matching_text": "# Data collection for legged robots at high altitude",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 75.0,
+                "w": 386.0,
+                "h": 19.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.276,
+              "height": 841.89
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "explore_call_number": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9998405740101901,
-        "confidence": 0.9998405740101901
+        "extraction_confidence": 0.9998859733864321,
+        "confidence": 0.9998859733864321
       },
       "project_starting_and_end_date": {
-        "reasoning": "Dates for the deployments covering the experiment clearly given; inferred as project period.",
-        "extraction_confidence": 0.9999996711323244,
-        "confidence": 0.9999996711323244
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Explicitly stated as contact person, first in author list and given email.",
+        "reasoning": "Inferred from author order and correspondence/contact provided; Jonas Frey listed with email and address as point-of-contact.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "function": {
-        "reasoning": "INFERRED FROM TEXT (author at Robotic Systems Lab, project lead and correspondent; title/position not given).",
+        "confidence": 1.0,
         "citation": [
           {
-            "page": 1,
-            "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
+            "page": 4,
+            "matching_text": "Jonas Frey\nE-mail: jonfrey@ethz.ch",
+            "bounding_boxes": [
+              {
+                "x": 301.0,
+                "y": 327.0,
+                "w": 97.0,
+                "h": 20.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.276,
+              "height": 841.89
+            }
           }
-        ],
+        ]
+      },
+      "function": {
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.4360315001725777,
-        "confidence": 0.4360315001725777
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Robotic Systems Lab\nETH Zurich\nLeonhardstrasse 21\n8092 Zurich\nSwitzerland",
+            "bounding_boxes": [
+              {
+                "x": 302.0,
+                "y": 227.0,
+                "w": 86.0,
+                "h": 50.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.276,
+              "height": 841.89
+            }
+          }
+        ]
       },
       "institution_of_main_applicant": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 4,
+            "matching_text": "Robotic Systems Lab\nETH Zurich\nLeonhardstrasse 21\n8092 Zurich\nSwitzerland",
+            "bounding_boxes": [
+              {
+                "x": 302.0,
+                "y": 227.0,
+                "w": 86.0,
+                "h": 50.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.276,
+              "height": 841.89
+            }
+          }
+        ]
       },
       "report": {
-        "reasoning": "INFERRED FROM TEXT: 'Activity Report 2024' likely refers to a final or annual summary report.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "International Foundation HFSJG                       Activity Report 2024"
-          }
-        ],
+        "reasoning": "Inferred from the report title ('Activity Report 2024') and content summarizing a completed data collection campaign, with results and discussion.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999996871837232,
-        "confidence": 0.9999996871837232
+        "extraction_confidence": 0.9992903233093213,
+        "confidence": 0.9992903233093213
       },
       "reporting_period": {
-        "reasoning": "INFERRED FROM TEXT: 'Activity Report 2024' indicates coverage of the full year 2024.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "International Foundation HFSJG Activity Report 2024"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.6611232335299775,
-        "confidence": 0.6611232335299775
-      },
-      "coapplicants": [
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Katharine Patterson<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9864323922858976,
-            "confidence": 0.9864323922858976
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999996766699103,
-            "confidence": 0.999996766699103
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Jonas Frey<sup>1</sup>, Katharine Patterson<sup>1</sup>, Tianao Xu<sup>1</sup>..."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.36632082071263494,
-            "confidence": 0.36632082071263494
-          },
-          "reasoning": "All co-authors (except main applicant) are co-applicants; function/institution inferred from lab and contribution to data collection/robotics tasks."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Tianao Xu<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999587886904274,
-            "confidence": 0.9999587886904274
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Jonas Frey<sup>1</sup>, Katharine Patterson<sup>1</sup>, Tianao Xu<sup>1</sup>..."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9947279153575026,
-            "confidence": 0.9947279153575026
-          },
-          "reasoning": "All co-authors (except main applicant) are co-applicants; function/institution inferred from lab and likely project tasks."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Ross Thompson"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.997084844337109,
-            "confidence": 0.997084844337109
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999995455827853,
-            "confidence": 0.9999995455827853
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Jonas Frey<sup>1</sup>, Katharine Patterson<sup>1</sup>, Tianao Xu<sup>1</sup>, Ross Thompson, and Viola Ferrari"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9694161871355312,
-            "confidence": 0.9694161871355312
-          },
-          "reasoning": "Ross Thompson listed as co-author without alternative institution; by default, associated with ETH Zurich and project roles."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Viola Ferrari"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999973678971,
-            "confidence": 0.99999973678971
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "<sup>1</sup>Robotic Systems Lab, ETH Zurich, Zurich, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Jonas Frey<sup>1</sup>, Katharine Patterson<sup>1</sup>, Tianao Xu<sup>1</sup>, Ross Thompson, and Viola Ferrari"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999985905110108,
-            "confidence": 0.9999985905110108
-          },
-          "reasoning": "Viola Ferrari listed as co-author: no alternate institution stated, so inferred as ETH Zurich/Robotic Systems Lab member; role inferred from research focus."
-        }
-      ]
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      }
     },
     "usage": {
       "num_pages_extracted": 4,
-      "num_document_tokens": 2816,
-      "num_output_tokens": 2397
-    }
+      "num_document_tokens": 2708,
+      "num_output_tokens": 580
+    },
+    "parse_job_id": "1e27f2d2-9133-4877-b503-b2191a143ae6"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "8277ab05-a144-4640-986d-92090e9476dd",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T16:44:02.751028+00:00",
-  "updated_at": "2025-11-11T16:45:48.998420+00:00"
+  "job_id": "a2700369-299b-4437-ba96-4eed20b109b0",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:53:38.690302+00:00",
+  "updated_at": "2026-01-22T02:54:41.115732+00:00"
 }

@@ -2,14 +2,14 @@
   "document_path": "raw/ORD_files/Explore/Hahnloser  - 1st call/application/ETHZ_Hahnloser.pdf",
   "status": "success",
   "data": {
-    "total_budget_personnel_senior_staff": 75000.0,
-    "total_budget_personnel_postdocs": null,
-    "total_budget_personnel_students": null,
+    "total_budget_personnel_senior_staff": 50000.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 15000.0,
-    "total_budget_personnel_total_direct": null,
-    "total_budget_travel": null,
-    "total_budget_equipment": 15000.0,
-    "total_budget_other_publication_fees": null,
+    "total_budget_personnel_total_direct": 0.0,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
     "total_budget_other_conferences_workshops": 3000.0,
     "total_budget_other_other": 7000.0,
     "total_budget_other_total_direct": 10000.0,
@@ -26,143 +26,1034 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 150000"
-          },
-          {
-            "page": 31,
-            "matching_text": "Total Costs (A + B)             | 150k CHF"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.570919658446389,
-        "confidence": 0.570919658446389
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 150000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 715.0,
+                  "w": 149.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "* 2018-2021: PI, Project grant from the Swiss national Science Foundation 31003A_182638, ‘The roles of vocal communication in pair formation and cultural learning in songbirds’, CHF 1’008’000.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 686.0,
+                  "w": 444.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "* 2018-2021: PI, Project grant from the Swiss national Science Foundation 31003A_182638, ‘The roles of vocal communication in pair formation and cultural learning in songbirds’, CHF 1’008’000.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 686.0,
+                  "w": 444.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "* 2018-2021: PI, Project grant from the Swiss national Science Foundation 31003A_182638, ‘The roles of vocal communication in pair formation and cultural learning in songbirds’, CHF 1’008’000.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 686.0,
+                  "w": 444.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 27,
+              "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 456.0,
+                  "w": 468.0,
+                  "h": 131.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "| Total Costs (A + B)             | 150k CHF                    |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "reasoning__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| Total Costs (A + B)             | 150k CHF                    |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "Senior Staff    | 75k CHF for software engineer (Jonathan Prada, 25k CHF is own in-kind contribution)"
-          }
-        ],
+        "reasoning": "The second JSON object directly extracts the table entry for Senior Staff, which is 75k CHF for a software engineer. It clarifies that 25k CHF is an in-kind contribution (not part of the budget request), so the budgeted/explicitly requested amount is 50,000 CHF. The first extraction did not find any value. Thus, the correct answer is verbatim from the second extraction.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999031936799,
-        "confidence": 0.9999999031936799
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "| Direct Costs          | Personnel¹                          | Senior Staff | 75k CHF for software engineer (Jonathan Prada, 25k CHF is own in-kind contribution) |   |   |              |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 211.0,
+                  "w": 702.0,
+                  "h": 208.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "Other           | 15k CHF for user experience specialist and test session organizer"
-          }
-        ],
+        "reasoning": "15k CHF is explicitly listed for 'Other' personnel (user experience specialist and test session organizer)—VERBATIM EXTRACTION. Earlier evidence reports absence of value, but the later budget table provides the amount.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "|                       |                                     | Other        | 15k CHF for user experience specialist and test session organizer                   |   |   |              |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 211.0,
+                  "w": 702.0,
+                  "h": 208.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "reasoning__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "|                       |                                     | Other        | 15k CHF for user experience specialist and test session organizer                   |   |   |              |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 211.0,
+                  "w": 702.0,
+                  "h": 208.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_travel": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 30,
-            "matching_text": "Equipment³ | 15k CHF large server (operational cost, own in-kind contribution)"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA for a project-funded equipment total; extracted equipment costs are in-kind contributions and not part of the requested budget. Default to 0 as per standards when equipment funding is explicitly stated as not requested.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999031936799,
-        "confidence": 0.9999999031936799
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 30,
-            "matching_text": "Conferences and workshops⁵ | 3000 CHF for 60 lunches (10 test sessions of 6 students..."
-          }
-        ],
+        "reasoning": "The budget table entry for 'Conferences and workshops' explicitly specifies a total of 3000 CHF for related events. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "|            | Conferences and workshops⁵                        | 3000 CHF for 60 lunches (10 test sessions of 6 students each, 30 CHF per lunch plus 20 CHF participant fee)                     |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 232.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "|            | Conferences and workshops⁵                        | 3000 CHF for 60 lunches (10 test sessions of 6 students each, 30 CHF per lunch plus 20 CHF participant fee)                     |   |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 232.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 30,
-            "matching_text": "Other (please specify)⁶ | 7000 CHF Cloud Infrastructure: Database (>57 CHF/month)..."
-          }
-        ],
+        "reasoning": "Explicit mention of 7000 CHF for Cloud Infrastructure under 'Other (please specify)'—VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "|            | Other (please specify)⁶                           | 7000 CHF Cloud Infrastructure: Database (>57 CHF/month), Heroku Containers (>115 CHF/month), AWS Parse Storage (>100 CHF/month) |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 232.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "|            | Other (please specify)⁶                           | 7000 CHF Cloud Infrastructure: Database (>57 CHF/month), Heroku Containers (>115 CHF/month), AWS Parse Storage (>100 CHF/month) |   |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 232.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "Sum of explicit 'Other' direct costs: 3000 (Conferences and workshops) + 7000 (Cloud Infrastructure/Other). VERBATIM EXTRACTION of subtotals where total not directly listed.",
-        "citation": [
-          {
-            "page": 25,
-            "matching_text": "Conferences (3000) + Other (7000) = 10000."
-          }
-        ],
-        "parsing_confidence": 0.20402499960979872,
-        "extraction_confidence": 0.20402499960979872,
-        "confidence": 0.20402499960979872
-      },
-      "total_budget_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "A – Total Direct Costs (i + ii) | 110k CHF"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.4014043554518887,
-        "confidence": 0.4014043554518887
-      },
-      "total_budget_subcontracting": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 31,
-            "matching_text": "B – Subcontracting Costs 7      | 40K CHF for Data Aggregator"
-          }
-        ],
+        "reasoning": "Sum of 3,000 CHF (conferences) and 7,000 CHF (other) explicitly provided, totaling 10,000 CHF for total other direct costs. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
-      "error": "Input should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_personnel_total_direct)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_other_publication_fees)"
+      "total_budget_total_direct": {
+        "reasoning": "Entry 'A – Total Direct Costs (i + ii)' is 110k CHF—VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| A – Total Direct Costs (i + ii) | 110k CHF                    |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "reasoning__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| A – Total Direct Costs (i + ii) | 110k CHF                    |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "Subcontracting costs of 40k CHF for Data Aggregator are explicitly stated in the budget table—VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "1. Interface feel and look",
+              "bounding_boxes": [
+                {
+                  "x": 89.0,
+                  "y": 716.0,
+                  "w": 128.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| B – Subcontracting Costs 7      | 40K CHF for Data Aggregator |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "reasoning__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "| B – Subcontracting Costs 7      | 40K CHF for Data Aggregator |   |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 180.0,
+                  "w": 701.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
       "num_pages_extracted": 31,
-      "num_document_tokens": 16077,
-      "num_output_tokens": 2761
-    }
+      "num_document_tokens": 16082,
+      "num_output_tokens": 3755
+    },
+    "parse_job_id": "30a412a4-fc1e-4305-978a-ba27db49b5d8"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "40c1c404-2cdf-4d4d-9f7d-a94318ae9559",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:18:42.007620+00:00",
-  "updated_at": "2025-11-11T14:19:24.222836+00:00"
+  "job_id": "0f1c9081-de86-41be-8a4e-9e2353f1a3d2",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:16:20.710927+00:00",
+  "updated_at": "2026-01-21T20:18:04.538276+00:00"
 }

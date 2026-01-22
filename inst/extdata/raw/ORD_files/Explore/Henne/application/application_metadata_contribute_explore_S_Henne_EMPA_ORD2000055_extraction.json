@@ -11,7 +11,7 @@
     "main_applicant_postcode": 8600,
     "main_applicant_city": "Dübendorf",
     "all_applicants": null,
-    "project_title": "Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases (ExAiRIM)",
+    "project_title": "Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases",
     "project_acronym": "ExAiRIM",
     "project_abstract": "Inverse modelling of greenhouse gas emissions is a powerful tool combining atmospheric observations and transport simulations to provide policy-relevant, real-world emission estimates. Inverse modelling requires computational workflows that deal with multiple atmospheric model simulations, pre- and post-processing steps, inversion codes and collection/aggregation of results across an ensemble of individual realisations. These steps are not handled in a traceable, repeatable and user-friendly way. Here, we propose to use the 'Automated Interactive Infrastructure and Database for Computational Science' AiiDA system to develop prototype workflows and implement plugins for automation of the above steps. AiiDA is a well-established tool in the field of computational material science within the ETH-domain. We will build on its flexible structure to transfer its powers to the atmospheric modelling community, specifically that of inverse modelling. We will interact with our Swiss and European partners to design generic workflows that can be easily adopted by other researchers working on inverse modelling. Our implementation will improve the traceability, repeatability, findability, and sharing of emission estimates that are crucial in the assessment of climate change policy and legislation. We expect to carry the achievements beyond the use in our own group to other researchers with whom we cooperate closely in the context of international and European programmes and projects.",
     "keywords": [
@@ -27,19 +27,19 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "networking"
+        "wp_title": "Networking with greenhouse gas modelling community"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "plugin design"
+        "wp_title": "Design of AiiDA plugin for greenhouse gas inversion"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "implementation"
+        "wp_title": "Implementation of plugin design in dedicated AiiDA plugin"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "outreach"
+        "wp_title": "Outreach and dissemination to the European greenhouse gas modelling community"
       }
     ]
   },
@@ -50,371 +50,2456 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Which ETH Domain do you belong to?             | EMPA"
-          },
-          {
-            "page": 32,
-            "matching_text": "I, Dr. Lukas Emmenegger (Head of Empa's [Laboratory]..."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Explore Projects\" - Deadline 14th April 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 519.0,
+                  "h": 102.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "## Track A: Explore projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 132.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 33,
+              "matching_text": "ETH Domain ORD Program<br>\nExplore Track",
+              "bounding_boxes": [
+                {
+                  "x": 295.0,
+                  "y": 135.0,
+                  "w": 142.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 215.0,
+                  "w": 455.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 215.0,
+                  "w": 455.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 215.0,
+                  "w": 455.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Member of Empa's ICT commission and HPC steering committee",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 751.0,
+                  "w": 286.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "Empa\nMaterials Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 288.0,
+                  "y": 34.0,
+                  "w": 161.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "[Stephan ](https://www.empa.ch/web/empa/air-pollution-/-environmental-technology)Henne for an ORD *Explore* project at my Laboratory for the project entitled \" Explore AiiDA for Regional Inverse Mo...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Function (Title)                               | Senior Scientist"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "**Senior scientist:** group for atmospheric modelling and remote sensing\nThe main research topics of the group are:",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 654.0,
+                  "w": 315.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "The value 'Stephan' is found directly in all provided source text segments, with verbatim extraction from multiple locations, all supporting the same name.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "First name(s)                                  | Stephan"
-          },
-          {
-            "page": 10,
-            "matching_text": "Stephan Henne is author and co-author of ~90 peer-reviewed, high-impact journal articles"
-          },
-          {
-            "page": 32,
-            "matching_text": "application of Dr. [Stephan ](https://www.empa.ch/web/empa/air-pollution-/-environmental-technology)Henne for an ORD *Explore* project"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "## Dr. Stephan Henne",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 73.0,
+                  "w": 391.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "# PEER - REVIEWED PUBLICATIONS BY STEPHAN HENNE (2016-2022)",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 72.0,
+                  "w": 302.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "Stephan Henne is fully entitled to execute the above-mentioned project in my Laboratory.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 369.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "I also guarantee that the required infrastructure is wholly available and adequate for implementing this ORD Explore project and that the host laboratory will cover the additional resources needed...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 369.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Surname(s)                                     | Henne"
-          },
-          {
-            "page": 10,
-            "matching_text": "Stephan Henne is author and co-author of ~90 peer-reviewed"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "## Dr. Stephan Henne",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 73.0,
+                  "w": 391.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "henne/](https://publons.com/researcher/2876400/stephan-henne/) )",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 86.0,
+                  "w": 327.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "A., Brunner, D., Henne, S., Vollmer, M.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 119.0,
+                  "w": 459.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "S., Schubert, S., Feigenwinter, C., Vogt, R., Wicki, A., and Carmeliet, J.: COSMO-BEP-Tree v1.0: a coupled urban climate model with explicit representation of street trees, Geosci Model Dev, 13, 1685-...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 284.0,
+                  "w": 454.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "I also guarantee that the required infrastructure is wholly available and adequate for implementing this ORD Explore project and that the host laboratory will cover the additional resources needed...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 369.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Laboratory name                                | Air Pollution / Environmental Technology"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9999999374367368,
+        "confidence": 0.9999999374367368,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name                                | Air Pollution / Environmental Technology |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 514.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Postcode / Zipcode                             | 8600"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode                             | 8600                                     |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 560.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "City                                           | Dübendorf"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ORD Program - Measure 1 \"Explore Projects\""
-          },
-          {
-            "page": 13,
-            "matching_text": "Track A: Explore projects"
-          },
-          {
-            "page": 32,
-            "matching_text": "ORD *Explore* project at my Laboratory for the project entitled"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9999998709249087,
+        "confidence": 0.9999998709249087,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City                                           | Dübendorf                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 560.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "The project title is consistently given in the document as 'Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases', with later support material (page 32) showing the official acronym in parentheses—this matches standard scientific project titling conventions. As the variant with the acronym is an augmentation, providing both the full title and its abbreviation, it offers a more complete official form for extraction.",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "project entitled \" Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases (ExAiRIM)\""
-          }
-        ],
+        "reasoning": "Title consistently extracted verbatim from the project table (page 2) and proposal narrative (page 14). The acronym version occurs only in a later reference in correspondence; standard protocol is to extract the main title as given in the research proposal table/section. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999475025109,
-        "confidence": 0.9999999475025109
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "[Stephan ](https://www.empa.ch/web/empa/air-pollution-/-environmental-technology)Henne for an ORD *Explore* project at my Laboratory for the project entitled \" Explore AiiDA for Regional Inverse Mo...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 141.0,
+                  "w": 332.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "...ronmental-technology)Henne for an ORD *Explore* project at my Laboratory for the project entitled \" Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases (ExAiRIM)\", pending ethical clearan...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "In the following, we describe the required steps in estimating regional greenhouse gas emissions based on atmospheric models and inversion methods based on examples used in our research group (also...",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 119.0,
+                  "w": 459.0,
+                  "h": 136.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "In the following, we describe the required steps in estimating regional greenhouse gas emissions based on atmospheric models and inversion methods based on examples used in our research group (also...",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 119.0,
+                  "w": 459.0,
+                  "h": 136.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "In the following, we describe the required steps in estimating regional greenhouse gas emissions based on atmospheric models and inversion methods based on examples used in our research group (also...",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 119.0,
+                  "w": 459.0,
+                  "h": 136.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 14,
-            "matching_text": "Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases<br/><br/>ExAiRIM"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| CV corresponding applicant                     | 64942::CV-Henne-EXAIRIM.pdf              |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 560.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "> \n> ExAiRIM",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 171.0,
+                  "w": 44.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1) Atmospheric transport model",
+              "bounding_boxes": [
+                {
+                  "x": 94.0,
+                  "y": 272.0,
+                  "w": 161.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1) Atmospheric transport model",
+              "bounding_boxes": [
+                {
+                  "x": 94.0,
+                  "y": 272.0,
+                  "w": 161.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1) Atmospheric transport model",
+              "bounding_boxes": [
+                {
+                  "x": 94.0,
+                  "y": 272.0,
+                  "w": 161.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Inverse modelling of greenhouse gas emissions is a powerful tool combining atmospheric observations and transport simulations to provide policy-relevant, real-world emission estimates. Inverse modelling requires computational workflows that deal with multiple atmospheric model simulations, pre- and post-processing steps, inversion codes and collection/aggregation of results across an ensemble of individual realisations. These steps are not handled in a traceable, repeatable and user-friendly way. Here, we propose to use the 'Automated Interactive Infrastructure and Database for Computational Science' AiiDA system to develop prototype workflows and implement plugins for automation of the above steps. AiiDA is a well-established tool in the field of computational material science within the ETH-domain. We will build on its flexible structure to transfer its powers to the atmospheric modelling community, specifically that of inverse modelling. We will interact with our Swiss and European partners to design generic workflows that can be easily adopted by other researchers working on inverse modelling. Our implementation will improve the traceability, repeatability, findability, and sharing of emission estimates that are crucial in the assessment of climate change policy and legislation. We expect to carry the achievements beyond the use in our own group to other researchers with whom we cooperate closely in the context of international and European programmes and projects."
-          }
-        ],
-        "extraction_confidence": 0.9999929337598107,
-        "confidence": 0.9999929337598107
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999970191186491,
+        "confidence": 0.9999970191186491,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Inverse modelling requires computational workflows that deal with multiple atmospheric model simulations, pre- and post-processing steps, inversion codes and collection/aggregation of results acros...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Please enter up to 5 keywords that characterise your proposal (separated by commas)...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Please enter up to 5 keywords that characterise your proposal (separated by commas)...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| atmospheric modelling, greenhouse gas emissions, computational workflows, data provenance, AiiDA...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Dec 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 504.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date is '1 Dec 2022'."
-          }
-        ],
-        "extraction_confidence": 0.9999998182330894,
-        "confidence": 0.9999998182330894
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration is '12'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Both extractions provide the same value of 147000 CHF with VERBATIM EXTRACTION from separate document locations, including a tabular citation. No conflicts or ambiguities.",
-        "citation": [
-          {
-            "page": 30,
-            "matching_text": "Total Costs (A + B)             |                                                  | 147000 |   | 147000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "...article Dispersion Model focusing on treatment of simplified degradation chemistry (Henne et al., 2012) and greenhouse gas representation (Pisso et al.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 209.0,
+                  "w": 452.0,
+                  "h": 102.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Dec 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 504.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF                         | 147000                                                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 727.0,
+                  "w": 499.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Tel: +41 (0)58 765 46 28;",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 147.0,
+                  "w": 316.0,
+                  "h": 117.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0      |   |   | 0      |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 700.0,
+                  "h": 260.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 22,
-                "matching_text": "Work Package 1 (networking) will reach out to the members of the greenhouse gas modelling community"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 22,
-                "matching_text": "Work Package 1 (networking) will reach out to the members of the greenhouse gas modelling community"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9041624065657097,
-            "confidence": 0.9041624065657097
+            "extraction_confidence": 0.881199558168943,
+            "confidence": 0.881199558168943
           },
-          "reasoning": "Verbatim description and title found on page 22."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 23,
-                "matching_text": "Work Package 2 (plugin design) will focus on the design of an AiiDA plugin for greenhouse gas inversions."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 23,
-                "matching_text": "Work Package 2 (plugin design) will focus on the design of an AiiDA plugin for greenhouse gas inversions."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.689080998307227,
+            "confidence": 0.689080998307227
           },
-          "reasoning": "Verbatim description and title found on page 23."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 23,
-                "matching_text": "Work Package 3 (implementation) will carry out the implementation of the plugin design developed in WP2"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 23,
-                "matching_text": "Work Package 3 (implementation) will carry out the implementation of the plugin design developed in WP2"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.40307951644903683,
+            "confidence": 0.40307951644903683
           },
-          "reasoning": "Verbatim description and title found on page 23."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6098885185950074,
+            "confidence": 0.6098885185950074
           },
-          "reasoning": "Work package identified and described on page 24."
+          "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 33,
-      "num_document_tokens": 25145,
-      "num_output_tokens": 8809
-    }
+      "num_document_tokens": 25401,
+      "num_output_tokens": 5618
+    },
+    "parse_job_id": "ea5a1077-620d-4ed0-b382-10f86fa933df"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "01355f59-c0fb-4671-ac0d-87a171db9baa",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T12:56:18.798790+00:00",
-  "updated_at": "2025-11-11T12:58:43.881524+00:00"
+  "job_id": "87be09c4-6c5f-4483-8f3b-2134f7cc333a",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T16:17:19.088387+00:00",
+  "updated_at": "2026-01-21T16:19:49.616843+00:00"
 }

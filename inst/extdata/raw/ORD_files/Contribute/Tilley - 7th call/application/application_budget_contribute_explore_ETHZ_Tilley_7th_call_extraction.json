@@ -2,16 +2,16 @@
   "document_path": "raw/ORD_files/Contribute/Tilley - 7th call/application/ETHZ_Tilley_7th_call.pdf",
   "status": "success",
   "data": {
-    "total_budget_personnel_senior_staff": null,
-    "total_budget_personnel_postdocs": null,
-    "total_budget_personnel_students": null,
+    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_postdocs": 0.0,
+    "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 13500.0,
     "total_budget_personnel_total_direct": 13500.0,
     "total_budget_travel": 5600.0,
-    "total_budget_equipment": null,
-    "total_budget_other_publication_fees": null,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
     "total_budget_other_conferences_workshops": 4900.0,
-    "total_budget_other_other": null,
+    "total_budget_other_other": 0.0,
     "total_budget_other_total_direct": 10500.0,
     "total_budget_total_direct": 24000.0,
     "total_budget_subcontracting": 6000.0,
@@ -25,136 +25,1539 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "**Total requested amount in CHF** | 30000"
-          },
-          {
-            "page": 17,
-            "matching_text": "| Total Costs (A + B)             |                                     |              | 30,000.00    |"
-          }
-        ],
+        "reasoning": "There are two explicit, verbatim listings in separate sections/tables matching for 'Total requested amount in CHF' and 'Total Costs (A + B)', both giving 30,000 CHF, which are the primary and fallback budget sources as per guidance; the lower payment figure appears to refer only to payment installments, not the total budget. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9934115889860655,
-        "confidence": 0.9934115889860655
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "| 30,000.00    | Total      |             |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 409.0,
+                  "w": 155.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_senior_staff": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| Other                                            | 13,500.00    |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9937262350987879,
-        "confidence": 0.9937262350987879
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 |                                     | Other                                            | 13,500.00    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| i. Total Direct Costs for Personnel |                                                  | 13,500.00    |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 |                                     | Other                                            | 13,500.00    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| Travel²                             |                                                  | 5,600.00     |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999901881433191,
-        "confidence": 0.9999901881433191
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | Travel²                             |                                                  | 5,600.00     |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA; Budget table includes a row for publication fees, but the CHF value is blank. There are no other mentions or figures for publication fees elsewhere in the provided pages.",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| Conferences and workshops⁵                       | 4,900.00     |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999990389675658,
-        "confidence": 0.9999990389675658
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 |                                     | Conferences and workshops⁵                       | 4,900.00     |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "> (1. Using Data Better, 2. Accountability, 3. Systems Strengthening, 4. Social Justice & Privacy) and facilitate ongoing conversations (live and in-chat).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 119.0,
+                  "w": 457.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "> (1. Using Data Better, 2. Accountability, 3. Systems Strengthening, 4. Social Justice & Privacy) and facilitate ongoing conversations (live and in-chat).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 119.0,
+                  "w": 457.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "> (1. Using Data Better, 2. Accountability, 3. Systems Strengthening, 4. Social Justice & Privacy) and facilitate ongoing conversations (live and in-chat).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 119.0,
+                  "w": 457.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| ii. Total Other Direct Costs        |                                                  | 10,500.00    |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 10,500.00    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| A – Total Direct Costs (i + ii) |                                     |              | 24,000.00    |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 24,000.00    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 24,000.00    |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "Budget table directly lists Subcontracting Costs as 6,000 CHF (verbatim extraction). Narrative description separately confirms this amount via a breakdown (4,500 + 1,500 CHF installments for subcontracting), further substantiating the budget figure.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "| B – Subcontracting Costs⁷       |                                     |              | 6,000.00     |"
-          },
-          {
-            "page": 20,
-            "matching_text": "Payment of a first installment of 4,500 CHF will be made to WASHNote. A final installment of 1,500 CHF will be paid..."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.8763011331662468,
-        "confidence": 0.8763011331662468
-      },
-      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_other)"
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "| B – Subcontracting Costs⁷       |                                     |                                                  | 6,000.00     |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 142.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 10157,
-      "num_output_tokens": 2621
-    }
+      "num_document_tokens": 10193,
+      "num_output_tokens": 3857
+    },
+    "parse_job_id": "9f043e2d-2fee-4798-bc4f-3338878de88c"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "967f0b78-cda8-48f1-84af-e043578b98b2",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:11:10.228394+00:00",
-  "updated_at": "2025-11-11T14:11:38.884932+00:00"
+  "job_id": "a9c8a946-c584-4430-9e14-da8cdd17959f",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T21:39:31.625946+00:00",
+  "updated_at": "2026-01-21T21:40:43.032074+00:00"
 }

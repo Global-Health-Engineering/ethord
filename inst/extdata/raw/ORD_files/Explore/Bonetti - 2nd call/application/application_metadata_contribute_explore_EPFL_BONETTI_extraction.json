@@ -34,19 +34,27 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "To review and adapt existing physically based model code and data standards to enable integration of machine learning models."
+        "wp_title": "Code and Data Standards"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "To create a unified metadata specification that can seamlessly combine physically based and machine learning components of hybrid models."
+        "wp_title": "Metadata Specifications"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Unified metadata specification for hybrid models: design, translation to machine-readable format, testing, revision, and documentation"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "To develop generic software tools to aid the sharing and findability of hybrid models through existing community-driven platforms."
+        "wp_title": "Ancillary Software Tools"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Ancillary software tools: feature design, development, testing, and documentation for assembling hybrid model components"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Dissemination"
+        "wp_title": "Communication and Dissemination: publications in scientific journals and presentations at relevant conferences"
       }
     ]
   },
@@ -57,412 +65,2334 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "The organisation and management of FRAME will be led by the Catchment Hydrology and Geomorphology Lab (CHANGE, PI: Sara Bonetti) at EPFL."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2 - Deadline 29th February 2024 (17:00 CET)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 515.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "Both verbatim extractions show that the main applicant institution is EPFL. One is from a structured questionnaire, the other from a narrative project description and contact details. No conflicts, information is clear and unambiguous.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The organisation and management of FRAME will be led by the Catchment Hydrology and Geomorphology Lab (CHANGE, PI: Sara Bonetti) at EPFL.",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 546.0,
+                  "w": 478.0,
+                  "h": 184.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...hics issues apply, I will complete the self-assessment as described on the \\[webpage]\\(<https://www.epfl.ch/research/ethic-statement/compliance/>) on Ethical Compliance.",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 572.0,
+                  "w": 218.0,
+                  "h": 61.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +4121 693 49 28<br/><research@epfl.ch> | P<br/>A |",
+              "bounding_boxes": [
+                {
+                  "x": 39.0,
+                  "y": 799.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "standards (Task 1.0) for the main participating model (T\\&C).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 109.0,
+                  "w": 480.0,
+                  "h": 614.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "standards (Task 1.0) for the main participating model (T\\&C).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 109.0,
+                  "w": 480.0,
+                  "h": 614.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "standards (Task 1.0) for the main participating model (T\\&C).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 109.0,
+                  "w": 480.0,
+                  "h": 614.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title) field shows 'Assistant Professor'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION: 'Sara' is found in the main applicant first name field of a table and is explicitly referenced as PI 'Sara Bonetti' in project leadership context. Both extractions are verbatim and align.",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "(CHANGE, PI: Sara Bonetti) at EPFL"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Assistant professor with tenure track or similar | EPF Lausanne - EPFL, CH<br/>School of Architecture, Civil & Environmental Engineering | 09.2022 - 08.2026<br/>4 year(s)            |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 614.0,
+                  "w": 452.0,
+                  "h": 143.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sara Bonetti | Applicant ID - ORD2000143",
+              "bounding_boxes": [
+                {
+                  "x": 323.0,
+                  "y": 40.0,
+                  "w": 234.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "(CHANGE, PI: Sara Bonetti) at EPFL"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sara Bonetti | Applicant ID - ORD2000143",
+              "bounding_boxes": [
+                {
+                  "x": 323.0,
+                  "y": 40.0,
+                  "w": 234.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL ENAC IIE CHANGE"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL ENAC IIE CHANGE                                |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode field in applicant table is '1951'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 589.0,
+                  "w": 500.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1951                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 589.0,
+                  "w": 500.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City field in applicant table is 'Sion'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Explore Projects\" Call 2"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
-        "reasoning": "Multiple independent sections (the RESEARCH PROPOSAL and official institutional letters) use 'A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)' as the complete project title. While 'FRAME: FAIR and Modular Protocols for Hydrological Hybrid Models and Data' and 'FRAME' appear elsewhere, the most complete and precise recurring form is the one provided in the RESEARCH PROPOSAL and support letters. This ensures a faithful and most accurate extraction in alignment with the document's formal references.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "A FAIR Protocol for Hybrid Models and Data in Hydrology"
-          },
-          {
-            "page": 21,
-            "matching_text": "Letter of support (Eawag) states: project titled 'A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)'."
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.99999903329993,
-        "confidence": 0.9999995
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym in RESEARCH PROPOSAL table is 'FRAME'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Hybrid models, which combine physics and machine learning (ML) based models, are becoming increasingly popular in hydrology and the broader Earth Science community due to their potential for improved prediction and process representation. However, hybrid models pose unique challenges to open research practices, including the widely accepted FAIR principles. Unlike physics-based models, the reusability of hybrid models is hindered by the integration of ML models which dynamically change with training data. Furthermore, existing model and data repositories are not designed to host hybrid models which contain code, ML models, and associated training data. To address these challenges, FRAME will collaboratively design, implement, and test a standardised FAIR protocol tailored for hydrological hybrid models. The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models, and a python package leveraging existing model and data repositories widely used in the hydrology (HydroShare) and ML (DLHub) communities to share and retrieve hybrid models. To ensure wider and long-term impact of the project beyond its lifetime, the developed protocol will be actively used and improved by participating groups in the ETH Domain and Europe and will ultimately be transitioned to a community-driven protocol, inviting participation from the wider scientific community."
-          }
-        ],
-        "extraction_confidence": 0.9999967328803333,
-        "confidence": 0.9999967328803333
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "confidence": 1.0,
+        "scratchpad__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 589.0,
+                  "w": 500.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "value__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+              "page": 1,
+              "matching_text": "...| Sion                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 589.0,
+                  "w": 500.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Hybrid modelling, FAIR principles, Hydrology, Metadata Standards"
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
         }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed starting date is in the research proposal table as '1 Nov 2024'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration in months is '18' in table."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 24,
-            "matching_text": "Total Costs in CHF (A + B)      | 146705"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999217959246,
-        "confidence": 0.9999999217959246
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table specifies institution: EPFL"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "function: Assistant Professor"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "first name: Sara"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "surname: Bonetti"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "postcode: 1951"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ],
+      "project_title": {
+        "reasoning": "Multiple sources (tabular proposal section, cover pages, and letters of support) provide verbatim extraction of the project title, both with and without the acronym. The most complete and widely-supported form is 'A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME)'.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999102447139,
+        "confidence": 0.9999999102447139,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 502.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| A FAIR Protocol for Hybrid Models and Data in Hydrology...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 99.0,
+                  "w": 489.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "> A FAIR Protocol for Hybrid Models and Data in Hydrology (Acronym: FRAME)",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 131.0,
+                  "w": 384.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "As FRAME aims to develop a generic and scalable protocol for hybrid modelling, it is expected to be relevant for various research groups within the ETH Domain and the broader computational communities...",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 393.0,
+                  "w": 465.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "...p Leader of Hydrological Modelling at Eawag, hereby declare my full support for the project titled \"A FAIR Protocol for Hybrid Models and Data in Hydrology (FRAME),\" which has been submitted to the OR...",
+              "bounding_boxes": [
+                {
+                  "x": 110.0,
+                  "y": 215.0,
+                  "w": 411.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "In the first phase of the iterative protocol development approach (*Design*, see Section 3.1), an initial version of the protocol addressing the following questions will be prepared in a workshop w...",
+              "bounding_boxes": [
+                {
+                  "x": 63.0,
+                  "y": 110.0,
+                  "w": 470.0,
+                  "h": 623.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "standards (Task 1.0) for the main participating model (T\\&C).",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 109.0,
+                  "w": 480.0,
+                  "h": 614.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "1/1 Eawag: Swiss Federal Institute of Aquatic Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 358.0,
+                  "y": 805.0,
+                  "w": 207.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "In the first phase of the iterative protocol development approach (*Design*, see Section 3.1), an initial version of the protocol addressing the following questions will be prepared in a workshop w...",
+              "bounding_boxes": [
+                {
+                  "x": 63.0,
+                  "y": 110.0,
+                  "w": 470.0,
+                  "h": 623.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "**Task 0.0 Organize an in-person project kick-off meeting at EPFL with all the project partners.** [CHANGE (EPFL), IT4R (EPFL), HMG (Eawag), H-CEL (UGent), ABC3 (MPI-BGC)]",
+              "bounding_boxes": [
+                {
+                  "x": 66.0,
+                  "y": 694.0,
+                  "w": 464.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "| Hans-Knöll-Straße 10<br/>07745 Jena<br/>Germany | Tel.: +49 (0)3641 57-60<br/>Fax: +49 (0)3641 57-70 | ID-Nr.",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.95,
+                  "h": 841.9
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.95,
+                "height": 841.9
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "In the first phase of the iterative protocol development approach (*Design*, see Section 3.1), an initial version of the protocol addressing the following questions will be prepared in a workshop w...",
+              "bounding_boxes": [
+                {
+                  "x": 63.0,
+                  "y": 110.0,
+                  "w": 470.0,
+                  "h": 623.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "**Task 0.0 Organize an in-person project kick-off meeting at EPFL with all the project partners.** [CHANGE (EPFL), IT4R (EPFL), HMG (Eawag), H-CEL (UGent), ABC3 (MPI-BGC)]",
+              "bounding_boxes": [
+                {
+                  "x": 66.0,
+                  "y": 694.0,
+                  "w": 464.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "| Hans-Knöll-Straße 10<br/>07745 Jena<br/>Germany | Tel.: +49 (0)3641 57-60<br/>Fax: +49 (0)3641 57-70 | ID-Nr.",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.95,
+                  "h": 841.9
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.95,
+                "height": 841.9
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Unlike physics-based models, the reusability of hybrid models is hindered by the integration of ML models which dynamically change with training data.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 502.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "To address these challenges, FRAME will collaboratively design, implement, and test a standardised FAIR protocol tailored for hydrological hybrid models.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 502.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "> A FAIR Protocol for Hybrid Models and Data in Hydrology (Acronym: FRAME)",
+              "bounding_boxes": [
+                {
+                  "x": 57.0,
+                  "y": 131.0,
+                  "w": 384.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "Hybrid models, which integrate physics with machine learning, have recently gained prominence in the broad field of Earth Sciences, owing to their promise of improved understanding and prediction o...",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 193.0,
+                  "w": 479.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "Hybrid models, which integrate physics with machine learning, have recently gained prominence in the broad field of Earth Sciences, owing to their promise of improved understanding and prediction o...",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 193.0,
+                  "w": 479.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "Hybrid models, which integrate physics with machine learning, have recently gained prominence in the broad field of Earth Sciences, owing to their promise of improved understanding and prediction o...",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 193.0,
+                  "w": 479.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999982782267283,
+        "confidence": 0.9999982782267283,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Abstract...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 502.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 189.0,
+                  "w": 502.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[https://doi.org/10.1038/s43247-021-00180-0.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[https://doi.org/10.1038/s43247-021-00180-0.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Please enter up to 5 keywords that characterise your proposal (separated by commas)...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 379.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Hybrid modelling, FAIR principles, Hydrology, Metadata Standards...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 379.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "However, hybrid models pose unique challenges to open research practices, including the widely accepted FAIR principles.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 189.0,
+                    "w": 502.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "However, hybrid models pose unique challenges to open research practices, including the widely accepted FAIR principles.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 189.0,
+                    "w": 502.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "On one hand, I have tackled this from a physically-based perspective, by developing a novel framework for the inclusion of soil structure effects in the description of soil hydraulic properties (SH...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 544.0,
+                    "w": 459.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "On one hand, I have tackled this from a physically-based perspective, by developing a novel framework for the inclusion of soil structure effects in the description of soil hydraulic properties (SH...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 544.0,
+                    "w": 459.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "On one hand, I have tackled this from a physically-based perspective, by developing a novel framework for the inclusion of soil structure effects in the description of soil hydraulic properties (SH...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 544.0,
+                    "w": 459.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "atmosphere module to be included in CATHY, a well-established catchment hydrology model.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "1], as well as for modeling and mapping field-scale crop water and carbon dynamics [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 154.0,
+                    "w": 458.0,
+                    "h": 151.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "The protocol will consist of coding standards for interoperability between different model components, a unified metadata specification accounting for different types of physics and ML-based models...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 189.0,
+                    "w": 502.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Hybrid modelling, FAIR principles, Hydrology, Metadata Standards...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 379.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "1].",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 278.0,
+                    "w": 459.0,
+                    "h": 249.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "1].",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 278.0,
+                    "w": 459.0,
+                    "h": 249.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "1].",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 278.0,
+                    "w": 459.0,
+                    "h": 249.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 402.0,
+                  "w": 296.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 402.0,
+                  "w": 296.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "I consider the development of such an interdisciplinary background to be a major achievement, as it is essential to lead independent research activities in the field of environmental sciences where...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 278.0,
+                  "w": 459.0,
+                  "h": 249.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "](https://doi.org/10.1029/2021WR031871)DOI.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 390.0,
+                  "w": 431.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998025922955,
+        "confidence": 0.9999998025922955,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 146705 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 730.0,
+                  "w": 149.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 146705 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 730.0,
+                  "w": 149.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "| Hans-Knöll-Straße 10<br/>07745 Jena<br/>Germany | Tel.: +49 (0)3641 57-60<br/>Fax: +49 (0)3641 57-70 | ID-Nr.",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.95,
+                  "h": 841.9
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.95,
+                "height": 841.9
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "1/1 Eawag: Swiss Federal Institute of Aquatic Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 358.0,
+                  "y": 805.0,
+                  "w": 207.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[https://doi.org/10.1038/s43247-021-00180-0.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "1/1 Eawag: Swiss Federal Institute of Aquatic Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 358.0,
+                  "y": 805.0,
+                  "w": 207.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[https://doi.org/10.1038/s43247-021-00180-0.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 710.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "1/1 Eawag: Swiss Federal Institute of Aquatic Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 358.0,
+                  "y": 805.0,
+                  "w": 207.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Code and Data Standards [WP1]"
-              },
-              {
-                "page": 17,
-                "matching_text": "**WP1: Model Code and Data Standards**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Code and Data Standards [WP1]"
-              }
-            ],
-            "extraction_confidence": 0.9976759180149635,
-            "confidence": 0.9976759180149635
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9983224579423309,
+            "confidence": 0.9983224579423309
           },
-          "reasoning": "Combined information from explicit WP1 definition/objective and summary title. Chose the detailed objective as work package title for the fullest information (high confidence and verbatim sources)."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "Metadata Specifications [WP2]"
-              },
-              {
-                "page": 17,
-                "matching_text": "**WP2: Metadata Specifications**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "Metadata Specifications [WP2]"
-              }
-            ],
-            "extraction_confidence": 0.9999996021858361,
-            "confidence": 0.9999996021858361
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999994263791845,
+            "confidence": 0.9999994263791845
           },
-          "reasoning": "Detailed description taken directly from the relevant section (high confidence, verbatim extraction). Shorter alternate summaries not used, as the objective gives more value."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "Ancillary Software Tools [WP3]"
-              },
-              {
-                "page": 17,
-                "matching_text": "**WP3: Ancillary Software Tools**"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9992491020728375,
+            "confidence": 0.9992491020728375
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "Ancillary Software Tools [WP3]"
-              }
-            ],
-            "extraction_confidence": 0.9999978252671889,
-            "confidence": 0.9999978252671889
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7590876519842928,
+            "confidence": 0.7590876519842928
           },
-          "reasoning": "Selected the verbatim WP3 title/objective as it gives the most context. Sources are in strong agreement and confidence scores are uniformly high."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "**WP4: Dissemination**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 17,
-                "matching_text": "**WP4: Dissemination**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "The WP4 summary label in the work package table is directly supported by the document. Extended description found elsewhere but with much lower extraction confidence; therefore, the concise label is appropriate."
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6267470573902527,
+            "confidence": 0.6267470573902527
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5022255012361891,
+            "confidence": 0.5022255012361891
+          },
+          "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 28,
-      "num_document_tokens": 21583,
-      "num_output_tokens": 11212
-    }
+      "num_document_tokens": 21820,
+      "num_output_tokens": 5981
+    },
+    "parse_job_id": "6d8c0e30-4f6f-4be6-9150-fde3c99d4142"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "4325fe6b-7d35-4666-8c11-89fef526aebb",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T12:07:05.604671+00:00",
-  "updated_at": "2025-11-11T12:10:11.066957+00:00"
+  "job_id": "22153c7d-2a27-40a6-9fa9-7727a230e924",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T16:09:29.381800+00:00",
+  "updated_at": "2026-01-21T16:12:24.735608+00:00"
 }

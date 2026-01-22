@@ -10,20 +10,16 @@
     "main_applicant_laboratory_name": "Biogeoscience",
     "main_applicant_postcode": 8092,
     "main_applicant_city": "Zürich",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "ETH Zürich",
-        "function_title": "Post-doctoral researcher",
-        "first_name": "Sarah",
-        "surname": "Paradis",
-        "postcode": 8092
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)",
     "project_acronym": "API-MOSAIC",
     "project_abstract": "The increasing use of data repositories in marine geosciences has led to large, albeit dispersed and unstandardized datasets that require large amounts of time and effort to compile and harmonize. To overcome this, the Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) database was devised to understand the factors that affect the distribution of the quantity, origin and reactivity of organic carbon in marine sediments, a key component of the global carbon cycle of growing interest with respect to carbon stocktaking and ecosystem services. Over the last year, MOSAIC has quadrupled its spatiotemporal coverage, increased by ten-fold the number of variables it contains, and it is currently stored as a PostgreSQL spatial relational database. The complexity of this expanding database requires it to be dynamically queried through a user-friendly interface. Hence, this project aims to improve the accessibility to the database by creating an Application Programming Interface (API). This will be achieved by building an interactive and user-friendly web-interface that allows users to query MOSAIC. Finally, Python and R packages will also be built that allow researchers to incorporate MOSAIC in their data analysis and processing workflows, ensuring reproducibility of their findings. This project will provide accessibility of the database to users with different backgrounds and interests, building on Open Research Data practices in marine geosciences.",
     "keywords": [
-      "carbon cycle, sediments, web-interface, API, database"
+      "carbon cycle",
+      "sediments",
+      "web-interface",
+      "API",
+      "database"
     ],
     "start_date": "1 Mar 2023",
     "project_duration_months": 12,
@@ -50,332 +46,2327 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "Multiple independent extractions confirm 'ETH Zürich' as the main applicant's institution. Two extractions are direct/verbatim, while one infers from hosting at ETH Zürich. All sources align, and no contradictory evidence is present.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Which ETH Domain do you belong to? ETH Zürich"
-          },
-          {
-            "page": 12,
-            "matching_text": "The MOSAIC database is currently hosted by the Biogeoscience group, led by Prof. Dr. Timothy I. Eglinton"
-          },
-          {
-            "page": 22,
-            "matching_text": "ETH Zürich mentioned at top and multiple times in letter."
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999228802796991,
-        "confidence": 0.9999228802796991
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 130.0,
+                  "w": 284.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "**ETH Domain ORD Program**\n**Contribute Track**",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 226.0,
+                  "w": 142.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998573318727099,
+        "confidence": 0.9998573318727099,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 555.0,
+                  "y": 825.0,
+                  "w": 6.0,
+                  "h": 16.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "However, other researchers would need to first study the database’s architecture to know how to construct complex Structured Query Language (SQL) instructions.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 338.0,
+                  "w": 459.0,
+                  "h": 202.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "| \\*\\*ETH\\*\\*<br/>Eidgenössische Technische Hochschule Zürich<br/>Swiss Federal Institute of Technology Zurich | \\*\\*Geological Institute\\*\\*<br/>\\*\\*Department of Earth Sciences\\*\\*<br/><br/>ETH Zuri...",
+              "bounding_boxes": [
+                {
+                  "x": 348.0,
+                  "y": 54.0,
+                  "w": 122.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "reasoning__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "The MOSAIC database is currently hosted by the Biogeoscience group, led by Prof.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title): Post-doctoral researcher"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Post-doctoral researcher                           |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 133.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 12,
-            "matching_text": "The applicant Dr. Sarah Paradis is the back-end developer of MOSAIC"
-          },
-          {
-            "page": 23,
-            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sarah Paradis | Applicant ID - ORD1000177",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "Sarah Paradis is the back-end developer of MOSAIC and is in charge of maintaining and expanding it.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "Prof. Dr. Timothy Ian Eglinton\nProfessor, Biogeoscience",
+              "bounding_boxes": [
+                {
+                  "x": 223.0,
+                  "y": 624.0,
+                  "w": 145.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "The applicant Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 12,
-            "matching_text": "The applicant Dr. Sarah Paradis is the back-end developer of MOSAIC"
-          },
-          {
-            "page": 23,
-            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
-          }
-        ],
+        "reasoning": "While 'Eglinton' appears on page 23, the application details and repeated references on earlier pages identify 'Paradis' as the applicant. Placement and context in the initial document sections confirm 'Paradis' is the main applicant. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sarah Paradis | Applicant ID - ORD1000177",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "First examples of Python routines which query and export the database have been developed for specific research purposes (Paradis et al., 2022a,b,c).",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 117.0,
+                  "w": 459.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "Prof. Dr. Timothy Ian Eglinton\nProfessor, Biogeoscience",
+              "bounding_boxes": [
+                {
+                  "x": 223.0,
+                  "y": 624.0,
+                  "w": 145.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "**Table 1.** Gantt chart of the different activities scheduled for the realisation of MOSAIC v.2.0’s API, divided into their work packages, specific activities, and corresponding milestones.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 470.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 12,
+              "matching_text": "The applicant Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 183.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'Laboratory name': Biogeoscience"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Biogeoscience                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 133.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Postcode / Zipcode: 8092"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8092                                               |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 133.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "City: Zürich"
-          }
-        ],
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "ETH Zürich"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Post-doctoral researcher"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Sarah"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Paradis"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "8092"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        }
-      ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 23,
-            "matching_text": "supports the application of Dr. Sarah Paradis for an ORD Contribute project"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 555.0,
+                  "y": 825.0,
+                  "w": 6.0,
+                  "h": 16.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "The information was extracted verbatim from the source text, specifically from the section labeled '1. Project title', and this version includes both the full project name and the acronym, providing the most complete form.",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)"
-          }
-        ],
+        "reasoning": "All instances provide the same project title, with idx 1 including the commonly used project acronym (API-MOSAIC), which is likely the most complete form. As per data merging instructions, the most complete and specific representation is chosen, and all sources are in strong agreement.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999998361034613,
-        "confidence": 0.9999998361034613
+        "extraction_confidence": 0.9999975849496201,
+        "confidence": 0.9999975849496201,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "As part of my post-doctoral research, I have been maintaining and expanding the Modern Ocean Sedimentary Archive and Inventory (MOSAIC) database.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 270.0,
+                  "w": 458.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "Sarah Paradis for an ORD Contribute project at ETH Zurich for the proposal entitled *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database*, pe...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 400.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title          | Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database.",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 255.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database. (API-MOSAIC)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 138.0,
+                  "w": 459.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "Sarah Paradis for an ORD Contribute project at ETH Zurich for the proposal entitled *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database*, pendi...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 400.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "* MOSAIC (n = 4460)\n* MOSAIC 2.0 (n = 13217)",
+              "bounding_boxes": [
+                {
+                  "x": 163.0,
+                  "y": 295.0,
+                  "w": 280.0,
+                  "h": 173.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "* MOSAIC (n = 4460)\n* MOSAIC 2.0 (n = 13217)",
+              "bounding_boxes": [
+                {
+                  "x": 163.0,
+                  "y": 295.0,
+                  "w": 280.0,
+                  "h": 173.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "* MOSAIC (n = 4460)\n* MOSAIC 2.0 (n = 13217)",
+              "bounding_boxes": [
+                {
+                  "x": 163.0,
+                  "y": 295.0,
+                  "w": 280.0,
+                  "h": 173.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project - API-MOSAIC"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This project will provide accessibility of the database to users with different backgrounds and interests, building on Open Research Data practices in marine geosciences.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Acronym of the project | API-MOSAIC...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] conference-abstract.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] conference-abstract.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "[1] conference-abstract.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The increasing use of data repositories in marine geosciences has led to large, albeit dispersed and unstandardized datasets that require large amounts of time and effort to compile and harmonize. To overcome this, the Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) database was devised to understand the factors that affect the distribution of the quantity, origin and reactivity of organic carbon in marine sediments, a key component of the global carbon cycle of growing interest with respect to carbon stocktaking and ecosystem services. Over the last year, MOSAIC has quadrupled its spatiotemporal coverage, increased by ten-fold the number of variables it contains, and it is currently stored as a PostgreSQL spatial relational database. The complexity of this expanding database requires it to be dynamically queried through a user-friendly interface. Hence, this project aims to improve the accessibility to the database by creating an Application Programming Interface (API). This will be achieved by building an interactive and user-friendly web-interface that allows users to query MOSAIC. Finally, Python and R packages will also be built that allow researchers to incorporate MOSAIC in their data analysis and processing workflows, ensuring reproducibility of their findings. This project will provide accessibility of the database to users with different backgrounds and interests, building on Open Research Data practices in marine geosciences."
-          }
-        ],
-        "extraction_confidence": 0.9999935521675866,
-        "confidence": 0.9999935521675866
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999987451855876,
+        "confidence": 0.9999987451855876,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "To overcome this, the Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) database was devised to understand the factors that affect the distribution of the quantity, origin and reactivi...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 492.0,
+                  "w": 446.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords ...: carbon cycle, sediments, web-interface, API, database"
-            }
-          ],
-          "extraction_confidence": 0.9989961573717561,
-          "confidence": 0.9989961573717561
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "carbon cycle, sediments, web-interface, API, database",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 247.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "carbon cycle, sediments, web-interface, API, database",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 247.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "...l spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characterize the role of continental margins as hot spots of...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "carbon cycle, sediments, web-interface, API, database",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 247.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 72545::ORD2022-Track C-project-proposal-API-MOSAIC.pdf                         |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Mar 2023                                                                     |",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 127.0,
+                    "w": 111.0,
+                    "h": 13.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characterize...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 354.0,
+                    "w": 460.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Under Research Proposal: 'Proposed Starting Date' = 1 Mar 2023"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration is shown as '12' in the table."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project duration...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 2/3 12 December 2022, Sarah Paradis, ORCID [iD 0000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Using this new database, I applied various novel spatial machine learning algorithms to predict and classify the geochemical composition of marine sediments in the East Asian margin [1], characteri...",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 354.0,
+                  "w": 460.0,
+                  "h": 66.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 20,
-            "matching_text": "Total Costs (A + B)                           |                                     |                                                  | 30'000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.7624,
-        "confidence": 0.7624
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 714.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The overall project budget **must be exactly CHF 30’000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 135.0,
+                  "w": 468.0,
+                  "h": 130.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 714.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "Paradis, S., van der Voort, T., Nakajima, K., Geis, H., Blattmann, T., Eglinton, T. The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC): version 2.0. In preparation.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 632.0,
+                  "w": 457.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "PaCTS 1.0: A crowdsourced reporting standard for paleoclimate data.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 533.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "PaCTS 1.0: A crowdsourced reporting standard for paleoclimate data.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 533.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| Page 1/3 | 12 December 2022, Sarah Paradis, ORCID iD \\[0000-0002-7035-0538]\\(<https://orcid.org/0000-0002-7035-0538>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "PaCTS 1.0: A crowdsourced reporting standard for paleoclimate data.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 533.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1 – Implementing a REST API that securely queries the database."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1 – Implementing a REST API that securely queries the database."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9995799910937773,
-            "confidence": 0.9995799910937773
+            "extraction_confidence": 0.9995242948076389,
+            "confidence": 0.9995242948076389
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2 – Setting up and deploying the web-interface in mosaic.ethz.ch."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2 – Setting up and deploying the web-interface in mosaic.ethz.ch."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997925469736,
-            "confidence": 0.9999997925469736
+            "extraction_confidence": 0.9999999209201297,
+            "confidence": 0.9999999209201297
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP3 – Testing and de-bugging the web-interface and API, outreach and dissemination activities of the utilities of MOSAIC v.2.0’s API."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP3 – Testing and de-bugging the web-interface and API, outreach and dissemination activities of the utilities of MOSAIC v.2.0’s API."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9995935414797312,
-            "confidence": 0.9995935414797312
+            "extraction_confidence": 0.9998334102240407,
+            "confidence": 0.9998334102240407
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -383,29 +2374,31 @@
     },
     "usage": {
       "num_pages_extracted": 23,
-      "num_document_tokens": 14278,
-      "num_output_tokens": 8355
-    }
+      "num_document_tokens": 14059,
+      "num_output_tokens": 5604
+    },
+    "parse_job_id": "ad867ad1-9b71-439f-ac1c-b3a27a3baf37"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "df22978f-5bde-4596-b0a7-da7b1e138bd7",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:20:45.786123+00:00",
-  "updated_at": "2025-11-11T11:22:33.008206+00:00"
+  "job_id": "1842d295-3df4-41ef-bbe0-4f7b5195dce1",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:31:30.514144+00:00",
+  "updated_at": "2026-01-21T17:33:42.399309+00:00"
 }

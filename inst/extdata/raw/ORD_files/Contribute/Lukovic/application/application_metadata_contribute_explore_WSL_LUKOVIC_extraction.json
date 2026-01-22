@@ -10,15 +10,7 @@
     "main_applicant_laboratory_name": "Ecosystem Ecology - Forest Dynamics",
     "main_applicant_postcode": 8903,
     "main_applicant_city": "Birmensdorf",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "WSL",
-        "function_title": "Dr.",
-        "first_name": "Mirko",
-        "surname": "Lukovic",
-        "postcode": 8903
-      }
-    ],
+    "all_applicants": null,
     "project_title": "AI module for gap-filling TreeNet time series",
     "project_acronym": "TreeNetGaps",
     "project_abstract": "In a recent WSL research project (deepT - internal grant no. 202011N2099) we developed a machine learning model for gap-filling multi-channel time series data. We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure. The new tool would provide an additional option to the users of TreeNet dendrometer data to automatically fill the gaps in the time series using artificial intelligence. The existing model first must be improved using newly available data. It then has to be programmed in R, the native language used in the TreeNet software. Thereafter, the code must be inserted into the existing pipeline and offered as an option to the end-users of the data. This will also involve adapting the data to the input and output requirements of the model.",
@@ -35,11 +27,11 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Model Design"
+        "wp_title": "Model design"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Model Integration"
+        "wp_title": "Model integration"
       }
     ]
   },
@@ -50,360 +42,2018 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "## Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 282.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "ETH Domain ORD Program\nContribute Track",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 133.0,
+                  "w": 119.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
-        "reasoning": "Both sources explicitly state WSL as the main applicant's institution, including a direct citation from a support letter.",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "ORD Contribute project at WSL for the project entitled"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
-        "reasoning": "Combing evidence: The first object extracts 'Mirko' from a dedicated field; the second object corroborates this, explicitly referring to 'Mirko Lukovic' as applicant. No ambiguity present. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "Subject:** Track C Letter of support for applicant Mirko Lukovic"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_surname": {
-        "reasoning": "Both sources unambiguously reference the applicant's surname as 'Lukovic'. Entry 0 verbatim provides the 'Surname(s)' field as 'Lukovic'. Entry 2 uses the full name 'Mirko Lukovic' for the applicant. Confidence is high and there is no evidence of an alternative surname.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The 'Surname(s)' field lists 'Lukovic'."
-          },
-          {
-            "page": 19,
-            "matching_text": "Subject:** Track C Letter of support for applicant Mirko Lukovic"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "TreeNetGaps - AI module for gap-filling TreeNet time series"
-          },
-          {
-            "page": 19,
-            "matching_text": "project entitled *AI module for gap-filling TreeNet time series*"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| Total requested amount in CHF | 30000 |"
-          },
-          {
-            "page": 15,
-            "matching_text": "The overall project budget **must be exactly CHF 30'000 for the total duration of the project**."
-          },
-          {
-            "page": 17,
-            "matching_text": "| Total Costs (A + B)             |                                     |      | 30,000       |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999078406202809,
-        "confidence": 0.9999078406202809
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?             | WSL                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Arthur Gessler\nGroup leader\nEcosystem Ecology\nWSL",
+              "bounding_boxes": [
+                {
+                  "x": 82.0,
+                  "y": 659.0,
+                  "w": 98.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The 'Function (Title)' field is given as 'Dr.'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Function (Title)                               | Dr.                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Mirko Lukovic | Applicant ID - ORD1000306",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "**Subject: Track C Letter of support for applicant Mirko Lukovic**",
+              "bounding_boxes": [
+                {
+                  "x": 82.0,
+                  "y": 361.0,
+                  "w": 272.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Mirko Lukovic | Applicant ID - ORD1000306",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "**Subject: Track C Letter of support for applicant Mirko Lukovic**",
+              "bounding_boxes": [
+                {
+                  "x": 82.0,
+                  "y": 361.0,
+                  "w": 272.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The 'Laboratory name' field is listed as 'Ecosystem Ecology - Forest Dynamics'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name                                | Ecosystem Ecology - Forest Dynamics |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 87.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The 'Postcode / Zipcode' field is listed as 8903."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode                             | 8903                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 87.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The 'City' field is listed as Birmensdorf."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\" - Call 5"
-          },
-          {
-            "page": 19,
-            "matching_text": "ORD Contribute project at WSL for the project entitled *AI module for gap-filling"
-          },
-          {
-            "page": 20,
-            "matching_text": "ORD *Contribute* project at WSL for the project entitled *AI module for gap-filling"
-          },
-          {
-            "page": 21,
-            "matching_text": "ORD Contribute project at Swiss Federal Research Institute WSL for the project entitled"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City                                           | Birmensdorf                         |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 87.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION. Both idx 0 and 2, across multiple key pages (2, 10, 19, 20, 21), consistently present this phrase as the 'project title'. The alternate phrase (\"TreeNetGaps – AI module for gap-filling TreeNet time series\") is an expanded version, but the main project title according to the proposal is the phrase above. The expanded description in idx 1 is a project aim, not a title.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9981008794334227,
+        "confidence": 0.9981008794334227,
+        "value__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "> TreeNetGaps - AI module for gap-filling TreeNet time series",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 174.0,
+                  "w": 291.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "202011N2099) we developed a machine learning model for gap-filling the multi-channel time series data from the TreeNet project [9].",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 519.0,
+                  "w": 457.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "I support the application of Mirko Lukovic for an ORD Contribute project at WSL for the project entitled *AI module for gap-filling TreeNet time series*, pending ethical clearance of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 82.0,
+                  "y": 440.0,
+                  "w": 427.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'Acronym of the project' field: TreeNetGaps."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "> TreeNetGaps - AI module for gap-filling TreeNet time series",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 174.0,
+                  "w": 291.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "In a recent WSL research project (deepT - internal grant no. 202011N2099) we developed a machine learning model for gap-filling multi-channel time series data. We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure. The new tool would provide an additional option to the users of TreeNet dendrometer data to automatically fill the gaps in the time series using artificial intelligence. The existing model first must be improved using newly available data. It then has to be programmed in R, the native language used in the TreeNet software. Thereafter, the code must be inserted into the existing pipeline and offered as an option to the end-users of the data. This will also involve adapting the data to the input and output requirements of the model."
-          }
-        ],
-        "extraction_confidence": 0.9999943662147298,
-        "confidence": 0.9999943662147298
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998865976915,
+        "confidence": 0.9999998865976915,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 161.0,
+                  "w": 497.0,
+                  "h": 97.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "We would now like to add a module or toolbox that is based on this model to the existing automated near real-time TreeNet data acquisition infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 161.0,
+                  "w": 497.0,
+                  "h": 97.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.999610000922267,
+          "confidence": 0.999610000922267,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Time series analysis, data imputation, machine learning, tree stem growth, forest health...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 301.0,
+                    "w": 392.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "While this might not be a problem when there are occasional time stamps or smaller gaps (as shown in figure 1, middle graph) with missing or corrupt data, the issue becomes serious in cases where t...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 528.0,
+                    "w": 457.0,
+                    "h": 202.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "Therefore, an efficient and accurate data imputation method is of great importance for remote sensing and telemetry.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 154.0,
+                    "w": 455.0,
+                    "h": 66.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I was able to develop a machine learning model based on a deep neural network composed of long short-term memory and one-dimensional CNN layers that deals with the missing data.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 238.0,
+                    "w": 458.0,
+                    "h": 108.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I was able to show the effectiveness of the model by gap-filling multi-channel time series data related to the radial stem size changes of trees that are being remotely monitored across Switzerland...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 238.0,
+                    "w": 458.0,
+                    "h": 108.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I was able to show the effectiveness of the model by gap-filling multi-channel time series data related to the radial stem size changes of trees that are being remotely monitored across Switzerland...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 238.0,
+                    "w": 458.0,
+                    "h": 108.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "I was able to show the effectiveness of the model by gap-filling multi-channel time series data related to the radial stem size changes of trees that are being remotely monitored across Switzerland...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 238.0,
+                    "w": 458.0,
+                    "h": 108.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Time series analysis, data imputation, machine learning, tree stem growth, forest health...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 301.0,
+                    "w": 392.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "While this might not be a problem when there are occasional time stamps or smaller gaps (as shown in figure 1, middle graph) with missing or corrupt data, the issue becomes serious in cases where t...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 528.0,
+                    "w": 457.0,
+                    "h": 202.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "While this might not be a problem when there are occasional time stamps or smaller gaps (as shown in figure 1, middle graph) with missing or corrupt data, the issue becomes serious in cases where t...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 528.0,
+                    "w": 457.0,
+                    "h": 202.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "While this might not be a problem when there are occasional time stamps or smaller gaps (as shown in figure 1, middle graph) with missing or corrupt data, the issue becomes serious in cases where t...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 528.0,
+                    "w": 457.0,
+                    "h": 202.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Time series analysis, data imputation, machine learning, tree stem growth, forest health"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Time series analysis, data imputation, machine learning, tree stem growth, forest health...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 301.0,
+                    "w": 392.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Turning automatically measured stem radius (SR) data into biological information related to tree responses to environmental conditions is a well-established procedure [1-4].",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 289.0,
+                    "w": 458.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "The duration of the project is 12 months"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date: 1 Jan 2024."
-          }
-        ],
-        "extraction_confidence": 0.9999995321443933,
-        "confidence": 0.9999995321443933
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "ETH Domain: WSL"
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999992460557792,
+        "confidence": 0.9999992460557792,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 323.0,
+                  "w": 473.0,
+                  "h": 200.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Function: Dr."
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 323.0,
+                  "w": 473.0,
+                  "h": 200.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "First name: Mirko"
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Surname: Lukovic"
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Postcode: 8903"
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
               }
-            ],
-            "extraction_confidence": 0.9999999031936799,
-            "confidence": 0.9999999031936799
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+            }
+          ]
         }
-      ],
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n   Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 439.0,
+                  "h": 27.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "The duration of the project is 12 months with the involvement of two people, the applicant and a data scientist.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 673.0,
+                  "w": 457.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "The duration of the project is 12 months with the involvement of two people, the applicant and a data scientist.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 673.0,
+                  "w": 457.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 30000                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 629.0,
+                  "w": 196.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "**WP1: Model design**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "Work package 1: Model Design"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6616817934815008,
-            "confidence": 0.6616817934815008
+            "extraction_confidence": 0.9984123451370945,
+            "confidence": 0.9984123451370945
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "**WP2: Model integration**"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "Work package 2: Model Integration"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999822612089618,
-            "confidence": 0.9999822612089618
+            "extraction_confidence": 0.9999995455827853,
+            "confidence": 0.9999995455827853
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -411,29 +2061,31 @@
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 11490,
-      "num_output_tokens": 8011
-    }
+      "num_document_tokens": 10662,
+      "num_output_tokens": 5107
+    },
+    "parse_job_id": "4936bbc2-d21a-4ffe-bb78-7be60d78aa79"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "7d8974ea-8509-492e-b64e-a62c62c7a1e3",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:12:20.734776+00:00",
-  "updated_at": "2025-11-11T11:14:24.840313+00:00"
+  "job_id": "e84cfb7b-3f2e-44c5-af7c-bb3262087606",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:23:33.857314+00:00",
+  "updated_at": "2026-01-21T19:25:40.463433+00:00"
 }

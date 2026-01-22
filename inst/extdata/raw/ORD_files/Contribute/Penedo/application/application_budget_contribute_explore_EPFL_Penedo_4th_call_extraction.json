@@ -26,202 +26,910 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 20,
-            "matching_text": "Total Costs (A + B)             |               |                                                  | 30000        |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.8916382602192665,
-        "confidence": 0.8916382602192665
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "In addition, I took part in the implementation of a tip-sample distance control system for MFM [3], where the distance between probe and sample can be measured and controlled within 1 nm.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 154.0,
+                  "w": 458.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "INSUFFICIENT DATA: The budget table provides 20,000 CHF for 'Applicant' and a separate, empty line for 'Senior Staff'. There is no explicit value stated for 'Senior Staff' in the budget table or surrounding context.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Senior Staff                                     |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "INSUFFICIENT DATA: The budget table specifically lists 'Postdocs' but does not provide a value. By budget extraction standards, a blank indicates an allocation of 0 unless stated otherwise.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Postdocs                                         |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Students                                         | 8000         |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "|                                 |                                     | Students                                         | 8000         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "INSUFFICIENT DATA: Row for 'Other' exists but the numeric value is missing in the source document.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Other                                            |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. No numerical value provided for 'Other' in the personnel budget; treating as zero per extraction standard when a category is present but empty.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
-        "reasoning": "INSUFFICIENT DATA: 'i. Total Direct Costs for Personnel' is listed in the table, but the associated value is blank in the available source text.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "i. Total Direct Costs for Personnel              |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Travel²       |                                                  | 2000         |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "|                                 | Travel²                             |                                                  | 2000         |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "INSUFFICIENT DATA: No value for Equipment. The source text presents a row for Equipment in the budget table, but the CHF column is blank, so no budget amount has been provided.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Equipment³    |                                                  |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "INSUFFICIENT DATA: Row for the relevant category exists in the budget table but contains no numerical value, indicating the amount was not specified or is zero.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Publications (including Open Access fees), etc.⁴ |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "INSUFFICIENT DATA: Field present, but value missing.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Conferences and workshops⁵                       |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "INSUFFICIENT DATA: Row present, but value missing.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Other (please specify)⁶                          |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "INSUFFICIENT DATA: Value field is empty; no numerical value is provided in the source document.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "ii. Total Other Direct Costs                     |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "A – Total Direct Costs (i + ii) |               |                                                  | 30000        |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.6765464505627343,
-        "confidence": 0.6765464505627343
-      },
-      "total_budget_subcontracting": {
-        "reasoning": "INSUFFICIENT DATA: The source displays the category and the row, but does not specify any value for subcontracting costs. The absence of a value indicates the budgeted amount is zero or unreported. Entering 0, as per standard for blank budget items.",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "B – Subcontracting Costs⁷       |               |                                                  |              |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                  | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 567.0,
+                  "y": 798.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 22,
-      "num_document_tokens": 11620,
-      "num_output_tokens": 3894
-    }
+      "num_document_tokens": 11886,
+      "num_output_tokens": 2573
+    },
+    "parse_job_id": "a3c4d151-30ce-4d18-8e03-2bcf25390f70"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "ae220987-866a-4c8c-b1db-12e9bf2b60fb",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:04:49.810550+00:00",
-  "updated_at": "2025-11-11T14:05:29.562506+00:00"
+  "job_id": "57915a88-e5bd-4fe6-acd8-752ab3a56e61",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T21:10:36.141968+00:00",
+  "updated_at": "2026-01-21T21:11:55.644461+00:00"
 }

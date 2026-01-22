@@ -3,28 +3,22 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 1,
-      "descriptions": [
-        "Enhancements to the Brain-Score platform to support human data and new evaluation functionalities."
-      ],
-      "urls": [
-        "https://www.brain-score.org/"
-      ]
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
     },
     "repositories_catalogues": {
       "quantity": 1,
-      "descriptions": [
-        "GitHub repository for brain-score/vision—central repository for the project’s code, models, and benchmarks."
-      ],
+      "descriptions": [],
       "urls": [
-        "https://www.github.com/brain-score/vision"
+        "www.github.com/brain-score/vision"
       ]
     },
     "datasets_databases": {
       "quantity": 2,
       "descriptions": [
-        "Natural Scenes Dataset (NSD) packaged in Brain-Score format for model testing.",
-        "THINGS-similarity dataset behavioral data packaged, benchmark available via Brain-Score platform."
+        "Natural Scenes Dataset curated and packaged for Brain-Score",
+        "THINGS-similarity dataset curated and benchmark made available via Brain-Score"
       ],
       "urls": [
         "https://www.brain-score.org/benchmark/vision/169",
@@ -34,7 +28,7 @@
     "software_tools": {
       "quantity": 1,
       "descriptions": [
-        "Enhanced Brain-Score Python model interface for human as well as non-human data."
+        "Updated Brain-Score software API for model evaluation with human (fMRI) data"
       ],
       "urls": [
         "https://github.com/brain-score/vision/blob/master/brainscore_vision/model_interface.py"
@@ -43,10 +37,10 @@
     "models_standards": {
       "quantity": 4,
       "descriptions": [
-        "Proposed and revised Brain-Score model API for human data.",
-        "New models submitted and integrated for human visual data evaluation in Brain-Score.",
-        "New benchmarks for NSD and THINGS-similarity data available on Brain-Score.",
-        "Best practice workflows for aligning computational models with human fMRI and behavioral data."
+        "New model API proposal for human data",
+        "New benchmark definition for THINGS-similarity",
+        "Implementation of new similarity metric and experimental paradigm",
+        "Numerous new models submitted for benchmarking as an indirect result"
       ],
       "urls": [
         "https://github.com/brain-score/vision/blob/master/brainscore_vision/model_interface.py",
@@ -68,7 +62,7 @@
     "publications": {
       "quantity": 8,
       "descriptions": [
-        "3 publications directly from the applicant’s group, at least 5 others in the wider community using project resources"
+        "3 publications from my group, at least 5 publications by others using resources from this project"
       ],
       "urls": []
     },
@@ -79,9 +73,7 @@
     },
     "outreach_activities": {
       "quantity": 1,
-      "descriptions": [
-        "Brain-Score benchmarking competition for the community."
-      ],
+      "descriptions": [],
       "urls": [
         "https://www.brain-score.org/competition/"
       ]
@@ -94,8 +86,8 @@
     "new_collaborations": {
       "quantity": 2,
       "descriptions": [
-        "Collaboration with the Hebart lab at Max Planck Institute.",
-        "Collaboration with the Yamins lab at Stanford."
+        "My group now more closely works with the Hebart lab at MPI",
+        "My group now more closely works with the Yamins lab at Stanford"
       ],
       "urls": []
     },
@@ -107,7 +99,8 @@
     "estimated_users": {
       "quantity": 400,
       "descriptions": [
-        "Over 400 registered Brain-Score users; 100,000+ annual visits to the website."
+        "Over 400 registered Brain-Score users",
+        "100,000+ visits to the website per year"
       ],
       "urls": []
     },
@@ -126,436 +119,909 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
-              "page": 3,
-              "matching_text": "New or enhanced website(s), web interface, platform(s) and/ or infrastructure:"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.6224593113235651,
-          "confidence": 0.6224593113235651
-        },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.5372556862030137,
-            "confidence": 0.5372556862030137
-          }
-        ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "https://www.brain-score.org/competition/"
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8690195259263641,
-            "confidence": 0.8690195259263641
-          }
-        ],
-        "reasoning": "No explicit new website created, but substantial new platform functionality—a core deliverable—so 'enhanced platform' is valid. URL inferred from multiple references; description synthesized from progress text."
+            }
+          ]
+        },
+        "reasoning": "VERBATIM EXTRACTION. No outputs recorded for this category in the List of Outputs table or in the broader context."
       },
       "repositories_catalogues": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.43021527831349915,
-            "confidence": 0.43021527831349915
-          }
-        ],
         "urls": [
           {
-            "extraction_confidence": 0.9440245526885428,
-            "confidence": 0.9440245526885428
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9800760778219675,
+            "confidence": 0.9800760778219675,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1                                                                         | [www.github.com/brain-score/vision](http://www.github.com/brain-score/vision)...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 310.0,
+                    "w": 483.0,
+                    "h": 440.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. Direct correspondence in the outputs table."
       },
       "datasets_databases": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 2. Lay summary",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 506.0,
+                  "w": 89.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7945768345982428,
+            "confidence": 0.7945768345982428,
             "citation": [
               {
                 "page": 2,
-                "matching_text": "Natural Scenes Dataset (NSD) to incorporate their data into Brain-Score"
+                "matching_text": "**Natural Scenes Dataset:** we worked with the creators of the Natural Scenes Dataset (NSD) to incorporate their data into Brain-Score.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 286.0,
+                    "w": 477.0,
+                    "h": 55.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7259388533256361,
-            "confidence": 0.7259388533256361
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7314236813189912,
+            "confidence": 0.7314236813189912,
             "citation": [
               {
                 "page": 2,
-                "matching_text": "THINGS-similarity dataset to incorporate their data into Brain-Score"
+                "matching_text": "The data is packaged and the benchmark available via the Brain-Score platform, with users actively testing their models.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 359.0,
+                    "w": 477.0,
+                    "h": 84.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.45968722226969216,
-            "confidence": 0.45968722226969216
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999999851067194,
-            "confidence": 0.9999999851067194
-          },
-          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 3,
-                "matching_text": "https://github.com/brain-score/vision/pull/1221"
+                "matching_text": "...actice on new or existing ORD communit(ies) beyond the funding period[,]([https://github.com/brain](https://www.brain-score.org/benchmark/vision/169)-score/vision/blob/master/brainscore_visio[n/model_...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997935355732,
-            "confidence": 0.9999997935355732
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "Please explain the impact [(]([https://www.brain](https://github.com/brain-score/vision/pull/1221)-score.org/competition/)achieved or expected) of the project and ORD practice on new or existing ORD c...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Quantity is explicit (2). Dataset details from Achievements text and table. URLs extracted and cleaned."
+        "reasoning": "Main dataset outputs correspond to the Natural Scenes and THINGS-similarity datasets, cross-checked against section 3 and the 'Further details' cell in the table, which contains both URLs. OCR errors are tidied up and only the two unique datasets/URLs are retained."
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.5628168194866869,
-            "confidence": 0.5628168194866869
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5879002991613496,
+            "confidence": 0.5879002991613496,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "**Contribute to an updated [model ](https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/)API:** we worked out a proposal to adapt the Brain-Score model API for human data.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 155.0,
+                    "w": 477.0,
+                    "h": 68.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999898098606,
-            "confidence": 0.9999999898098606
+            "confidence": 0.9999999898098606,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...ain-score.org/benchmark/vision/169)-score/vision/blob/master/brainscore_visio[n/model_interface.py](https://github.com/brain-score/vision/blob/master/brainscore_vision/model_interface.py)) including o...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Verbatim from table, description clarified from report narrative."
+        "reasoning": "URL is verbatim from output table (cleaned for OCR noise). Description is cross-checked with the explanation in achievements referring to software contributions for human data in Brain-Score."
       },
       "models_standards": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "### 4. Deviations from the original plan",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 472.0,
+                  "w": 189.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.45487829205107805,
+            "confidence": 0.45487829205107805,
             "citation": [
               {
                 "page": 2,
-                "matching_text": "proposal to adapt the Brain-Score model API for human data"
+                "matching_text": "**Contribute to an updated [model ](https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/)API:** we worked out a proposal to adapt the Brain-Score model API for human data.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 155.0,
+                    "w": 477.0,
+                    "h": 68.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6117577216696447,
-            "confidence": 0.6117577216696447
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.29550435539633524,
+            "confidence": 0.29550435539633524,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "**THINGS-similarity:** we worked with the creators of the THINGS-similarity dataset to incorporate their data into Brain-Score.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 359.0,
+                    "w": 477.0,
+                    "h": 84.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6883239995671491,
+            "confidence": 0.6883239995671491,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "We defined a new similarity metric and model experimental paradigm to enable the interaction with in-silico computational hypotheses.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 359.0,
+                    "w": 477.0,
+                    "h": 84.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4349890399608138,
+            "confidence": 0.4349890399608138,
             "citation": [
               {
                 "page": 3,
-                "matching_text": "+ many new models submitted"
+                "matching_text": "| New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice:                                                      | 4<br/>(+ many new models submitted as...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 310.0,
+                    "w": 483.0,
+                    "h": 440.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.14816469068208737,
-            "confidence": 0.14816469068208737
-          },
-          {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "benchmark available via the Brain-Score platform"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5994013329418665,
-            "confidence": 0.5994013329418665
-          },
-          {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "implemented a way to simulate the more noisy and less direct fMRI measure"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.457349831503639,
-            "confidence": 0.457349831503639
+            ]
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "https://github.com/brain-score/vision/blob/master/brainscore_vision/model_interface.py"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999998689559535,
-            "confidence": 0.999998689559535
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "https://www.brain-score.org/benchmark/vision/169"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999453732575591,
-            "confidence": 0.9999453732575591
-          },
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "https://github.com/brain-score/vision/pull/1221"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999999952112336,
-            "confidence": 0.999999952112336
-          },
-          {
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...ain-score.org/benchmark/vision/169)-score/vision/blob/master/brainscore_visio[n/model_interface.py](https://github.com/brain-score/vision/blob/master/brainscore_vision/model_interface.py)) including o...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999988572572898,
+            "confidence": 0.9999988572572898,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...actice on new or existing ORD communit(ies) beyond the funding period[,]([https://github.com/brain](https://www.brain-score.org/benchmark/vision/169)-score/vision/blob/master/brainscore_visio[n/model_...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "Please explain the impact [(]([https://www.brain](https://github.com/brain-score/vision/pull/1221)-score.org/competition/)achieved or expected) of the project and ORD practice on new or existing ORD c...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 101.0,
+                    "w": 483.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...s://github.com/brain-score/vision/pull/1221)><br/><https://www.brain-[score.org/model/vision/2147]([https://www.brain-score.org/model/vision/2147](https://www.brain-score.org/model/vision/2147))>...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 310.0,
+                    "w": 483.0,
+                    "h": 440.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Quantity and URL count explicit. Descriptions inferred from report body as well as output table."
+        "reasoning": "Descriptions paraphrased from achievements and table. URLs cleaned and matched to their respective contributions as per the table and supporting text. Quantity is confirmed as 4."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Scientific workshops organized as part of the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. No entries for this category."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Training and educational events and/or resources directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. No data for this category in the outputs."
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...her in progress, submitted, accepted or published) – please provide link/DOI if already published | 8+                                                                        | 3 in my group, at least...",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 310.0,
+                  "w": 483.0,
+                  "h": 440.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "3 in my group, at least 5 others that I am aware of"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.45616271592992536,
-            "confidence": 0.45616271592992536
+            "extraction_confidence": 0.5923537030660996,
+            "confidence": 0.5923537030660996
           }
         ],
-        "reasoning": "Quantity 8 is lowest plausible (8+). Descriptions verbatim, URLs not given."
+        "reasoning": "VERBATIM EXTRACTION (with minor cleaning). Quantity is at least 8. No URLs listed in the table or elsewhere."
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. Not reported as output."
       },
       "outreach_activities": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "benchmarking competition last year (https://www.brain-score.org/competition/)"
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6657709872815275,
-            "confidence": 0.6657709872815275
-          }
-        ],
+            }
+          ]
+        },
         "urls": [
           {
-            "extraction_confidence": 0.9999994919038199,
-            "confidence": 0.9999994919038199
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...veral benchmark submissions from the community in the context of our 2024 benchmarking competition (https://www.brain-score.org/competition/).",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 615.0,
+                    "w": 476.0,
+                    "h": 55.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Table entry with clear URL and description in narrative."
+        "reasoning": "VERBATIM EXTRACTION. Entries match table exactly."
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. No patents or IP reported."
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "New collaborations (except with industrial partners – see below): | 2 | My group now more closely works with the Hebart lab at MPI, and the Yamins lab at Stanford"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 2. Lay summary",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 506.0,
+                  "w": 89.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8978812374142755,
+            "confidence": 0.8978812374142755,
             "citation": [
               {
                 "page": 4,
-                "matching_text": "My group now more closely works with the Hebart lab at MPI"
+                "matching_text": "...below):                                                                                   | 2    | My group now more closely works with the Hebart lab at MPI, and the Yamins lab at Stanford |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 84.0,
+                    "w": 483.0,
+                    "h": 282.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8115601342679274,
-            "confidence": 0.8115601342679274
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9936942673423182,
+            "confidence": 0.9936942673423182,
             "citation": [
               {
                 "page": 4,
-                "matching_text": "and the Yamins lab at Stanford"
+                "matching_text": "| New collaborations (except with industrial partners – see below):                                                                                   | 2    | My group now more closely works with the...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 84.0,
+                    "w": 483.0,
+                    "h": 282.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9897576273557104,
-            "confidence": 0.9897576273557104
+            ]
           }
         ],
-        "reasoning": "Direct table entry; details also explicit."
+        "reasoning": "VERBATIM EXTRACTION. Directly matches table text."
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "New collaborations and/or contracts with industrial partners: | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. No output for this category."
       },
       "estimated_users": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 4,
-              "matching_text": "Estimated number of users within the community benefiting from enhanced ORD practices: | 400+ | Over 400 registered Brain-Score users; 100'000+ visits to the website per year"
+              "matching_text": "...efiting from enhanced ORD practices:                                                              | 400+ | Over 400 registered Brain-Score users; 100'000+ visits to the website per year             |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 84.0,
+                  "w": 483.0,
+                  "h": 282.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996442866028,
+            "confidence": 0.9999996442866028,
             "citation": [
               {
                 "page": 4,
-                "matching_text": "Over 400 registered Brain-Score users; 100'000+ visits to the website per year"
+                "matching_text": "...from enhanced ORD practices:                                                              | 400+ | Over 400 registered Brain-Score users; 100'000+ visits to the website per year             |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 84.0,
+                    "w": 483.0,
+                    "h": 282.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6751745013219733,
-            "confidence": 0.6751745013219733
+            "extraction_confidence": 0.9934378560104319,
+            "confidence": 0.9934378560104319,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| Estimated number of users within the community benefiting from enhanced ORD practices:                                                              | 400+ | Over 400 registered Brain-Score users;...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 84.0,
+                    "w": 483.0,
+                    "h": 282.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 841.92
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "400 taken as minimum, consistent with '400+'."
+        "reasoning": "Quantity is '400+'; as per instructions, treat as 400 (do not round higher). Both figures from the table retained as separate descriptions."
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "Other (please specify): | |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| ## Sample stimuli | Ceiling&#xA;0.68.&#xA;Note that scores are relative to this ceiling. |\n| ----------------- | -------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "VERBATIM EXTRACTION. No other outputs specified."
       }
     },
     "usage": {
       "num_pages_extracted": 5,
-      "num_document_tokens": 3172,
-      "num_output_tokens": 3792
-    }
+      "num_document_tokens": 3266,
+      "num_output_tokens": 1926
+    },
+    "parse_job_id": "2e06b2c8-467d-41b6-bfe0-d6ee7835109f"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "75b888cc-77c2-46e3-985c-c57c86d0b579",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:33:21.240253+00:00",
-  "updated_at": "2025-11-11T18:34:19.101840+00:00"
+  "job_id": "f4a4d247-74d7-40e2-b590-04ba4ee5ac14",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T04:13:41.773762+00:00",
+  "updated_at": "2026-01-22T04:14:50.972810+00:00"
 }

@@ -10,15 +10,7 @@
     "main_applicant_laboratory_name": "Laboratory for Particle Physics",
     "main_applicant_postcode": 5232,
     "main_applicant_city": "Villigen PSI",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "PSI",
-        "function_title": "Tenure-Track Scientist",
-        "first_name": "Clemens",
-        "surname": "Lange",
-        "postcode": 5232
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Seamlessly containerised physics analysis workloads (SCPAW)",
     "project_acronym": "SCPAW",
     "project_abstract": "The reusability of particle physics analyses is severely affected by undocumented and manual steps taken by the analysis teams. Starting from typically centrally produced reusable data sets, such high-level physics analyses are largely performed using individually developed analysis scripts and frameworks. While the analysis code is commonly under version control in a git repository, this does not guarantee that it works nor that it yields the results obtained from manual execution. This project aims to provide a prototype solution to these issues for experiments performed at the PSI Laboratory for Particle Physics (CMS, Mu3e, n2EDM) by encoding the missing information directly in the code repository and integrating it with the execution environment to ensure the code’s functionality. This will be achieved by providing templates to automatically test the code and package it in self-contained and portable software container images on the code repository server. These container images will then be distributed on the compute clusters using technology that allows for massively parallel batch processing. Aiming for an excellent user experience to increase adoption, this setup that builds upon the existing infrastructure at PSI will be benchmarked and optimized for a potential future large-scale deployment. Dedicated documentation will be developed, a training course be held at PSI, and the results as well as lessons learned will be presented at an international computing workshop.",
@@ -32,7 +24,24 @@
     "start_date": "1 Jan 2024",
     "project_duration_months": 12,
     "total_budget_requested": 30000.0,
-    "work_packages": null
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "GitLab CI setup and templates"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "CVMFS server setup"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Benchmarking"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Community exchange & training"
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDMetadata",
@@ -43,299 +52,2052 @@
     "field_metadata": {
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 20,
-            "matching_text": "ORD Contribute project at Paul Scherrer Institute"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "## Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 283.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "ORD Contribute project at Paul Scherrer Institute"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "supports the application of Clemens Lange for an ORD Contribute project"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_surname": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "supports the application of Clemens Lange for an ORD Contribute project"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Letter of support of the Institution for co-financing | 95941::20230717-PSI-Confirmation-Lange.pdf |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 703.0,
+                  "w": 203.0,
+                  "h": 27.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title): Tenure-Track Scientist."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function (Title)**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Tenure-Track Scientist                           |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **First name(s)**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Clemens Lange | Applicant ID - ORD1000282",
+              "bounding_boxes": [
+                {
+                  "x": 304.0,
+                  "y": 40.0,
+                  "w": 253.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Clemens Lange\nCurrent position(s): Senior researcher\nAcademic age: 9 year(s) 9 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 186.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Clemens Lange | Applicant ID - ORD1000282",
+              "bounding_boxes": [
+                {
+                  "x": 304.0,
+                  "y": 40.0,
+                  "w": 253.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Laboratory name row: Laboratory for Particle Physics."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 0.9999999135960062,
-        "confidence": 0.9999999135960062
+        "confidence": 0.9999999135960062,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "As a leader in the field, I have presented these results at the most renowned international particle physics conferences.",
+              "bounding_boxes": [
+                {
+                  "x": 77.0,
+                  "y": 366.0,
+                  "w": 460.0,
+                  "h": 164.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...s project aims to provide a prototype solution to these issues for experiments performed at the PSI Laboratory for Particle Physics (CMS, Mu3e, n2EDM) by encoding the missing information directly in t...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 161.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode: 5232."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Postcode / Zipcode**...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 54.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 5232                                             |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 54.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City: Villigen PSI."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **City**...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 54.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Villigen PSI                                     |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 54.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "The most complete version of the project title appears on page 10 and includes both the full name and the acronym. Other instances confirm the title but do not include the acronym. Selecting the most informative, non-redundant version from the provided options.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project title | Seamlessly containerised physics analysis workloads"
-          },
-          {
-            "page": 10,
-            "matching_text": "## 1. Project title\nSeamlessly containerised physics analysis workloads (SCPAW)"
-          },
-          {
-            "page": 20,
-            "matching_text": "project entitled \"Seamlessly containerised physics analysis workloads\""
-          }
-        ],
+        "reasoning": "Both sources extracted project title verbatim. The most complete version (with acronym) is selected. Both demonstrate very high confidence.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999950355732,
-        "confidence": 0.9999999950355732
+        "extraction_confidence": 0.9999999758678125,
+        "confidence": 0.9999999758678125,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 111.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Seamlessly containerised physics analysis workloads...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 111.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "Seamlessly containerised physics analysis workloads (SCPAW)",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 174.0,
+                  "w": 312.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "|                                        | Year 1<br/>Q1 | Year 1<br/>Q2 | Year 1<br/>Q3 | Year 1<br/>Q4 |",
+              "bounding_boxes": [
+                {
+                  "x": 199.0,
+                  "y": 475.0,
+                  "w": 212.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Acronym of the project | SCPAW"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999997517212597,
-        "confidence": 0.9999997517212597
+        "extraction_confidence": 0.9999997765242543,
+        "confidence": 0.9999997765242543,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "**ORD project plan**\n    Please describe your project design, including how it addresses the aim(s) of the ORD “contribute projects” described above.",
+              "bounding_boxes": [
+                {
+                  "x": 85.0,
+                  "y": 614.0,
+                  "w": 453.0,
+                  "h": 41.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| SCPAW...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 137.0,
+                  "w": 43.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Abstract | The reusability of particle physics analyses is severely aff..."
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999830402340354,
-        "confidence": 0.9999830402340354
+        "extraction_confidence": 0.9999931862387579,
+        "confidence": 0.9999931862387579,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This project aims to provide a prototype solution to these issues for experiments performed at the PSI Laboratory for Particle Physics (CMS, Mu3e, n2EDM) by encoding the missing information directl...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 161.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| FAIR principles, software containers, reproducible analysis, continuous integration, particle physics...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 375.0,
+                    "w": 442.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Thanks to their flexibility, such software containers are nowadays also widely used in industry.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 168.0,
+                    "w": 456.0,
+                    "h": 177.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "I have been co-leading this effort over the last few years, in particular enabling the use of these data at research level for new physics analyses and reinterpretation, within and outside the expe...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 168.0,
+                    "w": 456.0,
+                    "h": 177.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "I have been co-leading this effort over the last few years, in particular enabling the use of these data at research level for new physics analyses and reinterpretation, within and outside the expe...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 168.0,
+                    "w": 456.0,
+                    "h": 177.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "I have been co-leading this effort over the last few years, in particular enabling the use of these data at research level for new physics analyses and reinterpretation, within and outside the expe...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 168.0,
+                    "w": 456.0,
+                    "h": 177.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 0.9999999374367368,
-          "confidence": 0.9999999374367368
+          "confidence": 0.9999999374367368,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| FAIR principles, software containers, reproducible analysis, continuous integration, particle physics...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 375.0,
+                    "w": 442.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "I have been co-leading this effort over the last few years, in particular enabling the use of these data at research level for new physics analyses and reinterpretation, within and outside the expe...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 168.0,
+                    "w": 456.0,
+                    "h": 177.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| FAIR principles, software containers, reproducible analysis, continuous integration, particle physics...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 375.0,
+                    "w": 442.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 305.0,
+                    "w": 369.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, software containers, reproducible analysis, contin..."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "As a leader in the field, I have presented these results at the most renowned international particle physics conferences.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 366.0,
+                    "w": 460.0,
+                    "h": 164.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "These are the most-sensitive searches worldwide [1] and explore previously unprobed phase space [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 366.0,
+                    "w": 460.0,
+                    "h": 164.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "These are the most-sensitive searches worldwide [1] and explore previously unprobed phase space [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 366.0,
+                    "w": 460.0,
+                    "h": 164.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "These are the most-sensitive searches worldwide [1] and explore previously unprobed phase space [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 366.0,
+                    "w": 460.0,
+                    "h": 164.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Proposed Starting Date | 1 Jan 2024"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999956937956034,
-        "confidence": 0.9999956937956034
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 396.0,
+                  "w": 478.0,
+                  "h": 200.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 396.0,
+                  "w": 478.0,
+                  "h": 200.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project duration | 12"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n    Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 440.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n    Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 440.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 16,
-            "matching_text": "The overall project budget **must be exactly CHF 30'000** for the **total duration** of the project."
-          },
-          {
-            "page": 18,
-            "matching_text": "Total Costs (A + B)             |                                     |                                                  | 30'000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF                         | 30000                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 702.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "The overall project budget **must be exactly CHF 30'000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 632.0,
+                  "w": 468.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "|                                        | Year 1<br/>Q1 | Year 1<br/>Q2 | Year 1<br/>Q3 | Year 1<br/>Q4 |",
+              "bounding_boxes": [
+                {
+                  "x": 199.0,
+                  "y": 475.0,
+                  "w": 212.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 625.0,
+                  "w": 460.0,
+                  "h": 102.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "|                                        | Year 1<br/>Q1 | Year 1<br/>Q2 | Year 1<br/>Q3 | Year 1<br/>Q4 |",
+              "bounding_boxes": [
+                {
+                  "x": 199.0,
+                  "y": 475.0,
+                  "w": 212.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 625.0,
+                  "w": 460.0,
+                  "h": 102.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 26 July 2023, Clemens Lange, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "|                                        | Year 1<br/>Q1 | Year 1<br/>Q2 | Year 1<br/>Q3 | Year 1<br/>Q4 |",
+              "bounding_boxes": [
+                {
+                  "x": 199.0,
+                  "y": 475.0,
+                  "w": 212.0,
+                  "h": 167.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 625.0,
+                  "w": 460.0,
+                  "h": 102.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
-      "all_applicants": [
+      "work_packages": [
         {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "PSI"
-              }
-            ],
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Tenure-Track Scientist"
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Clemens"
-              }
-            ],
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Lange"
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997556698375,
+            "confidence": 0.9999997556698375
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "5232"
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
@@ -345,29 +2107,31 @@
     },
     "usage": {
       "num_pages_extracted": 22,
-      "num_document_tokens": 11502,
-      "num_output_tokens": 6596
-    }
+      "num_document_tokens": 11590,
+      "num_output_tokens": 4506
+    },
+    "parse_job_id": "42ee633f-40ee-4aef-b4ab-01acaed6fa57"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "a331ed18-8d5d-4f73-a3cb-7923e49ead0b",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:24:14.161415+00:00",
-  "updated_at": "2025-11-11T10:31:05.923013+00:00"
+  "job_id": "6dd55682-1a3c-4e22-9f14-c0724db0b8a6",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:32:43.474740+00:00",
+  "updated_at": "2026-01-21T18:39:19.496320+00:00"
 }

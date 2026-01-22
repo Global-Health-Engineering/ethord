@@ -4,7 +4,7 @@
   "data": {
     "project_category": "Establish Projects",
     "main_applicant_institution": "Empa",
-    "main_applicant_function": "Group leader (Senior Scientist)",
+    "main_applicant_function": "Group leader (Senior Scientist); Lecturer / Reader, Senior researcher",
     "main_applicant_first_name": "Carlo Antonio",
     "main_applicant_surname": "Pignedoli",
     "main_applicant_laboratory_name": "Laboratory for Materials Simulations",
@@ -20,7 +20,7 @@
       },
       {
         "eth_domain_institution": "Empa",
-        "function_title": "Deputy group leader (Senior Scientist); Senior researcher",
+        "function_title": "Deputy group leader (Senior Scientist)",
         "first_name": "Carlo Antonio",
         "surname": "Pignedoli",
         "postcode": 8600
@@ -34,13 +34,20 @@
       },
       {
         "eth_domain_institution": "ETH Zürich",
-        "function_title": "Head Scientific IT Services; section head and SIB group leader",
+        "function_title": "Lecturer / Reader",
+        "first_name": "Corsin",
+        "surname": "Battaglia",
+        "postcode": 8092
+      },
+      {
+        "eth_domain_institution": "ETH Zürich",
+        "function_title": "Head Scientific IT Services",
         "first_name": "Bernd",
         "surname": "Rinn",
         "postcode": 8092
       }
     ],
-    "project_title": "PREMISE: Open and Reproducible Materials Science Research",
+    "project_title": "PREMISE (Open and Reproducible Materials Science Research)",
     "project_acronym": "PREMISE",
     "project_abstract": "PREMISE aims to establish, promote and facilitate the adoption of FAIR ORD practices in Materials Science, focusing on enabling the treatment, at the same level, of experimental and simulation data. We will first develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), and apply these standards to Materials Science ontologies. We will then collect, design and disseminate best practices for generating ORD as a natural part of the research process, rather than as an additional duty for researchers. Our deliverables will be demonstrated with concrete pilot use cases, chosen to be applicable to the broad field of Materials Science, and generalisable to other disciplines. We will leverage two robust open platforms, developed and maintained within the ETH domain, compliant by design with FAIR requirements for experiments (openBIS) and simulations (AiiDA+AiiDAlab). We will bring them \"to the next level\" by implementing our novel set of ORD practices and demonstrating how an ELN/LIMS and a WFMS can be made seamlessly interoperable. We expect our deliverables to be essential components of the emerging field of autonomous laboratories, where automated simulations and robotic experiments are combined via artificial intelligence in closed feedback loops, ultimately accelerating materials discovery and characterisation.",
     "keywords": [
@@ -56,23 +63,23 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Enabling seamless integration of data from experimental and simulation workflows"
+        "wp_title": "Development of metadata formats and practices for integrated exp/simul in ELNs"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Open data from simulation-assisted experimental interpretation"
+        "wp_title": "Application of WP1 concepts to simulation-assisted experiments"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Open data from workflow-driven robotic experiments"
+        "wp_title": "Open data from workflow-driven robotic experiments / Application of WP1 concepts to battery research and data schema for digital twins"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Reproducible and accessible materials experiments and simulations"
+        "wp_title": "Reproducible and accessible materials experiments and simulations / Standard templates and modular interface components for experimental plots"
       },
       {
         "wp_identifier": "WP5",
-        "wp_title": "Project management and outreach"
+        "wp_title": "Project management and outreach / Project coordination and management"
       }
     ]
   },
@@ -83,766 +90,2243 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 1.0,
+        "confidence": 0.9474338417065503,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Establish Projects\" Stage 2 - Deadline 28th July 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 503.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "# Track B: Establish projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 118.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "I first developed a novel method to engineer polar discontinuities in 2D lateral heterostructures [1] which resulted in a patent [2].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 522.0,
+                  "w": 460.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "1) make it evident that lack of standards, incentives, tools, and discoverability (e.g., of good examples to be inspired by) are key to the delayed adoption of RDM practices.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 537.0,
+                  "w": 469.0,
+                  "h": 185.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
-        "reasoning": "While there is an initial table entry indicating 'PSI', the fullest context (CV, repeated support letters, and application section) shows unequivocally that the main applicant institution is Empa and that Carlo Antonio Pignedoli is from Empa. Support letter signatories from Empa and the applicant's own stated affiliation override the possibly outdated or incorrect table header.",
-        "citation": [
-          {
-            "page": 11,
-            "matching_text": "Carlo Antonio Pignedoli, Senior researcher at EMPA, CH"
-          },
-          {
-            "page": 62,
-            "matching_text": "Dr. Carlo Pignedoli is described as the applicant for an ORD Establish project at Empa; Empa heads sign supporting letters as host/guaranteeing institution."
-          }
-        ],
-        "extraction_confidence": 0.9518639348934211,
-        "confidence": 0.9518639348934211
+        "reasoning": "Multiple extractions refer to Empa as the main applicant institution for the relevant applicant whose details appear in support letters and narrative sections; this information appears in multiple indices and page regions, with PSI appearing as a single, likely unrelated candidate. The most consistent and repeated institution for the main applicant in the provided sources is Empa. VERBATIM EXTRACTION (for Empa).",
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 1.0,
+        "confidence": 0.9474338417065503,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| PSI                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Together with Empa, I also supervise the development of the AiiDAlab web interface",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 454.0,
+                  "w": 431.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 66,
+              "matching_text": "**Empa**\nMaterials Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 362.0,
+                  "y": 33.0,
+                  "w": 160.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/4 19 July 2022, Giovanni Pizzi, ORCID [iD 0000-",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Andreoni, our research efforts in collaboration with teams of experimentalists lead to a breakthrough in the field of high-k materials (patent [1] publication [3]).",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 462.0,
+                  "w": 450.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 62,
+              "matching_text": "We are writing in support of your ORD-R Establish project proposal \"PREMISE\" that will be submitted to the call for proposals announced at https://ethrat.ch/en/measure-1-calls-for-field-specific-ac...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 263.0,
+                  "w": 456.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 63,
+              "matching_text": "Roman Fasel (Head of Empa's nanotech@surfaces Laboratory), support the application of Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Function (Title) | Group leader (Senior Scientist) |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "reasoning": "Both values are verbatim extractions from separate, valid locations in the document associated with the main applicant. Both likely refer to concurrent or recent roles held by the applicant as evidenced by context. Including both is the most complete and accurate representation based on the given source.",
+        "parsing_confidence": 0.9474338417065503,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9474338417065503,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Function (Title)                   | Deputy group leader (Senior Scientist) |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 77.0,
+                  "w": 171.0,
+                  "h": 73.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "**Carlo Antonio Pignedoli**\nCurrent position(s): Lecturer / Reader, Senior researcher\nAcademic age: 20 year(s) 6 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 277.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Function (Title)                   | Deputy group leader (Senior Scientist) |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 77.0,
+                  "w": 171.0,
+                  "h": 73.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "**Carlo Antonio Pignedoli**\nCurrent position(s): Lecturer / Reader, Senior researcher\nAcademic age: 20 year(s) 6 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 277.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 702.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Andreoni, our research efforts in collaboration with teams of experimentalists lead to a breakthrough in the field of high-k materials (patent [1] publication [3]).",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 462.0,
+                  "w": 450.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "Among the extractions, 'Carlo Antonio' (page 13, CV header) gives the full and most likely correct first name for the main applicant, corroborated by a matching surname and additional mentions of 'Carlo' elsewhere. The earlier occurrence of 'Giovanni' (page 1) is inconsistent with the rest and likely a document or OCR error. The preponderance of evidence from multiple sections referencing 'Carlo' or 'Carlo Antonio' supports selecting 'Carlo Antonio' as the main applicant's first name.",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "Carlo Antonio Pignedoli"
-          },
-          {
-            "page": 63,
-            "matching_text": "support the application of Dr. Carlo Pignedoli for an ORD *Establish* project at my Laboratory"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "reasoning": "'Carlo Antonio' is extracted verbatim from the main applicant's CV and confirmed in the support letter referencing the current ORD Establish project. The 'Giovanni' result appears to be from a different context/applicant (possibly due to misparsing of a list or unrelated field). Since both the CV and support sections consistently name 'Carlo Antonio Pignedoli', this is used as the main applicant's first name for the project in question. VERBATIM EXTRACTION for 'Carlo Antonio'.",
+        "parsing_confidence": 0.9474338417065503,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9474338417065503,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| First name(s)                      | Corsin             |\n| Surname(s)                         | Battaglia          |\n| Gender                             | Male               |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 366.0,
+                  "w": 83.0,
+                  "h": 73.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 63,
+              "matching_text": "Carlo Pignedoli for an ORD *Establish* project at my Laboratory for the project entitled \"**PREMISE: Open and Reproducible Materials Science Research**\", pending ethical clearance of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Giovanni Pizzi | Applicant ID - ORD3B00008",
+              "bounding_boxes": [
+                {
+                  "x": 312.0,
+                  "y": 40.0,
+                  "w": 245.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "**Carlo Antonio Pignedoli**\nCurrent position(s): Lecturer / Reader, Senior researcher\nAcademic age: 20 year(s) 6 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 277.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 63,
+              "matching_text": "Carlo Pignedoli for an ORD *Establish* project at my Laboratory for the project entitled \"**PREMISE: Open and Reproducible Materials Science Research**\", pending ethical clearance of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "| Page 1/4 | 21 July 2022, Carlo Pignedoli, ORCID \\[iD 0000-0002-8273-6390]\\(<https://orcid.org/0000-0002-8273-6390>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 62,
+              "matching_text": "We are writing in support of your ORD-R Establish project proposal \"PREMISE\" that will be submitted to the call for proposals announced at https://ethrat.ch/en/measure-1-calls-for-field-specific-ac...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 263.0,
+                  "w": 456.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Although the applicant table lists 'Pizzi', two separate, authoritative sources (CV and institutional support letter) identify the applicant as 'Pignedoli'. It is likely that 'Pizzi' is an error and 'Pignedoli' is the correct surname, as it is corroborated by multiple, consistent references elsewhere in the document.",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "Carlo Antonio Pignedoli"
-          },
-          {
-            "page": 61,
-            "matching_text": "support the application of Dr. Carlo Pignedoli"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999155951745,
-        "confidence": 0.9999999155951745
+        "reasoning": "While candidate 'Pizzi' appears in initial pages, 'Pignedoli' is directly and repeatedly referenced later in the document (pages 10-66), including in a formal role as main applicant in a project letter and the application's CV section. The strongest documentary evidence supports 'Pignedoli' as the main applicant surname.",
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 0.999999978546184,
+        "confidence": 0.947433787633198,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**Giovanni Pizzi**\n**Current position(s):** Senior researcher and group leader, Senior researcher\n**Academic age:** 10 year(s) 6 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 365.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 63,
+              "matching_text": "Carlo Pignedoli for an ORD *Establish* project at my Laboratory for the project entitled \"**PREMISE: Open and Reproducible Materials Science Research**\", pending ethical clearance of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Giovanni Pizzi | Applicant ID - ORD3B00008",
+              "bounding_boxes": [
+                {
+                  "x": 312.0,
+                  "y": 40.0,
+                  "w": 245.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Page 3/4 21 July 2022, Carlo Pignedoli, ORCID [iD 0000-",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 59,
+              "matching_text": "Dear Dr. Pignedoli,",
+              "bounding_boxes": [
+                {
+                  "x": 82.0,
+                  "y": 369.0,
+                  "w": 105.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/4 19 July 2022, Giovanni Pizzi, ORCID [iD 0000-",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "Andreoni, our research efforts in collaboration with teams of experimentalists lead to a breakthrough in the field of high-k materials (patent [1] publication [3]).",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 462.0,
+                  "w": 450.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Laboratory name | Laboratory for Materials Simulations |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 0.9999999478639471,
+        "confidence": 0.9474337923110894,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Materials for energy conversion Laboratory\nÜberlandstrasse 129\n8600 Dübendorf",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 473.0,
+                  "w": 192.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Laboratory for Materials Simulations |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Postcode / Zipcode | 5232 |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9474338417065503,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9474338417065503,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 5232                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 702.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| City | Villigen PSI |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9474338417065503,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9474338417065503,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Villigen PSI                         |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "I first developed a novel method to engineer polar discontinuities in 2D lateral heterostructures [1] which resulted in a patent [2].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 522.0,
+                  "w": 460.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Which ETH Domain do you belong to? | PSI |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Function (Title) | Group leader (Senior Scientist) |"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999999677312256,
+            "confidence": 0.9474338111340214
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| First name(s) | Giovanni |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Surname(s) | Pizzi |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Postcode / Zipcode | 5232 |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Which ETH Domain do you belong to? | EMPA |"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9987222557698004,
-            "confidence": 0.9987222557698004
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999625335474146,
+            "confidence": 0.9473983447214422
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Function (Title) | Deputy group leader (Senior Scientist) |"
-              },
-              {
-                "page": 13,
-                "matching_text": "Current position(s): Lecturer / Reader, Senior researcher"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9806585522766252,
-            "confidence": 0.9806585522766252
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999999608979601,
+            "confidence": 0.9474338046599544
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| First name(s) | Carlo Antonio |"
-              },
-              {
-                "page": 13,
-                "matching_text": "Carlo Antonio Pignedoli"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Surname(s) | Pignedoli |"
-              },
-              {
-                "page": 13,
-                "matching_text": "Carlo Antonio Pignedoli"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998361260756,
-            "confidence": 0.9999998361260756
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999998957278968,
+            "confidence": 0.947433742915631
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "nanotech@surfaces Laboratory  Überlandstrasse 129  8600 Dübendorf"
-              },
-              {
-                "page": 13,
-                "matching_text": "EMPA CH"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9941992249942113,
-            "confidence": 0.9941992249942113
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
           },
-          "reasoning": "Titles from different sections (main/deputy group leader and senior researcher) are both present for the same person (Carlo Antonio Pignedoli at Empa, 8600); consolidated with semicolon. Confidence mean taken where multiple values."
+          "reasoning": "Multiple sections list Carlo Antonio Pignedoli at Empa. The entries for 'Deputy group leader (Senior Scientist)' and Empa, with postcode 8600, are used for consistency and completeness (verbatim extraction where available); additional role 'Lecturer / Reader, Senior researcher' from CV is omitted here for clarity as only one main entry per person is standard."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Which ETH Domain do you belong to? | EMPA |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Function (Title) | Head of laboratory |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| First name(s) | Corsin |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Surname(s) | Battaglia |"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Materials for energy conversion Laboratory  Überlandstrasse 129  8600 Dübendorf"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
+          },
+          "reasoning": "Applicant has multiple roles at different ETH institutions (Empa and ETH Zürich). Both sets are valid and extracted independently as per data."
+        },
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999878040960278,
+            "confidence": 0.9474222868943969
+          },
+          "function_title": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999992065742468,
+            "confidence": 0.9474330899881408
+          },
+          "first_name": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
+          },
+          "surname": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9474337499889666
+          },
+          "postcode": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
+          },
+          "reasoning": "Multiple official affiliations for one applicant (Empa and ETH Zürich). Both employment details relevant and separately extracted."
+        },
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999916185739672,
+            "confidence": 0.9474259008598851
+          },
+          "function_title": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
+          },
+          "first_name": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
+          },
+          "surname": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
+          },
+          "postcode": {
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
           },
           "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Which ETH Domain do you belong to?** | ETH Zürich |"
-              },
-              {
-                "page": 22,
-                "matching_text": "Head of Scientific IT Services of ETH Zurich | ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999900987441824,
-            "confidence": 0.9999900987441824
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Function (Title)** | Head Scientific IT Services |"
-              },
-              {
-                "page": 21,
-                "matching_text": "Current position(s): section head and SIB group leader"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999999767991971,
-            "confidence": 0.999999767991971
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **First name(s)** | Bernd |"
-              },
-              {
-                "page": 21,
-                "matching_text": "Bernd Rinn"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Surname(s)** | Rinn |"
-              },
-              {
-                "page": 21,
-                "matching_text": "Bernd Rinn"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "ETH Zurich IT Services<br/>(OCT G 35)<br/>Binzmühlestr. 130<br/>8092 Zürich"
-              },
-              {
-                "page": 22,
-                "matching_text": "ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9988996263832264,
-            "confidence": 0.9988996263832264
-          },
-          "reasoning": "Merged key values for Bernd Rinn from main application form and CV section. Both function titles present, as well as two consistent address citations. Mean/maximum confidence computed where appropriate."
         }
       ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ORD Program - Measure 1 \"Establish Projects\" Stage 2"
-          },
-          {
-            "page": 25,
-            "matching_text": "Track B: Establish projects"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "project_title": {
-        "reasoning": "The majority of well-supported, later-document references use 'PREMISE: Open and Reproducible Materials Science Research'—including in signed statements and section headers. The shorter version ('Open and Reproducible Materials Science Research') is likely a shorthand listed in a table, whereas the longer form is the full project title as used officially throughout the proposal documentation. The presence of 'PREMISE: Open and Reproducible Materials Science Research' in formal attestations (Empa and PSI letters, pages 64–66), and section headers (page 25), as well as the frequency and formality, supports this as the best extraction.",
-        "citation": [
-          {
-            "page": 25,
-            "matching_text": "1. Project title\n**PREMISE: Open and Reproducible Materials Science Research**"
-          },
-          {
-            "page": 64,
-            "matching_text": "project entitled “PREMISE: Open and Reproducible Materials Science Research”"
-          },
-          {
-            "page": 65,
-            "matching_text": "Proposal: “PREMISE: Open and Reproducible Materials Science Research”"
-          },
-          {
-            "page": 66,
-            "matching_text": "project entitled \"PREMISE: Open and Reproducible Materials Science Research\""
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "reasoning": "The most common and semantically complete form of the project title across the bulk of the document is 'PREMISE (Open and Reproducible Materials Science Research)'. While the RESEARCH PROPOSAL section gives 'Open and Reproducible Materials Science Research', headers, tables, and support letters—spanning a wide index/page range and representing official uses—consistently use the expanded acronym form. Therefore, the full title 'PREMISE (Open and Reproducible Materials Science Research)' is extracted as the preferred result.",
+        "parsing_confidence": 0.9474338216589993,
+        "extraction_confidence": 0.999994864958379,
+        "confidence": 0.9474337291853171,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Project title**          | Open and Reproducible Materials Science Research...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 111.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "| Project proposal: PREMISE (Open and Reproducible Materials Science Research) | 1/24 |\n| ---------------------------------------------------------------------------- | ---- |",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 767.0,
+                  "w": 353.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research) 10/24",
+              "bounding_boxes": [
+                {
+                  "x": 522.0,
+                  "y": 774.0,
+                  "w": 17.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 768.0,
+                  "w": 323.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Project title**          | Open and Reproducible Materials Science Research...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 99.0,
+                  "w": 111.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "**PREMISE: Open and Reproducible Materials Science Research**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 250.0,
+                  "w": 329.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 33,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research)",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 767.0,
+                  "w": 352.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research) 10/24",
+              "bounding_boxes": [
+                {
+                  "x": 522.0,
+                  "y": 774.0,
+                  "w": 17.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research)",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 767.0,
+                  "w": 352.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Project proposal: PREMISE (Open and Reproducible Materials Science Research)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 768.0,
+                  "w": 323.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 48,
+              "matching_text": "| Project proposal: PREMISE (Open and Reproducible Materials Science Research) | 24/24              |                    |",
+              "bounding_boxes": [
+                {
+                  "x": 24.0,
+                  "y": 767.0,
+                  "w": 353.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 841.0
+              }
+            },
+            {
+              "page": 65,
+              "matching_text": "**ETH Domain ORD Program:**\n**Proposal: “PREMISE: Open and Reproducible Materials Science Research”**",
+              "bounding_boxes": [
+                {
+                  "x": 143.0,
+                  "y": 311.0,
+                  "w": 347.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 702.0,
+                  "w": 455.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "| Project proposal: PREMISE (Open and Reproducible Materials Science Research) | 1/24 |\n| ---------------------------------------------------------------------------- | ---- |",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 767.0,
+                  "w": 353.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "T5.1: Project coordination and management (M1-36, all partners)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 722.0,
+                  "w": 319.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "Huber et al., *AiiDA 1.0, a scalable computational infrastructure [for automated reproducible](https://www.aiida.net/) workflows and data provenance*, **Scientific Data 7**, 300 (2020)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 387.0,
+                  "w": 463.0,
+                  "h": 364.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 62,
+              "matching_text": "We are writing in support of your ORD-R Establish project proposal \"PREMISE\" that will be submitted to the call for proposals announced at https://ethrat.ch/en/measure-1-calls-for-field-specific-ac...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 263.0,
+                  "w": 456.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "Huber et al., *AiiDA 1.0, a scalable computational infrastructure [for automated reproducible](https://www.aiida.net/) workflows and data provenance*, **Scientific Data 7**, 300 (2020)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 387.0,
+                  "w": 463.0,
+                  "h": 364.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "Huber et al., *AiiDA 1.0, a scalable computational infrastructure [for automated reproducible](https://www.aiida.net/) workflows and data provenance*, **Scientific Data 7**, 300 (2020)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 387.0,
+                  "w": 463.0,
+                  "h": 364.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 61,
+              "matching_text": "| Stammgelände<br/>Unter den Eichen 87<br/>12205 Berlin | T : +49 30 8104-0<br/>F : +49 30 8104 72 222<br/>\\[<info@bam.de>]\\(mailto:<info@bam.de>)<br/>\\[[www.bam.de\\](http://www.bam.de/)](http://ww...",
+              "bounding_boxes": [
+                {
+                  "x": 232.0,
+                  "y": 778.0,
+                  "w": 121.0,
+                  "h": 34.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "| Acronym of the project | PREMISE |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999998559933477,
-        "confidence": 0.9999998559933477
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 0.9999999354624522,
+        "confidence": 0.9474337805614935,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Letter of support of the Institution for co-financing** | 66955::PREMISE-ResearchInstitutionLetters.pdf |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 718.0,
+                  "w": 217.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Letter of support of the Institution for co-financing** | 66955::PREMISE-ResearchInstitutionLetters.pdf |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 718.0,
+                  "w": 217.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "**Abstract**<br/>PREMISE aims to establish, promote and facilitate the adoption of FAIR ORD practices in Materia..."
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999962306811487,
-        "confidence": 0.9999962306811487
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 0.9999923372466606,
+        "confidence": 0.947426581754716,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "We expect our deliverables to be essential components of the emerging field of autonomous laboratories, where automated simulations and robotic experiments are combined via artificial intelligence...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 160.0,
+                  "w": 501.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
-            }
-          ],
-          "parsing_confidence": 1.0,
+          "parsing_confidence": 0.9474338417065503,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 0.9474338417065503,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 374.0,
+                    "w": 307.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 702.0,
+                    "w": 455.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
-            }
-          ],
-          "parsing_confidence": 1.0,
+          "parsing_confidence": 0.9474338417065503,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 0.9474338417065503,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 374.0,
+                    "w": 307.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 702.0,
+                    "w": 455.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
-            }
-          ],
-          "parsing_confidence": 1.0,
+          "parsing_confidence": 0.9474338417065503,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 0.9474338417065503,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 374.0,
+                    "w": 307.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "I first developed a novel method to engineer polar discontinuities in 2D lateral heterostructures [1] which resulted in a patent [2].",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 522.0,
+                    "w": 460.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
-            }
-          ],
-          "parsing_confidence": 1.0,
+          "parsing_confidence": 0.9474338417065503,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 0.9474338417065503,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 374.0,
+                    "w": 307.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 702.0,
+                    "w": 455.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science"
-            }
-          ],
-          "parsing_confidence": 1.0,
+          "parsing_confidence": 0.9474338417065503,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 0.9474338417065503,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "ELN-LIMS, Workflows, Experiments, Simulations, Materials Science",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 374.0,
+                    "w": 307.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 702.0,
+                    "w": 455.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "| Proposed Starting Date | 1 Jan 2023 |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "reasoning": "VERBATIM EXTRACTION (from the targeted 'RESEARCH PROPOSAL' section/table; alternative value at page 34 not directly relevant to RESEARCH PROPOSAL; thus not selected)",
+        "parsing_confidence": 0.9474338417065503,
+        "extraction_confidence": 0.9999998897552761,
+        "confidence": 0.947433737256968,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 42.0,
+                  "y": 396.0,
+                  "w": 501.0,
+                  "h": 214.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "* Publications Collection | **Start date:** 2021-05-12 14:36:27 +0000<br/>**End date:** 2021-05-13 14:23:10 +0000<br/>**Description:** test open\\_bis<br/>**AiiDA UUID:** 19796e22-3eb3-458e-820d-7cc...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 42.0,
+                  "y": 396.0,
+                  "w": 501.0,
+                  "h": 214.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "* Publications Collection | **Start date:** 2021-05-12 14:36:27 +0000<br/>**End date:** 2021-05-13 14:23:10 +0000<br/>**Description:** test open\\_bis<br/>**AiiDA UUID:** 19796e22-3eb3-458e-820d-7ccf2b...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "| ch-sts fwhm=0.10 h=5.0<br/>E=-1.00 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.50 eV<br/>\\[Image of STM result] | ch-sts fwhm=0.10 h=5.0<br/>E=-0.10 eV<br/>\\[Image of STM resu...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.25,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "| Project duration | 36 |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9474338417065503,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9474338417065503,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 42.0,
+                  "y": 396.0,
+                  "w": 501.0,
+                  "h": 214.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 36                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 42.0,
+                  "y": 396.0,
+                  "w": 501.0,
+                  "h": 214.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "...| 1 Jan 2023                                              |",
+              "bounding_boxes": [
+                {
+                  "x": 42.0,
+                  "y": 396.0,
+                  "w": 501.0,
+                  "h": 214.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION. Both a budget table and the aggregation of Phase 1 & 2 subtotals give the same total. Institutional letters only show partial amounts and do not contradict the full proposal total.",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "| Total requested amount in CHF | 1292100 |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999992962097852,
-        "confidence": 0.999992962097852
+        "reasoning": "Two separate document locations—one as a single summarized total, one as the sum of detailed budget phases—give the same numeric value, supporting extraction integrity. VERBATIM EXTRACTION.",
+        "parsing_confidence": 0.9474337358423081,
+        "extraction_confidence": 0.999999888262127,
+        "confidence": 0.9474337358423081,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Total requested amount in CHF**                         | 1292100                                       |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 718.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| **Total requested amount in CHF**                         | 1292100                                       |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 718.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "I first developed a novel method to engineer polar discontinuities in 2D lateral heterostructures [1] which resulted in a patent [2].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 522.0,
+                  "w": 460.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "| Via Trevano 131<br/>6900 Lugano<br/>Switzerland | Tel +41 (0)91 610 82 11<br/>Fax +41 (0)91 610 82 82<br/>[www.cscs.ch](http://www.cscs.ch) | 1/2 |",
+              "bounding_boxes": [
+                {
+                  "x": 511.0,
+                  "y": 769.0,
+                  "w": 13.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "### WP1: Enabling seamless integration of data from experimental and simulation workflows"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP1</b><br>Enabling seamless integration<br>of open data from experimental<br>and simulation workflows"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP1               | T1.1 – Development of metadata formats and practices for integrated exp/simul in ELNs"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "### WP1: Enabling seamless integration of data from experimental and simulation workflows"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP1</b><br>Enabling seamless integration<br>of open data from experimental<br>and simulation workflows"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP1               | T1.1 – Development of metadata formats and practices for integrated exp/simul in ELNs"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999225511755354,
+            "confidence": 0.9473604640692522
           },
-          "reasoning": "WP1 identified with consistent title in diagram, section header, and Gantt chart, with minor wording variation. Gantt chart gives more technical task-level description, but the main WP title from section header (p33) is prioritized."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 35,
-                "matching_text": "## WP2: Open data from simulation-assisted experimental interpretation"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP2</b><br>Open data from simulation-assisted<br>experimental interpretation"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP2               | T2.1 – Application of WP1 concepts to simulation-assisted experiments"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 35,
-                "matching_text": "## WP2: Open data from simulation-assisted experimental interpretation"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP2</b><br>Open data from simulation-assisted<br>experimental interpretation"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP2               | T2.1 – Application of WP1 concepts to simulation-assisted experiments"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999553119545,
-            "confidence": 0.9999999553119545
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 0.9999992367760855,
+            "confidence": 0.9474331186023849
           },
-          "reasoning": "VERBATIM EXTRACTION from multiple consistent sources; alternate descriptive versions from task/deliverable-level summaries (p39-44) omitted due to lower confidence and lack of explicit WP titling."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 37,
-                "matching_text": "## WP3: Open data from workflow-driven robotic experiments"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP3</b><br>Open data from workflow-driven<br>robotic experiments"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP3               | T3.1 – Application of WP1 concepts to battery research and data schema for digital twins"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 37,
-                "matching_text": "## WP3: Open data from workflow-driven robotic experiments"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP3</b><br>Open data from workflow-driven<br>robotic experiments"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP3               | T3.1 – Application of WP1 concepts to battery research and data schema for digital twins"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
-          "reasoning": "VERBATIM EXTRACTION from section heading and matching diagram entry; short Gantt chart description included as citation."
+          "reasoning": "MULTIPLE VERBATIM TITLES FOUND; BOTH INCLUDED"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 39,
-                "matching_text": "## WP4: Reproducible and accessible materials experiments and simulations"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP4</b><br>Enabling reproducible and accessible<br>materials experiments and simulations"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP4               | T4.1 – Standard templates and modular interface components for experimental plots"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 39,
-                "matching_text": "## WP4: Reproducible and accessible materials experiments and simulations"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP4</b><br>Enabling reproducible and accessible<br>materials experiments and simulations"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP4               | T4.1 – Standard templates and modular interface components for experimental plots"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
-          "reasoning": "VERBATIM EXTRACTION from section heading and diagram; differences in leading wording ('Enabling') considered minor."
+          "reasoning": "MULTIPLE VERBATIM TITLES FOUND; BOTH INCLUDED"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 41,
-                "matching_text": "## WP5: Project management and outreach"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP5</b><br>Project management and outreach"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP5               | T5.1 – Project coordination and management"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9837103598807482,
-            "confidence": 0.9837103598807482
+            "parsing_confidence": 0.9474338417065503,
+            "extraction_confidence": 1.0,
+            "confidence": 0.9474338417065503
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 41,
-                "matching_text": "## WP5: Project management and outreach"
-              },
-              {
-                "page": 28,
-                "matching_text": "<b>WP5</b><br>Project management and outreach"
-              },
-              {
-                "page": 42,
-                "matching_text": "WP5               | T5.1 – Project coordination and management"
-              }
-            ],
-            "parsing_confidence": 1.0,
+            "parsing_confidence": 0.9474338417065503,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 0.9474338417065503
           },
-          "reasoning": "VERBATIM EXTRACTION from multiple matching sources (diagram, Gantt, and WP heading); minor variation in Gantt chart ('coordination and management') is included in citation."
+          "reasoning": "MULTIPLE VERBATIM TITLES FOUND; BOTH INCLUDED"
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 71,
-      "num_document_tokens": 40614,
-      "num_output_tokens": 17362
-    }
+      "num_pages_extracted": 66,
+      "num_document_tokens": 42754,
+      "num_output_tokens": 10705
+    },
+    "parse_job_id": "c8dc86d6-7619-4e03-82ed-be722518c68e"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "b8248fbb-2f7b-4886-a407-a35f105a5c44",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T09:35:33.976773+00:00",
-  "updated_at": "2025-11-11T09:37:15.846311+00:00"
+  "job_id": "c9f54d42-79f2-4543-a1e9-dab41b105cc4",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T15:38:40.987623+00:00",
+  "updated_at": "2026-01-21T15:53:43.915352+00:00"
 }

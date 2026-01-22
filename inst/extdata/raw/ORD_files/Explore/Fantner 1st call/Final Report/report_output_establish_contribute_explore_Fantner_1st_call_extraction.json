@@ -3,28 +3,30 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 1,
+      "quantity": 2,
       "descriptions": [
-        "Wiki page"
+        "Wiki page",
+        "Software repository and documentation in GitHub for OpenSPM-source"
       ],
       "urls": [
-        "https://www.notion.so/openspm/7161f89bef6345ddb3bc6daa3cdc88f4?v=9e5f369c7cb84def874752e9fe708296&pvs=4"
+        "https://www.notion.so/openspm/7161f89bef6345ddb3bc6daa3cdc88f4?v=9e5f369c7cb84def874752e9fe708296&pvs=4",
+        "https://github.com/marcospenedo/OpenSPM-source"
       ]
     },
     "repositories_catalogues": {
       "quantity": 1,
       "descriptions": [
-        "Software repository and documentation in https://github.com/marcospenedo/OpenSPM-source (users need to ask to join the project and being able to see and download software source files and documentation, however, it will be made public in the coming months)"
+        "Software repository and documentation in GitHub for OpenSPM-source"
       ],
       "urls": [
         "https://github.com/marcospenedo/OpenSPM-source"
       ]
     },
     "datasets_databases": {
-      "quantity": 0,
+      "quantity": 2,
       "descriptions": [
-        "The option to save datasets in pure HDF5 format.",
-        "The option to save datasets in HDF5-USID format."
+        "The option to save datasets in pure HDF5 format",
+        "The option to save datasets in HDF5-USID format"
       ],
       "urls": []
     },
@@ -46,15 +48,15 @@
     "workshops": {
       "quantity": 2,
       "descriptions": [
-        "Workshop (2023) to build a complete open hardware SPM set to be used with our OpenSPM software platform, attended by Dr. Irit Goldian from Weizmann Institute of Science (WIS, Israel).",
-        "Online support sessions for Open Hardware controller builders."
+        "Workshop (2023) to build a complete open hardware SPM set to be used with our OpenSPM software platform, attended by Dr. Irit Goldian from Weizmann Institute of Science (WIS, Israel)",
+        "Online support sessions for Open Hardware controller builders"
       ],
       "urls": []
     },
     "training_events": {
       "quantity": 1,
       "descriptions": [
-        "Organized the OpenSPM 2024 (April) conference."
+        "Organized the OpenSPM 2024 (April) conference"
       ],
       "urls": []
     },
@@ -79,12 +81,12 @@
       "urls": []
     },
     "new_collaborations": {
-      "quantity": 3,
+      "quantity": 4,
       "descriptions": [
-        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India), which joined our initiative and currently uses our software in their SPMs.",
-        "Weizmann Institute of Science (WIS, Israel).",
+        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India), which joined our initiative and currently uses our software in their SPMs",
+        "Weizmann Institute of Science (WIS, Israel)",
         "Chinese Academy of Science",
-        "Czech Metrology Institute, maintainers of the Gwyddion software suite, they implemented our formats (pure HDF5 and USID-HDF5) so can be read on that platform."
+        "Czech Metrology Institute, maintainers of the Gwyddion software suite, they implemented our formats (pure HDF5 and USID-HDF5) so can be read on that platform"
       ],
       "urls": []
     },
@@ -101,12 +103,12 @@
       ]
     },
     "estimated_users": {
-      "quantity": 0,
+      "quantity": 5,
       "descriptions": [
-        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users.",
-        "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility.",
-        "LBNI collaborators at EFPL (ca 10 users).",
-        "AFSEM-nano users through QD: ca 10 users at the moment.",
+        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users",
+        "Weizmann Institute of Science (WIS, Israel): 3 main users plus users of the SPM user facility",
+        "LBNI collaborators at EFPL (ca 10 users)",
+        "AFSEM-nano users through QD: ca 10 users at the moment",
         "Chinese Academy of Science: ca. 6 users"
       ],
       "urls": []
@@ -126,169 +128,101 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Located List of Outputs table. 1 website described: Notion-based OpenSPM Wiki."
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9998982401621642,
+          "confidence": 0.9998982401621642
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Wiki page"
-              }
-            ],
-            "extraction_confidence": 0.9998474234847832,
-            "confidence": 0.9998474234847832
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999995455827853,
+            "confidence": 0.9999995455827853
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9611437366133547,
+            "confidence": 0.9611437366133547
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "https://www.notion.so/openspm/7161f89bef6345ddb3bc6daa3cdc88f4?v=9e5f369c7cb84def874752e9fe708296&pvs=4"
-              }
-            ],
-            "extraction_confidence": 0.9999999240132624,
-            "confidence": 0.9999999240132624
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999612625421,
+            "confidence": 0.9999999612625421
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "Verbatim extraction from two relevant sections/pages. Both outputs describe different websites/platforms: one is a project Wiki/notion page, another a GitHub repository with documentation. Duplicates were checked and none found. Quantity is the sum. Confidences averaged for quantity, kept as per original for other fields."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Table on p7: 'Software repository and documentation in https://github.com/marcospenedo/OpenSPM-source' is listed under 'New or enhanced repositories...'."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Software repository and documentation in https://github.com/marcospenedo/OpenSPM-source (users need to ask to join the project and being able to see and download software source files and documentation, however, it will be made public in the coming months)"
-              }
-            ],
-            "extraction_confidence": 0.8751320224095631,
-            "confidence": 0.8751320224095631
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9992281067491919,
+            "confidence": 0.9992281067491919
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "https://github.com/marcospenedo/OpenSPM-source"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
-        "reasoning": "Although the initial document section reported no outputs, a table on page 7 explicitly provides data for one new/enhanced repository/catalogue with both description and URL. This information is taken verbatim from the table."
+        "reasoning": "Pages 0-6: Explicitly states no repositories/catalogues. Pages 6-12: Clear verbatim evidence of 1 new/enhanced repository, with description and URL provided. No duplicate or conflicting evidence. Quantity, description, and URL extracted verbatim from the text."
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| New or enhanced datasets and/or databases: |   |"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.2689414052760013,
-          "confidence": 0.2689414052760013
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- The option to save datasets in pure HDF5 format."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999891506683627,
-            "confidence": 0.9999891506683627
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- The option to save datasets in HDF5-USID format."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999851067194,
-            "confidence": 0.9999999851067194
-          }
-        ],
-        "reasoning": "Descriptions for two outputs are verbatim in the table, but the explicit quantity field is blank or 0 as shown in the data. Per extraction rules, report zero for quantity, but preserve both detailed descriptions with citations from page 7."
-      },
-      "software_tools": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| New or enhanced software, hardware, prototypes and/or other tools: | 4 | - HS-AFM head/base<br/>- High-speed high voltage amplifier<br/>- Open hardware SPM controller<br/>- OpenSPM control software"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- HS-AFM head/base"
-              }
-            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999946507583809,
+            "confidence": 0.9999946507583809
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          }
+        ],
+        "reasoning": "There is a clear listing of two items under 'new or enhanced datasets and/or databases' on pages 6-12, with no URLs present. These items are extracted verbatim from the provided text."
+      },
+      "software_tools": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999612774708,
+            "confidence": 0.9999999612774708
+          },
+          {
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- High-speed high voltage amplifier"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- Open hardware SPM controller"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "- OpenSPM control software"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -298,12 +232,6 @@
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice: |   |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -312,70 +240,42 @@
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "quantity listed as 2. Two outputs described: one in-person workshop in 2023, one series of online support sessions."
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.6113500071207054,
+          "confidence": 0.6113500071207054
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Workshop (2023) to build a complete open hardware SPM set..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999398714774161,
-            "confidence": 0.999398714774161
+            "extraction_confidence": 0.9614445169618988,
+            "confidence": 0.9614445169618988
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Online support sessions for Open Hardware controller builders."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999587756916,
-            "confidence": 0.99999587756916
+            "extraction_confidence": 0.9999999757984191,
+            "confidence": 0.9999999757984191
           }
         ],
-        "reasoning": "The second JSON object (idx=1) provides a clear table entry on page 7 identifying 2 scientific workshops and their detailed descriptions, with individual confidence scores for each item; no URLs were present. The first JSON object considered only the outputs table on p6, which missed the data in the subsequent section. Therefore, the value is supported verbatim from idx=1."
+        "reasoning": "Combined information from both entries. The first source lists a single event, but the second source clarifies there were both a workshop and online support sessions, totaling two distinct outputs. Duplicated descriptions were deduplicated and averaged for confidence where appropriate. No URLs were reported in the provided text."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| Training and educational events and/or resources directly related to the project: | 1 | - Organized the OpenSPM 2024 (April) conference."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Organized the OpenSPM 2024 (April) conference."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999552227886265,
-            "confidence": 0.9999552227886265
+            "extraction_confidence": 0.9999951321684237,
+            "confidence": 0.9999951321684237
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "The most detailed and explicit information is that one event (the OpenSPM 2024 conference) was organized, which is directly listed in the outputs table. The 0-quantity entry is a lack of data earlier, overridden by the positive identification in the later section. No URLs are provided. VERBATIM EXTRACTION."
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
@@ -383,166 +283,89 @@
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| Presentations (e.g. conferences, poster, etc.) directly related to the project: |   |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both extracted JSON objects indicate that there are no presentations directly related to the project. The table row for presentations is present but contains no entries, and no other presentations are found elsewhere in the provided pages. No descriptions or URLs are available to extract."
+        "reasoning": "INSUFFICIENT DATA"
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "| Outreach, dissemination, communications or networking events and/or activities directly related to the project: |   |"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.9999999031936846,
+          "confidence": 0.9999999031936846
         },
-        "reasoning": "Both source entries indicate 'INSUFFICIENT DATA' for this category, and the List of Outputs (page 7) explicitly shows a blank row for this category with no number or descriptions. Thus, the quantity is 0, with no descriptions or URLs to report."
+        "reasoning": "INSUFFICIENT DATA"
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "| Patents, patents applications or other intellectual property directly related to the project: |   | 0"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "VERBATIM EXTRACTION"
+        "reasoning": "INSUFFICIENT DATA"
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "Table on p8: quantity listed as 3"
-            }
-          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999978991308366,
+          "confidence": 0.9999978991308366
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.995666397315591,
+            "confidence": 0.995666397315591
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999937132917676,
+            "confidence": 0.9999937132917676
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999515968389,
+            "confidence": 0.9999999515968389
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9993542537156997,
+            "confidence": 0.9993542537156997
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "industrial_collaborations": {
+        "quantity": {
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "CSIR-Central Scientific Instruments Organisation (Chandigarh, India), which joined our initiative..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998817945950873,
-            "confidence": 0.9998817945950873
+            "extraction_confidence": 0.9984704115065351,
+            "confidence": 0.9984704115065351
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Weizmann Institute of Science (WIS, Israel)."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9990796643325328,
-            "confidence": 0.9990796643325328
+            "extraction_confidence": 0.9996498937258762,
+            "confidence": 0.9996498937258762
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Chinese Academy of Science"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998919950089,
-            "confidence": 0.9999998919950089
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Czech Metrology Institute, maintainers of the Gwyddion software suite, they implemented our formats..."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999417727739096,
-            "confidence": 0.9999417727739096
-          }
-        ],
-        "reasoning": "Quantity is formally listed as 3 in the authoritative List of Outputs table (page 8), despite four collaborations being mentioned in description. All four textual descriptions reported for completeness per instruction. No URLs located. Confidence is high as per source scores. Source preceding the table (idx 0) contained only narrative information, not formal outputs; thus, only tabled outputs counted towards the final result."
-      },
-      "industrial_collaborations": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "Quantum Design already integrated and sells our OpenSPM software platform together with its AFSEM-nano product"
-            },
-            {
-              "page": 8,
-              "matching_text": "In collaboration with Nanosurf, we successfully integrated our OpenSPM software platform..."
-            },
-            {
-              "page": 8,
-              "matching_text": "C-sense (Austria) & Alemnis, (Switzerland)"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Quantum Design already integrated and sells our OpenSPM software platform together with its AFSEM-nano product"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999901970392219,
-            "confidence": 0.9999901970392219
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "In collaboration with Nanosurf, we successfully integrated our OpenSPM software platform..."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999791405738212,
-            "confidence": 0.9999791405738212
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "C-sense (Austria) & Alemnis, (Switzerland)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9993455522001056,
-            "confidence": 0.9993455522001056
+            "extraction_confidence": 0.9905149912561969,
+            "confidence": 0.9905149912561969
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999998463448752,
-            "confidence": 0.9999998463448752
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999989150668599,
+            "confidence": 0.9999989150668599
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
@@ -551,83 +374,41 @@
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "| Estimated number of users within the community benefiting from enhanced ORD practices: |   |"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.9988976629515031,
+          "confidence": 0.9988976629515031
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) SPM users."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997701996098503,
-            "confidence": 0.9997701996098503
+            "extraction_confidence": 0.9999922412958446,
+            "confidence": 0.9999922412958446
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999975855587705,
-            "confidence": 0.9999975855587705
+            "extraction_confidence": 0.9510203678427008,
+            "confidence": 0.9510203678427008
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "LBNI collaborators at EFPL (ca 10 users)."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999996202718639,
-            "confidence": 0.999996202718639
+            "extraction_confidence": 0.9878184936931621,
+            "confidence": 0.9878184936931621
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "AFSEM-nano users through QD: ca 10 users at the moment."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998536413923,
-            "confidence": 0.9999998536413923
+            "extraction_confidence": 0.9724174822503533,
+            "confidence": 0.9724174822503533
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Chinese Academy of Science: ca. 6 users"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999987454008672,
-            "confidence": 0.9999987454008672
+            "extraction_confidence": 0.9970168362805267,
+            "confidence": 0.9970168362805267
           }
         ],
-        "reasoning": "No explicit total quantity reported. Descriptions of user groups extracted verbatim from the table as per instructions. Quantity set to 0 following guidance for lack of summed value."
+        "reasoning": "Although idx 0 reports insufficient data, idx 1 provides explicit descriptions and estimated numbers of user groups at various institutions. The quantity reported is the number of distinct user groups described (5). Details are directly verifiable (‘VERBATIM EXTRACTION’ from idx 1), so these are used preferentially and with their corresponding confidence scores. No URLs were present."
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "| Other (please specify): |   |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -636,30 +417,32 @@
       }
     },
     "usage": {
-      "num_pages_extracted": 13,
-      "num_document_tokens": 7137,
-      "num_output_tokens": 12442
-    }
+      "num_pages_extracted": 12,
+      "num_document_tokens": 7196,
+      "num_output_tokens": 8090
+    },
+    "parse_job_id": "4ef5af95-1dfb-4602-8b1d-af41b6a16129"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c1c2471e-b803-475d-a544-7302fa0ef62f",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:22:51.708679+00:00",
-  "updated_at": "2025-11-11T19:24:07.067349+00:00"
+  "job_id": "a94e4eea-9486-4904-bcc3-d88c33daba44",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T04:00:15.670175+00:00",
+  "updated_at": "2026-01-22T04:01:47.076336+00:00"
 }

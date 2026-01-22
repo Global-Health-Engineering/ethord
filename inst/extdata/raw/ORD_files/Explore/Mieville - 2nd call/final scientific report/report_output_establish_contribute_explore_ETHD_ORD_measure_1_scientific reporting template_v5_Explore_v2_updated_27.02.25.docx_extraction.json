@@ -3,17 +3,15 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 5,
+      "quantity": 4,
       "descriptions": [
         "New website for accessing data",
-        "SwissCAT+ internal database",
-        "QLever RDF database (Sparql endpoint for Cat Plus)",
-        "User Interface (UI) for data query/download",
-        "S3 Storage - SWITCH"
+        "SwissCat+ Lab, EPFL, Lausanne, Switzerland",
+        "Datainfrastructure of Cat Plus",
+        "Qlever as Sparql Endpoint for Cat Plus"
       ],
       "urls": [
-        "https://catplus.swisscustodian.ch/chembord",
-        "https://open-research-data-portal.ch/"
+        "https://catplus.swisscustodian.ch/chembord"
       ]
     },
     "repositories_catalogues": {
@@ -34,22 +32,21 @@
       ]
     },
     "datasets_databases": {
-      "quantity": 8,
+      "quantity": 3,
       "descriptions": [
         "Switch Cloud s3",
-        "Qlever triple-store",
-        "Batch datasets for campaigns dated 2024/05/16 with IDs 22, 23, 25, 26, 27, 28",
-        "Downloadable campaign data files in JSON and TTL formats (examples: 150-A1-Agilent-no-data.json, 150-D3-Agilent-no-data.json, 174-A1-Agilent-no-data.json, 4d9fc93f-2ba6-4ec4-a71b-92f2697f3e19-Bravo_2.json, 150-D3-Agilent-no-data.ttl, 174-A1-Agilent-no-data.ttl)"
+        "QLever triple-store / QLever RDF Database",
+        "SwissCAT+ Internal Database"
       ],
       "urls": []
     },
     "software_tools": {
       "quantity": 4,
       "descriptions": [
-        "Argo Workflow for data processing",
-        "Converter (JSON to RDF transformation)",
-        "SHACL Validator for RDF conformance checking",
-        "QLever RDF database (SPARQL endpoint)"
+        "Converter repository: catplus-converters",
+        "ARGO Workflow",
+        "CONVERTER (JSON -> RDF)",
+        "SHACL Validator"
       ],
       "urls": [
         "https://github.com/sdsc-ordes/catplus-converters"
@@ -59,7 +56,7 @@
       "quantity": 2,
       "descriptions": [
         "Catplus ontology: standardized metadata definitions and concepts for chemistry",
-        "JSON to RDF transformation validated using SHACL conformance checking"
+        "SHACL conformance checks for RDF data"
       ],
       "urls": [
         "https://sdsc-ordes.github.io/catplus-ontology/"
@@ -137,147 +134,97 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "SwissCAT+<br/>INTERNAL DATABASE"
-            },
-            {
-              "page": 8,
-              "matching_text": "QLever RDF<br/>DATABASE"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.5441923191071336,
-          "confidence": 0.5441923191071336
+          "extraction_confidence": 0.5378615404995362,
+          "confidence": 0.5378615404995362
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.9999999135960062,
-            "confidence": 0.9999999135960062
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "SwissCAT+<br/>INTERNAL DATABASE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.938572597759572,
-            "confidence": 0.938572597759572
+            "extraction_confidence": 0.9195100963421898,
+            "confidence": 0.9195100963421898
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "QLever RDF<br/>DATABASE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7281462508966057,
-            "confidence": 0.7281462508966057
+            "extraction_confidence": 0.8450931324707427,
+            "confidence": 0.8450931324707427
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "USER INTERFACE - UI"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.37150630515125904,
-            "confidence": 0.37150630515125904
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "S3 STORAGE -<br/>SWITCH"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6940194890692288,
-            "confidence": 0.6940194890692288
+            "extraction_confidence": 0.9026152412143115,
+            "confidence": 0.9026152412143115
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999993375172913,
-            "confidence": 0.9999993375172913
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "ORD ](https://open-research-data-portal.ch/"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999691058731729,
-            "confidence": 0.9999691058731729
+            "extraction_confidence": 0.9999999484286697,
+            "confidence": 0.9999999484286697
           }
         ],
-        "reasoning": "Aggregated both sources. One source identifies a website and its URL. The second source lists four platforms/web infrastructure (databases, UI, storage), one with a unique URL, and provides citations/confidence scores. No duplicate platforms found; descriptions and URLs are unique. Final count is 5 distinct platforms/websites/infrastructure, all descriptions and both URLs extracted with corresponding confidences/citations."
+        "reasoning": "Combined descriptions and URLs from both idx:0 and idx:1 as per guidelines. No verbatim duplication. All unique descriptions reported. Only one URL is explicitly present in the data. The total quantity is combined (1 from idx:0 + 3 from idx:1 = 4). The mean confidence score for quantity was calculated due to combining two distinct extraction confidences."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Kubernetes manifests repository (private) catplus-manifests"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.9998321993461122,
-            "confidence": 0.9998321993461122
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99996260529355,
+            "confidence": 0.99996260529355
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Kubernetes manifests repository (private) catplus-manifests"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9961781948537695,
-            "confidence": 0.9961781948537695
+            "extraction_confidence": 0.9739588177805586,
+            "confidence": 0.9739588177805586
           },
           {
-            "extraction_confidence": 0.9999740126867487,
-            "confidence": 0.9999740126867487
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999876608515612,
+            "confidence": 0.9999876608515612
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999999870924902,
-            "confidence": 0.9999999870924902
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999791455785,
+            "confidence": 0.9999999791455785
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.9997847078168325,
-            "confidence": 0.9997847078168325
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999729987511,
+            "confidence": 0.9999999729987511
           },
           {
-            "extraction_confidence": 0.9999969184095522,
-            "confidence": 0.9999969184095522
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
@@ -286,190 +233,95 @@
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Switch Cloud s3 , Qlever triple-store"
-            }
-          ],
-          "extraction_confidence": 0.9976043404616391,
-          "confidence": 0.9976043404616391
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9986859796210928,
+          "confidence": 0.9986859796210928
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Switch Cloud s3 , Qlever triple-store"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999930974101459,
+            "confidence": 0.9999930974101459
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Switch Cloud s3 , Qlever triple-store"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999974483231012,
-            "confidence": 0.9999974483231012
+            "extraction_confidence": 0.9977689789222912,
+            "confidence": 0.9977689789222912
           },
           {
-            "extraction_confidence": 0.572232856144932,
-            "confidence": 0.572232856144932
-          },
-          {
-            "extraction_confidence": 0.8548427873423946,
-            "confidence": 0.8548427873423946
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9992098635683049,
+            "confidence": 0.9992098635683049
           }
         ],
-        "reasoning": "Information for new or enhanced datasets/databases appears in both provided extracts: (1) a summary table (page 7) lists two outputs by name; (2) narrative text (pages 8-11) confirms six batch datasets with download options and specifies file examples and campaign IDs. All indicated outputs are included for a combined total of 8, with verbatim descriptions and deduplicated citations where present. No URLs are reported."
+        "reasoning": "Both extracted segments identify two databases/datasets, with an overlap (QLever triple-store and QLever RDF Database). These are semantically the same, so I merged them for deduplication. The final outputs are Switch Cloud s3, QLever (triple-store/RDF Database), and SwissCAT+ Internal Database, totaling three unique datasets/databases. All relevant descriptions are reported. No URLs were identified. Confidence scores are averaged for merged outputs."
       },
       "software_tools": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "Argo -- \"Transform data to\nRDF - using ontology\" --> Converter"
-            },
-            {
-              "page": 8,
-              "matching_text": "Converter --> Validator"
-            },
-            {
-              "page": 8,
-              "matching_text": "Validator -- \"VALID\n-> Store metadata\" --> QLever"
-            },
-            {
-              "page": 8,
-              "matching_text": "USER INTERFACE - UI"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.8173592620645576,
-          "confidence": 0.8173592620645576
+          "extraction_confidence": 0.9438586938204233,
+          "confidence": 0.9438586938204233
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Argo -- \"Transform data to\nRDF - using ontology\" --> Converter"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5616929885431748,
-            "confidence": 0.5616929885431748
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Converter\nJSON -> RDF"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6782826777905245,
-            "confidence": 0.6782826777905245
+            "extraction_confidence": 0.9687328779317704,
+            "confidence": 0.9687328779317704
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "SHACL VALIDATOR\nValidate RDF\n(conformance check)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7385264041074101,
-            "confidence": 0.7385264041074101
+            "extraction_confidence": 0.979404104587574,
+            "confidence": 0.979404104587574
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "QLever RDF\nDATABASE"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5641527208221166,
-            "confidence": 0.5641527208221166
+            "extraction_confidence": 0.8252957907623486,
+            "confidence": 0.8252957907623486
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Converter repository: catplus-converters"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
-        "reasoning": "Descriptions and quantity are extracted by combining both entries, removing redundancy for the Converter and using the highest quality citations and confidences. Quantity set to 4 (unique tools). One unique software tool URL explicitly listed in doc."
+        "reasoning": "Descriptions and URLs from both sources have been combined, ensuring unique values and summing the quantities. All confidence scores are reported as in sources or appropriately averaged for the total (for quantity, extraction confidence is the mean of 1.0 and the mean of [0.9687, 0.9794, 0.8253])."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Catplus ontology: standardized metadata definitions and concepts for chemistry"
-            },
-            {
-              "page": 8,
-              "matching_text": "SHACL VALIDATOR<br/>Validate RDF<br/>(conformance check)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9831251140425475,
-          "confidence": 0.9831251140425475
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Catplus ontology: standardized metadata definitions and concepts for chemistry"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999823988502,
-            "confidence": 0.9999999823988502
+            "extraction_confidence": 0.9999999607254564,
+            "confidence": 0.9999999607254564
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "SHACL VALIDATOR<br/>Validate RDF<br/>(conformance check)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.285953688582472,
-            "confidence": 0.285953688582472
+            "extraction_confidence": 0.48211711521190553,
+            "confidence": 0.48211711521190553
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999988030034617,
-            "confidence": 0.9999988030034617
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999942255989156,
+            "confidence": 0.9999942255989156
           }
         ],
-        "reasoning": "Extracted and compared outputs from both JSON objects. The term 'Catplus Ontology' as data model (index 1) is semantically identical to the Catplus ontology detailed (index 0); thus, not double-counted. The SHACL validation process is a distinct model/protocol output. Final count is two, with descriptions and citation details as shown."
+        "reasoning": "Sources list Catplus ontology (with description and URL) and SHACL conformance check (description only). Catplus ontology is mentioned in both, so deduplicated; SHACL conformance check is distinct. URL exists only for Catplus ontology. Confidence scores reported directly from extractions."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -478,151 +330,80 @@
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Table: 1 training resource; Documentation: catplus-docs (with URL)."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table: 1 training resource; Documentation: catplus-docs (with URL)."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table: 1 training resource; Documentation: catplus-docs (with URL)."
-              }
-            ],
-            "extraction_confidence": 0.9999999870924902,
-            "confidence": 0.9999999870924902
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           }
         ],
-        "reasoning": "The first data point provides clear evidence of one training and educational resource (documentation: catplus-docs with URL) directly related to the project, as per verbatim extraction from the summary table (pages 0-8). The second object simply documents that no other resources/events were found beyond this, aligning with this extraction. Therefore, only this single resource is reported, as described in the table."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "publications": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "In progress with RCS Journal."
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "In progress with RCS Journal."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9820272346457845,
-            "confidence": 0.9820272346457845
+            "extraction_confidence": 0.9820283467323517,
+            "confidence": 0.9820283467323517
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "AFCAD (2-3 September 2025)"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "AFCAD (2-3 September 2025)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999955547375664,
-            "confidence": 0.9999955547375664
+            "extraction_confidence": 0.999998878764516,
+            "confidence": 0.999998878764516
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "Please attach any additional documentation relevant to the [ORD ](https://open-research-data-portal.ch/)project (e.g. screenshots, resources developed, outreach material, copies/link to publications etc.)."
-            },
-            {
-              "page": 7,
-              "matching_text": "Outreach, dissemination, communications or networking events and/or activities directly related to the project:"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999998063873693,
-          "confidence": 0.9999999031936846
-        },
-        "reasoning": "The available text includes only prompts or instructions to submit outreach activities or related materials, but no actual output examples or descriptions are present. Thus, the correct extraction is zero outputs, with no descriptions or URLs."
-      },
-      "patents_ip": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project:"
-            },
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both sources confirm that there are no patents, patent applications, or other forms of intellectual property directly related to the project reported in the source text. This is supported by explicit statements and zero quantity with full confidence."
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "patents_ip": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "SwissCat+ and SDSC for bringing the infrastructure to life"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "SwissCat+ and SDSC for bringing the infrastructure to life"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999838656127,
             "confidence": 0.9999999838656127
@@ -632,93 +413,63 @@
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "New collaborations and/or contracts with industrial partners:"
-            },
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both extracted entries confirm no new collaborations or industrial contracts are present. This is corroborated by the absence of any descriptions or URLs and explicit indication of insufficient data."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "a very large number of users : any chemistry research group"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99729589731552,
-            "confidence": 0.99729589731552
+            "extraction_confidence": 0.9994404111025296,
+            "confidence": 0.9994404111025296
           }
         ],
-        "reasoning": "The document does not provide an explicit or numeric estimate of users, but does provide a descriptive estimate indicating that the user base consists of 'any chemistry research group,' implying a wide and potentially very large number of users. Since no count is provided, set the quantity as 0, supported by the explicit 'INSUFFICIENT DATA' entry. List the descriptive estimate with its citation."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Other (please specify):"
-            },
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No 'Other outputs' are reported in the provided document extracts. Both entries explicitly indicate the absence of such outputs. VERBATIM EXTRACTION."
+        "reasoning": "VERBATIM EXTRACTION"
       }
     },
     "usage": {
-      "num_pages_extracted": 11,
-      "num_document_tokens": 6989,
-      "num_output_tokens": 13402
-    }
+      "num_pages_extracted": 10,
+      "num_document_tokens": 7335,
+      "num_output_tokens": 7693
+    },
+    "parse_job_id": "09b38a7b-49d7-4959-a09e-9cc98d20bb9f"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "084fd0d1-30e7-4cb0-ab74-c28545e44e5b",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:06:36.851008+00:00",
-  "updated_at": "2025-11-11T19:07:44.385987+00:00"
+  "job_id": "b30d8052-fde3-49dc-a58b-c3860d96a327",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:48:19.900287+00:00",
+  "updated_at": "2026-01-22T03:50:04.216631+00:00"
 }

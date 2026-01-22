@@ -26,204 +26,1052 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF                         | 30000"
-          },
-          {
-            "page": 15,
-            "matching_text": "The overall project budget **must be exactly CHF 30'000 for the total duration of the project**."
-          },
-          {
-            "page": 17,
-            "matching_text": "Total Costs (A + B)             | | | 30,000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 26 July 2023, Mirko Lukovic, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "The budget table includes a row for 'Senior Staff' but the value is blank, indicating no budget is requested for this category. This is typically interpreted as a zero value in financial extraction.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Senior Staff                                      |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "No explicit number for Postdocs in the budget table.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Postdocs                                          |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
-        "reasoning": "No explicit number for Students in the budget table. 'Students' row is present but no value (amount) is indicated.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Students                                          |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Other: Data scientist or software engineer        | 15,000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 |                                     | Other: Data scientist or software engineer       | 15,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "The requested budget of CHF 15,000 will be used to pay salary of a data scientist or software engineer.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 182.0,
+                  "w": 458.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "'i. Total Direct Costs for Personnel' row: 30,000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "VERBATIM EXTRACTION. The budget table row for 'Travel²' contains no value, indicating that no budget was allocated for this category.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Travel²                             |                                                   |              "
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "No explicit value for Equipment; cell is empty. Recording as zero per standard practice for empty budget entries where category exists but value is left blank.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Equipment³                          |                                                   |              "
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "VERBATIM EXTRACTION. The Publications category in the budget table is empty, thus the total budget for Other Publication Fees is 0 CHF.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Publications (including Open Access fees), etc. ⁴ |              "
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "No value is listed in the 'Conferences and workshops' row; following best practice, report as 0 CHF unless a numerical value is given. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Conferences and workshops⁵                        |              "
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "No explicit value appears in the 'Other (please specify)' row of the table; treating this as a zero value according to typical budget table interpretation.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Other (please specify)⁶                           |              "
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "ii. Total Other Direct Costs        |                                                   | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "A – Total Direct Costs (i + ii) | | | 30,000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999999366777361,
-        "confidence": 0.999999366777361
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30,000       |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "B – Subcontracting Costs⁷       | | | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9998330653996517,
-        "confidence": 0.9998330653996517
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "| B – Subcontracting Costs⁷       |                                     |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                  | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 14,
+              "matching_text": "**Task 1:** Adapt the R code so that it can be inserted as a module into the pre-existing TreeNet infrastructure.",
+              "bounding_boxes": [
+                {
+                  "x": 73.0,
+                  "y": 115.0,
+                  "w": 465.0,
+                  "h": 601.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 11490,
-      "num_output_tokens": 3694
-    }
+      "num_document_tokens": 10662,
+      "num_output_tokens": 2566
+    },
+    "parse_job_id": "badc66d3-c220-4b91-95e1-21ff661f8c7d"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6e34c878-4038-44e6-876d-1368664a24d2",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:01:30.125090+00:00",
-  "updated_at": "2025-11-11T14:02:09.841594+00:00"
+  "job_id": "96f7341b-ffb9-41e8-9dff-d2e9883eb763",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T21:38:06.628576+00:00",
+  "updated_at": "2026-01-21T21:39:28.838089+00:00"
 }

@@ -3,55 +3,81 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 1,
+      "quantity": 7,
       "descriptions": [
-        "Project website redesigned in September 2024 to include status, goals, deliverables, and progress, with documentation for end users, facility operators, and developers; public APIs and libraries documentation generated automatically; planned expansion for user-focused materials and community outreach; public documentation on GitHub; project listed on ETH Open Research Data Portal and indexed by European Open Science Cloud and Google dataset search.",
-        "Public project website",
-        "Subpage on the ETH ORD Data Portal"
+        "Project website providing public access to information on project status, goals, deliverables, documentation (user, operator, developer), and outreach material; redesigned in September.",
+        "Subpage on the ETH ORD Data Portal",
+        "Zenodo - general-purpose open repository",
+        "EMPIAR - electron microscopy public image archive",
+        "GEO - database repository of high throughput gene expression",
+        "Material Science Cloud - Swiss-based repository for computational materials science data",
+        "NOMAD - materials science data repository"
       ],
       "urls": [
         "https://swissopenem.github.io/",
-        "https://open-research-data-portal.ch/",
         "https://open-research-data-portal.ch/projects/open-em-data-network/",
-        "https://open-science-cloud.ec.europa.eu/",
-        "https://datasetsearch.research.google.com/"
+        "https://zenodo.org/",
+        "https://www.ebi.ac.uk/empiar/",
+        "https://www.ncbi.nlm.nih.gov/geo/",
+        "http://www.materialscloud.org/",
+        "https://nomad-lab.eu/nomad-lab"
       ]
     },
     "repositories_catalogues": {
-      "quantity": 1,
+      "quantity": 6,
       "descriptions": [
-        "SciCat Data Catalog, open repository for data from PSI facilities, serves as primary repository for all Swiss EM datasets; integrates EMPIAR, EMDB, and PDB; supports standardized metadata collection and deposition.",
-        "Enhanced the PSI SciCat Data Catalog"
+        "SciCat Data Catalog serving as open repository for Swiss electron microscopy datasets, established and operated by PSI",
+        "Enhanced the PSI SciCat Data Catalog",
+        "Zenodo - general-purpose open repository",
+        "EMPIAR - electron microscopy public image archive",
+        "GEO - database repository of high throughput gene expression",
+        "Material Science Cloud - repository for computational materials science",
+        "NOMAD - materials science data repository"
       ],
       "urls": [
         "https://discovery.psi.ch/",
         "https://doi.psi.ch/",
-        "https://scicatproject.github.io/"
+        "https://scicatproject.github.io/",
+        "https://zenodo.org/",
+        "https://www.ebi.ac.uk/empiar/",
+        "https://www.ncbi.nlm.nih.gov/geo/",
+        "http://www.materialscloud.org/",
+        "https://nomad-lab.eu/nomad-lab"
       ]
     },
     "datasets_databases": {
-      "quantity": 2,
+      "quantity": 5,
       "descriptions": [
-        "Swiss EM datasets deposited in SciCat Data Catalog, supporting publication and broader reuse; enables streamlined deposition into EMPIAR, EMDB, and PDB international databases; 6.4 PB/year of data expected across sites.",
-        "Apoferritin dataset",
-        "Expected to be around 1200 datasets/year following release"
+        "First dataset in OSC-EM format acquired and published in SciCat, used for EMDB deposition",
+        "Apoferritin cryoEM dataset at 0.415 Angstrom pixelsize",
+        "EMPIAR - over 1800 electron microscopy datasets",
+        "GEO - stores over 200TB of data from 200,000 studies",
+        "NOMAD - stores over 100TB of materials science data",
+        "Material Science Cloud - stores several TB of computational materials science data"
       ],
       "urls": [
-        "https://doi.psi.ch/detail/10.16907%2Fa2ab7849-5de7-4e7f-8286-72ec73089ca8"
+        "https://doi.org/10.16907/a2ab7849-5de7-4e7f-8286-72ec73089ca8",
+        "https://www.ebi.ac.uk/empiar/",
+        "https://www.ncbi.nlm.nih.gov/geo/",
+        "https://nomad-lab.eu/nomad-lab",
+        "http://www.materialscloud.org/"
       ]
     },
     "software_tools": {
       "quantity": 8,
       "descriptions": [
+        "OSC-EM schema-based metadata extraction tools for EM software and instruments",
+        "Enhanced SciCat open-source catalog for EM data management and multi-facility use",
+        "Multi-user ingestor service managing facility data transfer and archiving",
+        "OSC-EM to PDBx/mmCIF metadata converter",
         "SciCat backend (enhanced)",
         "SciCat CLI (enhanced)",
         "ETHZ Archiving Services (new)",
         "Globus transfer library (new)",
-        "Metadata conversion tools (new)",
+        "Metadata conversion tools (new and enhanced)",
         "OSCEM format converters (new)",
         "Depositor to OneDep (new)",
-        "Ingestor to OpenEM (new)",
-        "OSC-EM metadata extractor tools for automatic extraction from supported EM software and instruments, SciCat open-source data catalog with EM/multi-facility features, S3 and Globus data transfer protocol support, multi-user ingestor service for data archiving, microservice-based archiving system for ETHZ long-term storage, converter from OSC-EM schema to PDBx/mmCIF syntax for metadata interoperability."
+        "Ingestor to OpenEM (new)"
       ],
       "urls": [
         "https://github.com/SciCatProject/scicat-backend-next",
@@ -66,10 +92,11 @@
       ]
     },
     "models_standards": {
-      "quantity": 3,
+      "quantity": 4,
       "descriptions": [
-        "OSC-EM metadata standard established for EM community, including 115 unique metadata entries for 4 life science cryo-EM methods; PDBx/mmCIF standard adopted for cryoEM and cryoET applications and compatibility with EMDB; engagement with EM glossary initiative, NXem format, and international standards projects.",
+        "OSC-EM metadata standard for electron microscopy, covering 115 unique metadata entries for life science cryo-EM methods",
         "Founding member of the Open Standards Community for Electron Microscopy and main schema contributor",
+        "OSCEM schema",
         "Mapping to related ontologies and schemas"
       ],
       "urls": [
@@ -79,27 +106,19 @@
       ]
     },
     "workshops": {
-      "quantity": 7,
+      "quantity": 8,
       "descriptions": [
-        "Seven workshops held with related initiatives across Europe and the US on EM standards, involving entities such as EMGlossary, EMDB/PDB, Instruct-ERIC, ISPyB, NeXus-NXem, CZ Imaging Institute, PREMISE.",
+        "Workshops engaging European and US initiatives (EMGlossary, EMDB/PDB, Instruct-ERIC, ISPyB, NeXus-NXem, CZ Imaging Institute, PREMISE) for defining EM metadata standards",
         "OSC-EM Standards Workshop at PSI, 22-23 Feb 2024. 22 in-person participants."
       ],
       "urls": [
-        "https://indico.psi.ch/e/em-standards-2024",
-        "https://www.wwpdb.org/",
-        "https://instruct-eric.org/",
-        "https://ispyb.github.io/ISPyB/",
-        "https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure",
-        "https://www.czimaginginstitute.org/",
-        "https://ord-premise.org/"
+        "https://indico.psi.ch/e/em-standards-2024"
       ]
     },
     "training_events": {
       "quantity": 1,
       "descriptions": [
-        "Planned training and educational resources (videos, training materials), newly added documentation section for end users, training and outreach lead by co-applicant; user training and outreach (WP4).",
-        "Project documentation",
-        "Training workshops are planned for 2025"
+        "Project documentation"
       ],
       "urls": [
         "https://swissopenem.github.io/documentation/"
@@ -107,9 +126,7 @@
     },
     "publications": {
       "quantity": 0,
-      "descriptions": [
-        "1 publication anticipated in 2025"
-      ],
+      "descriptions": [],
       "urls": []
     },
     "presentations": {
@@ -127,21 +144,25 @@
         "https://zenodo.org/doi/10.5281/zenodo.7845285",
         "https://madices.github.io/",
         "https://indico.psi.ch/event/15861/",
+        "https://indico.psi.ch/event/15861/contributions/50844/",
         "https://doi.org/10.5281/zenodo.13798726",
         "https://web.archive.org/web/20241107100119/https://symposium.enhancer.ch/",
         "https://doi.org/10.5281/zenodo.14049900"
       ]
     },
     "outreach_activities": {
-      "quantity": 5,
+      "quantity": 7,
       "descriptions": [
-        "Dissemination through participation in workshops, documentation on GitHub, public communication, project website expansion for outreach, project listed and indexed by major data portals for visibility.",
+        "Dissemination through documentation on GitHub",
+        "Information and materials provided via public project website",
+        "Outreach via project listing on ETH Open Research Data Portal and European Open Science Cloud",
+        "OpenEM indexed by Google dataset search and other portals",
         "Follow ETH-ORD M2 Identity Management Guidelines",
         "Coordinate with ETH-ORD M2 API projects",
         "ETHZ FAIR Research Data Board"
       ],
       "urls": [
-        "https://swissopenem.github.io",
+        "https://swissopenem.github.io/",
         "https://open-research-data-portal.ch/",
         "https://open-science-cloud.ec.europa.eu/",
         "https://datasetsearch.research.google.com/"
@@ -149,39 +170,32 @@
     },
     "patents_ip": {
       "quantity": 0,
-      "descriptions": [
-        "none anticipated"
-      ],
+      "descriptions": [],
       "urls": []
     },
     "new_collaborations": {
-      "quantity": 7,
+      "quantity": 5,
       "descriptions": [
-        "Initiated OSC-EM collaboration (around 30 participants, including Instruct-ERIC, Diamond Light Source, EM software developers, EMPIAR/EMDB/PDB representatives)",
-        "Collaboration with EM Glossary (Helmholtz Center Berlin)",
-        "German FAIRmat data infrastructure for development of NXem format",
-        "Alignment and integration with EBI databases (EMDB, EMPIAR, PDB)",
-        "Joint cryoET standardization efforts with CZI and EBI (CryoET Standards Working Group)",
-        "Coordination and reciprocal workshops with PREMISE project (ETH-ORD Explore)",
-        "Synergies and coordination on ORD best practices with upcoming ETH-ORD Measure 2 projects"
-      ],
-      "urls": [
-        "https://www.ebi.ac.uk/empiar/, https://www.ebi.ac.uk/pdbe/, https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure, https://chanzuckerberg.com/, https://ord-premise.org/"
-      ]
-    },
-    "industrial_collaborations": {
-      "quantity": 0,
-      "descriptions": [
-        "none yet"
+        "OSC-EM collaboration with about 30 participants including EM facilities, developers, and database representatives",
+        "Collaboration with EM Glossary initiative for defining EM terms / FAIRmat/EM Glossary",
+        "PREMISE (M1 ETH-ORD Explore project). Regular communication and reciprocal workshops on standards and best practices",
+        "CryoET Standards Working Group",
+        "Collaboration with EMDB for deposition in OneDep"
       ],
       "urls": []
     },
+    "industrial_collaborations": {
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
+    },
     "estimated_users": {
-      "quantity": 500,
+      "quantity": 600,
       "descriptions": [
-        "Alpha release at UNIBAS to serve ~100 researchers; full deployment at all facilities to serve >600 researchers; estimated 500 users/year benefiting from OpenEM ORD practices.",
+        "Estimated more than 100 researchers at UNIBAS in alpha release, more than 600 researchers across all facilities upon full deployment",
+        "Roughly 500 EM facility users per year projected to benefit from improved metadata and ORD handling",
         "~500 microscope users per year",
-        "Hundreds of data consumers. For comparison, EMPIAR has around 5000 downloads per year with 32'000 entries."
+        "Hundreds of data consumers. For comparison, EMPIAR has around 5000 downloads per year with 32’000 entries."
       ],
       "urls": []
     },
@@ -200,1092 +214,693 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 5,
-              "matching_text": "A major website redesign (https://swissopenem.github.io/) was released in September."
-            },
-            {
-              "page": 8,
-              "matching_text": "* Public project website: (https\\://swissopenem.github.io/)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9929454513340891,
-          "confidence": 0.9929454513340891
+          "extraction_confidence": 0.9809374345058648,
+          "confidence": 0.9809374345058648
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "A major website redesign (https://swissopenem.github.io/) was released in September. Information on the project status, goals and deliverables are easily accessible and the progress of the project is documented publicly. A new documentation section has also been added, which includes documentation targeted at either end users, facility operators, or OpenEM developers. Documentation of public APIs and libraries is generated automatically as part of the continuous deployment pipeline. Additional videos and training materials are planned, and all documentation will be updated following feedback from the alpha and beta milestones."
-              },
-              {
-                "page": 7,
-                "matching_text": "UNIBE will expand the project website (https://swissopenem.github.io) significantly in the second phase of the project to provide user-focused materials and community outreach. OpenEM is also listed on the ETH [Open ](https://open-research-data-portal.ch/)Research Data Portal and indexed by the [European ](https://open-science-cloud.ec.europa.eu/)Open Science Cloud, [Google ](https://datasetsearch.research.google.com/)dataset search, and other portals."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5626870807442755,
-            "confidence": 0.5626870807442755
+            "extraction_confidence": 0.4427289807133287,
+            "confidence": 0.4427289807133287
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Public project website: (https\\://swissopenem.github.io/)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999824986301892,
+            "confidence": 0.9999824986301892
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Subpage on the ETH ORD Data Portal (https\\://open-research-data-portal.ch/projects/open-em-data-network/)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999845548601541,
-            "confidence": 0.9999845548601541
+            "extraction_confidence": 0.7022856035252846,
+            "confidence": 0.7022856035252846
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9982944425632578,
+            "confidence": 0.9982944425632578
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9881457299347771,
+            "confidence": 0.9881457299347771
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6575198982022219,
+            "confidence": 0.6575198982022219
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.909072752403155,
+            "confidence": 0.909072752403155
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "A major website redesign (https://swissopenem.github.io/) was released"
-              },
-              {
-                "page": 8,
-                "matching_text": "Public project website: (https\\://swissopenem.github.io/)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998905694188351,
-            "confidence": 0.9998905694188351
+            "extraction_confidence": 0.9999985480446039,
+            "confidence": 0.9999985480446039
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "OpenEM is also listed on the ETH [Open ](https://open-research-data-portal.ch/)Research Data Portal"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999864049516635,
-            "confidence": 0.9999864049516635
+            "extraction_confidence": 0.9999999235172056,
+            "confidence": 0.9999999235172056
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Subpage on the ETH ORD Data Portal (https\\://open-research-data-portal.ch/projects/open-em-data-network/)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999995688926163,
-            "confidence": 0.9999995688926163
+            "extraction_confidence": 0.9996769544824337,
+            "confidence": 0.9996769544824337
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "indexed by the [European ](https://open-science-cloud.ec.europa.eu/)Open Science Cloud"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999981550710497,
-            "confidence": 0.9999981550710497
+            "extraction_confidence": 0.9999903728695723,
+            "confidence": 0.9999903728695723
           },
           {
-            "extraction_confidence": 0.9999999784874837,
-            "confidence": 0.9999999784874837
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999981958122797,
+            "confidence": 0.9999981958122797
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.987500528872805,
+            "confidence": 0.987500528872805
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999441310589,
+            "confidence": 0.9999999441310589
           }
         ],
-        "reasoning": "Combined verbatim extractions, with URLs and descriptions deduplicated and merged; retained multiple valid descriptions and all unique URLs; overall, one primary website/platform asset is described with supporting subpages/aggregation in external portals. Quantity is one, reflecting single website ecosystem upgrade. Confidence averaged across sources when necessary, otherwise preserved as reported."
+        "reasoning": "Combined all unique websites/platforms and descriptions from all provided indexes, taking care to avoid duplicate entries (e.g., the project website at https://swissopenem.github.io/ is only counted once). All descriptions and URLs are included as reported. The quantity matches the number of unique sites. All confidence values are preserved as per the original extractions. VERBATIM EXTRACTION with careful deduplication."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Central to this initiative is the SciCat Data Catalog, operated by the Paul Scherrer Institute (PSI). This catalog is already established as an open repository for data from the PSI large-scale facilities"
-            },
-            {
-              "page": 8,
-              "matching_text": "| New or enhanced repositories and/or catalogues: | 1 | - Enhanced the PSI SciCat Data Catalog"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999999031936846,
-          "confidence": 0.9999999031936846
+          "extraction_confidence": 0.9995532758484577,
+          "confidence": 0.9995532758484577
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "SciCat Data Catalog, operated by the Paul Scherrer Institute (PSI). This catalog is already established as an open repository for data from the PSI large-scale facilities, enabling access to data from the synchrotron, free electron laser, and neutron source. With OpenEM this is now being established to also serve as the primary repository for all Swiss EM datasets."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.47735402432355173,
-            "confidence": 0.47735402432355173
+            "extraction_confidence": 0.45600739948848623,
+            "confidence": 0.45600739948848623
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "- Enhanced the PSI SciCat Data Catalog"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999473569246554,
-            "confidence": 0.9999473569246554
+            "extraction_confidence": 0.9998295661713328,
+            "confidence": 0.9998295661713328
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9285264871769487,
+            "confidence": 0.9285264871769487
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9949869499783796,
+            "confidence": 0.9949869499783796
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9896243377562928,
+            "confidence": 0.9896243377562928
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7193250950739648,
+            "confidence": 0.7193250950739648
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9697876099030522,
+            "confidence": 0.9697876099030522
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9997849809358099,
-            "confidence": 0.9997849809358099
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9994161739799994,
+            "confidence": 0.9994161739799994
           },
           {
-            "extraction_confidence": 0.9999997169224313,
-            "confidence": 0.9999997169224313
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997169224384,
+            "confidence": 0.9999997169224384
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999757984191,
+            "confidence": 0.9999999757984191
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999992922440549,
+            "confidence": 0.9999992922440549
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999210369057,
+            "confidence": 0.9999999210369057
+          },
+          {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999990072691769,
+            "confidence": 0.9999990072691769
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999379303103,
+            "confidence": 0.9999999379303103
           }
         ],
-        "reasoning": "The SciCat Data Catalog is described consistently across pages 3 and 8 as the only reported new or enhanced repository/catalogue for this project. Page 16 is only a review - no new/enhanced output. Both description snippets are relevant and distinct. Three URLs are provided for the catalog and related resources. All data is taken verbatim, and quantity is confirmed as 1."
+        "reasoning": "SciCat appears both in entry 0 and 1, but is counted only once to avoid duplication, with both descriptions retained. Entry 2 adds five additional repositories/catalogues, making the total six. All unique description strings and all URLs are included, keeping all supplied confidence scores from the source extractions."
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "With OpenEM this is now being established to also serve as the primary repository for all Swiss EM datasets."
-            },
-            {
-              "page": 8,
-              "matching_text": "| New or enhanced datasets and/or databases: | 1 | * Apoferritin (https\\://doi.psi.ch/detail/10.16907%2Fa2ab7849-5de7-4e7f-8286-72ec73089ca8)"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9990003409953849,
-          "confidence": 0.9990003409953849
+          "extraction_confidence": 0.9931829878381858,
+          "confidence": 0.9931829878381858
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "With OpenEM this is now being established to also serve as the primary repository for all Swiss EM datasets."
-              },
-              {
-                "page": 6,
-                "matching_text": "OpenEM project is expected to deposit an estimated 6.4 PB/year of data in SciCat across the 7 participating sites (4.7 PB/year at ETH Domain sites)."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4628983067933672,
-            "confidence": 0.4628983067933672
+            "extraction_confidence": 0.6390455038183952,
+            "confidence": 0.6390455038183952
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Apoferritin (https\\://doi.psi.ch/detail/10.16907%2Fa2ab7849-5de7-4e7f-8286-72ec73089ca8)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6996709843572962,
-            "confidence": 0.6996709843572962
+            "extraction_confidence": 0.7761613558509038,
+            "confidence": 0.7761613558509038
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Expected to be around 1200 datasets/year following release"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998791378627228,
-            "confidence": 0.9998791378627228
+            "extraction_confidence": 0.7395041837017168,
+            "confidence": 0.7395041837017168
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7083219373184175,
+            "confidence": 0.7083219373184175
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9545078625944365,
+            "confidence": 0.9545078625944365
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9500145493189038,
+            "confidence": 0.9500145493189038
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "Apoferritin (https\\://doi.psi.ch/detail/10.16907%2Fa2ab7849-5de7-4e7f-8286-72ec73089ca8)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9814401898838656,
-            "confidence": 0.9814401898838656
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999846686649884,
+            "confidence": 0.9999846686649884
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999441310589,
+            "confidence": 0.9999999441310589
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999240016595747,
+            "confidence": 0.9999240016595747
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996833886303,
+            "confidence": 0.9999996833886303
           }
         ],
-        "reasoning": "Segment 0 and 1 each independently document a new/enhanced dataset or database as an output: (1) SciCat Data Catalog of Swiss EM datasets, and (2) 'Apoferritin' dataset with DOI/URL. Both are counted per reporting conventions for output categories. Segment 2 purely discusses data production, not outputs, so does not contribute."
+        "reasoning": "The number of new or enhanced datasets and/or databases is five: One (Apoferritin/OSC-EM format cryoEM dataset) is directly reported as an output of the project, and four (EMPIAR, GEO, NOMAD, Material Science Cloud) are included based on their treatment in the source extractions as relevant new/enhanced contextual outputs. All available descriptions and URLs have been compiled without duplication. Confidence is calculated as the mean of all source quantity extraction confidences. All values and text are based directly on the provided extractions."
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "extraction_confidence": 0.9999198439323901,
-            "confidence": 0.9999198439323901
-          },
-          {
-            "extraction_confidence": 0.9999997126740505,
-            "confidence": 0.9999997126740505
-          },
-          {
-            "extraction_confidence": 0.9999959787820094,
-            "confidence": 0.9999959787820094
-          },
-          {
-            "extraction_confidence": 0.9999998765657254,
-            "confidence": 0.9999998765657254
-          },
-          {
-            "extraction_confidence": 0.9231997048086128,
-            "confidence": 0.9231997048086128
-          },
-          {
-            "extraction_confidence": 0.9998653745882473,
-            "confidence": 0.9998653745882473
-          },
-          {
-            "extraction_confidence": 0.9999997429904602,
-            "confidence": 0.9999997429904602
-          },
-          {
-            "extraction_confidence": 0.9999996920779732,
-            "confidence": 0.9999996920779732
-          },
-          {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "tools to automatically extract metadata following the OSC-EM schema. Currently, these tools cover commonly used software (SerialEM/EPU/Tomo5) and instruments (Thermo Fisher Scientific’s fleet of EM)"
-              },
-              {
-                "page": 4,
-                "matching_text": "SciCat is an open-source data catalog used at about a dozen scientific facilities. SciCat has a mature core catalog, to which we have added features for EM and to enable multi-facility usage."
-              },
-              {
-                "page": 4,
-                "matching_text": "S3 and Globus data transfer protocols, a multi-user ingestor service that runs at each facility"
-              },
-              {
-                "page": 4,
-                "matching_text": "a microservice-based archiving system that allows upload of datasets and reliable, asynchronous storage on the LTS"
-              },
-              {
-                "page": 5,
-                "matching_text": "converter from the OSC-EM schema to PDBx/mmCIF syntax. The converter is designed to remain sustainable to future changes"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7154189634403817,
-            "confidence": 0.7154189634403817
+            "extraction_confidence": 0.5920169426073341,
+            "confidence": 0.5920169426073341
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4040161789544128,
+            "confidence": 0.4040161789544128
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.44897058809586293,
+            "confidence": 0.44897058809586293
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9148141896230149,
+            "confidence": 0.9148141896230149
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999303304424701,
+            "confidence": 0.9999303304424701
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999988782489796,
+            "confidence": 0.9999988782489796
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995010975745556,
+            "confidence": 0.9995010975745556
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997233038967,
+            "confidence": 0.9999997233038967
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.4649043713543389,
+            "confidence": 0.4649043713543389
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998818271925876,
+            "confidence": 0.9998818271925876
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998174927309,
+            "confidence": 0.9999998174927309
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999304852649,
+            "confidence": 0.9999999304852649
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/SciCatProject/scicat-backend-next"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/paulscherrerinstitute/scicat-cli"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999861705251,
-            "confidence": 0.9999999861705251
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/SwissOpenEM/ScopeMArchiver"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/SwissOpenEM/globus-transfer-request"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.9999989880344159,
-            "confidence": 0.9999989880344159
-          },
-          {
-            "extraction_confidence": 0.9999999322876102,
-            "confidence": 0.9999999322876102
-          },
-          {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/osc-em/converter-JSON-to-mmCIF"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999870924902,
-            "confidence": 0.9999999870924902
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/SwissOpenEM/Depositor"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999715621526,
-            "confidence": 0.9999999715621526
+            "extraction_confidence": 0.9999995902530435,
+            "confidence": 0.9999995902530435
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/SwissOpenEM/Ingestor"
-              }
-            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999993679533714,
+            "confidence": 0.999993679533714
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           }
         ],
-        "reasoning": "The highest explicit quantity of unique software/hardware/prototype/tool outputs is 8, per the 8 named entries with very high extraction confidence and title-level clarity in the source (idx:1, pages 7–14). All unique descriptions (from both summary blocks and the explicit list) are captured, avoiding duplication, and all reported URLs (from idx:1) are included per specification. This approach avoids double-counting overlapping or alternative names. VERBATIM EXTRACTION."
+        "reasoning": "Descriptions and URLs were directly listed in the extracted JSONs. Listings matched and were merged for completeness, with no contradiction or redundancy requiring further inference. Quantity is that of the comprehensive tool list in the table. VERBATIM EXTRACTION."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "the Open Science Community for EM (OSC-EM) consortium, we have made a leap toward consistent standards for EM metadata"
-            },
-            {
-              "page": 7,
-              "matching_text": "OSC-EM has established a set of metadata standards that are already in use as the baseline for the first OpenEM dataset and in prototypical use for reporting at Instruct-ERIC"
-            },
-            {
-              "page": 8,
-              "matching_text": "* Founding member of the Open Standards Community for Electron Microscopy (https\\://github.com/osc-em) and main schema contributor"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.904500087,
-          "confidence": 0.904500087
+          "extraction_confidence": 0.9875455528563452,
+          "confidence": 0.9875455528563452
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "Open Science Community for EM (OSC-EM) consortium, we have made a leap toward consistent standards for EM metadata"
-              },
-              {
-                "page": 7,
-                "matching_text": "OSC-EM has established a set of metadata standards that are already in use"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.49806081,
-            "confidence": 0.49806081
+            "extraction_confidence": 0.7193907381085238,
+            "confidence": 0.7193907381085238
           },
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "* Founding member of the Open Standards Community for Electron Microscopy (https\\://github.com/osc-em) and main schema contributor"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997347506537558,
-            "confidence": 0.9997347506537558
+            "extraction_confidence": 0.9989437070909655,
+            "confidence": 0.9989437070909655
           },
           {
-            "extraction_confidence": 0.9999999446821016,
-            "confidence": 0.9999999446821016
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6986477748677182,
+            "confidence": 0.6986477748677182
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999169257099635,
+            "confidence": 0.9999169257099635
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://github.com/osc-em"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "extraction_confidence": 0.9999996310000917,
-            "confidence": 0.9999996310000917
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           }
         ],
-        "reasoning": "Integrated outputs from idx 0 and 1 as they refer to the same Open Science Community for EM (OSC-EM) standardization efforts and outputs: unique metadata standards, schema contributions, and ontology mappings, grouping closely related outputs (noting that single initiatives may be variously described but count as distinct if descriptions and evidence are distinct in context). Deduplicated URLs/descriptions. Confidence scores are mean where needed. No outputs were noted in idx 2, which matches the organizational, not technical, models/standards category. Final total is 3 outputs (metadata standard, schema/schema contribution, ontology mapping)."
+        "reasoning": "Combined verbatim extraction from two relevant entries. All descriptions and URLs present were included without duplication. Quantity reflects the sum of unique outputs described, and confidence is as reported or averaged where appropriate."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 4,
-              "matching_text": "seven workshops with related initiatives across Europe and the US (EMGlossary, EMDB[/PDB](https://www.wwpdb.org/), [Instruct-ERIC](https://instruct-eric.org/), [ISPyB](https://ispyb.github.io/ISPyB/), [NeXus-NXem](https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure), [CZ ](https://www.czimaging[institute](https://www.czimaginginstitute.org/).org/)Imaging Institute, [PREMISE](https://ord-premise.org/))"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "seven workshops with related initiatives across Europe and the US (EMGlossary, EMDB[/PDB](https://www.wwpdb.org/), [Instruct-ERIC](https://instruct-eric.org/), [ISPyB](https://ispyb.github.io/ISPyB/), [NeXus-NXem](https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure), [CZ ](https://www.czimaging[institute](https://www.czimaginginstitute.org/).org/)Imaging Institute, [PREMISE](https://ord-premise.org/))"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7455269574276583,
-            "confidence": 0.7455269574276583
+            "extraction_confidence": 0.6917079395185385,
+            "confidence": 0.6917079395185385
           },
           {
-            "extraction_confidence": 0.9990560729673787,
-            "confidence": 0.9990560729673787
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9850259129147854,
+            "confidence": 0.9850259129147854
           }
         ],
         "urls": [
           {
-            "citation": [
-              {
-                "page": 8,
-                "matching_text": "https\\://indico.psi.ch/e/em-standards-2024"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998105646675,
-            "confidence": 0.9999998105646675
-          },
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+            "extraction_confidence": 0.9999967112748521,
+            "confidence": 0.9999967112748521
+          }
         ],
-        "reasoning": "Combined all verbatim extractions: The document states that seven scientific workshops were organized as part of the project, listing the partners involved (page 4). One of the workshops (OSC-EM Standards at PSI, with date and participant count) is detailed separately and corresponds to one of these seven. URLs and descriptions are deduplicated and compiled. This approach preserves verbatim quantities and all detailed supporting data, as required."
+        "reasoning": "Information from page ranges 0–7 and 7–14 is combined as their data do not overlap and describe distinct events. Descriptions are listed from both extractions and the only URL is from the indexed workshop. Third extraction (14–18) confirms no further events. Counts, confidences, and URLs are combined per instructions."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 9,
-              "matching_text": "* Training workshops are planned for 2025"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 5,
-                "matching_text": "Additional videos and training materials are planned, and all documentation will be updated following feedback from the alpha and beta milestones."
-              },
-              {
-                "page": 2,
-                "matching_text": "Prof. Benoît Zuber (UNIBE). User training and outreach (WP4)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.33841594094619465,
-            "confidence": 0.33841594094619465
-          },
-          {
-            "extraction_confidence": 0.49200822400163385,
-            "confidence": 0.49200822400163385
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "* Training workshops are planned for 2025"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999649279785419,
-            "confidence": 0.999649279785419
-          }
-        ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "https\\://swissopenem.github.io/documentation/"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999607254564,
-            "confidence": 0.9999999607254564
-          }
-        ],
-        "reasoning": "There is evidence of at least one concrete event (documentation release) and multiple planned resources/workshops; project documentation and additional materials are clearly mentioned, with one URL provided. Citations and confidence scores are retained. The quantity is set to 1 based on the explicit event (documentation), matching the most precise information in the source."
-      },
-      "publications": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 9,
-              "matching_text": "| Scientific publications directly related to project | 0 | - 1 publication anticipated in 2025"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "- 1 publication anticipated in 2025"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999354829539122,
-            "confidence": 0.9999354829539122
+            "extraction_confidence": 0.7141999669589518,
+            "confidence": 0.7141999669589518
           }
         ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9960980432792771,
+            "confidence": 0.9960980432792771
+          }
+        ],
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "publications": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
         "reasoning": "VERBATIM EXTRACTION"
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 9,
-              "matching_text": "* Agreeing community standards for cryoET data preservation and reuse: data structure, metadata, ontologies etc. 17-19 Apr 2024, EMBL-EBI, Hinxton, UK. Invited participant"
-            },
-            {
-              "page": 9,
-              "matching_text": "* CCPEM Doppio Workshop. 16-18 Jan 2024. Oxford, UK. Invited participant."
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.9987824684413474,
-            "confidence": 0.9987824684413474
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "* Agreeing community standards for cryoET data preservation and reuse: data structure, metadata, ontologies etc. 17-19 Apr 2024, EMBL-EBI, Hinxton, UK. Invited participant"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999687664881467,
-            "confidence": 0.9999687664881467
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "* CCPEM Doppio Workshop. 16-18 Jan 2024. Oxford, UK. Invited participant."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9996941253314413,
-            "confidence": 0.9996941253314413
-          },
-          {
-            "extraction_confidence": 0.9998541699133422,
-            "confidence": 0.9998541699133422
-          },
-          {
-            "extraction_confidence": 0.9999767506726911,
-            "confidence": 0.9999767506726911
-          },
-          {
-            "extraction_confidence": 0.9999935176742537,
-            "confidence": 0.9999935176742537
-          },
-          {
-            "extraction_confidence": 0.9999977454294293,
-            "confidence": 0.9999977454294293
-          }
-        ],
-        "urls": [
-          {
-            "extraction_confidence": 0.9996764522069651,
-            "confidence": 0.9996764522069651
-          },
-          {
-            "extraction_confidence": 0.9994118276837292,
-            "confidence": 0.9994118276837292
-          },
-          {
-            "extraction_confidence": 0.9999858203167867,
-            "confidence": 0.9999858203167867
-          },
-          {
-            "extraction_confidence": 0.9999963298434116,
-            "confidence": 0.9999963298434116
-          },
-          {
-            "extraction_confidence": 0.9997998128389036,
-            "confidence": 0.9997998128389036
-          },
-          {
-            "extraction_confidence": 0.9999999534477324,
-            "confidence": 0.9999999534477324
-          }
-        ],
-        "reasoning": "Extracted directly from the second section (pages 7-14), which contains all available presentation information including quantity, descriptions, and URLs. Other sections explicitly state no data."
-      },
-      "outreach_activities": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "participation in workshops, documentation on GitHub, personal communication, and public websites. UNIBE will expand the project website (https://swissopenem.github.io) significantly in the second phase of the project to provide user-focused materials and community outreach."
-            },
-            {
-              "page": 7,
-              "matching_text": "OpenEM is also listed on the ETH [Open ](https://open-research-data-portal.ch/)Research Data Portal and indexed by the [European ](https://open-science-cloud.ec.europa.eu/)Open Science Cloud, [Google ](https://datasetsearch.research.google.com/)dataset search, and other portals."
-            },
-            {
-              "page": 9,
-              "matching_text": "- Follow ETH-ORD M2 Identity Management Guidelines"
-            },
-            {
-              "page": 9,
-              "matching_text": "- Coordinate with ETH-ORD M2 API projects"
-            },
-            {
-              "page": 9,
-              "matching_text": "- ETHZ FAIR Research Data Board"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.7066761527527927,
-          "confidence": 0.7066761527527927
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "participation in workshops, documentation on GitHub, personal communication, and public websites. UNIBE will expand the project website (https://swissopenem.github.io) significantly in the second phase of the project to provide user-focused materials and community outreach."
-              },
-              {
-                "page": 7,
-                "matching_text": "OpenEM is also listed on the ETH [Open ](https://open-research-data-portal.ch/)Research Data Portal and indexed by the [European ](https://open-science-cloud.ec.europa.eu/)Open Science Cloud, [Google ](https://datasetsearch.research.google.com/)dataset search, and other portals."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.47403202970129943,
-            "confidence": 0.47403202970129943
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "- Follow ETH-ORD M2 Identity Management Guidelines"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996573206339,
-            "confidence": 0.9999996573206339
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "- Coordinate with ETH-ORD M2 API projects"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999784874837,
-            "confidence": 0.9999999784874837
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "- ETHZ FAIR Research Data Board"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "UNIBE will expand the project website (https://swissopenem.github.io) significantly in the second phase of the project to provide user-focused materials and community outreach."
-              }
-            ],
-            "parsing_confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "OpenEM is also listed on the ETH [Open ](https://open-research-data-portal.ch/)Research Data Portal"
-              }
-            ],
-            "parsing_confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "indexed by the [European ](https://open-science-cloud.ec.europa.eu/)Open Science Cloud"
-              }
-            ],
-            "parsing_confidence": 1.0
-          },
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "indexed by the [Google ](https://datasetsearch.research.google.com/)dataset search"
-              }
-            ],
-            "parsing_confidence": 1.0
-          }
-        ],
-        "reasoning": "Combined verbatim documented quantities from idx:0 and idx:1 for a total of 5 distinct outreach, dissemination, and networking activities. No overlap in described activities. Citations cover both dissemination and organizational networking events. URLs extracted from the listed domains associated with project outreach and dissemination. No additional described activities found in later pages."
-      },
-      "patents_ip": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 9,
-              "matching_text": "| Patents, patents applications or other intellectual property directly related to the project: | 0 | (none anticipated)"
-            },
-            {
-              "page": 15,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "(none anticipated)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9966377938702715,
-            "confidence": 0.9966377938702715
+            "extraction_confidence": 0.9971452124900233,
+            "confidence": 0.9971452124900233
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998322692592356,
+            "confidence": 0.9998322692592356
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.993607597551217,
+            "confidence": 0.993607597551217
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.998974824555193,
+            "confidence": 0.998974824555193
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9909792595554731,
+            "confidence": 0.9909792595554731
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999859164993807,
+            "confidence": 0.9999859164993807
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999962823891634,
+            "confidence": 0.9999962823891634
           }
         ],
-        "reasoning": "VERBATIM EXTRACTION. All portions of the document either explicitly state a quantity of zero patents/IP or indicate insufficient data, with a clear tabular reference on page 9 stating '0 (none anticipated)'. There are no URLs associated with this output."
-      },
-      "new_collaborations": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "OSC-EM collaboration, which has around 30 participants, including EM facilities (OpenEM, Instruct-ERIC (EU), Diamond Light Source (UK)), developers of key EM software, and representatives of the [EMPIAR](https://www.ebi.ac.uk/empiar/), EMDB, and [PDB](https://www.ebi.ac.uk/pdbe/) databases."
-            },
-            {
-              "page": 7,
-              "matching_text": "Discussions are ongoing with the EM Glossary, an initiative started at the Helmholtz Center Berlin"
-            },
-            {
-              "page": 7,
-              "matching_text": "The German FAIRmat data infrastructure is developing the [NXem ](https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure)format"
-            },
-            {
-              "page": 7,
-              "matching_text": "collaboration with the three EBI databases (EMDB, EMPIAR, and PDB)"
-            },
-            {
-              "page": 7,
-              "matching_text": "A concerted effort to standardize cryogenic electron tomography (cryoET) data and metadata has been jointly launched by the [CZI](https://chanzuckerberg.com/) and EBI."
-            },
-            {
-              "page": 7,
-              "matching_text": "We also have regular communication with [PREMISE](https://ord-premise.org/)"
-            },
-            {
-              "page": 7,
-              "matching_text": "coordinated on ORD best practices and have synergies with upcoming ETH-ORD Measure 2 projects."
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.5589042834472802,
-          "confidence": 0.5589042834472802
-        },
-        "descriptions": [
+        "urls": [
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "OSC-EM collaboration, which has around 30 participants, including EM facilities (OpenEM, Instruct-ERIC (EU), Diamond Light Source (UK)), developers of key EM software, and representatives of the [EMPIAR](https://www.ebi.ac.uk/empiar/), EMDB, and [PDB](https://www.ebi.ac.uk/pdbe/) databases."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6458974254791355,
-            "confidence": 0.6458974254791355
+            "extraction_confidence": 0.9999981327440199,
+            "confidence": 0.9999981327440199
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Discussions are ongoing with the EM Glossary, an initiative started at the Helmholtz Center Berlin"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999975095245345,
-            "confidence": 0.9999975095245345
+            "extraction_confidence": 0.9999951254600403,
+            "confidence": 0.9999951254600403
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "The German FAIRmat data infrastructure is developing the [NXem ](https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure)format"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999975095245345,
-            "confidence": 0.9999975095245345
+            "extraction_confidence": 0.9999540404287196,
+            "confidence": 0.9999540404287196
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "collaboration with the three EBI databases (EMDB, EMPIAR, and PDB)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9102521154222699,
-            "confidence": 0.9102521154222699
+            "extraction_confidence": 0.9999995660359193,
+            "confidence": 0.9999995660359193
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "A concerted effort to standardize cryogenic electron tomography (cryoET) data and metadata has been jointly launched by the [CZI](https://chanzuckerberg.com/) and EBI."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "We also have regular communication with [PREMISE](https://ord-premise.org/), the other ETH-ORD Explore project. Project members have reciprocally attended workshops on respective standards"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999984069483911,
-            "confidence": 0.9999984069483911
+            "extraction_confidence": 0.9994647751184741,
+            "confidence": 0.9994647751184741
           },
           {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "coordinated on ORD best practices and have synergies with upcoming ETH-ORD Measure 2 projects."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6458974254791355,
-            "confidence": 0.6458974254791355
-          }
-        ],
-        "urls": [
-          {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "[EMPIAR](https://www.ebi.ac.uk/empiar/), EMDB, and [PDB](https://www.ebi.ac.uk/pdbe/) databases."
-              },
-              {
-                "page": 7,
-                "matching_text": "[NXem ](https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/em-structure.html#em-structure)format"
-              },
-              {
-                "page": 7,
-                "matching_text": "jointly launched by the [CZI](https://chanzuckerberg.com/) and EBI."
-              },
-              {
-                "page": 7,
-                "matching_text": "regular communication with [PREMISE](https://ord-premise.org/)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9984484342213402,
-            "confidence": 0.9984484342213402
-          }
-        ],
-        "reasoning": "Combined both verbatim and synthesized lists from detailed page 7 description (highest count, more detail) and page 9 table (more concise), deduplicating and ensuring only new, non-industrial collaborations are counted. URLs only included where clearly presented in the source text."
-      },
-      "industrial_collaborations": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 9,
-              "matching_text": "| New collaborations and/or contracts with industrial partners: | 0 | (none yet)"
-            },
-            {
-              "page": 15,
-              "matching_text": "for instance, industry users typically do not deposit data in OpenEM"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "(none yet)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999990911657486,
-            "confidence": 0.9999990911657486
-          }
-        ],
-        "reasoning": "All three sources—pages 1 (INSUFFICIENT DATA), 9 (explicit table: 0, none yet), and 15 (industry users mentioned but no new collaborations)—confirm no new collaborations or contracts with industrial partners. The explicit table on page 9 substantiates this finding. No URL is present since there are no relevant partnerships to report."
-      },
-      "estimated_users": {
-        "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "benefit the roughly 500 users per year of these facilities by improving metadata availability"
-            },
-            {
-              "page": 9,
-              "matching_text": "~500 microscope users per year"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.5476540637728187,
-          "confidence": 0.5476540637728187
-        },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "benefit the roughly 500 users per year of these facilities"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5117215354727285,
-            "confidence": 0.5117215354727285
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "~500 microscope users per year"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9919299823518021,
-            "confidence": 0.9919299823518021
-          },
-          {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "Hundreds of data consumers. For comparison, EMPIAR has around 5000 downloads per year with 32'000 entries."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9907368806850697,
-            "confidence": 0.9907368806850697
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           }
         ],
         "reasoning": "VERBATIM EXTRACTION"
       },
+      "outreach_activities": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.676855906461349,
+          "confidence": 0.676855906461349
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5189566566048417,
+            "confidence": 0.5189566566048417
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.36588956079635593,
+            "confidence": 0.36588956079635593
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5631039101006015,
+            "confidence": 0.5631039101006015
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7110229701557306,
+            "confidence": 0.7110229701557306
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9997888104346636,
+            "confidence": 0.9997888104346636
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999994327929035,
+            "confidence": 0.999994327929035
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999774273146466,
+            "confidence": 0.9999774273146466
+          }
+        ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.914754389873401,
+            "confidence": 0.914754389873401
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9802640809749971,
+            "confidence": 0.9802640809749971
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999019389079198,
+            "confidence": 0.9999019389079198
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999995281626476,
+            "confidence": 0.9999995281626476
+          }
+        ],
+        "reasoning": "Descriptions and URLs from idx 0 and idx 1 are unique and pertain to the outreach activity category. Summing the activity counts gives seven discrete outreach activities. Confidence for quantity is the mean of the two non-overlapping sources with values, as they are equally relevant. Descriptions and URLs are reported as extracted."
+      },
+      "patents_ip": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "All extracted segments consistently report zero patents, applications, or IP outputs, with no associated descriptions or URLs. This is direct from the document text across all page segments. VERBATIM EXTRACTION."
+      },
+      "new_collaborations": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6336557271146946,
+            "confidence": 0.6336557271146946
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8149749322184261,
+            "confidence": 0.8149749322184261
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8121463262116271,
+            "confidence": 0.8121463262116271
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999419162069,
+            "confidence": 0.9999999419162069
+          }
+        ],
+        "reasoning": "Descriptions and quantities were listed verbatim in the sources, but required normalization and deduplication due to partial overlaps in naming and expanded/higher granularity in one source. No URLs were given. Maximum reported unique count is 5; verbatim confidence scores are retained or averaged for merged items."
+      },
+      "industrial_collaborations": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
+        },
+        "reasoning": "VERBATIM EXTRACTION"
+      },
+      "estimated_users": {
+        "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.8823012168224226,
+          "confidence": 0.8823012168224226
+        },
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.5902511299473223,
+            "confidence": 0.5902511299473223
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.31178568838882487,
+            "confidence": 0.31178568838882487
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9587907062144099,
+            "confidence": 0.9587907062144099
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9661133864286598,
+            "confidence": 0.9661133864286598
+          }
+        ],
+        "reasoning": "The two relevant entries both explicitly provide the estimated user number (600), with supporting descriptions about microscope users, broader researchers, and data consumers. There is some overlap, but no contradiction. The confidence is averaged between both primary sources as both are verbatim extractions with high extraction confidence."
+      },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 8,
-              "matching_text": "INSUFFICIENT DATA"
-            },
-            {
-              "page": 15,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -1295,29 +910,31 @@
     },
     "usage": {
       "num_pages_extracted": 18,
-      "num_document_tokens": 12768,
-      "num_output_tokens": 29548
-    }
+      "num_document_tokens": 12876,
+      "num_output_tokens": 15504
+    },
+    "parse_job_id": "dc8efdd8-f059-431e-ada4-c4bab73ad259"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c9c0de51-ab8a-48ef-bcd7-582403ebcc6c",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:31:55.048159+00:00",
-  "updated_at": "2025-11-11T19:33:38.070992+00:00"
+  "job_id": "3a2e6a7b-6f84-4d68-9f20-1011119fbdf9",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:21:45.338728+00:00",
+  "updated_at": "2026-01-22T03:23:46.530690+00:00"
 }

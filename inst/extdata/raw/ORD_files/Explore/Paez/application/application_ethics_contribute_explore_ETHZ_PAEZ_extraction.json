@@ -4,8 +4,8 @@
   "data": {
     "ethics_human_embryonic_stem_cells": "No",
     "ethics_human_embryos": "No",
-    "ethics_human_participants": "Yes",
-    "ethics_human_interventions": "No",
+    "ethics_human_participants": "No",
+    "ethics_human_interventions": "Yes",
     "ethics_clinical_study": "No",
     "ethics_human_cells_tissues": "No",
     "ethics_personal_data": "Yes",
@@ -24,7 +24,7 @@
     "ethics_environmental_harm": "No",
     "ethics_endangered_species": "No",
     "ethics_human_harm": "No",
-    "ethics_artificial_intelligence": "Yes",
+    "ethics_artificial_intelligence": "No",
     "ethics_other_issues": "No"
   },
   "metadata": {
@@ -34,317 +34,2837 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "ethics_human_participants": {
-        "reasoning": "The majority or latest relevant evidence points to human participant data collection, confirmed by mention of required ethics approval and protocol (page 18). Earlier in the document (page 4), the ethics section marks 'No' for human participants, but the text on page 18 explicitly contradicts this, stating human data will be collected. Given that ethics forms and plans sometimes change or are augmented throughout a document, the specific statement about approved protocol and intended data collection with human participants is stronger evidence.",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "1 - Human participants?                                                                                   | No                                                                                                                    |"
-          },
-          {
-            "page": 18,
-            "matching_text": "Approval of the ethics under protocol EKGZ: 2023-00400 for collecting data in remote settings will serve as dataset for testing and developing the ORD prototype"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "ethics_human_embryos": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "2 - Human embryos/foetuses?                                                                               | No"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Address of the Laboratory (Street, No, PO Box)...",
+              "bounding_boxes": [
+                {
+                  "x": 46.0,
+                  "y": 538.0,
+                  "w": 154.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "ethics_human_participants": {
+        "reasoning": "VERBATIM EXTRACTION: The ETHICAL ISSUES FORM (Section 5) contains a structured Yes/No question explicitly answered 'No' for 'Human participants?'. Although narrative text later references a clinical trial with patients, the structured response in the required section takes precedence per the specified extraction strategy.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "...demonstrating significant contributions to both the academic community and the broader field of autonomous mobility solutions.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 385.0,
+                  "w": 434.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_clinical_study": {
-        "reasoning": "The source contains a verbatim answer 'No' to the 'clinical trial' Yes/No question in the structured ethics issues form on page 4. Although later pages reference participation in clinical studies, the extraction standard is to take the explicit Yes/No from the specified ethics form section if available.",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "3 - A clinical trial?                                                                                     | No"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION from the structured '5 - ETHICAL ISSUES FORM' table, per extraction strategy priority.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "These initiatives demonstrate our lab's expertise in medical device innovation and our dedication to practical, patient-centred research.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 693.0,
+                  "w": 451.0,
+                  "h": 64.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_human_cells_tissues": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "4 - Sampling/use of biological material from human participants?                                          | No"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| 4 - Sampling/use of biological material from human participants?                                         | No...",
+              "bounding_boxes": [
+                {
+                  "x": 37.0,
+                  "y": 116.0,
+                  "w": 521.0,
+                  "h": 393.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Address of the Laboratory (Street, No, PO Box)...",
+              "bounding_boxes": [
+                {
+                  "x": 46.0,
+                  "y": 538.0,
+                  "w": 154.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "5 - Collecting or processing of personal data?                                                            | Yes"
-          },
-          {
-            "page": 21,
-            "matching_text": "establish a secure and privacy-preserving data-capturing platform for the acquisition of diverse neurorehabilitation-related data"
-          }
-        ],
+        "reasoning": "Two independent extractions explicitly confirm, in structured (verbatim) and context-driven (explicit clinical/personal data collection) ways, that the project involves collecting or processing of personal data. Both are either verbatim from the ethics form or explicit and both are high confidence.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| I declare that I agree with the \\[Privacy Policy]\\(<https://drive.google.com/file/d/13DmiMDzTjnX2tQtd-_Ig3k9x-Vkh0gjn/view?usp=sharing>) | Yes |",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 267.0,
+                  "w": 17.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_animals": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "6 - Animal experiments?                                                                                   | No"
-          },
-          {
-            "page": 18,
-            "matching_text": "no further ethical or legal considerations will be required"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "ethics_environmental_harm": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "7 - An impact on the environment and/or on the health and safety of the researchers?                      | No"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| 6 - Animal experiments?                                                                                  | No...",
+              "bounding_boxes": [
+                {
+                  "x": 37.0,
+                  "y": 116.0,
+                  "w": 521.0,
+                  "h": 393.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "...demonstrating significant contributions to both the academic community and the broader field of autonomous mobility solutions.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 385.0,
+                  "w": 434.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_low_middle_income_countries": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "8 - Developing countries?                                                                                 | No"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "This led to a new Start-up company that currently is extending the technology of AI-driven wheelchairs for a new driving support system at airports and crowded environments DAAV (https://www.daav.ch),...",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 427.0,
+                  "w": 459.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "ethics_environmental_harm": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| 7 - An impact on the environment and/or on the health and safety of the researchers?                     | No...",
+              "bounding_boxes": [
+                {
+                  "x": 37.0,
+                  "y": 116.0,
+                  "w": 521.0,
+                  "h": 393.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "...demonstrating significant contributions to both the academic community and the broader field of autonomous mobility solutions.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 385.0,
+                  "w": 434.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "ethics_other_issues": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| 10 - Do you consider that your project has the potential for military applications (dual-use technology? | No...",
+              "bounding_boxes": [
+                {
+                  "x": 37.0,
+                  "y": 116.0,
+                  "w": 521.0,
+                  "h": 393.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "t submit a letter of support from your lab/group/unit leader, stating that she/he takes administrative responsibility for all personnel financed by the project, as well as induced costs not cove",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 484.0,
+                  "w": 168.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 3/4 29 February 2024, Diego Paez Granados, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_human_embryonic_stem_cells": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_human_interventions": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "Clinical research trials monitoring patient health typically involve some form of intervention, in this case the use of wearable sensors for data collection in patients. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "Under protocol EKGZ: 2023-00400, the trial aims to closely monitor cardiovascular health during daily activities, capturing real-time data for insights into participants' well-being.",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 337.0,
+                  "w": 471.0,
+                  "h": 180.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "In this time, 1-2 engagement presentations will be held.",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 473.0,
+                  "w": 470.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_further_processing": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_export_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_import_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_criminal": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 13,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_activities_outside_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_outside_countries_ethics_issues": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_local_resources": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_import_material": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_export_material": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. Both identified segments explicitly state the absence of structured Yes/No data or relevant content regarding material export. Based on the extraction strategy, the only defensible output is that such information does not exist in the provided source.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_individuals_at_risk": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "Both extractions state 'INSUFFICIENT DATA' as there is no explicit Yes/No ethics question regarding individuals at risk in the provided document range. As per instructions, in such cases the answer field should be blank or null. However, in this context, the correct output is that the supporting data is not present, so leaving the value blank or null is required.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_endangered_species": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_human_harm": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "ethics_artificial_intelligence": {
-        "reasoning": "Explicit mention of Spinal Cord Injury Artificial Intelligence (SCAI) Lab and focus on personalised healthcare and robotics.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "Dr. Diego Paez, leading the Spinal Cord Injury Artificial Intelligence (SCAI) Lab at ETH Zurich"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999448550187042,
-        "confidence": 0.9999448550187042
-      },
-      "ethics_other_issues": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 820.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "Page 1/1",
+              "bounding_boxes": [
+                {
+                  "x": 496.0,
+                  "y": 803.0,
+                  "w": 35.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.25,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 31,
-      "num_document_tokens": 19304,
-      "num_output_tokens": 7248
-    }
+      "num_document_tokens": 19325,
+      "num_output_tokens": 11486
+    },
+    "parse_job_id": "4414ff51-45e7-4bc5-ac0b-a70de3e4bb19"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
+    "use_reasoning": true
   },
-  "job_id": "377c4ed9-76a7-4ce9-a65f-5e90f732972f",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T15:44:25.828517+00:00",
-  "updated_at": "2025-11-11T15:45:12.093385+00:00"
+  "job_id": "b5dc82f9-a84f-4a66-84d9-0de98d54ccee",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T22:21:57.587802+00:00",
+  "updated_at": "2026-01-21T22:24:04.529646+00:00"
 }

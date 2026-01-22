@@ -15,7 +15,7 @@
     "phase1_total_budget_other_total_direct": 176000.0,
     "phase1_total_budget_total_direct": 700000.0,
     "phase1_total_budget_subcontracting": 0.0,
-    "phase1_total_budget_total_costs": 1500000.0,
+    "phase1_total_budget_total_costs": 700000.0,
     "phase2_total_budget_personnel_senior_staff": 786000.0,
     "phase2_total_budget_personnel_postdocs": 0.0,
     "phase2_total_budget_personnel_students": 0.0,
@@ -39,361 +39,3801 @@
   "extraction_metadata": {
     "field_metadata": {
       "phase1_total_budget_total_costs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 5,
-            "matching_text": "Total requested amount in CHF | 1500000"
-          }
-        ],
+        "reasoning": "The 700,000 CHF figure comes verbatim from a Phase 1 budget table, in a row labeled 'Total Costs (A + B)', which directly matches the request for Phase 1 total costs in CHF. The 1,500,000 CHF is a project-wide amount without phase separation and should not override the explicit Phase 1 breakdown when available.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Total requested amount in CHF** | 1500000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 779.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 48,
+              "matching_text": "| **Total Costs (A + B)**             |                                         |                                                 | **108'250**                    | **197'250**                    |...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 163.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "Locate Phase 1 budget table and extract row for Personnel Senior Staff under 'Total in CHF'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | Postdocs | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | Students | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | Other | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "Row labeled 'Total Direct Costs for Personnel', total column."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | Travel | | 1'000 | 1'000 | 1'000 | 1'000 | 4'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 48,
+              "matching_text": "| Cost Category                       | Cost Category                           | Applicant Institution<br/>Empa                  | Applicant Institution<br/>EPFL | Applicant Institution<br/>ETHZ |...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 163.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_equipment": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | Equipment | | 33'000 | 45'000 | 45'000 | 45'000 | 168'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 48,
+              "matching_text": "| Cost Category                       | Cost Category                           | Applicant Institution<br/>Empa                  | Applicant Institution<br/>EPFL | Applicant Institution<br/>ETHZ |...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 163.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_other_publication_fees": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | Other | Publications (including Open Access fees), etc. | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. The second segment clearly identifies a row for 'Publications (including Open Access fees), etc.', indicating the Phase 1 total is 0 CHF.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 | Other                               | Publications (including Open Access fees), etc. | 750                            | 1'500                         | 1'500...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | Conferences and workshops | 250 | 1'250 | 1'250 | 1'250 | 4'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Cost Category                   | Applicant Institution<br/>Empa      | Applicant Institution<br/>EPFL                  | Applicant Institution<br/>ETHZ | Applicant Institution<br/>PSI | Total in...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_other_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | Other (please specify) | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 |                                     | Other (please specify)                          | 0                              | 0                             | 0...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| | | ii. Total Other Direct Costs | 34'250 | 47'250 | 47'250 | 47'250 | 176'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                 | 2'750                          | 3'750                         | 3'750...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "'A – Total Direct Costs (i + ii)' row, total column."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 48,
+              "matching_text": "| **A – Total Direct Costs (i + ii)** |                                         |                                                 | **108'250**                    | **197'250**                    |...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 163.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase1_total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 48,
-            "matching_text": "| B – Subcontracting Costs | | | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| B – Subcontracting Costs        |                                     |                                                 | 0                              | 0                             | 0...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| Direct<br/>Costs | Person<br/>nel | Senior Staff | 111'000 | 225'000 | 225'000 | 225'000 | 786'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | | Postdocs | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Cost Category                   | Applicant Institution<br/>Empa      | Applicant Institution<br/>EPFL                  | Applicant Institution<br/>ETHZ | Applicant Institution<br/>PSI | Total in...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | | Students | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Cost Category                   | Applicant Institution<br/>Empa      | Applicant Institution<br/>EPFL                  | Applicant Institution<br/>ETHZ | Applicant Institution<br/>PSI | Total in...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | | Other | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Cost Category                   | Applicant Institution<br/>Empa      | Applicant Institution<br/>EPFL                  | Applicant Institution<br/>ETHZ | Applicant Institution<br/>PSI | Total in...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "Total Direct Costs for Personnel row, Phase 2."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                 | 111'000                        | 225'000                       | 225'000...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | Travel | | 1'500 | 1'500 | 1'500 | 1'500 | 6'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Cost Category                   | Applicant Institution<br/>Empa      | Applicant Institution<br/>EPFL                  | Applicant Institution<br/>ETHZ | Applicant Institution<br/>PSI | Total in...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_equipment": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | Equipment | | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_other_publication_fees": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | Other | Publications (including Open Access fees), etc. | 750 | 1'500 | 1'500 | 1'500 | 5'250 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 | Other                               | Publications (including Open Access fees), etc. | 750                            | 1'500                         | 1'500...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | | Conferences and workshops | 500 | 750 | 750 | 750 | 2'750 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 |                                     | Conferences and workshops                       | 500                            | 750                           | 750...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 |                                     | Postdocs                                        | 0                              | 0                             | 0...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_other_other": {
-        "reasoning": "VERBATIM EXCTRACTION. Only explicit numerical value given for phase 2 'other other' cost is 0 CHF, per the budget table excerpt on page 49. All other data suggests this budget line is not present or is 0.",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | | Other (please specify) | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 |                                     | Other (please specify)                          | 0                              | 0                             | 0...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| | *ii. Total Other Direct Costs* | | 2'750 | 3'750 | 3'750 | 3'750 | 14'000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "|                                 | ii. Total Other Direct Costs        |                                                 | 2'750                          | 3'750                         | 3'750...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "Row 'A – Total Direct Costs (i + ii)', Phase 2."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                     |                                                 | 113'750                        | 228'750                       | 228'750...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 49,
-            "matching_text": "| **B – Subcontracting Costs** | | | 0 | 0 | 0 | 0 | 0 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "...|                                     | Postdocs                                        | 0                              | 0                             | 0            | 0       | 0       |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "phase2_total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 45,
-            "matching_text": "Row 'Total Costs (A + B)', Phase 2."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 17 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 49,
+              "matching_text": "| Total Costs (A + B)             |                                     |                                                 | 113'750                        | 228'750                       | 228'750...",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 141.0,
+                  "w": 709.0,
+                  "h": 346.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 54,
-      "num_document_tokens": 32335,
-      "num_output_tokens": 17699
-    }
+      "num_document_tokens": 32474,
+      "num_output_tokens": 8065
+    },
+    "parse_job_id": "5211ebba-5efe-4ee0-9e12-9d9239dc5839"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c23ff123-e59a-4181-ada2-494efcf90dd4",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T09:46:01.661746+00:00",
-  "updated_at": "2025-11-11T09:47:10.393787+00:00"
+  "job_id": "f51016ce-f5b1-47ec-a970-fdfafcff5c46",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T15:53:46.313515+00:00",
+  "updated_at": "2026-01-21T15:56:38.534400+00:00"
 }

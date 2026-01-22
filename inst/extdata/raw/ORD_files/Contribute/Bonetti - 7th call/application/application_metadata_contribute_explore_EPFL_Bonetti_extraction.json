@@ -10,15 +10,7 @@
     "main_applicant_laboratory_name": "EPFL ENAC IIE CHANGE",
     "main_applicant_postcode": 1951,
     "main_applicant_city": "Sion",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "EPFL",
-        "function_title": "Assistant Professor",
-        "first_name": "Sara",
-        "surname": "Bonetti",
-        "postcode": 1951
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Towards community-driven, open and FAIR ecohydrological modeling",
     "project_acronym": "TRANSCODE",
     "project_abstract": "Mechanistic ecohydrological models are essential tools to accurately simulate the impacts of climate change on the water, carbon, and nutrient cycles. However, there are very few models available to the community which can holistically simulate such a wide range of processes and most of them are written in low-level programming languages (e.g., C++ or FORTRAN), hindering model accessibility to new users. In this regard, Tethys and Chloris (T&C), a state-of-the-art ecohydrological model written in MATLAB, offers a strong foundation for creating an accessible community-driven model. TRANSCODE aims to transform T&C into a FAIR (Findable, Accessible, Interoperable, Reusable) model by redesigning its architecture for modularity and re-implementing it in Julia, an open-source language which marries the computational efficiency of low-level programming languages such as FORTRAN and the accessibility of high-level languages such as MATLAB. This translation will improve computational efficiency, foster open code contributions from the community, and facilitate interoperability with other models. Specifically, the project will create a modular, comprehensively tested, highly efficient, and easily accessible version of T&C, termed T&C-Julia. TRANSCODE has the potential to significantly benefit the Earth science community and advance the field of ecohydrological modelling by providing a versatile, state-of-the-art, and open-source modelling platform.",
@@ -47,6 +39,10 @@
       {
         "wp_identifier": "WP4",
         "wp_title": "Model Performance Assessment and Improvement"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Model Dissemination"
       }
     ]
   },
@@ -59,390 +55,1897 @@
     "field_metadata": {
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 7 - Deadline: 15 April 2024 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 501.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "ETH domain table, row: 'Which ETH Domain do you belong to?' => EPFL"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "ETH BOARD\nETH zürich EPFL PAUL SCHERRER",
+              "bounding_boxes": [
+                {
+                  "x": 64.0,
+                  "y": 48.0,
+                  "w": 152.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title): Assistant Professor"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Assistant professor with tenure track or similar | EPF Lausanne - EPFL, CH<br/>School of Architecture, Civil & Environmental Engineering | 09.2022 - 08.2026<br/>4 year(s)            |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 614.0,
+                  "w": 452.0,
+                  "h": 143.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name(s): Sara"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| First name(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sara Bonetti | Applicant ID - ORD1000365",
+              "bounding_boxes": [
+                {
+                  "x": 323.0,
+                  "y": 40.0,
+                  "w": 234.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname(s): Bonetti"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "**Sara Bonetti**\nAcademic age: 4 year(s) 10 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 183.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sara Bonetti | Applicant ID - ORD1000365",
+              "bounding_boxes": [
+                {
+                  "x": 323.0,
+                  "y": 40.0,
+                  "w": 234.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL ENAC IIE CHANGE"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL ENAC IIE CHANGE                                |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode entry: 1951"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1951                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 630.0,
+                  "w": 252.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City entry: Sion"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "institution: EPFL"
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Sion                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 630.0,
+                  "w": 252.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "title: Assistant Professor"
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "first name: Sara"
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "surname: Bonetti"
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "postcode: 1951"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+            }
+          ]
         }
-      ],
+      },
       "project_title": {
-        "reasoning": "Selected the explicit project title from the 'RESEARCH PROPOSAL' section/table (first extraction), as per extraction instructions and evidence of its presence as the principal project title. The second extraction seems to pertain to a project platform/component (TRANSCODE) rather than the overall project title.",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Project title field in Research Proposal table; also at top of page 8. Towards community-driven, open and FAIR ecohydrological modeling"
-          }
-        ],
-        "extraction_confidence": 0.9999998631951909,
-        "confidence": 0.9999998631951909
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999911994251,
+        "confidence": 0.9999999911994251,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "## Towards community-driven, open and FAIR ecohydrological modeling - TRANSCODE",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 140.0,
+                  "w": 449.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "TRANSCODE aims to transform the T&C model into a community-based ecohydrological model by applying appropriate FAIR principles.",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 295.0,
+                  "w": 474.0,
+                  "h": 90.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "First Design Workshop (T1.0)     : 1, 3",
+              "bounding_boxes": [
+                {
+                  "x": 125.88,
+                  "y": 493.43,
+                  "w": 412.93,
+                  "h": 284.14
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "First Design Workshop (T1.0)     : 1, 3",
+              "bounding_boxes": [
+                {
+                  "x": 125.88,
+                  "y": 493.43,
+                  "w": 412.93,
+                  "h": 284.14
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "First Design Workshop (T1.0)     : 1, 3",
+              "bounding_boxes": [
+                {
+                  "x": 125.88,
+                  "y": 493.43,
+                  "w": 412.93,
+                  "h": 284.14
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Acronym of the project** | TRANSCODE "
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "## Towards community-driven, open and FAIR ecohydrological modeling - TRANSCODE",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 140.0,
+                  "w": 449.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Abstract** | Mechanistic ecohydrological models are essential tools ..."
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999953801156076,
-        "confidence": 0.9999953801156076
+        "extraction_confidence": 0.9999965679980717,
+        "confidence": 0.9999965679980717,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "TRANSCODE aims to transform T\\&C into a FAIR (Findable, Accessible, Interoperable, Reusable) model by redesigning its architecture for modularity and re-implementing it in Julia, an open-source lan...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 500.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, Ecohydrological modeling, Community model, Julia"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| ----------------------------------------------------------------------------------- |\n| FAIR principles, Ecohydrological modeling, Community model, Julia                   |",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 304.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, Ecohydrological modeling, Community model, Julia"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Ecohydrological modeling across a broad range of spatio-temporal scales.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 516.0,
+                    "w": 329.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, Ecohydrological modeling, Community model, Julia"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| ----------------------------------------------------------------------------------- |\n| FAIR principles, Ecohydrological modeling, Community model, Julia                   |",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 304.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "FAIR principles, Ecohydrological modeling, Community model, Julia"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| ----------------------------------------------------------------------------------- |\n| FAIR principles, Ecohydrological modeling, Community model, Julia                   |",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 304.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "1",
+                "bounding_boxes": [
+                  {
+                    "x": 534.0,
+                    "y": 770.0,
+                    "w": 3.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Proposed Starting Date: 1 Oct 2024"
-          }
-        ],
-        "extraction_confidence": 0.9997659584618457,
-        "confidence": 0.9997659584618457
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999956937956034,
+        "confidence": 0.9999956937956034,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 409.0,
+                  "w": 230.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 409.0,
+                  "w": 230.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration is specified as '12'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Multiple sections (detailed table and narrative) across the document consistently state 'total budget requested' as 30,000 CHF. All relevant cited locations match the amount, making the extraction robust and unambiguous.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Total requested amount in CHF** | 30000 |"
-          },
-          {
-            "page": 15,
-            "matching_text": "Table lists 'Total Costs (A + B)' as 30000 CHF."
-          },
-          {
-            "page": 16,
-            "matching_text": "The requested budget (30K CHF)."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project duration...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 409.0,
+                  "w": 230.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 4/4 12 April 2024, Sara Bonetti, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 715.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 715.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "|                                 | i. Total Direct Costs for Personnel |                                                  | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 133.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1016/j.advengsoft.2017.01.008\n[14.",
+              "bounding_boxes": [
+                {
+                  "x": 56.64,
+                  "y": 117.38,
+                  "w": 482.17,
+                  "h": 660.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1016/j.advengsoft.2017.01.008\n[14.",
+              "bounding_boxes": [
+                {
+                  "x": 56.64,
+                  "y": 117.38,
+                  "w": 482.17,
+                  "h": 660.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 534.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "https://doi.org/10.1016/j.advengsoft.2017.01.008\n[14.",
+              "bounding_boxes": [
+                {
+                  "x": 56.64,
+                  "y": 117.38,
+                  "w": 482.17,
+                  "h": 660.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "Design of the Model Architecture [WP1]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 9,
-                "matching_text": "Design of the Model Architecture [WP1]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Extracted verbatim from work package table and headers. VERBATIM EXTRACTION."
         },
         {
           "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Extracted verbatim from work package section header and details. VERBATIM EXTRACTION."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Model Packaging and Validation [WP3]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Model Packaging and Validation [WP3]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "WP3 full title given in section header and supported by Gantt chart. VERBATIM EXTRACTION."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Model Performance Assessment and Improvement [WP4]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Model Performance Assessment and Improvement [WP4]"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "WP4 title is present in section header and Gantt chart. VERBATIM EXTRACTION."
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "WP5 and its title 'Model Dissemination' are explicitly given in the task table. VERBATIM EXTRACTION."
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 16,
-      "num_document_tokens": 11343,
-      "num_output_tokens": 8127
-    }
+      "num_document_tokens": 11271,
+      "num_output_tokens": 5706
+    },
+    "parse_job_id": "e81a4103-7d34-48e3-a104-afd82b542e77"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "4000905d-7e16-4edb-9530-a5d0c438598a",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:03:22.936255+00:00",
-  "updated_at": "2025-11-11T10:05:17.808798+00:00"
+  "job_id": "417b59dd-2958-4a2e-8457-2b324fc3ebf5",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:49:48.302965+00:00",
+  "updated_at": "2026-01-21T18:51:38.330496+00:00"
 }

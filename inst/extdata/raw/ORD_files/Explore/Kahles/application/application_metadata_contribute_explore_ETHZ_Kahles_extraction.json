@@ -2,21 +2,27 @@
   "document_path": "raw/ORD_files/Explore/Kahles/application/ETHZ_Kahles.pdf",
   "status": "success",
   "data": {
-    "project_category": null,
+    "project_category": "Explore Projects",
     "main_applicant_institution": "ETH Zürich",
-    "main_applicant_function": null,
+    "main_applicant_function": "Senior Scientist",
     "main_applicant_first_name": "André",
     "main_applicant_surname": "Kahles",
-    "main_applicant_laboratory_name": null,
-    "main_applicant_postcode": null,
-    "main_applicant_city": null,
+    "main_applicant_laboratory_name": "Biomedical Informatics Lab",
+    "main_applicant_postcode": 8092,
+    "main_applicant_city": "Zürich",
     "all_applicants": null,
     "project_title": "Starting a User Community for Cutting-Edge Sequence Search",
     "project_acronym": "SUCCESS",
-    "project_abstract": null,
-    "keywords": null,
-    "start_date": null,
-    "project_duration_months": null,
+    "project_abstract": "The exponential growth of biomedical sequencing data has led to considerable challenges and open problems for genomic data management, leading to limitations in accessing and utilising this vast resource efficiently. The Sequence Read Archive (SRA) exemplifies the scale of available data, housing over 40 Petabases. However, the current indexing methods, which rely on metadata rather than full-text searches, significantly limit the potential for research and discovery. The Biomedical Informatics lab at ETH Zürich has developed a computational framework capable of indexing whole sequence repositories on a petabyte scale, compressing data significantly while maintaining search efficiency. This framework, embodied in the MetaGraph software platform, represents a major technological advancement, enabling precise, large-scale genomic data analysis. The lab has applied this framework to over 4 PB of raw sequencing data, freely sharing the generated indexes to promote open research. The proposal aims to establish MetaGraph as a leading open research data tool and to build a vibrant user community around it, enhancing accessibility and utility of genomic data. This initiative seeks to break down barriers to data access, fostering a more open, collaborative research environment, and expanding the scope of MetaGraph beyond DNA to include non-DNA repositories, addressing privacy and ethical considerations in data accessibility, and contributing to the democratisation of genomic data.",
+    "keywords": [
+      "genomics",
+      "sequence search",
+      "data repository",
+      "federated search",
+      "bioinformatics"
+    ],
+    "start_date": "2024-10-01",
+    "project_duration_months": 18,
     "total_budget_requested": 149996.0,
     "work_packages": [
       {
@@ -48,114 +54,2354 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "Extracted as 'ETH Zürich' from both the applicant details section ('Which ETH Domain do you belong to?') and verbatim in budget justification as the host institution.",
-        "citation": [
-          {
-            "page": 27,
-            "matching_text": "This proposal has only one applicant whose host institution is ETH Zurich."
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999411123211941,
-        "confidence": 0.9999411123211941
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "## Track A: Explore projects (2ⁿᵈ call)",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 124.0,
+                  "w": 295.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "**ETH Domain ORD Program**\n**Explore Track**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 190.0,
+                  "w": 129.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "**ETH Domain ORD Program**\n**Explore Track**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 190.0,
+                  "w": 129.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999456104685862,
+        "confidence": 0.9999456104685862,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "André Kahles | Applicant ID - ORD2000138\nETH BOARD\nETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 316.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "ETH BOARD\nETH Zürich\nEPFL\nPAUL SCHERRER INSTITUT PSI\nWSL\nEmpa Materials Science and Technology\neawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 557.53,
+                  "y": 579.13,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 27,
+              "matching_text": "This proposal has only one applicant whose host institution is ETH Zurich.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 202.0,
+                  "w": 704.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0 CHF       |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0 CHF       |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Senior Scientist                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 91.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "Both sources explicitly state the first name as 'André': one from a form/table field ('First name(s)'), the other via direct reference in supporting documentation. This is a verbatim extraction.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "applicant details table under 'First name(s)'"
-          },
-          {
-            "page": 29,
-            "matching_text": "supports the application of André Kahles for an ORD Explore project at ETH Zürich"
-          }
-        ],
+        "reasoning": "Multiple verbatim extractions; resolved to accented form supported by higher confidence and primary applicant section. Used mean confidence since both extractions point to the same entity.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9989813902608043,
-        "confidence": 0.9989813902608043
+        "extraction_confidence": 0.7810881004968797,
+        "confidence": 0.7810881004968797,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/3 26 February 2024, André Kahles, ORCID [iD 0000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0 CHF       |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0 CHF       |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Both data points identify 'Kahles' as the main applicant's surname, one directly from the application table and the other from supporting material. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Field 'Surname(s)' shows 'Kahles'."
-          },
-          {
-            "page": 29,
-            "matching_text": "supports the application of André Kahles for an ORD Explore project at ETH Zürich"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999677312261,
-        "confidence": 0.9999999677312261
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/3 26 February 2024, André Kahles, ORCID [iD 0000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "The Biomedical Informatics Lab at ETH Zürich supports the application of André Kahles for an ORD *Explore* project at ETH Zürich for the project entitled “Starting a User Community for Cutting-Edge Se...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 380.0,
+                  "w": 453.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_laboratory_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The Biomedical Informatics lab at ETH Zürich has developed a computational framework capable of indexing whole sequence repositories on a petabyte scale, compressing data significantly while maintaini...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 177.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_postcode": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8092                                               |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 602.0,
+                  "w": 500.0,
+                  "h": 35.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_city": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999998559933477,
+        "confidence": 0.9999998559933477,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "André Kahles | Applicant ID - ORD2000138\nETH BOARD\nETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 316.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "The requested data is the project title from the 'RESEARCH PROPOSAL' section. The full title 'Starting a User Community for Cutting-Edge Sequence Search' appears verbatim in three separate sources, including directly under 'Project title' in both a proposal table and a support letter. The term 'MetaGraph' is referenced as a project platform or product, not the formal project title. Therefore, the extraction is a verbatim match from multiple highly reliable, cited sources.",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "Starting a User Community for Cutting-Edge Sequence Search"
-          },
-          {
-            "page": 29,
-            "matching_text": "for the project entitled “Starting a User Community for Cutting-Edge Sequence Search”"
-          }
-        ],
+        "reasoning": "Multiple sections, including the project proposal table, section headers, and a supporting letter, all explicitly and repeatedly state the project title as 'Starting a User Community for Cutting-Edge Sequence Search'. Although the phrase 'MetaGraph platform' appears in detailed description sections, it is referenced as a tool or component and not as the project title itself. Therefore, the unanimously and explicitly stated title is extracted.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION: The actual total budget requested is consistently stated as 149996 CHF in both the BUDGET section and summary tables; the 150’000 CHF is expressly the upper budget limit and not the requested value.",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "Total requested amount in CHF | 149996"
-          },
-          {
-            "page": 26,
-            "matching_text": "Total Costs in CHF (A + B)      |                                                  | 149'996 CHF"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.999999858,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "The Biomedical Informatics Lab at ETH Zürich supports the application of André Kahles for an ORD *Explore* project at ETH Zürich for the project entitled “Starting a User Community for Cutting-Edge...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 380.0,
+                  "w": 453.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Starting a User Community for Cutting-Edge Sequence Search...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "| Starting a User Community for Cutting-Edge Sequence Search<br/>Acronym: SUCCESS |\n| ------------------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "**Description:** The project manager together with members of the Biomedical Informatics Lab at ETH will be tasked with promoting the MetaGraph platform at relevant community meetings and sights.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 680.0,
+                  "w": 467.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "...he application of André Kahles for an ORD *Explore* project at ETH Zürich for the project entitled “Starting a User Community for Cutting-Edge Sequence Search”, pending ethical clearance of the projec...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 380.0,
+                  "w": 453.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 132.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "Acronym: SUCCESS"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| SUCCESS...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 245.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "| Starting a User Community for Cutting-Edge Sequence Search<br/>Acronym: SUCCESS |\n| ------------------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 132.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 132.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 132.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999984504423786,
+        "confidence": 0.9999984504423786,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This initiative seeks to break down barriers to data access, fostering a more open, collaborative research environment, and expanding the scope of MetaGraph beyond DNA to include non-DNA repositori...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 177.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 201.0,
+                    "w": 504.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| genomics,<br/>sequence search,<br/>data repository,<br/>federated search,<br/>bioinformatics...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 201.0,
+                    "w": 504.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 2/3 26 February 2024, André Kahles, ORCID [iD 0000",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| genomics,<br/>sequence search,<br/>data repository,<br/>federated search,<br/>bioinformatics...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 201.0,
+                    "w": 504.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 2/3 26 February 2024, André Kahles, ORCID [iD 0000",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| genomics,<br/>sequence search,<br/>data repository,<br/>federated search,<br/>bioinformatics...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 201.0,
+                    "w": 504.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| genomics,<br/>sequence search,<br/>data repository,<br/>federated search,<br/>bioinformatics...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 201.0,
+                    "w": 504.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "While the work on the theoretical foundations for the index-representation and compression are already published [1-3], the manuscript for the framework is available as a preprint [4].",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 379.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| PhD / Dr.: Bioinformatics<br/>Gunnar Rätsch   | Memorial Sloan Kettering Cancer<br/>Center, US<br/>Computational Biology                   | 04.2011 - 09.2014<br/>3 year(s) 6 month(s)      |",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 366.0,
+                    "w": 452.0,
+                    "h": 267.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": ">\n> Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 119.0,
+                    "y": 299.0,
+                    "w": 362.0,
+                    "h": 33.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.2756,
+                  "height": 841.8898
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "Both extractions provide the same start date for the project (October 1st, 2024), presented in different formats. For consistency, ISO format '2024-10-01' is used. Combined confidence is reported as the mean of the two sources.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999867280291502,
+        "confidence": 0.9999867280291502,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 391.0,
+                  "w": 410.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Project start in the diagram is estimated as October 1st, 2024.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 559.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 391.0,
+                  "w": 410.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Project start in the diagram is estimated as October 1st, 2024.",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 559.0,
+                  "w": 468.0,
+                  "h": 87.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "doi:10.1101/2021.11.09.467907\n7.",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 133.0,
+                  "w": 446.0,
+                  "h": 591.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 18...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 391.0,
+                  "w": 410.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Multiple verbatim extractions (page 3 and page 26) provide a directly stated requested budget of CHF 149,996. A note in Section 7 (CHF 150,000) is a rule/limit, not the actual applied-for amount. Therefore, CHF 149,996 is the correct requested budget. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.99999995159684,
+        "confidence": 0.99999995159684,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| Total requested amount in CHF | 149996 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 149.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "The overall project budget is limited to CHF 150’000 for the total duration of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 563.0,
+                  "w": 468.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| Total Costs in CHF (A + B)      |                                                  | 149'996 CHF |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| Total requested amount in CHF | 149996 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 149.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 0 CHF       |   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 41.0,
+                  "w": 701.0,
+                  "h": 291.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "section WP 1 / Docs & Tutorials\n    DevOps Engineer (Lead)      : 0, 4\n    Project Manager (Support)   : 0, 1\n    Resource [R]                : milestone, 4, 0d",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 334.0,
+                  "w": 108.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 440.0,
+                  "w": 703.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8898,
+                "height": 595.2756
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 19,
-                "matching_text": "WP 1 - Documentation Extension and Domain Tutorials"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999978767336674,
+            "confidence": 0.9999978767336674
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 19,
-                "matching_text": "WP 1 - Documentation Extension and Domain Tutorials"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -164,23 +2410,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 19,
-                "matching_text": "WP 2 - Community Building"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 19,
-                "matching_text": "WP 2 - Community Building"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -189,23 +2423,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 3 - Formation of Data Repository and Support for Early Adoption"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 3 - Formation of Data Repository and Support for Early Adoption"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -214,23 +2436,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 4 - Organisation of Institutional Partnerships and Collaborations"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 4 - Organisation of Institutional Partnerships and Collaborations"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -239,23 +2449,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 5 - Promotion and Community Outreach"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "WP 5 - Promotion and Community Outreach"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -266,29 +2464,31 @@
     },
     "usage": {
       "num_pages_extracted": 29,
-      "num_document_tokens": 16923,
-      "num_output_tokens": 4912
-    }
+      "num_document_tokens": 16800,
+      "num_output_tokens": 6060
+    },
+    "parse_job_id": "d6186228-f99e-4906-bea0-6f4c52390171"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "f1c891bd-a6f3-4bce-a81b-d39e598d15f6",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:01:25.473706+00:00",
-  "updated_at": "2025-11-11T13:03:33.869106+00:00"
+  "job_id": "5d9c6e93-0b52-4df7-b05d-d74b43b0ff0f",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T16:14:45.017599+00:00",
+  "updated_at": "2026-01-21T16:17:15.624034+00:00"
 }

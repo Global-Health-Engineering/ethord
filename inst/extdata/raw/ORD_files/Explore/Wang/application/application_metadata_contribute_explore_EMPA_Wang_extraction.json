@@ -20,7 +20,7 @@
       },
       {
         "eth_domain_institution": "Empa",
-        "function_title": "Group Leader, Environmental Risk Assessment and Management Group",
+        "function_title": "Group leader, Environmental Risk Assessment and Management Group",
         "first_name": "Bernd",
         "surname": "Nowack",
         "postcode": 9014
@@ -30,7 +30,11 @@
     "project_acronym": "OpenChemUses",
     "project_abstract": "Open data on the uses are key for the safety assessment of existing chemicals and materials, and for the design of novel safer ones. However, the availability and accessibility of use data in the public domain is limited. For many chemicals and materials, use data have been reported, but they cannot be readily extracted and used by scientists, regulators and the industry on a large scale. This is because they are scattered over the public domain, and are often reported using different terminologies and in a non-machine-readable/processable format. Against this background, this project aims to enable and engage the scientific and regulatory communities to build up open FAIR data on the uses of chemicals and materials by developing and disseminating a toolbox of the missing tools. In particular, the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction and harmonization of existing reporting from different types of sources, to be used by researchers within the ETH-Domain, as well as external researchers including industrial scientists, regulators, and civil society organisations. The project will take a participatory approach, with stakeholders within and outside the ETH-Domain to be engaged in the testing, finalization and dissemination of the toolbox.",
     "keywords": [
-      "cheminformatics, natural language processing, chemical and material safety assessment, chemical and material innovation, use information"
+      "cheminformatics",
+      "natural language processing",
+      "chemical and material safety assessment",
+      "chemical and material innovation",
+      "use information"
     ],
     "start_date": "1 Sep 2022",
     "project_duration_months": 17,
@@ -55,189 +59,1059 @@
     "field_metadata": {
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "\"Explore Projects\" - Deadline 14th April 2022"
-          },
-          {
-            "page": 27,
-            "matching_text": "Track A: Explore projects"
-          },
-          {
-            "page": 42,
-            "matching_text": "ORD *Explore* project at Empa's Technology and Society Laboratory for the project entitled"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# \"Explore Projects\" - Deadline 14th April 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 31.0,
+                  "y": 140.0,
+                  "w": 521.0,
+                  "h": 76.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "## Track A: Explore projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 122.0,
+                  "w": 282.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 44,
+              "matching_text": "ETH Domain ORD Program\nExplore Track",
+              "bounding_boxes": [
+                {
+                  "x": 295.0,
+                  "y": 135.0,
+                  "w": 142.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Which ETH Domain do you belong to?             | EMPA"
-          },
-          {
-            "page": 16,
-            "matching_text": "Empa – Swiss Federal Laboratories for Materials Science and Technology"
-          },
-          {
-            "page": 42,
-            "matching_text": "Empa's Technology and Society Laboratory"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Which ETH Domain do you belong to?                            | EMPA                         |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 335.0,
+                  "w": 144.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Which ETH Domain do you belong to?                            | EMPA                         |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 335.0,
+                  "w": 144.0,
+                  "h": 56.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 44,
+              "matching_text": "# Empa",
+              "bounding_boxes": [
+                {
+                  "x": 362.0,
+                  "y": 33.0,
+                  "w": 160.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Function (Title)                               | Scientist"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Function (Title)                               | Scientist                       |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 156.0,
+                  "w": 186.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Function (Title)                               | Scientist                       |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 156.0,
+                  "w": 186.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "First name(s)                                  | Zhanyun"
-          },
-          {
-            "page": 11,
-            "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)"
-          }
-        ],
+        "reasoning": "Multiple extractions across various document sections (application forms, support letters, publication lists) state the main applicant's first name as 'Zhanyun' (verbatim extractions with maximum confidence). One instance lists 'Bernd', but context makes it clear he's not the main applicant. Therefore, 'Zhanyun' is chosen as the main applicant's first name.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "**Zhanyun Wang, Dr. sc. ETH Zurich**",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 69.0,
+                  "w": 245.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 63.0,
+                  "w": 243.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "**Bernd Nowack: List of Publications (last 5 years)**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 58.0,
+                  "w": 238.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 43,
+              "matching_text": "Zhanyun Wang will be fully employed for the complete duration of the above-mentioned project at Empa's Technology and Society Laboratory, headed by myself, while Prof.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 397.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32001,
+                "height": 841.92004
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "The primary data regarding the main applicant's surname appears at the start of the document (pages 2 and 11, indices 0 and 1) and is consistently 'Wang' in the applicant info and publication block context. Later references (indices 2, 3) to 'Nowack' occur in a different section, likely for another person. According to instructions, extract details for the main applicant only.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Surname(s)                                     | Wang"
-          },
-          {
-            "page": 11,
-            "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)"
-          }
-        ],
+        "reasoning": "The surname 'Wang' is consistently extracted with confidence from multiple independent and relevant sections of the document (cover page, publication list, letter of support), all specifically referencing Zhanyun Wang as the main applicant. There is one conflicting mention ('Nowack') but this appears clearly as a reference to another individual (either a collaborator or in another capacity) and not the main applicant. The pattern and consistency in the majority of extractions plus supporting evidence points strongly to 'Wang' as the correct main applicant's surname.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "**Zhanyun Wang, Dr. sc. ETH Zurich**",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 69.0,
+                  "w": 245.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "# Zhanyun Wang: List of Publications (last 5 years)",
+              "bounding_boxes": [
+                {
+                  "x": 62.0,
+                  "y": 63.0,
+                  "w": 243.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "Publications B. Nowack 4",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 44.0,
+                  "w": 113.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2755,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 38,
+              "matching_text": "Wiesinger H, Wang Z, Hellweg S, 2021. Deep dive into plastic monomers, additives, and processing aids. *Environmental Science & Technology* 55(13), 9339–9351.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 645.0,
+                  "w": 433.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**Figure 1.** A schematic illustration of my research using a life-cycle approach",
+              "bounding_boxes": [
+                {
+                  "x": 149.0,
+                  "y": 369.0,
+                  "w": 295.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 43,
+              "matching_text": "Zhanyun Wang will be fully employed for the complete duration of the above-mentioned project at Empa's Technology and Society Laboratory, headed by myself, while Prof.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 397.0,
+                  "w": 456.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32001,
+                "height": 841.92004
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Laboratory name                                | Technology & Society Laboratory"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Laboratory name                                | Technology & Society Laboratory |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Laboratory name                                | Technology & Society Laboratory |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Postcode / Zipcode                             | 9014"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Postcode / Zipcode                             | 9014                            |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Postcode / Zipcode                             | 9014                            |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste, Wat...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste, Wat...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste, Wat...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "City                                           | St. Gallen"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| City                                           | St. Gallen                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| City                                           | St. Gallen                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Which ETH Domain do you belong to?             | EMPA"
-              },
-              {
-                "page": 42,
-                "matching_text": "application of Dr. Zhanyun Wang and Prof. Dr. Bernd Nowack for an ORD *Explore* project at Empa"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.999999724388213,
+            "confidence": 0.999999724388213
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Function (Title)                               | Scientist"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "First name(s)                                  | Zhanyun"
-              },
-              {
-                "page": 42,
-                "matching_text": "Dr. Zhanyun Wang"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Surname(s)                                     | Wang"
-              },
-              {
-                "page": 42,
-                "matching_text": "Dr. Zhanyun Wang"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Postcode / Zipcode                             | 9014"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -246,280 +1120,1333 @@
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Which ETH Domain do you belong to?                            | EMPA"
-              },
-              {
-                "page": 16,
-                "matching_text": "Empa – Swiss Federal Laboratories for Materials Science and Technology"
-              },
-              {
-                "page": 20,
-                "matching_text": "Bernd Nowack: List of Publications"
-              },
-              {
-                "page": 42,
-                "matching_text": "application of Dr. Zhanyun Wang and Prof. Dr. Bernd Nowack for an ORD *Explore* project at Empa"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9586,
-            "confidence": 0.9586
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Function (Title)                                              | Group Leader"
-              },
-              {
-                "page": 16,
-                "matching_text": "Group leader, Environmental Risk Assessment and Management Group, Empa – Swiss Federal Laboratories"
-              },
-              {
-                "page": 43,
-                "matching_text": "as Group Leader in the same Laboratory"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99732,
-            "confidence": 0.99732
+            "extraction_confidence": 0.9561389471210396,
+            "confidence": 0.9561389471210396
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "First name(s)                                                 | Bernd"
-              },
-              {
-                "page": 16,
-                "matching_text": "Prof. Dr. Bernd Nowack"
-              },
-              {
-                "page": 20,
-                "matching_text": "Bernd Nowack: List of Publications"
-              },
-              {
-                "page": 42,
-                "matching_text": "Prof. Dr. Bernd Nowack"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Surname(s)                                                    | Nowack"
-              },
-              {
-                "page": 16,
-                "matching_text": "Prof. Dr. Bernd Nowack"
-              },
-              {
-                "page": 20,
-                "matching_text": "Bernd Nowack: List of Publications"
-              },
-              {
-                "page": 42,
-                "matching_text": "Prof. Dr. Bernd Nowack"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Technology & Society Lab Lerchenfeldstrasse 5 9014 St. Gallen"
-              },
-              {
-                "page": 16,
-                "matching_text": "CH - 9014 St. Gallen, Switzerland"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION with function title enhanced for specificity from detailed section (page 16) and all available support. Confidence scores are averaged where multiple sources are used."
+          "reasoning": "Merged duplicate Bernd Nowack entries from idx 0 and idx 2: kept extended function from CV with lower extraction confidence, other fields unanimous."
         }
       ],
       "project_title": {
-        "reasoning": "Multiple verbatim extractions—the most complete version explicitly appears in both the Research Proposal and supporting documents; deduplicating and standardizing based on the citations.",
-        "citation": [
-          {
-            "page": 27,
-            "matching_text": "1. Project title\nA Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)"
-          },
-          {
-            "page": 42,
-            "matching_text": "project entitled \"A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)"
-          }
-        ],
+        "reasoning": "The title appears in several key places: in section 'Project title' (page 27), in formal support communications (page 42), and once as a shorter variant without the acronym (page 3). The descriptive phrase on page 32 is a summary but not the official project title. The most complete and recurrent version is 'A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)'.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 271.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "| A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses) |\n| ------------------------------------------------------------------------------ |",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 315.0,
+                  "w": 421.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Bernd Nowack for an ORD *Explore* project at Empa's Technology and Society Laboratory for the project entitled \"A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)\", pend...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32001,
+                "height": 841.92004
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| A Toolbox for Providing Open Data on Chemical and Material Uses...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 271.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "| A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses) |\n| ------------------------------------------------------------------------------ |",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 315.0,
+                  "w": 421.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "thus enhance the accessibility of future use data, and the proposed workflow(s) and tools can help to automate extraction and harmonization of existing use data from different sources.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 110.0,
+                  "w": 459.0,
+                  "h": 88.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "...for an ORD *Explore* project at Empa's Technology and Society Laboratory for the project entitled \"A Toolbox for Providing Open Data on Chemical and Material Uses (OpenChemUses)\", pending ethical cle...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32001,
+                "height": 841.92004
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 36,
+              "matching_text": "Table 1. Project timeline of activities and deliverables",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 314.0,
+                  "w": 259.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 293.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project: OpenChemUses"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Acronym of the project**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 65246::ORD2022-Track A-project-proposal-OpenChemUses-14April-clean.pdf                                     |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 352.0,
+                  "w": 410.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Sep 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Open data on the uses are key for the safety assessment of existing chemicals and materials, and for the design of novel safer ones. However, the availability and accessibility of use data in the public domain is limited. For many chemicals and materials, use data have been reported, but they cannot be readily extracted and used by scientists, regulators and the industry on a large scale. This is because they are scattered over the public domain, and are often reported using different terminologies and in a non-machine-readable/processable format. Against this background, this project aims to enable and engage the scientific and regulatory communities to build up open FAIR data on the uses of chemicals and materials by developing and disseminating a toolbox of the missing tools. In particular, the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction and harmonization of existing reporting from different types of sources, to be used by researchers within the ETH-Domain, as well as external researchers including industrial scientists, regulators, and civil society organisations. The project will take a participatory approach, with stakeholders within and outside the ETH-Domain to be engaged in the testing, finalization and dissemination of the toolbox."
-          }
-        ],
-        "extraction_confidence": 0.9999983207169948,
-        "confidence": 0.9999983207169948
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999997180373669,
+        "confidence": 0.9999997180373669,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "In particular, the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automa...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste, Wat...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste,...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste,...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "cheminformatics, natural language processing, chemical and material safety assessment, ..."
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9989438285048354,
-          "confidence": 0.9989438285048354
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| \\*\\*Please enter up to 5 keywords that characterise your proposal (separated by commas)\\*\\*cheminformatics, natural language processing, chemical and material safety assessment, chemical and mate...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "..., the toolbox will include a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction a...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...nclude a standard and templates for future reporting, as well as a set of novel cheminformatics and natural language processing-based workflows and tools for automated extraction and harmonization of...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...t characterise your proposal (separated by commas)\\*\\*cheminformatics, natural language processing, chemical and material safety assessment, chemical and material innovation, use information...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...y commas)\\*\\*cheminformatics, natural language processing, chemical and material safety assessment, chemical and material innovation, use information...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "...| 1 Sep 2022...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 159.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| Does this activity involve the use of human cells or tissues? | No |\n| ------------------------------------------------------------- | -- |",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 463.0,
+                    "w": 244.0,
+                    "h": 23.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+                "bounding_boxes": [
+                  {
+                    "x": 160.0,
+                    "y": 83.0,
+                    "w": 370.0,
+                    "h": 57.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+                "bounding_boxes": [
+                  {
+                    "x": 160.0,
+                    "y": 83.0,
+                    "w": 370.0,
+                    "h": 57.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+                "bounding_boxes": [
+                  {
+                    "x": 160.0,
+                    "y": 83.0,
+                    "w": 370.0,
+                    "h": 57.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date: 1 Sep 2022"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION. Project duration of 17 months is stated directly on page 39 and indicated unambiguously in the project's summary section.",
-        "citation": [
-          {
-            "page": 39,
-            "matching_text": "The total project duration will be 17 months"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| CV corresponding applicant                     | 65243::2022-ORD-CV-Wang.pdf     |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 334.0,
+                  "w": 175.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 159.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# \"Explore Projects\" - Deadline 14th April 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 31.0,
+                  "y": 140.0,
+                  "w": 521.0,
+                  "h": 76.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 39,
-            "matching_text": "The total project duration will be 17 months with a budget of 150 kCHF."
-          },
-          {
-            "page": 41,
-            "matching_text": "Total Costs (A + B)             | 150 000"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999999848527595,
-        "confidence": 0.999999848527595
+        "extraction_confidence": 0.9999999515968399,
+        "confidence": 0.9999999515968399,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF**                         | 150000                                                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 727.0,
+                  "w": 499.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 39,
+              "matching_text": "The total project duration will be 17 months with a budget of 150 kCHF.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 469.0,
+                  "h": 106.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF**                         | 150000                                                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 727.0,
+                  "w": 499.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste, Wat...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste,...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| 2022–2023 | Clean Cycle 2.0: Maximize Plastic Recycling Without Exposure to Hazardous Chemicals (2 postdocs), Swiss Federal Office for the Environment (FOEN) and Zürich Cantonal Office of Waste,...",
+              "bounding_boxes": [
+                {
+                  "x": 61.0,
+                  "y": 565.0,
+                  "w": 472.0,
+                  "h": 220.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "WP1 is to develop a standard for future use data reporting"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "WP1 is to develop a standard for future use data reporting"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9840181484220595,
-            "confidence": 0.9840181484220595
+            "extraction_confidence": 0.9994548882375186,
+            "confidence": 0.9994548882375186
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "WP2 is to develop workflow(s) and tools for automated extraction and harmonization of existing use data"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 33,
-                "matching_text": "WP2 is to develop workflow(s) and tools for automated extraction and harmonization of existing use data"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9989689424265356,
-            "confidence": 0.9989689424265356
+            "extraction_confidence": 0.9959068590898064,
+            "confidence": 0.9959068590898064
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 45,
-      "num_document_tokens": 29611,
-      "num_output_tokens": 10983
-    }
+      "num_pages_extracted": 44,
+      "num_document_tokens": 29818,
+      "num_output_tokens": 6748
+    },
+    "parse_job_id": "1b1f33ff-5656-4253-a160-f1a2ccb5cb95"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "8831621e-7446-42ac-af75-0f95769098ce",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:31:00.322656+00:00",
-  "updated_at": "2025-11-11T13:33:42.152916+00:00"
+  "job_id": "c953d932-33c8-4d1d-be64-81769be6feb0",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T16:40:07.553553+00:00",
+  "updated_at": "2026-01-21T16:42:11.596736+00:00"
 }

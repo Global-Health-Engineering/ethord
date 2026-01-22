@@ -25,224 +25,2361 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "Multiple verbatim extractions across the document all yield the same value (149,990 CHF) from a budget table and explicit statements. Using the deduplicated and corroborated highest value. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "| **Total requested amount in CHF** | 149990 |"
-          },
-          {
-            "page": 40,
-            "matching_text": "The total requested budget is 149,990.00 CHF."
-          },
-          {
-            "page": 42,
-            "matching_text": "Total Costs (A + B)             |                                                  |          |          |          | 149,990.00"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.7819633795679075,
-        "confidence": 0.7819633795679075
+        "extraction_confidence": 0.999998586958442,
+        "confidence": 0.999998586958442,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF** | 149990 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 665.0,
+                  "w": 149.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "The total requested budget is 149,990.00 CHF.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 194.0,
+                  "w": 715.0,
+                  "h": 41.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  |          |          |          | 149,990.00 |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 52.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 52.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 52.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "The total requested budget is 149,990.00 CHF.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 194.0,
+                  "w": 715.0,
+                  "h": 41.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Personell     | Senior Staff              | Salary Dr. Matthias Bannert                            | 20,000.00"
-          },
-          {
-            "page": 41,
-            "matching_text": "Senior Staff | 20,000.00 |           | 20,000.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.8164419811288203,
-        "confidence": 0.8164419811288203
-      },
-      "total_budget_personnel_other": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Personell     | Other                     | Salary Lars Schöbitz                                   | 29,700.00"
-          },
-          {
-            "page": 40,
-            "matching_text": "Personell     | Other                     | Salary Scientific Assisstant                           | 85,000.00"
-          },
-          {
-            "page": 41,
-            "matching_text": "Other        | 29,700.00 | 85,000.00 | 114,700.00"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.993193813293742,
-        "confidence": 0.993193813293742
-      },
-      "total_budget_travel": {
-        "reasoning": "Both extractions are verbatim and report the same value (4,090.00 CHF) for 'Travel' from separate but related tables. Confidence scores are high and averaged for combined value.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Travel        | Travel                    | Expenses for participation in international conference | 4,090.00"
-          },
-          {
-            "page": 41,
-            "matching_text": "Travel²      |              | 4,090.00  |           | 4,090.00"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999469556896841,
-        "confidence": 0.9999469556896841
-      },
-      "total_budget_equipment": {
-        "reasoning": "Both excerpts provide the same equipment total (5,000.00 CHF) from different parts of the document. There is no evidence they refer to separate amounts; therefore, the equipment budget is 5,000.00 CHF. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Equipment     | Equipment                 | ORD tools and infrastructure                           | 5,000.00"
-          },
-          {
-            "page": 42,
-            "matching_text": "Equipment³                                       |          |          |          | 5,000.00"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9998515646155294,
-        "confidence": 0.9998515646155294
-      },
-      "total_budget_other_conferences_workshops": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 42,
-            "matching_text": "Conferences and workshops⁵                       | 1,000.00 | 1,000.00 | 4,200.00 |            | 6,200.00"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9066145707540463,
+        "confidence": 0.9066145707540463,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "No CHF value is provided for Postdocs in the extracted table segment. The cell is empty, so the best interpretation is that either no funds are budgeted for this category or the data was not supplied. Reporting a value of 0 with this context.",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "Postdocs     |           |           |"
-          }
-        ],
+        "reasoning": "All provided segments state 'INSUFFICIENT DATA' or effectively indicate the budget cell for 'Postdocs' is blank. Therefore, based on verbatim absence and explicit statement of the category with no value, the correct and conservative extraction is zero.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "Students     |           |           |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999014336432613,
+        "confidence": 0.9999014336432613,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "i. Total Direct Costs for Personnel |              |           |           | 134,700.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999995939859303,
-        "confidence": 0.9999995939859303
+        "extraction_confidence": 0.9999965654970571,
+        "confidence": 0.9999965654970571,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 41,
+              "matching_text": "|                                                     | i. Total Direct Costs for Personnel                 |                                                     |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 189.0,
+                  "w": 700.0,
+                  "h": 227.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 41,
+              "matching_text": "|                                                     | i. Total Direct Costs for Personnel                 |                                                     |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 189.0,
+                  "w": 700.0,
+                  "h": 227.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_travel": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999936748222304,
+        "confidence": 0.9999936748222304,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 41,
+              "matching_text": "|                                                     | Travel²                                             |                                                     | 4,090.00...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 189.0,
+                  "w": 700.0,
+                  "h": 227.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_equipment": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9484250990555362,
+        "confidence": 0.9484250990555362,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| Equipment     | Equipment                 | ORD tools and infrastructure                           | 5,000.00  | 3.3     | ORD     | IT infrastructure of WP0. Reproducible computational environme...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 273.0,
+                  "w": 714.0,
+                  "h": 204.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "|                                 | Equipment³                                       |          |          |          | 5,000.00   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "INSUFFICIENT DATA. The relevant budget row is present, but the CHF amount is missing. As per common extraction practice for empty budget items, we return 0.",
-        "citation": [
-          {
-            "page": 42,
-            "matching_text": "Publications (including Open Access fees), etc.⁴ |          |          |          |            |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_conferences_workshops": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999937046363614,
+        "confidence": 0.9999937046363614,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "|                                 | Conferences and workshops⁵                       | 1,000.00 | 1,000.00 | 4,200.00 | 6,200.00   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 42,
-            "matching_text": "Other (please specify)⁶                          |          |          |          |            |"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 42,
-            "matching_text": "ii. Total Other Direct Costs    |                                                  |          |          |          | 15,290.00"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999999724388213,
-        "confidence": 0.999999724388213
+        "extraction_confidence": 0.9999968635051194,
+        "confidence": 0.9999968635051194,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| ii. Total Other Direct Costs    |                                                  |          |          |          | 15,290.00  |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "'A – Total Direct Costs (i + ii)' is 149,990.00."
-          }
-        ],
-        "extraction_confidence": 0.9996717798639185,
-        "confidence": 0.9996717798639185
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999967331033234,
+        "confidence": 0.9999967331033234,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  |          |          |          | 149,990.00 |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "'B – Subcontracting Costs⁷' listed as 0.00."
-          }
-        ],
-        "extraction_confidence": 0.9999267184979828,
-        "confidence": 0.9999267184979828
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Page 1 of 2",
+              "bounding_boxes": [
+                {
+                  "x": 491.0,
+                  "y": 806.0,
+                  "w": 51.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "1. Project title",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 78.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 37,
+              "matching_text": "10. Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2022). Quarto (0.3) [TypeScript]. https://doi.org/10.5281/zenodo.5960048",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 119.0,
+                  "w": 465.0,
+                  "h": 580.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 42,
+              "matching_text": "| B – Subcontracting Costs ⁷      |                                                  |          |          |          | 0.00       |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 117.0,
+                  "w": 700.0,
+                  "h": 273.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
-      "num_pages_extracted": 46,
-      "num_document_tokens": 29384,
-      "num_output_tokens": 5231
-    }
+      "num_pages_extracted": 45,
+      "num_document_tokens": 29521,
+      "num_output_tokens": 5570
+    },
+    "parse_job_id": "3e73eafd-b010-40bb-ac5c-1e5f14341558"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "0107704e-1057-47dd-ac90-b3c7baa806a0",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:35:50.928173+00:00",
-  "updated_at": "2025-11-11T14:36:45.446280+00:00"
+  "job_id": "5e90f994-d3d0-4273-92da-645451bccf90",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:56:35.955469+00:00",
+  "updated_at": "2026-01-21T19:59:17.592015+00:00"
 }

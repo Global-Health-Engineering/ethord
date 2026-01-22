@@ -3,13 +3,13 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 2,
+      "quantity": 1,
       "descriptions": [
-        "Source code for curation software Solidipes, Source code for the web platform"
+        "sources of the web platform"
       ],
       "urls": [
-        "https://gitlab.com/dcsm/solidipes",
-        "https://gitlab.com/dcsm/server-deployment"
+        "https://gitlab.com/dcsm/server-deployment",
+        "https://dcsm.epfl.ch"
       ]
     },
     "repositories_catalogues": {
@@ -20,7 +20,7 @@
     "datasets_databases": {
       "quantity": 2,
       "descriptions": [
-        "JTCAM data reviews (examples) curated datasets such as jtcam-data-10430 and jtcam-data-9733"
+        "JTCAM data reviews (examples): curated datasets attached with JTCAM publications"
       ],
       "urls": [
         "https://renkulab.io/projects/guillaume.anciaux/jtcam-data-10430/sessions/new?autostart=1",
@@ -30,21 +30,18 @@
     "software_tools": {
       "quantity": 2,
       "descriptions": [
-        "Solidipes data curation tool (Python package), Source code for the web platform (deployment)"
+        "sources of the curation software",
+        "Renku templates"
       ],
       "urls": [
         "https://gitlab.com/dcsm/solidipes",
-        "https://gitlab.com/dcsm/server-deployment"
+        "https://gitlab.com/dcsm/renku-templates"
       ]
     },
     "models_standards": {
-      "quantity": 1,
-      "descriptions": [
-        "Renku templates for preparing datasets, enabling workflow deployment and standardization"
-      ],
-      "urls": [
-        "https://gitlab.com/dcsm/renku-templates"
-      ]
+      "quantity": 0,
+      "descriptions": [],
+      "urls": []
     },
     "workshops": {
       "quantity": 0,
@@ -64,7 +61,7 @@
     "presentations": {
       "quantity": 2,
       "descriptions": [
-        "Seminars at ORPER summer school (EPFL) and Open Access Week 2023 (EPFL)"
+        "Presentations (e.g. conferences, poster, etc.) directly related to the project"
       ],
       "urls": [
         "https://edu.epfl.ch/coursebook/en/orper-summer-school-BIO-604",
@@ -84,10 +81,14 @@
     "new_collaborations": {
       "quantity": 4,
       "descriptions": [
-        "Collaboration with LASTRO (EPFL), EPFL Library, Renku SDSC team, JTCAM editorial board"
+        "LASTRO (EPFL)",
+        "EPFL Library",
+        "Renku SDSC",
+        "JTCAM editorial board"
       ],
       "urls": [
         "https://www.epfl.ch/labs/lastro/",
+        "https://www.epfl.ch/campus/library/",
         "https://www.datascience.ch/resources/renku",
         "https://jtcam.episciences.org/"
       ]
@@ -103,9 +104,15 @@
       "urls": []
     },
     "other_outputs": {
-      "quantity": 0,
-      "descriptions": [],
-      "urls": []
+      "quantity": 2,
+      "descriptions": [
+        "User documentation sources",
+        "General documentation"
+      ],
+      "urls": [
+        "https://solidipes.readthedocs.io/en/latest/",
+        "https://dcsm.readthedocs.io/en/latest/"
+      ]
     }
   },
   "metadata": {
@@ -117,422 +124,859 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9995694234965996,
+          "confidence": 0.9995694234965996,
           "citation": [
             {
-              "page": 6,
-              "matching_text": "sources of the curation software | 1"
-            },
-            {
-              "page": 6,
-              "matching_text": "sources of the web platform | 1"
+              "page": 1,
+              "matching_text": "– 1 of 7 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 768.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.7402761499702981,
-          "confidence": 0.7402761499702981
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9786644703362479,
+            "confidence": 0.9786644703362479,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "sources of the curation software | 1"
-              },
-              {
-                "page": 6,
-                "matching_text": "sources of the web platform | 1"
+                "matching_text": "| sources of the web platform                                                     | 1                | \\[<https://gitlab.com/dcsm/server-deployment]([https://gitlab.com/dcsm/server-deployment](https:/...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 534.0,
+                    "w": 482.0,
+                    "h": 220.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5611556339903877,
-            "confidence": 0.5611556339903877
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999967313951532,
+            "confidence": 0.9999967313951532,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "...ces of the web platform                                                     | 1                | \\[<https://gitlab.com/dcsm/server-deployment]([https://gitlab.com/dcsm/server-deployment](https://gitla...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 534.0,
+                    "w": 482.0,
+                    "h": 220.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "The service https://dcsm.epfl.ch accepts S3/JuiceFS connections, which allows to stream data (only the necessary data is transferred).",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 370.0,
+                    "w": 476.0,
+                    "h": 218.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "There are two counts listed: one for 'sources of the curation software' (the main web platform) and one for its deployment. Direct URLs provided; both are explicitly platforms/software/web-based."
+        "reasoning": "The outputs table lists 'sources of the web platform' (1), with the matching GitLab repository. The narrative/listings also describe https://dcsm.epfl.ch as the deployed web platform. Both URLs included; description follows outputs table."
       },
       "repositories_catalogues": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999983759447105,
-          "confidence": 0.9999983759447105
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
-        "reasoning": "There is no explicit mention of a new or enhanced repository or catalogue created by the project in the outputs table."
+        "reasoning": "INSUFFICIENT DATA - No outputs explicitly mention creation or enhancement of repositories/catalogues. The project interacts with Zenodo and Renku, but these are existing infrastructures."
       },
       "datasets_databases": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "JTCAM data reviews (examples) | 2+"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 7 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 767.0,
+                  "w": 42.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6579285719029749,
+            "confidence": 0.6579285719029749,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "JTCAM data reviews (examples) | 2+"
+                "page": 3,
+                "matching_text": "Anciaux uses the service a lot to curate the datasets attached with JTCAM publications, as can be seen on the related [Zenodo community](https://zenodo.org/communities/jtcam/records?q=&l=list&p=1&s...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 370.0,
+                    "w": 476.0,
+                    "h": 218.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7776286066967281,
-            "confidence": 0.7776286066967281
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999208798646,
+            "confidence": 0.9999999208798646,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "jtcam-data-10430"
+                "page": 3,
+                "matching_text": "Examples of datasets curated for the JTCAM journal can be found online on Renku ([jtcam-data-10430](https://renkulab.io/projects/guillaume.anciaux/jtcam-data-10430/sessions/new?autostart=1), and [jtca...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 243.0,
+                    "w": 476.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999999885430271,
-            "confidence": 0.999999885430271
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999044379849,
+            "confidence": 0.9999999044379849,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "jtcam-data-9733"
+                "page": 3,
+                "matching_text": "...utostart=1), and [jtcam-data-9733](https://renkulab.io/projects/guillaume.anciaux/[jtcam-data-9733](https://renkulab.io/projects/guillaume.anciaux/jtcam-data-9733/sessions/new?autostart=1)/sessions/ne...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 243.0,
+                    "w": 476.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998319941542,
-            "confidence": 0.9999998319941542
+            ]
           }
         ],
-        "reasoning": "The table lists 'JTCAM data reviews (examples)' with 2+, and refers to tangible datasets (jtcam-data-10430 and jtcam-data-9733) with links."
+        "reasoning": "Verbatim extraction from outputs table, cross-validated by narrative in WP2 and WP3 describing curated datasets linked to JTCAM journal. URLs for 2 datasets given."
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
-              "page": 6,
-              "matching_text": "sources of the curation software | 1"
-            },
-            {
-              "page": 6,
-              "matching_text": "sources of the web platform | 1"
+              "page": 2,
+              "matching_text": "– 2 of 7 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 767.0,
+                  "w": 42.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9698135118217182,
-          "confidence": 0.9698135118217182
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999995969480737,
+            "confidence": 0.999995969480737,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "sources of the curation software | 1"
-              },
-              {
-                "page": 6,
-                "matching_text": "sources of the web platform | 1"
+                "matching_text": "| sources of the curation software                                                | 1                | \\[<https://gitlab.com/dcsm/solidipes](https://gitlab.com/dcsm/solidipes)>...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 534.0,
+                    "w": 482.0,
+                    "h": 220.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.5406766184701466,
-            "confidence": 0.5406766184701466
+            "extraction_confidence": 0.9999998709249087,
+            "confidence": 0.9999998709249087,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "WP1: Renku templates have been developed and published on a GitLab repository ([https://gitlab.com/dcsm/renku-templates](https://gitlab.com/dcsm/renku-templates)).",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 707.0,
+                    "w": 476.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "The major pieces of software are contained in a Python package: [Solidipes](https://gitlab.com/dcsm/solidipes).",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 85.0,
+                    "w": 476.0,
+                    "h": 138.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           },
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "WP1: Renku templates have been developed and published on a GitLab repository ([https://gitlab.com/dcsm/renku-templates](https://gitlab.com/dcsm/renku-templates)).",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 707.0,
+                    "w": 476.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Directly extracted from the first two rows of the outputs table: one for the Solidipes software, one for the web platform implementation."
+        "reasoning": "Direct extraction—outputs table lists these, narrative confirms their function as software/tools."
       },
       "models_standards": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Renku templates | 1"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Renku templates | 1"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.36782636368154564,
-            "confidence": 0.36782636368154564
-          }
-        ],
-        "urls": [
-          {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          }
-        ],
-        "reasoning": "Renku templates are specific workflow/standard artifacts, and directly counted in the outputs table."
+        "reasoning": "INSUFFICIENT DATA – No evidence of new/enhanced models, standards, guidelines, workflows, benchmarks, protocols, or best practice as defined output."
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No row or evidence for scientific workshops organized as part of the project in the output table or report."
+        "reasoning": "INSUFFICIENT DATA – Presentations and seminars are listed, but no scientific workshops are described as organized by the project itself."
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.6224587548018219,
-          "confidence": 0.6224587548018219
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
-        "reasoning": "No explicit number of training/educational events/resources in output table; videos mentioned but not numbered as event or resource."
+        "reasoning": "INSUFFICIENT DATA – Project contributed presentations and invited seminars to existing events but did not organize distinct training/educational events as outputs."
       },
       "publications": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No scientific publications are reported as outputs for this project in the table or supporting text."
+        "reasoning": "INSUFFICIENT DATA – No publications (in progress, submitted, accepted, or published) by the project itself are listed in the outputs table or narrative."
       },
       "presentations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | 2"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 7 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 767.0,
+                  "w": 42.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9725459034290511,
+            "confidence": 0.9725459034290511,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Presentations (e.g. conferences, poster, etc.) directly related to the project: | 2"
+                "matching_text": "| Presentations (e.g. conferences, poster, etc.) directly related to the project: | 2                | \\[<https://edu.epfl.ch/coursebook/en/orper-summer-school-BIO-604]([https://edu.epfl.ch/coursebook...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 534.0,
+                    "w": 482.0,
+                    "h": 220.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6232501784719009,
-            "confidence": 0.6232501784719009
+            ]
           }
         ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999760212405956,
+            "confidence": 0.9999760212405956,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "orper-summer-school-BIO-604"
+                "page": 3,
+                "matching_text": "...23](https://memento.epfl.ch/event/open-access-week-2023/) at EPFL, during the [ORPER summer school](https://edu.epfl.ch/coursebook/en/orper-summer-school-BIO-604) where the project was first introduce...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 608.0,
+                    "w": 476.0,
+                    "h": 122.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999892410020029,
-            "confidence": 0.999892410020029
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999864307328226,
+            "confidence": 0.9999864307328226,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "open-access-week-2023"
+                "page": 3,
+                "matching_text": "Anciaux gave a talk during the [open access week 2023](https://memento.epfl.ch/event/open-access-week-2023/) at EPFL, during the [ORPER summer school](https://edu.epfl.ch/coursebook/en/orper-summer-sc...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 608.0,
+                    "w": 476.0,
+                    "h": 122.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999392217141093,
-            "confidence": 0.9999392217141093
+            ]
           }
         ],
-        "reasoning": "Verbatim extraction from the outputs table: two presentations directly related to the project, with URLs provided."
+        "reasoning": "Direct extraction from outputs table – 2 presentations/events directly connected to project."
       },
       "outreach_activities": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No separate outputs for outreach activities are reported in table; relevant events are classified under presentations."
+        "reasoning": "INSUFFICIENT DATA – All such activities are accounted for under presentations; no distinct entries for outreach/dissemination events."
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No patents, patent applications, or IP are mentioned in any outputs row or narrative."
+        "reasoning": "INSUFFICIENT DATA – There are no outputs of patents, patent applications, or other IP connected to the project."
       },
       "new_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "New collaborations | 4"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "– 4 of 7 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 766.0,
+                  "w": 42.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9942281788855436,
+            "confidence": 0.9942281788855436,
             "citation": [
               {
-                "page": 6,
-                "matching_text": "New collaborations | 4"
+                "page": 1,
+                "matching_text": "To be submitted by the main applicant directly to [research@epfl.ch](mailto:research@epfl.ch) along with the financial reporting.",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 189.0,
+                    "w": 444.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7803805076621921,
-            "confidence": 0.7803805076621921
+            "extraction_confidence": 0.9999636584744472,
+            "confidence": 0.9999636584744472,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Anciaux also made direct contact with the Renku developers team, the EPFL library, the Open Science department of EPFL and the LASTRO ([https://www.epfl.ch/labs/lastro/](https://www.epfl.ch/labs/lastr...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 455.0,
+                    "w": 476.0,
+                    "h": 75.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9994519483594492,
+            "confidence": 0.9994519483594492,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "|   |   | \\[Renku SDSC]\\(<https://www.datascience.ch/resources/renku>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998816171651548,
+            "confidence": 0.9998816171651548,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "|   |   | \\[JTCAM]\\(<https://jtcam.episciences.org/>) editorial board  |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           }
         ],
         "urls": [
           {
-            "extraction_confidence": 0.9999976593969027,
-            "confidence": 0.9999976593969027
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998745955909,
+            "confidence": 0.9999998745955909,
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...h the Renku developers team, the EPFL library, the Open Science department of EPFL and the LASTRO ([https://www.epfl.ch/labs/lastro/](https://www.epfl.ch/labs/lastro/)) to advertise this project which...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 455.0,
+                    "w": 476.0,
+                    "h": 75.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           },
           {
-            "extraction_confidence": 0.9969856058890937,
-            "confidence": 0.9969856058890937
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9998063985768477,
+            "confidence": 0.9998063985768477,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "[EPFL library](https://www.epfl.ch/campus/library/)) will surely become essential, which will be addressed within the follow-up proposal.",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 326.0,
+                    "w": 465.0,
+                    "h": 123.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           },
           {
-            "extraction_confidence": 0.9999997930595845,
-            "confidence": 0.9999997930595845
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999706535619658,
+            "confidence": 0.9999706535619658,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "|   |   | \\[Renku SDSC]\\(<https://www.datascience.ch/resources/renku>) |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "|   |   | \\[JTCAM]\\(<https://jtcam.episciences.org/>) editorial board  |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 28.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Verbatim from the outputs table with supplemental details on next page of report."
+        "reasoning": "Direct extraction from outputs section, on p6–7, despite line breaks. Four collaborations are named, with corresponding URLs."
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "No outputs regarding industrial collaborations or contracts mentioned in table or report."
+        "reasoning": "INSUFFICIENT DATA – No industrial collaborations or contracts listed or discussed."
       },
       "estimated_users": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999598739643123,
-          "confidence": 0.9999598739643123
+          "extraction_confidence": 1.0,
+          "confidence": 1.0
         },
-        "reasoning": "No estimated number of users within the community benefiting from enhanced ORD practices is reported."
+        "reasoning": "INSUFFICIENT DATA – No community user estimate is provided."
       },
       "other_outputs": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9964053362188351,
+          "confidence": 0.9964053362188351,
           "citation": [
             {
-              "page": 6,
-              "matching_text": "INSUFFICIENT DATA"
+              "page": 2,
+              "matching_text": "– 2 of 7 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 767.0,
+                  "w": 42.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.303937007874,
+                "height": 841.889763779528
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999891973194788,
-          "confidence": 0.9999891973194788
+          ]
         },
-        "reasoning": "Items such as documentation are explicitly named, but not under 'Other outputs' category; counted in other categories. No other outputs specified."
+        "descriptions": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999998137537802,
+            "confidence": 0.999998137537802,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "| User documentation sources                                                      | 1                | \\[<https://solidipes.readthedocs.io/en/latest/](https://solidipes.readthedocs.io/en/latest/)>...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 534.0,
+                    "w": 482.0,
+                    "h": 220.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9997214382266426,
+            "confidence": 0.9997214382266426,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "A more general documentation about the project ideas and philosophy was published ([https://dcsm.readthedocs.io/en/latest/](https://dcsm.readthedocs.io/en/latest/)), also serving as a repository for t...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 576.0,
+                    "w": 476.0,
+                    "h": 154.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "Additionally, tutorial videos (https://solidipes.readthedocs.io/en/latest/src/user/videos.html) have been realized thanks to this project’s fund.",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 576.0,
+                    "w": 476.0,
+                    "h": 154.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997454583102,
+            "confidence": 0.9999997454583102,
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "A more general documentation about the project ideas and philosophy was published ([https://dcsm.readthedocs.io/en/latest/](https://dcsm.readthedocs.io/en/latest/)), also serving as a repository for t...",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 576.0,
+                    "w": 476.0,
+                    "h": 154.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
+              }
+            ]
+          }
+        ],
+        "reasoning": "Identified two types of documentation in outputs: 'User documentation' and 'General documentation', which do not fit other categories. Tutorial videos are referenced but hosted at the documentation URLs."
       }
     },
     "usage": {
-      "num_pages_extracted": 8,
-      "num_document_tokens": 5064,
-      "num_output_tokens": 2443
-    }
+      "num_pages_extracted": 7,
+      "num_document_tokens": 5160,
+      "num_output_tokens": 1577
+    },
+    "parse_job_id": "d1a20253-46c4-4073-87a2-92bf6c9b87fa"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "baa6cdce-1620-4913-9560-b7cd26b07281",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:55:47.590602+00:00",
-  "updated_at": "2025-11-11T18:56:41.114109+00:00"
+  "job_id": "a3e915c7-b028-42b0-a9dd-0692eb3c2342",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:51:22.610005+00:00",
+  "updated_at": "2026-01-22T03:52:28.523111+00:00"
 }

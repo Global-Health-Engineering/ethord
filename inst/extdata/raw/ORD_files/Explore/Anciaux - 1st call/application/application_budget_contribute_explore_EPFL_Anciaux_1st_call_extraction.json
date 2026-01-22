@@ -3,16 +3,16 @@
   "status": "success",
   "data": {
     "total_budget_personnel_senior_staff": 75000.0,
-    "total_budget_personnel_postdocs": null,
+    "total_budget_personnel_postdocs": 0.0,
     "total_budget_personnel_students": 33777.0,
-    "total_budget_personnel_other": null,
+    "total_budget_personnel_other": 0.0,
     "total_budget_personnel_total_direct": 108777.0,
     "total_budget_travel": 7000.0,
     "total_budget_equipment": 10000.0,
     "total_budget_other_publication_fees": 4000.0,
     "total_budget_other_conferences_workshops": 2000.0,
-    "total_budget_other_other": null,
-    "total_budget_other_total_direct": 131777.0,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
     "total_budget_total_direct": 131777.0,
     "total_budget_subcontracting": 0.0,
     "total_budget_total_costs": 131777.0
@@ -26,158 +26,2004 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "Total requested amount in CHF: 131777"
-          },
-          {
-            "page": 33,
-            "matching_text": "Total Costs (A + B): 131777 CHF"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF** | 131777 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 690.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  | 23000 + 108777 = 131777 CHF |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Senior Staff ... Total in CHF 75000"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Students ... 3 x 10320 = 30960 ... 3 x 939 = 2817 ... 33777 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "i. Total Direct Costs for Personnel 108777"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  | 23000 + 108777 = 131777 CHF |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Travel found in cost category with value 7000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Equipment found in cost category with value 10000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 39,
+              "matching_text": "|                                         |                                         | Students                                | 0               | 3 student assistants (6 months - 430 hrs each)<br/>...",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 154.0,
+                  "w": 672.0,
+                  "h": 262.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Publications (including Open Access fees), etc.4 | 4000 CHF"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 4000 CHF                    | Open Publication in the IJNME journal |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| Other                           | Publications (including Open Access fees), etc.4 | 4000 CHF                    | Open Publication in the IJNME journal |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Conferences and workshops5 found with 2000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "|                                 | Conferences and workshops5                       | 2000 CHF                    | Conference fee for WCCM 2024          |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Total for 'A – Total Direct Costs (i + ii)' given as 131777 CHF (sum of 108777 CHF personnel + 23000 CHF other)."
-          }
-        ],
-        "extraction_confidence": 0.42709666779891536,
-        "confidence": 0.42709666779891536
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "A – Total Direct Costs (i + ii) given as 131777 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 535.0,
+                  "y": 805.0,
+                  "w": 5.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  | 23000 + 108777 = 131777 CHF |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "B – Subcontracting Costs7 stated as 0."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "error": "Input should be a valid number at path (total_budget_personnel_postdocs)\nInput should be a valid number at path (total_budget_personnel_other)\nInput should be a valid number at path (total_budget_other_other)"
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
-      "num_pages_extracted": 59,
-      "num_document_tokens": 35784,
-      "num_output_tokens": 2899
-    }
+      "num_pages_extracted": 58,
+      "num_document_tokens": 35829,
+      "num_output_tokens": 4814
+    },
+    "parse_job_id": "31ca32fb-2cda-490d-bb2f-84f113ff02ab"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "deff8d65-0121-482f-873d-2d9f1e76dfd0",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:14:25.167990+00:00",
-  "updated_at": "2025-11-11T14:15:29.622906+00:00"
+  "job_id": "50b540f4-85be-4847-ac69-1867a4d55407",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:18:06.713614+00:00",
+  "updated_at": "2026-01-21T20:21:34.089721+00:00"
 }

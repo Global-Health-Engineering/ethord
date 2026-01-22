@@ -10,20 +10,16 @@
     "main_applicant_laboratory_name": "Microbial Specialized Metabolism",
     "main_applicant_postcode": 8600,
     "main_applicant_city": "Duebendorf",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "Eawag",
-        "function_title": "Group leader",
-        "first_name": "Serina",
-        "surname": "Robinson",
-        "postcode": 8600
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform",
     "project_acronym": "enviPath+EDGEbp",
     "project_abstract": "Chemical pollution has exceeded planetary boundaries, requiring urgent solutions for chemical waste removal. Microbial biodegradation processes are crucial for breaking down chemical contaminants, yet the functions of microbial communities are often challenging to predict. To address this challenge, we aim to contribute a new pipeline, EDGEbp (Enabling Detection of metaGEnomic biodegradation potential), to advance the research capabilities of the ORD biodegradation prediction software, enviPathPlus. Specifically, in EDGEbp, we will build a Hidden Markov Model-based pipeline to identify biodegradation genes and pathways from total microbial community DNA (metagenomic) sequencing data. EDGEbp will output confidence scores to infer the ‘contaminant biodegradation potential’ of a given microbial community based on sequencing information. In other words, our aim is to build a tool to convert unintelligible DNA sequences into easily-understood biodegradation confidence scores. This will help us infer the capabilities of a specific microbiome to transform chemical contaminants. This project will therefore advance the sustainable development goals of improving water quality by reducing chemical pollution through microbial biodegradation. Overall, we anticipate that EDGEbp will expand the cutting-edge functionalities of the ORD tool enviPathPlus to support its long-term preservation and promote community engagement in line with ORD principles.",
     "keywords": [
-      "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics"
+      "Biodegradation",
+      "Metagenome mining",
+      "Microbiome",
+      "Hidden Markov Models",
+      "Bioinformatics"
     ],
     "start_date": "1 Mar 2024",
     "project_duration_months": 12,
@@ -31,15 +27,15 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Curate and collate existing databases to build a biodegradation gene catalog"
+        "wp_title": "Generate a biodegradation gene catalog"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Build custom biodegradation HMMs"
+        "wp_title": "Train custom biodegradation gene HMMs"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Provide a documented pipeline, EDGEbp"
+        "wp_title": "Provide a well-documented EDGEbp pipeline"
       },
       {
         "wp_identifier": "WP4",
@@ -47,7 +43,7 @@
       },
       {
         "wp_identifier": "WP5",
-        "wp_title": "Evaluate EDGEbp with paired metagenomic and chemical biodegradation data"
+        "wp_title": "Evaluate EDGEbp with metagenomic data"
       }
     ]
   },
@@ -60,403 +56,2455 @@
     "field_metadata": {
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 19,
-            "matching_text": "ORD Contribute project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform”"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 6 - Deadline: 12 December 2023 (17:00 CET)",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 140.0,
+                  "w": 445.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "ETH Domain ORD Program\nContribute track",
+              "bounding_boxes": [
+                {
+                  "x": 110.0,
+                  "y": 188.0,
+                  "w": 137.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_institution": {
-        "reasoning": "Both entries, including a letter of support citing Eawag as Dr. Robinson's institution, directly identify Eawag as the main applicant institution. No contradictory or ambiguous evidence.",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "I, Frederik Hammes, Department Head of Environmental Microbiology at Eawag, herewith support the application of Serina Robinson"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Which ETH Domain do you belong to?**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 514.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Group leader                              | Eidg. Anstalt für Wasserversorgung - EAWAG, CH<br/>Department of Environmental Microbiology | 09.2021 - Present<br/>2 year(s) 4 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 616.0,
+                  "w": 453.0,
+                  "h": 131.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Eawag: Swiss Federal Institute of Aquatic Science and Technology",
+              "bounding_boxes": [
+                {
+                  "x": 358.0,
+                  "y": 791.0,
+                  "w": 207.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function given as Group leader."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
-        "reasoning": "The first name 'Serina' is explicitly stated in both the main application and supporting correspondence. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name given as Serina."
-          },
-          {
-            "page": 19,
-            "matching_text": "the application of Serina Robinson for an ORD Contribute project entitled “Prediction of biodegradation potential"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function (Title)**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 514.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Serina Robinson\nCurrent position(s): Group leader\nAcademic age: 3 year(s) 10 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 183.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **First name(s)**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 98.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Serina Robinson | Applicant ID - ORD1000325",
+              "bounding_boxes": [
+                {
+                  "x": 297.0,
+                  "y": 40.0,
+                  "w": 260.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Serina Robinson for an ORD Contribute project at Eawag for the project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform” pending ethical cle...",
+              "bounding_boxes": [
+                {
+                  "x": 110.0,
+                  "y": 328.0,
+                  "w": 447.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "the application of Serina Robinson for an ORD Contribute project entitled “Prediction of biodegradation potential"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9999999516,
+        "confidence": 0.9999999516,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Serina Robinson\nCurrent position(s): Group leader\nAcademic age: 3 year(s) 10 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 183.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Serina Robinson | Applicant ID - ORD1000325",
+              "bounding_boxes": [
+                {
+                  "x": 297.0,
+                  "y": 40.0,
+                  "w": 260.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "I confirm that Dr. Robinson will be fully employed as a tenure-track group leader in the Department of Environmental Microbiology for the complete duration of the above-mentioned project.",
+              "bounding_boxes": [
+                {
+                  "x": 110.0,
+                  "y": 356.0,
+                  "w": 455.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Eawag<br/>Überlandstrasse 133<br/>8600 Dübendorf<br/>Switzerland<br/>Phone +41 (0)58 765 55 11<br/>Fax +41 (0)58 765 50 28<br/>[www.eawag.ch](http://www.eawag.ch) | Directorate<br/>Christian Stam...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Eawag<br/>Überlandstrasse 133<br/>8600 Dübendorf<br/>Switzerland<br/>Phone +41 (0)58 765 55 11<br/>Fax +41 (0)58 765 50 28<br/>[www.eawag.ch](http://www.eawag.ch) | Directorate<br/>Christian Stam...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Laboratory name given as Microbial Specialized Metabolism."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory name**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Microbial Specialized Metabolism    |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Postcode given as 8600."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Postcode / Zipcode**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8600                                |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City given as Duebendorf."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **City**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Duebendorf                          |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 559.0,
+                  "w": 458.0,
+                  "h": 82.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
-      "all_applicants": [
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project title**          | Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 264.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project title**          | Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 264.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 138.0,
+                  "w": 394.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Serina Robinson for an ORD Contribute project at Eawag for the project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform” pending ethical cle...",
+              "bounding_boxes": [
+                {
+                  "x": 110.0,
+                  "y": 328.0,
+                  "w": 447.0,
+                  "h": 33.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "EDGEbp will output confidence scores to infer the ‘contaminant biodegradation potential’ of a given microbial community based on sequencing information.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 501.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Acronym of the project** | enviPath+EDGEbp...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999992404414823,
+        "confidence": 0.9999992404414823,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Overall, we anticipate that EDGEbp will expand the cutting-edge functionalities of the ORD tool enviPathPlus to support its long-term preservation and promote community engagement in line with ORD...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 501.0,
+                  "h": 172.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "To apply biodegradation processes for contaminant removal, scientists and practitioners increasingly use advanced techniques like metagenomics (sequencing the total DNA from the environment) to mon...",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 206.0,
+                  "w": 460.0,
+                  "h": 240.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
         {
-          "eth_domain_institution": {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
             "citation": [
               {
-                "page": 0,
-                "matching_text": "institution: Eawag"
+                "page": 2,
+                "matching_text": "In other words, our aim is to build a tool to convert unintelligible DNA sequences into easily-understood biodegradation confidence scores.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 172.0,
+                    "w": 501.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
               }
-            ],
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Through a combination of metagenome mining, high-throughput bacterial isolation, and biochemical characterization, I contributed to the discovery of a new pathway for the biodegradation of s-triazine...",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "My research advances new methods to mine metagenomic and metatranscriptomic datasets to identify and characterize specialized microbial metabolic pathways [1][.",
+                "bounding_boxes": [
+                  {
+                    "x": 77.0,
+                    "y": 212.0,
+                    "w": 459.0,
+                    "h": 248.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "(2022) Biosynthetic potential of the global ocean microbiome.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 362.0,
+                    "w": 458.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "*Nature*, [1-8.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 362.0,
+                    "w": 458.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "*Nature*, [1-8.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 362.0,
+                    "w": 458.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "*Nature*, [1-8.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 362.0,
+                    "w": 458.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 399.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 387.0,
+                    "w": 399.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+                "bounding_boxes": [
+                  {
+                    "x": 305.0,
+                    "y": 819.0,
+                    "w": 233.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+                "bounding_boxes": [
+                  {
+                    "x": 305.0,
+                    "y": 819.0,
+                    "w": 233.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+                "bounding_boxes": [
+                  {
+                    "x": 305.0,
+                    "y": 819.0,
+                    "w": 233.0,
+                    "h": 7.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "| Master: Bioinformatics and Computational Biology Graduate Program | University of Minnesota, US<br/>Bioinformatics and Computational Biology                      | 09.2018 - 04.2020<br/>1 year(s) 8...",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 452.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...m | University of Minnesota, US<br/>Bioinformatics and Computational Biology                      | 09.2018 - 04.2020<br/>1 year(s) 8 month(s) |",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 452.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...m | University of Minnesota, US<br/>Bioinformatics and Computational Biology                      | 09.2018 - 04.2020<br/>1 year(s) 8 month(s) |",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 452.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 4,
+                "matching_text": "...m | University of Minnesota, US<br/>Bioinformatics and Computational Biology                      | 09.2018 - 04.2020<br/>1 year(s) 8 month(s) |",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 365.0,
+                    "w": 452.0,
+                    "h": 172.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995321443933,
+        "confidence": 0.9999995321443933,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 410.0,
+                  "w": 112.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 410.0,
+                  "w": 112.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 6 - Deadline: 12 December 2023 (17:00 CET)",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 140.0,
+                  "w": 445.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Both the budget table on page 17 and justification narrative on page 16 make clear that 15'000 CHF is requested from the funding scheme, with 15'000 CHF as co-funding for a 30'000 CHF total. Earlier table (30'000 CHF) likely reflects the total, not just the requested component.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995455827853,
+        "confidence": 0.9999995455827853,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 30000                                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 727.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Eawag<br/>Überlandstrasse 133<br/>8600 Dübendorf<br/>Switzerland<br/>Phone +41 (0)58 765 55 11<br/>Fax +41 (0)58 765 50 28<br/>[www.eawag.ch](http://www.eawag.ch) | Directorate<br/>Christian Stam...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| 1/1 | Eawag: Swiss Federal Institute of Aquatic Science and Technology |\n| --- | ---------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 357.0,
+                  "y": 763.0,
+                  "w": 207.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Eawag<br/>Überlandstrasse 133<br/>8600 Dübendorf<br/>Switzerland<br/>Phone +41 (0)58 765 55 11<br/>Fax +41 (0)58 765 50 28<br/>[www.eawag.ch](http://www.eawag.ch) | Directorate<br/>Christian Stam...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0001-6947-7913](https://orcid.org/0000-0001-6947-7913)",
+              "bounding_boxes": [
+                {
+                  "x": 305.0,
+                  "y": 819.0,
+                  "w": 233.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Eawag<br/>Überlandstrasse 133<br/>8600 Dübendorf<br/>Switzerland<br/>Phone +41 (0)58 765 55 11<br/>Fax +41 (0)58 765 50 28<br/>[www.eawag.ch](http://www.eawag.ch) | Directorate<br/>Christian Stam...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999509116940034,
+            "confidence": 0.9999509116940034
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "function: Group leader"
-              }
-            ],
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "first name: Serina"
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "surname: Robinson"
-              }
-            ],
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "postcode: 8600"
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
-      ],
-      "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Title from research proposal table and section header."
-          },
-          {
-            "page": 19,
-            "matching_text": "ORD Contribute project entitled “Prediction of biodegradation potential from (meta)genomes: advancing the enviPathPlus ORD platform”"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym from research proposal table."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "VERBATIM EXTRACTION. The value is taken from the main 'Abstract' header per the primary extraction. The secondary extraction does not contradict or expand significantly, so is not combined to avoid redundancy. Citations from both extractions are preserved for provenance.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Chemical pollution has exceeded planetary boundaries, requiring urgent solutions for chemical waste removal. Microbial biodegradation processes are crucial for breaking down chemical contaminants ... promote community engagement in line with ORD principles."
-          },
-          {
-            "page": 9,
-            "matching_text": "The proposed ORD pipeline, EDGEbp, will act as this missing ‘interpreter’ to bridge the gap between DNA sequencing and chemical biodegradation information."
-          }
-        ],
-        "parsing_confidence": 0.9999989678675326,
-        "extraction_confidence": 0.6782547410715538,
-        "confidence": 0.6782547410715538
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Biodegradation, Metagenome mining, Microbiome, Hidden Markov Models, Bioinformatics"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9364462112713402,
-          "confidence": 0.9364462112713402
-        }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Stated as 1 Mar 2024 in research proposal."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Stated as 12 in research proposal."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "The total budget for the project is 30,000 CHF, but only 15,000 CHF is explicitly requested from the ORD program, as clarified by the budget justification section. Per funding extraction standards, the requested amount (ORD) is the value to report.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "The resources requested (15k CHF contribution for 30k CHF total project costs) will be used to employ a research assistant"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999997839900294,
-        "confidence": 0.9999997839900294
-      },
-      "work_packages": [
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Task 1. Curate and collate existing databases to build a biodegradation gene catalog:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9979627581642839,
-            "confidence": 0.9979627581642839
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "Task 1. Curate and collate existing databases to build a biodegradation gene catalog:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9486275158169702,
-            "confidence": 0.9486275158169702
-          },
-          "reasoning": "Task 1 is explicitly mapped to building the gene catalog/WP1."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 2. Build custom biodegradation HMMs:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 2. Build custom biodegradation HMMs:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.988359875548042,
-            "confidence": 0.988359875548042
-          },
-          "reasoning": "Task 2 is mapped to WP2, as per the breakdown."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 3. Provide a documented pipeline, EDGEbp:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 3. Provide a documented pipeline, EDGEbp:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9906578853200896,
-            "confidence": 0.9906578853200896
-          },
-          "reasoning": "Straightforward, matches schema requirement for WP3."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 4. Tune EDGEbp models with genomic data:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 4. Tune EDGEbp models with genomic data:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "Task 4/WP4 is explicit."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 5. Evaluate EDGEbp with paired metagenomic and chemical biodegradation data:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Task 5. Evaluate EDGEbp with paired metagenomic and chemical biodegradation data:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9742677251375585,
-            "confidence": 0.9742677251375585
-          },
-          "reasoning": "Explicitly listed as Task 5/WP5."
-        }
       ]
     },
     "usage": {
       "num_pages_extracted": 20,
-      "num_document_tokens": 11999,
-      "num_output_tokens": 8670
-    }
+      "num_document_tokens": 12111,
+      "num_output_tokens": 5867
+    },
+    "parse_job_id": "47998464-3690-482a-b4b9-32c07d0eaa45"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "d3b03178-b015-4026-b9eb-e80c62fd9716",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:27:48.775437+00:00",
-  "updated_at": "2025-11-11T11:30:53.387108+00:00"
+  "job_id": "dcfbb5fe-cf36-4bdd-b4fb-0865ab676e76",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:41:14.479902+00:00",
+  "updated_at": "2026-01-21T18:42:56.703432+00:00"
 }

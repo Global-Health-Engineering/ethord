@@ -10,25 +10,10 @@
     "main_applicant_laboratory_name": "Global Health Engineering",
     "main_applicant_postcode": 8092,
     "main_applicant_city": "Zurich",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "ETH Zürich",
-        "function_title": "Associate Professor",
-        "first_name": "Elizabeth",
-        "surname": "Tilley",
-        "postcode": 8092
-      },
-      {
-        "eth_domain_institution": "Eawag",
-        "function_title": "Research associate / Scientific collaborator",
-        "first_name": "Elizabeth",
-        "surname": "Tilley",
-        "postcode": 8600
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Open JMP - unlocking the potential of global indicator data",
     "project_acronym": "openjmp",
-    "project_abstract": "Decades of manual data structuring have resulted in the most comprehensive and internationally-comparable information on Water, Sanitation, and Hygiene (WASH) coverage. The WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) maintains the database. The data are shared openly but in spreadsheet-based proprietary software, not following FAIR data principles. Data stored in spreadsheets underutilizes the potential those data could have for purposes other than the national, regional and global progress monitoring in WASH.\n\nWe will approach this unused potential by developing open-source data and software packages that follow FAIR data principles to share the data within the WASH community and beyond. In the process, we engage with the community by hosting free learning events using open-source computational tools, enabling community members to further competencies aligned with FAIR data principles.",
+    "project_abstract": "Decades of manual data structuring have resulted in the most comprehensive and internationally-comparable information on Water, Sanitation, and Hygiene (WASH) coverage. The WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) maintains the database. The data are shared openly but in spreadsheet-based proprietary software, not following FAIR data principles. Data stored in spreadsheets underutilizes the potential those data could have for purposes other than the national, regional and global progress monitoring in WASH.\nWe will approach this unused potential by developing open-source data and software packages that follow FAIR data principles to share the data within the WASH community and beyond. In the process, we engage with the community by hosting free learning events using open-source computational tools, enabling community members to further competencies aligned with FAIR data principles.",
     "keywords": [
       "SDGs",
       "monitoring",
@@ -42,15 +27,15 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Document and publish R data package jmpinput; Write up documentation that describes the origin of data and structure that it is provided in"
+        "wp_title": "Document and publish R data package jmpinput. Goal: Make data readily accessible to enable researchers and practitioners to utilize powerful data. Write up documentation that describes the origin of data and structure that it is provided in. Prepare at least two use cases as \"vignettes\" that can be published together with the data. Publish data, documentation and \"vignettes\" as R Package."
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Prepare and document R software Package jmpinput; Work with the JMP team replicate production of the basic indicators for individual countries, areas and territories, drawing on the data inputs described in WP1"
+        "wp_title": "Prepare and document R software Package jmpinput. Goal: Develop open-source software to support transparent documentation of modelling activities for primary indicators. Work with the JMP team replicate production of the basic indicators for individual countries, areas and territories, drawing on the data inputs described in WP1. Prepare a set of R functions that achieve all necessary data manipulation, modelling and visualization steps. Write up complete documentation for developed R functions. Publish R functions as a complete piece of software as an R Package."
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Continuously check-in with JMP team to update on progress and share intermediate products for review"
+        "wp_title": "Continuously check-in with JMP team to update on progress and share intermediate products for review. Host two 3-hour public participatory live coding online workshops for the openwashdata community and beyond to showcase the developed R packages from WP1 and WP2. Publish well documented Open Educational Resources from an online workshop for researchers in our network to be used in their own teaching activities. Prepare an article for the Journal of Open Source Software."
       }
     ]
   },
@@ -61,478 +46,2479 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 131.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Which ETH Domain do you belong to? | ETH Zürich"
-          },
-          {
-            "page": 18,
-            "matching_text": "ORD Contribute project at ETH Zurich for the project entitled"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999360462704014,
-        "confidence": 0.9999360462704014
+        "extraction_confidence": 0.999978407210569,
+        "confidence": 0.999978407210569,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 514.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "This letter thereby confirms that Lars Schöbitz is fully entitled to execute the above-mentioned project in the Laboratory of Global Health Engineering, headed by Prof.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 347.0,
+                  "w": 455.0,
+                  "h": 68.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "ETH BOARD\nETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 277.15,
+                  "y": 107.73,
+                  "w": 256.09,
+                  "h": 285.39
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "ETH BOARD\nETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 553.0,
+                  "y": 823.0,
+                  "w": 6.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| Associate professor or similar                          | ETH Zürich - ETHZ, CH<br/>Department of Mechanical and Process<br/>Engineering | 02.2021 - Present<br/>2 year(s)            |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 637.0,
+                  "w": 452.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "0-0002-2095-9724](https://orcid.org/0000-0002-2095-9724)",
+              "bounding_boxes": [
+                {
+                  "x": 318.0,
+                  "y": 819.0,
+                  "w": 220.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "0-0002-2095-9724](https://orcid.org/0000-0002-2095-9724)",
+              "bounding_boxes": [
+                {
+                  "x": 318.0,
+                  "y": 819.0,
+                  "w": 220.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "0-0002-2095-9724](https://orcid.org/0000-0002-2095-9724)",
+              "bounding_boxes": [
+                {
+                  "x": 318.0,
+                  "y": 819.0,
+                  "w": 220.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Function (Title) | Associate Professor"
-          }
-        ],
+        "reasoning": "Both source extractions indicate the main applicant's function as 'Associate Professor' (with minor wording variation in the second as 'or similar'), and there is no substantive difference. Returning the more standard form, 'Associate Professor'.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Associate Professor                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 145.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "**Elizabeth Tilley**\nCurrent position(s): Associate professor or similar\nAcademic age: 7 year(s) 10 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 242.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "**Elizabeth Tilley**\nCurrent position(s): Associate professor or similar\nAcademic age: 7 year(s) 10 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 242.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION. 'Elizabeth' is listed as first name on page 1 under 'First name(s)'. Another extraction ('Lars') from page 18 relates to a different instance/application and is not the primary entry in document order. Based on document order and typical application layout, the first-appearing applicant, 'Elizabeth', is treated as the main applicant here.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "First name(s) | Elizabeth"
-          }
-        ],
+        "reasoning": "The first and third entries directly provide 'Elizabeth' as the main applicant's first name, both from authoritative sources (applicant detail table and CV). The entry for 'Lars' pertains to someone else involved (likely a collaborator or work package leader), not the main applicant. Therefore, the correct extraction is 'Elizabeth', VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Elizabeth Tilley | Applicant ID - ORD1000190",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 40.0,
+                  "w": 249.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "The following Table 2 shows a basic gantt chart against the four work packages, including program activities. Column “Lead” abbreviations: LS = Lars Schöbitz. SA = Scientific Assistant.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 287.0,
+                  "w": 459.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Page 2/3 8 January 2023, Elizabeth Tilley, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Two extracted surnames labeled as main applicant: 'Tilley' from the main personal data section (page 1), and 'Schöbitz' from a letter/application context on page 18. According to index/order and typical document structure, the primary/main applicant surname, as per the standard extraction strategy, would be 'Tilley', since it appears first and in the formal applicant table.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Surname(s) | Tilley"
-          }
-        ],
+        "reasoning": "The extractions in idx=0 and idx=2 both reference 'Elizabeth Tilley' as the main applicant, confirmed by the 'Applicant Detail table' and the CV. The citation for idx=1 (Schöbitz) relates to a support/reference role, not the principal applicant. Thus, the correct surname for the main applicant is 'Tilley'.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Elizabeth Tilley | Applicant ID - ORD1000190",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 40.0,
+                  "w": 249.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "The following Table 2 shows a basic gantt chart against the four work packages, including program activities. Column “Lead” abbreviations: LS = Lars Schöbitz. SA = Scientific Assistant.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 287.0,
+                  "w": 459.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Page 2/3 8 January 2023, Elizabeth Tilley, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Laboratory name | Global Health Engineering"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 145.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Global Health Engineering                             |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 145.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Postcode / Zipcode | 8092"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8092                                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 537.0,
+                  "w": 145.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "City | Zurich"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Which ETH Domain do you belong to? | ETH Zürich"
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Zurich                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 30.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Function (Title) | Associate Professor"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "First name(s) | Elizabeth"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Surname(s) | Tilley"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Postcode / Zipcode | 8092"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+            }
+          ]
         },
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "Eidg. Anstalt für Wasserversorgung - EAWAG, CH<br/>Department Sanitation"
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "extraction_confidence": 0.9999999612774708,
-            "confidence": 0.9999999612774708
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "8 January 2023, Elizabeth Tilley, ORCID"
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 20,
-                "matching_text": "8 January 2023, Elizabeth Tilley, ORCID"
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "Eawag: Dübendorf, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9979613972542963,
-            "confidence": 0.9979613972542963
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+            }
+          ]
         }
-      ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
       },
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project title | Open JMP - unlocking the potential of global indicator data"
-          },
-          {
-            "page": 18,
-            "matching_text": "for the project entitled Open JMP - unlocking the potential of global indicator data"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999999984359184,
-        "confidence": 0.999999984359184
+        "extraction_confidence": 0.9999999806387352,
+        "confidence": 0.9999999806387352,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 150.0,
+                  "w": 458.0,
+                  "h": 247.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "Elizabeth Tilley supports the application of Lars Schöbitz for an ORD Contribute project at ETH Zurich for the project entitled Open JMP - unlocking the potential of global indicator data, pending...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 289.0,
+                  "w": 456.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "> Open JMP - unlocking the potential of global indicator data\n    > \n    > Acronym: openjmp",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 175.0,
+                  "w": 288.0,
+                  "h": 35.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "...e application of Lars Schöbitz for an ORD Contribute project at ETH Zurich for the project entitled Open JMP - unlocking the potential of global indicator data, pending ethical clearance of the projec...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 289.0,
+                  "w": 456.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Acronym of the project | openjmp"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999995455827853,
-        "confidence": 0.9999995455827853
+        "extraction_confidence": 0.9999991283702163,
+        "confidence": 0.9999991283702163,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project proposal**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 160.0,
+                  "w": 422.0,
+                  "h": 147.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "> Open JMP - unlocking the potential of global indicator data\n    > \n    > Acronym: openjmp",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 175.0,
+                  "w": 288.0,
+                  "h": 35.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Abstract | Decades of manual data structuring have resulted in the most..."
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9994339784788696,
-        "confidence": 0.9994339784788696
+        "extraction_confidence": 0.9994777197283155,
+        "confidence": 0.9994777197283155,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Data stored in spreadsheets underutilizes the potential those data could have for purposes other than the national, regional and global progress monitoring in WASH.<br/>We will approach this unused...",
+              "bounding_boxes": [
+                {
+                  "x": 39.0,
+                  "y": 85.0,
+                  "w": 519.0,
+                  "h": 508.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "SDGs, monitoring, open data, open code, R package"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**...",
+                "bounding_boxes": [
+                  {
+                    "x": 39.0,
+                    "y": 85.0,
+                    "w": 519.0,
+                    "h": 508.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| SDGs, monitoring, open data, open code, R package...",
+                "bounding_boxes": [
+                  {
+                    "x": 39.0,
+                    "y": 85.0,
+                    "w": 519.0,
+                    "h": 508.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "SDGs, monitoring, open data, open code, R package"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "**Background and motivation**\n    **UNICEF/WHO Joint Monitoring Programme (JMP).** The WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) was established in 1990 to m...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 257.0,
+                    "w": 458.0,
+                    "h": 317.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Estimates are produced using linear regression models at the country, regional, and the global levels [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 257.0,
+                    "w": 458.0,
+                    "h": 317.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Estimates are produced using linear regression models at the country, regional, and the global levels [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 257.0,
+                    "w": 458.0,
+                    "h": 317.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "Estimates are produced using linear regression models at the country, regional, and the global levels [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 257.0,
+                    "w": 458.0,
+                    "h": 317.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "SDGs, monitoring, open data, open code, R package"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Providing open-source software and data in an accessible and cite-able way can lead to significant uptake within a domain.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "SDGs, monitoring, open data, open code, R package"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| SDGs, monitoring, open data, open code, R package...",
+                "bounding_boxes": [
+                  {
+                    "x": 39.0,
+                    "y": 85.0,
+                    "w": 519.0,
+                    "h": 508.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "**Use cases.** The JMP uses these raw data specifically to produce indicator estimates for SDG indicators 6.1 and 6.2, but there is great potential for unforeseen use cases (e.g.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 150.0,
+                    "w": 458.0,
+                    "h": 247.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "SDGs, monitoring, open data, open code, R package"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "(4) Use packages of the R environment to publish R Package as a public website, including all documentation and vignettes",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 384.0,
+                    "w": 456.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Activities.** (1) Write up documentation that describes the origin of data and structure that it is provided in.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 384.0,
+                    "w": 456.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Activities.** (1) Write up documentation that describes the origin of data and structure that it is provided in.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 384.0,
+                    "w": 456.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Activities.** (1) Write up documentation that describes the origin of data and structure that it is provided in.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 384.0,
+                    "w": 456.0,
+                    "h": 107.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Proposed Starting Date | 1 Jul 2023"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999944779243051,
-        "confidence": 0.9999944779243051
+        "extraction_confidence": 0.9999997705516342,
+        "confidence": 0.9999997705516342,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 263.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 99.0,
+                  "w": 263.0,
+                  "h": 28.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "A proprietary statistical analysis software package (Stata 14.0) imports the data for all the 232 countries, areas, and territories for which data are available, and runs the estimation model.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 580.0,
+                  "w": 457.0,
+                  "h": 146.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project duration | 12"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 3 - Deadline 12 December 2022 (17:00 CET)",
+              "bounding_boxes": [
+                {
+                  "x": 33.0,
+                  "y": 140.0,
+                  "w": 438.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION. Both excerpts explicitly state the total budget requested as 29,905 (CHF), supported by both table and narrative summary. No discrepancies in value.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 29905"
-          },
-          {
-            "page": 16,
-            "matching_text": "The total requested budget is 29,905.00 CHF."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9320190143428749,
-        "confidence": 0.9320190143428749
+        "extraction_confidence": 0.9533072608908559,
+        "confidence": 0.9533072608908559,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 29905 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 689.0,
+                  "w": 149.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 29905 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 689.0,
+                  "w": 149.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "The total requested budget is 29,905.00 CHF. Justification for the budget items in the official budget template are shown in the table below.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 441.0,
+                  "w": 468.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** As WP1, this work package focuses on aim 1 and 2 of the call.",
+              "bounding_boxes": [
+                {
+                  "x": 555.12,
+                  "y": 823.44,
+                  "w": 4.64,
+                  "h": 15.12
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 154.0,
+                  "w": 79.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Travel | Travel | Expenses for hosting of an in-person workshop with partners in Geneva | 3,000.00  | 10.0 | In-kind | Costs include: train (300), hotel (400) and per diem (200) for 2 days and 2...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 117.0,
+                  "w": 466.0,
+                  "h": 45.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "WP1: Document and publish R data package jmpinput."
-              },
-              {
-                "page": 13,
-                "matching_text": "| WP1 | Write up documentation that describes the origin of data and structure"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "WP1: Document and publish R data package jmpinput."
-              },
-              {
-                "page": 13,
-                "matching_text": "| WP1 | Write up documentation that describes the origin of data and structure that it is provided in"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9992244972849739,
-            "confidence": 0.9992244972849739
+            "extraction_confidence": 0.984775280507708,
+            "confidence": 0.984775280507708
           },
-          "reasoning": "Combined both verbatim extractions for WP1 from pages 10 and 13, as both detail aspects of the same work package. Confidence is averaged for extraction confidence; parsing confidence remains at the provided value."
+          "reasoning": "Activities for WP1 were described in the project proposal and further detailed in the work packages and milestones table. Titles aggregated in order: project-level description first, then subtasks as documented in the provided sequence. Calculated mean for extraction confidences from subtasks for 'wp_title'."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "WP2: Prepare and document R software Package jmpinput."
-              },
-              {
-                "page": 13,
-                "matching_text": "| WP2 | Work with the JMP team replicate production of the basic indicators"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 10,
-                "matching_text": "WP2: Prepare and document R software Package jmpinput."
-              },
-              {
-                "page": 13,
-                "matching_text": "| WP2 | Work with the JMP team replicate production of the basic indicators for individual countries, areas and territories, drawing on the data inputs described in WP1"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999705554260473,
-            "confidence": 0.9999705554260473
+            "extraction_confidence": 0.9999968440083352,
+            "confidence": 0.9999968440083352
           },
-          "reasoning": "Combined both verbatim extractions for WP2 from pages 10 and 13, capturing both the software preparation and the replication objectives. Mean confidence calculated for extraction confidence."
+          "reasoning": "Combined WP2 project-level goal, followed by detailed activities in sequential order as presented in the work packages and milestones table. Confidence represents the mean of the extraction confidences from detailed steps."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "| WP3 | Continuously check-in with JMP team to update on progress and share intermediate products for review"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "| WP3 | Continuously check-in with JMP team to update on progress and share intermediate products for review"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999377851416,
-            "confidence": 0.9999999377851416
+            "extraction_confidence": 0.9999991722120467,
+            "confidence": 0.9999991722120467
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "WP3 consists of a set of four distinct activities, each provided verbatim in the source. Consolidated these into a single string with chronological order; confidence computed as the mean of extraction confidences."
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 10942,
-      "num_output_tokens": 8972
-    }
+      "num_document_tokens": 11397,
+      "num_output_tokens": 6746
+    },
+    "parse_job_id": "e05dc2b9-3ab0-4c47-bcf1-484cc7d0e16c"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "f7a7ffa4-b82f-4c9f-bf46-af34774668b1",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:42:25.846063+00:00",
-  "updated_at": "2025-11-11T11:43:55.224376+00:00"
+  "job_id": "724ddb71-ba2a-40c7-b32e-31057a0e115b",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:58:38.476008+00:00",
+  "updated_at": "2026-01-21T19:00:21.726945+00:00"
 }

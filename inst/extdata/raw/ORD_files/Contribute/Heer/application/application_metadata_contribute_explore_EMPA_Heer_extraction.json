@@ -10,18 +10,10 @@
     "main_applicant_laboratory_name": "Urban Energy Systems Lab",
     "main_applicant_postcode": 8600,
     "main_applicant_city": "Dübendorf",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "Empa",
-        "function_title": "Deputy Lab Head",
-        "first_name": "Philipp",
-        "surname": "Heer",
-        "postcode": 8600
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Integrating and Enhancing Building Data for Advanced Research: NEST-Bot",
     "project_acronym": "NEST-Bot",
-    "project_abstract": "The built environment generates complex and heterogeneous data, categorized into 3 main types: structural and architectural information, performance data (time series of energy consumption, temperatures, or occupancy), and administrative records (contracts, costs). Despite the critical value of ORD in fostering scalable applications, significant challenges persist, including fragmented data storage, heterogeneity in standards, and inadequate metadata documentation, which complicates data contextualization and accessibility. This project, NEST-Bot, aims to address these challenges by enhancing data discoverability through an automated integration layer that populates a knowledge graph.\nNEST-Bot will train a LLM to serve as an intuitive interface for stakeholders-ranging from academic researchers and data scientists to HVAC engineers, architects, and automation experts-to access NEST-related data. A key aspect of the project involves the automatic generation of the integration layer from existing repositories, allowing the LLM to retrieve complex, heterogeneous datasets via natural language queries.\nThis innovative approach aims to streamline data retrieval, enhance data quality, reduce redundancies, and make ORD practices more scalable and beneficial to the building sector. By linking and organizing diverse repositories, NEST-Bot will enable seamless interaction with complex datasets, establishing new standards for data integration and ORD in building automation and research.\nWe aim to simplify data access through a user-friendly interface, enabling stakeholders to query relevant NEST measurements via natural language. This MVP will focus on core features such as retrieving specific sensor data and providing contextual information for easier interpretation. Our goal is to enhance data contextualization, improve data discovery, and support research in building and energy management. Furthermore, we intend to lay the foundation for incorporating additional data silos into the NEST-Bot ecosystem.",
+    "project_abstract": "The built environment generates complex and heterogeneous data, categorized into 3 main types: structural and architectural information, performance data (time series of energy consumption, temperatures, or occupancy), and administrative records (contracts, costs). Despite the critical value of ORD in fostering scalable applications, significant challenges persist, including fragmented data storage, heterogeneity in standards, and inadequate metadata documentation, which complicates data contextualization and accessibility. This project, NEST-Bot, aims to address these challenges by enhancing data discoverability through an automated integration layer that populates a knowledge graph.\n\nNEST-Bot will train a LLM to serve as an intuitive interface for stakeholders-ranging from academic researchers and data scientists to HVAC engineers, architects, and automation experts-to access NEST-related data. A key aspect of the project involves the automatic generation of the integration layer from existing repositories, allowing the LLM to retrieve complex, heterogeneous datasets via natural language queries.\n\nThis innovative approach aims to streamline data retrieval, enhance data quality, reduce redundancies, and make ORD practices more scalable and beneficial to the building sector. By linking and organizing diverse repositories, NEST-Bot will enable seamless interaction with complex datasets, establishing new standards for data integration and ORD in building automation and research.",
     "keywords": [
       "ORD",
       "FAIR Principles",
@@ -36,19 +28,19 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Identify use cases for NEST-Bot"
+        "wp_title": "Identify use cases for NEST-Bot: Enhance stakeholder engagement to clarify existing use cases, refine evaluation metrics, get a basic set of real queries and gather detailed insights for conceptualizing the integration layer and the LLM"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Specification of repositories & labeling their data"
+        "wp_title": "Specification of repositories & labeling their data: systematic integration of data from various repositories into the NEST subgraph"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Automating the construction of the Integration Layer"
+        "wp_title": "Automating the construction of the Integration Layer: create robust autonomous integration layer, harmonize standardized and non-standardized NEST measurements"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Construct LLM and GUI of NEST-Bot"
+        "wp_title": "Construct LLM and GUI of NEST-Bot: development and refinement of the Large Language Model (LLM) and user interface"
       }
     ]
   },
@@ -59,388 +51,2050 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "The table under 'Applicant Details' explicitly states 'Which ETH Domain do you belong to?' | EMPA.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Which ETH Domain do you belong to? | EMPA."
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 130.0,
+                  "w": 283.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "ETH BOARD\nETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.32,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title) field states 'Deputy Lab Head'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Function (Title)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Deputy Lab Head                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name(s) field lists 'Philipp'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| First name(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Philipp Heer | Applicant ID - ORD1000446",
+              "bounding_boxes": [
+                {
+                  "x": 324.0,
+                  "y": 40.0,
+                  "w": 233.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname(s) is listed as 'Heer'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Surname(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Philipp Heer | Applicant ID - ORD1000446",
+              "bounding_boxes": [
+                {
+                  "x": 324.0,
+                  "y": 40.0,
+                  "w": 233.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Laboratory name row lists the lab as 'Urban Energy Systems Lab'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Urban Energy Systems Lab                         |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode row value is 8600."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 47.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8600                                             |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 47.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "City: Dübendorf"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table provides data for one person: ETH Domain EMPA, Title Deputy Lab Head, Philipp Heer, postcode 8600."
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 47.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table provides data for one person: ETH Domain EMPA, Title Deputy Lab Head, Philipp Heer, postcode 8600."
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Dübendorf                                        |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 47.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table provides data for one person: ETH Domain EMPA, Title Deputy Lab Head, Philipp Heer, postcode 8600."
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table provides data for one person: ETH Domain EMPA, Title Deputy Lab Head, Philipp Heer, postcode 8600."
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table provides data for one person: ETH Domain EMPA, Title Deputy Lab Head, Philipp Heer, postcode 8600."
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
               }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "All fields extracted verbatim from the Applicant table for the main applicant."
+            }
+          ]
         }
-      ],
+      },
       "project_title": {
-        "reasoning": "The table in the Research Proposal section supplies a full and formal project title, which is standard for such metadata extractions. While 'NEST-Bot' is used elsewhere, it appears to be an acronym/short name. Use the complete project title as the most authoritative version.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table in Research Proposal section gives the project title. Integrating and Enhancing Building Data for Advanced Research: NEST-Bot"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. The full project title is explicitly provided in the 'Project title' field of section 3 and is more complete than the abbreviated form 'NEST-Bot' referenced elsewhere. Multiple independent sources consistently confirm this designation.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 243.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "The primary goal of NEST-Bot is to curate and improve available ORD by linking and organizing different repositories to enhance data discoverability while reducing redundancies.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 164.0,
+                  "w": 458.0,
+                  "h": 163.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| Integrating and Enhancing Building Data for Advanced Research: NEST-Bot |\n| ----------------------------------------------------------------------- |",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 160.0,
+                  "w": 399.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "G[GraphDB]\n    N[Send a message to NEST-Bot]",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 341.0,
+                  "w": 461.0,
+                  "h": 142.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "1. **Technological development:**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 427.0,
+                  "w": 149.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project: NEST-Bot"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This project, NEST-Bot, aims to address these challenges by enhancing data discoverability through an automated integration layer that populates a knowledge graph.<br/><br/>NEST-Bot will train a LL...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 500.0,
+                  "h": 185.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Integrating and Enhancing Building Data for Advanced Research: NEST-Bot...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 243.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
-        "reasoning": "Combined verbatim extraction from the 'Abstract' and project objective/approach description within the research proposal section. Content is presented in original order to maintain coherence and integrity, drawing from both detailed and summary-level information.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The built environment generates complex and heterogeneous data, categorized into 3 main types: structural and architectural information ... establishing new standards for data integration and ORD in building automation and research."
-          },
-          {
-            "page": 9,
-            "matching_text": "We aim to simplify data access through a user-friendly interface, enabling stakeholders to query relevant NEST measurements via natural language ... we intend to lay the foundation for incorporating additional data silos into the NEST-Bot ecosystem."
-          }
-        ],
-        "extraction_confidence": 0.9942427899425496,
-        "confidence": 0.9942427899425496
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999088544870329,
+        "confidence": 0.9999088544870329,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This project, NEST-Bot, aims to address these challenges by enhancing data discoverability through an automated integration layer that populates a knowledge graph.<br/><br/>NEST-Bot will train a LL...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 500.0,
+                  "h": 185.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
-          "reasoning": "First listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "By linking and organizing diverse repositories, NEST-Bot will enable seamless interaction with complex datasets, establishing new standards for data integration and ORD in building automation and r...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 172.0,
+                    "w": 500.0,
+                    "h": 185.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
-          "reasoning": "Second listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "systems, allowed and allows us to develop approaches targeting richly layered adaptive [1], fair [2], and/or sustainability oriented [3] energy management approaches.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 659.0,
+                    "w": 458.0,
+                    "h": 80.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "systems, allowed and allows us to develop approaches targeting richly layered adaptive [1], fair [2], and/or sustainability oriented [3] energy management approaches.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 659.0,
+                    "w": 458.0,
+                    "h": 80.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "systems, allowed and allows us to develop approaches targeting richly layered adaptive [1], fair [2], and/or sustainability oriented [3] energy management approaches.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 659.0,
+                    "w": 458.0,
+                    "h": 80.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
-          "reasoning": "Third listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
-          "reasoning": "Fourth listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
-          "reasoning": "Fifth listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "...e automatic generation of an aggregation layer from existing repositories and the development of an LLM capable of querying the integration layer through stakeholders’ natural language input and **2.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
-          "reasoning": "Sixth listed keyword.",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords... ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| ORD, FAIR Principles, Renku, Knowledge Graph, LLM, Building Data Integration...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The key challenge of this project lies in two areas: **1.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 632.0,
+                    "w": 458.0,
+                    "h": 127.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Proposed Starting Date is '1 Jan 2025'."
-          }
-        ],
-        "extraction_confidence": 0.9999992460557792,
-        "confidence": 0.9999992460557792
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995321443933,
+        "confidence": 0.9999995321443933,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 399.0,
+                  "w": 360.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 399.0,
+                  "w": 360.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration field is '12'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "The value CHF 30,000 is verbatim from the main budget table and explanatory paragraph (page 17), which states this as 'Total Costs (A+B)' for the full project. This is a more definitive and comprehensive figure than the earlier-occurring CHF 15,000. The source is explicit and aligned with typical budget presentation.",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Total Costs (A + B)             |                                     |                                                   | 30000        |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 399.0,
+                  "w": 360.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n    Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 439.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Both values were directly extracted as labeled totals from the budget. The 'Total Costs (A + B)' from the late budget table on page 17 is interpreted as the intended 'total budget requested' because it represents a consolidated, section-specific budget total, and such tables usually supersede early summary amounts. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 15000                                                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 715.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 15000                                                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 715.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "|                                 |                                     | Senior Staff                                      | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 418.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "1. https://wiki.nestcloud.ch/bin/view/Main/\n2. [https://www.sib.swiss/](https://wiki.nestcloud.ch/bin/view/Main/)",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 160.0,
+                  "w": 111.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "1. https://wiki.nestcloud.ch/bin/view/Main/\n2. [https://www.sib.swiss/](https://wiki.nestcloud.ch/bin/view/Main/)",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 160.0,
+                  "w": 111.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 138.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "1. https://wiki.nestcloud.ch/bin/view/Main/\n2. [https://www.sib.swiss/](https://wiki.nestcloud.ch/bin/view/Main/)",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 160.0,
+                  "w": 111.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP 1: Identify use cases for NEST-Bot:"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP 1: Identify use cases for NEST-Bot:"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998860735503989,
-            "confidence": 0.9998860735503989
+            "extraction_confidence": 0.9610965361927233,
+            "confidence": 0.9610965361927233
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP2: Specification of repositories & labeling their data:"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP2: Specification of repositories & labeling their data:"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999899209953224,
-            "confidence": 0.9999899209953224
+            "extraction_confidence": 0.964261383645889,
+            "confidence": 0.964261383645889
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP3: Automating the construction of the Integration Layer:"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP3: Automating the construction of the Integration Layer:"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996796868531,
-            "confidence": 0.9999996796868531
+            "extraction_confidence": 0.8367149746530747,
+            "confidence": 0.8367149746530747
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP 4: Construct LLM and GUI of NEST-Bot:"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999031936799,
-            "confidence": 0.9999999031936799
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "WP 4: Construct LLM and GUI of NEST-Bot:"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8928065946986758,
+            "confidence": 0.8928065946986758
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -448,29 +2102,31 @@
     },
     "usage": {
       "num_pages_extracted": 19,
-      "num_document_tokens": 10878,
-      "num_output_tokens": 8565
-    }
+      "num_document_tokens": 11077,
+      "num_output_tokens": 5162
+    },
+    "parse_job_id": "e196a9c7-c8ae-4b04-b7ac-56b129eab2c3"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "8f5bc0a6-a9d8-4364-a4b6-62c2121f5f91",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:04:04.349829+00:00",
-  "updated_at": "2025-11-11T11:06:08.909210+00:00"
+  "job_id": "dc8ee54d-08fe-4815-83bf-12eab11656c2",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:23:17.744920+00:00",
+  "updated_at": "2026-01-21T18:25:22.580514+00:00"
 }

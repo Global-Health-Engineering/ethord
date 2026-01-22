@@ -9,11 +9,10 @@
     },
     "repositories_catalogues": {
       "quantity": 2,
-      "descriptions": [
-        "OpenSPM-source, RePySPM"
-      ],
+      "descriptions": [],
       "urls": [
-        "https://github.com/marcospenedo/OpenSPM-source, https://github.com/marcospenedo/RePySPM"
+        "https://github.com/marcospenedo/OpenSPM-source",
+        "https://github.com/marcospenedo/RePySPM"
       ]
     },
     "datasets_databases": {
@@ -23,9 +22,7 @@
     },
     "software_tools": {
       "quantity": 1,
-      "descriptions": [
-        "OpenSPM-executable"
-      ],
+      "descriptions": [],
       "urls": [
         "https://github.com/marcospenedo/OpenSPM-executable"
       ]
@@ -53,8 +50,9 @@
       "quantity": 3,
       "descriptions": [
         "Open source research-grade scanning probe microscope controller, in preparation",
-        "Dual-Actuation Tip Scanner for High-Speed Atomic Force Microscopy (HS-AFM, in preparation",
-        "In-situ single pass heterodyne KPFM inside SEM with piezo-resistive sensing trilayer polymer cantilevers, in preparation"
+        "Dual-Actuation Tip Scanner for High-Speed Atomic Force Microscopy (HS-AFM), in preparation",
+        "In-situ single pass heterodyne KPFM inside SEM with piezo-resistive sensing trilayer polymer cantilevers, in preparation",
+        "A holistic approach to improve scanning ion conductance microscopy imaging by co-optimizing data acquisition and deep-learning-based image reconstruction, submitted"
       ],
       "urls": []
     },
@@ -95,17 +93,17 @@
     "estimated_users": {
       "quantity": 42,
       "descriptions": [
-        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) 1 SPM user",
+        "CSIR-Central Scientific Instruments Organisation (Chandigarh, India): 1 SPM user",
         "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility",
-        "LBNI collaborators at EFPL (Switzerland) (ca 14 users)",
+        "LBNI collaborators at EFPL (Switzerland): ca 14 users",
         "AFSEM-nano users through QD (USA): ca 10 users",
         "Chinese Academy of Science: ca. 6 users",
-        "Tufts University (USA) 1 user",
-        "UCSD (USA) 1 user",
-        "ETHZ (Switzerland) 1 user",
-        "C-sense GmbH (Austria) 2 users",
-        "Durham University (UK) 1 user",
-        "ZHAW (Switzerland) 2 users"
+        "Tufts University (USA): 1 user",
+        "UCSD (USA): 1 user",
+        "ETHZ (Switzerland): 1 user",
+        "C-sense GmbH (Austria): 2 users",
+        "Durham University (UK): 1 user",
+        "ZHAW (Switzerland): 2 users"
       ],
       "urls": []
     },
@@ -124,480 +122,987 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "New or enhanced website(s), web interface, platform(s) and/ or infrastructure: |                  |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "The table row for this item is blank under both 'Number/ quantity' and 'Further details', so the output is 0 and no descriptions/URLs."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "repositories_catalogues": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 768.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.8813544529773336,
-            "confidence": 0.8813544529773336
-          }
-        ],
         "urls": [
           {
-            "extraction_confidence": 0.9998878281211306,
-            "confidence": 0.9998878281211306
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "| New or enhanced repositories and/or catalogues:                                | 2                | \\* <https://github.com/marcospenedo/OpenSPM-source> |",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "* <https://github.com/marcospenedo/RePySPM>...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Quantity and URLs are explicitly listed in the table; descriptions inferred as the names of the GitHub repos."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "datasets_databases": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 6,
-              "matching_text": "New or enhanced datasets and/or databases: |                  |"
+              "matching_text": "- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 188.0,
+                  "w": 482.0,
+                  "h": 553.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "No information present in List of Outputs; both columns blank, output is 0."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 8 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 769.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
-        "descriptions": [
-          {
-            "extraction_confidence": 0.9999995649440316,
-            "confidence": 0.9999995649440316
-          }
-        ],
         "urls": [
           {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "...| 1                | <https://github.com/marcospenedo/OpenSPM-executable>...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "All values are explicit in List of Outputs table; description inferred as repo name."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "models_standards": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 6,
-              "matching_text": "New or enhanced models, standards, guidelines, workflows, benchmarks, protocols and/or best practice: |                  |"
+              "matching_text": "- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 188.0,
+                  "w": 482.0,
+                  "h": 553.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "Both quantity and details are blank, so output is 0."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "workshops": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Scientific workshops organized as part of the project: | 3                | - AFM head, SPM controller, HV amplifier, February 2025 (Prof. K. D. Voitchovsky, Durham University - UK)\n- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)\n- SICM head, May 2025 (Prof. Sokolov, Tufts – USA)"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "– 3 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 769.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999988944948347,
+            "confidence": 0.9999988944948347,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "AFM head, SPM controller, HV amplifier, February 2025 (Prof. K. D. Voitchovsky, Durham University - UK)"
+                "matching_text": "\\| Scientific workshops organized as part of the project:                                                                                                     | 3                | - AFM head, SPM co...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9994356855092615,
-            "confidence": 0.9994356855092615
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999953270985,
+            "confidence": 0.999999953270985,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)"
+                "matching_text": "- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999769805014,
-            "confidence": 0.9999999769805014
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999440314009985,
+            "confidence": 0.9999440314009985,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "SICM head, May 2025 (Prof. Sokolov, Tufts – USA)"
+                "matching_text": "Voitchovsky, Durham University - UK)\n\n- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)\n- SICM head, May 2025 (Prof.",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999932291912871,
-            "confidence": 0.9999932291912871
+            ]
           }
         ],
-        "reasoning": "Quantity and all descriptions are explicitly listed."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "training_events": {
         "quantity": {
-          "citation": [
-            {
-              "page": 6,
-              "matching_text": "Training and educational events and/or resources directly related to the project: |                  |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Both fields are blank, so the correct value is 0."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "– 3 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 769.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999989420764879,
+            "confidence": 0.9999989420764879,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Open source research-grade scanning probe microscope controller, in preparation"
+                "matching_text": "...tted, accepted or published) – please provide link/DOI if already published | 3                | \\* Open source research-grade scanning probe microscope controller, in preparation",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999653982608832,
-            "confidence": 0.9999653982608832
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9486783695037236,
+            "confidence": 0.9486783695037236,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Dual-Actuation Tip Scanner for High-Speed Atomic Force Microscopy (HS-AFM, in preparation"
+                "matching_text": "* Dual-Actuation Tip Scanner for High-Speed Atomic Force Microscopy (HS-AFM, in preparation",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9978521177146253,
-            "confidence": 0.9978521177146253
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998474148583,
+            "confidence": 0.9999998474148583,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "In-situ single pass heterodyne KPFM inside SEM with piezo-resistive sensing trilayer polymer cantilevers, in preparation"
+                "matching_text": "* In-situ single pass heterodyne KPFM inside SEM with piezo-resistive sensing trilayer polymer cantilevers, in preparation",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999306454509,
-            "confidence": 0.9999999306454509
+            "extraction_confidence": 0.9999998131927282,
+            "confidence": 0.9999998131927282,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "* A holistic approach to improve scanning ion conductance microscopy imaging by co-optimizing data acquisition and deep-learning-based image reconstruction, submitted |",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 188.0,
+                    "w": 482.0,
+                    "h": 553.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Table says quantity 3, but 4 are listed because it appears one is more tentative/redundant with the main count."
+        "reasoning": "Slight discrepancy: description has 4 entries but quantity column states 3. Will follow the count in the quantity column, but include all listed descriptions for completeness."
       },
       "presentations": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 768.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "OpenSPM: A Modular Framework for Open and Smart Microscopy, NC-AFM, Toyama (Japan), August 2025"
+                "matching_text": "\\| Presentations (e.g. conferences, poster, etc.) directly related to the project:                                 | 2  | \\* OpenSPM: A Modular Framework for Open and Smart Microscopy, NC-AFM, Toya...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999839992598,
-            "confidence": 0.9999999839992598
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999965882174,
+            "confidence": 0.999999965882174,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "OpenSPM: A Modular Framework for Smart and Adaptive Microscopy, Open Microscopy & AI workshop, EPFL (Switzerland), March 2025"
+                "matching_text": "* OpenSPM: A Modular Framework for Smart and Adaptive Microscopy, Open Microscopy & AI workshop, EPFL (Switzerland), March 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999860638714,
-            "confidence": 0.9999999860638714
+            ]
           }
         ],
-        "reasoning": "Table provides all information verbatim."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "outreach_activities": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 768.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999990217773616,
+            "confidence": 0.9999990217773616,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Microscopio de fuerzas atómicas: una herramienta multidisciplinar, virtual talk (UCV, Venezuela)"
+                "matching_text": "...on, communications or networking events and/or activities directly related to the project: | 2  | - Microscopio de fuerzas atómicas: una herramienta multidisciplinar, virtual talk (UCV, Venezuela)",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998088976193,
-            "confidence": 0.9999998088976193
+            ]
           },
           {
-            "extraction_confidence": 0.9999996265631723,
-            "confidence": 0.9999996265631723
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999980783171222,
+            "confidence": 0.9999980783171222,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "- OpenSPM: A Modular Framework for Smart Microscopy, virtual talk for the Latin American Hub for Bioimaging Through Open Hardware (LIBRE\\_hub)...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "Explicit in the table, including presentation titles and audiences."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "patents_ip": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Patents, patents applications or other intellectual property directly related to the project:                   |    |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Explicitly blank in the table; no IP listed."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "new_collaborations": {
         "quantity": {
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "– 2 of 8 –",
+              "bounding_boxes": [
+                {
+                  "x": 260.0,
+                  "y": 768.0,
+                  "w": 42.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999647977007,
+            "confidence": 0.9999999647977007,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Prof. Amalio Fernandez (TU Wien, Austria)"
+                "matching_text": "Amalio Fernandez (TU Wien, Austria)\n\n* Dr.",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999994378719664,
-            "confidence": 0.9999994378719664
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999508378193,
+            "confidence": 0.9999999508378193,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Dr. Yu Liu, Prof. Kalinin (University of Tennessee-Knoxville, USA)"
+                "matching_text": "* Dr. Yu Liu, Prof. Kalinin (University of Tennessee-Knoxville, USA)...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999783990009,
-            "confidence": 0.9999999783990009
+            ]
           }
         ],
-        "reasoning": "Table provides number and collaborator names."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "industrial_collaborations": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "New collaborations and/or contracts with industrial partners:                                                   |    |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
-        "reasoning": "Line explicit in the table; no value or description, so output is zero."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "estimated_users": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 7,
-              "matching_text": "Estimated number of users within the community benefiting from enhanced ORD practices:                          | 42"
+              "matching_text": "...er of users within the community benefiting from enhanced ORD practices:                          | 42 | - CSIR-Central Scientific Instruments Organisation (Chandigarh, India) 1 SPM user",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 84.0,
+                  "w": 482.0,
+                  "h": 609.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9728343403424485,
+            "confidence": 0.9728343403424485,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "CSIR-Central Scientific Instruments Organisation (Chandigarh, India) 1 SPM user"
+                "matching_text": "\\| Estimated number of users within the community benefiting from enhanced ORD practices:                          | 42 | - CSIR-Central Scientific Instruments Organisation (Chandigarh, India) 1 SPM u...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997093275209626,
-            "confidence": 0.9997093275209626
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9984867966458721,
+            "confidence": 0.9984867966458721,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility"
+                "matching_text": "- Weizmann Institute of Science (WIS, Israel): 3 main users + users of the SPM user facility",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999836645685771,
-            "confidence": 0.9999836645685771
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9907959165126365,
+            "confidence": 0.9907959165126365,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "LBNI collaborators at EFPL (Switzerland) (ca 14 users)"
+                "matching_text": "- LBNI collaborators at EFPL (Switzerland) (ca 14 users)",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999779804171641,
-            "confidence": 0.9999779804171641
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999978265471385,
+            "confidence": 0.9999978265471385,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "AFSEM-nano users through QD (USA): ca 10 users"
+                "matching_text": "- AFSEM-nano users through QD (USA): ca 10 users",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999582911584,
-            "confidence": 0.9999999582911584
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9938129544624917,
+            "confidence": 0.9938129544624917,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Chinese Academy of Science: ca. 6 users"
+                "matching_text": "- Chinese Academy of Science: ca. 6 users",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999974222427709,
-            "confidence": 0.9999974222427709
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999823162114624,
+            "confidence": 0.9999823162114624,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Tufts University (USA) 1 user"
+                "matching_text": "- Tufts University (USA) 1 user",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999997930595845,
-            "confidence": 0.9999997930595845
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999366777393,
+            "confidence": 0.999999366777393,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "UCSD (USA) 1 user"
+                "matching_text": "- UCSD (USA) 1 user",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999993924237204,
+            "confidence": 0.9999993924237204,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "ETHZ (Switzerland) 1 user"
+                "matching_text": "- ETHZ (Switzerland) 1 user",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999989199501,
+            "confidence": 0.99999989199501,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "C-sense GmbH (Austria) 2 users"
+                "matching_text": "- C-sense GmbH (Austria) 2 users",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998642610135,
+            "confidence": 0.9999998642610135,
             "citation": [
               {
-                "page": 7,
-                "matching_text": "Durham University (UK) 1 user"
+                "page": 5,
+                "matching_text": "Voitchovsky at Durham University (UK), and CSIR-CSIO in India with Vikash Chandra have successfully built AFM systems based on our open controller, HV solutions, and software, validating the reprod...",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 380.0,
+                    "w": 436.0,
+                    "h": 55.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999870394015,
+            "confidence": 0.999999870394015,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "ZHAW (Switzerland) 2 users"
+                "matching_text": "- ZHAW (Switzerland) 2 users |",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 482.0,
+                    "h": 609.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           }
         ],
-        "reasoning": "All values, quantity 42 and all descriptions, are explicit in table."
+        "reasoning": "VERBATIM EXTRACTION"
       },
       "other_outputs": {
         "quantity": {
-          "citation": [
-            {
-              "page": 7,
-              "matching_text": "Other (please specify):                                                                                         |    |"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "- AFM head, August 2025 (Vikash Chandra, CSIR-CSIO - India)",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 188.0,
+                  "w": 482.0,
+                  "h": 553.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
         },
-        "reasoning": "Explicitly blank row in List of Outputs; output is 0."
+        "reasoning": "VERBATIM EXTRACTION"
       }
     },
     "usage": {
       "num_pages_extracted": 8,
-      "num_document_tokens": 4571,
-      "num_output_tokens": 4420
-    }
+      "num_document_tokens": 4462,
+      "num_output_tokens": 1461
+    },
+    "parse_job_id": "e35eb699-f8f8-4bf0-bf38-8cbcd66c33c5"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "dc55916d-f3a3-41d2-9c51-009ce3dbbfa1",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:24:10.177012+00:00",
-  "updated_at": "2025-11-11T19:25:18.584882+00:00"
+  "job_id": "649c26cf-19af-4004-966a-876875e39db7",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:56:28.542115+00:00",
+  "updated_at": "2026-01-22T03:57:54.303873+00:00"
 }

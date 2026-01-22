@@ -11,68 +11,7 @@
     "institution_of_main_applicant": "ETH Zurich",
     "report": "Final",
     "reporting_period": "",
-    "coapplicants": [
-      {
-        "name": "Turcan Tuna",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Lanke Frank Tarimo Fu",
-        "function": "",
-        "institution": "University of Oxford",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Cedric Weibel",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Katharine Patterson",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Benjamin Krummenacher",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Matthias Müller",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Julian Nubert",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Maurice Fallon",
-        "function": "",
-        "institution": "University of Oxford",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Cesar Cadena",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      },
-      {
-        "name": "Marco Hutter",
-        "function": "",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": ""
-      }
-    ]
+    "coapplicants": []
   },
   "metadata": {
     "schema_name": "ORDReportMetadata",
@@ -82,604 +21,785 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "VERBATIM EXTRACTION – Primary extraction from 'General information' table is required per strategy, which yields the given project title from the table on pages 0-6. The second title, though present, is from a different section and may relate to a sub-project or case study.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling"
-          }
-        ],
-        "extraction_confidence": 0.9999999804489799,
-        "confidence": 0.9999999804489799
+        "reasoning": "The project title requested is the one from the 'General information' table, as per the extraction strategy. The second title refers to a publication produced within the project and is not the project's actual title. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project title:**                     | Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "# Boxi: Design Decisions in the Context of Algorithmic Performance for Robotics",
+              "bounding_boxes": [
+                {
+                  "x": 120.0,
+                  "y": 117.0,
+                  "w": 348.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Jonas Frey<sup>*,1,3</sup> Turcan Tuna<sup>*,1</sup> Lanke Frank Tarimo Fu<sup>*,2</sup> Cedric Weibel<sup>1</sup> Katharine Patterson<sup>1</sup>",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 211.0,
+                  "w": 52.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Jonas Frey<sup>*,1,3</sup> Turcan Tuna<sup>*,1</sup> Lanke Frank Tarimo Fu<sup>*,2</sup> Cedric Weibel<sup>1</sup> Katharine Patterson<sup>1</sup>",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 211.0,
+                  "w": 52.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Jonas Frey<sup>*,1,3</sup> Turcan Tuna<sup>*,1</sup> Lanke Frank Tarimo Fu<sup>*,2</sup> Cedric Weibel<sup>1</sup> Katharine Patterson<sup>1</sup>",
+              "bounding_boxes": [
+                {
+                  "x": 124.0,
+                  "y": 211.0,
+                  "w": 52.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "explore_call_number": {
-        "reasoning": "VERBATIM EXTRACTION (call number mapped to integer)",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Contribute call number is the call number; extracted as 'Call 6', which translates to call number 6."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "## 6. List of Outputs",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 230.0,
+                  "w": 96.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "project_starting_and_end_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "1 May 2024 to 30 April 2025"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 1 May 2024 to 30 April 2025                                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 1 May 2024 to 30 April 2025                                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "VERBATIM EXTRACTION, but titles omitted as instructed by schema.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Prof. Dr. Marco Hutter"
-          }
-        ],
+        "reasoning": "Extracted from 'Prof. Dr. Marco Hutter', omitting academic/professional titles as per instructions. VERBATIM EXTRACTION (with post-processing for titles).",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Applicant responsible for project:** | Prof. Dr. Marco Hutter                                                        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "This lay summary<sup>1</sup> (maximum: ½ page) should be understandable by a non-expert audience and will be used for outreach and communications activities.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 523.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function is listed under General information; found 'Principle Investigator'."
-          }
-        ],
-        "extraction_confidence": 0.9999805451892944,
-        "confidence": 0.9999805451892944
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999996175860865,
+        "confidence": 0.9999996175860865,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function:**                          | Principle Investigator                                                        |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Contribute programme (please refer to page 1 of the application guidelines for Contribute).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 163.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Robotics Systems Lab, D-MAVT"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**    | Robotics Systems Lab, D-MAVT                                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**    | Robotics Systems Lab, D-MAVT                                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 1 May 2024 to 30 April 2025                                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 1 May 2024 to 30 April 2025                                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**       | 1 May 2024 to 30 April 2025                                                   |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 153.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "institution_of_main_applicant": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Institution of the applicant: 'ETH Zurich'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| ETH Zurich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research |",
+              "bounding_boxes": [
+                {
+                  "x": 233.0,
+                  "y": 40.0,
+                  "w": 65.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Contribute programme (please refer to page 1 of the application guidelines for Contribute).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 163.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Contribute programme (please refer to page 1 of the application guidelines for Contribute).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 163.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Contribute programme (please refer to page 1 of the application guidelines for Contribute).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 163.0,
+                  "w": 482.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "report": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Scientific Report Template – Final"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "reporting_period": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.01,
-        "confidence": 0.01
-      },
-      "coapplicants": [
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Turcan Tuna<sup>*,1</sup>"
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## Scientific Report Template – Final",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 160.0,
+                  "w": 256.0,
+                  "h": 16.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7934233949075431,
-            "confidence": 0.7934233949075431
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999981151405137,
-            "confidence": 0.9999981151405137
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-author list used as co-applicants; names and institutional affiliations mapped directly, other data not present."
+            }
+          ]
         },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Lanke Frank Tarimo Fu<sup>*,2</sup>"
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>2</sup> University of Oxford"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-author, * mark matches main institutional affiliation in superscript legend."
+            }
+          ]
         },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Cedric Weibel<sup>1</sup>"
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999515968389,
-            "confidence": 0.9999999515968389
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Co-author, institution via superscript."
+            }
+          ]
         },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Katharine Patterson<sup>1</sup>"
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 3 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 421.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999987036921301,
-            "confidence": 0.9999987036921301
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Matched from author and affiliation lines."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Benjamin Krummenacher<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Matched from author/institution lines."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Matthias Müller<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Directly from the authors/institution list."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Julian Nubert<sup>1,3</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999515968389,
-            "confidence": 0.9999999515968389
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9951183842638069,
-            "confidence": 0.9951183842638069
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Cited institution in superscript, name verbatim."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Maurice Fallon<sup>2</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9795532334985784,
-            "confidence": 0.9795532334985784
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>2</sup> University of Oxford"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "From authorship and superscript legend."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Cesar Cadena<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Direct verbatim extraction."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "Marco Hutter<sup>1</sup>"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "<sup>1</sup> ETH Zurich"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 11,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.01,
-            "confidence": 0.01
-          },
-          "reasoning": "Exact matching of name and institution."
+            }
+          ]
         }
-      ]
+      }
     },
     "usage": {
       "num_pages_extracted": 11,
-      "num_document_tokens": 7695,
-      "num_output_tokens": 8678
-    }
+      "num_document_tokens": 7539,
+      "num_output_tokens": 1740
+    },
+    "parse_job_id": "c664b888-818f-4b16-bb6b-e2b32f3d2451"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "cd1eec40-6e86-4197-b6ca-5b1610f16ab9",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T16:42:40.281678+00:00",
-  "updated_at": "2025-11-11T16:43:59.166004+00:00"
+  "job_id": "4d8d2f81-ba52-4b05-a9ed-77a8fa647066",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:52:33.385364+00:00",
+  "updated_at": "2026-01-22T02:53:35.993493+00:00"
 }

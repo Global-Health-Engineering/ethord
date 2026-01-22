@@ -3,7 +3,7 @@
   "status": "success",
   "data": {
     "project_title": "Cloud and web-based platform for dissemination of computational solid mechanics",
-    "explore_call_number": 1,
+    "explore_call_number": 0,
     "project_starting_and_end_date": "01.01.23 - 01.07.24",
     "main_applicant_responsible_for_project": "Guillaume Anciaux",
     "function": "Senior Scientist",
@@ -34,179 +34,423 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "The value is found in the 'Project title' row of the General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "explore_call_number": {
-        "reasoning": "The value in the source is 'EPFL SCR0821348'. The call number 'EPFL SCR0821348' relates to the first call for EPFL projects under this code. The directive is to translate this to '1st = 1', which matches the 1st (original) ORD Explore call.",
-        "extraction_confidence": 0.9525212250950498,
-        "confidence": 0.9525212250950498
-      },
-      "project_starting_and_end_date": {
-        "reasoning": "Direct extraction from the 'Project starting & end date' row.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_responsible_for_project": {
-        "reasoning": "Value is taken verbatim from the specified row.",
-        "extraction_confidence": 0.9999999515968389,
-        "confidence": 0.9999999515968389
-      },
-      "function": {
-        "reasoning": "Direct entry under 'Function' for the main applicant.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "laboratory_department": {
-        "reasoning": "Found under 'Laboratory (and/or Department)' for main applicant.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "institution_of_main_applicant": {
-        "reasoning": "Direct extraction. Clearly specified.",
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "report": {
-        "reasoning": "In the report type row, 'Final scientific report' is checked.",
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "[x] Final scientific report"
+            "matching_text": "| **Project title:**                          | Cloud and web-based platform for dissemination of computational solid mechanics |",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 199.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
           }
-        ],
+        ]
+      },
+      "explore_call_number": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998900258591726,
+        "confidence": 0.9998900258591726
+      },
+      "project_starting_and_end_date": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Project starting & end date:**            | 01.01.23 - 01.07.24                                                             |",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 199.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
+      },
+      "main_applicant_responsible_for_project": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 3,
+            "matching_text": "...for the JTCAM journal can be found online on Renku ([jtcam-data-10430](https://renkulab.io/projects/guillaume.anciaux/jtcam-data-10430/sessions/new?autostart=1), and [jtcam-data-9733](https://renkulab...",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 243.0,
+                "w": 476.0,
+                "h": 107.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
+      },
+      "function": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Function:**                               | Senior Scientist                                                                |",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 199.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
+      },
+      "laboratory_department": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "Molinari | Prof     | LSMS – EPFL                               | Scientific Advisor and Supervision    |\n| N.",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 578.0,
+                "w": 454.0,
+                "h": 97.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
+      },
+      "institution_of_main_applicant": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "To be submitted by the main applicant directly to [research@epfl.ch](mailto:research@epfl.ch) along with the financial reporting.",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 189.0,
+                "w": 444.0,
+                "h": 10.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
+      },
+      "report": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "## Scientific Report Template – Intermediate & Final",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 161.0,
+                "w": 372.0,
+                "h": 16.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
       },
       "reporting_period": {
-        "reasoning": "Value given directly after 'Reporting period (MM/YY to MM/YY)'.",
-        "extraction_confidence": 0.999999963998335,
-        "confidence": 0.999999963998335
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "citation": [
+          {
+            "page": 1,
+            "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 01.01.23 – 27.09.24                                                             |",
+            "bounding_boxes": [
+              {
+                "x": 50.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 199.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 595.303937007874,
+              "height": 841.889763779528
+            }
+          }
+        ]
       },
       "coapplicants": [
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "J.F. Molinari"
+                "matching_text": "| J.F. Molinari | Prof     | LSMS – EPFL                               | Scientific Advisor and Supervision    |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "| Prof |"
+                "matching_text": "Molinari | Prof     | LSMS – EPFL                               | Scientific Advisor and Supervision    |\n| N.",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999744386057575,
+            "confidence": 0.9999744386057575,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "| LSMS – EPFL |"
+                "matching_text": "Molinari | Prof     | LSMS – EPFL                               | Scientific Advisor and Supervision    |\n| N.",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9989534228081136,
-            "confidence": 0.9989534228081136
+            ]
           },
           "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Scientific Advisor and Supervision"
+                "matching_text": "Molinari | Prof     | LSMS – EPFL                               | Scientific Advisor and Supervision    |\n| N.",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "N. Richart"
+                "matching_text": "Richart    | Ph.D     | SCITAS – EPFL                             | HPC Technical advisor                 |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "| Ph.D |"
+                "matching_text": "Richart    | Ph.D     | SCITAS – EPFL                             | HPC Technical advisor                 |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "| SCITAS – EPFL |"
+                "matching_text": "Richart    | Ph.D     | SCITAS – EPFL                             | HPC Technical advisor                 |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "HPC Technical advisor"
+                "matching_text": "Richart    | Ph.D     | SCITAS – EPFL                             | HPC Technical advisor                 |",
+                "bounding_boxes": [
+                  {
+                    "x": 50.0,
+                    "y": 578.0,
+                    "w": 454.0,
+                    "h": 97.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.303937007874,
+                  "height": 841.889763779528
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 8,
-      "num_document_tokens": 5064,
-      "num_output_tokens": 1437
-    }
+      "num_pages_extracted": 7,
+      "num_document_tokens": 5160,
+      "num_output_tokens": 686
+    },
+    "parse_job_id": "4584ee22-114b-4568-8876-dc12bc1c71d4"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "8f722d18-8a33-42ed-a44e-0b7cac1ab60f",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:27:15.383790+00:00",
-  "updated_at": "2025-11-11T17:29:12.748166+00:00"
+  "job_id": "ffe26236-242b-434b-9c0c-c65f0c891390",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:24:41.458072+00:00",
+  "updated_at": "2026-01-22T02:25:46.962723+00:00"
 }

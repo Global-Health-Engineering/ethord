@@ -10,15 +10,7 @@
     "main_applicant_laboratory_name": "EPFL STI IGM CREATE-LAB",
     "main_applicant_postcode": 1015,
     "main_applicant_city": "Lausanne",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "EPFL",
-        "function_title": "Prof.",
-        "first_name": "Josie",
-        "surname": "Hughes",
-        "postcode": 1015
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense)",
     "project_acronym": "OpenSense",
     "project_abstract": "The rapid development of soft materials with incorporated sensing properties has diverse applications in wearable devices, healthcare, and soft robotics. Soft sensors can detect strain, force, temperature, humidity, and more, emulating human skin's sensing abilities. This interdisciplinary field combines robotics, materials science, and data science. However, developing soft sensors is challenging due to the linked mechanical and sensing properties, requiring simultaneous data reporting for optimization. To address this, we require open access data-sets that enable comparison and analysis of different sensors. Current data collection methods using expensive equipment and post-processing hinder progress. We propose a novel hardware solution based upon low-cost 3D printer platforms which could offer promising solutions to foster and enable this ORD practice. In this project we seek to formally contribute the openly available hardware design and software to enable curation of data is a data format that is aligned with ORD best practises. This will involve making the designs and software openly available and findable under FAIR principles and providing the necessary documentation in a manner that is easy to update. The software scripts must be developed to generate output data that is FAIR compliant and best supports ORD practices. A second aspect of this project is to disseminate the enabling technologies by participating in key workshops on the topic of ‘open hardware’.",
@@ -32,19 +24,19 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Contributed openly available Hardware Design"
+        "wp_title": "Contributed openly available Hardware Design (M1-3). Simplify and finalize hardware design for measurement technology from the 3D printer; generate technical documentation and publish online."
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Contribute Software for the gathering of data"
+        "wp_title": "Contribute Software for the gathering of data (M4-6). Develop, comment, and test Python code for controlling the platform and integrating it into the repository."
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Contribute Scrips for the data-formatting and storage"
+        "wp_title": "Contribute Scripts for the data-formatting and storage (M6-9). Scripts for generating FAIR-compliant data, including persistent identifiers and appropriate metadata."
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Evaluation, Dissemination and engagement activities"
+        "wp_title": "Evaluation, Dissemination and engagement activities (M9-12). Promote ORD practice via publication, webinars, workshops, and community engagement."
       }
     ]
   },
@@ -57,353 +49,1680 @@
     "field_metadata": {
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 130.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Which ETH Domain do you belong to? EPFL"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +4121 693 49 28<br/><research@epfl.ch> | P<br/>A |",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 797.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title): Prof."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Junior researcher / Postdoc<br/>Prof. Daniela Rus | Massachusetts Institute of Technology, US<br/>CSAIL      | 07.2019 - 04.2021<br/>1 year(s) 10 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 646.0,
+                  "w": 452.0,
+                  "h": 114.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name(s): Josie"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Josie Hughes | Applicant ID - ORD1000308",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table entry 'Surname(s)' is 'Hughes'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Josie Hughes | Applicant ID - ORD1000308",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL Laboratory: EPFL STI IGM CREATE-LAB"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL STI IGM CREATE-LAB                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode: 1015"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +4121 693 49 28<br/><research@epfl.ch> | P<br/>A |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 797.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table row 'City' is 'Lausanne'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "EPFL"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Prof."
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Josie"
-              }
-            ],
-            "extraction_confidence": 0.9999999031936799,
-            "confidence": 0.9999999031936799
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Hughes"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "1015"
-              }
-            ],
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        }
-      ],
-      "project_title": {
-        "reasoning": "The more complete project title on page 10 includes the project acronym 'OpenSense', which matches the expected extended form. Both entries are verbatim extractions, but the later occurrence contains more complete project identification, and is therefore selected as the value to report. Confidence is the mean of the two provided: (1.0 + 0.9999999919328063)/2 ≈ 0.9999999959664032.",
-        "citation": [
-          {
-            "page": 10,
-            "matching_text": "Project title\n> Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense)"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999959664032,
-        "confidence": 0.9999999959664032
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +4121 693 49 28<br/><research@epfl.ch> | P<br/>A |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 797.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_title": {
+        "reasoning": "Two verbatim titles extracted from slightly different locations; the version with the project acronym (OpenSense) is more complete and is preferred as the final value. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999959664031,
+        "confidence": 0.9999999959664031,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 55.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "> Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 174.0,
+                  "w": 439.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 55.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "> Enabling Open Datasets of Soft Tactile Sensor Characterization through Openly Available Hardware and Software (OpenSense)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 174.0,
+                  "w": 439.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "*Table 1 – Gantt Chart of proposed work packages and milestones.*",
+              "bounding_boxes": [
+                {
+                  "x": 187.22,
+                  "y": 510.19,
+                  "w": 236.26,
+                  "h": 8.04
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "These will be published under Creative Commons license CC-BY 4.0 as it allows for easy reuse, share and modification such that it is truly open source and open access.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 330.0,
+                  "w": 459.0,
+                  "h": 394.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "These will be published under Creative Commons license CC-BY 4.0 as it allows for easy reuse, share and modification such that it is truly open source and open access.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 330.0,
+                  "w": 459.0,
+                  "h": 394.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Section 3 table: 'Acronym of the project' is 'OpenSense'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Acronym of the project...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 139.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| OpenSense...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 139.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The rapid development of soft materials with incorporated sensing properties has diverse applications in wearable devices, healthcare, and soft robotics. Soft sensors can detect strain, force, temperature, humidity, and more, emulating human skin's sensing abilities. This interdisciplinary field combines robotics, materials science, and data science. However, developing soft sensors is challenging due to the linked mechanical and sensing properties, requiring simultaneous data reporting for optimization. To address this, we require open access data-sets that enable comparison and analysis of different sensors. Current data collection methods using expensive equipment and post-processing hinder progress. We propose a novel hardware solution based upon low-cost 3D printer platforms which could offer promising solutions to foster and enable this ORD practice. In this project we seek to formally contribute the openly available hardware design and software to enable curation of data is a data format that is aligned with ORD best practises. This will involve making the designs and software openly available and findable under FAIR principles and providing the necessary documentation in a manner that is easy to update. The software scripts must be developed to generate output data that is FAIR compliant and best supports ORD practices. A second aspect of this project is to disseminate the enabling technologies by participating in key workshops on the topic of ‘open hardware’."
-          }
-        ],
-        "parsing_confidence": 0.9999951553325179,
-        "extraction_confidence": 0.9999951553325179,
-        "confidence": 0.9999951553325179
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999855865068069,
+        "confidence": 0.9999855865068069,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "In this project we seek to formally contribute the openly available hardware design and software to enable curation of data is a data format that is aligned with ORD best practises.",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 161.0,
+                  "w": 43.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 386.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "*Table 1 – Gantt Chart of proposed work packages and milestones.*",
+              "bounding_boxes": [
+                {
+                  "x": 187.22,
+                  "y": 510.19,
+                  "w": 236.26,
+                  "h": 8.04
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "These will be published under Creative Commons license CC-BY 4.0 as it allows for easy reuse, share and modification such that it is truly open source and open access.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 330.0,
+                  "w": 459.0,
+                  "h": 394.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "These will be published under Creative Commons license CC-BY 4.0 as it allows for easy reuse, share and modification such that it is truly open source and open access.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 330.0,
+                  "w": 459.0,
+                  "h": 394.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Soft sensors,"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Soft sensors,<br/>Hardware,...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "Hardware,"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Soft sensors,<br/>Hardware,...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2024...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 376.0,
+                    "w": 410.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "'Proposed Starting Date' table shows '1 Jan 2024'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999135960062,
+        "confidence": 0.9999999135960062,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 376.0,
+                  "w": 410.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 376.0,
+                  "w": 410.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration field is '12'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Two independent, explicit data points confirm that the total budget requested is 30,000 CHF: (1) A verbatim extraction from a BUDGET table, and (2) a sum of clearly listed subcomponents (Postdocs, Students, Travel). Both point to the same value without any conflicting or additional relevant data.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table in section 4 - BUDGET, 'Total requested amount in CHF' = 30000."
-          },
-          {
-            "page": 17,
-            "matching_text": "Postdocs                                          | 18,000"
-          },
-          {
-            "page": 17,
-            "matching_text": "Students                                          | 7,000"
-          },
-          {
-            "page": 17,
-            "matching_text": "Travel²                             |                                                   | 5,000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\n   Proposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 401.0,
+                  "w": 439.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "Page 2/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Both sources confirm the total budget requested is 30,000 CHF—one via verbatim extraction, the other via summing listed line items. There is no conflicting or alternative figure. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 739.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 739.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 31 March 2023, Josie Hughes, ORCID [iD 0000-0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1: Contributed openly available Hardware Design (M1-3)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1: Contributed openly available Hardware Design (M1-3)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9985572323326372,
-            "confidence": 0.9985572323326372
+            "extraction_confidence": 0.6558549160880582,
+            "confidence": 0.6558549160880582
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2: Contribute Software for the gathering of data (M4-6)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2: Contribute Software for the gathering of data (M4-6)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998378594544541,
-            "confidence": 0.9998378594544541
+            "extraction_confidence": 0.6074428700390184,
+            "confidence": 0.6074428700390184
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP3: Contribute Scrips for the data-formatting and storage (M6-9)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP3: Contribute Scrips for the data-formatting and storage (M6-9)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9916720627386237,
-            "confidence": 0.9916720627386237
+            "extraction_confidence": 0.5331804797525092,
+            "confidence": 0.5331804797525092
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP4: Evaluation, Dissemination and engagement activities (M9-12)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP4: Evaluation, Dissemination and engagement activities (M9-12)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999896312326068,
-            "confidence": 0.9999896312326068
+            "extraction_confidence": 0.619340992851974,
+            "confidence": 0.619340992851974
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -411,29 +1730,31 @@
     },
     "usage": {
       "num_pages_extracted": 18,
-      "num_document_tokens": 10256,
-      "num_output_tokens": 7535
-    }
+      "num_document_tokens": 10223,
+      "num_output_tokens": 4997
+    },
+    "parse_job_id": "61b93b90-5876-4917-a741-7682c2dc70f5"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "be481b61-c03b-4f19-b65f-40e2ec7646d1",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:06:13.124695+00:00",
-  "updated_at": "2025-11-11T11:08:08.807258+00:00"
+  "job_id": "e63e1d48-d1d0-4f94-b9a7-e5e474cc6cd8",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:29:11.496622+00:00",
+  "updated_at": "2026-01-21T18:31:18.256863+00:00"
 }

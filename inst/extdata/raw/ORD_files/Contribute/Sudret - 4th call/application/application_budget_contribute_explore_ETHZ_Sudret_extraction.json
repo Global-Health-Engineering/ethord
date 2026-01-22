@@ -26,66 +26,255 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 702.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "|                                 |                                     | Postdocs (4 months)                              | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The open source version 1.0 was released on April 28, 2017.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 691.0,
+                  "w": 449.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "1[.](https://sites.google.com/site/jhusurg/UQpy)  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The open source version 1.0 was released on April 28, 2017.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 691.0,
+                  "w": 449.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "1[.](https://sites.google.com/site/jhusurg/UQpy)  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The open source version 1.0 was released on April 28, 2017.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 691.0,
+                  "w": 449.0,
+                  "h": 53.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "1[.](https://sites.google.com/site/jhusurg/UQpy)  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 153.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The overall project budget **must** be exactly **CHF 30’000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 214.0,
+                  "w": 468.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 20,
-            "matching_text": "Postdocs (4 months)                              | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "|                                 |                                     | Postdocs (4 months)                              | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "A – Total Direct Costs (i + ii) .... 30000"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "|                                 |                                     | Postdocs (4 months)                              | 30000        |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 140.0,
+                  "w": 466.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_personnel_other)\nInput should be a valid number at path (total_budget_personnel_total_direct)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_conferences_workshops)\nInput should be a valid number at path (total_budget_other_other)\nInput should be a valid number at path (total_budget_other_total_direct)\nInput should be a valid number at path (total_budget_subcontracting)"
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 10674,
-      "num_output_tokens": 936
-    }
+      "num_document_tokens": 10479,
+      "num_output_tokens": 782
+    },
+    "parse_job_id": "7896c5a4-9da3-46ca-9a23-79a9075afe31"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "06c923f4-d370-498b-b142-fb5789ccbb33",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T13:54:28.339612+00:00",
-  "updated_at": "2025-11-11T13:54:51.336758+00:00"
+  "job_id": "59c6ba45-b51c-430c-8cd7-0883e53efbfe",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:46:39.109972+00:00",
+  "updated_at": "2026-01-21T20:47:44.365430+00:00"
 }

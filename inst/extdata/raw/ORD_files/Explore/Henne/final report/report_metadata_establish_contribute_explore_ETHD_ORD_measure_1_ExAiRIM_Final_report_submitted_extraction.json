@@ -11,7 +11,7 @@
     "institution_of_main_applicant": "Empa, Switzerland",
     "report": "Final",
     "reporting_period": "05/23 to 07/24",
-    "coapplicants": null
+    "coapplicants": []
   },
   "metadata": {
     "schema_name": "ORDReportMetadata",
@@ -21,144 +21,975 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Project title:**                          | Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION from the 'General information' table as per the extraction strategy's PRIMARY focus. The alternative, 'HFO-Europe', appears in a context related to data analysis within the project (e.g., as a subproject or data subset), not as the overall project title. Therefore, the main project title is reported as required.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project title:**                          | Explore AiiDA for Regional Inverse Modelling of Greenhouse Gases     |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "| run.str&#xA;project\tHFO-Europe&#xA;institute\tEmpa, Switzerland&#xA;chunk\tyear ▾&#xA;chunk\\_w\tyear ▾ |                 |                |                    |               |         |...",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 83.0,
+                  "w": 384.0,
+                  "h": 322.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Explore programme (please refer to page 1 of the application guidelines for Explore).*",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 502.0,
+                  "w": 483.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "*Note: All values in the following tables are in HFC-143a (Gg y<sup>-1</sup>) and are estimated from the charts.*",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 842.04
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Explore programme (please refer to page 1 of the application guidelines for Explore).*",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 502.0,
+                  "w": 483.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "| 2019 | 0.60             | 0.52                 | 0.55             | 0.45                 | 0.72                   | 0.72                       | 0.72                   | 0.72...",
+              "bounding_boxes": [
+                {
+                  "x": 85.14,
+                  "y": 89.26,
+                  "w": 381.97,
+                  "h": 296.27
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Explore programme (please refer to page 1 of the application guidelines for Explore).*",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 502.0,
+                  "w": 483.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "| 2019 | 0.60             | 0.52                 | 0.55             | 0.45                 | 0.72                   | 0.72                       | 0.72                   | 0.72...",
+              "bounding_boxes": [
+                {
+                  "x": 85.14,
+                  "y": 89.26,
+                  "w": 381.97,
+                  "h": 296.27
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "explore_call_number": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Explore call number:**                    | 1"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## 1. General information",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 300.0,
+                  "w": 122.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "project_starting_and_end_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Project starting & end date:**            | 2023-05-01 – 2024-07-31"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**            | 2023-05-01 – 2024-07-31                                              |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Extracted full name and omitted title as per instructions. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Main applicant responsible for project:** | Dr. Stephan Henne"
-          }
-        ],
+        "reasoning": "Extracted the main applicant's name, omitting the title 'Dr.' as per instruction.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9999691397602629,
+        "confidence": 0.9999691397602629,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Main applicant responsible for project:** | Dr. Stephan Henne                                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "You should also explain how the project contributes to the wider aims of the ORD Explore programme (please refer to page 1 of the application guidelines for Explore).*",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 502.0,
+                  "w": 483.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| New or enhanced repositories and/or catalogues:...",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 167.0,
+                  "w": 482.0,
+                  "h": 556.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| New or enhanced repositories and/or catalogues:...",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 167.0,
+                  "w": 482.0,
+                  "h": 556.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Function:**                               | Senior Scientist"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function:**                               | Senior Scientist                                                     |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "<sup>1</sup> The SNSF provides some lay summary templates should they be useful as general guidance: in [German or](https://www.snf.ch/SiteCollectionDocuments/allg_laysummary_bsp_d.pdf) [French](ht...",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 745.0,
+                  "w": 414.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "<sup>1</sup> The SNSF provides some lay summary templates should they be useful as general guidance: in [German or](https://www.snf.ch/SiteCollectionDocuments/allg_laysummary_bsp_d.pdf) [French](ht...",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 745.0,
+                  "w": 414.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "<sup>1</sup> The SNSF provides some lay summary templates should they be useful as general guidance: in [German or](https://www.snf.ch/SiteCollectionDocuments/allg_laysummary_bsp_d.pdf) [French](ht...",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 745.0,
+                  "w": 414.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Laboratory (and/or Department):**         | Air Pollution / Environmental Technology"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**         | Air Pollution / Environmental Technology                             |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**         | Air Pollution / Environmental Technology                             |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Step 1 was implemented through four separate AiiDA calculations, two of which deal with preparing input data for the transport model and two separate FLEXPART calculations depending on the required...",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 668.0,
+                  "w": 477.0,
+                  "h": 84.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Step 1 was implemented through four separate AiiDA calculations, two of which deal with preparing input data for the transport model and two separate FLEXPART calculations depending on the required...",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 668.0,
+                  "w": 477.0,
+                  "h": 84.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "Step 1 was implemented through four separate AiiDA calculations, two of which deal with preparing input data for the transport model and two separate FLEXPART calculations depending on the required...",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 668.0,
+                  "w": 477.0,
+                  "h": 84.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "institution_of_main_applicant": {
-        "reasoning": "There are two positive, high-confidence verbatim extractions referring to the 'Institution of main applicant': (1) 'Empa' directly cited from the General information table (p.1), and (2) 'Empa, Switzerland' cited from a project detail section (p.13). Given the second is more complete, and both support Empa as the institution, 'Empa, Switzerland' is the best representation. The negative finding on p.7 does not contradict the clear evidence elsewhere.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Institution of main applicant:**          | Empa"
-          },
-          {
-            "page": 13,
-            "matching_text": "institute\tEmpa, Switzerland"
-          }
-        ],
+        "reasoning": "Both extractions refer to 'Empa' as the institution of the main applicant, with one providing added specificity as 'Empa, Switzerland'. To maximize completeness, 'Empa, Switzerland' is chosen. Confidence is averaged between the two highly confident extractions.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 0.9999999459975044
+        "extraction_confidence": 0.9999999609,
+        "confidence": 0.9999999609,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| ETH zürich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research |",
+              "bounding_boxes": [
+                {
+                  "x": 233.0,
+                  "y": 40.0,
+                  "w": 65.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "| run.str&#xA;project\tHFO-Europe&#xA;institute\tEmpa, Switzerland&#xA;chunk\tyear ▾&#xA;chunk\\_w\tyear ▾ |                 |                |                    |               |         |...",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 83.0,
+                  "w": 384.0,
+                  "h": 322.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Furthermore, the transport model only represents a first step in our inverse modelling workflow (see Figure 1 of the proposal, repeated as Figure 1 in the Appendix).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 557.0,
+                  "w": 477.0,
+                  "h": 143.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "*Note: All values in the following tables are in HFC-143a (Gg y<sup>-1</sup>) and are estimated from the charts.*",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 842.04
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Furthermore, the transport model only represents a first step in our inverse modelling workflow (see Figure 1 of the proposal, repeated as Figure 1 in the Appendix).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 557.0,
+                  "w": 477.0,
+                  "h": 143.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "| 2019 | 0.48             | 0.35                 | 0.37             | 0.32                 | 0.40                   | 0.40                       | 0.40                   | 0.40...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 86.0,
+                  "w": 420.0,
+                  "h": 298.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "Furthermore, the transport model only represents a first step in our inverse modelling workflow (see Figure 1 of the proposal, repeated as Figure 1 in the Appendix).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 557.0,
+                  "w": 477.0,
+                  "h": 143.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "| 2019 | 0.48             | 0.35                 | 0.37             | 0.32                 | 0.40                   | 0.40                       | 0.40                   | 0.40...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 86.0,
+                  "w": 420.0,
+                  "h": 298.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "report": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "General information: '[x] Final scientific report' is checked, so value is 'Final'."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## Scientific Report Template – Intermediate & Final",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 160.0,
+                  "w": 372.0,
+                  "h": 16.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
       },
       "reporting_period": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Reporting period (MM/YY to MM/YY):**      | 05/23 to 07/24"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "error": "Input should be a valid list at path (coapplicants)"
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 05/23 to 07/24                                                       |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 05/23 to 07/24                                                       |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 327.0,
+                  "w": 454.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "The text of the report (questions 2-3-4-5) should be max. 4 pages (Arial 11 point, spacing 1.15).",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 258.0,
+                  "w": 422.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 842.04
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
-      "num_pages_extracted": 15,
-      "num_document_tokens": 12752,
-      "num_output_tokens": 4440
-    }
+      "num_pages_extracted": 14,
+      "num_document_tokens": 12259,
+      "num_output_tokens": 2081
+    },
+    "parse_job_id": "8df987a9-8150-4dcb-8191-67fd9ffaa67c"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "7b257526-53c3-4a6b-bb67-78e64f55e4a0",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:46:32.928955+00:00",
-  "updated_at": "2025-11-11T17:48:27.052826+00:00"
+  "job_id": "f68d297e-40be-45f7-bb1f-743c18828c4d",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:11:50.009877+00:00",
+  "updated_at": "2026-01-22T02:13:34.280635+00:00"
 }

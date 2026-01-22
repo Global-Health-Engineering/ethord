@@ -10,55 +10,55 @@
     "laboratory_department": "Mountain Ecosystems, Alpine Environment and Natural Hazards",
     "institution_of_main_applicant": "WSL Institute for Snow and Avalanche Research SLF",
     "report": "Final",
-    "reporting_period": "INSUFFICIENT DATA",
+    "reporting_period": "",
     "coapplicants": [
       {
         "name": "Mathias Bavay",
-        "function": "Researcher, Research Unit Snow and Atmosphere",
+        "function": "Research Unit Snow and Atmosphere",
         "institution": "WSL",
-        "roles_and_main_tasks": "Collaboration on data curation and scientific integration (INFERRED FROM TEXT)"
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Mauro Marty",
-        "function": "Researcher, Research Unit Land Change Science",
+        "function": "Research Unit Land Change Science",
         "institution": "WSL",
-        "roles_and_main_tasks": "Collaboration on data curation and publication (INFERRED FROM TEXT)"
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Marcus Schaub",
-        "function": "Researcher, Research Unit Forest Soils and Biogeochemistry",
+        "function": "Research Unit Forest Soils and Biogeochemistry",
         "institution": "WSL",
-        "roles_and_main_tasks": "Co-applicant, data and metadata curation (INFERRED FROM TEXT)"
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Frank Hagedorn",
-        "function": "Researcher, Research Unit Land Change Science",
+        "function": "Research Unit Land Change Science",
         "institution": "WSL",
-        "roles_and_main_tasks": "Co-applicant, support in data evaluation and publication (INFERRED FROM TEXT)"
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Patrick Möhl",
-        "function": "Researcher, Department of Environmental Sciences",
-        "institution": "UNIBAS",
-        "roles_and_main_tasks": "External scientific collaborator (INFERRED FROM TEXT)"
+        "function": "Department of Environmental Sciences",
+        "institution": "University of Basel",
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Ignacio Barbeito",
-        "function": "Researcher, Department of Forest Resources Management",
-        "institution": "UBC",
-        "roles_and_main_tasks": "External scientific collaborator (INFERRED FROM TEXT)"
+        "function": "Department of Forest Resources Management",
+        "institution": "University of British Columbia",
+        "roles_and_main_tasks": ""
       },
       {
         "name": "EnviDat team",
-        "function": "ORD platform and data infrastructure support",
+        "function": "EnviDat team",
         "institution": "WSL",
-        "roles_and_main_tasks": "Data hosting, infrastructure, IT support"
+        "roles_and_main_tasks": ""
       },
       {
         "name": "Christoph Wohner",
-        "function": "eLTER data management",
-        "institution": "Environment Agency Austria",
-        "roles_and_main_tasks": "Data interoperability and international network integration"
+        "function": "Environment Agency",
+        "institution": "Austria (eLTER data management)",
+        "roles_and_main_tasks": ""
       }
     ]
   },
@@ -70,510 +70,849 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "Direct match found under 'Project title' field in the General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project title:**                     | Seizing the treasure: making long-term environmental data available for eLTER and beyond"
+            "matching_text": "| Project title:                     | Seizing the treasure: making long-term environmental data available for eLTER and beyond |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "explore_call_number": {
-        "reasoning": "Extracted number from 'Contribute call number' which is equivalent to 'Explore call number'.",
+        "reasoning": "VERBATIM EXTRACTION, interpreted per instructions",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Contribute call number:**            | 1 (deadline 1st April 2022)"
+            "matching_text": "## 1. General information",
+            "bounding_boxes": [
+              {
+                "x": 74.0,
+                "y": 300.0,
+                "w": 122.0,
+                "h": 9.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "project_starting_and_end_date": {
-        "reasoning": "Extracted directly from the corresponding field in the table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999861705251,
+        "confidence": 0.9999999861705251,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project starting & end date:**       | 2022-09-01 – 2023-04-30"
+            "matching_text": "| Project starting & end date:       | 2022-09-01 – 2023-04-30                                                                  |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Direct value from 'Applicant responsible for project' in General information.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Applicant responsible for project:** | Esther Frei"
+            "matching_text": "| Applicant responsible for project: | Esther Frei                                                                              |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
+        ]
       },
       "function": {
-        "reasoning": "Direct extraction under 'Function' in the General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Function:**                          | Research Associate"
+            "matching_text": "| Function:                          | Research Associate                                                                       |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "laboratory_department": {
-        "reasoning": "Taken directly from the relevant field of the General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Laboratory (and/or Department):**    | Mountain Ecosystems, Alpine Environment and Natural Hazards"
+            "matching_text": "| Laboratory (and/or Department):    | Mountain Ecosystems, Alpine Environment and Natural Hazards                              |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "institution_of_main_applicant": {
-        "reasoning": "Direct verbatim extraction from corresponding field.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Institution of the applicant:**      | WSL Institute for Snow and Avalanche Research SLF"
+            "matching_text": "| Institution of the applicant:      | WSL Institute for Snow and Avalanche Research SLF                                        |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 178.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "report": {
-        "reasoning": "Report template explicitly states 'Final' at the top of the form.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Scientific Report Template – Final"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "reporting_period": {
-        "reasoning": "No separate field for 'Reporting period (MM/YY to MM/YY)'. The only dates given are for the project duration itself. Reporting period likely matches project dates but is not stated independently.",
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project starting & end date:**       | 2022-09-01 – 2023-04-30"
+            "matching_text": "## Scientific Report Template – Final",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 160.0,
+                "w": 256.0,
+                "h": 16.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
+        ]
+      },
+      "reporting_period": {
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9602281375856353,
-        "confidence": 0.9602281375856353
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
       },
       "coapplicants": [
         {
           "name": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Mathias Bavay**, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "...| 6 | **Mathias Bavay**, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SL...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8908744444686315,
+            "confidence": 0.8908744444686315,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Mathias Bavay**, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF"
+                "matching_text": "...| 6 | **Mathias Bavay**, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF<br/><br/>**Maur...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9028849755813007,
-            "confidence": 0.9028849755813007
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999999605184591,
+            "confidence": 0.999999605184591,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "WSL Institute for Snow and Avalanche Research SLF"
+                "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+                "bounding_boxes": [
+                  {
+                    "x": 233.0,
+                    "y": 40.0,
+                    "w": 65.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999822612089618,
-            "confidence": 0.9999822612089618
+            ]
           },
           "roles_and_main_tasks": {
-            "extraction_confidence": 0.3676792154584389,
-            "confidence": 0.3676792154584389
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
           },
-          "reasoning": "Listed in the explicit collaboration table in Section 6 as a co-applicant/collaborator. Function and institution are taken from his description. Role inferred from context as a collaborating scientist for ORD project dataset curation and integration."
+          "reasoning": "Extracted from 'New collaborations' in Section 6: Mathias Bavay, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF. ROLE/MAIN TASK in ORD project is not stated, so blank."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...**, Research Unit Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF<br/><br/>**Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Lands...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999538980596338,
-            "confidence": 0.9999538980596338
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...it Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF<br/><br/>**Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research W...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6847174890779532,
-            "confidence": 0.6847174890779532
+            ]
           },
-          "reasoning": "Listed explicitly as a collaboration in Section 6. Function and institution drawn from entry. Role is inferred from overall list context regarding ORD data project work."
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+                "bounding_boxes": [
+                  {
+                    "x": 233.0,
+                    "y": 40.0,
+                    "w": 65.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted from 'New collaborations' in Section 6. Main task not specified, left blank."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998957278968,
+            "confidence": 0.9999998957278968,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Marcus Schaub**, Research Unit Forest Soils and Biogeochemistry, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/><br/>**Marcus Schaub**, Research Unit Forest Soils and Biogeochemistry, Swiss Federal Institute for Forest,...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998709249087,
-            "confidence": 0.9999998709249087
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999784874837,
+            "confidence": 0.9999999784874837,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Marcus Schaub**, Research Unit Forest Soils and Biogeochemistry, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...ce, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/><br/>**Marcus Schaub**, Research Unit Forest Soils and Biogeochemistry, Swiss Federal Institute for Forest, Snow and Landsca...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998372724065412,
-            "confidence": 0.9998372724065412
+            ]
           },
           "institution": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Marcus Schaub**, Research Unit Forest Soils and Biogeochemistry, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+                "bounding_boxes": [
+                  {
+                    "x": 233.0,
+                    "y": 40.0,
+                    "w": 65.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.46109295423037633,
-            "confidence": 0.46109295423037633
+            ]
           },
-          "reasoning": "Listed in project as a core scientific collaborator. Role inferred from table context."
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted from 'New collaborations' in Section 6. Main task not specified, left blank."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 6,
-                "matching_text": "Frank Hagedorn**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...and Biogeochemistry, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/><br/>**Frank Hagedorn**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and La...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Frank Hagedorn**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999962283869497,
-            "confidence": 0.9999962283869497
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 6,
-                "matching_text": "Frank Hagedorn**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.4930855322439921,
-            "confidence": 0.4930855322439921
-          },
-          "reasoning": "Included in new collaborations as project-related co-applicant; role inferred from research output descriptions."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Patrick Möhl, Department of Environmental Sciences, University of Basel"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Department of Environmental Sciences, University of Basel"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9411478136107284,
-            "confidence": 0.9411478136107284
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "University of Basel"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.3848640719518414,
-            "confidence": 0.3848640719518414
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Patrick Möhl, Department of Environmental Sciences, University of Basel"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6519617634541537,
-            "confidence": 0.6519617634541537
-          },
-          "reasoning": "Listed collaborator for the ORD project, with function, institution, and role reasoned from description."
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Ignacio Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999612774708,
-            "confidence": 0.9999999612774708
-          },
-          "function": {
+            "confidence": 0.9999999612774708,
             "citation": [
               {
-                "page": 7,
-                "matching_text": "Department of Forest Resources Management, University of British Columbia, Vancouver"
+                "page": 6,
+                "matching_text": "...it Snow and Atmosphere, WSL Institute for Snow and Avalanche Research SLF<br/><br/>**Mauro Marty**, Research Unit Land Change Science, Swiss Federal Institute for Forest, Snow and Landscape Research W...",
+                "bounding_boxes": [
+                  {
+                    "x": 56.0,
+                    "y": 84.0,
+                    "w": 481.0,
+                    "h": 654.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9974908680795254,
-            "confidence": 0.9974908680795254
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
-                "page": 7,
-                "matching_text": "University of British Columbia, Vancouver"
+                "page": 6,
+                "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+                "bounding_boxes": [
+                  {
+                    "x": 233.0,
+                    "y": 40.0,
+                    "w": 65.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999861948679375,
-            "confidence": 0.9999861948679375
+            ]
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "Ignacio Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9061197997514144,
-            "confidence": 0.9061197997514144
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
           },
-          "reasoning": "Included as international ORD project collaborator."
+          "reasoning": "Extracted from 'New collaborations' in Section 6. Main task not specified, left blank."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999965977655819,
+            "confidence": 0.9999965977655819,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "|                                                                                        |     | Patrick Möhl, Department of Environmental Sciences, University of Basel<br/>Ignacio Barbeito, Departmen...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.999985408856487,
-            "confidence": 0.999985408856487
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999986813569589,
+            "confidence": 0.9999986813569589,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...|     | Patrick Möhl, Department of Environmental Sciences, University of Basel<br/>Ignacio Barbeito, Department of Forest...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.182171408034144,
-            "confidence": 0.182171408034144
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9996092129042696,
+            "confidence": 0.9996092129042696,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "...|     | Patrick Möhl, Department of Environmental Sciences, University of Basel<br/>Ignacio Barbeito, Department of Forest Resources Management, University of B...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 7,
-                "matching_text": "EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.2637922300266527,
-            "confidence": 0.2637922300266527
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
           },
-          "reasoning": "Included as project-related technical co-applicant for data infrastructure."
+          "reasoning": "Extracted from 'New collaborations' in Section 6/Page 7. Main task not specified."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999999612774708,
+            "confidence": 0.9999999612774708,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Christoph Wohner, Environment Agency, Austria (eLTER data management)"
+                "matching_text": "...|     | Patrick Möhl, Department of Environmental Sciences, University of Basel<br/>Ignacio Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouv...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "eLTER data management"
+                "matching_text": "...| Patrick Möhl, Department of Environmental Sciences, University of Basel<br/>Ignacio Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver<br/>EnviDat tea...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9710861654975369,
-            "confidence": 0.9710861654975369
+            ]
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999600219186222,
+            "confidence": 0.9999600219186222,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Environment Agency, Austria"
+                "matching_text": "...ntal Sciences, University of Basel<br/>Ignacio Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver<br/>EnviDat team, Swiss Federal Institute for Forest, Snow...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9236529992332083,
-            "confidence": 0.9236529992332083
+            ]
           },
           "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted from 'New collaborations' in Section 6/Page 7. Main task not specified."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999988899631603,
+            "confidence": 0.9999988899631603,
             "citation": [
               {
                 "page": 7,
-                "matching_text": "Christoph Wohner, Environment Agency, Austria (eLTER data management)"
+                "matching_text": "...Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver<br/>EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/>Christoph Wohn...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.0901468880287722,
-            "confidence": 0.0901468880287722
+            ]
           },
-          "reasoning": "Listed as collaborator with expertise in data management and integration."
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9955716046924451,
+            "confidence": 0.9955716046924451,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "...Barbeito, Department of Forest Resources Management, University of British Columbia, Vancouver<br/>EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/>Christoph Wohn...",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9992490425129514,
+            "confidence": 0.9992490425129514,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "| ETH Zürich | EPFL | PAUL SCHERRER INSTITUT PSI | WSL | Empa Materials Science and Technology | eawag aquatic research |",
+                "bounding_boxes": [
+                  {
+                    "x": 233.0,
+                    "y": 40.0,
+                    "w": 65.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted from 'New collaborations' in Section 6/Page 7. Main task not specified."
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "...Vancouver<br/>EnviDat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/>Christoph Wohner, Environment Agency, Austria (eLTER data management) |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8209872444156016,
+            "confidence": 0.8209872444156016,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "...Dat team, Swiss Federal Institute for Forest, Snow and Landscape Research WSL<br/>Christoph Wohner, Environment Agency, Austria (eLTER data management) |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9859501158117179,
+            "confidence": 0.9859501158117179,
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "...ral Institute for Forest, Snow and Landscape Research WSL<br/>Christoph Wohner, Environment Agency, Austria (eLTER data management) |",
+                "bounding_boxes": [
+                  {
+                    "x": 55.0,
+                    "y": 83.0,
+                    "w": 482.0,
+                    "h": 254.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 594.96,
+                  "height": 842.04
+                }
+              }
+            ]
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "Extracted from 'New collaborations' in Section 6/Page 7. Main task not specified."
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 7,
-      "num_document_tokens": 4918,
-      "num_output_tokens": 3672
-    }
+      "num_document_tokens": 4926,
+      "num_output_tokens": 1153
+    },
+    "parse_job_id": "1a8df1d8-1922-4d00-ac2f-f09cea1daaa3"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "d448347a-039f-499e-aba7-a4bc8babc2cc",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:24:35.448694+00:00",
-  "updated_at": "2025-11-11T17:26:03.014204+00:00"
+  "job_id": "6d6057e9-16ec-4c3f-9a99-5e0da633915e",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:15:16.437948+00:00",
+  "updated_at": "2026-01-22T03:16:17.523395+00:00"
 }

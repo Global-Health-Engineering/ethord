@@ -4,18 +4,18 @@
   "data": {
     "total_budget_personnel_senior_staff": 28350.0,
     "total_budget_personnel_postdocs": 48300.0,
-    "total_budget_personnel_students": null,
+    "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 68250.0,
     "total_budget_personnel_total_direct": 144900.0,
-    "total_budget_travel": null,
-    "total_budget_equipment": null,
-    "total_budget_other_publication_fees": null,
+    "total_budget_travel": 0.0,
+    "total_budget_equipment": 0.0,
+    "total_budget_other_publication_fees": 0.0,
     "total_budget_other_conferences_workshops": 4000.0,
-    "total_budget_other_other": null,
-    "total_budget_other_total_direct": null,
+    "total_budget_other_other": 0.0,
+    "total_budget_other_total_direct": 0.0,
     "total_budget_total_direct": 148900.0,
-    "total_budget_subcontracting": null,
-    "total_budget_total_costs": 111675.0
+    "total_budget_subcontracting": 0.0,
+    "total_budget_total_costs": 148900.0
   },
   "metadata": {
     "schema_name": "ORDBudget",
@@ -25,115 +25,962 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| Total requested amount in CHF | 111675 |"
-          }
-        ],
+        "reasoning": "There are two explicit verbatim extractions for 'total costs' in CHF from different locations: one with 111675 and one with 148900. Since the question is for 'Total Costs' and the second table uses 'Total Costs in CHF (A + B)' and is more comprehensive, the higher value is selected. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.4780630458285535,
+        "confidence": 0.4780630458285535,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 111675 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 742.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "| Total Costs in CHF (A + B) | 148900 |   |   |   |\n| -------------------------- | ------ | - | - | - |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 86.0,
+                  "w": 699.0,
+                  "h": 27.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 29 February 2024, Christian Schaffner, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 29 February 2024, Christian Schaffner, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 3/4 29 February 2024, Christian Schaffner, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Senior Staff                                                                               | 28350"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "...Direct Costs                                 | Person nel¹                         | Senior Staff | 28350  |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 157.0,
+                  "w": 699.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Postdocs                                                                                   | 48300"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "...|                                     | Postdocs     | 48300  |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 157.0,
+                  "w": 699.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Other                                                                                      | 68250"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "...|                                     | Other        | 68250  |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 157.0,
+                  "w": 699.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "i. Total Direct Costs for Personnel                                                        | 144900"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "Total Direct Costs for Personnel |              | 144900 |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 157.0,
+                  "w": 699.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "Total Direct Costs for Personnel |              | 144900 |   |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 157.0,
+                  "w": 699.0,
+                  "h": 281.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_travel": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_equipment": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_publication_fees": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Conferences and workshops ... 4000"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "|                                 | Conferences and workshops⁵                        | 4000   |   |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 57.0,
+                  "w": 700.0,
+                  "h": 315.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_other": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_other_total_direct": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "A – Total Direct Costs (i + ii)                          |                                | 148900"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9952566367884327,
+        "confidence": 0.9952566367884327,
+        "value__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "| Total Costs in CHF (A + B) | 148900 |   |   |   |\n| -------------------------- | ------ | - | - | - |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 86.0,
+                  "w": 699.0,
+                  "h": 27.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
       },
-      "error": "Input should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_travel)\nInput should be a valid number at path (total_budget_equipment)\nInput should be a valid number at path (total_budget_other_publication_fees)\nInput should be a valid number at path (total_budget_other_other)\nInput should be a valid number at path (total_budget_other_total_direct)\nInput should be a valid number at path (total_budget_subcontracting)"
+      "total_budget_subcontracting": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "Over the duration of the project of 1.5 years, he will allocate around 10 percent of his working time to the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 163.0,
+                  "w": 704.0,
+                  "h": 72.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.32
+              }
+            }
+          ]
+        }
+      }
     },
     "usage": {
       "num_pages_extracted": 20,
-      "num_document_tokens": 10868,
-      "num_output_tokens": 1811
-    }
+      "num_document_tokens": 11103,
+      "num_output_tokens": 2658
+    },
+    "parse_job_id": "7565450f-04f0-4984-bcbc-e5db03276235"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "757586f7-18be-4983-9602-e59ddd96fbc9",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:34:18.528032+00:00",
-  "updated_at": "2025-11-11T14:34:46.297429+00:00"
+  "job_id": "3735d080-c83c-4e52-87cb-58ac92d19f96",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:40:38.517726+00:00",
+  "updated_at": "2026-01-21T19:41:58.623021+00:00"
 }

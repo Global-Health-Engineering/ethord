@@ -3,7 +3,7 @@
   "status": "success",
   "data": {
     "total_budget_personnel_senior_staff": 0.0,
-    "total_budget_personnel_postdocs": 74807.0,
+    "total_budget_personnel_postdocs": 149807.0,
     "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 0.0,
     "total_budget_personnel_total_direct": 149807.0,
@@ -13,9 +13,9 @@
     "total_budget_other_conferences_workshops": 0.0,
     "total_budget_other_other": 0.0,
     "total_budget_other_total_direct": 193.0,
-    "total_budget_total_direct": 150000.0,
+    "total_budget_total_direct": 75000.0,
     "total_budget_subcontracting": 0.0,
-    "total_budget_total_costs": 150000.0
+    "total_budget_total_costs": 75000.0
   },
   "metadata": {
     "schema_name": "ORDBudget",
@@ -25,200 +25,1237 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "The 'Total requested amount in CHF' (75,000 CHF) on page 3 represents the amount for a single institution or site. Both later tables (pages 22-33) show 'Total Costs' and 'Total Value' as 150,000 CHF, summing both participating sites. The consistent 150,000 CHF in summary/total rows provides the true overall project total cost.",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "'Total Costs in CHF (A + B)' row: Eawag 75'000 + ETH-council 75'000 = 150,000."
-          },
-          {
-            "page": 28,
-            "matching_text": "The only possible 'total cost' is labeled as 'Total Value' in the summary table, which is explicitly listed as 150 kCHF. Amounts are 150 (kCHF) = 150,000 CHF."
-          }
-        ],
-        "extraction_confidence": 0.793792420244433,
-        "confidence": 0.793792420244433
+        "reasoning": "Multiple sections of the document consistently state the total requested/total costs amount as 75,000 CHF, found verbatim in main budget and institutional support. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.8714809925879654,
+        "confidence": 0.8714809925879654,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| Total requested amount in CHF                         | 75000                                               |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 755.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "We estimated the average dispersion coefficient to 0.16 m2s<sup>-1</sup>, which was not known before.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 341.0,
+                  "w": 458.0,
+                  "h": 123.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 692.0,
+                  "w": 443.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "We estimated the average dispersion coefficient to 0.16 m2s<sup>-1</sup>, which was not known before.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 341.0,
+                  "w": 458.0,
+                  "h": 123.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "We estimated the average dispersion coefficient to 0.16 m2s<sup>-1</sup>, which was not known before.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 341.0,
+                  "w": 458.0,
+                  "h": 123.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 39,
+              "matching_text": "The amount of 75’000 CHF has been reserved to support our institution’s share of project funding, if it is recommended for funding by the evaluation committee.",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.32,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 28,
-            "matching_text": "Postdocs                                                                                   | 75'000 | 74'807"
-          }
-        ],
+        "reasoning": "Summing the two values listed for 'Postdocs': 75,000 + 74,807 = 149,807 CHF. VERBATIM EXTRACTION (with standardization of apostrophe to comma for clarity).",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999992475737816,
-        "confidence": 0.9999992475737816
+        "extraction_confidence": 0.9499868309115364,
+        "confidence": 0.9499868309115364,
+        "value__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 28,
-            "matching_text": "i. Total Direct Costs for Personnel                                                        |                                                                                            | 75'000 | 74'807"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. The extracted value of 149,807 CHF directly matches the sum (75,000 + 74,807) explained as 'Total Direct Costs for Personnel' in the budget section. The other source (index 5) contains no new or conflicting information.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 28,
-            "matching_text": "Travel²                                                                                    |                                                                                            |        | 193"
-          }
-        ],
+        "reasoning": "The only available specific value for 'Travel' is 193 CHF (idx:3, p23-29). The subsequent entry does not present any travel-related cost. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 28,
-            "matching_text": "ii. Total Other Direct Costs                                                               |        | 193"
-          }
-        ],
+        "reasoning": "The only value specified in the row 'Total Other Direct Costs' is 193 CHF. VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Row 'A – Total Direct Costs (i + ii)' shows Eawag: 75'000, ETH-council: 75'000. Sum = 150,000."
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.7889606121698416,
+        "confidence": 0.7889606121698416,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 28,
+              "matching_text": "|                                                                                                                                                                          | **A – Total Direct Costs...",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 25,
+              "matching_text": "CoUDLabs - D2.1 Report on Data Harmonization - Periodic Technical Report (M18) (1st intermediate report).",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 526.0,
+                  "w": 464.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0 - 5             | ① strategy to register data in KGs (Month 4)                                                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 56.18,
+                  "y": 29.55,
+                  "w": 510.61,
+                  "h": 811.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "Software programmer (170h., FS7)"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "Software programmer (170h., FS7)"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 47.0,
+                  "y": 141.0,
+                  "w": 163.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 39,
-      "num_document_tokens": 25878,
-      "num_output_tokens": 4652
-    }
+      "num_document_tokens": 25757,
+      "num_output_tokens": 3749
+    },
+    "parse_job_id": "3f29ebce-da66-493b-8f13-6a28605e6458"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "c366a438-da76-46c6-ac08-6743ebf8351b",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:22:24.758479+00:00",
-  "updated_at": "2025-11-11T14:23:22.588169+00:00"
+  "job_id": "71bb3d6e-07b3-4a6f-b8b2-9905a2f10fa2",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:05:44.227596+00:00",
+  "updated_at": "2026-01-21T20:08:02.450444+00:00"
 }

@@ -6,14 +6,14 @@
     "total_budget_personnel_postdocs": 0.0,
     "total_budget_personnel_students": 0.0,
     "total_budget_personnel_other": 130000.0,
-    "total_budget_personnel_total_direct": 130000.0,
+    "total_budget_personnel_total_direct": 150000.0,
     "total_budget_travel": 0.0,
     "total_budget_equipment": 0.0,
-    "total_budget_other_publication_fees": -1.0,
+    "total_budget_other_publication_fees": 0.0,
     "total_budget_other_conferences_workshops": 0.0,
     "total_budget_other_other": 0.0,
     "total_budget_other_total_direct": 0.0,
-    "total_budget_total_direct": 0.0,
+    "total_budget_total_direct": 150000.0,
     "total_budget_subcontracting": 0.0,
     "total_budget_total_costs": 150000.0
   },
@@ -25,199 +25,1200 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "Both valid budget tables explicitly provide the total requested/project cost as 150,000 CHF. The stated numbers are verbatim and match across extractions. No finer breakdown or contradicting information was present.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Total requested amount in CHF"
-          },
-          {
-            "page": 26,
-            "matching_text": "Total Costs in CHF (A + B)      | 10'500 | 9'500 | 130'000"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF**                         | 150000                                                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 681.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 145.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 145.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1. **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 145.0,
+                  "w": 79.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "Sum of verbatim extracted CHF amounts (10'500 + 9'500) listed as senior staff in the personnel budget section. No contradictory or overlapping data present.",
-        "citation": [
-          {
-            "page": 25,
-            "matching_text": "Christian GinzlerWSL<br/>Salaryin-kind | Ionut IosifescuWSL<br/>Salaryin-kind"
-          }
-        ],
+        "reasoning": "I summed the two explicit values given for 'Senior Staff' (10'500 + 9'500). VERBATIM EXTRACTION.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999943006376795,
-        "confidence": 0.9999943006376795
+        "extraction_confidence": 0.9981363162333541,
+        "confidence": 0.9981363162333541,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Extract CHF for 'Other' personnel category; NN/WSL Salary column contains 130'000 CHF."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 26,
-            "matching_text": "A – Total Direct Costs (i + ii) | 10'500 | 9'500 | 130'000"
-          }
-        ],
+        "reasoning": "The table in the last segment contains a row for 'Total Direct Costs (i + ii)' with CHF values 10'500, 9'500, and 130'000, matching the personnel entries above, and the sum is explicitly presented as 150,000 CHF. VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999948966527136,
-        "confidence": 0.9999948966527136
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA: No explicit CHF value for equipment was present in the source text. Reporting value__ as 0 to indicate lack of any documented equipment budget.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "WP3 will also include general documentation, presentations on conferences (e.g. SilviLaser, ForestSat, …) and open access publications."
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 19,
-            "matching_text": "WP3 will also include general documentation, presentations on conferences (e.g. SilviLaser, ForestSat, …) and open access publications."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_subcontracting": {
-        "reasoning": "VERBATIM EXTRACTION. Page 26 supplies a budget table explicitly stating 'B – Subcontracting Costs' as 0 in the relevant section. This supersedes prior insufficient data indications.",
-        "citation": [
-          {
-            "page": 26,
-            "matching_text": "B – Subcontracting Costs 7      | 0      | 0     | 0"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_subcontracting": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "pytreedb - library for point clouds of tree vegetation objects (1.0.0).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 393.0,
+                  "w": 449.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 26,
+              "matching_text": "| **B – Subcontracting Costs 7**      | 0      | 0     | 0       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "w": 700.0,
+                  "h": 276.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.8,
+                "height": 595.4
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "> and physiological forest traits. Nature Communications, 8(1), 1441.\n> https://doi.org/10.1038/s41467-017-01530-3",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 110.0,
+                  "w": 327.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 28,
-      "num_document_tokens": 17146,
-      "num_output_tokens": 4472
-    }
+      "num_document_tokens": 16946,
+      "num_output_tokens": 4418
+    },
+    "parse_job_id": "529826d7-e857-4040-a33b-aa6cb25ccaee"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "a098fedc-f353-467d-8666-f1e0d231f4b6",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:28:55.979659+00:00",
-  "updated_at": "2025-11-11T14:29:32.558061+00:00"
+  "job_id": "15fddd28-04bc-4e64-8eb9-b5ec3557a1ac",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:37:03.150047+00:00",
+  "updated_at": "2026-01-21T20:38:45.601606+00:00"
 }

@@ -3,49 +3,47 @@
   "status": "success",
   "data": {
     "websites_platforms": {
-      "quantity": 2,
+      "quantity": 1,
       "descriptions": [
-        "Interactive web-based interface to explore QWA database contents",
-        "Shiny app providing global and site-level overview of available data and data extraction functionality"
+        "Interactive web-based interface to explore database contents",
+        "Shiny app providing global and site-level overview of available data, and functionality to extract (public) data",
+        "Platform for and by the QWA community to collect, harmonize, share, visualize and preserve QWA data"
       ],
       "urls": []
     },
     "repositories_catalogues": {
-      "quantity": 2,
-      "descriptions": [
-        "Postgres database to store QWA data and metadata",
-        "S3 bucket for storing unstructured QWA data such as images and shapefiles"
-      ],
+      "quantity": 0,
+      "descriptions": [],
       "urls": []
     },
     "datasets_databases": {
       "quantity": 1,
       "descriptions": [
-        "Open and FAIR database for intra-annual tree-ring (QWA) data and images"
+        "Open and FAIR database for intra-annual tree-ring data and images (QWA data)"
       ],
       "urls": []
     },
     "software_tools": {
       "quantity": 2,
       "descriptions": [
-        "R package including Shiny app for preparing datasets and providing metadata",
-        "Image analysis tool: ROXAS AI for anatomical measurements"
+        "R package including Shiny app for data contributors to prepare their datasets and provide metadata",
+        "ROXAS AI image analysis software"
       ],
       "urls": []
     },
     "models_standards": {
       "quantity": 3,
       "descriptions": [
-        "Transparent data policy, licensing, and DOI assignment for QWA datasets",
-        "Licensing guidelines and resources for QWA data handling",
-        "Workshop on data policy and metadata standards (CESAB, May 2025)"
+        "Workflow for admins to upload, manage data contributions and assign DOIs",
+        "Clear data policy, licensing guidelines and resources for handling QWA data",
+        "Metadata standards for QWA datasets"
       ],
       "urls": []
     },
     "workshops": {
       "quantity": 2,
       "descriptions": [
-        "Workshop on data policy and metadata standards at CESAB, May 2025",
+        "Workshop on data policy & metadata standards at CESAB, May 2025",
         "Workshop on platform usability with Q-Net, Q4 2025"
       ],
       "urls": []
@@ -70,7 +68,7 @@
     "outreach_activities": {
       "quantity": 1,
       "descriptions": [
-        "Outreach activities to bridge gaps among QWA community members and promote ORD ecosystem"
+        "Engaging the community via QR code to solicit input and raise awareness about the database project"
       ],
       "urls": []
     },
@@ -109,434 +107,699 @@
     "field_metadata": {
       "websites_platforms": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9959299041310293,
+          "confidence": 0.9959299041310293,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Interactive web-based interface to explore database contents"
-            },
-            {
-              "page": 1,
-              "matching_text": "Shiny app providing global and site-level overview of available data"
+              "matching_text": "## 1 Introduction",
+              "bounding_boxes": [
+                {
+                  "x": 142.0,
+                  "y": 700.0,
+                  "w": 287.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9769416005235,
-          "confidence": 0.9769416005235
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9663529155322885,
+            "confidence": 0.9663529155322885,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Interactive web-based interface to explore database contents"
+                "matching_text": "*   Interactive web-based interface to explore database contents → increase visibility and accessibility",
+                "bounding_boxes": [
+                  {
+                    "x": 180.0,
+                    "y": 1999.0,
+                    "w": 884.0,
+                    "h": 86.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8387510542173099,
-            "confidence": 0.8387510542173099
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9744036620493491,
+            "confidence": 0.9744036620493491,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Shiny app providing global and site-level overview of available data, and functionality"
+                "matching_text": "*   Shiny app providing global and site-level overview of available data, and functionality to extract (public) data",
+                "bounding_boxes": [
+                  {
+                    "x": 1243.0,
+                    "y": 1165.0,
+                    "w": 939.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          {
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7901087865549212,
-            "confidence": 0.7901087865549212
+            "extraction_confidence": 0.9647795917941823,
+            "confidence": 0.9647795917941823,
+            "citation": [
+              {
+                "page": 1,
+                "matching_text": "A platform for and by the QWA community to collect, harmonize, share, visualize and preserve QWA data:",
+                "bounding_boxes": [
+                  {
+                    "x": 177.0,
+                    "y": 1774.0,
+                    "w": 867.0,
+                    "h": 86.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
+              }
+            ]
           }
         ],
-        "reasoning": "There are references to both an interactive web interface and a Shiny app as distinct platform/interface outputs."
+        "reasoning": "The text repeatedly refers to the creation of a platform and web-based tools (including an interactive interface and Shiny app) intended for the QWA community. No specific URLs are provided, but these constitute a single integrated platform initiative. Hence, quantity=1 with all related descriptions listed."
       },
       "repositories_catalogues": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Postgres DB for storing QWA data and metadata"
-            },
-            {
-              "page": 1,
-              "matching_text": "S3 bucket to store unstructured data (images, shapefiles)"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9241409586114511,
-          "confidence": 0.9241409586114511
+          ]
         },
-        "descriptions": [
-          {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Postgres DB for storing QWA data and metadata"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6294584860626911,
-            "confidence": 0.6294584860626911
-          },
-          {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "S3 bucket to store unstructured data (images, shapefiles)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.729639933283274,
-            "confidence": 0.729639933283274
-          }
-        ],
-        "reasoning": "The text explicitly lists two separate repository/catalogue implementation outputs."
+        "reasoning": "No explicit or implicit mention of new or enhanced repositories or catalogs as distinct from the main platform/database infrastructure."
       },
       "datasets_databases": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Towards an Open and FAIR Database for Intra-Annual Tree-Ring Data and Images"
+              "matching_text": "## 1 Introduction",
+              "bounding_boxes": [
+                {
+                  "x": 142.0,
+                  "y": 700.0,
+                  "w": 287.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.999999448776502,
-          "confidence": 0.999999448776502
+          ]
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Towards an Open and FAIR Database for Intra-Annual Tree-Ring Data and Images"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.97067233430965,
-            "confidence": 0.97067233430965
+            "extraction_confidence": 0.8489524240980441,
+            "confidence": 0.8489524240980441
           }
         ],
-        "reasoning": "Building the database is a central, singular output."
+        "reasoning": "The central focus is on creating this new database to store QWA datasets and images; this is clearly listed as a primary output."
       },
       "software_tools": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9938308127477428,
+          "confidence": 0.9938308127477428,
           "citation": [
             {
               "page": 1,
-              "matching_text": "R package incl. Shiny app for data contributors"
-            },
-            {
-              "page": 1,
-              "matching_text": "Image<br>analysis<br>ROXAS AI"
+              "matching_text": "## 2 A comprehensive solution",
+              "bounding_boxes": [
+                {
+                  "x": 140.0,
+                  "y": 1657.0,
+                  "w": 563.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9924149493453269,
-          "confidence": 0.9924149493453269
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9308491041809553,
+            "confidence": 0.9308491041809553,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "R package incl. Shiny app for data contributors to prepare their datasets and provide metadata"
+                "matching_text": "*   R package incl. Shiny app for data contributors to prepare their datasets and provide metadata",
+                "bounding_boxes": [
+                  {
+                    "x": 1243.0,
+                    "y": 937.0,
+                    "w": 839.0,
+                    "h": 89.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7008947612776587,
-            "confidence": 0.7008947612776587
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.7398093933035103,
+            "confidence": 0.7398093933035103,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Image<br>analysis<br>ROXAS AI"
+                "matching_text": "E --> F[\"(f) Image analysis<br>ROXAS AI\"]",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 3089.0,
+                    "w": 805.0,
+                    "h": 29.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7215444336992065,
-            "confidence": 0.7215444336992065
+            ]
           }
         ],
-        "reasoning": "Distinct tools (R/Shiny app and AI image analysis tool) described in platform/process."
+        "reasoning": "There are two separate software tool outputs: the R package/Shiny app (developed by the project), and reference to use of ROXAS AI (likely an external tool; included here as it's central to workflows described and may be enhanced/integrated)."
       },
       "models_standards": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.8124403487393997,
+          "confidence": 0.8124403487393997,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Transparent data policy, licensing & DOI assignment"
-            },
-            {
-              "page": 1,
-              "matching_text": "data policy, licensing guidelines and resources for handling QWA data"
-            },
-            {
-              "page": 1,
-              "matching_text": "Workshop on data policy & metadata standards at CESAB, May 2025"
+              "matching_text": "## 3 Quantitative wood anatomy data",
+              "bounding_boxes": [
+                {
+                  "x": 140.0,
+                  "y": 2277.0,
+                  "w": 705.0,
+                  "h": 46.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.5592414559655172,
-          "confidence": 0.5592414559655172
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.6710602633438416,
+            "confidence": 0.6710602633438416,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Transparent data policy, licensing & DOI assignment"
+                "matching_text": "*   Workflow for admins to upload and manage data contributions and assign DOIs (via EnviDat)",
+                "bounding_boxes": [
+                  {
+                    "x": 1244.0,
+                    "y": 1052.0,
+                    "w": 840.0,
+                    "h": 86.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7450521289091657,
-            "confidence": 0.7450521289091657
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9257443757394447,
+            "confidence": 0.9257443757394447,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "data policy, licensing guidelines and resources for handling QWA data"
+                "matching_text": "*   Clear data policy, licensing guidelines and resources for handling QWA data",
+                "bounding_boxes": [
+                  {
+                    "x": 1243.0,
+                    "y": 1277.0,
+                    "w": 937.0,
+                    "h": 86.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.6274003265305841,
-            "confidence": 0.6274003265305841
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.8137437479674348,
+            "confidence": 0.8137437479674348,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Workshop on data policy & metadata standards at CESAB, May 2025"
+                "matching_text": "*   Postgres DB for storing QWA data and metadata",
+                "bounding_boxes": [
+                  {
+                    "x": 1244.0,
+                    "y": 807.0,
+                    "w": 823.0,
+                    "h": 40.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.8337140393330973,
-            "confidence": 0.8337140393330973
+            ]
           }
         ],
-        "reasoning": "Three outputs: (1) data policy/licensing/DOI, (2) guidelines/resources, (3) standards workshop."
+        "reasoning": "Describes at least three outputs directly: workflows, data policies/licensing, and metadata standards—these fall under models, standards, or protocols."
       },
       "workshops": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Workshop on data policy & metadata standards at CESAB, May 2025"
-            },
-            {
-              "page": 1,
-              "matching_text": "Workshop on platform usability with Q-Net, Q4 2025"
+              "matching_text": "## 2 A comprehensive solution",
+              "bounding_boxes": [
+                {
+                  "x": 140.0,
+                  "y": 1657.0,
+                  "w": 563.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9977765517591566,
+            "confidence": 0.9977765517591566,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Workshop on data policy & metadata standards at CESAB, May 2025"
+                "matching_text": "*   Workshop on data policy & metadata standards at CESAB, May 2025",
+                "bounding_boxes": [
+                  {
+                    "x": 1254.0,
+                    "y": 2252.0,
+                    "w": 856.0,
+                    "h": 86.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9332278937354278,
-            "confidence": 0.9332278937354278
+            ]
           },
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999922885272428,
+            "confidence": 0.9999922885272428,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Workshop on platform usability with Q-Net, Q4 2025"
+                "matching_text": "*   Workshop on platform usability with Q-Net, Q4 2025",
+                "bounding_boxes": [
+                  {
+                    "x": 1255.0,
+                    "y": 2429.0,
+                    "w": 891.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9995616182103187,
-            "confidence": 0.9995616182103187
+            ]
           }
         ],
-        "reasoning": "Both workshops are scientifically focused and organized as a project activity."
+        "reasoning": "Two distinct workshops detailed by topic and timing; included as separate outputs under this category."
       },
       "training_events": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "Workshops are focused on policy/standards/usability; not specified as training/educational events."
+        "reasoning": "No explicit or implicit training/educational events or resources separate from workshops."
       },
       "publications": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "References are to foundational literature, not direct project outputs."
+        "reasoning": "No project outputs in the form of scientific publications indicated in the document."
       },
       "presentations": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Presentation at WorldDendro conference, July 2025"
+              "matching_text": "## 1 Introduction",
+              "bounding_boxes": [
+                {
+                  "x": 142.0,
+                  "y": 700.0,
+                  "w": 287.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
         "descriptions": [
           {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999990929425974,
+            "confidence": 0.999990929425974,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Presentation at WorldDendro conference, July 2025"
+                "matching_text": "*   Presentation at WorldDendro conference, July 2025",
+                "bounding_boxes": [
+                  {
+                    "x": 1254.0,
+                    "y": 2364.0,
+                    "w": 871.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9995723313864734,
-            "confidence": 0.9995723313864734
+            ]
           }
         ],
-        "reasoning": "Single directly referenced presentation activity."
+        "reasoning": "The WorldDendro conference presentation is explicitly listed; no others have been described."
       },
       "outreach_activities": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "Outreach activities within the QWA community to bridge the gap"
+              "matching_text": "## 1 Introduction",
+              "bounding_boxes": [
+                {
+                  "x": 142.0,
+                  "y": 700.0,
+                  "w": 287.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.18242539408647196,
-          "confidence": 0.18242539408647196
+          ]
         },
         "descriptions": [
           {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Outreach activities within the QWA community to bridge the gap"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.45867491769551805,
-            "confidence": 0.45867491769551805
+            "extraction_confidence": 0.322622914828792,
+            "confidence": 0.322622914828792
           }
         ],
-        "reasoning": "General outreach activity is mentioned as ongoing, primary non-workshop/non-presentation engagement."
+        "reasoning": "The QR code invitation for community engagement and input about the database is a distinct outreach activity beyond events already categorized."
       },
       "patents_ip": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "No IP claims/applications mentioned in the text."
+        "reasoning": "No relevant information—category not applicable to this project based on provided text."
       },
       "new_collaborations": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999909853565219,
-          "confidence": 0.9999909853565219
+          ]
         },
-        "reasoning": "No mention of new collaborations (apart from industrial collaborations, which are also missing)."
+        "reasoning": "No explicit new collaborations (other than industrial) referenced. Consortium/partner list predates project."
       },
       "industrial_collaborations": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "No industrial collaborations/contracts referenced."
+        "reasoning": "No industrial collaborations reported in this document."
       },
       "estimated_users": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999937270200764,
-          "confidence": 0.9999937270200764
+          ]
         },
-        "reasoning": "No explicit or estimated user numbers are stated—cannot infer."
+        "reasoning": "INSUFFICIENT DATA: No specific estimates or quantification of users benefiting from ORD practices."
       },
       "other_outputs": {
         "quantity": {
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
           "citation": [
             {
               "page": 1,
-              "matching_text": "INSUFFICIENT DATA"
+              "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+              "bounding_boxes": [
+                {
+                  "x": 736.0,
+                  "y": 3320.0,
+                  "w": 1505.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 2384.25,
+                "height": 3370.5
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        "reasoning": "No explicitly described outputs that do not fit the above categories."
+        "reasoning": "Nothing uncategorized reported as an additional output."
       }
     },
     "usage": {
       "num_pages_extracted": 1,
-      "num_document_tokens": 1287,
-      "num_output_tokens": 2919
-    }
+      "num_document_tokens": 1331,
+      "num_output_tokens": 1329
+    },
+    "parse_job_id": "cab7c6b9-19b8-497d-9d7f-0520fb58225e"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT OUTPUT FOCUS:\n  - 15 standard output categories in \"List of Outputs\" table\n  - Each category: quantity number, descriptions list, URLs list\n  - Separate descriptions from URLs even when mixed in same cell\n  - Academic collaborations vs Industrial partnerships (distinct categories)\n  - Preserve all detailed descriptions and web addresses\n  ",
+    "use_reasoning": true
   },
-  "job_id": "8723e18b-fa9b-4d81-940e-53289f58250b",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T19:13:07.036690+00:00",
-  "updated_at": "2025-11-11T19:13:54.057028+00:00"
+  "job_id": "5a2aa0dd-88f4-4b39-a6ee-3d77c7c39360",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:53:24.754047+00:00",
+  "updated_at": "2026-01-22T03:54:07.410755+00:00"
 }

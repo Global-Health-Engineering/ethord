@@ -2,31 +2,21 @@
   "document_path": "raw/ORD_files/Contribute/Hutter - 6th call/application/ETHZ_HUTTER.pdf",
   "status": "success",
   "data": {
-    "project_category": "Contribute Projects",
+    "project_category": null,
     "main_applicant_institution": "ETH Zürich",
-    "main_applicant_function": "Prof",
+    "main_applicant_function": null,
     "main_applicant_first_name": "Marco",
     "main_applicant_surname": "Hutter",
-    "main_applicant_laboratory_name": "Robotic Systems Lab",
-    "main_applicant_postcode": 8092,
-    "main_applicant_city": "Zurich",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "ETH Zürich",
-        "function_title": "Prof",
-        "first_name": "Marco",
-        "surname": "Hutter",
-        "postcode": 8092
-      }
-    ],
-    "project_title": "Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling (GrandTour)",
-    "project_acronym": "Grand Tour",
-    "project_abstract": "Mobile ground robots have become increasingly popular in academia and various industrial applications. However, unlike other domains like aerial robotics, autonomous driving, and construction, there is currently no high-quality, large-scale dataset or reliable benchmark established in this field, nor the tooling available to do so. Creating such a dataset would be immensely valuable for researchers and developers in fostering research on robust and practical algorithms across diverse environments. Moreover, the development of a standardized benchmarking platform would promote fair comparisons between different approaches, fostering innovation and facilitating the rapid progress of mobile ground robot research. Motivated by this, we propose to collect and share a high-quality, versatile, large-scale robotic dataset, “GrandTour”, with scalable and automated tooling– focusing on legged robots in addition to a set of benchmarks and the necessary tooling.",
-    "keywords": [
-      "Robotic, Navigation, Open Data, World Model"
-    ],
-    "start_date": "1 Mar 2024",
-    "project_duration_months": 12,
+    "main_applicant_laboratory_name": null,
+    "main_applicant_postcode": null,
+    "main_applicant_city": null,
+    "all_applicants": null,
+    "project_title": "Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling",
+    "project_acronym": null,
+    "project_abstract": null,
+    "keywords": null,
+    "start_date": null,
+    "project_duration_months": null,
     "total_budget_requested": 30000.0,
     "work_packages": [
       {
@@ -50,368 +40,673 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table under Applicant. 'Which ETH Domain do you belong to?' = ETH Zürich"
-          }
-        ],
-        "extraction_confidence": 0.9999517460784001,
-        "confidence": 0.9999517460784001
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999920283827761,
+        "confidence": 0.999920283827761,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| ETH Zürich | EPFL | PSI                    | WSL | Materials Science and Technology | aquatic research |",
+              "bounding_boxes": [
+                {
+                  "x": 509.0,
+                  "y": 82.0,
+                  "w": 61.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1) One of the key issues with existing datasets is their narrow focus on specific applications, resulting in a lack of diversity when representing different environments [6]. While there are",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 701.0,
+                  "w": 455.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +41 (0)21 693 49 28<br/><research.office@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +41 (0)21 693 49 28<br/><research.office@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name(s): Marco"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Marco Hutter | Applicant ID - ORD1000335",
+              "bounding_boxes": [
+                {
+                  "x": 321.0,
+                  "y": 40.0,
+                  "w": 237.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'Surname(s)' = Hutter"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_function": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title) is Prof"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_laboratory_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Applicant table: Laboratory name is Robotic Systems Lab"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_postcode": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Applicant table: Postcode / Zipcode is 8092"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_city": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Applicant table: City is Zurich"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Marco Hutter | Applicant ID - ORD1000335",
+              "bounding_boxes": [
+                {
+                  "x": 321.0,
+                  "y": 40.0,
+                  "w": 237.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1) One of the key issues with existing datasets is their narrow focus on specific applications, resulting in a lack of diversity when representing different environments [6]. While there are",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 701.0,
+                  "w": 455.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1) One of the key issues with existing datasets is their narrow focus on specific applications, resulting in a lack of diversity when representing different environments [6]. While there are",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 701.0,
+                  "w": 455.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1) One of the key issues with existing datasets is their narrow focus on specific applications, resulting in a lack of diversity when representing different environments [6]. While there are",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 701.0,
+                  "w": 455.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "Combined extraction: 'Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling' is explicitly given as the Project Title in the research proposal section (verbatim extraction, idx:0, p.0-8, confidence 1.0). 'GrandTour' is consistently mentioned across sections and appears to be the project acronym or identifier (idx:1, p.8-14, confidence 0.99999). Combined, the most accurate representation of the project title is the formal title with 'GrandTour' as its short name/acronym in parentheses.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling"
-          },
-          {
-            "page": 11,
-            "matching_text": "Specifically, we envision that the GrandTour will foster the development"
-          }
-        ],
+        "reasoning": "The project title is explicitly labeled as 'Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling' in both the proposal table and repeated verbatim in proposal text (pages 2, 7). The alternative, 'GrandTour', is used as a shorthand (nickname or acronym) throughout later sections (page 11+) but isn't indicated as the full formal project title. Following standard extraction standards, the full formal project title is selected.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999967331,
-        "confidence": 0.9999967331
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Research Proposal table: Acronym of the project is Grand Tour"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Mobile ground robots have become increasingly popular in academia and various industrial applications. However, unlike other domains like aerial robotics, autonomous driving, and construction, there is currently no high-quality, large-scale dataset or reliable benchmark established in this field, nor the tooling available to do so. Creating such a dataset would be immensely valuable for researchers and developers in fostering research on robust and practical algorithms across diverse environments. Moreover, the development of a standardized benchmarking platform would promote fair comparisons between different approaches, fostering innovation and facilitating the rapid progress of mobile ground robot research. Motivated by this, we propose to collect and share a high-quality, versatile, large-scale robotic dataset, “GrandTour”, with scalable and automated tooling– focusing on legged robots in addition to a set of benchmarks and the necessary tooling."
-          }
-        ],
-        "extraction_confidence": 0.9999995315033318,
-        "confidence": 0.9999995315033318
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence": 0.9847455716272099,
+        "confidence": 0.9847455716272099,
+        "scratchpad__": {
           "citation": [
             {
               "page": 2,
-              "matching_text": "Robotic, Navigation, Open Data, World Model,"
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9962030548644746,
-          "confidence": 0.9962030548644746
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "> Fostering Research on Mobile Robotics with High-Quality Data and Open Tooling",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 280.0,
+                  "w": 425.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Therefore the GrandTour can focus on the following work packages: data processing pipeline, deployment, and release.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 599.0,
+                  "w": 458.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +41 (0)21 693 49 28<br/><research.office@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "EPFL Research Office\nEPFL VPA AVP-R\nStation 7\nCH - 1015 Lausanne\n+41 (0)21 693 469 28\nresearch-office.epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 48.07,
+                  "h": 16.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +41 (0)21 693 49 28<br/><research.office@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "EPFL Research Office\nEPFL VPA AVP-R\nStation 7\nCH - 1015 Lausanne\n+41 (0)21 693 469 28\nresearch-office.epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 48.07,
+                  "h": 16.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "| EPFL Research Office | EPFL VPA AVP-R<br/>Station 7<br/>CH - 1015 Lausanne | +41 (0)21 693 49 28<br/><research.office@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "EPFL Research Office\nEPFL VPA AVP-R\nStation 7\nCH - 1015 Lausanne\n+41 (0)21 693 469 28\nresearch-office.epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 48.07,
+                  "h": 16.2
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
         }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Research Proposal table: Proposed Starting Date 1 Mar 2024"
-          }
-        ],
-        "parsing_confidence": 0.9999998659145466,
-        "extraction_confidence": 0.9999998659145466,
-        "confidence": 0.9999998659145466
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Project duration 12"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
       },
       "total_budget_requested": {
-        "reasoning": "Two independent sections of the budget explicitly state the total requested budget as 30,000 CHF in both summary and budget table formats. The subtotal in idx 1 is partial and omits costs included in the overall total, which is consistently 30,000 CHF. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Budget table: Total requested amount in CHF: 30000"
-          },
-          {
-            "page": 15,
-            "matching_text": "Total Costs (A + B)             |                                                   | 30000"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "+41 (0)21 693 48 28\nresearch.office@epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 182.43,
+                  "h": 226.7
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "+41 (0)21 693 48 28\nresearch.office@epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 182.43,
+                  "h": 226.7
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "+41 (0)21 693 48 28\nresearch.office@epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 182.43,
+                  "h": 226.7
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Fig 1. ANYmal quadruped robot deployed in challenging environments to collect diverse data to promote and accelerate the development of robust algorithms.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 620.0,
+                  "w": 455.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "+41 (0)21 693 48 28\nresearch.office@epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 186.46,
+                  "y": 81.6,
+                  "w": 182.43,
+                  "h": 226.7
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
-      "all_applicants": [
+      "work_packages": [
         {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table under Applicant. All fields are present."
-              }
-            ],
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table under Applicant. All fields are present."
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table under Applicant. All fields are present."
-              }
-            ],
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table under Applicant. All fields are present."
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999993853798314,
+            "confidence": 0.9999993853798314
+          },
+          "reasoning": "Both sources report 'Deployment Phase' for WP2. Averaged extraction_confidence: (1.0 + 0.9999987707596626) / 2."
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Table under Applicant. All fields are present."
-              }
-            ],
+          "wp_title": {
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
-      ],
-      "work_packages": [
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP1. Data Processing Pipeline"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP1. Data Processing Pipeline"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP1. Data Processing Pipeline"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP1. Data Processing Pipeline"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "Both tabular and Gantt chart sources explicitly state WP1 and its title. Verbatim extraction, citations merged, all confidence scores are maximal."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP2 Deployment Phase"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP2 Deployment Phase"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999911008035977,
-            "confidence": 0.9999911008035977
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP2 Deployment Phase"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP2 Deployment Phase"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999911008035977,
-            "confidence": 0.9999911008035977
-          },
-          "reasoning": "WP2 identifier and title found verbatim in both tabular and Gantt sources. Extraction confidences averaged as per instructions for combining source values."
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP3 Release Phase"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP3 Release Phase"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 12,
-                "matching_text": "WP3 Release Phase"
-              },
-              {
-                "page": 16,
-                "matching_text": "WP3 Release Phase"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "Both identifier and title for WP3 are explicitly found verbatim in listed work packages on two pages. Citations combined. VERBATIM EXTRACTION."
-        }
       ]
     },
     "usage": {
-      "num_pages_extracted": 19,
-      "num_document_tokens": 12445,
-      "num_output_tokens": 7171
-    }
+      "num_pages_extracted": 18,
+      "num_document_tokens": 12247,
+      "num_output_tokens": 2426
+    },
+    "parse_job_id": "f5884c83-a1dd-42e3-9475-c744cd98cf84"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6d263bd9-e9c5-4ffb-b5fb-d046f8086ef7",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:13:43.953524+00:00",
-  "updated_at": "2025-11-11T10:17:50.804089+00:00"
+  "job_id": "f828795b-a00f-4dae-b804-2be30891b69a",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:19:16.835516+00:00",
+  "updated_at": "2026-01-21T18:21:04.834282+00:00"
 }

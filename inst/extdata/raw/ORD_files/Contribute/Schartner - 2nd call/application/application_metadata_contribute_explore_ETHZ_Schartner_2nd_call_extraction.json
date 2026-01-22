@@ -35,47 +35,15 @@
     "work_packages": [
       {
         "wp_identifier": "other",
-        "wp_title": "Database"
+        "wp_title": "Database: Gather orbit and spectra info, implement routines, store in database, and perform unit testing"
       },
       {
         "wp_identifier": "other",
-        "wp_title": "Gather publicly available orbit information"
+        "wp_title": "Web interface: Develop for browsing datasets, link to database, unit testing"
       },
       {
         "wp_identifier": "other",
-        "wp_title": "Implement routines to regularly retrieve updated orbit information"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Gather publicly available radio spectra information"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Store everything into a common database"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Unit testing and Continuous Integration of data retrieval and storage"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Develop web interface for browsing available datasets"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Link database to web interface"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Unit testing and Continuous Integration of web interface"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Develop API for automatic data download"
-      },
-      {
-        "wp_identifier": "other",
-        "wp_title": "Unit testing and Continuous Integration of API"
+        "wp_title": "API: Develop for automatic data download, unit testing"
       }
     ]
   },
@@ -86,594 +54,2417 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 2 - Deadline 28 July 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 488.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "**ETH Domain ORD Program**\n**Contribute Track**",
+              "bounding_boxes": [
+                {
+                  "x": 337.0,
+                  "y": 224.0,
+                  "w": 141.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9996925816412362,
-        "confidence": 0.9996925816412362
+        "extraction_confidence": 0.9999592187326685,
+        "confidence": 0.9999592187326685,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| ETH Zürich                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Database[\"ETH Zürich<br>Database\"]",
+              "bounding_boxes": [
+                {
+                  "x": 75.61,
+                  "y": 63.21,
+                  "w": 227.51,
+                  "h": 101.17
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "| **ETH**<br/>Eidgenössische Technische Hochschule Zürich<br/>Swiss Federal Institute of Technology Zurich | Dep.",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 54.0,
+                  "w": 155.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 8 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs                    | Personnel                           | Applicant                                       | 0.15 FTE for 6 months in-kind                               | 7996.00 CHF  |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs                    | Personnel                           | Applicant                                       | 0.15 FTE for 6 months in-kind                               | 7996.00 CHF  |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”, pending ethical cl...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 367.0,
+                  "w": 471.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The applicant's function (title) is listed as 'Postdoctoral researcher'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Postdoctoral researcher                   |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Dr. Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Matthias Schartner | Applicant ID - ORD1000141",
+              "bounding_boxes": [
+                {
+                  "x": 286.0,
+                  "y": 40.0,
+                  "w": 270.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”, pending ethical clear...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 367.0,
+                  "w": 471.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Dr. Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999670169724043,
-        "confidence": 0.9999670169724043
+        "extraction_confidence": 0.9997719998756979,
+        "confidence": 0.9997719998756979,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Matthias Schartner | Applicant ID - ORD1000141",
+              "bounding_boxes": [
+                {
+                  "x": 286.0,
+                  "y": 40.0,
+                  "w": 270.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "With this letter it is thereby confirmed that Dr. Schartner will be fully employed for the complete duration of the above-mentioned project at the Chair of Space Geodesy, headed by Prof. Soja.",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 417.0,
+                  "w": 462.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs                    | Personnel                           | Applicant                                       | 0.15 FTE for 6 months in-kind                               | 7996.00 CHF  |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs                    | Personnel                           | Applicant                                       | 0.15 FTE for 6 months in-kind                               | 7996.00 CHF  |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Chair of Space Geodesy"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Chair of Space Geodesy                    |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode is listed as 8093"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8093                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "City is listed as Zürich."
-          }
-        ],
-        "extraction_confidence": 0.9999998957278968,
-        "confidence": 0.9999998957278968
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| ETH Zürich                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| ETH Zürich                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
-              }
-            ],
-            "extraction_confidence": 0.9999996871837232,
-            "confidence": 0.9999996871837232
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998435918493,
+            "confidence": 0.9999998435918493
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant is Matthias Schartner, ETH Zürich, Postdoctoral researcher, postcode 8093."
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          }
-        ],
+      "project_title": {
+        "reasoning": "The project title appears in verbatim form in both idx 0 and idx 2. However, idx 2 provides a more complete form including the project acronym (SRFI-DB) and is explicitly quoted as the project title. The inferred/informal variant in idx 1 is disregarded as not being the precise title. Therefore, verbatim extraction is performed using the most complete version given (idx 2).",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
-        "reasoning": "The project title is provided verbatim on pages 0–9 and 18–21. The most complete form, with the acronym (SRFI-DB), is taken from the later page. No evidence of conflicting data. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project title: Mitigating spaceborne radio frequency interference through satellite database"
-          },
-          {
-            "page": 18,
-            "matching_text": "project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”"
-          }
-        ],
-        "parsing_confidence": 0.9999999857810763,
-        "extraction_confidence": 0.9999999857810763,
-        "confidence": 0.9999999857810763
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "Therefore, this project will provide easy access to satellite orbit information, specially tailored to the requirements of VLBI and radio astronomy in general.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 571.0,
+                  "w": 458.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”, pending ethical cl...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 367.0,
+                  "w": 471.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 131.0,
+                  "w": 433.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "The developed Python framework will be of interest to all radio astronomy communities, in particular to the International VLBI Service for Geodesy & Astrometry (IVS)<sup>2</sup> [13] and the Intern...",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 355.0,
+                  "w": 458.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "Matthias Schartner for an ORD Contribute project at ETH Zurich for the project entitled “Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)”, pending ethical clear...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 367.0,
+                  "w": 471.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "API <--> esa\n    API <--> NASA\n```\nFigure 1: Schematic overview of proposed project",
+              "bounding_boxes": [
+                {
+                  "x": 182.0,
+                  "y": 285.0,
+                  "w": 243.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project field lists 'SRFI-DB'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 131.0,
+                  "w": 433.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "The ‘Abstract’ field on page 2 contains the full abstract of the project."
-          }
-        ],
-        "extraction_confidence": 0.9999938424706927,
-        "confidence": 0.9999938424706927
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999985502878834,
+        "confidence": 0.9999985502878834,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "As a countermeasure, the International Very Long Baseline Interferometry Service for Geodesy and Astronomy (IVS) community, and the International Astronomical Union (IAU) have launched working grou...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 263.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 263.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
-            }
-          ],
           "parsing_confidence": 1.0,
-          "extraction_confidence": 0.9999999723410504,
-          "confidence": 0.9999999723410504
+          "extraction_confidence": 0.9999999382828608,
+          "confidence": 0.9999999382828608,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "...300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Interferometry (VLBI) [1].",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "](https://doi.org/10.1007/s00190-022-01621-0)[DOI.",
+                "bounding_boxes": [
+                  {
+                    "x": 81.35,
+                    "y": 588.61,
+                    "w": 457.28,
+                    "h": 107.5
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "](https://doi.org/10.1007/s00190-022-01621-0)[DOI.",
+                "bounding_boxes": [
+                  {
+                    "x": 81.35,
+                    "y": 588.61,
+                    "w": 457.28,
+                    "h": 107.5
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 131.0,
+                    "w": 433.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "This is mainly related to the appearance of satellite mega-constellations such as Starlink and OneWeb.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "These low Earth orbit (LEO) satellites, with altitudes between approximately 300 and 1200 km, become an increasing threat for scientific radio frequency observations, e.g., for Very Long Baseline Inte...",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 199.0,
+                    "w": 460.0,
+                    "h": 88.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "radio astronomy, Very Long Baseline Interferometry, radio frequency interference, Satellite, Database"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Mitigating spaceborne radio frequency interference through satellite database (SRFI-DB)",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 131.0,
+                    "w": 433.0,
+                    "h": 24.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 81.35,
+                    "y": 588.61,
+                    "w": 457.28,
+                    "h": 107.5
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 81.35,
+                    "y": 588.61,
+                    "w": 457.28,
+                    "h": 107.5
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "[1] journal-article.",
+                "bounding_boxes": [
+                  {
+                    "x": 81.35,
+                    "y": 588.61,
+                    "w": 457.28,
+                    "h": 107.5
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date: 1 Jan 2023"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration is listed as 6."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project duration...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 150.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "# 6 - SUBMISSION",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 340.0,
+                  "w": 132.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Total requested amount in CHF is listed as 29799."
-          },
-          {
-            "page": 18,
-            "matching_text": "Budget table lists 'Total Costs (A + B)' and 'A – Total Direct Costs (i + ii)' both as 29799 CHF"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 29799 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 678.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Total Costs (A + B)             |                                     |                                                 |                                                             | 29799 CHF    |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 29799 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 678.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs                    | Personnel                           | Applicant                                       | 0.15 FTE for 6 months in-kind                               | 7996.00 CHF  |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 150.0,
+                  "w": 465.0,
+                  "h": 417.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "0-0001-5855-7280](https://orcid.org/0000-0001-5855-7280)",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 819.0,
+                  "w": 223.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 9 |\n| -------------------- | -----------------",
+              "bounding_boxes": [
+                {
+                  "x": 454.0,
+                  "y": 778.0,
+                  "w": 63.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1000: Database"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.8175741141198921,
+            "confidence": 0.8175741141198921
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1000: Database"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.37406479044885227,
+            "confidence": 0.37406479044885227
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Work package is labeled as 'WP 1000' (not a WP1-9 code), and its associated tasks are described."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1100: Gather publicly available orbit information"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1100: Gather publicly available orbit information"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.7734397958868345,
+            "confidence": 0.7734397958868345
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Work package is labeled as 'WP 2000', describing work on the web interface."
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1200: Implement routines to regularly retrieve updated orbit information"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1200: Implement routines to regularly retrieve updated orbit information"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.952631108036949,
+            "confidence": 0.952631108036949
           },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1300: Gather publicly available radio spectra information"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1300: Gather publicly available radio spectra information"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1400: Store everything into a common database"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1400: Store everything into a common database"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1500: Unit testing and Continuous Integration of data retrieval and storage"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 1500: Unit testing and Continuous Integration of data retrieval and storage"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2100: Develop web interface for browsing available datasets"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2100: Develop web interface for browsing available datasets"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2200: Link database to web interface"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2200: Link database to web interface"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2300: Unit testing and Continuous Integration of web interface"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 2300: Unit testing and Continuous Integration of web interface"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 3100: Develop API for automatic data download"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 3100: Develop API for automatic data download"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 3200: Unit testing and Continuous Integration of API"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP 3200: Unit testing and Continuous Integration of API"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Work package 'WP 3000' relates to development of the API."
         }
       ]
     },
     "usage": {
-      "num_pages_extracted": 21,
-      "num_document_tokens": 11058,
-      "num_output_tokens": 12708
-    }
+      "num_pages_extracted": 19,
+      "num_document_tokens": 10971,
+      "num_output_tokens": 5687
+    },
+    "parse_job_id": "2bece5d2-caa6-4e33-a948-9a570f09dee0"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "acf8e94c-eadc-4e76-9312-a336f735b5c3",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:39:19.832625+00:00",
-  "updated_at": "2025-11-11T10:46:02.430569+00:00"
+  "job_id": "d91f14da-9ca8-47da-8861-c6f072df6277",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T18:25:26.276010+00:00",
+  "updated_at": "2026-01-21T18:27:03.827107+00:00"
 }

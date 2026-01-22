@@ -5,8 +5,8 @@
     "project_category": "Establish Projects",
     "main_applicant_institution": "EPFL",
     "main_applicant_function": "Professor",
-    "main_applicant_first_name": "Henning",
-    "main_applicant_surname": "Stahlberg",
+    "main_applicant_first_name": "Christophe",
+    "main_applicant_surname": "Stahlberg; Coperet",
     "main_applicant_laboratory_name": "EPFL VPA VPA-AVP-CP DCI",
     "main_applicant_postcode": 1015,
     "main_applicant_city": "Lausanne",
@@ -34,24 +34,24 @@
       },
       {
         "eth_domain_institution": "Empa",
-        "function_title": "Professor / Associate professor or similar",
+        "function_title": "Professor",
         "first_name": "Rolf",
         "surname": "Erni",
         "postcode": 8600
       },
       {
         "eth_domain_institution": "PSI",
-        "function_title": "Research Associate / Scientific collaborator",
+        "function_title": "Research Associate",
         "first_name": "Spencer",
         "surname": "Bliven",
         "postcode": 5232
       },
       {
         "eth_domain_institution": "ETH Zürich",
-        "function_title": "Professor / Associate professor or similar",
+        "function_title": "Professor",
         "first_name": "Volodymyr",
         "surname": "Korkhov",
-        "postcode": 8093
+        "postcode": 5232
       }
     ],
     "project_title": "Open EM Data Network",
@@ -92,166 +92,1057 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "The first and third extractions (idx 0 and 3) both assign EPFL as the main applicant's institution, supported by front matter and author role details. The ETH Zürich reference is limited to an individual's CV, likely a co-applicant. Therefore, EPFL is consistently and primarily linked to the main applicant.",
-        "citation": [
-          {
-            "page": 27,
-            "matching_text": "Corresponding Author: Henning Stahlberg."
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.998321051387769,
-        "confidence": 0.998321051387769
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Establish Projects\" Stage 2 - Deadline 28th July 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 503.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "# Track B: Establish projects",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 123.0,
+                  "w": 283.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "...he **proposal Open EM Data Network** in response to the ETH-Domain ORD Program, Measure 1, Track B: Establish Projects.",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 356.0,
+                  "w": 472.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 50,
+              "matching_text": "Rolf Erni (Head of Empa's Electron Microscopy Center) for an ORD Establish project at Empa's Electron Microscopy Center for the project entitled \"Open EM Data Network\", pending ethical clearance of...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 296.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.4,
+                "height": 841.8
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "The field 'Which ETH Domain do you belong to?' directly identifies the main applicant institution as EPFL by VERBATIM EXTRACTION on page 1. The mention of ETH Zürich refers to an individual (Christophe Coperet) but does not override the structured applicant table value for the primary applicant.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 529.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 529.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "ETH Zürich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 94.0,
+                  "w": 374.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "0-0001-9660-3890](https://orcid.org/0000-0001-9660-3890)",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 819.0,
+                  "w": 225.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "0-0001-9660-3890](https://orcid.org/0000-0001-9660-3890)",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 819.0,
+                  "w": 225.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "0-0001-9660-3890](https://orcid.org/0000-0001-9660-3890)",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 819.0,
+                  "w": 225.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Stated directly in the applicant details table for main applicant."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Function (Title)**                   | Professor |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 76.0,
+                  "w": 277.0,
+                  "h": 75.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "Multiple extractions explicitly identify 'Henning' as the main applicant, either from an applicant details section or as the corresponding author, which typically corresponds to the main applicant in research proposals. The extraction for 'Christophe' appears in a CV/employment context and does not override the explicit main applicant references.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "From applicant details, main applicant's first name is Henning."
-          },
-          {
-            "page": 27,
-            "matching_text": "Corresponding Author: Henning Stahlberg."
-          }
-        ],
+        "reasoning": "There are two different main applicant names extracted from distinct, non-overlapping portions of the document ('Henning' and 'Christophe'), each with full confidence. Since these occur in separate document sections, without further context to disambiguate which is the single required main applicant, we report the data from the later (idx=1, pages 9–15), assuming the question targets the most recent/main section. If both are valid (multiple applications), either may be correct. Here, priority is given to the latter in the document.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **First name(s)**                      | Spencer            |\n| **Surname(s)**                         | Bliven             |\n| **Gender**                             | Male               |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 402.0,
+                  "w": 92.0,
+                  "h": 73.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Henning Stahlberg | Applicant ID - ORD3B00009",
+              "bounding_boxes": [
+                {
+                  "x": 284.0,
+                  "y": 40.0,
+                  "w": 273.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Most citations (idx 0, idx 3) identify 'Stahlberg' as the surname, including direct reference from 'Corresponding Author: Henning Stahlberg.' One other value ('Coperet') occurs only once and appears less supported. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 27,
-            "matching_text": "Corresponding Author: Henning Stahlberg."
-          }
-        ],
+        "reasoning": "Two non-overlapping main applicant surnames are extracted with full verbatim confidence from distinct page ranges. Combining them in the response without duplicating. This is the most accurate extraction based on available data. If only one main applicant is required for the extraction context, more clarifying information or instructions are needed.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **First name(s)**                      | Spencer            |\n| **Surname(s)**                         | Bliven             |\n| **Gender**                             | Male               |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 402.0,
+                  "w": 92.0,
+                  "h": 73.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Henning Stahlberg | Applicant ID - ORD3B00009",
+              "bounding_boxes": [
+                {
+                  "x": 284.0,
+                  "y": 40.0,
+                  "w": 273.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Born February 1<sup>st</sup>, 1957, Citizen of Austria",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 81.0,
+                  "w": 318.0,
+                  "h": 85.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4 29 July 2022, Christophe Coperet, ORCID [iD 000",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 29.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL VPA VPA-AVP-CP DCI"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL VPA VPA-AVP-CP DCI               |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode given in tabular form for main applicant."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1015                                  |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City given in main applicant section."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Lausanne                              |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 575.0,
+                  "w": 459.0,
+                  "h": 86.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Which ETH Domain do you belong to? | PSI"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Function (Title)                   | Professor"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| First name(s)                      | Gebhard"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Surname(s)                         | Schertler"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "5232 Villigen PSI"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -260,534 +1151,1477 @@
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Which ETH Domain do you belong to? | ETH Zürich"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999861948679375,
-            "confidence": 0.9999861948679375
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Function (Title)                   | Professor"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| First name(s)                      | Christoph"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999994859809547,
-            "confidence": 0.9999994859809547
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "| Surname(s)                         | Coperet"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "8093 Zürich"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "First name, surname, function, institution from table; postcode from address '5232 Villigen PSI'."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Which ETH Domain do you belong to?** | EMPA"
-              },
-              {
-                "page": 17,
-                "matching_text": "Eidg. Material und Prüfungsanstalt -<br/>EMPA, CH<br/>Electron Microscopy Center"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999983423500873,
-            "confidence": 0.9999983423500873
+            "extraction_confidence": 0.9999975787252179,
+            "confidence": 0.9999975787252179
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Function (Title)**                   | Professor"
-              },
-              {
-                "page": 17,
-                "matching_text": "Current position(s): Associate professor or similar"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **First name(s)**                      | Rolf"
-              },
-              {
-                "page": 17,
-                "matching_text": "Rolf Erni"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999998435918493,
+            "confidence": 0.9999998435918493
           },
           "surname": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Surname(s)**                         | Erni"
-              },
-              {
-                "page": 17,
-                "matching_text": "Rolf Erni"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "CH-8600 Dübendorf"
-              },
-              {
-                "page": 17,
-                "matching_text": "EMPA, CH"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9952069490670421,
-            "confidence": 0.9952069490670421
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
-          "reasoning": "Combined tabular data and CV; same applicant (Rolf Erni at Empa). Function titles combined as both \"Professor\" and \"Associate professor or similar\" appear. Postcode confirmed 8600 from both entries."
+          "reasoning": "First name, surname, function, institution from table; postcode from address '8093 Zürich'."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Which ETH Domain do you belong to?** | PSI"
-              },
-              {
-                "page": 21,
-                "matching_text": "Paul Scherrer Institut - PSI, CH<br/>Scientific Computing, Theory and Data"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999622355499523,
+            "confidence": 0.9999622355499523
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Function (Title)**                   | Research Associate"
-              },
-              {
-                "page": 21,
-                "matching_text": "Current position(s): Research associate / Scientific collaborator"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **First name(s)**                      | Spencer"
-              },
-              {
-                "page": 21,
-                "matching_text": "Spencer Bliven"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "| **Surname(s)**                         | Bliven"
-              },
-              {
-                "page": 21,
-                "matching_text": "Spencer Bliven"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 3,
-                "matching_text": "5232 Villigen PSI"
-              },
-              {
-                "page": 21,
-                "matching_text": "PSI, CH"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999995159684,
-            "confidence": 0.99999995159684
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
-          "reasoning": "Combined tabular and CV data, clearly same applicant (Spencer Bliven at PSI). Postcode and function confirmed from both. Function combined as both \"Research Associate\" and \"Scientific collaborator\" appear."
+          "reasoning": "First name, surname, function, institution from table; postcode from 'CH-8600 Dübendorf'."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "| **Which ETH Domain do you belong to?** | ETH Zürich"
-              },
-              {
-                "page": 24,
-                "matching_text": "ETH Zürich - ETHZ, CH<br/>Institute of Molecular Biology and Biophysics"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999854089629377,
-            "confidence": 0.9999854089629377
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "| **Function (Title)**                   | Professor"
-              },
-              {
-                "page": 24,
-                "matching_text": "Current position(s): Associate professor or similar"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "| **First name(s)**                      | Volodymyr"
-              },
-              {
-                "page": 24,
-                "matching_text": "Volodymyr Korkhov"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 4,
-                "matching_text": "| **Surname(s)**                         | Korkhov"
-              },
-              {
-                "page": 24,
-                "matching_text": "Volodymyr Korkhov"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "ETH Zürich - ETHZ, CH"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999956938702669,
-            "confidence": 0.9999956938702669
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
-          "reasoning": "Tabular page 4 and CV page 24 refer to Volodymyr Korkhov at ETH Zürich; function titles and postcodes merged from both."
+          "reasoning": "First name, surname, function, institution from table; postcode from '5232 Villigen PSI'."
+        },
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "postcode": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "First name, surname, function, institution from table; postcode from '5232 Villigen PSI'."
         }
       ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ORD Program - Measure 1 \"Establish Projects\""
-          },
-          {
-            "page": 27,
-            "matching_text": "Track B: Establish projects"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "project_title": {
-        "reasoning": "There are multiple, concordant and explicit verbatim extractions of the project title as 'Open EM Data Network' in both the 'RESEARCH PROPOSAL' and 'Project Proposal' sections, with maximum confidence and no conflicting information across the document.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Extracted directly from the 'Project title' field in RESEARCH PROPOSAL."
-          },
-          {
-            "page": 27,
-            "matching_text": "Project title\n\n> # Open EM Data Network"
-          },
-          {
-            "page": 35,
-            "matching_text": "# 3 ORD project plan\n\nWe here propose to establish a Swiss-wide workflow, based on the PSI’s existing *Data Catalog*<sup>20</sup>, that will also integrate the significant experience from the DCI-Lausanne, ScopeM, and Empa's Electron Microscopy Center. Based on existing local solutions, the *Open EM Data Network* will establish a Swiss-wide Open EM data hub ..."
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...and establish a sustainable structure to be maintained after closure of this project.<br/><br/>The Open EM Data Network is complementing a Swiss-wide effort to push the boundaries in EM technology wi...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "| <br/>## Open EM Data Network### Acronym: OPEM<br/>Authors: **Alexandra Radenovic** (EPFL, Prof., CIME EM Facility), Andrzej J.",
+              "bounding_boxes": [
+                {
+                  "x": 173.0,
+                  "y": 313.0,
+                  "w": 242.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "*Figure 1. Proposed data flow in the Open EM Data Network for a cryo-EM use case. Thick lines represent raw data and results, while thin lines represent metadata, API requests, and user interactions.*",
+              "bounding_boxes": [
+                {
+                  "x": 66.0,
+                  "y": 702.0,
+                  "w": 445.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "**ETH Domain ORD Program: Proposal Open EM Data Network**",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 265.0,
+                  "w": 291.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 39,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 13 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "ETH Zurich and its Scientific Center for Optical and Electron Microscopy enthusiastically support the **proposal Open EM Data Network** in response to the ETH-Domain ORD Program, Measure 1, Track B...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 356.0,
+                  "w": 472.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 39,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 13 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "ETH Zurich and its Scientific Center for Optical and Electron Microscopy enthusiastically support the **proposal Open EM Data Network** in response to the ETH-Domain ORD Program, Measure 1, Track B...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 356.0,
+                  "w": 472.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...| 1 Jan 2023...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 39,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 13 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 58.0,
+                  "y": 792.0,
+                  "w": 83.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "ETH Zurich and its Scientific Center for Optical and Electron Microscopy enthusiastically support the **proposal Open EM Data Network** in response to the ETH-Domain ORD Program, Measure 1, Track B...",
+              "bounding_boxes": [
+                {
+                  "x": 59.0,
+                  "y": 356.0,
+                  "w": 472.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project acronym found in RESEARCH PROPOSAL table."
-          },
-          {
-            "page": 27,
-            "matching_text": "Acronym: OPEM"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Acronym of the project**...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "...increase in data volumes and need for computational resources.<br/><br/>This Open EM Data Network (OPEM) will build on the PSI’s existing data annotation (SciCat) and data handling and storage techno...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "| <br/>## Open EM Data Network### Acronym: OPEM<br/>Authors: **Alexandra Radenovic** (EPFL, Prof., CIME EM Facility), Andrzej J.",
+              "bounding_boxes": [
+                {
+                  "x": 173.0,
+                  "y": 313.0,
+                  "w": 242.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 25,
+              "matching_text": "0-0002-0962-9433](https://orcid.org/0000-0002-0962-9433)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "This Open EM Data Network will establish ORD practice for Electron Microscopy (EM) in Switzerland. In the life sciences, cryo-EM experienced a resolution revolution enabling to the atomic-resolution determination of protein structures. In materials sciences, EM equally experienced a dramatic expansion of possibilities and multidisciplinary approaches, e.g., 4D STEM data collection. This led to unparalleled increase in data volumes and need for computational resources. [...]"
-          }
-        ],
-        "extraction_confidence": 0.9997802170198937,
-        "confidence": 0.9997802170198937
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998952289780967,
+        "confidence": 0.9998952289780967,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "This led to unparalleled increase in data volumes and need for computational resources.<br/><br/>This Open EM Data Network (OPEM) will build on the PSI’s existing data annotation (SciCat) and data...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords Electron Microscopy ..."
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| This Open EM Data Network will establish ORD practice for Electron Microscopy (EM) in Switzerland. In the life sciences, cryo-EM experienced a resolution revo...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords ... Data Processing"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...5 keywords that characterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords ... Data Archiving"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...acterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Please enter up to 5 keywords ... Data Sharing"
-            }
-          ],
+          "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...sal (separated by commas)**<br/><br/>Electron Microscopy<br/>Data Processing<br/>Data Archiving<br/>Data Sharing...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "...| 1 Jan 2023...",
+                "bounding_boxes": [
+                  {
+                    "x": 40.0,
+                    "y": 84.0,
+                    "w": 516.0,
+                    "h": 599.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Proposed Starting Date from RESEARCH PROPOSAL section."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999992460557792,
+        "confidence": 0.9999992460557792,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 40.0,
+                  "y": 84.0,
+                  "w": 516.0,
+                  "h": 599.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Duration given as 30 months in the project proposal table."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Both verbatim extraction from a tabular value and logical summing of phase totals yield the same value: 1,500,000 CHF. The information is directly stated and verified by two separate sources within the document.",
-        "citation": [
-          {
-            "page": 5,
-            "matching_text": "| Total requested amount in CHF | 1500000 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "post-doc, tenure track professors/scientific collaborators), you must submit a letter of support from your superior stating that you will remain employed for the whole duration of the project**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 399.0,
+                  "w": 92.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "Confirmed from both a verbatim table entry and summed subtotals from budget phases. Values match; confident the total budget requested is 1,500,000 CHF.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999279966738,
+        "confidence": 0.9999999279966738,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Total requested amount in CHF** | 1500000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 779.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| **Total requested amount in CHF** | 1500000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 779.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "The budget is presented in two Phases (Months 1-12, and 13-30), as requested.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 565.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1 Admin. Assistant, 1 Scientific Relations Manager, 4 Senior Scientists, 2 Technicians, 5 Postdocs, 4 PhD students\nSupervision of over 30 PhD students over the last 15 years",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 608.0,
+                  "w": 458.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 47,
+              "matching_text": "| 0.5 | Software Engineer, for facility integration (WP1) at EMPA                                         |",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 333.0,
+                  "w": 302.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2756,
+                "height": 841.8898
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 40,
-                "matching_text": "WP1          | T1.1 Metadata standards"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 40,
-                "matching_text": "Work package 1: Process harmonization on data and automated harvesting of metadata in line with international standards"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996324678849,
-            "confidence": 0.9999996324678849
+            "extraction_confidence": 0.9999999870924902,
+            "confidence": 0.9999999870924902
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 40,
-                "matching_text": "WP2          | T2.1 Central data hub established"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 41,
-                "matching_text": "Work package 2: Establish Swiss-Wide Data Hub for data management, exchange and data transfer"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999998629282373,
-            "confidence": 0.9999998629282373
+            "extraction_confidence": 0.9999998311405989,
+            "confidence": 0.9999998311405989
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 40,
-                "matching_text": "WP3          | T3.1 Tool for seamless Cryo-EM upload in international repositories"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 42,
-                "matching_text": "Work package 3: Seamless and Automated Deposition in International Repositories"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999173786729,
-            "confidence": 0.9999999173786729
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 40,
-                "matching_text": "WP4          | T4.1 User training in ORD and deposition"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 42,
-                "matching_text": "Work package 4: User Training, Outreach and Sustainability"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999968361721233,
-            "confidence": 0.9999968361721233
+            "extraction_confidence": 0.9999999279966713,
+            "confidence": 0.9999999279966713
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -795,29 +2629,31 @@
     },
     "usage": {
       "num_pages_extracted": 54,
-      "num_document_tokens": 32335,
-      "num_output_tokens": 14589
-    }
+      "num_document_tokens": 32474,
+      "num_output_tokens": 8971
+    },
+    "parse_job_id": "21152a12-2443-49a5-9a05-54e82cfa4dde"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "b38c9410-f239-4dcc-b9fc-9294f9daee77",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T09:37:20.496685+00:00",
-  "updated_at": "2025-11-11T09:44:30.522828+00:00"
+  "job_id": "d60ad565-5fb8-48a8-9261-a762fd3aedd6",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T15:36:13.496925+00:00",
+  "updated_at": "2026-01-21T15:38:37.900834+00:00"
 }

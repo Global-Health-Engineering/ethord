@@ -10,8 +10,15 @@
     "laboratory_department": "Environmental Remote Sensing Laboratory",
     "institution_of_main_applicant": "ENAC",
     "report": "Final",
-    "reporting_period": "01.08.2023 – 31.03.2024",
-    "coapplicants": []
+    "reporting_period": "",
+    "coapplicants": [
+      {
+        "name": "",
+        "function": "",
+        "institution": "",
+        "roles_and_main_tasks": ""
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDReportMetadata",
@@ -21,139 +28,256 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "Extracted verbatim from General information table under 'Project title:'",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project title:**                     | GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open Data Archive"
+            "matching_text": "| **Project title:**                     | GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open Data Archive |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "explore_call_number": {
-        "reasoning": "Extracted verbatim as the call number (same as explore call).",
+        "reasoning": "VERBATIM EXTRACTION (the report uses 'Contribute call number' instead of 'Explore call number'; using provided value as per LOCATION FLEXIBILITY)",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Contribute call number:**            | 24556"
+            "matching_text": "| **Contribute call number:**            | 24556                                                                                                           |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9998693406179697,
-        "confidence": 0.9998693406179697
+        ]
       },
       "project_starting_and_end_date": {
-        "reasoning": "Extracted verbatim from General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999999977655977,
+        "confidence": 0.999999977655977,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project starting & end date:**       | 01.08.2023 – 31.03.2024"
+            "matching_text": "| **Project starting & end date:**       | 01.08.2023 – 31.03.2024                                                                                         |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999989303672403,
-        "confidence": 0.9999989303672403
+        ]
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Extracted verbatim as the only main applicant field.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Applicant responsible for project:** | Gionata Ghiggi"
+            "matching_text": "| **Applicant responsible for project:** | Gionata Ghiggi                                                                                                  |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "function": {
-        "reasoning": "Extracted directly from the General information table, applies to main applicant only.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Function:**                          | PhD Student"
+            "matching_text": "| **Function:**                          | PhD Student                                                                                                     |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "laboratory_department": {
-        "reasoning": "Extracted directly from General information table.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Laboratory (and/or Department):**    | Environmental Remote Sensing Laboratory"
+            "matching_text": "| **Laboratory (and/or Department):**    | Environmental Remote Sensing Laboratory                                                                         |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "institution_of_main_applicant": {
-        "reasoning": "Extracted directly from General information table; applies to main applicant.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Institution of the applicant:**      | ENAC"
+            "matching_text": "| **Institution of the applicant:**      | ENAC                                                                                                            |",
+            "bounding_boxes": [
+              {
+                "x": 55.0,
+                "y": 327.0,
+                "w": 454.0,
+                "h": 164.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "report": {
-        "reasoning": "The report is labelled as 'Final' in the header: 'Scientific Report Template – Final'.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Scientific Report Template – Final"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "reporting_period": {
-        "reasoning": "The reporting period likely covers the entire project period, as usual for final reports; used the same as project start/end date.",
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Project starting & end date:**       | 01.08.2023 – 31.03.2024"
+            "matching_text": "## Scientific Report Template – Final",
+            "bounding_boxes": [
+              {
+                "x": 56.0,
+                "y": 160.0,
+                "w": 256.0,
+                "h": 16.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 594.96,
+              "height": 842.04
+            }
           }
-        ],
+        ]
+      },
+      "reporting_period": {
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9997094412232128,
-        "confidence": 0.9997094412232128
-      }
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
+      },
+      "coapplicants": [
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "reasoning": "INSUFFICIENT DATA"
+        }
+      ]
     },
     "usage": {
-      "num_pages_extracted": 7,
-      "num_document_tokens": 5070,
-      "num_output_tokens": 987
-    }
+      "num_pages_extracted": 6,
+      "num_document_tokens": 4995,
+      "num_output_tokens": 575
+    },
+    "parse_job_id": "936acfe2-09b6-4a63-9aeb-3ffa993d4557"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "cef32c7b-e9c9-4073-8a9e-33d3b132c67e",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T16:42:14.304119+00:00",
-  "updated_at": "2025-11-11T16:42:36.332542+00:00"
+  "job_id": "9767264c-765c-4ca0-8f66-d1b12f625543",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T03:12:55.702506+00:00",
+  "updated_at": "2026-01-22T03:14:06.388005+00:00"
 }

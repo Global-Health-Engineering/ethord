@@ -4,21 +4,13 @@
   "data": {
     "project_category": "Contribute Projects",
     "main_applicant_institution": "ETH Zürich",
-    "main_applicant_function": "Prof. Dr.",
+    "main_applicant_function": "Director",
     "main_applicant_first_name": "Elizabeth",
     "main_applicant_surname": "Tilley",
     "main_applicant_laboratory_name": "Global Health Engineering",
     "main_applicant_postcode": 8092,
     "main_applicant_city": "Zurich",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "other",
-        "function_title": "Director",
-        "first_name": "Nicolas",
-        "surname": "Dickinson",
-        "postcode": 1050
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Enhancing Global WASH Data Accessibility through Collaborative Initiatives",
     "project_acronym": "washcollab",
     "project_abstract": "The \"Enhancing Global WASH Data Accessibility through Collaborative Initiatives\" proposal, a joint effort by WASHWeb and openwashdata, aims to improve the global Water, Sanitation, and Hygiene (WASH) data ecosystem. The partnership, formed under shared goals for better data accessibility, usability, and representation, proposes a project divided into three work packages: Maintain, Extend, and Disseminate. The first package updates the Joint Monitoring Programme (JMP) dataset for broader use. The second aims to collaborate with data providers to create a new R dataset package, enhancing analyses of WASH investments and outcomes. The final package seeks to promote these open data packages through webinars, conference sessions, and online discussion groups, fostering a community around open WASH data.",
@@ -54,260 +46,1998 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "## Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 132.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "**Aims addressed.** Specifically, WP1 addresses two aims of the Contribute projects: We will be **contributing** by extending the ORD package to be able to shape the data into (long) formats for bette...",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 204.0,
+                  "w": 457.0,
+                  "h": 126.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table under 'APPLICANT DETAILS' states 'ETH Zürich'."
-          }
-        ],
-        "extraction_confidence": 0.9998979370058043,
-        "confidence": 0.9998979370058043
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.999784569399727,
+        "confidence": 0.999784569399727,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 10,
+              "matching_text": "ETH BOARD\nETH Zürich EPFL PAUL SCHERRER",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 49.0,
+                  "w": 152.0,
+                  "h": 47.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table gives 'Function (Title)' as 'Prof. Dr.'."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "reasoning": "Both 'Prof. Dr.' (title) and 'Director' (organizational function) are presented, but 'Director' directly describes the main applicant's function at the applicant institution, as seen in the signature and supporting description. This aligns with metadata extraction guidance for function (not honorifics).",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.7772994958301475,
+        "confidence": 0.7772994958301475,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 513.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson, WASHNote Director",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 551.0,
+                  "w": 191.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'First name(s)' is 'Elizabeth' in the applicant table."
-          }
-        ],
+        "reasoning": "The first name 'Elizabeth' comes from the applicant details table at the start of the document (p1) and is verified by direct citation. The appearance of 'Nicolas' later (p21) is contextualized as another signatory or contributor, not the main applicant. Therefore, 'Elizabeth' is used as the main applicant's first name. VERBATIM EXTRACTION for 'Elizabeth'.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Elizabeth Tilley | Applicant ID - ORD1000375",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 40.0,
+                  "w": 249.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "*Nicolas Dickinson*",
+              "bounding_boxes": [
+                {
+                  "x": 372.51,
+                  "y": 99.27,
+                  "w": 91.27,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname(s): Tilley"
-          }
-        ],
+        "reasoning": "The extraction 'Tilley' comes from the explicit applicant details table on page 1 which is the canonical location for the main applicant's surname. The extraction 'Dickinson' occurs in a signature/context where someone is acting in an organizational capacity (WASHNote Director), not necessarily as the main applicant. Applicant details context takes precedence.",
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Elizabeth Tilley | Applicant ID - ORD1000375",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 40.0,
+                  "w": 249.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "*Nicolas Dickinson*",
+              "bounding_boxes": [
+                {
+                  "x": 372.51,
+                  "y": 99.27,
+                  "w": 91.27,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table under applicant details, 'Laboratory name': Global Health Engineering."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "The community focuses on data generated by researchers without making this a requirement, but due to the nature of openwashdata being placed within the Global Health Engineering group at ETH Zurich.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 528.0,
+                  "w": 456.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode' is '8092' in the table."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8092                                               |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 560.0,
+                  "w": 30.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'City' in the applicant table is 'Zurich'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Both teams met in-person at ETH Zurich in order to collaboratively submit this funding proposal.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 261.0,
+                  "w": 458.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project title' in proposal table: Enhancing Global WASH Data Accessibility through Collaborative Initiatives."
-          }
-        ],
-        "extraction_confidence": 0.9999999823988502,
-        "confidence": 0.9999999823988502
+        "reasoning": "The first entry gives the explicit project title from the RESEARCH PROPOSAL section and later pages; the second entry provides an internal or alternative proposal name with slightly lower confidence. Per extraction strategy, we prioritize explicit project title from specified section. VERBATIM EXTRACTION.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> Enhancing Global WASH Data Accessibility through Collaborative Initiatives. Acronym: washcollab",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 175.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "**Re: Offer letter for sub-contractor agreement for openwashdata proposal**",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 289.0,
+                  "w": 382.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "> (1. Using Data Better, 2. Accountability, 3. Systems Strengthening, 4. Social Justice & Privacy) and facilitate ongoing conversations (live and in-chat).",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 119.0,
+                  "w": 457.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym in proposal table is 'washcollab'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> Enhancing Global WASH Data Accessibility through Collaborative Initiatives. Acronym: washcollab",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 175.0,
+                  "w": 458.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "The \"Enhancing Global WASH Data Accessibility through Collaborative Initiatives\" proposal, a joint effort by WASHWeb and openwashdata, aims to improve the global Water, Sanitation, and Hygiene (WASH) data ecosystem. The partnership, formed under shared goals for better data accessibility, usability, and representation, proposes a project divided into three work packages: Maintain, Extend, and Disseminate. The first package updates the Joint Monitoring Programme (JMP) dataset for broader use. The second aims to collaborate with data providers to create a new R dataset package, enhancing analyses of WASH investments and outcomes. The final package seeks to promote these open data packages through webinars, conference sessions, and online discussion groups, fostering a community around open WASH data."
-          }
-        ],
-        "extraction_confidence": 0.9999967462394351,
-        "confidence": 0.9999967462394351
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\" - Call 7"
-          },
-          {
-            "page": 11,
-            "matching_text": "WP1 addresses two aims of the Contribute projects"
-          },
-          {
-            "page": 12,
-            "matching_text": "WP2 addresses the first two aims of the Contribute call"
-          },
-          {
-            "page": 13,
-            "matching_text": "WP3 addresses the third aim of the Contribute call"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.999999922599872,
+        "confidence": 0.999999922599872,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The partnership, formed under shared goals for better data accessibility, usability, and representation, proposes a project divided into three work packages: Maintain, Extend, and Disseminate.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 492.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "collaboration, software, community, SDG6, monitoring"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| collaboration, software, community, SDG6, monitoring...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 313.0,
+                    "w": 243.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "collaboration, software, community, SDG6, monitoring"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "*   **Contributing** a piece of software, data, hardware, etc., which simplifies an established ORD practice, develops its research potential, or otherwise improves it.",
+                "bounding_boxes": [
+                  {
+                    "x": 105.0,
+                    "y": 481.0,
+                    "w": 433.0,
+                    "h": 25.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "collaboration, software, community, SDG6, monitoring"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Specifically, WP1 will focus on maintaining the Joint Monitoring Programme (JMP) dataset for wider, more accessible use in the WASH community.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "collaboration, software, community, SDG6, monitoring"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| collaboration, software, community, SDG6, monitoring...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 313.0,
+                    "w": 243.0,
+                    "h": 10.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 118.0,
+                    "y": 303.0,
+                    "w": 408.0,
+                    "h": 36.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 118.0,
+                    "y": 303.0,
+                    "w": 408.0,
+                    "h": 36.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": ">\n> Your project proposal must not exceed 6 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins)\n> Please address all points below",
+                "bounding_boxes": [
+                  {
+                    "x": 118.0,
+                    "y": 303.0,
+                    "w": 408.0,
+                    "h": 36.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "collaboration, software, community, SDG6, monitoring"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "Specifically, WP1 will focus on maintaining the Joint Monitoring Programme (JMP) dataset for wider, more accessible use in the WASH community.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 10,
+                "matching_text": "**Goal.** Work package 1: “Maintain” involves maintaining open source tools for researchers and product developers who analyse indicators of Sustainable Development Goal 6: “safe water and sanitati...",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 472.0,
+                    "w": 456.0,
+                    "h": 241.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed starting date is '1 Aug 2024'."
-          }
-        ],
-        "extraction_confidence": 0.9999683034885803,
-        "confidence": 0.9999683034885803
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 336.0,
+                  "w": 112.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "'Project duration' in months is '12'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 336.0,
+                  "w": 112.0,
+                  "h": 42.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Please include a project title (max. 12 words); this title will be used for all correspondence.\nProposal Acronym (mandatory)",
+              "bounding_boxes": [
+                {
+                  "x": 86.0,
+                  "y": 404.0,
+                  "w": 439.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "**Total requested amount in CHF** | 30000"
-          },
-          {
-            "page": 17,
-            "matching_text": "Total Costs (A + B): 30,000.00 CHF"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9806614503595524,
-        "confidence": 0.9806614503595524
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 653.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "| 30,000.00    | Total      |             |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 409.0,
+                  "w": 155.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Nicolas Dickinson will spend approximately 1.5 days each month in his role leading the WASH Web secretariat and facilitating discussions.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 71.0,
+                  "w": 455.0,
+                  "h": 69.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "1. Nicolas Dickinson (2021). jmpwashdata: WHO/UNICEF Joint Monitoring Programme Water and Sanitation Data. R package version 0.1.4. https://github.com/WASHNote/jmpwashdata",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 662.0,
+                  "w": 438.0,
+                  "h": 50.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 21,
+              "matching_text": "A final installment of 1,500 CHF will be made after submission of the final report (12 months).",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 260.0,
+                  "w": 454.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.92,
+                "height": 842.88
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1 | Maintain"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP1 | Maintain"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -316,23 +2046,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2 | Extend"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP2 | Extend"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -341,83 +2059,11 @@
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP3 | Disseminate"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 14,
-                "matching_text": "WP3 | Disseminate"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        }
-      ],
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "WASHNote"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "Nicolas Dickinson, WASHNote Director"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.880796810635188,
-            "confidence": 0.880796810635188
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "Nicolas Dickinson, WASHNote Director"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "Nicolas Dickinson, WASHNote Director"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 21,
-                "matching_text": "Brussels\n1050\nBelgium"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
@@ -428,29 +2074,31 @@
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 10157,
-      "num_output_tokens": 6878
-    }
+      "num_document_tokens": 10193,
+      "num_output_tokens": 5165
+    },
+    "parse_job_id": "c524c20e-9217-4878-bff6-9eac355eee71"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "588955fd-7d1d-4de8-b212-d719f48b56e5",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:43:59.048747+00:00",
-  "updated_at": "2025-11-11T11:45:42.321837+00:00"
+  "job_id": "451deb87-5594-40ae-b03a-e7a21e1e952c",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:25:42.580334+00:00",
+  "updated_at": "2026-01-21T19:27:46.896396+00:00"
 }

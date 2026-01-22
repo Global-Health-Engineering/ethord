@@ -6,8 +6,8 @@
     "main_applicant_institution": "EPFL",
     "main_applicant_function": "Senior scientific collaborator",
     "main_applicant_first_name": "Guillaume",
-    "main_applicant_surname": "Anciaux",
-    "main_applicant_laboratory_name": "EPFL ENAC IIC LSMS",
+    "main_applicant_surname": "Molinari",
+    "main_applicant_laboratory_name": "Computational Solid Mechanics Laboratory (EPFL ENAC IIC LSMS)",
     "main_applicant_postcode": 1015,
     "main_applicant_city": "Lausanne",
     "all_applicants": [
@@ -27,14 +27,7 @@
       },
       {
         "eth_domain_institution": "EPFL",
-        "function_title": "HPC application expert",
-        "first_name": "Richart",
-        "surname": "Nicolas",
-        "postcode": 1015
-      },
-      {
-        "eth_domain_institution": "EPFL",
-        "function_title": "HPC Application Expert",
+        "function_title": "HPC application expert, Scientific Collaborator",
         "first_name": "Nicolas",
         "surname": "Richart",
         "postcode": 1015
@@ -46,13 +39,30 @@
     "keywords": [
       "Solid Mechanics",
       "Cloud service",
-      "Visualization",
+      "Visualisation",
       "Open reproducibility"
     ],
     "start_date": "1 Oct 2022",
     "project_duration_months": 18,
     "total_budget_requested": 131777.0,
-    "work_packages": null
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "CSM@Renku"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Online CSM@Jupyterlab"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Server deploy"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Student work"
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDMetadata",
@@ -61,535 +71,2204 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Which ETH Domain do you belong to?             | EPFL"
-          },
-          {
-            "page": 15,
-            "matching_text": "Ecole Polytechnique Fédérale de Lausanne (EPFL)"
-          },
-          {
-            "page": 50,
-            "matching_text": "EPFL ENAC IIC LSMS"
-          },
-          {
-            "page": 55,
-            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project at Computational Solid Mechanics Laboratory LSMS"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Explore Projects\" - Deadline 14th April 2022 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 462.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "# Track A: Explore projects",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 282.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 58,
+              "matching_text": "ETH Domain ORD Program\nExplore Track",
+              "bounding_boxes": [
+                {
+                  "x": 342.0,
+                  "y": 147.0,
+                  "w": 129.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 31,
+              "matching_text": "For large datasets, we plan to explore the possibility to store unversioned data directly in S3 Cloud Object Storage.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 392.0,
+                  "w": 457.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 36.0,
+                  "y": 299.0,
+                  "w": 521.0,
+                  "h": 185.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| \\[+41 ]\\(mailto:<Jean-francois.molinari@epfl.ch>)21 693 2411 | Ecole Polytechnique Fédérale de Lausanne (EPFL)                     |",
+              "bounding_boxes": [
+                {
+                  "x": 270.0,
+                  "y": 119.0,
+                  "w": 235.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "* Member of the bureau of the Council of EPFL teachers (2021-present)",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 483.0,
+                  "w": 320.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "* D.S. Kammer, Ph.D. EPFL 2014; currently tenure-track Assistant Professor at ETHZ, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 774.0,
+                  "w": 457.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 27,
+              "matching_text": "In this EPFL is a pioneering actor, for instance with [the AiiDA](https://www.aiida.net/) [and Renku](https://datascience.ch/renku/) frameworks.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 451.0,
+                  "w": 456.0,
+                  "h": 68.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 38,
+              "matching_text": "ECPS [: ](https://ecps.epfl.ch/)https://ecps.epfl.ch\nGEL [: ](https://gel.epfl.ch/)https://gel.epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 117.0,
+                  "w": 133.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 57,
+              "matching_text": "EPFL",
+              "bounding_boxes": [
+                {
+                  "x": 253.0,
+                  "y": 775.0,
+                  "w": 83.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Function (Title)                               | Senior scientific collaborator"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Function (Title)                               | Senior scientific collaborator     |",
+              "bounding_boxes": [
+                {
+                  "x": 274.0,
+                  "y": 383.0,
+                  "w": 127.0,
+                  "h": 133.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
-        "reasoning": "Conflicting but project-specific sections (support letter, application details, project context) repeatedly, directly reference 'Guillaume' as the main applicant, e.g., 'application of Dr. Guillaume Anciaux for an ORD Explore project' (page 55), and applicant details table (page 1) listing first name as 'Guillaume'. Where both names appear, 'Jean-François' is more likely a supervisor or involved party but not the main applicant.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "First name(s)                                  | Guillaume"
-          },
-          {
-            "page": 11,
-            "matching_text": "Pundir Mohit, Anciaux Guillaume. Numerical Generation and Contact Analysis"
-          },
-          {
-            "page": 55,
-            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project"
-          }
-        ],
+        "reasoning": "Although both 'Guillaume' and 'Jean-François/Jean-Francois' appear in various sections, contextual cues such as the 'Corresponding Applicant' table, explicit reference to 'application of Dr. Guillaume Anciaux', and repeated header use identify Guillaume as the main applicant. 'Jean-François Molinari' appears as a prominent collaborator or supporter. Thus, 'Guillaume' is selected as the main applicant's first name. VERBATIM EXTRACTION with contextual support.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "# Guillaume Anciaux",
+              "bounding_boxes": [
+                {
+                  "x": 148.0,
+                  "y": 54.0,
+                  "w": 295.0,
+                  "h": 35.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "# MOLINARI Jean-François",
+              "bounding_boxes": [
+                {
+                  "x": 226.0,
+                  "y": 55.0,
+                  "w": 140.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "| EPFL Computational Solid Mechanics Laboratory | EPFL ENAC-IIC-LSMS<br/>Station 18<br/>CH - 1015 Lausanne | E-mail :<br/><Jean-francois.molinari@epfl.ch><br/><Guillaume.anciaux@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 33,
+              "matching_text": "| EPFL Computational Solid Mechanics Laboratory | EPFL ENAC-IIC-LSMS<br/>Station 18<br/>CH - 1015 Lausanne | E-mail :<br/><Jean-francois.molinari@epfl.ch><br/><Guillaume.anciaux@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "To<br>\nDr Guillaume Anciaux<br>\nDr Nicolas Richart<br>\nProf. Jean-François Molinari",
+              "bounding_boxes": [
+                {
+                  "x": 99.24,
+                  "y": 142.44,
+                  "w": 125.03,
+                  "h": 44.53
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 51.0,
+                  "y": 183.0,
+                  "w": 502.0,
+                  "h": 158.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 51.0,
+                  "y": 183.0,
+                  "w": 502.0,
+                  "h": 158.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 51.0,
+                  "y": 183.0,
+                  "w": 502.0,
+                  "h": 158.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 56,
+              "matching_text": "It is my pleasure to support the application of Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 323.0,
+                  "w": 484.0,
+                  "h": 75.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Anciaux is referenced multiple times with explicit main applicant context: in applicant details table (page 1), publications (page 11), and directly in supporting text ('application of Dr. Guillaume Anciaux for an ORD Explore project', page 55). 'Molinari' is heavily present as an affiliated principal investigator or professor but is not as definitively linked to primary applicant statements. Based on explicit task wording, Dr. Guillaume Anciaux is the best-supported extraction as main applicant surname.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Surname(s)                                     | Anciaux"
-          },
-          {
-            "page": 11,
-            "matching_text": "Anciaux Guillaume"
-          },
-          {
-            "page": 55,
-            "matching_text": "application of Dr. Guillaume Anciaux for an ORD Explore project"
-          }
-        ],
+        "reasoning": "The name 'Molinari' consistently appears in signature lines, professional identification (as Full Professor, Director of Laboratory), dedicated contact information (email: jean-francois.molinari@epfl.ch), and as a key individual in project descriptions (idx 2, 4, 5, pages 14-41). While 'Anciaux' is present in certain headers and addresses, 'Molinari' is most strongly evidenced as the main applicant throughout the central sections of the document. Confidence scores are averaged as per instructions.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999996846530259,
-        "confidence": 0.9999996846530259
+        "extraction_confidence": 0.9999993030007732,
+        "confidence": 0.9999993030007732,
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "# Guillaume Anciaux",
+              "bounding_boxes": [
+                {
+                  "x": 148.0,
+                  "y": 54.0,
+                  "w": 295.0,
+                  "h": 35.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "J.F. Molinari",
+              "bounding_boxes": [
+                {
+                  "x": 273.0,
+                  "y": 73.0,
+                  "w": 63.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 612.0,
+                "height": 792.0
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "Molinari as the main participants and supervisors.",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 193.0,
+                  "w": 456.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 33,
+              "matching_text": "| EPFL Computational Solid Mechanics Laboratory | EPFL ENAC-IIC-LSMS<br/>Station 18<br/>CH - 1015 Lausanne | E-mail :<br/><Jean-francois.molinari@epfl.ch><br/><Guillaume.anciaux@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "To<br>\nDr Guillaume Anciaux<br>\nDr Nicolas Richart<br>\nProf. Jean-François Molinari",
+              "bounding_boxes": [
+                {
+                  "x": 99.24,
+                  "y": 142.44,
+                  "w": 125.03,
+                  "h": 44.53
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 294.0,
+                  "y": 801.0,
+                  "w": 4.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 28,
+              "matching_text": "Molinari, who is Full Professor and Director of the Computational Solid Mechanics Laboratory [(lsms.epfl.ch),](https://lsms.epfl.ch/) holds a primary appointment in Civil Engineering and a secondar...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 442.0,
+                  "w": 457.0,
+                  "h": 164.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "EPFL Laboratory                                | EPFL ENAC IIC LSMS"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "reasoning": "Multiple verbatim extractions from the source text establish that the main applicant's laboratory is 'Computational Solid Mechanics Laboratory', with the formal institutional label 'EPFL ENAC IIC LSMS'. The acronym LSMS matches both entries, supporting that these represent the same entity. To maintain context and avoid information loss from both entries, the harmonized value includes both the full lab name and its institutional acronym.",
+        "parsing_confidence": 0.9238670604261139,
+        "extraction_confidence": 0.9238670604261139,
+        "confidence": 0.9238670604261139,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL School                                    | ENAC                               |\n| EPFL Laboratory                                | EPFL ENAC IIC LSMS                 |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 529.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 32,
+              "matching_text": "| EPFL Computational Solid Mechanics Laboratory | EPFL ENAC-IIC-LSMS<br/>Station 18<br/>CH - 1015 Lausanne | E-mail :<br/><Jean-francois.molinari@epfl.ch><br/><Guillaume.anciaux@epfl.ch> |",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 28,
+              "matching_text": "Molinari, who is Full Professor and Director of the Computational Solid Mechanics Laboratory [(lsms.epfl.ch),](https://lsms.epfl.ch/) holds a primary appointment in Civil Engineering and a secondar...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 442.0,
+                  "w": 457.0,
+                  "h": 164.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Postcode / Zipcode                             | 1015"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode                             | 1015                               |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 576.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode                             | 1015                               |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 576.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "City                                           | Lausanne"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City                                           | Lausanne                           |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 576.0,
+                  "w": 174.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Which ETH Domain do you belong to?             | EPFL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Function (Title)                               | Senior scientific collaborator"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "First name(s)                                  | Guillaume"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Surname(s)                                     | Anciaux"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999999031936799,
+            "confidence": 0.9999999031936799
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Postcode / Zipcode                             | 1015"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "VERBATIM EXTRACTION. Other segments only repeat or abbreviate name, full details are given in idx:0."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Which ETH Domain do you belong to?                                            | EPFL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Function (Title)                                                              | Full Prof"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "First name(s)                                                                 | Molinari"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Surname(s)                                                                    | Jean-François"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996535877389,
-            "confidence": 0.9999996535877389
+            "extraction_confidence": 0.9999995939859303,
+            "confidence": 0.9999995939859303
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "EPFL - ENAC - IIC - LSMS GC A2 494 (Bâtiment GC) Station 18 CH1015 - Lausanne"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "VERBATIM EXTRACTION. Details only given in idx:0."
         },
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Which ETH Domain do you belong to?                              | EPFL"
-              },
-              {
-                "page": 24,
-                "matching_text": "EPFL SCITAS"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Function (Title)                                                | HPC application expert"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.925447339699994,
+            "confidence": 0.925447339699994
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "First name(s)                                                   | Richart"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "Surname(s)                                                      | Nicolas"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "EPFL SCITAS ME B2 464 (Bâtiment ME) Station 9 CH1015 - Lausanne"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "EPFL SCITAS"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "HPC Application Expert, SCITAS, EPFL, Switzerland"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "# Nicolas Richart"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "# Nicolas Richart"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 24,
-                "matching_text": "CH-1015 Lausanne"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "Combined data from idx:0 and idx:3. Name order and job titles unified; confidence for function_title is mean of extractions. No conflict in other fields."
         }
       ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "\"Explore Projects\" - Deadline 14th April 2022"
-          },
-          {
-            "page": 26,
-            "matching_text": "Track A: Explore projects"
-          },
-          {
-            "page": 55,
-            "matching_text": "ETH Domain ORD Program**\n**Explore Track**"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "Cloud and web based platform for dissemination of computational solid mechanics"
-          },
-          {
-            "page": 26,
-            "matching_text": "Cloud and web based platform for dissemination of computational solid mechanics"
-          },
-          {
-            "page": 43,
-            "matching_text": "Proposal “Cloud and web based platform for dissemination of computational solid mechanics” by G. Anciaux & N. Richart & J.F. Molinari"
-          },
-          {
-            "page": 55,
-            "matching_text": "project entitled ***Cloud and web based platform for dissemination of computational solid mechanics (Acronym: DCSM (Dissemination of Computational Solid Mechanics)***"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION; Consistent exact phrase appears in multiple well-identified locations with top confidence. Minor hyphen variation retained original form for consistency.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 0.9913602788498583,
+        "confidence": 0.9913602788498583,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Project title**...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 226.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "> Cloud and web based platform for dissemination of computational solid mechanics",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 300.0,
+                  "w": 402.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "**RE: Letter of support for the project: “Cloud and web based platform for dissemination of computational solid mechanics”**",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 224.0,
+                  "w": 483.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| Cloud and web based platform for dissemination of computational solid mechanics...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 99.0,
+                  "w": 226.0,
+                  "h": 38.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "> Cloud and web based platform for dissemination of computational solid mechanics",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 300.0,
+                  "w": 402.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 51,
+              "matching_text": "**RE: Letter of support for the project: “Cloud and web based platform for dissemination of computational solid mechanics”**",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 224.0,
+                  "w": 483.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 52,
+              "matching_text": "### Re: Support letter for the proposal “Cloud and web-based platform for dissemination of computational solid mechanics”",
+              "bounding_boxes": [
+                {
+                  "x": 81.0,
+                  "y": 163.0,
+                  "w": 445.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "```mermaid\ngantt\n    title Work packages and milestones\n    dateFormat M\n    axisFormat %m\n    tickInterval 1 month",
+              "bounding_boxes": [
+                {
+                  "x": 90.0,
+                  "y": 116.41,
+                  "w": 163.52,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "| B – Subcontracting Costs7       |                                                  | 0                           |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            },
+            {
+              "page": 42,
+              "matching_text": "Page 1 of 1",
+              "bounding_boxes": [
+                {
+                  "x": 456.0,
+                  "y": 806.0,
+                  "w": 48.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym in Research Proposal table: DCSM."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "However, nowadays the production of scientific data in any given project exceeds by a vast amount what can be contained in a few journal pages.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 497.0,
+                  "h": 147.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "> \n> Acronym: DCSM (Dissemination of Computational Solid Mechanics)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 328.0,
+                  "w": 328.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| DCSM...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "> \n> Acronym: DCSM (Dissemination of Computational Solid Mechanics)",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 328.0,
+                  "w": 328.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 56,
+              "matching_text": "...entitled Cloud and web based platform for dissemination of computational solid mechanics (Acronym: DCSM - Dissemination of Computational Solid Mechanics), pending ethical clearance of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 323.0,
+                  "w": 484.0,
+                  "h": 75.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 595.28,
+                  "h": 841.89
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.275591,
+                "height": 841.889764
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Academic knowledge is traditionally disseminated by academic journals. However, nowadays the production of scientific data in any given project exceeds by a vast amount what can be contained in a few journal pages. ... We propose to implement a distributed platform, based on well-established initiatives such as Meshio and Renku projects, yet focusing on such needs."
-          }
-        ],
-        "extraction_confidence": 0.9999961546008678,
-        "confidence": 0.9999961546008678
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999989488041656,
+        "confidence": 0.9999989488041656,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "However, nowadays the production of scientific data in any given project exceeds by a vast amount what can be contained in a few journal pages.",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 172.0,
+                  "w": 497.0,
+                  "h": 147.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "1.",
+              "bounding_boxes": [
+                {
+                  "x": 51.0,
+                  "y": 183.0,
+                  "w": 502.0,
+                  "h": 158.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.22,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Solid Mechanics, Cloud service, Visualisation, Open reproducibility...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 362.0,
+                    "w": 300.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Solid Mechanics, Cloud service, Visualisation, Open reproducibility...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 362.0,
+                    "w": 300.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Solid Mechanics, Cloud service, Visualisation, Open reproducibility...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 362.0,
+                    "w": 300.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 3,
-              "matching_text": "Solid Mechanics, Cloud service, Visualization, Open reproducibility"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 3,
+                "matching_text": "| Solid Mechanics, Cloud service, Visualisation, Open reproducibility...",
+                "bounding_boxes": [
+                  {
+                    "x": 44.0,
+                    "y": 362.0,
+                    "w": 300.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 9,
-            "matching_text": "Proposed Starting Date: 1 Oct 2022 in Research Proposal table."
-          }
-        ],
-        "extraction_confidence": 0.9999999612774708,
-        "confidence": 0.9999999612774708
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration is 18 months, as in Research Proposal table."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Address of the Laboratory (Street, No, PO Box) | GC A2 494 (Bâtiment GC) Station 18 |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 552.0,
+                  "w": 167.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "...| 1 Oct 2022...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 385.0,
+                  "w": 381.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Total requested amount in CHF is 131777 in BUDGET section."
-          },
-          {
-            "page": 33,
-            "matching_text": "Explicit in budget table: 'Total Costs (A + B) 131777 CHF'"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      }
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF** | 131777 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 690.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF** | 131777 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 690.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  | 23000 + 108777 = 131777 CHF |                                       |   |",
+              "bounding_boxes": [
+                {
+                  "x": 65.0,
+                  "y": 115.0,
+                  "w": 672.0,
+                  "h": 293.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 34,
+              "matching_text": "section Semester 1",
+              "bounding_boxes": [
+                {
+                  "x": 80.61,
+                  "y": 151.84,
+                  "w": 444.53,
+                  "h": 523.57
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999948116925212,
+            "confidence": 0.9999948116925212
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999949317418801,
+            "confidence": 0.9999949317418801
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999124170438326,
+            "confidence": 0.9999124170438326
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999986515560974,
+            "confidence": 0.9999986515560974
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
     },
     "usage": {
-      "num_pages_extracted": 59,
-      "num_document_tokens": 35784,
-      "num_output_tokens": 11546
-    }
+      "num_pages_extracted": 58,
+      "num_document_tokens": 35829,
+      "num_output_tokens": 8373
+    },
+    "parse_job_id": "ff6f4760-8557-48a2-9278-ab35db208537"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "6e180f5a-bce0-40c7-9a34-22f4013ace93",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T12:02:01.655790+00:00",
-  "updated_at": "2025-11-11T12:04:31.741833+00:00"
+  "job_id": "d64c0d1c-7ccc-4955-b0bc-fdc9c47d3206",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T16:57:16.179644+00:00",
+  "updated_at": "2026-01-21T17:00:53.787137+00:00"
 }

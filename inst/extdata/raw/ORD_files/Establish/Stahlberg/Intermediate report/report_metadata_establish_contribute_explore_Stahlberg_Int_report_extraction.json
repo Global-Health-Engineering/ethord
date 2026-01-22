@@ -2,7 +2,7 @@
   "document_path": "raw/ORD_files/Establish/Stahlberg/Intermediate report/Stahlberg_Int_report.pdf",
   "status": "success",
   "data": {
-    "project_title": "OpenEM",
+    "project_title": "OpenEM; CryoEM of Apoferritin",
     "explore_call_number": 1,
     "project_starting_and_end_date": "01.06.23 to 30.11.25",
     "main_applicant_responsible_for_project": "H. Stahlberg",
@@ -15,60 +15,60 @@
       {
         "name": "Henning Stahlberg",
         "function": "Professor",
-        "institution": "EPFL",
-        "roles_and_main_tasks": "Project Management; Integration with international repositories (WP3)"
+        "institution": "LBEM, Inst. of Physics, Basic Sciences, EPFL",
+        "roles_and_main_tasks": "* Project Management\n* Integration with international repositories (WP3)"
       },
       {
         "name": "Spencer Bliven",
         "function": "Scientific Engineer",
-        "institution": "PSI",
-        "roles_and_main_tasks": "Project Coordination; Coordination SwissUniversities CHORD partners; SciCat devel., operation (WP2)"
+        "institution": "Science IT Infrastructure and Services, Division Scientific Computing, Theory and Data, PSI",
+        "roles_and_main_tasks": "- Project Coordination\n- Coordination SwissUniversities CHORD partners\n- SciCat devel., operation (WP2)"
       },
       {
         "name": "Rolf Erni",
         "function": "Professor",
         "institution": "Empa",
-        "roles_and_main_tasks": "Standards for material science (WP1)"
+        "roles_and_main_tasks": "* Standards for material science (WP1)"
       },
       {
         "name": "Christophe Coperet",
         "function": "Professor",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Storage and Archiving (WP2.2)"
+        "institution": "ETH Zurich, Head of Dep. of Chemistry and Applied Bioscience.",
+        "roles_and_main_tasks": "- Storage and Archiving (WP2.2)"
       },
       {
         "name": "Volodymyr Korkhov",
         "function": "Professor",
-        "institution": "ETH Zurich",
-        "roles_and_main_tasks": "Scientific consultation; SciCat development and operation (WP2)"
+        "institution": "ETH Zurich, Department of Biology. Group Leader PSI, Division of Biology and Chemistry",
+        "roles_and_main_tasks": "* Scientific consultation\n* SciCat development and operation (WP2)"
       },
       {
         "name": "Gebhard Schertler",
         "function": "Professor",
-        "institution": "PSI",
-        "roles_and_main_tasks": "Scientific consultation; SciCat development and operation (WP2)"
+        "institution": "Division of Biology and Chemistry, PSI",
+        "roles_and_main_tasks": "- Scientific consultation\n- SciCat development and operation (WP2)"
       },
       {
-        "name": "Robbie Loewith",
-        "function": "Professor",
+        "name": "Prof. Robbie Loewith",
+        "function": "",
         "institution": "UNIGE",
         "roles_and_main_tasks": "Automatic deposition in SciCat (WP1)"
       },
       {
-        "name": "Benoît Zuber",
-        "function": "Professor",
+        "name": "Prof. Benoît Zuber",
+        "function": "",
         "institution": "UNIBE",
         "roles_and_main_tasks": "User training and outreach (WP4)"
       },
       {
-        "name": "Timm Maier",
-        "function": "Professor",
+        "name": "Prof. Timm Maier",
+        "function": "",
         "institution": "UNIBA",
         "roles_and_main_tasks": "Standards for Life Science (WP1)"
       },
       {
-        "name": "Christel Genoud",
-        "function": "Professor",
+        "name": "Prof. Christel Genoud",
+        "function": "",
         "institution": "UNIL",
         "roles_and_main_tasks": "Integration with international repositories (WP3)"
       }
@@ -82,600 +82,1655 @@
   "extraction_metadata": {
     "field_metadata": {
       "project_title": {
-        "reasoning": "Both extracted sources and all cited matching text consistently name the project 'OpenEM', with one verbatim from the General information table and repeated references throughout the document.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Project title:**                          | OpenEM                                                                    |"
-          },
-          {
-            "page": 15,
-            "matching_text": "OpenEM Consortium"
-          }
-        ],
+        "reasoning": "Two different project titles are extracted verbatim from the 'General information' tables or equivalent sections on different pages: 'OpenEM' (pages 0–7, clearly labeled as project title) and 'CryoEM of Apoferritin' (pages 7–14, also under 'General information' as 'Name'). There is insufficient data to determine a single unified title; both are relevant as provided.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "The scientific objectives of the OpenEM proposal are on track and all deliverables are expected to be achieved by the project conclusion in December 2025.",
+              "bounding_boxes": [
+                {
+                  "x": 60.0,
+                  "y": 648.0,
+                  "w": 463.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "| **Name**          | CryoEM of Apoferritin                                          |",
+              "bounding_boxes": [
+                {
+                  "x": 25.0,
+                  "y": 99.0,
+                  "w": 547.0,
+                  "h": 391.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License",
+              "bounding_boxes": [
+                {
+                  "x": 29.0,
+                  "y": 106.0,
+                  "w": 537.0,
+                  "h": 463.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License",
+              "bounding_boxes": [
+                {
+                  "x": 29.0,
+                  "y": 106.0,
+                  "w": 537.0,
+                  "h": 463.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License",
+              "bounding_boxes": [
+                {
+                  "x": 29.0,
+                  "y": 106.0,
+                  "w": 537.0,
+                  "h": 463.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "explore_call_number": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Establish call number:**                  | Establish (1st call 2022)                                                 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The current data production is summarized in Table 1 below.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 235.0,
+                  "w": 482.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The current data production is summarized in Table 1 below.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 235.0,
+                  "w": 482.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "project_starting_and_end_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Project starting & end date:**            | 01.06.23 to 30.11.25                                                      |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**            | 01.06.23 to 30.11.25                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Project starting & end date:**            | 01.06.23 to 30.11.25                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_responsible_for_project": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Main applicant responsible for project:** | H. Stahlberg                                                              |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Main applicant responsible for project:** | H. Stahlberg                                                              |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Main applicant responsible for project:** | H. Stahlberg                                                              |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Function:**                               | Professor                                                                 |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Function:**                               | Professor                                                                 |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The current data production is summarized in Table 1 below.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 235.0,
+                  "w": 482.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "laboratory_department": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Laboratory (and/or Department):**         | LBEM, Inst. of Physics, Basic Sciences                                    |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**         | LBEM, Inst. of Physics, Basic Sciences                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Laboratory (and/or Department):**         | LBEM, Inst. of Physics, Basic Sciences                                    |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "institution_of_main_applicant": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Institution of main applicant:**          | EPFL                                                                      |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Institution of main applicant:**          | EPFL                                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 596.0,
+                  "h": 842.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "The current data production is summarized in Table 1 below.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 235.0,
+                  "w": 482.0,
+                  "h": 55.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "report": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Selected by checkbox for 'Intermediate scientific report (v2)'."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Report:**                                 | \\[x] Intermediate scientific report (v2)<br/>\\[ ] Final scientific report |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "## Scientific Report – Intermediate",
+              "bounding_boxes": [
+                {
+                  "x": 56.0,
+                  "y": 161.0,
+                  "w": 239.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "The database stores several TB of data on the CSCS infrastructure (see link) with backup in several other sites and has been financed by SNF and European grants (link).",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 479.0,
+                  "w": 464.0,
+                  "h": 40.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "reporting_period": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 01.06.23 to 31.10.24                                                      |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 01.06.23 to 31.10.24                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Reporting period (MM/YY to MM/YY):**      | 01.06.23 to 31.10.24                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 236.0,
+                  "w": 454.0,
+                  "h": 195.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Table 1.",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 405.0,
+                  "w": 482.0,
+                  "h": 37.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "– 1 of 18 –\nETH BOARD",
+              "bounding_boxes": [
+                {
+                  "x": 258.0,
+                  "y": 781.0,
+                  "w": 48.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "| Annual costs 3-year cycle (kCHF)  | 5.0  | 78.8  | 0.3  | 12.0  | 21.6  | 6.0   | 0.0  | **123.7** |",
+              "bounding_boxes": [
+                {
+                  "x": 55.0,
+                  "y": 306.0,
+                  "w": 483.0,
+                  "h": 98.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "coapplicants": [
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Henning Stahlberg  | Professor           | LBEM, Inst. of Physics, Basic Sciences, EPFL             ..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999044914430927,
-            "confidence": 0.9999044914430927
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Henning Stahlberg  | Professor           | LBEM, Inst. of Physics, Basic Sciences, EPFL             ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Henning Stahlberg  | Professor           | LBEM, Inst. of Physics, Basic Sciences, EPFL             ..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.7071040409733068,
-            "confidence": 0.7071040409733068
+            "extraction_confidence": 0.9923202992009099,
+            "confidence": 0.9923202992009099
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Henning Stahlberg  | Professor           | LBEM, Inst. of Physics, Basic Sciences, EPFL            | * Project Management * Integration with international repositories (WP3) |"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9856428085590588,
-            "confidence": 0.9856428085590588
+            "extraction_confidence": 0.8623975368241692,
+            "confidence": 0.8623975368241692
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Spencer Bliven     | Scientific Engineer | Science IT Infrastructure and Services, Division Scien..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Spencer Bliven     | Scientific Engineer | Science IT Infrastructure and Services, Division Scien..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Spencer Bliven     | Scientific Engineer | Science IT Infrastructure and Services, Division Scien..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999851816507712,
-            "confidence": 0.9999851816507712
+            "extraction_confidence": 0.9999999106096957,
+            "confidence": 0.9999999106096957
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Spencer Bliven     | Scientific Engineer | Science IT Infrastructure and Services, Division Scien..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.997663735250566,
-            "confidence": 0.997663735250566
+            "extraction_confidence": 0.9999998963293144,
+            "confidence": 0.9999998963293144
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Rolf Erni          | Professor           | Empa                                              ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Rolf Erni          | Professor           | Empa                                              ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Rolf Erni          | Professor           | Empa                                              ..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999853235266,
-            "confidence": 0.99999853235266
+            "extraction_confidence": 0.9999972807168571,
+            "confidence": 0.9999972807168571
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Rolf Erni          | Professor           | Empa                                              | * Standards for material science (WP1)                                     |"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996076317087,
-            "confidence": 0.9999996076317087
+            "extraction_confidence": 0.9999999784874837,
+            "confidence": 0.9999999784874837
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Christophe Coperet | Professor           | ETH Zurich, Head of Dep. of Chemistry and Applied Bio..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Christophe Coperet | Professor           | ETH Zurich, Head of Dep. of Chemistry and Applied Bio..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Christophe Coperet | Professor           | ETH Zurich, Head of Dep. of Chemistry and Applied Bio..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9983864846519157,
-            "confidence": 0.9983864846519157
+            "extraction_confidence": 0.9999978586202095,
+            "confidence": 0.9999978586202095
           },
           "roles_and_main_tasks": {
-            "extraction_confidence": 0.9999999567980021,
-            "confidence": 0.9999999567980021
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Volodymyr Korkhov  | Professor           | ETH Zurich, Department of Biology. Group Leader PSI..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Volodymyr Korkhov  | Professor           | ETH Zurich, Department of Biology. Group Leader PSI..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Volodymyr Korkhov  | Professor           | ETH Zurich, Department of Biology. Group Leader PSI..."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9729205829764732,
-            "confidence": 0.9729205829764732
+            "extraction_confidence": 0.9999999878992095,
+            "confidence": 0.9999999878992095
           },
           "roles_and_main_tasks": {
-            "extraction_confidence": 0.9999980505408963,
-            "confidence": 0.9999980505408963
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998957101248,
+            "confidence": 0.9999998957101248
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Gebhard Schertler  | Professor           | Division of Biology and Chemistry, PSI                  ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Gebhard Schertler  | Professor           | Division of Biology and Chemistry, PSI                  ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Gebhard Schertler  | Professor           | Division of Biology and Chemistry, PSI                  ..."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Gebhard Schertler  | Professor           | Division of Biology and Chemistry, PSI                  | - Scientific consultation - SciCat development and operation (WP2)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.99999945118219,
-            "confidence": 0.99999945118219
+            "extraction_confidence": 0.9999999553119545,
+            "confidence": 0.9999999553119545
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Robbie Loewith (UNIGE). Automatic deposition in SciCat (WP1)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9255433823761932,
-            "confidence": 0.9255433823761932
+            "extraction_confidence": 0.958880920079765,
+            "confidence": 0.958880920079765
           },
           "function": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Robbie Loewith (UNIGE). Automatic deposition in SciCat (WP1)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9932928982090184,
-            "confidence": 0.9932928982090184
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Robbie Loewith (UNIGE). Automatic deposition in SciCat (WP1)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Robbie Loewith (UNIGE). Automatic deposition in SciCat (WP1)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999387529297,
             "confidence": 0.9999999387529297
           },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "VERBATIM EXTRACTION with empty function (no function given in text)"
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Benoît Zuber (UNIBE). User training and outreach (WP4)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999612774708,
-            "confidence": 0.9999999612774708
+            "extraction_confidence": 0.9999999279966713,
+            "confidence": 0.9999999279966713
           },
           "function": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Benoît Zuber (UNIBE). User training and outreach (WP4)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Benoît Zuber (UNIBE). User training and outreach (WP4)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Benoît Zuber (UNIBE). User training and outreach (WP4)"
-              }
-            ],
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with empty function (no function given in text)"
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999997839900294,
+            "confidence": 0.9999997839900294
+          },
+          "roles_and_main_tasks": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION with empty function (no function given in text)"
+        },
+        {
+          "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.01,
+            "confidence": 0.01
+          },
+          "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "roles_and_main_tasks": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.9999999757984191,
             "confidence": 0.9999999757984191
           },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Timm Maier (UNIBA). Standards for Life Science (WP1)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999515968389,
-            "confidence": 0.9999999515968389
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Timm Maier (UNIBA). Standards for Life Science (WP1)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Timm Maier (UNIBA). Standards for Life Science (WP1)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Timm Maier (UNIBA). Standards for Life Science (WP1)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        },
-        {
-          "name": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Christel Genoud (UNIL). Integration with international repositories (WP3)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Christel Genoud (UNIL). Integration with international repositories (WP3)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "institution": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Christel Genoud (UNIL). Integration with international repositories (WP3)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 2,
-                "matching_text": "* Prof. Christel Genoud (UNIL). Integration with international repositories (WP3)"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
+          "reasoning": "VERBATIM EXTRACTION with empty function (no function given in text)"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 18,
-      "num_document_tokens": 12768,
-      "num_output_tokens": 10179
-    }
+      "num_document_tokens": 12876,
+      "num_output_tokens": 6456
+    },
+    "parse_job_id": "7a3d6f86-c7e5-4bbd-8721-6b060dc13eb7"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "f2b3ccde-aeea-47b8-a2c6-24acdc222642",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T18:12:47.036151+00:00",
-  "updated_at": "2025-11-11T18:16:16.469885+00:00"
+  "job_id": "0cb4d6bd-e7dd-4eb7-aeb4-5632e0b32d7f",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T01:55:06.661576+00:00",
+  "updated_at": "2026-01-22T01:57:37.055261+00:00"
 }

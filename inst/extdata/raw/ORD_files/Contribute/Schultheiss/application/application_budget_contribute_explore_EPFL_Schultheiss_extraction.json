@@ -26,202 +26,1404 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 30000"
-          },
-          {
-            "page": 18,
-            "matching_text": "Total Costs (A + B)                 |              | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 641.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| As an applicant, if you are not a lab/group/unit leader, you must submit a letter of support from your lab/group/unit leader, stating that she/he takes administrative responsibility for all perso...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 336.0,
+                  "w": 424.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| As an applicant, if you are not a lab/group/unit leader, you must submit a letter of support from your lab/group/unit leader, stating that she/he takes administrative responsibility for all perso...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 336.0,
+                  "w": 424.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| As an applicant, if you are not a lab/group/unit leader, you must submit a letter of support from your lab/group/unit leader, stating that she/he takes administrative responsibility for all perso...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 336.0,
+                  "w": 424.0,
+                  "h": 197.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "| Total Costs (A + B)             |                                                  | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "Senior Staff | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_postdocs": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Postdocs                                         | 0"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_students": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Students                                         | 0"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "|               |            | Senior Staff | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 56.92,
+                  "y": 48.99,
+                  "w": 510.71,
+                  "h": 785.29
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Other (technical staff)                          | 5000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "| Direct Costs  | Personnel¹ | Applicant    | 23000        |",
+              "bounding_boxes": [
+                {
+                  "x": 56.92,
+                  "y": 48.99,
+                  "w": 510.71,
+                  "h": 785.29
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 15,
+              "matching_text": "**WP1: cleaning and improving the scripts and functions | ~1/5 on the project**",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 327.0,
+                  "w": 391.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_postdocs": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_personnel_students": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "i. Total Direct Costs for Personnel |              | 28000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Travel2                             |              | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Equipment3                          |              | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Publications (including Open Access fees), etc.4 | 2000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Conferences and workshops5                       | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "Other (please specify)6                          | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "ii. Total Other Direct Costs        |              | 2000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "A – Total Direct Costs (i + ii)     |              | 30000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "| A – Total Direct Costs (i + ii) |                                                  | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 18,
-            "matching_text": "B – Subcontracting Costs7           |              | 0"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 18,
+              "matching_text": "|                                 | Postdocs                                         | 0     |",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 116.0,
+                  "w": 466.0,
+                  "h": 339.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 20,
+              "matching_text": "121 693 32 32<br/><vincent.kaufmann@epfl.ch><br/>[www.epfl.ch](http://www.epfl.ch) | 1 |\n| ------------------------------------------ | ----- | ----------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 442.0,
+                  "y": 776.0,
+                  "w": 90.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 14383,
-      "num_output_tokens": 3500
-    }
+      "num_document_tokens": 14745,
+      "num_output_tokens": 2715
+    },
+    "parse_job_id": "201eabf1-3ee4-414a-b574-f0042cd3ce1d"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "822d7ec1-2aef-47e4-849b-8912eeeb2aa1",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:07:52.774177+00:00",
-  "updated_at": "2025-11-11T14:08:23.719572+00:00"
+  "job_id": "5bf6a852-caad-4fa9-a473-a54dcf7a12e7",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:54:24.685735+00:00",
+  "updated_at": "2026-01-21T20:55:56.872467+00:00"
 }

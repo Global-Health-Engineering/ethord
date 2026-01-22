@@ -21,9 +21,9 @@
     ],
     "project_title": "Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)",
     "project_acronym": "Boost4Epilepsy",
-    "project_abstract": "In the last decade several initiatives have made annotated scalp EEG datasets of people with epilepsy available to researchers around the world. However, the format of the data varies between datasets. This heterogeneity of data along with a heterogeneity of methods used by researchers to validate algorithms makes comparison of algorithms difficult, ranking the best algorithms impossible and ultimately significantly hinders the research progress.This proposal builds on ORD datasets and community guidelines and standards to propose a unified framework for the validation of seizure detection algorithms. The main objective is the development of tools and standards that will unify the workflow for the validation of seizure detection algorithms in order to make data for seizure detection adhere to the principles of Findable, Accessible, Interpretable and Reusable data.To build this framework we will be contributing to Open Research Data by curating existing public annotated datasets, by standardising the data format of these different datasets. For these standards we will develop software tools that convert the original datasets to this standardised format. We will standardise the methodology to evaluate algorithms in order to build a benchmark state of the art algorithms.We will centralise all this knowledge, datasets, standards tools and benchmark on a website that will help to speed the development of seizure detection algorithms.",
+    "project_abstract": "In the last decade several initiatives have made annotated scalp EEG datasets of people with epilepsy available to researchers around the world. However, the format of the data varies between datasets. This heterogeneity of data along with a heterogeneity of methods used by researchers to validate algorithms makes comparison of algorithms difficult, ranking the best algorithms impossible and ultimately significantly hinders the research progress.\n\nThis proposal builds on ORD datasets and community guidelines and standards to propose a unified framework for the validation of seizure detection algorithms. The main objective is the development of tools and standards that will unify the workflow for the validation of seizure detection algorithms in order to make data for seizure detection adhere to the principles of Findable, Accessible, Interpretable and Reusable data.\n\nTo build this framework we will be contributing to Open Research Data by curating existing public annotated datasets, by standardising the data format of these different datasets. For these standards we will develop software tools that convert the original datasets to this standardised format. We will standardise the methodology to evaluate algorithms in order to build a benchmark state of the art algorithms.\n\nWe will centralise all this knowledge, datasets, standards tools and benchmark on a website that will help to speed the development of seizure detection algorithms.",
     "keywords": [
-      "Epilpesy",
+      "Epilepsy",
       "Open Research Data",
       "Findable Accessible Interpretable and Reusable data",
       "Machine Learning",
@@ -35,23 +35,23 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Collecting and Curating Epilepsy datasets"
+        "wp_title": "Datasets: Collecting and Curating Epilepsy datasets"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Standardisation of the input and output data formats"
+        "wp_title": "IOStandardisation: Standardisation of the input and output data formats"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Standardisation of methodology for algorithm assessment"
+        "wp_title": "Methodology: Standardisation of methodology for algorithm assessment"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Community online platform"
+        "wp_title": "Platform: Community online platform"
       },
       {
         "wp_identifier": "WP5",
-        "wp_title": "Benchmarking algorithms"
+        "wp_title": "Benchmark: Benchmarking algorithms"
       }
     ]
   },
@@ -62,407 +62,2091 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "ETH Domain row in Applicant details table: EPFL."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_first_name": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "First name(s) value from Applicant details table: David."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "main_applicant_surname": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname(s) row in Applicant details table: Atienza."
-          }
-        ],
-        "extraction_confidence": 0.9999699239245299,
-        "confidence": 0.9999699239245299
-      },
-      "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 11,
-            "matching_text": "Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9993503098260805,
-        "confidence": 0.999675
-      },
-      "total_budget_requested": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "**Total requested amount in CHF** | 30000"
-          },
-          {
-            "page": 21,
-            "matching_text": "Total Costs (A + B)             |                                     |                                                  | 30000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 9,
-            "matching_text": "Track C: Contribute projects"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 5 - Deadline 27 July 2023 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 488.0,
+                  "h": 77.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 131.0,
+                  "w": 283.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 389.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 389.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 389.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 536.0,
+                  "w": 113.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title) in Applicant details table: Full Professor."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Function (Title)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "**David Atienza Alonso**\n**Current position(s):** Full professor or similar\n**Academic age:** 17 year(s) 11 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 213.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_first_name": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| First name(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "David Atienza | Applicant ID - ORD1000299",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_surname": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999733807322226,
+        "confidence": 0.9999733807322226,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Surname(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "David Atienza | Applicant ID - ORD1000299",
+              "bounding_boxes": [
+                {
+                  "x": 315.0,
+                  "y": 40.0,
+                  "w": 242.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL STI IEM ESL"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 536.0,
+                  "w": 113.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL STI IEM ESL               |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 536.0,
+                  "w": 113.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode in Applicant details table: 1015."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| **Postcode / Zipcode**...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 81.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1015                           |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 81.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City entry in Applicant details table: Lausanne."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project field in Research Proposal: Boost4Epilepsy."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "In the last decade several initiatives have made annotated scalp EEG datasets of people with epilepsy available to researchers around the world... We will centralise all this knowledge, datasets, standards tools and benchmark on a website that will help to speed the development of seizure detection algorithms."
-          }
-        ],
-        "extraction_confidence": 0.9999871323128401,
-        "confidence": 0.9999871323128401
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Epilpesy"
-            }
-          ],
-          "extraction_confidence": 0.9993809306170972,
-          "confidence": 0.9993809306170972
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Open Research Data"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Findable Accessible Interpretable and Reusable data"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Machine Learning"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 0,
-              "matching_text": "Standards"
-            }
-          ],
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date entry is 1 Oct 2023."
-          }
-        ],
-        "extraction_confidence": 0.9999999612774708,
-        "confidence": 0.9999999612774708
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "The project will be conducted over a duration of 12 months. This time is required..."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Full professor or similar | EPF Lausanne - EPFL, CH<br/>Institute of Electrical Engineering,<br/>Faculty of Engineering (STI),<br/>Embedded Systems Laboratory (ESL) | 10.2021 - Present<br/>1 year(s)...",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 697.0,
+                  "w": 452.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table (main applicant)"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table (main applicant)"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table (main applicant)"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table (main applicant)"
-              }
-            ],
-            "extraction_confidence": 0.9999639043383398,
-            "confidence": 0.9999639043383398
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999836320269305,
+            "confidence": 0.9999836320269305
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 0,
-                "matching_text": "Applicant table (main applicant)"
-              }
-            ],
+            "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
       ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999136677477,
+        "confidence": 0.9999999136677477,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "> Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 174.0,
+                  "w": 402.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy) |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 11,
+              "matching_text": "> Boost for the validation of seizure detection algorithms with ORD (Boost4Epilepsy)",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 174.0,
+                  "w": 402.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "1. **Proposal full title**",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 389.0,
+                  "w": 109.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Acronym of the project...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| Boost4Epilepsy                                                                     |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999612544066929,
+        "confidence": 0.9999612544066929,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "The main objective is the development of tools and standards that will unify the workflow for the validation of seizure detection algorithms in order to make data for seizure detection adhere to th...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 501.0,
+                  "h": 60.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Epilepsy, Open Research Data, Findable Accessible Interpretable and Reusable data, Machine Learnin...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 246.0,
+                    "w": 496.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Please enter up to 5 keywords that characterise your proposal (separated by commas)**<br/><br/>Epilepsy, Open Research Data, Findable Accessible Interpretable and Reusable data, Machine Learning,...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 246.0,
+                    "w": 496.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...sible, Interpretable and Reusable data.<br/><br/>To build this framework we will be contributing to Open Research Data by curating existing public annotated datasets, by standardising the data format...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 501.0,
+                    "h": 60.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.9999999806387352,
+          "confidence": 0.9999999806387352,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...ords that characterise your proposal (separated by commas)**<br/><br/>Epilepsy, Open Research Data, Findable Accessible Interpretable and Reusable data, Machine Learning, Standards...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 246.0,
+                    "w": 496.0,
+                    "h": 48.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Initially published in 2009, this work [1] received more than 200 citations in the first",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 717.0,
+                    "w": 458.0,
+                    "h": 52.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "...ion methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board intelligence in WBSNs.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Atienza has developed novel system-level optimization methodologies and multi-lead signal processing algorithms using compressed sensing (CS) [1] and machine learning (ML) [2][3] to deploy on-board...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 606.0,
+                    "w": 456.0,
+                    "h": 136.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "For these standards we will develop software tools that convert the original datasets to this standardised format.",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 501.0,
+                    "h": 60.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Initially published in 2009, this work [1] received more than 200 citations in the first",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 717.0,
+                    "w": 458.0,
+                    "h": 52.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Initially published in 2009, this work [1] received more than 200 citations in the first",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 717.0,
+                    "w": 458.0,
+                    "h": 52.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 5,
+                "matching_text": "Initially published in 2009, this work [1] received more than 200 citations in the first",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 717.0,
+                    "w": 458.0,
+                    "h": 52.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 308.0,
+                  "w": 481.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 308.0,
+                  "w": 481.0,
+                  "h": 48.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project duration...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 370.0,
+                  "w": 482.0,
+                  "h": 23.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "The project will be conducted over a duration of 12 months.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 184.0,
+                  "w": 468.0,
+                  "h": 41.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "](https://doi.org/10.1016/j.vlsi.2007.12.002)DOI.",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 712.0,
+                  "w": 429.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 22,
+              "matching_text": "The project will be conducted over a duration of 12 months.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 184.0,
+                  "w": 468.0,
+                  "h": 41.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 776.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "| Direct Costs                    | Personnel¹                          | Applicant                                        | 0            |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 141.0,
+                  "w": 465.0,
+                  "h": 422.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Page 1/5",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "*IEEE Journal of Biomedical and Health Informatics*, 26(2), 1–1.",
+              "bounding_boxes": [
+                {
+                  "x": 93.0,
+                  "y": 119.0,
+                  "w": 440.0,
+                  "h": 49.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP1.Datasets"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP1.Datasets: Collecting and Curating Epilepsy datasets (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9998689343153812,
-            "confidence": 0.9998689343153812
+            "extraction_confidence": 0.9610871280680928,
+            "confidence": 0.9610871280680928
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP2.IOStandardisation"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 15,
-                "matching_text": "WP2.IOStandardisation: Standardisation of the input and output data formats (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9997248769284534,
-            "confidence": 0.9997248769284534
+            "extraction_confidence": 0.9982780298112139,
+            "confidence": 0.9982780298112139
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP3.Methodology: Standardisation of methodology for algorithm assessment (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP3.Methodology: Standardisation of methodology for algorithm assessment (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999553119545,
-            "confidence": 0.9999999553119545
+            "extraction_confidence": 0.9999971287138375,
+            "confidence": 0.9999971287138375
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP4.Platform: Community online platform (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP4.Platform: Community online platform (3M)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999354624522,
-            "confidence": 0.9999999354624522
+            "extraction_confidence": 0.9999987454008672,
+            "confidence": 0.9999987454008672
           },
           "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP5.Benchmark: Benchmarking algorithms (6M)"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 16,
-                "matching_text": "WP5.Benchmark: Benchmarking algorithms (6M)"
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999996970551672,
-            "confidence": 0.9999996970551672
+            "extraction_confidence": 0.9999995411033212,
+            "confidence": 0.9999995411033212
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
@@ -470,29 +2154,31 @@
     },
     "usage": {
       "num_pages_extracted": 22,
-      "num_document_tokens": 13393,
-      "num_output_tokens": 8129
-    }
+      "num_document_tokens": 13100,
+      "num_output_tokens": 5610
+    },
+    "parse_job_id": "2912d109-77cb-40c7-956c-267ed7a30a8f"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "662fb3a0-d925-4494-a25d-474d2da010ef",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T09:49:58.993809+00:00",
-  "updated_at": "2025-11-11T09:52:15.448555+00:00"
+  "job_id": "2a77b672-c6d0-480c-bc24-7832e8805e0b",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:35:33.090341+00:00",
+  "updated_at": "2026-01-21T17:37:21.193999+00:00"
 }

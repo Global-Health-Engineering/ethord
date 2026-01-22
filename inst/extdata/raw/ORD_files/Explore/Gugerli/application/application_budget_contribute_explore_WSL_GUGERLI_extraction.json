@@ -25,217 +25,2515 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "VERBATIM EXTRACTION. Two sources independently confirm a total (either as 'total requested amount in CHF' or as the sum of costs per institution totaling 150000 CHF). No duplication, both sources corroborate the same figure. Reporting 150000 CHF as the best-supported value.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Total requested amount in CHF"
-          },
-          {
-            "page": 52,
-            "matching_text": "Total Costs in CHF (A + B)      |                                                  | 148'400 | 1000 | 600"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "| Total requested amount in CHF                         | 150000                                |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 730.0,
+                  "w": 196.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "(1) Ecological genomics",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 572.0,
+                  "w": 457.0,
+                  "h": 108.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "(1) Ecological genomics",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 572.0,
+                  "w": 457.0,
+                  "h": 108.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "(1) Ecological genomics",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 572.0,
+                  "w": 457.0,
+                  "h": 108.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 51,
-            "matching_text": "Senior Staff                                                                               | 67'327"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 51,
+              "matching_text": "| In each column, please add each applicant / co-applicant and the corresponding institution                                                                               | In each column, please a...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 100.0,
+                  "w": 701.0,
+                  "h": 308.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
-        "reasoning": "INSUFFICIENT DATA. There are no explicit references or figures pertaining to postdoc budget or funding in CHF in the supplied text.",
-        "citation": [
-          {
-            "page": 35,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 43,
-            "matching_text": "Requested funds are primarily used for salaries of two part-time employees with complementary expertise"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
-        "reasoning": "INSUFFICIENT DATA. Both referenced document sections state there is no explicit student budget or cost amount provided for the 'Students' category. No numerical CHF values matching 'Students' were found. Assigning a value of 0 to reflect absence of data.",
-        "citation": [
-          {
-            "page": 35,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 45,
-            "matching_text": "by hiring an intern spending time at the involved institutions"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. Multiple extractions confirm that no CHF amount is given for Students in any of the provided tables or text: where present, the entry is unfilled; elsewhere, no data is provided. Value assumed to be 0 as per standard reporting protocol for empty but present budget lines.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 51,
-            "matching_text": "Other                                                                                      | 79'273"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 51,
-            "matching_text": "Total Direct Costs for Personnel shown as 146'600"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 51,
+              "matching_text": "|                                                                                                                                                                          | i. Total Direct Costs fo...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 100.0,
+                  "w": 701.0,
+                  "h": 308.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "VERBATIM EXTRACTION. Source at page 51 shows explicit 'Travel' entry of 600 CHF for WSL in the budget table. Previous sections do not provide CHF values for travel, so idx 7 provides the extracted value.",
-        "citation": [
-          {
-            "page": 51,
-            "matching_text": "Travel²                                                                                    |                                                                                            | 600                                | 400                | 200"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9820135437510639,
-        "confidence": 0.9820135437510639
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "INSUFFICIENT DATA. Both data segments report no evidence of equipment costs or related CHF figures in the examined text, and no alternative inference is possible.",
-        "citation": [
-          {
-            "page": 35,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "There is no CHF value entered for Equipment in the provided budget sections or tables. All source extracts state this explicitly or note that only the category title was found. Thus, the value must be zero according to the document.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "INSUFFICIENT DATA. No explicit values or mentions for 'Other Publications' or publication fee costs in CHF found in the provided document sections. Returning zero per extraction policy when no costs are indicated and explicit absence established.",
-        "citation": [
-          {
-            "page": 35,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 41,
-            "matching_text": "Write articles in scientific journals and non-scientific, stakeholder-addressed magazines"
-          }
-        ],
+        "reasoning": "No numerical value for publication fees appears in the extracted tables or text; the line for 'Publications (including Open Access fees)' exists but is empty. INS UFFICIENT DATA for a non-zero value, and when budget data exists but is blank, the appropriate extraction is 0.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
-        "reasoning": "VERBATIM EXTRACTION. Page 52 contains a table under 'Conferences and workshops' with a CHF value for WSL (1200). Earlier pages do not provide relevant CHF figures, only mentioning activities or stating absence of budget information.",
-        "citation": [
-          {
-            "page": 52,
-            "matching_text": "Conferences and workshops⁵                       | 1200    | 600  | 400"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "Both Eawag and ETH Zurich, through their representatives, commit 3000 CHF each to the project without specifying a budget category. Since they are not allocated to personnel, equipment, travel, or similar lines, the most appropriate classification is 'Other Other'. Earlier portions of the document explicitly state no other 'Other' costs are present. Thus, the total is 3000 + 3000 = 6000 CHF.",
-        "citation": [
-          {
-            "page": 57,
-            "matching_text": "commit to a financial contribution of 3000 CHF from our own funds in support of the project"
-          },
-          {
-            "page": 58,
-            "matching_text": "I further commit to contribute CHF 3’000 to the project in case of successful evaluation"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION: Two separate contributors each commit 3000 CHF from their own funds, totaling 6000 CHF. These are not mapped to standard cost categories and are therefore appropriately extracted under 'Other Other' in accordance with schema guidance.",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.6869381659589332,
-        "confidence": 0.6869381659589332
+        "extraction_confidence": 0.9999861948679375,
+        "confidence": 0.9999861948679375,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 56,
+              "matching_text": "| Eawag<br/>Seestrasse 79<br/>6047 Kastanienbaum<br/>Switzerland<br/>Phone +41 (0)41 349 21 11<br/>Fax +41 (0)41 349 21 68<br/>[www.eawag.ch](http://www.eawag.ch) | Department of Fish Ecology & Evolut...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 56,
+              "matching_text": "| Eawag<br/>Seestrasse 79<br/>6047 Kastanienbaum<br/>Switzerland<br/>Phone +41 (0)41 349 21 11<br/>Fax +41 (0)41 349 21 68<br/>[www.eawag.ch](http://www.eawag.ch) | Department of Fish Ecology & Evo...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 56,
+              "matching_text": "| Eawag<br/>Seestrasse 79<br/>6047 Kastanienbaum<br/>Switzerland<br/>Phone +41 (0)41 349 21 11<br/>Fax +41 (0)41 349 21 68<br/>[www.eawag.ch](http://www.eawag.ch) | Department of Fish Ecology & Evo...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 56,
+              "matching_text": "| Eawag<br/>Seestrasse 79<br/>6047 Kastanienbaum<br/>Switzerland<br/>Phone +41 (0)41 349 21 11<br/>Fax +41 (0)41 349 21 68<br/>[www.eawag.ch](http://www.eawag.ch) | Department of Fish Ecology & Evo...",
+              "bounding_boxes": [
+                {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "w": 594.96,
+                  "h": 841.92
+                }
+              ],
+              "page_dimensions": {
+                "width": 594.96,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 52,
-            "matching_text": "ii. Total Other Direct Costs    |                                                  | 1800    | 1000 | 600"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 52,
-            "matching_text": "A – Total Direct Costs (i + ii) |                                                  | 148'400 | 1000 | 600"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 53,
+              "matching_text": "In addition, in-kind efforts by permanent staff at WSL, Eawag, and ETHZ are provided (estimated five person months in total; WSL 3.5 PM, Eawag 1 PM, ETHZ 0.5PM), and other costs will be covered by...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 306.0,
+                  "w": 697.0,
+                  "h": 43.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "INSUFFICIENT DATA. The source text is clear that the term 'subcontracting' and any associated budget value are not present within the provided document pages.",
-        "citation": [
-          {
-            "page": 35,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 29,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 761.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 41,
+              "matching_text": "1) **Excellence of ORD practice.** Research institutes such as WSL and Eawag have long been and still are determined to provide data holding services to the Swiss research community and beyond.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 556.0,
+                  "w": 466.0,
+                  "h": 148.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 46,
+              "matching_text": "Fischer MC, Ruprecht K, Gugerli F, Holderegger R, Widmer A 2021. Pilotstudie für ein Monitoring der genetischen Vielfalt in der Schweiz. N&L Inside 1/21: 11–13.",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 605.0,
+                  "w": 465.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 54,
+              "matching_text": "ETH Zurich\nProf. Dr. Alex Widmer\nCHN G21.1\nUniversitätstrasse 16\n8092 Zurich, Switzerland",
+              "bounding_boxes": [
+                {
+                  "x": 339.0,
+                  "y": 88.0,
+                  "w": 95.0,
+                  "h": 52.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
-      "num_pages_extracted": 59,
-      "num_document_tokens": 38315,
-      "num_output_tokens": 7170
-    }
+      "num_pages_extracted": 58,
+      "num_document_tokens": 37766,
+      "num_output_tokens": 5998
+    },
+    "parse_job_id": "68f08e82-f971-470b-8f5e-46b745579d46"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "63fd232b-6807-4ead-8808-17bfca5f28c3",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:29:37.026657+00:00",
-  "updated_at": "2025-11-11T14:30:38.172848+00:00"
+  "job_id": "0011641d-8e59-4083-a429-7efd5a3cd203",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:28:21.871058+00:00",
+  "updated_at": "2026-01-21T20:31:37.505434+00:00"
 }

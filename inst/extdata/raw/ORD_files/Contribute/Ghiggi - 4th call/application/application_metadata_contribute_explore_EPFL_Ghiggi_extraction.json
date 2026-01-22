@@ -31,7 +31,24 @@
     "start_date": "3 Jul 2023",
     "project_duration_months": 6,
     "total_budget_requested": 30000.0,
-    "work_packages": null
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Unit Testing"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Software documentation and tutorials"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Software distribution via conda-forge"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Manuscript preparation"
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDMetadata",
@@ -40,323 +57,2124 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
+      "project_category": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Which ETH Domain do you belong to?             | EPFL                    |"
-          },
-          {
-            "page": 17,
-            "matching_text": "Laboratoire de Télédétection Environnementale<br/>EPFL / ENAC / IIE<br/>"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "## Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 85.0,
+                  "w": 283.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "| PhD / Dr.: Environmental Remote Sensing<br/>Alexis Berne               | EPF Lausanne - EPFL, CH<br/>ENAC IIE LTE                                                | 09.2019 - Present<br/>3 year(s) 7 m...",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 348.0,
+                  "w": 452.0,
+                  "h": 162.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "Prof. Alexis Berne\nEnvironmental Remote Sensing Laboratory - EPFL",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 604.0,
+                  "w": 247.0,
+                  "h": 24.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "We will also actively seek additional funding opportunities to support the project in the long term and we will organize workshops and online training sessions (the first probably at the 2023 AMS R...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 437.0,
+                  "w": 457.0,
+                  "h": 259.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Function (Title)                               | PhD Student             |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| PhD Student              |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| First name(s)                                  | Gionata                 |"
-          },
-          {
-            "page": 17,
-            "matching_text": "the application of Gionata Ghiggi (PhD student under my supervision)"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Gionata Ghiggi",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 211.0,
+                  "w": 75.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "...ing Laboratory at the École Polytechnique Fédérale de Lausanne (EPFL), I support the application of Gionata Ghiggi (PhD student under my supervision) for an ORD Contribute project at EPFL for the proj...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 320.0,
+                  "w": 455.0,
+                  "h": 65.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 17,
+              "matching_text": "As head of the Environmental Remote Sensing Laboratory at the École Polytechnique Fédérale de Lausanne (EPFL), I support the application of Gionata Ghiggi (PhD student under my supervision) for an...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 320.0,
+                  "w": 455.0,
+                  "h": 65.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Surname(s)                                     | Ghiggi                  |"
-          },
-          {
-            "page": 17,
-            "matching_text": "the application of Gionata Ghiggi (PhD student under my supervision)"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Gionata Ghiggi",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 211.0,
+                  "w": 75.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 12,
+              "matching_text": "...e EPFL LTE laboratory (the code is currently hosted on a personal repository at [https://github.com/ghiggi/gpm_api)](https://github.com/ghiggi/gpm_api) and, in addition to PyPI, the code will also be...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 129.0,
+                  "w": 457.0,
+                  "h": 241.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| EPFL Laboratory                                | EPFL ENAC IIE LTE       |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL ENAC IIE LTE        |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 382.0,
+                  "w": 186.0,
+                  "h": 119.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 747.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 747.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Achievement 1",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 747.0,
+                  "w": 71.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| Postcode / Zipcode                             | 1020                    |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1020                     |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 81.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "| City                                           | Renens                  |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 4"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_title": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "for the project entitled “GPM-API: A Python Interface to Access the Global Precipitat..."
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_acronym": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Acronym of the project: GPM-API"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_abstract": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Abstract** | This proposal aims to finalize a software (GPM-API) to increase ..."
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999888789619793,
-        "confidence": 0.9999888789619793
-      },
-      "keywords": [
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "confidence": 1.0,
+        "value__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Global Precipitation Measurement Mission, Satellites, Weather Radars, Passive Microwave Sensors"
+              "page": 1,
+              "matching_text": "...| Renens                   |",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 572.0,
+                  "w": 458.0,
+                  "h": 81.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Global Precipitation Measurement Mission, Satellites, Weather Radars, Passive Microwave Sensors"
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "extraction_confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Global Precipitation Measurement Mission, Satellites, Weather Radars, Passive Microwave Sensors"
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
+        "confidence__": {
           "citation": [
             {
-              "page": 2,
-              "matching_text": "Global Precipitation Measurement Mission, Satellites, Weather Radars, Passive Microwave Sensors"
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
             }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          ]
         }
-      ],
-      "start_date": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date found on research proposal table."
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_duration_months": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Project duration"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_requested": {
-        "reasoning": "Both sources from the budget sections (page 2 and 16) independently confirm the total requested amount as 30,000 CHF. Duplicates removed, but both citations included as evidence.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Total requested amount in CHF** | 30000 |"
-          },
-          {
-            "page": 16,
-            "matching_text": "Total Costs (A + B)             | 30 000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
       },
       "all_applicants": [
         {
           "eth_domain_institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Which ETH Domain do you belong to?             | EPFL                    |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Function (Title)                               | PhD Student             |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| First name(s)                                  | Gionata                 |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Surname(s)                                     | Ghiggi                  |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "| Postcode / Zipcode                             | 1020                    |"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "reasoning": "VERBATIM EXTRACTION"
         }
+      ],
+      "project_title": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999874721899,
+        "confidence": 0.9999999874721899,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> GPM-API: A Python Interface to Access the [Global](https://gpm.nasa.gov/[mission](https://gpm.nasa.gov/missions/GPM)s/GPM) Precipitation Measurement Mission Satellites Open Data Archive",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 254.0,
+                  "w": 458.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "As head of the Environmental Remote Sensing Laboratory at the École Polytechnique Fédérale de Lausanne (EPFL), I support the application of Gionata Ghiggi (PhD student under my supervision) for an...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 320.0,
+                  "w": 455.0,
+                  "h": 65.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open D...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 17,
+              "matching_text": "...(PhD student under my supervision) for an ORD Contribute project at EPFL for the project entitled “GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open D...",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 320.0,
+                  "w": 455.0,
+                  "h": 65.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.276,
+                "height": 841.89
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "products (L3) as well as [the Integrated](https://gpm.nasa.gov/data/imerg) Multi-satellitE Retrievals for GPM (IMERG) product (Huffman et al., 2020) which provides 25 years of precipitation climato...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 72.0,
+                  "w": 457.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "products (L3) as well as [the Integrated](https://gpm.nasa.gov/data/imerg) Multi-satellitE Retrievals for GPM (IMERG) product (Huffman et al., 2020) which provides 25 years of precipitation climato...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 72.0,
+                  "w": 457.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "project_acronym": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Acronym of the project**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "> GPM-API: A Python Interface to Access the [Global](https://gpm.nasa.gov/[mission](https://gpm.nasa.gov/missions/GPM)s/GPM) Precipitation Measurement Mission Satellites Open Data Archive",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 254.0,
+                  "w": 458.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_abstract": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9994645332362007,
+        "confidence": 0.9994645332362007,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Abstract**...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| This proposal aims to finalize a software (GPM-API) to increase the findability and accessibility of...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "keywords": [
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Project title**...",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| GPM-API: A Python Interface to Access the Global Precipitation Measurement Mission Satellites Open Data Archive...",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Abstract**...",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Abstract**...",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| **Abstract**...",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "> GPM-API: A Python Interface to Access the [Global](https://gpm.nasa.gov/[mission](https://gpm.nasa.gov/missions/GPM)s/GPM) Precipitation Measurement Mission Satellites Open Data Archive",
+                "bounding_boxes": [
+                  {
+                    "x": 68.0,
+                    "y": 254.0,
+                    "w": 458.0,
+                    "h": 25.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "...perspective, because of very sparse rain gauge networks and the limited spatial coverage of ground weather radars in low-income countries and remote areas in particular.",
+                "bounding_boxes": [
+                  {
+                    "x": 69.0,
+                    "y": 426.0,
+                    "w": 457.0,
+                    "h": 108.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] conference-abstract.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 645.0,
+                    "w": 451.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] conference-abstract.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 645.0,
+                    "w": 451.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "[1] conference-abstract.",
+                "bounding_boxes": [
+                  {
+                    "x": 79.0,
+                    "y": 645.0,
+                    "w": 451.0,
+                    "h": 39.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "Over this period, the GPM constellation has been composed of two orbiting spaceborne radars and a fleet of 34 passive microwave (PMW) sensors [Kidd et al., 2021].",
+                "bounding_boxes": [
+                  {
+                    "x": 68.0,
+                    "y": 544.0,
+                    "w": 457.0,
+                    "h": 128.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 596.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| Global Precipitation Measurement Mission, Satellites, Weather Radars, Passive Microwave Sensors...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 254.0,
+                    "h": 50.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Page 1/3",
+                "bounding_boxes": [
+                  {
+                    "x": 52.0,
+                    "y": 819.0,
+                    "w": 30.0,
+                    "h": 8.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "start_date": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999612774708,
+        "confidence": 0.9999999612774708,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 161.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 161.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "project_duration_months": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "# 6 - SUBMISSION",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 340.0,
+                  "w": 132.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
+      },
+      "total_budget_requested": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 739.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 739.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "products (L3) as well as [the Integrated](https://gpm.nasa.gov/data/imerg) Multi-satellitE Retrievals for GPM (IMERG) product (Huffman et al., 2020) which provides 25 years of precipitation climato...",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 72.0,
+                  "w": 457.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 1/3",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "**WP4 – Manuscript preparation**\nWorkload: 1 week ENAC-IT4R technical staff + 1 week LTE PhD student\nKey deliverable: Manuscript submitted to JOSS.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 252.0,
+                  "w": 462.0,
+                  "h": 336.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            }
+          ]
+        }
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.999898234984105,
+            "confidence": 0.999898234984105
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999843175133,
+            "confidence": 0.99999843175133
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999995343841253,
+            "confidence": 0.9999995343841253
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
       ]
     },
     "usage": {
-      "num_pages_extracted": 20,
-      "num_document_tokens": 9669,
-      "num_output_tokens": 6113
-    }
+      "num_pages_extracted": 17,
+      "num_document_tokens": 9647,
+      "num_output_tokens": 5513
+    },
+    "parse_job_id": "04c45ad3-b728-4fcc-8219-901dc57a1d2c"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "d4b5f6ae-a082-4374-bd12-f9b9ae0d8535",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T10:07:10.353895+00:00",
-  "updated_at": "2025-11-11T10:13:31.698496+00:00"
+  "job_id": "d5873bcf-e60b-425b-9ec1-b37e8afb01d9",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:00:23.959696+00:00",
+  "updated_at": "2026-01-21T19:07:03.974519+00:00"
 }

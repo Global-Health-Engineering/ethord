@@ -12,7 +12,7 @@
     "total_budget_other_publication_fees": 6500.0,
     "total_budget_other_conferences_workshops": 3500.0,
     "total_budget_other_other": 0.0,
-    "total_budget_other_total_direct": 6500.0,
+    "total_budget_other_total_direct": 0.0,
     "total_budget_total_direct": 150000.0,
     "total_budget_subcontracting": 0.0,
     "total_budget_total_costs": 150000.0
@@ -26,201 +26,876 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 39,
-            "matching_text": "The total project duration will be 17 months with a budget of 150 kCHF."
-          },
-          {
-            "page": 41,
-            "matching_text": "Total Costs (A + B)             | 150 000 |   |   | 150 000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| **Total requested amount in CHF**                         | 150000                                                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 727.0,
+                  "w": 499.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "| Since 2014 | co-supervision of 1 PostDoc (Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 160.0,
+                  "y": 83.0,
+                  "w": 370.0,
+                  "h": 57.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "The budget table under 'Personnel' has an entry for Senior Staff, but no CHF amount is listed. Thus, the extracted value is interpreted as zero.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Personnel¹                          | Senior Staff |                            |   |              |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Postdocs     | 140 000 (100%, 17 months)  |   | 140 000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
-        "reasoning": "No value is provided for 'Students' in the budget table.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Students     |                            |   |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "No value is provided for 'Other' in the personnel category in the budget table. Assigned value as 0 based on absence of an explicit amount.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Other        |                            |   |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "i. Total Direct Costs for Personnel |              | 140 000                    |   | 140 000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "|                       | i. Total Direct Costs for Personnel |              | 140 000                    |   |   |              | 140 000 |",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 101.0,
+                  "w": 700.0,
+                  "h": 308.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
-        "reasoning": "No CHF value appears for Travel in the extracted budget table. Interpreted as a request for 0 CHF for this category.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Travel²                             |              |                            |   |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "No CHF amount given for Equipment in the provided budget table. Equipment row is present but empty, so the extracted value is zero per actual document content.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Equipment³                          |              |                            |   |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Publications (including Open        |              | 6 500 (2 ACS publications) |   | 6 500"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "Conferences and workshops5      | 3 500   |   |   | 3 500"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "There is no 'Other Other' category with an associated CHF value in the provided budget table. The only 'Other' mentioned relates to 'Publications', not an additional 'Other Other' line.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Other                 | Publications (including Open"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
-        "reasoning": "There is no separate total for 'Other Direct Costs' in the extracted table; the only line item under this category is for Publications. Therefore, the value is taken as the total for Publications, which equals 6,500 CHF.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "Publications (including Open        |              | 6 500 (2 ACS publications) |   | 6 500"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 41,
-            "matching_text": "A – Total Direct Costs (i + ii) | 150 000 |   |   | 150 000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "No row or value present for subcontracting. INS UFFICIENT DATA.",
-        "citation": [
-          {
-            "page": 40,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 40,
+              "matching_text": "1 693 49 28<br/><research@epfl.ch> | 14 |\n| -------------------- | ----------------",
+              "bounding_boxes": [
+                {
+                  "x": 453.0,
+                  "y": 532.0,
+                  "w": 64.0,
+                  "h": 17.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 595.0
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
-      "num_pages_extracted": 45,
-      "num_document_tokens": 29611,
-      "num_output_tokens": 4194
-    }
+      "num_pages_extracted": 44,
+      "num_document_tokens": 29818,
+      "num_output_tokens": 2593
+    },
+    "parse_job_id": "964ef921-b853-4fd1-8178-801df502b4aa"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "cfe019cf-908e-42b6-98b0-59b9ccdb6561",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:37:36.769484+00:00",
-  "updated_at": "2025-11-11T14:38:26.722253+00:00"
+  "job_id": "d1d47005-c423-4caa-ad83-27c5632da1fa",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:59:21.105327+00:00",
+  "updated_at": "2026-01-21T20:01:42.526177+00:00"
 }

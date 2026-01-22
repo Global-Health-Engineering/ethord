@@ -10,7 +10,15 @@
     "main_applicant_laboratory_name": "EPFL ENAC LIMNC",
     "main_applicant_postcode": 1015,
     "main_applicant_city": "Lausanne",
-    "all_applicants": null,
+    "all_applicants": [
+      {
+        "eth_domain_institution": "EPFL",
+        "function_title": "Operational Director",
+        "first_name": "Natacha",
+        "surname": "Tofield-Pasche",
+        "postcode": 1015
+      }
+    ],
     "project_title": "FAIRifying LéXPLORE: enhancing open research data pipelines for Advanced LaKe SciencE",
     "project_acronym": "FLAKE",
     "project_abstract": "LéXPLORE platform (LP) is as an innovative, open-water infrastructure on Lake Geneva, where multidisciplinary data are acquired at high frequency. Datalakes (DL) is a web-based open access data platform that provides, for LP, seven datasets in real-time. We have identified two challenges that could limit the FAIR approach to the data. This project aims at addressing them by: a) enhancing the robustness of the LP data transfer pipelines and b) enhancing DL data quality by prototyping a collaborative QA/QC Solution. The first objective is to strengthen the LP data pipeline by decoupling the data gathering from the data processing functions. The resulting simplified distribution of responsibilities will facilitate long-term maintenance and secure the system's long-term reliability. The second objective aims at designing a prototype of a collaborative QA/QC tool. For this, we will collaborate closely with the LP community, by organising two workshops and a QA/QC hackathon. The developed prototype will allow domain experts to efficiently assess and flag data quality issues, in order to improve accuracy and reliability of sensor data. This project will involve the operational LP team, the DL core developers, and research software engineers from ENAC-IT4R. The proposed improvements will help to strategically maintain and elevate LP's high scientific impacts in the long-term. DL will continue to guide the lake research community towards embracing Open Research Data practices.",
@@ -19,12 +27,51 @@
       "infrastructure robustness",
       "infrastructure reproducibility",
       "quality control",
-      "collaborative data quality validation"
+      "collaborative data quality validation",
+      "Open Research Data",
+      "LéXPLORE",
+      "QA/QC",
+      "FAIR",
+      "Datalakes",
+      "Lake Geneva"
     ],
     "start_date": "1 Jan 2025",
     "project_duration_months": 6,
     "total_budget_requested": 30000.0,
-    "work_packages": null
+    "work_packages": [
+      {
+        "wp_identifier": "WP1",
+        "wp_title": "Data transfer protocol design & specifications"
+      },
+      {
+        "wp_identifier": "WP2",
+        "wp_title": "Data transfer infrastructure set-up"
+      },
+      {
+        "wp_identifier": "WP3",
+        "wp_title": "Validate the infrastructure reproducibility, ensure long-term accessibility"
+      },
+      {
+        "wp_identifier": "WP4",
+        "wp_title": "Design of the QA/QC tool"
+      },
+      {
+        "wp_identifier": "WP5",
+        "wp_title": "Implementation of the alpha-prototype of the QA/QC tool"
+      },
+      {
+        "wp_identifier": "WP6",
+        "wp_title": "Testing and validation with the LP community"
+      },
+      {
+        "wp_identifier": "WP7",
+        "wp_title": "Implementation of the beta-version of the QA/QC prototype"
+      },
+      {
+        "wp_identifier": "WP8",
+        "wp_title": "Dissemination and planning for integration"
+      }
+    ]
   },
   "metadata": {
     "schema_name": "ORDMetadata",
@@ -33,177 +80,2465 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "main_applicant_institution": {
-        "reasoning": "EPFL is explicitly identified as the main applicant's institution by both verbatim extraction and supporting address/affiliation details.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "EPFL-LIMNC, Station no. 2, CH-1015 LAUSANNE"
-          }
-        ],
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "# ETH-Domain ORD Program - Measure 1 \"Contribute Projects\" - Call 8 - Deadline: 30 September 2024 (17:00 CEST)",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 140.0,
+                  "w": 445.0,
+                  "h": 78.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 9,
+              "matching_text": "This CONTRIBUTE project therefore aims at addressing these two challenges, which will improve various aspect of the FAIR open research data management.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 307.0,
+                  "w": 458.0,
+                  "h": 90.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "This CONTRIBUTE project therefore aims at addressing these two challenges, which will improve various aspect of the FAIR open research data management.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 307.0,
+                  "w": 458.0,
+                  "h": 90.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "main_applicant_institution": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| <natacha.tofield-pasche@epfl.ch>                          |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 41.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "http://limnc.epfl.ch",
+              "bounding_boxes": [
+                {
+                  "x": 304.0,
+                  "y": 116.0,
+                  "w": 69.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.44,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Function (Title): Operational Director"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "**Natacha Tofield-Pasche**\nCurrent position(s): Operational Director\nAcademic age: 4 year(s) 4 month(s)",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 211.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 15,
-            "matching_text": "The applicant, Natacha Pasche"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Natacha Tofield-Pasche | Applicant ID - ORD1000431",
+              "bounding_boxes": [
+                {
+                  "x": 256.0,
+                  "y": 40.0,
+                  "w": 299.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Dear Natacha Tofield-Pasche,",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 333.0,
+                  "w": 144.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.44,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
-        "reasoning": "Both versions found; however, the most complete and likely official surname from the standard applicant surname field is 'Tofield-Pasche' (covering all pages including where formal applicant data is expected). 'Pasche' is referenced in text possibly as an abbreviation. Chose the more complete, formal value.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Surname field in the applicant table and CV."
-          }
-        ],
-        "extraction_confidence": 0.9999988005605561,
-        "confidence": 0.9999988005605561
+        "reasoning": "Although a signature lists 'Pasche', the document universally refers to the main applicant as 'Tofield-Pasche', and this aligns with the formal applicant identification. Default to the full, double-barrel form from primary document context. This is a VERBATIM EXTRACTION from the main project details.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999995790855744,
+        "confidence": 0.9999995790855744,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Natacha Tofield-Pasche | Applicant ID - ORD1000431",
+              "bounding_boxes": [
+                {
+                  "x": 256.0,
+                  "y": 40.0,
+                  "w": 299.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Dear Natacha Tofield-Pasche,",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 333.0,
+                  "w": 144.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.44,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "EPFL ENAC LIMNC"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| EPFL Laboratory...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| EPFL ENAC LIMNC                                           |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Postcode / Zipcode in applicant detail table."
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Postcode / Zipcode...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 1015                                                      |",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "City: Lausanne"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| City...",
+              "bounding_boxes": [
+                {
+                  "x": 275.0,
+                  "y": 560.0,
+                  "w": 44.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Operational Director | EPF Lausanne - EPFL, CH<br/>Limnology Center      | 09.2021 - Present<br/>3 year(s) 1 month(s) |",
+              "bounding_boxes": [
+                {
+                  "x": 79.0,
+                  "y": 575.0,
+                  "w": 452.0,
+                  "h": 189.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
+      "all_applicants": [
+        {
+          "eth_domain_institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "function_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "first_name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "surname": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999968933059845,
+            "confidence": 0.9999968933059845
+          },
+          "postcode": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ],
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "FAIRifying LéXPLORE: enhancing open research data pipelines for Advanced LaKe SciencE"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999907803501,
-        "confidence": 0.9999999907803501
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project title...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "> FAIRifying LéXPLORE: enhancing open research data pipelines for Advanced LaKe SciencE\n> Acronym: FLAKE",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 151.0,
+                  "w": 459.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| FAIRifying LéXPLORE: enhancing open research data pipelines for Advanced LaKe SciencE...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "> FAIRifying LéXPLORE: enhancing open research data pipelines for Advanced LaKe SciencE\n> Acronym: FLAKE",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 151.0,
+                  "w": 459.0,
+                  "h": 31.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 658.0,
+                  "w": 429.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 658.0,
+                  "w": 429.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "[1] journal-article.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 658.0,
+                  "w": 429.0,
+                  "h": 19.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 8,
-            "matching_text": "Acronym: FLAKE"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Acronym of the project...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| FLAKE...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "## FLAKE proposal to ORD call",
+              "bounding_boxes": [
+                {
+                  "x": 54.0,
+                  "y": 264.0,
+                  "w": 134.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.44,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Jan 2025...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Jan 2025...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| 1 Jan 2025...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
-        "reasoning": "The table-based abstract (index 0) covers all requisite project aspects (platform/background, challenges, objectives, methods, and anticipated impact) in a concise, summary format. It is both more complete and direct for use in a metadata context. Index 1 provides supporting background but largely overlaps in content. Therefore, selected index 0 only, as it subsumes index 1 without duplication.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "From 'Abstract' row in research proposal table."
-          }
-        ],
-        "extraction_confidence": 0.9999986226676749,
-        "confidence": 0.9999986226676749
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999996472110597,
+        "confidence": 0.9999996472110597,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "This project aims at addressing them by: a) enhancing the robustness of the LP data transfer pipelines and b) enhancing DL data quality by prototyping a collaborative QA/QC Solution.",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "I have managed the planning and construction of the novel LéXPLORE platform (LP), along with promoting and coordinating scientific projects [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 521.0,
+                  "w": 461.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 700.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 700.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation"
-            }
-          ],
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control,...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 9,
+                "matching_text": "This CONTRIBUTE project therefore aims at addressing these two challenges, which will improve various aspect of the FAIR open research data management.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 307.0,
+                    "w": 458.0,
+                    "h": 90.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quali...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "LéXPLORE platform [(](https://lexplore.info/)LP) (https://lexplore.info/) stands at the forefront of limnological research as an innovative, open-water infrastructure on Lake Geneva.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "LéXPLORE platform [(](https://lexplore.info/)LP) (https://lexplore.info/) stands at the forefront of limnological research as an innovative, open-water infrastructure on Lake Geneva.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 9,
+                "matching_text": "While basic QA/QC measures are in place, more informed community involvement is needed in this process.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 307.0,
+                    "w": 458.0,
+                    "h": 90.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 9,
+                "matching_text": "The second challenge relates to data quality assurance and quality control (Level 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 307.0,
+                    "w": 458.0,
+                    "h": 90.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "The second challenge relates to data quality assurance and quality control (Level 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 307.0,
+                    "w": 458.0,
+                    "h": 90.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "Recognizing this challenge, we developed the Datalakes (DL) platform, a web-based open access data FAIR platform to foster scientific data exchange.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 9,
+                "matching_text": "This CONTRIBUTE project therefore aims at addressing these two challenges, which will improve various aspect of the FAIR open research data management.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 307.0,
+                    "w": 458.0,
+                    "h": 90.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 1.0,
+          "confidence": 1.0,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| Please enter up to 5 keywords that characterise your proposal (separated by commas)...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "Recognizing this challenge, we developed the Datalakes (DL) platform, a web-based open access data FAIR platform to foster scientific data exchange.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...ong-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "Recognizing this challenge, we developed the Datalakes (DL) platform, a web-based open access data FAIR platform to foster scientific data exchange.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...| 1 Jan 2025...",
+                "bounding_boxes": [
+                  {
+                    "x": 43.0,
+                    "y": 173.0,
+                    "w": 503.0,
+                    "h": 171.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              },
+              {
+                "page": 8,
+                "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+                "bounding_boxes": [
+                  {
+                    "x": 75.0,
+                    "y": 700.0,
+                    "w": 458.0,
+                    "h": 51.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "Key theme from project title, abstract, and explicit mention; not a duplicate of the page 2 keywords.",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.40776463581640093,
+          "confidence": 0.40776463581640093,
+          "scratchpad__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "LéXPLORE platform [(](https://lexplore.info/)LP) (https://lexplore.info/) stands at the forefront of limnological research as an innovative, open-water infrastructure on Lake Geneva.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "value__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "LéXPLORE platform [(](https://lexplore.info/)LP) (https://lexplore.info/) stands at the forefront of limnological research as an innovative, open-water infrastructure on Lake Geneva.",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 8,
+                "matching_text": "So far 7 datasets are transferred live from the LP into the DL web portal (see Table 1).",
+                "bounding_boxes": [
+                  {
+                    "x": 74.0,
+                    "y": 240.0,
+                    "w": 459.0,
+                    "h": 187.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.32,
+                  "height": 841.92
+                }
+              }
+            ]
+          }
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION; not a duplicate of the page 2 keywords.",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.7935409756662456,
+          "confidence": 0.7935409756662456
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION; not a duplicate of the page 2 keywords.",
+          "parsing_confidence": 1.0,
+          "extraction_confidence": 0.8907862997982744,
+          "confidence": 0.8907862997982744
+        },
+        {
+          "reasoning": "VERBATIM EXTRACTION; not a duplicate.",
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
         },
         {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION; not a duplicate.",
           "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "extraction_confidence": 0.9940831437320367,
+          "confidence": 0.9940831437320367
         },
         {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation"
-            }
-          ],
-          "parsing_confidence": 1.0,
-          "extraction_confidence": 1.0,
-          "confidence": 1.0
-        },
-        {
-          "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "long-term accessibility, infrastructure robustness, infrastructure reproducibility, quality control, collaborative data quality validation"
-            }
-          ],
+          "reasoning": "VERBATIM EXTRACTION; not a duplicate.",
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
           "confidence": 1.0
@@ -211,84 +2546,500 @@
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Proposed Starting Date: 1 Jan 2025"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Proposed Starting Date...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 7,
-            "matching_text": "Project duration: 6 months"
-          }
-        ],
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ORD Program - Measure 1 \"Contribute Projects\""
-          },
-          {
-            "page": 9,
-            "matching_text": "This CONTRIBUTE project therefore aims at addressing these two challenges"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Project duration...",
+              "bounding_boxes": [
+                {
+                  "x": 43.0,
+                  "y": 173.0,
+                  "w": 503.0,
+                  "h": 171.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "# 6 - SUBMISSION",
+              "bounding_boxes": [
+                {
+                  "x": 32.0,
+                  "y": 699.0,
+                  "w": 132.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "I have managed the planning and construction of the novel LéXPLORE platform (LP), along with promoting and coordinating scientific projects [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 521.0,
+                  "w": 461.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "I have managed the planning and construction of the novel LéXPLORE platform (LP), along with promoting and coordinating scientific projects [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 521.0,
+                  "w": 461.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "I have managed the planning and construction of the novel LéXPLORE platform (LP), along with promoting and coordinating scientific projects [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 521.0,
+                  "w": 461.0,
+                  "h": 122.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "| **Total requested amount in CHF** | 30000 |"
-          },
-          {
-            "page": 14,
-            "matching_text": "Total Costs (A + B) | | | 30'000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      }
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 727.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "The basic principle of operation for DL is that raw data are collected as Level 0.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 700.0,
+                  "w": 458.0,
+                  "h": 51.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| Page 1/4 | 30 September 2024, Natacha Tofield-Pasche, ORCID \\[iD 0000-0002-9578-9301]\\(<https://orcid.org/0000-0002-9578-9301>) |",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 6.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "work_packages": [
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9995433697778299,
+            "confidence": 0.9995433697778299
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999276954579495,
+            "confidence": 0.9999276954579495
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999996603069272,
+            "confidence": 0.9999996603069272
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.998731990688782,
+            "confidence": 0.998731990688782
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999998435918493,
+            "confidence": 0.9999998435918493
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999971583138295,
+            "confidence": 0.9999971583138295
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999531770003934,
+            "confidence": 0.9999531770003934
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999773148451478,
+            "confidence": 0.9999773148451478
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999258462535695,
+            "confidence": 0.9999258462535695
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        },
+        {
+          "wp_identifier": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 1.0,
+            "confidence": 1.0
+          },
+          "wp_title": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999980714835439,
+            "confidence": 0.9999980714835439
+          },
+          "reasoning": "VERBATIM EXTRACTION"
+        }
+      ]
     },
     "usage": {
       "num_pages_extracted": 16,
-      "num_document_tokens": 8865,
-      "num_output_tokens": 6140
-    }
+      "num_document_tokens": 8862,
+      "num_output_tokens": 8167
+    },
+    "parse_job_id": "a83348a7-936b-4665-8557-22837f25f893"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "7069fd36-464d-45dc-b325-66b0caa48853",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:51:15.309995+00:00",
-  "updated_at": "2025-11-11T12:01:56.319986+00:00"
+  "job_id": "5240af67-91d3-4e79-bb4d-c515b8553a2b",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T17:41:39.966456+00:00",
+  "updated_at": "2026-01-21T17:44:00.065158+00:00"
 }

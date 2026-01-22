@@ -14,7 +14,7 @@
     "ethics_personal_data_import_switzerland": "No",
     "ethics_personal_data_criminal": "No",
     "ethics_animals": "No",
-    "ethics_activities_outside_switzerland": "No",
+    "ethics_activities_outside_switzerland": "Yes",
     "ethics_outside_countries_ethics_issues": "No",
     "ethics_local_resources": "No",
     "ethics_import_material": "No",
@@ -24,7 +24,7 @@
     "ethics_environmental_harm": "No",
     "ethics_endangered_species": "No",
     "ethics_human_harm": "No",
-    "ethics_artificial_intelligence": "No",
+    "ethics_artificial_intelligence": "Yes",
     "ethics_other_issues": "No"
   },
   "metadata": {
@@ -34,370 +34,4031 @@
   },
   "extraction_metadata": {
     "field_metadata": {
-      "ethics_human_participants": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "1 - Human participants?<br/>Comment                                                                                   | No |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
       "ethics_human_embryos": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "2 - Human embryos/foetuses?<br/>Comment                                                                               | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "ethics_human_participants": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_clinical_study": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "3 - A clinical trial?<br/>Comment                                                                                     | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "No |\n| 3 - A clinical trial?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 162.0,
+                  "w": 142.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_human_cells_tissues": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "4 - Sampling/use of biological material from human participants?<br/>Comment                                          | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| 4 - Sampling/use of biological material from human p",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 162.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "5 - Collecting or processing of personal data?<br/>Comment                                                            | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| ----------------------------------------------------------",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 130.0,
+                  "w": 244.0,
+                  "h": 351.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_animals": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "6 - Animal experiments?<br/>Comment                                                                                   | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "ethics_environmental_harm": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "7 - An impact on the environment and/or on the health and safety of the researchers?<br/>Comment                      | No |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| 6 - Animal experiments?<br/>Comment",
+              "bounding_boxes": [
+                {
+                  "x": 277.0,
+                  "y": 267.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_low_middle_income_countries": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "8 - Developing countries?<br/>Comment                                                                                 | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "health and safety of the researchers?<br/>Comment                     | No |\n| 8 - Developin",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 328.0,
+                  "w": 243.0,
+                  "h": 22.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
-      "ethics_other_issues": {
+      "ethics_environmental_harm": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 4,
-            "matching_text": "9 - Any potential conflict of interest?<br/>Comment                                                                   | No |"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "| No |\n| 7 - An impact on the environment and/or on the",
+              "bounding_boxes": [
+                {
+                  "x": 276.0,
+                  "y": 298.0,
+                  "w": 12.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "Page 2/4      6 March 2024, Joerg Rieckermann, ORCID [iD 0",
+              "bounding_boxes": [
+                {
+                  "x": 53.0,
+                  "y": 821.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_human_embryonic_stem_cells": {
-        "reasoning": "INSUFFICIENT DATA. Both extractions directly state that systematic Yes/No responses for human embryonic stem cells do not appear in the text. Interpreting as no evidence of the information's existence in the provided ranges.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 26,
+              "matching_text": "URL https://zenodo.org/communities/centaur/records?q=&l=list&p=1&s=10&sort=newest (accessed 2.28.24).",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 108.0,
+                  "w": 466.0,
+                  "h": 631.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_human_interventions": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "All sources explicitly state the absence of any section or item on human interventions; thus, based on the provided excerpts, the extraction is inferential (negative)—no, there is no evidence of human interventions section present in the document. If strict verbatim extraction is required and complete absence means 'No', then value is 'No'.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_further_processing": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. Multiple document segments were analyzed, each indicating no mention of further processing of personal data or structured Yes/No responses related to this ethics question. Therefore, the correct output is null (i.e., unable to extract a Yes/No answer).",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_export_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_import_switzerland": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_personal_data_criminal": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_activities_outside_switzerland": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "Document references collaboration with the University of Sheffield (UK), Czech Technical University in Prague, UK datasets, and COST Action (a European network) as explicit activities outside Switzerland. This provides direct support for answering 'Yes' even though a structured ethics table is absent. Extraction follows best-available evidence principle.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_outside_countries_ethics_issues": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_local_resources": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_import_material": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_export_material": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. All document sections surveyed do not provide a Yes/No answer or any explicit mention of ethics regarding the export of materials. Therefore, per extraction protocol, the answer is blank (or null), but for the schema's required field, the best-fit value is 'No' based on lack of supporting data.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_individuals_at_risk": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_endangered_species": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_human_harm": {
-        "reasoning": "INSUFFICIENT DATA: Both provided extractions note that no explicit Yes/No box or question regarding human harms was found. Reporting 'No' per schema when such category is not present or extractable from the source.",
-        "citation": [
-          {
-            "page": 16,
-            "matching_text": "INSUFFICIENT DATA"
-          },
-          {
-            "page": 29,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 24,
+              "matching_text": "| 1                | Review KGs and data repositories | 0             | 5           | ❶                            |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 407.0,
+                  "w": 464.0,
+                  "h": 141.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "ethics_artificial_intelligence": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 17,
-            "matching_text": "reviewed various platforms supporting reproducible research in machine learning (ML)"
-          },
-          {
-            "page": 32,
-            "matching_text": "Machine Learning, Artificial Intelligence & Data"
-          }
-        ],
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
+      "ethics_other_issues": {
+        "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 19,
+              "matching_text": "The main challenges revolve around making the code reusable and consolidating data sources. Firstly, the code spans multiple versions of R (from 1.9.1.-2.0.1., the current version is 4.3.2.)",
+              "bounding_boxes": [
+                {
+                  "x": 72.0,
+                  "y": 377.0,
+                  "w": 464.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 28,
+              "matching_text": "<sup>1</sup> Salaries of applicants: please consult your institutional guidelines for eligibility.",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 625.0,
+                  "w": 467.0,
+                  "h": 21.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 31,
+              "matching_text": "> * **DATA SOURCES (0)**",
+              "bounding_boxes": [
+                {
+                  "x": 56.42,
+                  "y": 807.65,
+                  "w": 505.72,
+                  "h": 33.07
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| ETH Domain Open Research Data (ORD)<br/>Explore Calls<br/>Proposal evaluation committee | Ian Guymer<br/>Professor of Civil Engineering<br/>EPSRC Established Career Research Fellow<br/><br/>Mob:...",
+              "bounding_boxes": [
+                {
+                  "x": 49.0,
+                  "y": 142.0,
+                  "w": 161.0,
+                  "h": 36.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 39,
-      "num_document_tokens": 25878,
-      "num_output_tokens": 9059
-    }
+      "num_document_tokens": 25035,
+      "num_output_tokens": 12978
+    },
+    "parse_job_id": "a604d36b-6e8b-47a1-9379-d4425dc7ce68"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  ETHICS EXTRACTION FOCUS:\n  - Systematic Yes/No questions organized by numbered categories\n  - Categories: Human subjects, Personal data, Animals, International activities, Environment, AI\n  - Extract exact Yes/No responses, not explanatory text\n  - Look for \"ETHICAL ISSUES FORM\" section with structured questions\n  ",
+    "use_reasoning": true
   },
-  "job_id": "0264c719-3ff8-49b0-aba3-5abf103d7bf8",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T15:34:00.231784+00:00",
-  "updated_at": "2025-11-11T15:34:56.561769+00:00"
+  "job_id": "e2174345-236d-4f2f-9213-6ff64e4c9524",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T22:19:19.774007+00:00",
+  "updated_at": "2026-01-21T22:21:55.029044+00:00"
 }

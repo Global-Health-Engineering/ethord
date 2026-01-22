@@ -10,15 +10,7 @@
     "main_applicant_laboratory_name": "Environmental Physics Group",
     "main_applicant_postcode": 8092,
     "main_applicant_city": "Zürich",
-    "all_applicants": [
-      {
-        "eth_domain_institution": "ETH Zürich",
-        "function_title": "Dr.",
-        "first_name": "Sarah",
-        "surname": "Paradis",
-        "postcode": 8092
-      }
-    ],
+    "all_applicants": null,
     "project_title": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research",
     "project_acronym": "API-ROGER",
     "project_abstract": "In order to advance our understanding of the carbon cycle, it is essential to evaluate the spatiotemporal variations of carbon between river and marine environments and gain insights into the pathways of carbon transfer from land to ocean. To do this, we need to work jointly with riverine and marine data, accounting for their temporal and spatial distribution. However, each of these systems have different data and metadata reporting strategies that need to be accounted for, which complicates their joint application. Efforts have been made to compile data from each of these systems into independent databases, but no attempt has yet been done to create a joint database of data of both of these systems while accounting for their different metadata. Hence, this project aims to bring together riverine and marine data into one database to easily query the data between both systems through the River to Ocean Geodatabase for Education and Research (ROGER). This database will be displayed in an interactive web-interface that queries riverine and/or marine data depending on the user’s requirements through a REST API. Harnessing the advanced geographical functions of PostgreSQL, the REST API will include functions that allow users to geospatially integrate riverine and marine data. This new database will provide a crucial step forward in the understanding of the carbon cycle along the land-ocean continuum, while ensuring that the data complies with best Open Research Data practices.",
@@ -35,19 +27,19 @@
     "work_packages": [
       {
         "wp_identifier": "WP1",
-        "wp_title": "Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
+        "wp_title": "Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER"
       },
       {
         "wp_identifier": "WP2",
-        "wp_title": "Update and optimize the REST API to securely query the database."
+        "wp_title": "Update and optimize the REST API to securely query the database"
       },
       {
         "wp_identifier": "WP3",
-        "wp_title": "Adapt and improve the web-interface to include the river database."
+        "wp_title": "Adapt and improve the web-interface to include the river database"
       },
       {
         "wp_identifier": "WP4",
-        "wp_title": "Implement the Python and R packages that query the database."
+        "wp_title": "Implement the Python and R packages that query the database"
       }
     ]
   },
@@ -58,444 +50,2236 @@
   },
   "extraction_metadata": {
     "field_metadata": {
+      "project_category": {
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "# Track C: Contribute projects",
+              "bounding_boxes": [
+                {
+                  "x": 69.0,
+                  "y": 130.0,
+                  "w": 284.0,
+                  "h": 79.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "**ETH Domain ORD Program**\n**Contribute Track**",
+              "bounding_boxes": [
+                {
+                  "x": 296.0,
+                  "y": 240.0,
+                  "w": 141.0,
+                  "h": 25.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
+      },
       "main_applicant_institution": {
-        "reasoning": "Both extractions support ETH Zürich as main applicant institution with explicit, direct mentions. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 0,
-            "matching_text": "Table under 'APPLICANT DETAILS' shows 'Which ETH Domain do you belong to? | ETH Zürich'"
-          },
-          {
-            "page": 16,
-            "matching_text": "Multiple references to ETH Zürich as the host and employer institution."
-          }
-        ],
-        "extraction_confidence": 0.9999813374561402,
-        "confidence": 0.9999813374561402
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999147150215936,
+        "confidence": 0.9999147150215936,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Which ETH Domain do you belong to?...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 514.0,
+                  "w": 224.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "ETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 508.0,
+                  "y": 79.0,
+                  "w": 57.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 14,
+              "matching_text": "-------------------------------- | ---------------- |\n| ETH Zürich | EPFL | PSI",
+              "bounding_boxes": [
+                {
+                  "x": 508.0,
+                  "y": 80.0,
+                  "w": 57.0,
+                  "h": 14.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 18,
+              "matching_text": "ETH Zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 508.0,
+                  "y": 79.0,
+                  "w": 58.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 133.0,
+                  "w": 436.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 133.0,
+                  "w": 436.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_function": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Function (Title) | Dr."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 4,
+              "matching_text": "Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 637.0,
+                  "w": 452.0,
+                  "h": 120.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_first_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "First name(s) | Sarah"
-          },
-          {
-            "page": 13,
-            "matching_text": "The applicant, Dr. Sarah Paradis, is committed to the success and maintenance of the database"
-          },
-          {
-            "page": 20,
-            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sarah Paradis | Applicant ID - ORD1000413",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Sarah Paradis, and ETH’s IT Services.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 647.0,
+                  "w": 458.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "With this letter I thereby confirm that Dr. Sarah Paradis will be fully employed for the complete duration of the above-mentioned project in the Environmental Physics Group, headed by me.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 488.0,
+                  "w": 455.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "The first stage of the project will be devoted to the back-end developing of ROGER (**WP1** and **WP2**), which will be achieved between the applicant, Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 647.0,
+                  "w": 458.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_surname": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Surname(s) | Paradis"
-          },
-          {
-            "page": 13,
-            "matching_text": "The applicant, Dr. Sarah Paradis, is committed to the success and maintenance of the database"
-          },
-          {
-            "page": 20,
-            "matching_text": "Dr. Sarah Paradis for an ORD Contribute project at ETH Zurich"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "Sarah Paradis | Applicant ID - ORD1000413",
+              "bounding_boxes": [
+                {
+                  "x": 313.0,
+                  "y": 40.0,
+                  "w": 244.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 16,
+              "matching_text": "Paradis, S., Gies, H, Eglinton, T. The Freshwater Records and Archives of Carbon Transport\n through Anthropocene Landscapes (FRACTAL) database. In preparation.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 317.0,
+                  "w": 453.0,
+                  "h": 32.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "With this letter I thereby confirm that Dr. Sarah Paradis will be fully employed for the complete duration of the above-mentioned project in the Environmental Physics Group, headed by me.",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 488.0,
+                  "w": 455.0,
+                  "h": 26.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "The first stage of the project will be devoted to the back-end developing of ROGER (**WP1** and **WP2**), which will be achieved between the applicant, Dr.",
+              "bounding_boxes": [
+                {
+                  "x": 75.0,
+                  "y": 647.0,
+                  "w": 458.0,
+                  "h": 107.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "main_applicant_laboratory_name": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Laboratory name | Environmental Physics Group"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "| Laboratory name...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 96.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| Environmental Physics Group                         |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 96.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_postcode": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "Postcode / Zipcode | 8092"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 1,
+              "matching_text": "...| 8092                                                |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 537.0,
+                  "w": 96.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "main_applicant_city": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "City | Zürich"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999354624522,
-        "confidence": 0.9999999354624522
-      },
-      "all_applicants": [
-        {
-          "eth_domain_institution": {
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function_title": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Function (Title) | Dr."
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "first_name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "First name(s) | Sarah"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "surname": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Surname(s) | Paradis"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "postcode": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Postcode / Zipcode | 8092"
-              }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "reasoning": "VERBATIM EXTRACTION"
-        }
-      ],
-      "project_category": {
-        "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "ETH-Domain ORD Program - Measure 1 \"Contribute Projects\""
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "ETH zürich EPFL PAUL SCHERRER INSTITUT PSI WSL Empa Materials Science and Technology eawag aquatic research",
+              "bounding_boxes": [
+                {
+                  "x": 508.0,
+                  "y": 79.0,
+                  "w": 57.0,
+                  "h": 15.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_title": {
-        "reasoning": "Both the front matter (p. 2, p. 9) and support letter (p. 20) explicitly use 'Application Programming Interface for the River to Ocean Geodatabase for Education and Research' as the project title; the reference on p. 10, including '(ROGER)', describes the product or outcome of the project, not the formal project title. Therefore, the full API name is used as the project title. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Project title: Application Programming Interface for the River to Ocean Geodatabase for Education and Research"
-          },
-          {
-            "page": 9,
-            "matching_text": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research"
-          },
-          {
-            "page": 20,
-            "matching_text": "project entitled *Application Programming Interface for the River to Ocean Geodatabase for Education and Research*"
-          }
-        ],
-        "parsing_confidence": 0.9999999956974966,
-        "extraction_confidence": 0.9999999956974966,
-        "confidence": 0.9999999956974966
+        "reasoning": "Multiple extractions (pages 0-9 and 16-21) give the full project title, whereas the middle section (pages 9-16) refers primarily to the geodatabase's name. The full, formal project title, encompassing the API for ROGER, appears at the beginning and end, making it the primary title according to extraction strategy.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999935,
+        "confidence": 0.9999999935,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 139.0,
+                  "w": 459.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Sarah Paradis for an ORD Contribute project at ETH Zürich for the project entitled *Application Programming Interface for the River to Ocean Geodatabase for Education and Research*, pending ethical...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 415.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "Application Programming Interface for the River to Ocean Geodatabase for Education and Research",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 139.0,
+                  "w": 459.0,
+                  "h": 30.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 10,
+              "matching_text": "Hence, we propose the creation of the River to Ocean Geodatabase for Education and Research (ROGER) that combines the marine sediment MOSAIC database hosted at ETH, and the nascent river FRACTAL datab...",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 117.0,
+                  "w": 459.0,
+                  "h": 201.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "Sarah Paradis for an ORD Contribute project at ETH Zürich for the project entitled *Application Programming Interface for the River to Ocean Geodatabase for Education and Research*, pending ethical cl...",
+              "bounding_boxes": [
+                {
+                  "x": 67.0,
+                  "y": 415.0,
+                  "w": 456.0,
+                  "h": 54.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "An open-source database for the synthesis of soil radiocarbon data: International Soil Radiocarbon Database (ISRaD) version 1.0.",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 352.0,
+                  "w": 439.0,
+                  "h": 70.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 133.0,
+                  "w": 436.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 15,
+              "matching_text": "Bio-ORACLE v2.0: Extending marine data layers for bioclimatic modelling.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 133.0,
+                  "w": 436.0,
+                  "h": 71.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_acronym": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Acronym of the project: API-ROGER"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 9,
+              "matching_text": "(API-ROGER)",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 187.0,
+                  "w": 71.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "project_abstract": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "In order to advance our understanding of the carbon cycle ... data complies with best Open Research Data practices."
-          }
-        ],
-        "extraction_confidence": 0.9999959015468065,
-        "confidence": 0.9999959015468065
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999914712793095,
+        "confidence": 0.9999914712793095,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "...| In order to advance our understanding of the carbon cycle, it is essential to evaluate the spatiotem...",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 99.0,
+                  "w": 56.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 5,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 230.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "keywords": [
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 257.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...new database will provide a crucial step forward in the understanding of the carbon cycle along the land-ocean continuum, while ensuring that the data complies with best Open Research Data practices.",
+                "bounding_boxes": [
+                  {
+                    "x": 45.0,
+                    "y": 99.0,
+                    "w": 56.0,
+                    "h": 11.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+                "bounding_boxes": [
+                  {
+                    "x": 80.0,
+                    "y": 254.0,
+                    "w": 437.0,
+                    "h": 29.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+                "bounding_boxes": [
+                  {
+                    "x": 80.0,
+                    "y": 254.0,
+                    "w": 437.0,
+                    "h": 29.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 7,
+                "matching_text": "The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC 2.0): understanding the fate of terrigenous organic carbon in surface sediments.",
+                "bounding_boxes": [
+                  {
+                    "x": 80.0,
+                    "y": 254.0,
+                    "w": 437.0,
+                    "h": 29.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "| carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 257.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Specifically, I applied spatial machine learning to understand the environmental conditions that affect the distribution of OC content and composition in the wide and complex East Asian marginal se...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 644.0,
+                    "w": 457.0,
+                    "h": 123.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Specifically, I applied spatial machine learning to understand the environmental conditions that affect the distribution of OC content and composition in the wide and complex East Asian marginal se...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 644.0,
+                    "w": 457.0,
+                    "h": 123.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "Specifically, I applied spatial machine learning to understand the environmental conditions that affect the distribution of OC content and composition in the wide and complex East Asian marginal se...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 644.0,
+                    "w": 457.0,
+                    "h": 123.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "...ild a new user-friendly website that queries the database through a Representational state transfer application programming interface (REST API): www.mosaic.ethz.ch.",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         },
         {
           "reasoning": "VERBATIM EXTRACTION",
-          "citation": [
-            {
-              "page": 2,
-              "matching_text": "carbon cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface"
-            }
-          ],
           "parsing_confidence": 1.0,
           "extraction_confidence": 1.0,
-          "confidence": 1.0
+          "confidence": 1.0,
+          "value__": {
+            "citation": [
+              {
+                "page": 2,
+                "matching_text": "...n cycle, land-ocean continuum, geographical information systems, application programming interface, web-interface...",
+                "bounding_boxes": [
+                  {
+                    "x": 274.0,
+                    "y": 99.0,
+                    "w": 257.0,
+                    "h": 38.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.0,
+                  "height": 842.0
+                }
+              }
+            ]
+          },
+          "parsing_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "extraction_confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          },
+          "confidence__": {
+            "citation": [
+              {
+                "page": 6,
+                "matching_text": "In addition, I have more than quadrupled the spatiotemporal coverage and increased by tenfold the number of variables stored in this database, allowing to better understand the factors that affect...",
+                "bounding_boxes": [
+                  {
+                    "x": 78.0,
+                    "y": 279.0,
+                    "w": 460.0,
+                    "h": 222.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 595.29998779,
+                  "height": 841.90002441
+                }
+              }
+            ]
+          }
         }
       ],
       "start_date": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Table under 'Proposed Starting Date': '1 Jan 2025'"
-          }
-        ],
-        "extraction_confidence": 0.9999999135960062,
-        "confidence": 0.9999999135960062
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999990314893836,
+        "confidence": 0.9999990314893836,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Proposed Starting Date**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 127.0,
+                  "w": 111.0,
+                  "h": 12.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "project_duration_months": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Table under 'Project duration': '12'"
-          }
-        ],
+        "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Project duration**...",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 149.0,
+                  "w": 42.0,
+                  "h": 13.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "Geochemistry of the Earth's surface, [GES-12.",
+              "bounding_boxes": [
+                {
+                  "x": 80.0,
+                  "y": 234.0,
+                  "w": 456.0,
+                  "h": 18.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 7,
+              "matching_text": "0-0002-7035-0538](https://orcid.org/0000-0002-7035-0538)",
+              "bounding_boxes": [
+                {
+                  "x": 308.0,
+                  "y": 819.0,
+                  "w": 231.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            }
+          ]
+        }
       },
       "total_budget_requested": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Table under 'Total requested amount in CHF' on p2: '30000'"
-          },
-          {
-            "page": 18,
-            "matching_text": "Total Costs (A + B)                           |                                     |               | 30'000"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 715.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| **Total requested amount in CHF** | 30000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 715.0,
+                  "w": 148.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1",
+              "bounding_boxes": [
+                {
+                  "x": 533.0,
+                  "y": 770.0,
+                  "w": 3.0,
+                  "h": 7.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.32,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "work_packages": [
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP1** – Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP1** – Merge the river (FRACTAL) and ocean (MOSAIC) databases into ROGER."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9858605833814649,
-            "confidence": 0.9858605833814649
+            "extraction_confidence": 0.9999989371101131,
+            "confidence": 0.9999989371101131
           },
-          "reasoning": "WP1 and its description are listed verbatim."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP2** – Update and optimize the REST API to securely query the database."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP2** – Update and optimize the REST API to securely query the database."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999999823988502,
+            "confidence": 0.9999999823988502
           },
-          "reasoning": "WP2 and its description are listed verbatim."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP3** – Adapt and improve the web-interface to include the river database."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP3** – Adapt and improve the web-interface to include the river database."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999999379303103,
-            "confidence": 0.9999999379303103
+            "extraction_confidence": 0.9999997087892543,
+            "confidence": 0.9999997087892543
           },
-          "reasoning": "WP3 and its description are listed verbatim."
+          "reasoning": "VERBATIM EXTRACTION"
         },
         {
           "wp_identifier": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP4** – Implement the Python and R packages that query the database."
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
             "confidence": 1.0
           },
           "wp_title": {
-            "citation": [
-              {
-                "page": 13,
-                "matching_text": "* **WP4** – Implement the Python and R packages that query the database."
-              }
-            ],
             "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            "extraction_confidence": 0.9999993727002369,
+            "confidence": 0.9999993727002369
           },
-          "reasoning": "WP4 and its description are listed verbatim."
+          "reasoning": "VERBATIM EXTRACTION"
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 21,
-      "num_document_tokens": 11943,
-      "num_output_tokens": 9119
-    }
+      "num_document_tokens": 11876,
+      "num_output_tokens": 5763
+    },
+    "parse_job_id": "449202c3-10e8-4071-87fb-7c10cdc4f38a"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  METADATA EXTRACTION FOCUS:\n  - Project identification: title, acronym, duration, start date\n  - Applicant details: names, institutions, functions, addresses\n  - Project categorization: Explore/Establish/Contribute classification\n  - Keywords and abstract information from research proposal sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "75703852-c240-4eeb-b0f4-ed7fe58ca25f",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T11:22:37.346528+00:00",
-  "updated_at": "2025-11-11T11:24:19.342021+00:00"
+  "job_id": "b78ebad6-a8c9-480c-a544-7893962d6a28",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T19:27:49.043367+00:00",
+  "updated_at": "2026-01-21T19:38:40.921660+00:00"
 }

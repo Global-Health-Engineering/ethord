@@ -7,8 +7,8 @@
     "project_starting_and_end_date": "",
     "main_applicant_responsible_for_project": "Mara Naegelin",
     "function": "",
-    "laboratory_department": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
-    "institution_of_main_applicant": "WSL",
+    "laboratory_department": "",
+    "institution_of_main_applicant": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
     "report": "other",
     "reporting_period": "",
     "coapplicants": [
@@ -47,108 +47,126 @@
     "field_metadata": {
       "project_title": {
         "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9999999745870599,
+        "confidence": 0.9999999745870599,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Towards an Open and FAIR Database for Intra-Annual Tree-Ring Data and Images"
+            "matching_text": "# Towards an Open and FAIR Database for Intra-Annual Tree-Ring Data and Images",
+            "bounding_boxes": [
+              {
+                "x": 179.0,
+                "y": 214.0,
+                "w": 1837.0,
+                "h": 234.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 2384.25,
+              "height": 3370.5
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999999886110207,
-        "confidence": 0.9999999886110207
+        ]
       },
       "explore_call_number": {
         "reasoning": "INSUFFICIENT DATA",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9998753728682221,
+        "confidence": 0.9998753728682221,
         "citation": [
           {
             "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
+            "matching_text": "Eidg. Forschungsanstalt für Wald, Schnee und Landschaft WSL | Naegelin, Trotsiuk, Iosifescu Enescu, von Arx & Fonti | 12.06.2025",
+            "bounding_boxes": [
+              {
+                "x": 736.0,
+                "y": 3320.0,
+                "w": 1505.0,
+                "h": 32.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 2384.25,
+              "height": 3370.5
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.3177247086285495,
-        "confidence": 0.3177247086285495
+        ]
       },
       "project_starting_and_end_date": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "main_applicant_responsible_for_project": {
-        "reasoning": "Name listed first, contact is Mara Naegelin, and in the partners/funding table first (Naegelin, Trotsiuk...).",
+        "reasoning": "Inferred from first author position, contact listing, and order of names with email provided.",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
         "citation": [
           {
             "page": 1,
-            "matching_text": "Mara Naegelin¹"
+            "matching_text": "*   Contact [mara.naegelin@wsl.ch](mailto:mara.Naegelin@wsl.ch)",
+            "bounding_boxes": [
+              {
+                "x": 1255.0,
+                "y": 2645.0,
+                "w": 488.0,
+                "h": 35.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 2384.25,
+              "height": 3370.5
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        ]
       },
       "function": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
       },
       "laboratory_department": {
-        "reasoning": "Affiliation is under the author list.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-          }
-        ],
+        "reasoning": "No department/laboratory beyond WSL is listed",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9999629450451343,
-        "confidence": 0.9999629450451343
+        "extraction_confidence": 0.01,
+        "confidence": 0.01
       },
       "institution_of_main_applicant": {
-        "reasoning": "Affiliated institution acronym shown under author block.",
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 0.9995636201091426,
+        "confidence": 0.9995636201091426,
         "citation": [
           {
             "page": 1,
-            "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+            "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+            "bounding_boxes": [
+              {
+                "x": 179.0,
+                "y": 511.0,
+                "w": 1497.0,
+                "h": 87.0
+              }
+            ],
+            "page_dimensions": {
+              "width": 2384.25,
+              "height": 3370.5
+            }
           }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.6616236230589426,
-        "confidence": 0.6616236230589426
+        ]
       },
       "report": {
-        "reasoning": "No report type like 'Final' or 'Intermediate' is present; this appears to be a summary or info sheet.",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
         "confidence": 1.0
       },
       "reporting_period": {
         "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 1,
-            "matching_text": "INSUFFICIENT DATA"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 0.01,
         "confidence": 0.01
@@ -156,219 +174,269 @@
       "coapplicants": [
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Volodymyr Trotsiuk¹"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "function": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.99999853235266,
+            "confidence": 0.99999853235266,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 1.0,
-            "confidence": 1.0
+            ]
           },
           "roles_and_main_tasks": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-author, inferred as co-applicant; institution from author affiliation; function/roles absent."
+          "reasoning": "Names extracted by exclusion (excluding main applicant). Institution given in author block. No roles/functions given."
         },
         {
           "name": {
+            "parsing_confidence": 1.0,
+            "extraction_confidence": 0.9999968361722622,
+            "confidence": 0.9999968361722622,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "Ionuț Iosifescu Enescu¹"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
-            "parsing_confidence": 1.0,
-            "extraction_confidence": 0.9999990960600557,
-            "confidence": 0.9999990960600557
+            ]
           },
           "function": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "roles_and_main_tasks": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-author, inferred as co-applicant; institution from author affiliation; function/roles absent."
+          "reasoning": "Names extracted by exclusion, institution from author block. No roles/functions given."
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Georg von Arx¹"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "function": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "roles_and_main_tasks": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-author, inferred as co-applicant; institution from author affiliation; function/roles absent."
+          "reasoning": "Names extracted by exclusion, institution from author block. No roles/functions given."
         },
         {
           "name": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "Patrick Fonti¹"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "function": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "function": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
           "institution": {
-            "citation": [
-              {
-                "page": 1,
-                "matching_text": "¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL"
-              }
-            ],
             "parsing_confidence": 1.0,
             "extraction_confidence": 1.0,
-            "confidence": 1.0
-          },
-          "roles_and_main_tasks": {
+            "confidence": 1.0,
             "citation": [
               {
                 "page": 1,
-                "matching_text": "INSUFFICIENT DATA"
+                "matching_text": "Mara Naegelin¹, Volodymyr Trotsiuk¹, Ionuț Iosifescu Enescu¹, Georg von Arx¹, Patrick Fonti¹\n¹Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+                "bounding_boxes": [
+                  {
+                    "x": 179.0,
+                    "y": 511.0,
+                    "w": 1497.0,
+                    "h": 87.0
+                  }
+                ],
+                "page_dimensions": {
+                  "width": 2384.25,
+                  "height": 3370.5
+                }
               }
-            ],
+            ]
+          },
+          "roles_and_main_tasks": {
             "parsing_confidence": 1.0,
             "extraction_confidence": 0.01,
             "confidence": 0.01
           },
-          "reasoning": "Co-author, inferred as co-applicant; institution from author affiliation; function/roles absent."
+          "reasoning": "Names extracted by exclusion, institution from author block. No roles/functions given."
         }
       ]
     },
     "usage": {
       "num_pages_extracted": 1,
-      "num_document_tokens": 1287,
-      "num_output_tokens": 1964
-    }
+      "num_document_tokens": 1331,
+      "num_output_tokens": 1012
+    },
+    "parse_job_id": "9d9976b7-a323-42ab-bb59-6a7c8e4804c7"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  REPORT METADATA FOCUS:\n  - Project identification in \"General information\" table\n  - Report type classification: Final vs Intermediate\n  - Main applicant details and institutional affiliations\n  - Co-applicant information in structured table format\n  - Reporting periods and project dates\n  ",
+    "use_reasoning": true
   },
-  "job_id": "bbd0abfa-aae7-4c1d-8959-d5a267f57db7",
-  "extraction_agent_id": "5e203f76-c00c-4144-b8ea-5a1cb37a2f07",
-  "created_at": "2025-11-11T17:44:07.663123+00:00",
-  "updated_at": "2025-11-11T17:45:05.569568+00:00"
+  "job_id": "8a530649-1dda-4e16-9769-f7d8ddf02526",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-22T02:27:03.940922+00:00",
+  "updated_at": "2026-01-22T02:28:01.385941+00:00"
 }

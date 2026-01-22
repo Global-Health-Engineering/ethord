@@ -2,19 +2,19 @@
   "document_path": "raw/ORD_files/Explore/Skaloud - 2nd call/application/EPFL_SKALOUD.pdf",
   "status": "success",
   "data": {
-    "total_budget_personnel_senior_staff": 0.0,
+    "total_budget_personnel_senior_staff": null,
     "total_budget_personnel_postdocs": 97000.0,
-    "total_budget_personnel_students": 0.0,
+    "total_budget_personnel_students": null,
     "total_budget_personnel_other": 38000.0,
     "total_budget_personnel_total_direct": 135000.0,
     "total_budget_travel": 3000.0,
     "total_budget_equipment": 6000.0,
     "total_budget_other_publication_fees": 2000.0,
     "total_budget_other_conferences_workshops": 4000.0,
-    "total_budget_other_other": 0.0,
+    "total_budget_other_other": null,
     "total_budget_other_total_direct": 6000.0,
     "total_budget_total_direct": 150000.0,
-    "total_budget_subcontracting": 0.0,
+    "total_budget_subcontracting": null,
     "total_budget_total_costs": 150000.0
   },
   "metadata": {
@@ -26,201 +26,369 @@
     "field_metadata": {
       "total_budget_total_costs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 2,
-            "matching_text": "Total requested amount in CHF | 150000"
-          },
-          {
-            "page": 23,
-            "matching_text": "Total Costs in CHF (A + B)      |                            | 150'000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9808302954144736,
-        "confidence": 0.9808302954144736
-      },
-      "total_budget_personnel_senior_staff": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Senior Staff                                     |         |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "value__": {
+          "citation": [
+            {
+              "page": 2,
+              "matching_text": "| Total requested amount in CHF | 150000 |",
+              "bounding_boxes": [
+                {
+                  "x": 45.0,
+                  "y": 607.0,
+                  "w": 149.0,
+                  "h": 11.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 8,
+              "matching_text": "1.  **Project title**",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 149.0,
+                  "w": 78.0,
+                  "h": 10.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 596.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Postdocs                                         | 97'000  | 11 months 100% equivalent"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
-      },
-      "total_budget_personnel_students": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Students                                         |         |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Other                                            | 38'000  | Programmer from ENAC-IT4 Research"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "|                                                                                                                                                                          |...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 701.0,
+                  "h": 272.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "i. Total Direct Costs for Personnel              | 135'000 |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Travel²                                                                                                                                                                                                                                                                   |                                                  | 3'000   |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Equipment³                                                                                                                                                                                                                                                              |                                                  | 6'000   |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 22,
-            "matching_text": "Publications (including Open Access fees), etc.⁴ | 2'000   |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 22,
+              "matching_text": "|                                                                                                                                                                          | Other...",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 130.0,
+                  "w": 701.0,
+                  "h": 272.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "Conferences and workshops⁵ | 4'000   |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9079714619377309,
-        "confidence": 0.9079714619377309
-      },
-      "total_budget_other_other": {
-        "reasoning": "INSUFFICIENT DATA. The relevant row for 'Other Other' is present in the budget section but contains no numerical value, thus the extracted value is set to 0, indicating no funds requested in this category.",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "Other (please specify)⁶    |         |"
-          }
-        ],
-        "parsing_confidence": 1.0,
+        "parsing_confidence": 0.9554637860219718,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "ii. Total Other Direct Costs    |                            | 6'000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9819963060609502,
-        "confidence": 0.9819963060609502
+        "parsing_confidence": 0.9554637860219718,
+        "extraction_confidence": 1.0,
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "A – Total Direct Costs (i + ii) |                            | 150'000"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "extraction_confidence": 0.9982170113858423,
-        "confidence": 0.9982170113858423
+        "parsing_confidence": 0.9554637860219718,
+        "extraction_confidence": 1.0,
+        "confidence": 0.9554637860219718,
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 23,
+              "matching_text": "- 1'200 swiss francs for Riprocess academic licence for 18 months.",
+              "bounding_boxes": [
+                {
+                  "x": 122.0,
+                  "y": 398.0,
+                  "w": 339.0,
+                  "h": 9.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 842.0,
+                "height": 596.0
+              }
+            }
+          ]
+        }
       },
-      "total_budget_subcontracting": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 23,
-            "matching_text": "B – Subcontracting Costs ⁷      |                            |         |"
-          }
-        ],
-        "parsing_confidence": 1.0,
-        "confidence": 1.0
-      }
+      "error": "Input should be a valid number at path (total_budget_personnel_senior_staff)\nInput should be a valid number at path (total_budget_personnel_students)\nInput should be a valid number at path (total_budget_other_other)\nInput should be a valid number at path (total_budget_subcontracting)"
     },
     "usage": {
       "num_pages_extracted": 25,
-      "num_document_tokens": 17604,
-      "num_output_tokens": 3576
-    }
+      "num_document_tokens": 17661,
+      "num_output_tokens": 2128
+    },
+    "parse_job_id": "790600b9-ec13-40cf-b555-41478c7070cb"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "1fd020c7-c6e1-4d1a-a317-00624d93bf93",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:24:08.632066+00:00",
-  "updated_at": "2025-11-11T14:24:58.651277+00:00"
+  "job_id": "1ce6436d-621b-4efa-94a8-179ba78155a0",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:23:54.279110+00:00",
+  "updated_at": "2026-01-21T20:25:56.518752+00:00"
 }

@@ -25,204 +25,2058 @@
   "extraction_metadata": {
     "field_metadata": {
       "total_budget_total_costs": {
-        "reasoning": "All sources explicitly and consistently state the total project budget/total costs as 150,000 CHF. This is present in the main budget table, narrative text, and as a labeled total. Therefore, this is a verbatim extraction.",
-        "citation": [
-          {
-            "page": 3,
-            "matching_text": "Total requested amount in CHF                         | 150000"
-          },
-          {
-            "page": 32,
-            "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project. This is the total cost of the project (including in-kind contributions, if applicable), not the amount of funding the applicants will receive."
-          },
-          {
-            "page": 34,
-            "matching_text": "Total Costs in CHF (A + B)      | 11'870 | 11'870 | 10'430 | 97'800 | 18'030"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "value__": {
+          "citation": [
+            {
+              "page": 3,
+              "matching_text": "| Total requested amount in CHF                         | 150000                                                           |",
+              "bounding_boxes": [
+                {
+                  "x": 44.0,
+                  "y": 730.0,
+                  "w": 197.0,
+                  "h": 39.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.0,
+                "height": 842.0
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "| **1.1 Refinement of Prototype:**<br/>Fine-tune the existing Xcell Hub prototype (v 0.1)                                                                   | PF GvA II |               |         |...",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 375.0,
+                  "w": 458.0,
+                  "h": 301.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "This work attracted attention from dendrochronologists and plant scientists, showcasing the potential for a detailed eco-functional record within intra-ring cell anatomical measurements [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 349.0,
+                  "w": 456.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "...Implementation:**<br/>Systematically assess received feedback.<br/>Implement Xcell Hub revision (v 1.0)                     |           | DS II<br/>DS  | <br/>DS |           |           |...",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 375.0,
+                  "w": 458.0,
+                  "h": 301.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "This work attracted attention from dendrochronologists and plant scientists, showcasing the potential for a detailed eco-functional record within intra-ring cell anatomical measurements [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 349.0,
+                  "w": 456.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "...Implementation:**<br/>Systematically assess received feedback.<br/>Implement Xcell Hub revision (v 1.0)                     |           | DS II<br/>DS  | <br/>DS |           |           |...",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 375.0,
+                  "w": 458.0,
+                  "h": 301.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 6,
+              "matching_text": "This work attracted attention from dendrochronologists and plant scientists, showcasing the potential for a detailed eco-functional record within intra-ring cell anatomical measurements [1].",
+              "bounding_boxes": [
+                {
+                  "x": 78.0,
+                  "y": 349.0,
+                  "w": 456.0,
+                  "h": 80.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 30,
+              "matching_text": "...Implementation:**<br/>Systematically assess received feedback.<br/>Implement Xcell Hub revision (v 1.0)                     |           | DS II<br/>DS  | <br/>DS |           |           |...",
+              "bounding_boxes": [
+                {
+                  "x": 76.0,
+                  "y": 375.0,
+                  "w": 458.0,
+                  "h": 301.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 32,
+              "matching_text": "The overall project budget is limited to **CHF 150’000** for the **total duration** of the project.",
+              "bounding_boxes": [
+                {
+                  "x": 68.0,
+                  "y": 295.0,
+                  "w": 468.0,
+                  "h": 44.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_senior_staff": {
-        "reasoning": "Extracted from the budget table: three separate Senior Staff entries are added to obtain the total. VERBATIM EXTRACTION.",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Senior Staff | 11'870             | 11'870             | 10'430"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 0.999973738334265,
-        "confidence": 0.999973738334265
+        "extraction_confidence": 0.9999946582467483,
+        "confidence": 0.9999946582467483,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_postdocs": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Postdocs |                    |                    |                      | 97'800"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_students": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Students |                    |                    |                      |                          |"
-          }
-        ],
+        "reasoning": "All extracted segments (indices 1, 2, 3, 5; pages 6-37) state 'INSUFFICIENT DATA', with explicit checks for budget tables and lines for Students. One instance observes a 'Students' row with no value. Based on budget extraction focus, if no value is listed in the Students row, the extracted value is 0 (no funds requested for Students).",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_other": {
-        "reasoning": "INSUFFICIENT DATA",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Other |                    |                    |                      |                          |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. All provided excerpts state the 'Other' personnel category either does not exist, is not filled in, or no financial data can be extracted from the source. Per instructions, if no value is present, the output should be null or 0 if the intent is to signal an unclaimed/applicable category in a tabular budget.",
         "parsing_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_personnel_total_direct": {
-        "reasoning": "Verbatim values from 'Total Direct Costs for Personnel' row; sum is 11'870+11'870+10'430+97'800 = 131,970 CHF.",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "Total Direct Costs for Personnel: 11'870 + 11'870 + 10'430 + 97'800 = 131,970 CHF"
-          }
-        ],
-        "extraction_confidence": 0.9999999031936799,
-        "confidence": 0.9999999031936799
+        "reasoning": "VERBATIM EXTRACTION",
+        "parsing_confidence": 1.0,
+        "extraction_confidence": 1.0,
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "scratchpad__": {
+          "citation": [
+            {
+              "page": 33,
+              "matching_text": "|                                                                                                                                                                          | i. Total Direct Costs fo...",
+              "bounding_boxes": [
+                {
+                  "x": 71.0,
+                  "y": 100.0,
+                  "w": 700.0,
+                  "h": 324.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_travel": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 32,
-            "matching_text": "Travel appears in table under Other costs as 5'830 CHF for conferences."
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_equipment": {
-        "reasoning": "INSUFFICIENT DATA: The source contains a row for Equipment, but the corresponding value/amount cell is empty. Interpreted as no equipment budget requested, i.e., 0 CHF.",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Equipment³ |                                                                                 |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_publication_fees": {
-        "reasoning": "INSUFFICIENT DATA. Although a line item for 'Other Publications' is present in the budget table, there is no accompanying numerical CHF value, indicating that no budget was specifically allocated or reported under this heading.",
-        "citation": [
-          {
-            "page": 33,
-            "matching_text": "Other                                                                                      | Publications"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA. All provided excerpts indicate either the absence of any publication fees or explicitly state that no CHF amount is given in budget tables for publication fees. Therefore, no extractable value is present—interpreted as no requested budget for this category.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_conferences_workshops": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 34,
-            "matching_text": "Conferences and workshops5      |        |        |        |        | 12'200"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_other": {
-        "reasoning": "INSUFFICIENT DATA. The budget row for 'Other (please specify)' is empty: no value is specified for this category, so the amount is extracted as 0 CHF.",
-        "citation": [
-          {
-            "page": 34,
-            "matching_text": "Other (please specify)6         |        |        |        |        |"
-          }
-        ],
+        "reasoning": "VERBATIM EXTRACTION. All reviewed sections confirm that the 'Other Other' direct cost line is either not present or has no value populated. Therefore, total CHF is 0.",
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_other_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 34,
-            "matching_text": "ii. Total Other Direct Costs    |        |        |        |        | 18'030"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_total_direct": {
         "reasoning": "VERBATIM EXTRACTION",
-        "citation": [
-          {
-            "page": 34,
-            "matching_text": "A – Total Direct Costs (i + ii) | 11'870 | 11'870 | 10'430 | 97'800 | 18'030"
-          }
-        ],
         "parsing_confidence": 1.0,
         "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "value__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "extraction_confidence__": {
+          "citation": [
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       },
       "total_budget_subcontracting": {
-        "reasoning": "No value is provided for subcontracting costs in the relevant budget table; the row is blank. According to extraction best practices, if a category exists with a blank value this indicates a value of 0.",
-        "citation": [
-          {
-            "page": 34,
-            "matching_text": "B – Subcontracting Costs 7      |        |        |        |        |"
-          }
-        ],
+        "reasoning": "INSUFFICIENT DATA",
         "parsing_confidence": 1.0,
-        "extraction_confidence": 1.0,
-        "confidence": 1.0
+        "confidence": 1.0,
+        "parsing_confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        },
+        "confidence__": {
+          "citation": [
+            {
+              "page": 13,
+              "matching_text": "Page 1/4",
+              "bounding_boxes": [
+                {
+                  "x": 52.0,
+                  "y": 819.0,
+                  "w": 30.0,
+                  "h": 8.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.29998779,
+                "height": 841.90002441
+              }
+            },
+            {
+              "page": 21,
+              "matching_text": "1:** Overview of QWA data and time-series production [for conifers/P.",
+              "bounding_boxes": [
+                {
+                  "x": 74.0,
+                  "y": 576.0,
+                  "w": 458.0,
+                  "h": 145.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 595.2,
+                "height": 841.92
+              }
+            },
+            {
+              "page": 35,
+              "matching_text": "| NN           | Postdoc (data scientist) @ 91300 CHF/year + \\~19% ancillary costs                                                           | 90% \\* 1.0 year = 97'800 CHF | in-cash ETH Board + WSL) |",
+              "bounding_boxes": [
+                {
+                  "x": 70.0,
+                  "y": 262.0,
+                  "w": 700.0,
+                  "h": 144.0
+                }
+              ],
+              "page_dimensions": {
+                "width": 841.92,
+                "height": 595.2
+              }
+            }
+          ]
+        }
       }
     },
     "usage": {
       "num_pages_extracted": 37,
-      "num_document_tokens": 25356,
-      "num_output_tokens": 4438
-    }
+      "num_document_tokens": 25080,
+      "num_output_tokens": 6051
+    },
+    "parse_job_id": "6dac6a7e-70cb-4889-aa13-38185c152452"
   },
   "config": {
-    "priority": null,
-    "extraction_target": "PER_DOC",
-    "extraction_mode": "PREMIUM",
-    "parse_model": "gemini-2.5-pro",
-    "extract_model": "openai-gpt-4-1",
-    "multimodal_fast_mode": false,
-    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
-    "use_reasoning": true,
+    "chunk_mode": "PAGE",
+    "citation_bbox": true,
     "cite_sources": true,
     "confidence_scores": true,
-    "chunk_mode": "PAGE",
+    "extract_model": "openai-gpt-4-1",
+    "extraction_mode": "PREMIUM",
+    "extraction_target": "PER_DOC",
     "high_resolution_mode": true,
     "invalidate_cache": false,
+    "multimodal_fast_mode": false,
     "num_pages_context": null,
-    "page_range": null
+    "page_range": null,
+    "parse_model": "gemini-2.5-pro",
+    "priority": null,
+    "system_prompt": "\n  EXTRACTION STRATEGY:\n  1. PRIMARY: Look for data in the specified location/table/section\n  2. FALLBACK: If not found, search broader document context for semantically equivalent information\n  3. FLEXIBILITY: Allow for format variations, OCR errors, and synonym usage\n\n  LOCATION FLEXIBILITY:\n  - Handle table format variations (column/row order, spacing, naming)\n  - Consider synonyms and equivalent terms\n  - Account for OCR/parsing errors that may affect document quality\n\n  QUALITY STANDARDS:\n  - Extract actual values found in the document\n  - If uncertain, provide best interpretation with appropriate confidence\n  - Only return null if the information category truly doesn't exist\n  - Convert abbreviated amounts (k=1000) to full numbers where applicable\n  \n\n  BUDGET EXTRACTION FOCUS:\n  - Look for \"Total requested amount in CHF\" for main budget figure\n  - Personnel categories: Senior Staff, Postdocs, Students, Other\n  - Cost categories: Travel, Equipment, Publications, Conferences, Subcontracting\n  - Extract numerical CHF values from budget tables\n  - Two-phase projects: separate Phase 1 and Phase 2 budget sections\n  ",
+    "use_reasoning": true
   },
-  "job_id": "5ab1871a-887c-47c7-be40-28bc95dc36e5",
-  "extraction_agent_id": "2789051a-9806-42f4-b986-57da3d904671",
-  "created_at": "2025-11-11T14:26:28.991611+00:00",
-  "updated_at": "2025-11-11T14:28:52.444990+00:00"
+  "job_id": "a2ed4df0-68d4-4dbf-9c88-12009327c204",
+  "extraction_agent_id": "1426fae4-e92a-4aca-b51a-1f002e4ce7da",
+  "created_at": "2026-01-21T20:21:37.489191+00:00",
+  "updated_at": "2026-01-21T20:23:51.969883+00:00"
 }
