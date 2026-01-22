@@ -1,9 +1,9 @@
 # RUN ALL: Execute the complete pipeline
 
 # Load pipeline functions
-source("R/01_transform.R")
-source("R/02_clean.R")
-source("R/03_process.R")
+source("data-raw/01_transform.R")
+source("data-raw/02_clean.R")
+source("data-raw/03_process.R")
 
 # Execute pipeline
 run_pipeline <- function() {
@@ -22,7 +22,7 @@ run_pipeline <- function() {
   final_data <- process_data(data_02)
 
   cat("\nPipeline completed successfully!\n")
-  cat("Final datasets saved to data_raw/\n")
+  cat("Final datasets saved to inst/extdata/\n")
 
   return(final_data)
 }
